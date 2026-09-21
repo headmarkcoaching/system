@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Same brand-blue family as the public marketing site's "Skylight" theme (see
+       .theme-skylight below) so the product reads as one brand from ad to app, not two —
+       just tuned darker/richer here since the dashboard paints this color as solid button
+       fills and active nav states at small sizes, where Skylight's airier, lighter marketing
+       tone would fall short of comfortable text contrast. */
+    --background: 210 45% 97%;
+    --foreground: 215 35% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 35% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 35% 15%;
+
+    --primary: 217 65% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 213 58% 95%;
+    --secondary-foreground: 217 55% 28%;
+
+    --muted: 213 35% 95%;
+    --muted-foreground: 215 18% 42%;
+
+    --accent: 213 52% 92%;
+    --accent-foreground: 217 55% 28%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 152 60% 32%;
+    --success-foreground: 210 40% 98%;
+
+    /* Shifted a touch warmer/further from --cta's 25° hue than the old 32° value, so a
+       warning badge and a CTA button never read as the same color at a glance. */
+    --warning: 38 92% 45%;
+    --warning-foreground: 210 40% 98%;
+
+    --border: 213 32% 88%;
+    --input: 213 32% 88%;
+    --ring: 217 65% 45%;
+
+    --radius: 0.75rem;
+
+    /* The marketing site's reserved CTA accent, brought into the app for the same job: the
+       handful of places a dashboard user is doing the real-world equivalent of the marketing
+       site's "enroll" moment — paying or requesting to pay. Not used for ordinary actions.
+       Lightness tuned to 40%/32% (darker than the original 48%/42%) so white button text
+       clears WCAG AA (4.5:1) against the fill — the original only reached 3.66:1. */
+    --cta: 25 65% 40%;
+    --cta-hover: 25 70% 32%;
+    --cta-foreground: 0 0% 100%;
+    --cta-wash: 25 100% 94%;
+  }
+
+  .dark {
+    --background: 222 42% 9%;
+    --foreground: 210 35% 96%;
+
+    --card: 220 36% 12%;
+    --card-foreground: 210 35% 96%;
+
+    --popover: 220 36% 12%;
+    --popover-foreground: 210 35% 96%;
+
+    --primary: 217 85% 63%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 217 28% 18%;
+    --secondary-foreground: 210 35% 96%;
+
+    --muted: 217 28% 18%;
+    --muted-foreground: 215 18% 65%;
+
+    --accent: 217 28% 21%;
+    --accent-foreground: 210 35% 96%;
+
+    --destructive: 0 63% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 152 55% 45%;
+    --success-foreground: 222 47% 11%;
+
+    --warning: 38 88% 58%;
+    --warning-foreground: 222 47% 11%;
+
+    --border: 217 28% 21%;
+    --input: 217 28% 21%;
+    --ring: 217 85% 63%;
+
+    --cta: 25 75% 58%;
+    --cta-hover: 25 78% 50%;
+    --cta-foreground: 222 30% 10%;
+    --cta-wash: 25 45% 18%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* A single, global icon re-style — not a library swap, which would risk broken/missing icons
+   across the 120+ files that import lucide-react by name. Every lucide icon shares the
+   `.lucide` class on its root <svg>, and its child shapes inherit `fill`/`stroke` from that
+   root rather than setting their own, so these rules retarget every icon in the app — dashboard
+   and marketing alike — from Lucide's default soft, rounded-friendly stroke to a sharper,
+   more deliberate one that matches the brand's "official record" character (the stamp badges,
+   the ledger typography) instead of reading as generic SaaS-template icons. */
+.lucide {
+  stroke-width: 2.75px;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}
+
+/* Icons inside a stamp badge (IconBadge, StatCard, EmptyState) get a genuine duotone treatment
+   — a soft tinted fill under the bold stroke — scoped to these larger, spaced-out contexts only.
+   Applying this globally to every small inline icon (table rows, buttons) risked murky overlaps
+   on icons with multiple close paths at 14–16px; at badge size (20px+) it reads cleanly. */
+.stamp-badge svg {
+  fill: currentColor;
+  fill-opacity: 0.22;
+}
+
+/* Respects a real accessibility preference (vestibular disorders, motion sensitivity) rather
+   than assuming everyone wants every hover-lift and pulse animation this app uses — from the
+   marketing site's live-pulse dot and card hover-lifts to any dashboard transition. Scoped to
+   animation/transition timing only, so layout and hover states themselves still work, just
+   without motion. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Skylight theme, scoped to the public marketing site (Home, Programs, About, Contact, Enroll)
+   only. Redefines the same shadcn token names so every existing bg-, text-, and border- utility
+   class works inside this wrapper without changes, while the dashboard tokens above stay
+   untouched. Blue remains the brand color throughout; the warm peach/orange (--cta) is reserved
+   for calls to action only, so a button never blends into the surrounding brand chrome. */
+.theme-skylight {
+  /* Overrides the dashboard's Lexend for every element using the `font-display` utility —
+     CSS custom properties cascade by DOM position, so this only affects descendants of this
+     wrapper (the marketing site), never the dashboard, which never carries this class. */
+  --font-display: var(--font-marketing-display), Georgia, "Times New Roman", serif;
+
+  --background: 208 60% 97%;
+  --foreground: 215 36% 18%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 215 36% 18%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 36% 18%;
+
+  --primary: 216 51% 53%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 210 60% 94%;
+  --secondary-foreground: 216 51% 30%;
+
+  --muted: 210 45% 94%;
+  --muted-foreground: 215 20% 42%;
+
+  --accent: 210 55% 91%;
+  --accent-foreground: 216 51% 30%;
+
+  --border: 212 46% 88%;
+  --input: 212 46% 88%;
+  --ring: 216 51% 53%;
+
+  /* CTA-only warm accent — never used for brand chrome, only for the action itself.
+     Lightness tuned to 40%/32% so white button text clears WCAG AA (4.5:1); the
+     original 48%/42% only reached 3.66:1. */
+  --cta: 25 65% 40%;
+  --cta-hover: 25 70% 32%;
+  --cta-foreground: 0 0% 100%;
+  --cta-wash: 25 100% 94%;
+}

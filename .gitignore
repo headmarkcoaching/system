@@ -1,0 +1,25 @@
+node_modules
+.next
+out
+build
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+.DS_Store
+*.pem
+.vercel
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Real user-uploaded files (homework, receipts, notes) — actual PII/financial documents,
+# never belongs in version control regardless of repo visibility.
+.uploads
+
+# Claude Code: shared team config stays tracked, but settings.local.json and the scheduler
+# lock are per-machine/per-user state, not project config.
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Scratch output from design iteration, not part of the shipped app.
+Claude outputs/

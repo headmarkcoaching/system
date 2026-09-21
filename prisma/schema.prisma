@@ -1,0 +1,2258 @@
+// Parent-First Online Academy — full data model.
+// Phase 1 models are actively used by the app. Phase 2/3 and "future-ready" models
+// are defined now (per architecture requirements) but have no UI yet — see PHASE_COMPLETION.md.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ==========================================================================
+// ENUMS
+// ==========================================================================
+
+enum RoleKey {
+  SUPER_ADMIN
+  ADMIN
+  TEACHER
+  STUDENT
+  PARENT
+  COUNSELOR
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum StudentStatus {
+  ACTIVE
+  TRIAL
+  PAYMENT_PENDING
+  INACTIVE
+  ALUMNI
+}
+
+enum GroupType {
+  PRE_MEDICAL
+  PRE_ENGINEERING
+  ICS
+  ICOM
+  FA
+  OTHER
+}
+
+enum BatchStatus {
+  UPCOMING
+  ACTIVE
+  COMPLETED
+  ARCHIVED
+}
+
+enum EnrollmentStatus {
+  ACTIVE
+  PENDING
+  COMPLETED
+  CANCELLED
+}
+
+enum DayOfWeek {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
+  SUNDAY
+}
+
+enum MeetingProvider {
+  ZOOM
+  GOOGLE_MEET
+  CUSTOM
+}
+
+enum WhatsAppProviderType {
+  CONSOLE
+  META
+  TWILIO
+}
+
+enum EmailProviderType {
+  CONSOLE
+  SMTP
+}
+
+enum FileStorageProviderType {
+  LOCAL
+  GOOGLE_DRIVE
+}
+
+enum LiveClassStatus {
+  UPCOMING
+  LIVE
+  COMPLETED
+  CANCELLED
+}
+
+enum AttendanceStatus {
+  PRESENT
+  ABSENT
+  LATE
+  EXCUSED
+  PARTIAL
+}
+
+enum HomeworkSubmissionStatus {
+  PENDING
+  SUBMITTED
+  REVIEWED
+  RESUBMISSION_REQUESTED
+}
+
+enum MaterialType {
+  PDF
+  NOTES
+  PAST_PAPER
+  WORKSHEET
+  ASSIGNMENT
+}
+
+enum RelationshipType {
+  FATHER
+  MOTHER
+  GUARDIAN
+  OTHER
+}
+
+// ---- Phase 2 enums (schema-only this phase) ----
+
+enum QuestionType {
+  MCQ
+  SHORT_ANSWER
+  LONG_ANSWER
+  NUMERICAL
+}
+
+enum TestStatus {
+  DRAFT
+  SCHEDULED
+  ACTIVE
+  COMPLETED
+  ARCHIVED
+}
+
+enum PerformanceCategory {
+  EXCELLENT
+  PROGRESSING
+  NEEDS_ATTENTION
+  AT_RISK
+}
+
+enum PaymentMethod {
+  BANK_TRANSFER
+  RAAST
+  EASYPAISA
+  JAZZCASH
+  CASH
+  OTHER
+}
+
+enum PaymentStatus {
+  PAID
+  PARTIALLY_PAID
+  PENDING
+  OVERDUE
+  REJECTED
+}
+
+// ---- Phase 3 enums (schema-only this phase) ----
+
+enum LeadSource {
+  FACEBOOK_ADS
+  INSTAGRAM_ADS
+  WHATSAPP
+  WEBSITE
+  REFERRAL
+  ORGANIC
+  SCHOOL_PARTNERSHIP
+  OTHER
+}
+
+enum LeadStage {
+  NEW
+  CONTACTED
+  ASSESSMENT_BOOKED
+  ASSESSMENT_COMPLETED
+  FREE_TRIAL
+  COUNSELLING
+  PAYMENT_PENDING
+  ENROLLED
+  LOST
+}
+
+enum NotificationType {
+  CLASS_REMINDER
+  HOMEWORK_REMINDER
+  TEST_REMINDER
+  PAYMENT_REMINDER
+  PERFORMANCE_ALERT
+  ANNOUNCEMENT
+  ATTENDANCE_ALERT
+  INACTIVITY_ALERT
+  FOLLOWUP_ALERT
+  SUPPORT_TICKET_UPDATE
+}
+
+enum AnnouncementAudience {
+  ALL_STUDENTS
+  ACADEMIC_LEVEL
+  BATCH
+  PARENTS
+  TEACHERS
+}
+
+enum CommunicationType {
+  CALL
+  WHATSAPP
+  EMAIL
+  SMS
+  IN_PERSON
+  SYSTEM
+}
+
+enum CommunicationStatus {
+  SENT
+  DELIVERED
+  READ
+  FAILED
+}
+
+// ---- Phase 4A enums ----
+
+enum AutomationRuleKey {
+  ATTENDANCE_ABSENCE
+  HOMEWORK_OVERDUE
+  LOW_TEST_SCORE
+  PAYMENT_REMINDER
+  STUDENT_INACTIVITY
+  TRIAL_EXPIRY
+  LEAD_FOLLOWUP
+  CLASS_REMINDER
+  WEEKLY_PARENT_REPORT
+  ENGAGEMENT_RECALC
+  PREDICTIVE_RISK_RECALC
+  ATTENDANCE_AUTO_DETECT
+}
+
+enum AutomationStatus {
+  SUCCESS
+  FAILED
+  SKIPPED
+}
+
+enum MessageTemplateKey {
+  LEAD_WELCOME
+  TRIAL_REMINDER
+  CLASS_REMINDER
+  HOMEWORK_REMINDER
+  TEST_REMINDER
+  PAYMENT_REMINDER
+  ATTENDANCE_ALERT
+  AT_RISK_ALERT
+  WEEKLY_PARENT_REPORT
+  ANNOUNCEMENT
+  REFERRAL_INVITATION
+}
+
+enum WhatsAppStatus {
+  QUEUED
+  SENT
+  DELIVERED
+  READ
+  FAILED
+}
+
+enum EmailStatus {
+  QUEUED
+  SENT
+  FAILED
+}
+
+// ---- Phase 4C enums ----
+
+enum ReferralStatus {
+  INVITED
+  REGISTERED
+  TRIAL
+  ENROLLED
+  REWARDED
+}
+
+enum RewardType {
+  DISCOUNT
+  FREE_MONTH
+  BONUS_CLASS
+  POINTS
+  OTHER
+}
+
+enum SupportCategory {
+  ACADEMIC
+  TECHNICAL
+  PAYMENT
+  ACCOUNT
+  OTHER
+}
+
+enum SupportStatus {
+  OPEN
+  IN_PROGRESS
+  WAITING_FOR_USER
+  RESOLVED
+  CLOSED
+}
+
+enum SupportPriority {
+  LOW
+  MEDIUM
+  HIGH
+  URGENT
+}
+
+enum InterventionStatus {
+  OPEN
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum EngagementStatus {
+  HIGHLY_ENGAGED
+  ENGAGED
+  LOW_ENGAGEMENT
+  INACTIVE
+}
+
+// ---- Phase 3A enums ----
+
+enum KnowledgeDocType {
+  PDF
+  NOTES
+  TEXT
+  STUDY_GUIDE
+  PAST_PAPER
+  TEACHER_CONTENT
+}
+
+enum KnowledgeDocStatus {
+  PENDING_REVIEW
+  APPROVED
+  REJECTED
+}
+
+enum AIInteractionFeature {
+  STUDY_ASSISTANT
+  PERFORMANCE_ANALYSIS
+  STUDY_PLAN
+  PARENT_REPORT_DRAFT
+  TEACHER_ASSISTANT
+  QUESTION_GENERATION
+  INTERVENTION_RECOMMENDATION
+}
+
+// ---- Phase 3C enums ----
+
+enum RiskLevel {
+  LOW
+  MODERATE
+  HIGH
+  CRITICAL
+}
+
+enum AIInteractionStatus {
+  SUCCESS
+  FAILED
+}
+
+// ==========================================================================
+// RBAC
+// ==========================================================================
+
+model Role {
+  id          String   @id @default(cuid())
+  key         RoleKey  @unique
+  name        String
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  users           User[]
+  rolePermissions RolePermission[]
+
+  @@map("roles")
+}
+
+model Permission {
+  id          String   @id @default(cuid())
+  code        String   @unique // e.g. "students.view", "payments.manage"
+  module      String // e.g. "students", "payments" — used to group in the Settings UI
+  description String?
+  createdAt   DateTime @default(now())
+
+  rolePermissions RolePermission[]
+
+  @@map("permissions")
+}
+
+model RolePermission {
+  id           String   @id @default(cuid())
+  roleId       String
+  permissionId String
+  createdAt    DateTime @default(now())
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, permissionId])
+  @@map("role_permissions")
+}
+
+model User {
+  id           String    @id @default(cuid())
+  name         String
+  email        String?   @unique
+  phone        String?   @unique
+  passwordHash String
+  roleId       String
+  roleKey      RoleKey // denormalized for fast/cheap session + query checks
+  avatarUrl    String?
+  isActive     Boolean   @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  role Role @relation(fields: [roleId], references: [id])
+
+  student   Student?
+  teacher   Teacher?
+  parent    Parent?
+  counselor Counselor?
+
+  auditLogs              AuditLog[]         @relation("AuditActor")
+  createdRecords         AuditLog[]         @relation("AuditCreatedBy")
+  notifications          Notification[]
+  studentNotesAuthored   StudentNote[]
+  communicationsSent     CommunicationLog[] @relation("CommunicationStaff")
+  supportTicketsRaised   SupportTicket[]    @relation("TicketRaisedBy")
+  supportTicketsAssigned SupportTicket[]    @relation("TicketAssignedTo")
+  aiInteractions         AIInteraction[]
+
+  // Phase 4A
+  whatsappMessages        WhatsAppMessage[]
+  emailMessages           EmailMessage[]
+  smsMessages             SmsMessage[]
+  communicationPreference CommunicationPreference?
+
+  // Phase 4B
+  analyticsEvents AnalyticsEvent[]
+
+  // Phase 4C
+  supportMessagesAuthored  SupportMessage[]
+  interventionsResponsible Intervention[]   @relation("InterventionResponsible")
+  interventionsCreated     Intervention[]   @relation("InterventionCreatedBy")
+
+  // Phase 3A
+  knowledgeDocumentsUploaded KnowledgeDocument[] @relation("KnowledgeDocUploadedBy")
+  knowledgeDocumentsReviewed KnowledgeDocument[] @relation("KnowledgeDocReviewedBy")
+
+  // Phase 3D
+  goalsCreated StudentGoal[]
+
+  // Phase 3E
+  organizationMemberships OrganizationUser[]
+  apiKeysCreated          ApiKey[]
+  filesUploaded           UploadedFile[]
+
+  // Phase 3F(v)
+  passwordResetTokens PasswordResetToken[]
+
+  @@map("users")
+}
+
+// A user requests a reset (by email or phone); if a matching account has an email on file, a
+// single-use, expiring, hashed token is emailed to them. Only the hash is ever stored — the raw
+// token exists only in the emailed link, same reasoning as never storing a plaintext password.
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+// ==========================================================================
+// PEOPLE
+// ==========================================================================
+
+model Student {
+  id              String        @id @default(cuid())
+  studentCode     String        @unique
+  userId          String?       @unique
+  fullName        String
+  photoUrl        String?
+  dateOfBirth     DateTime?
+  gender          Gender?
+  phone           String?
+  whatsapp        String?
+  email           String?
+  city            String?
+  address         String?
+  academicLevelId String
+  boardId         String?
+  groupId         String?
+  school          String?
+  status          StudentStatus @default(TRIAL)
+  statusChangedAt DateTime?
+  enrollmentDate  DateTime?
+  referralCode    String?       @unique
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  createdById     String?
+
+  user          User?         @relation(fields: [userId], references: [id])
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  board         Board?        @relation(fields: [boardId], references: [id])
+  group         Group?        @relation(fields: [groupId], references: [id])
+
+  parents                 StudentParentRelationship[]
+  batchMemberships        BatchStudent[]
+  enrollments             Enrollment[]
+  attendance              Attendance[]
+  liveClassPresence       LiveClassPresence[]
+  recordingAccessRequests RecordingAccessRequest[]
+  homeworkSubmissions     HomeworkSubmission[]
+  notes                   StudentNote[]
+
+  // Phase 2
+  testAttempts        TestAttempt[]
+  testResults         TestResult[]
+  performanceRecords  StudentPerformance[]
+  participationScores ParticipationScore[]
+  paymentPlans        PaymentPlan[]
+  payments            Payment[]
+
+  // Phase 3
+  parentReports     ParentReport[]
+  communicationLogs CommunicationLog[]
+  originatingLead   Lead?
+
+  // Phase 4A
+  automationLogs AutomationLog[]
+
+  // Phase 4C
+  referredBy            Referral[]            @relation("StudentReferrer")
+  convertedFromReferral Referral?             @relation("ReferralConvertedStudent")
+  points                StudentPoint[]
+  badges                StudentBadge[]
+  interventions         Intervention[]
+  engagementScores      EngagementScore[]
+  predictiveRiskScores  PredictiveRiskScore[]
+
+  // Phase 3D
+  contentProgress ContentProgress[]
+  goals           StudentGoal[]
+
+  // Notes Subscription
+  notesSubscriptions NotesSubscription[]
+
+  @@index([academicLevelId])
+  @@index([status])
+  @@map("students")
+}
+
+model Parent {
+  id           String   @id @default(cuid())
+  userId       String?  @unique
+  fullName     String
+  phone        String
+  whatsapp     String?
+  email        String?
+  city         String?
+  referralCode String?  @unique
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user     User?                       @relation(fields: [userId], references: [id])
+  children StudentParentRelationship[]
+
+  referredBy Referral[] @relation("ParentReferrer")
+
+  @@map("parents")
+}
+
+model StudentParentRelationship {
+  id           String           @id @default(cuid())
+  studentId    String
+  parentId     String
+  relationship RelationshipType
+  isPrimary    Boolean          @default(false)
+  createdAt    DateTime         @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  parent  Parent  @relation(fields: [parentId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, parentId])
+  @@map("student_parent_relationships")
+}
+
+model Teacher {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  fullName        String
+  phone           String?
+  email           String?
+  bio             String?
+  photoUrl        String?
+  qualification   String?
+  experienceYears Int?
+  specialization  String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  batchAssignments BatchTeacher[]
+  timetableEntries Timetable[]
+  liveClasses      LiveClass[]
+
+  @@map("teachers")
+}
+
+model Counselor {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  fullName  String
+  phone     String?
+  email     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id])
+
+  leads  Lead[]
+  trials Trial[]
+
+  @@map("counselors")
+}
+
+// ==========================================================================
+// ACADEMIC STRUCTURE
+// ==========================================================================
+
+model AcademicLevel {
+  id        String   @id @default(cuid())
+  name      String   @unique // Class 8, Class 9, Class 10, 1st Year, 2nd Year
+  sortOrder Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  students           Student[]
+  batches            Batch[]
+  subjects           Subject[]
+  materials          StudyMaterial[]
+  leads              Lead[]
+  announcements      Announcement[]
+  tests              Test[]
+  knowledgeDocuments KnowledgeDocument[]
+
+  @@map("academic_levels")
+}
+
+model Board {
+  id        String   @id @default(cuid())
+  name      String   @unique // Punjab Board, Federal Board, Sindh Board, ...
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  students           Student[]
+  batches            Batch[]
+  leads              Lead[]
+  knowledgeDocuments KnowledgeDocument[]
+
+  @@map("boards")
+}
+
+model Program {
+  id          String   @id @default(cuid())
+  name        String   @unique // e.g. Safe at Home, Total Care Management
+  description String?
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  batches     Batch[]
+  enrollments Enrollment[]
+
+  @@map("programs")
+}
+
+model Group {
+  id        String    @id @default(cuid())
+  name      String    @unique
+  type      GroupType
+  isActive  Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  students           Student[]
+  batches            Batch[]
+  leads              Lead[]
+  knowledgeDocuments KnowledgeDocument[]
+
+  @@map("groups")
+}
+
+model Subject {
+  id              String   @id @default(cuid())
+  name            String
+  academicLevelId String?
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  academicLevel AcademicLevel? @relation(fields: [academicLevelId], references: [id])
+
+  batchSubjects      BatchSubject[]
+  batchTeachers      BatchTeacher[]
+  timetableEntries   Timetable[]
+  liveClasses        LiveClass[]
+  recordings         ClassRecording[]
+  homework           Homework[]
+  materials          StudyMaterial[]
+  tests              Test[]
+  attendance         Attendance[]
+  knowledgeDocuments KnowledgeDocument[]
+  goals              StudentGoal[]
+  notesSubscriptions NotesSubscription[]
+
+  @@unique([name, academicLevelId])
+  @@map("subjects")
+}
+
+// ==========================================================================
+// BATCHES & ENROLLMENT
+// ==========================================================================
+
+model Batch {
+  id                 String      @id @default(cuid())
+  name               String
+  academicLevelId    String
+  boardId            String?
+  groupId            String?
+  programId          String?
+  maxStudents        Int         @default(30)
+  startDate          DateTime
+  endDate            DateTime?
+  status             BatchStatus @default(UPCOMING)
+  leaderboardEnabled Boolean     @default(true)
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+  createdById        String?
+
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  board         Board?        @relation(fields: [boardId], references: [id])
+  group         Group?        @relation(fields: [groupId], references: [id])
+  program       Program?      @relation(fields: [programId], references: [id])
+
+  students            BatchStudent[]
+  teachers            BatchTeacher[]
+  subjects            BatchSubject[]
+  enrollments         Enrollment[]
+  timetableEntries    Timetable[]
+  liveClasses         LiveClass[]
+  recordings          ClassRecording[]
+  homework            Homework[]
+  attendance          Attendance[]
+  announcements       Announcement[]
+  trials              Trial[]
+  tests               Test[]
+  performanceRecords  StudentPerformance[]
+  participationScores ParticipationScore[]
+
+  @@index([status])
+  @@map("batches")
+}
+
+model BatchStudent {
+  id        String   @id @default(cuid())
+  batchId   String
+  studentId String
+  joinedAt  DateTime @default(now())
+
+  batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([batchId, studentId])
+  @@map("batch_students")
+}
+
+model BatchTeacher {
+  id        String   @id @default(cuid())
+  batchId   String
+  teacherId String
+  subjectId String?
+  createdAt DateTime @default(now())
+
+  batch   Batch    @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  teacher Teacher  @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  subject Subject? @relation(fields: [subjectId], references: [id])
+
+  @@unique([batchId, teacherId, subjectId])
+  @@map("batch_teachers")
+}
+
+model BatchSubject {
+  id        String   @id @default(cuid())
+  batchId   String
+  subjectId String
+  createdAt DateTime @default(now())
+
+  batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  subject Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([batchId, subjectId])
+  @@map("batch_subjects")
+}
+
+model Enrollment {
+  id             String           @id @default(cuid())
+  studentId      String
+  batchId        String
+  programId      String?
+  enrollmentDate DateTime         @default(now())
+  status         EnrollmentStatus @default(ACTIVE)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  student Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  batch   Batch    @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  program Program? @relation(fields: [programId], references: [id])
+
+  @@unique([studentId, batchId])
+  @@map("enrollments")
+}
+
+// ==========================================================================
+// SCHEDULING & CONTENT
+// ==========================================================================
+
+model Timetable {
+  id        String    @id @default(cuid())
+  batchId   String
+  subjectId String
+  teacherId String
+  dayOfWeek DayOfWeek
+  startTime String // "HH:mm" 24h
+  endTime   String
+  isActive  Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  subject Subject @relation(fields: [subjectId], references: [id])
+  teacher Teacher @relation(fields: [teacherId], references: [id])
+
+  @@index([batchId, dayOfWeek])
+  @@map("timetables")
+}
+
+model LiveClass {
+  id              String          @id @default(cuid())
+  title           String
+  subjectId       String
+  chapter         String?
+  batchId         String
+  teacherId       String
+  scheduledDate   DateTime
+  startTime       String
+  endTime         String
+  meetingProvider MeetingProvider @default(CUSTOM)
+  meetingLink     String
+  // Set only when meetingProvider is GOOGLE_MEET and the link was auto-created via the Calendar
+  // API — lets a later edit/cancel update or delete the same Calendar event instead of orphaning it.
+  googleEventId   String?
+  status          LiveClassStatus @default(UPCOMING)
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  createdById     String?
+
+  subject Subject @relation(fields: [subjectId], references: [id])
+  batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  teacher Teacher @relation(fields: [teacherId], references: [id])
+
+  attendance Attendance[]
+  recordings ClassRecording[]
+  presence   LiveClassPresence[]
+
+  @@index([batchId, scheduledDate])
+  @@index([status])
+  @@map("live_classes")
+}
+
+model ClassRecording {
+  id            String   @id @default(cuid())
+  title         String
+  liveClassId   String?
+  subjectId     String
+  batchId       String
+  chapter       String?
+  recordingDate DateTime
+  recordingUrl  String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  createdById   String?
+
+  liveClass LiveClass? @relation(fields: [liveClassId], references: [id])
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  batch     Batch      @relation(fields: [batchId], references: [id], onDelete: Cascade)
+
+  accessRequests RecordingAccessRequest[]
+
+  @@map("class_recordings")
+}
+
+// A student's time-boxed unlock of one recording — created only when they request it, and only
+// when eligible (their Attendance for the linked LiveClass was ABSENT/PARTIAL/EXCUSED). A
+// recording with no liveClassId (legacy, uploaded before this was required) has no eligibility
+// signal to check and stays open the old way — see RecordingItem's NOT_LINKED case.
+model RecordingAccessRequest {
+  id          String   @id @default(cuid())
+  recordingId String
+  studentId   String
+  requestedAt DateTime @default(now())
+  expiresAt   DateTime
+
+  recording ClassRecording @relation(fields: [recordingId], references: [id], onDelete: Cascade)
+  student   Student        @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([recordingId, studentId])
+  @@map("recording_access_requests")
+}
+
+model StudyMaterial {
+  id              String       @id @default(cuid())
+  title           String
+  type            MaterialType
+  academicLevelId String
+  subjectId       String
+  chapter         String?
+  // Legacy external link — kept only for material uploaded before the switch to hosted files
+  // below; still opens directly with no view-only/no-download protection, same "isLinked"
+  // legacy-fallback shape ClassRecording already uses. Every new upload sets fileId instead.
+  fileUrl         String?
+  fileId          String?      @unique
+  uploadedById    String?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  subject       Subject       @relation(fields: [subjectId], references: [id])
+  file          UploadedFile? @relation(fields: [fileId], references: [id])
+
+  @@index([academicLevelId, subjectId])
+  @@map("study_materials")
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  CANCELLED
+}
+
+// A parent's opt-in postal-mail subscription for one student's one subject — the academy prints
+// and mails that subject's notes to the delivery address on file once a month's payment clears.
+// One row per (student, subject); NotesSubscriptionPayment holds the month-by-month billing and
+// shipment record against it.
+model NotesSubscription {
+  id              String             @id @default(cuid())
+  studentId       String
+  subjectId       String
+  status          SubscriptionStatus @default(ACTIVE)
+  // Snapshot at subscribe time — the price list can change later without rewriting history.
+  pricePerMonth   Decimal            @db.Decimal(10, 2)
+  deliveryName    String
+  deliveryAddress String
+  deliveryCity    String
+  deliveryPhone   String
+  subscribedAt    DateTime           @default(now())
+  cancelledAt     DateTime?
+  createdById     String?
+
+  student  Student                    @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subject  Subject                    @relation(fields: [subjectId], references: [id])
+  payments NotesSubscriptionPayment[]
+
+  @@unique([studentId, subjectId])
+  @@map("notes_subscriptions")
+}
+
+// One row per billing month for a subscription — mirrors Payment's own PENDING->PAID/REJECTED
+// self-reported-then-staff-verified shape exactly, plus the two fields tuition payments don't
+// need: which month this covers, and whether the academy has actually mailed it yet.
+model NotesSubscriptionPayment {
+  id              String         @id @default(cuid())
+  subscriptionId  String
+  monthLabel      String
+  amount          Decimal        @db.Decimal(10, 2)
+  method          PaymentMethod?
+  referenceNumber String?
+  receiptFileId   String?
+  status          PaymentStatus  @default(PENDING)
+  submittedAt     DateTime       @default(now())
+  verifiedAt      DateTime?
+  verifiedById    String?
+  shippedAt       DateTime?
+  trackingNote    String?
+  createdAt       DateTime       @default(now())
+
+  subscription NotesSubscription @relation(fields: [subscriptionId], references: [id], onDelete: Cascade)
+  receiptFile  UploadedFile?     @relation(fields: [receiptFileId], references: [id])
+
+  @@unique([subscriptionId, monthLabel])
+  @@map("notes_subscription_payments")
+}
+
+// ==========================================================================
+// TRACKING
+// ==========================================================================
+
+model Attendance {
+  id             String           @id @default(cuid())
+  studentId      String
+  liveClassId    String
+  batchId        String
+  subjectId      String
+  date           DateTime
+  status         AttendanceStatus
+  markedById     String?
+  // True only for a record the free tab-heartbeat estimate created — never a teacher's own
+  // mark. A teacher re-marking the same class always flips this back to false, since a human
+  // judgment call should never be shown as "just an estimate" after they've reviewed it.
+  isAutoDetected Boolean          @default(false)
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  student   Student   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  liveClass LiveClass @relation(fields: [liveClassId], references: [id], onDelete: Cascade)
+  batch     Batch     @relation(fields: [batchId], references: [id])
+  subject   Subject   @relation(fields: [subjectId], references: [id])
+
+  @@unique([studentId, liveClassId])
+  @@index([studentId])
+  @@index([batchId])
+  @@map("attendance")
+}
+
+// Free automated-attendance estimate: accumulates how many seconds a student's browser tab
+// stayed open and pinging while a specific live class was in its scheduled window, after they
+// clicked "Join Class". This is a proxy for presence (keeping our tab open), not proof of
+// actually watching the external Zoom/Meet call — see the attendance-auto-detect job, which
+// turns this into a real Attendance row (Present/Partial/Absent) once the class ends, and never
+// overwrites a row a teacher already marked by hand.
+model LiveClassPresence {
+  id            String   @id @default(cuid())
+  liveClassId   String
+  studentId     String
+  activeSeconds Int      @default(0)
+  lastPingAt    DateTime @default(now())
+  createdAt     DateTime @default(now())
+
+  liveClass LiveClass @relation(fields: [liveClassId], references: [id], onDelete: Cascade)
+  student   Student   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([liveClassId, studentId])
+  @@map("live_class_presence")
+}
+
+model Homework {
+  id            String   @id @default(cuid())
+  title         String
+  description   String
+  subjectId     String
+  chapter       String?
+  batchId       String
+  dueDate       DateTime
+  maxMarks      Int?
+  attachmentUrl String?
+  createdById   String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  subject Subject @relation(fields: [subjectId], references: [id])
+  batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
+
+  submissions HomeworkSubmission[]
+
+  @@index([batchId])
+  @@map("homework")
+}
+
+model HomeworkSubmission {
+  id               String                   @id @default(cuid())
+  homeworkId       String
+  studentId        String
+  status           HomeworkSubmissionStatus @default(PENDING)
+  submittedAt      DateTime?
+  attachmentUrl    String?
+  attachmentFileId String?
+  studentComments  String?
+  marksObtained    Int?
+  teacherFeedback  String?
+  reviewedAt       DateTime?
+  reviewedById     String?
+  createdAt        DateTime                 @default(now())
+  updatedAt        DateTime                 @updatedAt
+
+  homework       Homework      @relation(fields: [homeworkId], references: [id], onDelete: Cascade)
+  student        Student       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  attachmentFile UploadedFile? @relation(fields: [attachmentFileId], references: [id])
+
+  @@unique([homeworkId, studentId])
+  @@map("homework_submissions")
+}
+
+model StudentNote {
+  id        String   @id @default(cuid())
+  studentId String
+  note      String
+  authorId  String
+  createdAt DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  author  User    @relation(fields: [authorId], references: [id])
+
+  @@map("student_notes")
+}
+
+// ==========================================================================
+// AUDIT
+// ==========================================================================
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  actorId     String?
+  action      String // CREATE | UPDATE | DELETE | LOGIN | ...
+  entityType  String
+  entityId    String?
+  before      Json?
+  after       Json?
+  createdAt   DateTime @default(now())
+  createdById String?
+
+  actor     User? @relation("AuditActor", fields: [actorId], references: [id])
+  createdBy User? @relation("AuditCreatedBy", fields: [createdById], references: [id])
+
+  @@index([entityType, entityId])
+  @@index([actorId])
+  @@map("audit_logs")
+}
+
+// ==========================================================================
+// PHASE 2 — Tests, Performance, Payments (schema only this phase)
+// ==========================================================================
+
+model Test {
+  id              String     @id @default(cuid())
+  name            String
+  academicLevelId String
+  subjectId       String
+  chapter         String?
+  batchId         String
+  totalMarks      Int
+  passingMarks    Int
+  durationMinutes Int
+  startDate       DateTime
+  endDate         DateTime
+  status          TestStatus @default(DRAFT)
+  createdById     String?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  subject       Subject       @relation(fields: [subjectId], references: [id])
+  batch         Batch         @relation(fields: [batchId], references: [id])
+
+  questions TestQuestion[]
+  attempts  TestAttempt[]
+  results   TestResult[]
+
+  @@index([batchId])
+  @@index([status])
+  @@map("tests")
+}
+
+model TestQuestion {
+  id            String       @id @default(cuid())
+  testId        String
+  type          QuestionType
+  questionText  String
+  options       Json?
+  correctAnswer String?
+  marks         Int
+  order         Int          @default(0)
+  topic         String?
+
+  test Test @relation(fields: [testId], references: [id], onDelete: Cascade)
+
+  @@map("test_questions")
+}
+
+model TestAttempt {
+  id          String    @id @default(cuid())
+  testId      String
+  studentId   String
+  startedAt   DateTime  @default(now())
+  submittedAt DateTime?
+  answers     Json?
+  createdAt   DateTime  @default(now())
+
+  test    Test        @relation(fields: [testId], references: [id], onDelete: Cascade)
+  student Student     @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  result  TestResult?
+
+  @@unique([testId, studentId])
+  @@map("test_attempts")
+}
+
+model TestResult {
+  id            String    @id @default(cuid())
+  testId        String
+  studentId     String
+  attemptId     String?   @unique
+  marksObtained Int
+  totalMarks    Int
+  gradedById    String?
+  gradedAt      DateTime?
+  createdAt     DateTime  @default(now())
+
+  test    Test         @relation(fields: [testId], references: [id], onDelete: Cascade)
+  student Student      @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  attempt TestAttempt? @relation(fields: [attemptId], references: [id])
+
+  @@unique([testId, studentId])
+  @@map("test_results")
+}
+
+model StudentPerformance {
+  id                 String              @id @default(cuid())
+  studentId          String
+  batchId            String?
+  periodStart        DateTime
+  periodEnd          DateTime
+  attendanceScore    Float
+  homeworkScore      Float
+  testScore          Float
+  participationScore Float
+  overallScore       Float
+  category           PerformanceCategory
+  calculatedAt       DateTime            @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  batch   Batch?  @relation(fields: [batchId], references: [id])
+
+  @@index([studentId])
+  @@index([category])
+  @@map("student_performance")
+}
+
+model PaymentPlan {
+  id        String   @id @default(cuid())
+  studentId String
+  totalFee  Decimal  @db.Decimal(12, 2)
+  currency  String   @default("PKR")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  student      Student       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  installments Installment[]
+  payments     Payment[]
+
+  @@map("payment_plans")
+}
+
+model Installment {
+  id                String        @id @default(cuid())
+  paymentPlanId     String
+  installmentNumber Int
+  amount            Decimal       @db.Decimal(12, 2)
+  dueDate           DateTime
+  status            PaymentStatus @default(PENDING)
+  paidAt            DateTime?
+
+  paymentPlan PaymentPlan @relation(fields: [paymentPlanId], references: [id], onDelete: Cascade)
+  payments    Payment[]
+
+  @@unique([paymentPlanId, installmentNumber])
+  @@map("installments")
+}
+
+model Payment {
+  id              String        @id @default(cuid())
+  paymentPlanId   String
+  studentId       String
+  installmentId   String?
+  amount          Decimal       @db.Decimal(12, 2)
+  method          PaymentMethod
+  status          PaymentStatus @default(PENDING)
+  paidAt          DateTime?
+  referenceNumber String?
+  recordedById    String?
+  // Parent-submitted payments (bank/JazzCash/Easypaisa + receipt) — auto-accepted on submission
+  // per product decision, so this flag is the audit trail distinguishing a self-reported payment
+  // from one a staff member actually recorded, since there's no review step to gate on.
+  isSelfReported  Boolean       @default(false)
+  receiptFileId   String?
+  createdAt       DateTime      @default(now())
+
+  paymentPlan PaymentPlan   @relation(fields: [paymentPlanId], references: [id], onDelete: Cascade)
+  student     Student       @relation(fields: [studentId], references: [id])
+  installment Installment?  @relation(fields: [installmentId], references: [id])
+  receiptFile UploadedFile? @relation(fields: [receiptFileId], references: [id])
+
+  @@index([installmentId])
+  @@map("payments")
+}
+
+model ParticipationScore {
+  id           String   @id @default(cuid())
+  studentId    String
+  batchId      String
+  periodStart  DateTime
+  periodEnd    DateTime
+  score        Float // 0-100
+  note         String?
+  recordedById String
+  createdAt    DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  batch   Batch   @relation(fields: [batchId], references: [id])
+
+  @@index([studentId])
+  @@map("participation_scores")
+}
+
+model PerformanceConfig {
+  id                      String   @id @default(cuid())
+  attendanceWeight        Int      @default(20)
+  homeworkWeight          Int      @default(20)
+  testWeight              Int      @default(40)
+  participationWeight     Int      @default(20)
+  excellentThreshold      Int      @default(85)
+  progressingThreshold    Int      @default(70)
+  needsAttentionThreshold Int      @default(50)
+  atRiskAttendanceBelow   Int      @default(60)
+  atRiskHomeworkBelow     Int      @default(50)
+  atRiskTestBelow         Int      @default(40)
+  updatedAt               DateTime @updatedAt
+  updatedById             String?
+
+  @@map("performance_config")
+}
+
+// ==========================================================================
+// PHASE 3 — Leads CRM, Announcements, Reports (schema only this phase)
+// ==========================================================================
+
+model Lead {
+  id                  String     @id @default(cuid())
+  studentName         String
+  parentName          String
+  parentPhone         String
+  whatsapp            String?
+  academicLevelId     String?
+  boardId             String?
+  groupId             String?
+  weakSubjects        String[]
+  source              LeadSource
+  campaign            String?
+  assignedCounselorId String?
+  stage               LeadStage  @default(NEW)
+  notes               String?
+  convertedStudentId  String?    @unique
+  createdAt           DateTime   @default(now())
+  updatedAt           DateTime   @updatedAt
+
+  academicLevel     AcademicLevel? @relation(fields: [academicLevelId], references: [id])
+  board             Board?         @relation(fields: [boardId], references: [id])
+  group             Group?         @relation(fields: [groupId], references: [id])
+  assignedCounselor Counselor?     @relation(fields: [assignedCounselorId], references: [id])
+  convertedStudent  Student?       @relation(fields: [convertedStudentId], references: [id])
+
+  activities  LeadActivity[]
+  followups   LeadFollowup[]
+  assessments Assessment[]
+  trials      Trial[]
+
+  // Phase 4A
+  automationLogs AutomationLog[]
+
+  // Phase 4C
+  originatingReferral Referral?
+
+  @@index([stage])
+  @@map("leads")
+}
+
+model LeadActivity {
+  id          String   @id @default(cuid())
+  leadId      String
+  type        String
+  description String
+  createdById String?
+  createdAt   DateTime @default(now())
+
+  lead Lead @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@map("lead_activities")
+}
+
+model LeadFollowup {
+  id          String    @id @default(cuid())
+  leadId      String
+  dueDate     DateTime
+  notes       String?
+  completed   Boolean   @default(false)
+  completedAt DateTime?
+  createdAt   DateTime  @default(now())
+
+  lead Lead @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@map("lead_followups")
+}
+
+model Assessment {
+  id                 String   @id @default(cuid())
+  leadId             String
+  subjectScores      Json?
+  overallScore       Float?
+  weakSubjects       String[]
+  recommendedProgram String?
+  // The assessment is always conducted outside the app (call, in-person, paper test) — this is
+  // the uploaded evidence of it (scanned paper, photo, PDF), not a file the app generates itself.
+  documentFileId     String?
+  conductedAt        DateTime @default(now())
+  createdAt          DateTime @default(now())
+
+  lead Lead @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@map("assessments")
+}
+
+model Trial {
+  id               String   @id @default(cuid())
+  leadId           String
+  batchId          String?
+  startDate        DateTime
+  endDate          DateTime
+  classesAttended  Int      @default(0)
+  engagementNotes  String?
+  counselorId      String?
+  enrollmentStatus String   @default("IN_PROGRESS")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  lead      Lead       @relation(fields: [leadId], references: [id], onDelete: Cascade)
+  batch     Batch?     @relation(fields: [batchId], references: [id])
+  counselor Counselor? @relation(fields: [counselorId], references: [id])
+
+  @@map("trials")
+}
+
+model Announcement {
+  id              String               @id @default(cuid())
+  title           String
+  message         String
+  audience        AnnouncementAudience
+  academicLevelId String?
+  batchId         String?
+  createdById     String?
+  publishedAt     DateTime             @default(now())
+  createdAt       DateTime             @default(now())
+
+  academicLevel AcademicLevel? @relation(fields: [academicLevelId], references: [id])
+  batch         Batch?         @relation(fields: [batchId], references: [id])
+
+  @@map("announcements")
+}
+
+model Notification {
+  id                String           @id @default(cuid())
+  userId            String
+  type              NotificationType
+  title             String
+  message           String
+  isRead            Boolean          @default(false)
+  relatedEntityType String?
+  relatedEntityId   String?
+  createdAt         DateTime         @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+  @@map("notifications")
+}
+
+model ParentReport {
+  id                        String    @id @default(cuid())
+  studentId                 String
+  periodStart               DateTime
+  periodEnd                 DateTime
+  attendancePercent         Float
+  classesAttended           Int
+  homeworkCompletionPercent Float
+  overallScore              Float?
+  teacherFeedback           String?
+  weakAreas                 String?
+  nextWeekGoal              String?
+  generatedAt               DateTime  @default(now())
+  sentAt                    DateTime?
+  aiDrafted                 Boolean   @default(false)
+  approvedAt                DateTime?
+  approvedById              String?
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@map("parent_reports")
+}
+
+model CommunicationLog {
+  id             String              @id @default(cuid())
+  type           CommunicationType
+  recipientName  String?
+  studentId      String?
+  subject        String?
+  messageSummary String
+  staffId        String
+  status         CommunicationStatus @default(SENT)
+  createdAt      DateTime            @default(now())
+
+  staff   User     @relation("CommunicationStaff", fields: [staffId], references: [id])
+  student Student? @relation(fields: [studentId], references: [id])
+
+  @@index([studentId])
+  @@map("communication_logs")
+}
+
+// ==========================================================================
+// PHASE 4A — Automation Engine, WhatsApp Architecture, Communication Center
+// ==========================================================================
+
+model AutomationRule {
+  id          String            @id @default(cuid())
+  key         AutomationRuleKey @unique
+  name        String
+  description String?
+  isActive    Boolean           @default(true)
+  config      Json
+  updatedAt   DateTime          @updatedAt
+  updatedById String?
+
+  @@map("automation_rules")
+}
+
+model AutomationLog {
+  id          String            @id @default(cuid())
+  ruleKey     AutomationRuleKey
+  studentId   String?
+  leadId      String?
+  action      String
+  status      AutomationStatus  @default(SUCCESS)
+  details     Json?
+  triggeredAt DateTime          @default(now())
+
+  student Student? @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  lead    Lead?    @relation(fields: [leadId], references: [id], onDelete: Cascade)
+
+  @@index([ruleKey])
+  @@index([studentId])
+  @@index([leadId])
+  @@map("automation_logs")
+}
+
+model MessageTemplate {
+  id                   String             @id @default(cuid())
+  key                  MessageTemplateKey @unique
+  name                 String
+  body                 String
+  isActive             Boolean            @default(true)
+  // Nullable: a rule only sends email once staff fill these in — same convention as WhatsApp's
+  // isActive gate, but per-channel, since not every academy wants every rule on every channel.
+  emailSubject         String?
+  emailBody            String?
+  // Meta WhatsApp Cloud API requires a pre-approved template name for any business-initiated
+  // message sent outside a customer's 24h session window — plain body text alone gets rejected.
+  // Set once the template is approved in Meta Business Manager; leave null to keep sending as
+  // freeform text (fine for testing or session-window replies, but Meta will reject it otherwise).
+  metaTemplateName     String?
+  metaTemplateLanguage String             @default("en")
+  updatedAt            DateTime           @updatedAt
+  updatedById          String?
+
+  whatsappMessages WhatsAppMessage[]
+  emailMessages    EmailMessage[]
+
+  @@map("message_templates")
+}
+
+model WhatsAppMessage {
+  id                String              @id @default(cuid())
+  recipientPhone    String
+  recipientUserId   String?
+  templateKey       MessageTemplateKey?
+  relatedEntityType String?
+  relatedEntityId   String?
+  body              String
+  // The raw values `body` was rendered from — kept so a Meta template send can be rebuilt as
+  // positional {{1}}, {{2}}... parameters at send time without re-deriving them from callers.
+  variables         Json?
+  status            WhatsAppStatus      @default(QUEUED)
+  providerMessageId String?
+  sentAt            DateTime?
+  deliveredAt       DateTime?
+  readAt            DateTime?
+  failedReason      String?
+  createdAt         DateTime            @default(now())
+
+  recipientUser User?            @relation(fields: [recipientUserId], references: [id])
+  template      MessageTemplate? @relation(fields: [templateKey], references: [key])
+
+  @@index([status])
+  @@index([recipientUserId])
+  @@map("whatsapp_messages")
+}
+
+model EmailMessage {
+  id                String              @id @default(cuid())
+  recipientEmail    String
+  recipientUserId   String?
+  templateKey       MessageTemplateKey?
+  relatedEntityType String?
+  relatedEntityId   String?
+  subject           String
+  body              String
+  status            EmailStatus         @default(QUEUED)
+  providerMessageId String?
+  sentAt            DateTime?
+  failedReason      String?
+  createdAt         DateTime            @default(now())
+
+  recipientUser User?            @relation(fields: [recipientUserId], references: [id])
+  template      MessageTemplate? @relation(fields: [templateKey], references: [key])
+
+  @@index([status])
+  @@index([recipientUserId])
+  @@map("email_messages")
+}
+
+// Manual-send only (no automation rule drives this, and no MessageTemplate.smsBody field exists
+// to template against) — a staff-composed campaign body, sent through a console-only provider
+// since no real SMS provider is configured anywhere in this app yet.
+model SmsMessage {
+  id                String      @id @default(cuid())
+  recipientPhone    String
+  recipientUserId   String?
+  relatedEntityType String?
+  relatedEntityId   String?
+  body              String
+  status            EmailStatus @default(QUEUED)
+  providerMessageId String?
+  sentAt            DateTime?
+  failedReason      String?
+  createdAt         DateTime    @default(now())
+
+  recipientUser User? @relation(fields: [recipientUserId], references: [id])
+
+  @@index([status])
+  @@index([recipientUserId])
+  @@map("sms_messages")
+}
+
+// Single-row settings table (see AIUsageConfig/PerformanceConfig for the same "singleton"
+// pattern) letting the Super Admin manage every external integration's live credentials from
+// the UI instead of editing .env and redeploying. Secret-bearing fields (marked below) are
+// encrypted at rest via src/lib/crypto.ts, keyed off AUTH_SECRET — a DB dump alone doesn't leak
+// a live WhatsApp/SMTP/Google credential. Every provider factory (whatsapp/email/googlemeet/
+// storage) checks this row first and falls back to the equivalent env var when a field is
+// unset, so an existing .env-only deployment keeps working unchanged.
+model IntegrationSettings {
+  id String @id @default("singleton")
+
+  whatsappProvider    WhatsAppProviderType @default(CONSOLE)
+  metaWhatsappToken   String? // encrypted
+  metaWhatsappPhoneId String?
+  twilioAccountSid    String?
+  twilioAuthToken     String? // encrypted
+  twilioWhatsappFrom  String?
+
+  emailProvider EmailProviderType @default(CONSOLE)
+  smtpHost      String?
+  smtpPort      Int?
+  smtpUser      String?
+  smtpPassword  String? // encrypted
+  smtpFrom      String?
+
+  // One Google OAuth connection powers both Google Meet (Calendar API) and Google Drive
+  // storage — a real academy uses one Google account for both, and it halves the OAuth
+  // consent/setup work vs. connecting each separately.
+  googleClientId       String?
+  googleClientSecret   String? // encrypted
+  googleRefreshToken   String? // encrypted
+  googleConnectedEmail String?
+  googleCalendarId     String?
+  googleConnectedAt    DateTime?
+
+  fileStorageProvider FileStorageProviderType @default(LOCAL)
+
+  updatedAt   DateTime @updatedAt
+  updatedById String?
+
+  @@map("integration_settings")
+}
+
+model CommunicationPreference {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  whatsappEnabled Boolean  @default(true)
+  emailEnabled    Boolean  @default(true)
+  smsEnabled      Boolean  @default(false)
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("communication_preferences")
+}
+
+// ==========================================================================
+// PHASE 4B — Advanced Analytics
+// ==========================================================================
+
+model AnalyticsEvent {
+  id         String   @id @default(cuid())
+  userId     String?
+  eventType  String
+  entityType String?
+  entityId   String?
+  metadata   Json?
+  createdAt  DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([eventType])
+  @@index([createdAt])
+  @@map("analytics_events")
+}
+
+// ==========================================================================
+// PHASE 4C — Gamification, Referrals, Support, Engagement & Interventions
+// ==========================================================================
+
+model Referral {
+  id                 String         @id @default(cuid())
+  referrerStudentId  String?
+  referrerParentId   String?
+  referralCode       String
+  referredName       String
+  referredPhone      String?
+  status             ReferralStatus @default(INVITED)
+  convertedLeadId    String?        @unique
+  convertedStudentId String?        @unique
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+
+  referrerStudent  Student? @relation("StudentReferrer", fields: [referrerStudentId], references: [id])
+  referrerParent   Parent?  @relation("ParentReferrer", fields: [referrerParentId], references: [id])
+  convertedLead    Lead?    @relation(fields: [convertedLeadId], references: [id])
+  convertedStudent Student? @relation("ReferralConvertedStudent", fields: [convertedStudentId], references: [id])
+
+  rewards ReferralReward[]
+
+  @@index([referralCode])
+  @@map("referrals")
+}
+
+model ReferralReward {
+  id          String     @id @default(cuid())
+  referralId  String
+  rewardType  RewardType
+  description String?
+  value       Decimal?   @db.Decimal(10, 2)
+  grantedAt   DateTime   @default(now())
+  grantedById String?
+
+  referral Referral @relation(fields: [referralId], references: [id], onDelete: Cascade)
+
+  @@map("referral_rewards")
+}
+
+model Badge {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  iconUrl     String?
+  criteria    Json?
+  createdAt   DateTime @default(now())
+
+  studentBadges StudentBadge[]
+
+  @@map("badges")
+}
+
+model StudentBadge {
+  id        String   @id @default(cuid())
+  studentId String
+  badgeId   String
+  awardedAt DateTime @default(now())
+  note      String?
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  badge   Badge   @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, badgeId])
+  @@map("student_badges")
+}
+
+model StudentPoint {
+  id        String   @id @default(cuid())
+  studentId String
+  points    Int
+  reason    String?
+  source    String?
+  awardedAt DateTime @default(now())
+  createdAt DateTime @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId])
+  @@map("student_points")
+}
+
+model PointsConfig {
+  id                        String   @id @default(cuid())
+  pointsForAttendance       Int      @default(5)
+  pointsForPerfectWeek      Int      @default(20)
+  pointsForHomeworkSubmit   Int      @default(5)
+  pointsForHomeworkReviewed Int      @default(10)
+  pointsForHighTestScore    Int      @default(25)
+  highTestScoreThreshold    Int      @default(80)
+  pointsForParticipation    Int      @default(5)
+  pointsForStudyStreak      Int      @default(15)
+  studyStreakDays           Int      @default(7)
+  updatedAt                 DateTime @updatedAt
+  updatedById               String?
+
+  @@map("points_config")
+}
+
+model SupportTicket {
+  id               String          @id @default(cuid())
+  raisedById       String
+  category         SupportCategory @default(OTHER)
+  subject          String
+  description      String
+  attachmentUrl    String?
+  attachmentFileId String?
+  status           SupportStatus   @default(OPEN)
+  priority         SupportPriority @default(MEDIUM)
+  assignedToId     String?
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+
+  raisedBy       User          @relation("TicketRaisedBy", fields: [raisedById], references: [id])
+  assignedTo     User?         @relation("TicketAssignedTo", fields: [assignedToId], references: [id])
+  attachmentFile UploadedFile? @relation(fields: [attachmentFileId], references: [id])
+
+  messages SupportMessage[]
+
+  @@index([status])
+  @@map("support_tickets")
+}
+
+model SupportMessage {
+  id            String   @id @default(cuid())
+  ticketId      String
+  authorId      String
+  message       String
+  attachmentUrl String?
+  createdAt     DateTime @default(now())
+
+  ticket SupportTicket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  author User          @relation(fields: [authorId], references: [id])
+
+  @@map("support_messages")
+}
+
+model Intervention {
+  id                 String             @id @default(cuid())
+  studentId          String
+  reason             String
+  actionPlan         String
+  responsibleStaffId String
+  startDate          DateTime
+  reviewDate         DateTime
+  status             InterventionStatus @default(OPEN)
+  createdById        String
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+
+  student          Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  responsibleStaff User    @relation("InterventionResponsible", fields: [responsibleStaffId], references: [id])
+  createdBy        User    @relation("InterventionCreatedBy", fields: [createdById], references: [id])
+
+  @@index([studentId])
+  @@index([status])
+  @@map("interventions")
+}
+
+model EngagementScore {
+  id                     String           @id @default(cuid())
+  studentId              String
+  score                  Float
+  status                 EngagementStatus
+  attendanceComponent    Float
+  homeworkComponent      Float
+  loginComponent         Float
+  testComponent          Float
+  participationComponent Float
+  calculatedAt           DateTime         @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId])
+  @@index([status])
+  @@map("engagement_scores")
+}
+
+// ==========================================================================
+// Phase 3C: Advanced Learning Analytics, Cohort Analytics, Predictive Risk
+// ==========================================================================
+
+model PredictiveRiskScore {
+  id                       String    @id @default(cuid())
+  studentId                String
+  score                    Float
+  riskLevel                RiskLevel
+  attendanceTrendComponent Float
+  homeworkTrendComponent   Float
+  testTrendComponent       Float
+  engagementComponent      Float
+  inactivityComponent      Float
+  signals                  Json
+  calculatedAt             DateTime  @default(now())
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@index([studentId])
+  @@index([riskLevel])
+  @@map("predictive_risk_scores")
+}
+
+// ==========================================================================
+// Phase 3D: Learning Experience (watch progress, learning paths, goals, exam prep)
+// ==========================================================================
+
+enum ContentKind {
+  RECORDING
+  STUDY_MATERIAL
+}
+
+// Per-student consumption progress for a piece of content, keyed loosely by (contentKind,
+// contentId) rather than a real FK to two different tables — same polymorphic-reference idiom
+// AuditLog already uses (entityType/entityId as plain strings), not a novel pattern. Serves two
+// purposes: real watch-progress/resume for RECORDING (when the URL is a directly embeddable
+// video file the browser can report timeupdate events for) and a self-reported "read" marker
+// for STUDY_MATERIAL (there's no way to detect whether a student actually read a PDF/notes
+// link, so that one is always a manual toggle, same honesty precedent as other self-report
+// flows in this app). Both also feed Learning Path step completion (learning-path.ts).
+model ContentProgress {
+  id                  String      @id @default(cuid())
+  studentId           String
+  contentKind         ContentKind
+  contentId           String
+  lastPositionSeconds Int         @default(0)
+  completionPercent   Int         @default(0)
+  completed           Boolean     @default(false)
+  startedAt           DateTime    @default(now())
+  completedAt         DateTime?
+  updatedAt           DateTime    @updatedAt
+
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([studentId, contentKind, contentId])
+  @@index([studentId])
+  @@map("content_progress")
+}
+
+enum GoalType {
+  WEEKLY
+  MONTHLY
+  EXAM
+}
+
+enum GoalMetric {
+  SUBJECT_TEST_SCORE
+  OVERALL_PERFORMANCE
+  ATTENDANCE
+  HOMEWORK_COMPLETION
+}
+
+enum GoalStatus {
+  ACTIVE
+  ACHIEVED
+  MISSED
+  CANCELLED
+}
+
+// currentValue is deliberately NOT stored — goals.ts recomputes it live from the same
+// services Performance/Analytics already use (getStudentAverageTestScore, getLatestPerformance,
+// computeAttendanceRate, computeHomeworkCompletionRate) so a goal can never silently drift out
+// of sync with the real numbers it's tracking.
+model StudentGoal {
+  id          String     @id @default(cuid())
+  studentId   String
+  type        GoalType
+  metric      GoalMetric
+  subjectId   String?
+  title       String
+  startValue  Float
+  targetValue Float
+  startDate   DateTime
+  targetDate  DateTime
+  status      GoalStatus @default(ACTIVE)
+  createdById String
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  student   Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subject   Subject? @relation(fields: [subjectId], references: [id])
+  createdBy User     @relation(fields: [createdById], references: [id])
+
+  @@index([studentId])
+  @@index([status])
+  @@map("student_goals")
+}
+
+// ==========================================================================
+// Phase 3A: AI Foundation & Knowledge Base
+// ==========================================================================
+
+model AIInteraction {
+  id               String               @id @default(cuid())
+  userId           String?
+  conversationId   String
+  feature          AIInteractionFeature @default(STUDY_ASSISTANT)
+  provider         String
+  model            String
+  prompt           String
+  response         String?
+  promptTokens     Int?
+  completionTokens Int?
+  latencyMs        Int?
+  status           AIInteractionStatus
+  errorMessage     String?
+  createdAt        DateTime             @default(now())
+
+  user User? @relation(fields: [userId], references: [id])
+
+  @@index([conversationId])
+  @@index([userId])
+  @@index([status])
+  @@map("ai_interactions")
+}
+
+model KnowledgeDocument {
+  id              String             @id @default(cuid())
+  title           String
+  docType         KnowledgeDocType
+  academicLevelId String?
+  boardId         String?
+  groupId         String?
+  subjectId       String?
+  chapter         String?
+  topic           String?
+  sourceUrl       String?
+  content         String
+  status          KnowledgeDocStatus @default(PENDING_REVIEW)
+  uploadedById    String
+  reviewedById    String?
+  reviewedAt      DateTime?
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  academicLevel AcademicLevel? @relation(fields: [academicLevelId], references: [id])
+  board         Board?         @relation(fields: [boardId], references: [id])
+  group         Group?         @relation(fields: [groupId], references: [id])
+  subject       Subject?       @relation(fields: [subjectId], references: [id])
+  uploadedBy    User           @relation("KnowledgeDocUploadedBy", fields: [uploadedById], references: [id])
+  reviewedBy    User?          @relation("KnowledgeDocReviewedBy", fields: [reviewedById], references: [id])
+
+  @@index([status])
+  @@index([academicLevelId])
+  @@index([subjectId])
+  @@map("knowledge_documents")
+}
+
+// ==========================================================================
+// Phase 3E: Platform Scalability & Security
+// ==========================================================================
+
+// Schema-only multi-tenant groundwork — zero rows, zero wiring into any existing query,
+// same precedent as Phase 1's Phase-2/3 stub models (Test, Lead, etc. once were). The spec's
+// own instruction is "do not break the current single-academy implementation," so every
+// existing service/query stays exactly as-is; these three models exist purely so a future
+// multi-academy phase doesn't need a risky reshape of live tables to retrofit tenancy.
+model Organization {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  settings OrganizationSettings?
+  members  OrganizationUser[]
+
+  @@map("organizations")
+}
+
+model OrganizationSettings {
+  id             String   @id @default(cuid())
+  organizationId String   @unique
+  timezone       String   @default("Asia/Karachi")
+  currency       String   @default("PKR")
+  branding       Json?
+  updatedAt      DateTime @updatedAt
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+
+  @@map("organization_settings")
+}
+
+model OrganizationUser {
+  id             String   @id @default(cuid())
+  organizationId String
+  userId         String
+  role           String   @default("MEMBER")
+  createdAt      DateTime @default(now())
+
+  organization Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([organizationId, userId])
+  @@map("organization_users")
+}
+
+// Bearer-token auth for the new /api/v1/* surface — a separate credential from a user's own
+// session, since an external mobile app/integration is a different caller than a logged-in
+// browser. Only the hash is ever stored (same "never store the real secret" precedent as
+// password hashing) — the real key is shown to the creator exactly once, at creation time.
+model ApiKey {
+  id          String    @id @default(cuid())
+  label       String
+  keyHash     String    @unique
+  keyPrefix   String
+  createdById String
+  lastUsedAt  DateTime?
+  revokedAt   DateTime?
+  createdAt   DateTime  @default(now())
+
+  createdBy User @relation(fields: [createdById], references: [id])
+
+  @@index([createdById])
+  @@map("api_keys")
+}
+
+enum FilePurpose {
+  HOMEWORK_SUBMISSION
+  SUPPORT_ATTACHMENT
+  PAYMENT_RECEIPT
+  PROFILE_PHOTO
+  LEAD_ASSESSMENT
+  STUDY_MATERIAL
+  NOTES_SUBSCRIPTION_RECEIPT
+}
+
+// Provider-agnostic file metadata (src/lib/storage/*) — mirrors the WhatsApp/AI provider
+// abstraction pattern exactly: an interface, a real zero-config default (LocalFileStorageProvider,
+// which genuinely writes to local disk — unlike AI/WhatsApp, no paid API key is needed for a
+// working default here), and room for a future S3/Supabase Storage provider behind the same
+// interface. storagePath is provider-specific (a local file path today; would be an object key
+// for a cloud provider) and is never exposed directly — access always goes through
+// /api/files/[id], which re-checks the same access rule as the owning record.
+model UploadedFile {
+  id              String      @id @default(cuid())
+  filename        String
+  mimeType        String
+  sizeBytes       Int
+  storageProvider String      @default("local")
+  storagePath     String
+  purpose         FilePurpose
+  uploadedById    String
+  createdAt       DateTime    @default(now())
+
+  uploadedBy User @relation(fields: [uploadedById], references: [id])
+
+  homeworkSubmissions       HomeworkSubmission[]
+  supportTickets            SupportTicket[]
+  payments                  Payment[]
+  studyMaterial             StudyMaterial?
+  notesSubscriptionPayments NotesSubscriptionPayment[]
+
+  @@index([purpose])
+  @@index([uploadedById])
+  @@map("uploaded_files")
+}
+
+// Persists every scheduled-job run's outcome — the real gap found during this phase's
+// inspect-first pass: /api/cron/[job] already caught and returned job errors in its HTTP
+// response, but nothing persisted that outcome anywhere queryable, so a failure called by an
+// external scheduler with nobody watching the response body was effectively invisible.
+model JobRun {
+  id             String           @id @default(cuid())
+  jobKey         String
+  status         AutomationStatus
+  itemsProcessed Int?
+  errorMessage   String?
+  startedAt      DateTime         @default(now())
+  finishedAt     DateTime?
+
+  @@index([jobKey])
+  @@index([status])
+  @@map("job_runs")
+}
+
+// Singleton config (same pattern as PerformanceConfig/PointsConfig) preparing for future cost
+// controls on AI usage, per the spec's own "prepare for cost controls" wording — a soft,
+// informational cap surfaced as a dashboard warning, not hard enforcement (no billing/metering
+// integration exists to actually block a request).
+model AIUsageConfig {
+  id                       String   @id @default("singleton")
+  dailyTokenSoftCap        Int?
+  costPerThousandTokensUsd Float    @default(0)
+  updatedById              String?
+  updatedAt                DateTime @updatedAt
+
+  @@map("ai_usage_config")
+}

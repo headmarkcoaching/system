@@ -1,0 +1,2 @@
+-- AlterEnum
+ALTER TYPE "AutomationRuleKey" ADD VALUE 'ENGAGEMENT_RECALC';

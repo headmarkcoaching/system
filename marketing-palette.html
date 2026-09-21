@@ -1,0 +1,288 @@
+<title>Skylight Palette</title>
+<style>
+  :root {
+    --page-bg: #f4f7fb;
+    --page-surface: #ffffff;
+    --page-border: #dde5ef;
+    --page-text: #1d2b3e;
+    --page-muted: #566881;
+    --page-accent: #4a7bc4;
+    --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --page-bg: #10151d;
+      --page-surface: #171e29;
+      --page-border: #2a3444;
+      --page-text: #e7edf5;
+      --page-muted: #93a3b8;
+      --page-accent: #7aa4de;
+    }
+  }
+  :root[data-theme="dark"] {
+    --page-bg: #10151d;
+    --page-surface: #171e29;
+    --page-border: #2a3444;
+    --page-text: #e7edf5;
+    --page-muted: #93a3b8;
+    --page-accent: #7aa4de;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--page-bg);
+    color: var(--page-text);
+    font-family: var(--sans);
+    padding: 0;
+  }
+  .wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+  header {
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--page-accent);
+    margin: 0 0 12px;
+  }
+  h1 {
+    font-family: var(--sans);
+    font-weight: 800;
+    font-size: clamp(32px, 5vw, 44px);
+    letter-spacing: -0.02em;
+    margin: 0 0 12px;
+    text-wrap: balance;
+  }
+  header p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--page-muted);
+    max-width: 62ch;
+    margin: 0;
+  }
+  header code {
+    font-family: var(--mono);
+    font-size: 0.92em;
+    background: var(--page-border);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+  }
+
+  section {
+    margin-bottom: 44px;
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--page-border);
+  }
+  .section-head h2 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+  }
+  .section-head span {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--page-muted);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 14px;
+  }
+
+  .swatch {
+    border: 1px solid var(--page-border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--page-surface);
+    display: flex;
+    flex-direction: column;
+  }
+  .swatch-color {
+    height: 84px;
+    display: flex;
+    align-items: flex-end;
+    padding: 8px 10px;
+  }
+  .swatch-color .role {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.03em;
+    opacity: 0.85;
+  }
+  .swatch-info {
+    padding: 10px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .swatch-info .token {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    font-weight: 600;
+  }
+  .swatch-info .hex {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--page-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .swatch-info .hsl {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--page-muted);
+    opacity: 0.75;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .note {
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--page-muted);
+    max-width: 68ch;
+    margin: 6px 0 0;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--page-border);
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--page-muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  @media (max-width: 480px) {
+    .wrap { padding: 40px 16px 60px; }
+    .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  }
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">.theme-skylight</p>
+    <h1>Skylight Palette</h1>
+    <p>The color system used on Parent-First Online Academy's public marketing pages (<code>/home</code>, <code>/programs</code>, <code>/about</code>, <code>/contact</code>, <code>/enroll</code>). Scoped to a single CSS class so it never touches the dashboard's own tokens — every value below is the real <code>hsl()</code> from <code>globals.css</code>, converted to hex for design tools.</p>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <h2>Brand</h2>
+      <span>surfaces &amp; primary blue</span>
+    </div>
+    <div class="grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#f3f8fc"><span class="role" style="color:#1d2b3e">Aa</span></div>
+        <div class="swatch-info"><span class="token">--background</span><span class="hex">#F3F8FC</span><span class="hsl">hsl(208 60% 97%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#1d2b3e"><span class="role" style="color:#f3f8fc">Aa</span></div>
+        <div class="swatch-info"><span class="token">--foreground</span><span class="hex">#1D2B3E</span><span class="hsl">hsl(215 36% 18%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#ffffff;border-bottom:1px solid #e5edf5"><span class="role" style="color:#1d2b3e">Aa</span></div>
+        <div class="swatch-info"><span class="token">--card</span><span class="hex">#FFFFFF</span><span class="hsl">hsl(0 0% 100%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#4a7bc4"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--primary</span><span class="hex">#4A7BC4</span><span class="hsl">hsl(216 51% 53%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#e7f0f9"><span class="role" style="color:#254574">Aa</span></div>
+        <div class="swatch-info"><span class="token">--secondary</span><span class="hex">#E7F0F9</span><span class="hsl">hsl(210 60% 94%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#254574"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--secondary-foreground</span><span class="hex">#254574</span><span class="hsl">hsl(216 51% 30%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#e9f0f7"><span class="role" style="color:#566881">Aa</span></div>
+        <div class="swatch-info"><span class="token">--muted</span><span class="hex">#E9F0F7</span><span class="hsl">hsl(210 45% 94%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#566881"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--muted-foreground</span><span class="hex">#566881</span><span class="hsl">hsl(215 20% 42%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#dbe8f5"><span class="role" style="color:#254574">Aa</span></div>
+        <div class="swatch-info"><span class="token">--accent</span><span class="hex">#DBE8F5</span><span class="hsl">hsl(210 55% 91%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#d2dfee"><span class="role" style="color:#254574">Aa</span></div>
+        <div class="swatch-info"><span class="token">--border / --input</span><span class="hex">#D2DFEE</span><span class="hsl">hsl(212 46% 88%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#4a7bc4"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--ring</span><span class="hex">#4A7BC4</span><span class="hsl">hsl(216 51% 53%)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Call to action</h2>
+      <span>reserved — buttons only, never brand chrome</span>
+    </div>
+    <div class="grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#ca6d2b"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--cta</span><span class="hex">#CA6D2B</span><span class="hsl">hsl(25 65% 48%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#b65f20"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--cta-hover</span><span class="hex">#B65F20</span><span class="hsl">hsl(25 70% 42%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#ffede0"><span class="role" style="color:#b65f20">Aa</span></div>
+        <div class="swatch-info"><span class="token">--cta-wash</span><span class="hex">#FFEDE0</span><span class="hsl">hsl(25 100% 94%)</span></div>
+      </div>
+    </div>
+    <p class="note">The one warm accent on the whole site — every "Book a Free Trial," "Enroll," and pricing button. Everything else stays in the blue family so the accent never has competition.</p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Semantic</h2>
+      <span>shared with the dashboard — not redefined per-theme</span>
+    </div>
+    <div class="grid">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#dc2828"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--destructive</span><span class="hex">#DC2828</span><span class="hsl">hsl(0 72% 51%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#218355"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--success</span><span class="hex">#218355</span><span class="hsl">hsl(152 60% 32%)</span></div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#dc8f09"><span class="role" style="color:#ffffff">Aa</span></div>
+        <div class="swatch-info"><span class="token">--warning</span><span class="hex">#DC8F09</span><span class="hsl">hsl(38 92% 45%)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>src/app/globals.css — .theme-skylight</span>
+    <span>21 tokens · light-mode only, no dark variant</span>
+  </footer>
+</div>

@@ -1,0 +1,2 @@
+-- AlterEnum
+ALTER TYPE "AutomationRuleKey" ADD VALUE 'WEEKLY_PARENT_REPORT';
