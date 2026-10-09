@@ -71,5 +71,7 @@ export default auth((req) => {
 });
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|icon|robots.txt|sitemap.xml).*)"],
+  // manifest.webmanifest, sw.js and offline.html are PWA files the browser fetches without a
+  // session (and a login redirect on any of them would break installing the app).
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|icon|robots.txt|sitemap.xml|manifest.webmanifest|sw.js|offline.html).*)"],
 };

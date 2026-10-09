@@ -37,6 +37,15 @@ const nextConfig = {
           { key: "Content-Security-Policy", value: csp },
         ],
       },
+      {
+        // The browser must re-check the service worker file on every load so a fixed worker
+        // reaches users promptly, and it must never run from a stale HTTP cache.
+        source: "/sw.js",
+        headers: [
+          { key: "Cache-Control", value: "no-cache, no-store, must-revalidate" },
+          { key: "Service-Worker-Allowed", value: "/" },
+        ],
+      },
     ];
   },
 };

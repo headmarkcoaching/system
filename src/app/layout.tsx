@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Lexend } from "next/font/google";
 import { Toaster } from "sonner";
 import { cn } from "@/lib/utils";
+import { PwaRegister } from "@/components/shared/pwa-register";
 import "./globals.css";
 
 // Inter carries every dense, small-size UI surface (tables, forms, badges) — it's the safest,
@@ -25,6 +26,14 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary",
   },
+  appleWebApp: {
+    capable: true,
+    title: "Head Mark",
+    statusBarStyle: "default",
+  },
+  icons: {
+    apple: "/icons/apple-touch-icon.png",
+  },
 };
 
 export const viewport: Viewport = {
@@ -39,6 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         {children}
         <Toaster richColors position="top-center" />
+        <PwaRegister />
       </body>
     </html>
   );
