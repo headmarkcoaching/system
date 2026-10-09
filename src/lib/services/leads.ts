@@ -19,6 +19,7 @@ export interface CreateLeadInput {
   campaign?: string;
   assignedCounselorId?: string | null;
   notes?: string;
+  stage?: LeadStage;
 }
 
 export async function createLead(input: CreateLeadInput) {
