@@ -6,10 +6,12 @@ import { PageHeader } from "@/components/shared/page-header";
 import { EmptyState } from "@/components/shared/empty-state";
 import { StatusBadge } from "@/components/shared/status-badge";
 import { Button } from "@/components/ui/button";
+import { ChapterFilterNotice } from "@/components/shared/lecture-bundle";
+import { chapterMatches } from "@/lib/lecture-bundle";
 import { formatDate } from "@/lib/utils";
 import { SubmitHomeworkDialog } from "../../submit-dialog";
 
-export default async function StudentHomeworkSubjectPage({ params }: { params: { subjectId: string } }) {
+export default async function StudentHomeworkSubjectPage({ params, searchParams }: { params: { subjectId: string }; searchParams: { chapter?: string } }) {
   const session = await auth();
   if (!session?.user) redirect("/login");
 
@@ -18,6 +20,8 @@ export default async function StudentHomeworkSubjectPage({ params }: { params: {
   const filtered = homework.filter((h) => h.homework.subject.id === params.subjectId);
   if (filtered.length === 0) notFound();
 
+  const chapter = searchParams.chapter?.trim() || null;
+  const shown = chapter ? filtered.filter((h) => chapterMatches(h.homework.chapter, chapter)) : filtered;
   const subjectName = filtered[0].homework.subject.name;
 
   return (
@@ -31,8 +35,10 @@ export default async function StudentHomeworkSubjectPage({ params }: { params: {
           </Button>
         }
       />
+      {chapter && <ChapterFilterNotice chapter={chapter} clearHref={`/student/homework/subject/${params.subjectId}`} />}
+      {shown.length === 0 && <EmptyState title="No practice for this chapter yet" description="Your teacher hasn't set homework tagged to this chapter." />}
       <ul className="space-y-2">
-        {filtered.map((h) => (
+        {shown.map((h) => (
           <li key={h.id} className="flex flex-col gap-2 rounded-lg border border-border p-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-medium">{h.homework.title}</p>

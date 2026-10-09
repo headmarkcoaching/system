@@ -6,12 +6,18 @@ import { PlayCircle, CheckCircle2, Lock, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { formatDate } from "@/lib/utils";
+import { LectureBundleLinks } from "@/components/shared/lecture-bundle";
+import type { LectureBundle } from "@/lib/lecture-bundle";
 import { recordVideoProgressAction, markRecordingCompleteAction, requestRecordingAccessAction } from "./actions";
 
 const THROTTLE_MS = 5000;
 
 interface Recording {
   id: string;
+  // Only the student's own recordings page passes these; the staff view of a student's
+  // recordings reuses this component and has no student-facing subject pages to link into.
+  subjectId?: string;
+  bundle?: LectureBundle | null;
   title: string;
   recordingDate: Date;
   recordingUrl: string;
@@ -146,6 +152,8 @@ export function RecordingItem({ recording }: { recording: Recording }) {
           <div className="h-full rounded-full bg-primary" style={{ width: `${progress.completionPercent}%` }} />
         </div>
       )}
+
+      {recording.bundle && recording.subjectId && <LectureBundleLinks subjectId={recording.subjectId} bundle={recording.bundle} />}
     </li>
   );
 }

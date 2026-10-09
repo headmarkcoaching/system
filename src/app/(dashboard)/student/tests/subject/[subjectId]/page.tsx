@@ -7,10 +7,12 @@ import { PageHeader } from "@/components/shared/page-header";
 import { EmptyState } from "@/components/shared/empty-state";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { ChapterFilterNotice } from "@/components/shared/lecture-bundle";
+import { chapterMatches } from "@/lib/lecture-bundle";
 import { formatDate } from "@/lib/utils";
 import { categorizeTest } from "../../categorize";
 
-export default async function StudentTestsSubjectPage({ params }: { params: { subjectId: string } }) {
+export default async function StudentTestsSubjectPage({ params, searchParams }: { params: { subjectId: string }; searchParams: { chapter?: string } }) {
   const session = await auth();
   if (!session?.user) redirect("/login");
 
@@ -19,12 +21,14 @@ export default async function StudentTestsSubjectPage({ params }: { params: { su
   const filtered = tests.filter((t) => t.subject.id === params.subjectId);
   if (filtered.length === 0) notFound();
 
+  const chapter = searchParams.chapter?.trim() || null;
+  const shown = chapter ? filtered.filter((t) => chapterMatches(t.chapter, chapter)) : filtered;
   const subjectName = filtered[0].subject.name;
   const grouped = {
-    available: filtered.filter((t) => categorizeTest(t) === "available"),
-    upcoming: filtered.filter((t) => categorizeTest(t) === "upcoming"),
-    awaiting: filtered.filter((t) => categorizeTest(t) === "awaiting"),
-    completed: filtered.filter((t) => categorizeTest(t) === "completed"),
+    available: shown.filter((t) => categorizeTest(t) === "available"),
+    upcoming: shown.filter((t) => categorizeTest(t) === "upcoming"),
+    awaiting: shown.filter((t) => categorizeTest(t) === "awaiting"),
+    completed: shown.filter((t) => categorizeTest(t) === "completed"),
   };
 
   return (
@@ -38,6 +42,9 @@ export default async function StudentTestsSubjectPage({ params }: { params: { su
           </Button>
         }
       />
+
+      {chapter && <ChapterFilterNotice chapter={chapter} clearHref={`/student/tests/subject/${params.subjectId}`} />}
+      {chapter && shown.length === 0 && <EmptyState title="No tests for this chapter yet" description="Your teacher hasn't set a test tagged to this chapter." />}
 
       <Section title="Available Now" tests={grouped.available} emptyText="No tests available right now" />
       <Section title="Upcoming" tests={grouped.upcoming} emptyText="No upcoming tests scheduled" />
