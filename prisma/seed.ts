@@ -129,6 +129,7 @@ async function main() {
     { name: "Sir Hamza Sheikh", email: "hamza.sheikh@parentfirst.pk", phone: "03011234563", subject: "Chemistry" },
     { name: "Miss Fatima Raza", email: "fatima.raza@parentfirst.pk", phone: "03011234564", subject: "English" },
     { name: "Miss Hira Aslam", email: "hira.aslam@parentfirst.pk", phone: "03011234565", subject: "Biology" },
+    { name: "Sir Danish Iqbal", email: "danish.iqbal@parentfirst.pk", phone: "03011234566", subject: "Computer Science" },
   ];
   const teachers = [];
   for (const t of teacherDefs) {
@@ -158,8 +159,8 @@ async function main() {
 
   // ---- Batches ----
   const batchDefs = [
-    { name: "Class 10 Punjab Board Evening A", level: class10, board: boards[0], group: undefined, program: programs[1], teacherIdx: [0, 1, 2, 3, 4] },
-    { name: "Class 9 Federal Board Morning A", level: class9, board: boards[1], group: undefined, program: programs[1], teacherIdx: [0, 3, 4] },
+    { name: "Class 10 Punjab Board Evening A", level: class10, board: boards[0], group: undefined, program: programs[1], teacherIdx: [0, 1, 2, 3, 4, 5] },
+    { name: "Class 9 Federal Board Morning A", level: class9, board: boards[1], group: undefined, program: programs[1], teacherIdx: [0, 3, 4, 5] },
     { name: "Class 8 Punjab Board Evening B", level: class8, board: boards[0], group: undefined, program: programs[0], teacherIdx: [3] },
     { name: "1st Year Pre-Medical Evening A", level: firstYear, board: boards[0], group: groups[0], program: programs[2], teacherIdx: [1, 2, 3, 4] },
     { name: "2nd Year Pre-Engineering Evening A", level: secondYear, board: boards[0], group: groups[1], program: programs[2], teacherIdx: [0, 1] },
