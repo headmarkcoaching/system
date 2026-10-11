@@ -186,8 +186,8 @@ async function main() {
   }
 
   const batchSubjectNames: Record<string, string[]> = {
-    "Class 10 Punjab Board Evening A": ["Mathematics", "Physics", "Chemistry", "Biology", "English"],
-    "Class 9 Federal Board Morning A": ["Mathematics", "Physics", "Chemistry", "Biology", "English", "Urdu"],
+    "Class 10 Punjab Board Evening A": ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "English"],
+    "Class 9 Federal Board Morning A": ["Mathematics", "Physics", "Chemistry", "Biology", "Computer Science", "English", "Urdu"],
     "Class 8 Punjab Board Evening B": ["English", "Mathematics"],
     "1st Year Pre-Medical Evening A": ["Physics", "Chemistry", "Biology", "English"],
     "2nd Year Pre-Engineering Evening A": ["Mathematics", "Physics", "Chemistry", "Computer Science"],
