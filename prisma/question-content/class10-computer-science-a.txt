@@ -1,0 +1,219 @@
+@level Class 10
+@subject Computer Science
+
+# 1 Programming Fundamentals
+M|A computer program is|a set of instructions that tells a computer what to do|a type of hardware|a computer virus|a monitor|1|The computer follows the instructions in order.|E
+M|Python is a|high-level programming language|machine language|assembly language|type of hardware|1|It is easy to read and widely used.|E
+M|The software that translates and runs Python code line by line is the|interpreter|assembler|linker|compiler only|1|Python programs are usually interpreted.|M
+M|The function used in Python to display output on the screen is|print()|input()|show()|echo()|1|For example print("Hello").|E
+M|The function used in Python to read input from the user is|input()|print()|read()|scan()|1|It returns the input as a string.|E
+M|The data returned by input() is always of the type|string|integer|float|Boolean|1|You must convert it to int or float to calculate with it.|M
+M|A comment in Python begins with the symbol|#|//|/*|<!--|1|The interpreter ignores comments.|E
+M|A variable is|a named storage location in memory|a type of loop|a type of printer|a constant value|1|Its value can change.|E
+M|Which of these is a valid variable name in Python?|total_marks|2marks|total marks|total-marks|1|A name cannot start with a digit or contain spaces or hyphens.|M
+M|Which of these is not a valid variable name in Python?|2name|name2|_name|Name|1|A name cannot begin with a digit.|M
+M|Python variable names are|case sensitive|not case sensitive|always capital|always small|1|Age and age are different variables.|M
+M|The data type of the value 25 is|int|float|str|bool|1|It is a whole number.|E
+M|The data type of the value 3.14 is|float|int|str|bool|1|It has a decimal point.|E
+M|The data type of the value "Ali" is|str|int|float|bool|1|Text in quotes is a string.|E
+M|The data type of the value True is|bool|str|int|float|1|It is a Boolean value.|E
+M|The value of 5 + 3 in Python is|8|53|2|15|1|It adds the numbers.|E
+M|The value of 7 // 2 in Python is|3|3.5|4|2|1|// is floor division.|M
+M|The value of 7 % 2 in Python is|1|3|3.5|0|1|% gives the remainder.|M
+M|The value of 2 ** 3 in Python is|8|6|5|9|1|** is the power operator.|M
+M|The value of 10 / 4 in Python is|2.5|2|3|2.0|1|/ gives a float.|M
+M|The value of 2 + 3 * 4 in Python is|14|20|24|9|1|Multiplication comes before addition.|M
+M|The value of (2 + 3) * 4 in Python is|20|14|24|9|1|Brackets are evaluated first.|M
+M|The result of "Hi" + "!" in Python is|Hi!|Hi !|Error|Hi+!|1|+ joins strings.|M
+M|The result of "ab" * 3 in Python is|ababab|ab3|Error|abab|1|* repeats a string.|M
+M|The function that gives the number of characters in a string is|len()|count()|size()|length()|1|len("python") is 6.|E
+M|The value of len("python") is|6|5|7|1|1|It has 6 characters.|E
+M|The function int("12") returns|12|"12"|12.0|Error|1|It converts the string to an integer.|M
+M|The function float(3) returns|3.0|3|"3"|Error|1|It converts to a float.|M
+M|The function str(5) returns|"5"|5|5.0|Error|1|It converts a number to a string.|M
+M|The operator used to assign a value to a variable is|=|==|!=|<=|1|x = 5 assigns 5 to x.|E
+M|The operator used to test equality is|==|=|!=|:=|1|It returns True or False.|E
+M|After x = 5 and x += 3, the value of x is|8|53|3|5|1|x += 3 means x = x + 3.|M
+M|The result of abs(-5) is|5|-5|0|Error|1|abs gives the absolute value.|M
+M|The result of round(3.7) is|4|3|3.7|Error|1|It rounds to the nearest integer.|M
+M|Which of these is a Python keyword?|if|print|input|str|1|Keywords are reserved words such as if, else and while.|M
+M|Indentation in Python is|important and shows the block of code|ignored|used for comments|optional always|1|Blocks are defined by indentation.|M
+M|A syntax error is|a mistake in the rules of the language|a mistake in logic|an output|a comment|1|The program cannot run until it is fixed.|E
+M|A logical error is|a mistake that makes the program give wrong results|a mistake that stops the program from starting|a comment|a keyword|1|The program runs but the result is wrong.|M
+N|Find the value of the Python expression 2 + 3 * 4.|14|3 × 4 = 12, and 2 + 12 = 14.|E|2+3*4
+N|Find the value of 17 // 5 in Python.|3|Floor division of 17 by 5 gives 3.|M|Math.floor(17/5)
+N|Find the value of 17 % 5 in Python.|2|17 = 3 × 5 + 2, so the remainder is 2.|M|17-Math.floor(17/5)*5
+N|Find the value of 2 ** 10 in Python.|1024|2 to the power 10 is 1024.|M|2^10
+N|Find the value of 10 / 4 in Python.|2.5|True division gives 2.5.|E|10/4
+N|Find the value of len("computer") in Python.|8|The word has 8 letters.|E|8
+N|Find the value of 15 % 4 in Python.|3|15 = 3 × 4 + 3.|M|15-Math.floor(15/4)*4
+N|Find the value of (7 + 3) * 2 in Python.|20|10 × 2 = 20.|E|(7+3)*2
+N|Find the value of 3 ** 2 + 4 ** 2 in Python.|25|9 + 16 = 25.|M|3^2+4^2
+N|Find the value of int(7.9) in Python.|7|int() drops the decimal part.|M|Math.floor(7.9)
+S|Define a variable in programming.|A named location in memory used to store a value that can change while the program runs.|For example age = 15.|E
+S|State the difference between print() and input().|print() displays output on the screen. input() reads text typed by the user.|input() returns a string.|E
+S|Name four data types in Python.|int, float, str and bool.|They are integer, floating-point number, string and Boolean.|E
+S|Write a Python program to add two numbers entered by the user.|a = int(input()), b = int(input()), print(a + b)|The inputs must be converted to numbers.|M
+S|What is a comment and why is it used?|A line that begins with # and is ignored by the interpreter. It explains the code to readers.|Good comments make a program easier to understand.|E
+S|Distinguish between a syntax error and a logical error.|A syntax error breaks the rules of the language and stops the program. A logical error lets the program run but produces wrong results.|Logical errors are harder to find.|M
+
+# 2 Control Structures
+M|A control structure decides|the order in which statements are executed|the colour of the output|the size of the file|the speed of the computer|1|Examples are selection and loops.|E
+M|The statement used for making a decision in Python is|if|for|print|def|1|It runs code only when a condition is true.|E
+M|In Python, the if statement must end with|a colon (:)|a semicolon|a full stop|a comma|1|The block is then indented.|E
+M|The keyword used for an alternative when the if condition is false is|else|elif|for|break|1|It runs when the condition is not met.|E
+M|The keyword used to test another condition is|elif|else|for|while|1|It means else if.|M
+M|The value of the condition 5 > 3 is|True|False|5|3|1|5 is greater than 3.|E
+M|The value of the condition 5 == 3 is|False|True|5|3|1|5 is not equal to 3.|E
+M|The value of the condition 5 != 3 is|True|False|5|3|1|5 is not equal to 3.|E
+M|The value of the condition 4 <= 4 is|True|False|4|0|1|4 is equal to 4.|M
+M|The logical operator that is true only when both conditions are true is|and|or|not|if|1|Both must be true.|E
+M|The logical operator that is true when at least one condition is true is|or|and|not|else|1|One true condition is enough.|E
+M|The logical operator that reverses a Boolean value is|not|and|or|if|1|not True is False.|E
+M|The value of (5 > 3) and (2 > 4) is|False|True|5|0|1|The second condition is false.|M
+M|The value of (5 > 3) or (2 > 4) is|True|False|0|None|1|The first condition is true.|M
+M|The value of not (5 > 3) is|False|True|5|0|1|The condition is true, and not reverses it.|M
+M|The loop that repeats while a condition is true is the|while loop|if statement|def|print|1|It checks the condition before each repeat.|E
+M|The loop used to repeat a fixed number of times or over a sequence is the|for loop|if|else|def|1|It is often used with range().|E
+M|The output of for i in range(3): print(i) is|0 1 2 (each on its own line)|1 2 3|0 1 2 3|1 2|1|range(3) gives 0, 1, 2.|M
+M|range(1, 5) generates the numbers|1, 2, 3, 4|1, 2, 3, 4, 5|0, 1, 2, 3, 4|2, 3, 4|1|The stop value is not included.|M
+M|range(0, 10, 2) generates the numbers|0, 2, 4, 6, 8|2, 4, 6, 8, 10|0, 2, 4, 6, 8, 10|1, 3, 5, 7, 9|1|It steps by 2 and stops before 10.|M
+M|range(5) generates the numbers|0, 1, 2, 3, 4|1, 2, 3, 4, 5|0, 1, 2, 3, 4, 5|5|1|It starts at 0 and stops before 5.|M
+M|The statement that stops a loop immediately is|break|continue|pass|stop|1|It exits the loop.|M
+M|The statement that skips the rest of the current iteration is|continue|break|pass|exit|1|The loop goes to the next iteration.|M
+M|A loop that never ends is called|an infinite loop|a for loop|a nested loop|a function|1|It happens when the condition never becomes false.|M
+M|A loop inside another loop is called a|nested loop|infinite loop|break loop|function|1|The inner loop runs fully for each outer iteration.|M
+M|The number of times the body of while i < 3 runs, with i starting at 0 and increasing by 1 each time, is|3|2|4|infinite|1|i takes the values 0, 1 and 2.|M
+M|In Python, a block of code inside an if statement is shown by|indentation|brackets|semicolons|a full stop|1|The statements are indented.|E
+M|The statement x = 10 followed by if x > 5: print("big") prints|big|nothing|small|10|1|The condition is true.|M
+M|The statement x = 3 followed by if x > 5: print("big") else: print("small") prints|small|big|nothing|3|1|The condition is false, so the else runs.|M
+M|To test whether a number n is even, we check whether|n % 2 == 0|n // 2 == 0|n / 2 == 0|n * 2 == 0|1|An even number leaves no remainder when divided by 2.|M
+M|The loop for i in range(1, 4): print(i * i) prints|1, 4, 9|1, 2, 3|1, 8, 27|0, 1, 4|1|It prints the squares of 1, 2 and 3.|H
+M|The output of print("*" * 3) is|***|*3|3|* * *|1|The string is repeated three times.|M
+M|A flow that chooses between two paths is called|selection|iteration|sequence|recursion|1|It uses if and else.|E
+M|A flow that repeats a block is called|iteration|selection|sequence|branching|1|Loops provide iteration.|E
+M|The value of 10 > 5 and 3 < 1 is|False|True|10|3|1|The second condition is false.|M
+M|The value of the expression not (3 == 3) is|False|True|3|None|1|3 == 3 is True, and not reverses it.|M
+N|A loop adds the numbers from 1 to 5 using for i in range(1, 6): total += i, starting from total = 0. Find total.|15|1 + 2 + 3 + 4 + 5 = 15.|M|1+2+3+4+5
+N|Find the number of times for i in range(0, 10, 2) runs.|5|The values are 0, 2, 4, 6, 8, which is 5 values.|M|10/2
+N|Find the value of the factorial of 5 computed by a loop.|120|5 × 4 × 3 × 2 × 1 = 120.|M|5*4*3*2*1
+N|Find the number of times the loop for i in range(10) runs.|10|It runs for i = 0 to 9.|E|10
+N|Find the sum of the even numbers from 2 to 10 using a loop.|30|2 + 4 + 6 + 8 + 10 = 30.|M|2+4+6+8+10
+N|A while loop starts with n = 1 and doubles n while n < 100. Find the final value of n.|128|The values are 1, 2, 4, 8, 16, 32, 64, 128.|H|2^7
+N|Find the output of the loop x = 0, for i in range(1, 4): x = x + i * 2.|12|2 + 4 + 6 = 12.|H|2+4+6
+N|A nested loop runs the outer loop 3 times and the inner loop 4 times for each. Find the total number of inner iterations.|12|3 × 4 = 12.|M|3*4
+N|Find the number of multiples of 3 between 1 and 30 inclusive.|10|There are 30 ÷ 3 = 10.|M|30/3
+N|A loop prints the table of 7 from 7 × 1 to 7 × 10. Find the last value printed.|70|7 × 10 = 70.|E|7*10
+S|Name the three types of control structures.|Sequence, selection and iteration.|Selection uses if and iteration uses loops.|E
+S|Write a Python if...else statement to check whether a number n is positive.|if n > 0: print("positive") else: print("not positive")|Indentation is needed.|M
+S|Distinguish between a for loop and a while loop.|A for loop repeats a fixed number of times or over a sequence. A while loop repeats as long as a condition is true.|Both provide iteration.|M
+S|What is the purpose of break and continue?|break stops the loop completely. continue skips the rest of the current iteration and goes to the next one.|They change the normal flow of a loop.|M
+S|Write a loop to print the numbers 1 to 5.|for i in range(1, 6): print(i)|The stop value 6 is not included.|E
+S|What is an infinite loop?|A loop that never stops because its condition always remains true.|It is usually a mistake.|E
+
+# 3 Functions, Lists and Strings
+M|A function is|a named block of code that performs a task|a type of variable|a type of loop|a comment|1|It can be called many times.|E
+M|A function in Python is defined using the keyword|def|function|func|define|1|For example def add(a, b):.|E
+M|A function is run by|calling it by name|importing it only|deleting it|printing it|1|You write its name followed by brackets.|E
+M|Values passed to a function are called|arguments|returns|loops|errors|1|The function receives them as parameters.|M
+M|The statement that sends a value back from a function is|return|print|break|input|1|The caller can use the value.|E
+M|A variable created inside a function is|local to that function|available everywhere|a constant|a keyword|1|It does not exist outside the function.|M
+M|A variable created outside all functions is|global|local|a parameter|an argument|1|It can be used throughout the program.|M
+M|The output of def f(x): return x * x followed by print(f(5)) is|25|10|5|55|1|5 × 5 = 25.|M
+M|A built-in function in Python is|len()|myfunc()|add()|greet()|1|It is provided with the language.|E
+M|The advantage of using functions is|code can be reused and programs are easier to understand|programs run slower|programs get larger|code becomes harder to read|1|They avoid repetition.|E
+M|A list in Python is written using|square brackets [ ]|round brackets ( )|curly brackets { }|angle brackets < >|1|For example [1, 2, 3].|E
+M|The index of the first item in a Python list is|0|1|-1|2|1|Indexing starts at zero.|E
+M|If numbers = [10, 20, 30, 40], then numbers[2] is|30|20|40|10|1|The index 2 is the third item.|M
+M|If numbers = [10, 20, 30, 40], then numbers[-1] is|40|10|30|-1|1|A negative index counts from the end.|M
+M|If numbers = [10, 20, 30, 40], then len(numbers) is|4|3|40|5|1|It has four items.|E
+M|The method that adds an item to the end of a list is|append()|add()|insert at end()|push()|1|numbers.append(50).|M
+M|The method that removes the last item of a list and returns it is|pop()|remove()|delete()|clear()|1|numbers.pop().|M
+M|The method that sorts a list in place is|sort()|order()|arrange()|sorted only|1|numbers.sort().|M
+M|The function that returns the largest item of a list is|max()|largest()|top()|big()|1|max([3, 9, 2]) is 9.|M
+M|The function that returns the sum of the items of a list is|sum()|total()|add()|plus()|1|sum([1, 2, 3]) is 6.|M
+M|The slice numbers[1:3] of [10, 20, 30, 40] is|[20, 30]|[10, 20, 30]|[20, 30, 40]|[10, 20]|1|It includes index 1 but excludes index 3.|M
+M|The slice numbers[:2] of [10, 20, 30, 40] is|[10, 20]|[10, 20, 30]|[30, 40]|[20, 30]|1|It starts from the beginning and stops before index 2.|M
+M|Lists are|mutable (they can be changed)|immutable|numbers only|constants|1|You can change, add and remove items.|M
+M|A string in Python is|a sequence of characters|a list of numbers|a type of loop|a function|1|It is written in quotes.|E
+M|If s = "python", then s[0] is|p|y|n|o|1|The first character has index 0.|E
+M|If s = "python", then s[-1] is|n|p|o|h|1|The last character has index -1.|M
+M|If s = "python", then s[1:4] is|yth|pyt|ytho|tho|1|It includes indexes 1, 2 and 3.|M
+M|The method that converts a string to uppercase is|upper()|capitalise()|big()|up()|1|"abc".upper() gives "ABC".|E
+M|The method that converts a string to lowercase is|lower()|small()|down()|lowercase()|1|"ABC".lower() gives "abc".|E
+M|The result of "hello".upper() is|HELLO|H|Error|5|1|All letters become capitals.|E
+M|The result of "a,b,c".split(",") is|["a", "b", "c"]|"abc"|["a,b,c"]|("a", "b", "c")|1|It splits the string at each comma.|M
+M|Strings are|immutable (they cannot be changed in place)|mutable|always numbers|lists|1|You cannot change a character of a string directly.|M
+M|The result of "Hi" + " " + "Ali" is|Hi Ali|HiAli|Hi+Ali|Error|1|The strings are joined.|E
+M|The expression "a" in "cat" is|True|False|Error|None|1|The letter a is in the word.|M
+M|A dictionary in Python stores|key-value pairs|only numbers|only strings|only lists|1|It uses curly brackets.|M
+M|If d = {"a": 1, "b": 2}, then d["b"] is|2|1|"b"|Error|1|It looks up the value for the key "b".|M
+N|If numbers = [10, 20, 30, 40], find numbers[2].|30|The index 2 is the third item, 30.|M|30
+N|If numbers = [5, 8, 12, 20], find the sum of the list.|45|5 + 8 + 12 + 20 = 45.|M|5+8+12+20
+N|If numbers = [3, 9, 2, 7], find max(numbers).|9|The largest item is 9.|E|9
+N|If numbers = [3, 9, 2, 7], find min(numbers).|2|The smallest item is 2.|E|2
+N|Find the value of len([1, 2, 3, 4, 5, 6]).|6|The list has six items.|E|6
+N|A function def f(x): return x * 2 + 1 is called as f(4). Find the value returned.|9|4 × 2 + 1 = 9.|M|4*2+1
+N|A function def area(l, w): return l * w is called as area(6, 7). Find the value returned.|42|6 × 7 = 42.|E|6*7
+N|A list has 3 items. We append 2 more items. Find the new length.|5|3 + 2 = 5.|E|3+2
+N|Find the average of the list [10, 20, 30, 40] using sum(...) / len(...).|25|100 ÷ 4 = 25.|M|100/4
+N|If s = "computer", find the value of len(s[2:6]).|4|The slice s[2:6] is "mput", which has 4 characters.|H|6-2
+S|Define a function and state its advantage.|A named block of code that performs a task and can be called whenever it is needed. It allows code to be reused and makes programs easier to read.|It can take arguments and return a value.|E
+S|Write a Python function that returns the square of a number.|def square(n): return n * n|It is called as square(5).|M
+S|What is a list? Give an example.|An ordered collection of items in square brackets that can be changed, for example marks = [60, 70, 80].|The first item has index 0.|E
+S|Name three list methods and state what each does.|append() adds an item at the end, pop() removes the last item and sort() arranges the items in order.|They change the list in place.|M
+S|Distinguish between local and global variables.|A local variable is created inside a function and can be used only there. A global variable is created outside functions and can be used anywhere in the program.|Local variables are lost when the function ends.|M
+S|Write the output of "python"[0:3].|pyt|The slice includes indexes 0, 1 and 2.|M
+
+# 4 Databases
+M|A database is|an organised collection of related data|a type of program|a type of virus|a computer|1|It is stored so it can be easily accessed.|E
+M|A system for creating and managing databases is a|DBMS|CPU|ISP|URL|1|It stands for database management system.|E
+M|Which of the following is a DBMS?|MySQL|Windows|Chrome|Paint|1|MySQL, Oracle and Microsoft Access are DBMSs.|E
+M|Which of the following is a database management system?|Microsoft Access|Microsoft Word|Notepad|Calculator|1|It is used to create databases.|E
+M|In a database, data is stored in|tables|loops|functions|folders only|1|A table is made of rows and columns.|E
+M|A row in a database table is called a|record|field|key|table|1|It holds all data about one item.|E
+M|A column in a database table is called a|field|record|table|query|1|It holds one kind of data.|E
+M|A field that uniquely identifies each record in a table is the|primary key|foreign key|index only|field name|1|For example a roll number.|E
+M|A field in one table that refers to the primary key of another table is a|foreign key|primary key|record|query|1|It links the two tables.|M
+M|A primary key must be|unique and not empty|repeated|empty|a picture|1|No two records can have the same value.|M
+M|The data type used to store whole numbers in a database is|integer|text|date|Boolean|1|For example age.|E
+M|The data type used to store names in a database is|text|number|date|Boolean|1|It stores letters.|E
+M|The data type used to store dates is|date/time|text only|integer|currency only|1|It stores a date.|E
+M|A relationship in which one record in a table can be linked to many records in another table is|one-to-many|one-to-one|many-to-one only|none|1|One class has many students.|M
+M|SQL stands for|Structured Query Language|Simple Question Language|Standard Quality List|System Query Link|1|It is used to talk to databases.|E
+M|The SQL command used to retrieve data is|SELECT|INSERT|UPDATE|DELETE|1|SELECT * FROM students.|E
+M|The SQL command used to add new data is|INSERT|SELECT|DELETE|SORT|1|It adds a new record.|E
+M|The SQL command used to change existing data is|UPDATE|INSERT|SELECT|CREATE|1|It modifies records.|E
+M|The SQL command used to remove records is|DELETE|REMOVE ALL|DROP FIELD|SELECT|1|DELETE FROM students WHERE id = 5.|E
+M|The SQL clause used to filter records is|WHERE|FROM|ORDER|GROUP|1|It sets a condition.|E
+M|The SQL clause used to sort records is|ORDER BY|WHERE|FROM|SELECT|1|It can be ascending or descending.|E
+M|In SQL, the keyword to sort in descending order is|DESC|ASC|DOWN|REV|1|ORDER BY marks DESC.|M
+M|The SQL function that counts records is|COUNT()|SUM()|AVG()|MAX()|1|SELECT COUNT(*) FROM students.|M
+M|The SQL function that finds the average is|AVG()|COUNT()|SUM()|MIN()|1|It gives the mean of a column.|M
+M|The SQL function that finds the largest value is|MAX()|MIN()|SUM()|AVG()|1|It returns the maximum.|M
+M|The SQL statement SELECT name FROM students WHERE marks > 80 returns|names of students with marks above 80|all records|marks of students|the count only|1|The WHERE clause filters.|M
+M|The SQL symbol that means all columns is|*|#|%|&|1|SELECT * FROM students.|E
+M|A query is|a request for information from a database|a type of table|a type of form|a field|1|It can search, sort and filter.|E
+M|A form in a database is used to|enter and view data in a friendly way|print only|store only|delete the database|1|It makes data entry easier.|E
+M|A report in a database is used to|present data in a printed or summary format|enter data|delete data|create tables|1|It can be printed.|E
+M|An advantage of a database over paper records is|faster searching and less duplication|more space used|slower access|more errors|1|Data can be found quickly.|E
+M|Data redundancy means|unnecessary repetition of data|loss of data|missing data|secret data|1|It wastes space and causes inconsistency.|M
+M|Data integrity means|the accuracy and consistency of data|the speed of data|the size of data|the colour of data|1|It keeps data reliable.|M
+M|Validation in a database is used to|check that entered data is acceptable|delete data|copy data|print data|1|For example a date must be a valid date.|M
+M|A database in which data is stored in related tables is a|relational database|flat file|spreadsheet|text file|1|Tables are linked by keys.|M
+N|A table has 5 records and 4 fields. Find the number of data cells.|20|5 × 4 = 20.|E|5*4
+N|A school database has 30 students in each of 12 classes. Find the total number of student records.|360|30 × 12 = 360.|E|30*12
+N|The marks in a table are 60, 70, 80 and 90. Find AVG(marks).|75|(60 + 70 + 80 + 90) ÷ 4 = 75.|M|(60+70+80+90)/4
+N|The marks in a table are 60, 70, 80 and 90. Find SUM(marks).|300|60 + 70 + 80 + 90 = 300.|E|60+70+80+90
+N|The marks in a table are 60, 70, 80 and 90. Find MAX(marks).|90|The largest value is 90.|E|90
+N|A table has 100 students and 40 have marks above 80. Find the number returned by the count of marks > 80.|40|The count is 40.|E|40
+N|A table has 100 records and the query selects 25 percent. Find the number of records selected.|25|100 × 0.25 = 25.|E|100*0.25
+N|A table has 8 fields and each takes 10 bytes per record, with 1000 records. Find the size in KB, to one decimal place.|78.1|8 × 10 × 1000 = 80 000 bytes = 78.1 KB.|H|8*10*1000/1024
+N|A database backup of 2 GB is made 5 times. Find the total size in GB.|10|2 × 5 = 10.|E|2*5
+N|A table has 50 records. After deleting 12 and adding 5, find the number of records.|43|50 − 12 + 5 = 43.|M|50-12+5
+S|Define a database and a DBMS.|A database is an organised collection of related data. A DBMS is software used to create, manage and use databases.|MySQL and Access are examples.|E
+S|Distinguish between a record and a field.|A record is a row that holds all the data about one item. A field is a column that holds one kind of data.|A student record has fields such as name and roll number.|E
+S|What is a primary key? Give an example.|A field that uniquely identifies each record in a table, such as a roll number.|It cannot be repeated or empty.|M
+S|Write an SQL statement to display the names of all students with marks above 80.|SELECT name FROM students WHERE marks > 80;|The WHERE clause filters the records.|M
+S|State two advantages of using a database.|Data can be searched quickly and there is less repetition of data. Data is also more accurate and secure.|It saves time and storage.|E
+S|What is a foreign key?|A field in one table that refers to the primary key of another table and so links the two tables.|It creates a relationship.|M

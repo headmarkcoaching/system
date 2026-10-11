@@ -1,0 +1,158 @@
+@level Class 9
+@subject Chemistry
+
+# 4 Structure of Molecules
+M|A chemical bond is|a force that holds atoms together in a compound|a type of atom|a kind of mixture|a state of matter|1|Atoms bond to reach a more stable arrangement of electrons.|E
+M|The octet rule says that atoms tend to|have eight electrons in their outer shell|have two electrons in their outer shell|lose all their electrons|have no outer electrons|1|Atoms gain, lose or share electrons to complete eight.|E
+M|Hydrogen follows the duplet rule, which means it tends to have|two electrons in its outer shell|eight electrons in its outer shell|one electron only|no electrons|1|Its first shell holds only two electrons.|M
+M|An ionic bond is formed by|the transfer of electrons from one atom to another|the sharing of electrons|the sharing of protons|the absorption of heat|1|A metal gives electrons to a non-metal.|E
+M|A covalent bond is formed by|the sharing of electrons between atoms|the transfer of electrons|the transfer of protons|the loss of neutrons|1|Two atoms share pairs of electrons.|E
+M|Sodium chloride has|an ionic bond|a covalent bond|a metallic bond|a hydrogen bond|1|Na gives an electron to Cl.|E
+M|Water molecules have|covalent bonds|ionic bonds|metallic bonds|no bonds|1|Oxygen shares electrons with hydrogen.|E
+M|A single covalent bond is formed by sharing|one pair of electrons|two pairs of electrons|three pairs of electrons|no electrons|1|One shared pair makes a single bond.|E
+M|A double covalent bond is formed by sharing|one pair of electrons|two pairs of electrons|three pairs of electrons|four pairs of electrons|2|An example is the bond in an oxygen molecule.|E
+M|A triple covalent bond is formed by sharing|one pair of electrons|two pairs of electrons|three pairs of electrons|four pairs of electrons|3|An example is the bond in a nitrogen molecule.|E
+M|Ionic compounds generally have|high melting points|low melting points|no melting point|gaseous state at room temperature|1|The attractions between ions are strong.|E
+M|Ionic compounds conduct electricity when|molten or dissolved in water|solid|always|never|1|The ions are free to move.|M
+M|Covalent compounds generally have|low melting and boiling points|very high melting points|no boiling point|metallic lustre|1|The forces between molecules are weak.|M
+M|A polar covalent bond is one in which the electrons are|shared unequally|shared equally|transferred completely|absent|1|The more electronegative atom attracts them more.|M
+M|A non-polar covalent bond is one in which the electrons are|shared equally|shared unequally|transferred|absent|1|It occurs between identical atoms such as H₂.|M
+M|Which of the following contains a non-polar bond?|Cl₂|HCl|H₂O|NH₃|1|The two chlorine atoms share electrons equally.|M
+M|Which of the following contains a polar covalent bond?|HCl|Cl₂|O₂|N₂|1|Chlorine is more electronegative than hydrogen.|M
+M|In a coordinate covalent bond|both shared electrons come from one atom|electrons are transferred|no electrons are shared|the electrons come from the nucleus|1|One atom donates a lone pair.|M
+M|The ammonium ion NH₄⁺ contains|a coordinate covalent bond|only ionic bonds|only metallic bonds|no bonds|1|The lone pair of nitrogen is donated to H⁺.|H
+M|A metallic bond is the attraction between|positive metal ions and a sea of free electrons|two non-metals|two negative ions|two protons|1|The delocalised electrons hold the metal ions together.|M
+M|Hydrogen bonding occurs when hydrogen is bonded to|fluorine, oxygen or nitrogen|carbon only|sodium|helium|1|These atoms are small and highly electronegative.|M
+M|The high boiling point of water is due to|hydrogen bonding|ionic bonding|metallic bonding|its colour|1|Hydrogen bonds hold the molecules together strongly.|M
+M|The shape of a water molecule is|bent|linear|tetrahedral|trigonal planar|1|The two lone pairs on oxygen bend the molecule.|M
+M|The shape of a carbon dioxide molecule is|linear|bent|tetrahedral|pyramidal|1|The two double bonds are opposite each other.|M
+M|The shape of a methane molecule is|tetrahedral|linear|bent|pyramidal|1|Four bonds spread out in three dimensions.|M
+M|The shape of an ammonia molecule is|pyramidal|linear|bent|tetrahedral|1|One lone pair on nitrogen gives a pyramid.|M
+M|In a Lewis dot structure, the dots represent|valence electrons|neutrons|protons|nuclei|1|Only outer electrons are shown.|E
+M|The number of lone pairs on the oxygen atom in water is|0|1|2|3|3|Oxygen has 6 valence electrons and uses 2 in bonds, leaving 4 electrons, which make 2 lone pairs.|M
+M|Magnesium oxide is formed when magnesium|loses two electrons to oxygen|gains two electrons from oxygen|shares two electrons with oxygen|loses protons|1|Mg²⁺ and O²⁻ ions attract each other.|M
+M|London dispersion forces exist between|all molecules, and are the only forces between non-polar molecules|ionic compounds only|metals only|nuclei|1|They arise from temporary dipoles.|H
+N|Find the total number of valence electrons in a water molecule. (H has 1, O has 6)|8|2 × 1 + 6 = 8.|E|2*1+6
+N|Find the total number of valence electrons in a carbon dioxide molecule. (C has 4, O has 6)|16|4 + 2 × 6 = 16.|M|4+2*6
+N|Find the total number of valence electrons in an ammonia molecule. (N has 5, H has 1)|8|5 + 3 × 1 = 8.|E|5+3*1
+N|Find the number of covalent bonds in a methane molecule, CH₄.|4|Carbon forms four single bonds with hydrogen.|E|4
+N|Find the number of shared pairs of electrons in a nitrogen molecule, N₂.|3|Nitrogen atoms share a triple bond.|M|3
+N|Find the number of electrons transferred in the formation of magnesium oxide, MgO.|2|Magnesium loses two electrons to oxygen.|M|2
+N|Find the number of chloride ions that combine with one magnesium ion in MgCl₂.|2|Mg²⁺ needs two Cl⁻ for a neutral compound.|M|2
+N|Find the total number of valence electrons in a methane molecule. (C has 4, H has 1)|8|4 + 4 × 1 = 8.|E|4+4*1
+N|Find the number of shared electrons in the double bond of an oxygen molecule.|4|A double bond is two shared pairs, which is 4 electrons.|M|2*2
+N|Find the number of lone pairs on the nitrogen atom in ammonia.|1|Nitrogen has 5 valence electrons and uses 3 in bonds, leaving one lone pair.|M|1
+N|Find the number of bonds, counting a double bond as two, in ethene, C₂H₄ (four C–H bonds and one C=C).|6|4 + 2 = 6.|H|4+2
+N|Find the difference in electronegativity between chlorine (3.0) and sodium (0.9).|2.1|3.0 − 0.9 = 2.1.|M|3.0-0.9
+N|Find the difference in electronegativity between oxygen (3.5) and hydrogen (2.1).|1.4|3.5 − 2.1 = 1.4.|M|3.5-2.1
+N|Find the total number of electrons shared in a carbon dioxide molecule, which has two double bonds.|8|Two double bonds share 4 pairs, which is 8 electrons.|H|2*4
+S|Define a chemical bond.|The force of attraction that holds atoms together in a molecule or compound.|Atoms bond to achieve a stable electronic arrangement.|E
+S|State the octet rule.|Atoms tend to gain, lose or share electrons so that they have eight electrons in their outermost shell.|Hydrogen and helium follow the duplet rule.|E
+S|Distinguish between an ionic bond and a covalent bond.|An ionic bond is formed by the transfer of electrons from a metal to a non-metal. A covalent bond is formed by the sharing of electrons between non-metal atoms.|NaCl is ionic and H₂O is covalent.|M
+S|List three properties of ionic compounds.|They have high melting and boiling points, they are usually soluble in water, and they conduct electricity when molten or dissolved.|They are hard, brittle crystalline solids.|M
+S|What is hydrogen bonding? Give one example.|An attraction between a hydrogen atom bonded to fluorine, oxygen or nitrogen and a lone pair on another such atom. It occurs between water molecules.|It explains the high boiling point of water.|M
+S|Define a coordinate covalent bond.|A covalent bond in which both the shared electrons are provided by one of the two atoms.|It occurs in the ammonium ion NH₄⁺.|M
+
+# 5 Physical States of Matter
+M|The three states of matter are|solid, liquid and gas|metal, non-metal and gas|hot, cold and warm|atom, ion and molecule|1|Matter exists as a solid, liquid or gas.|E
+M|In the kinetic molecular theory of gases, gas molecules are|in constant random motion|at rest|fixed in position|arranged in a lattice|1|They move rapidly and randomly.|E
+M|The pressure of a gas is caused by|collisions of molecules with the walls of the container|the weight of the molecules|attraction between the molecules|the colour of the gas|1|Molecules hit the walls and exert a force.|M
+M|Boyle's law states that, at constant temperature, the volume of a fixed mass of gas is|inversely proportional to its pressure|directly proportional to its pressure|independent of its pressure|equal to its pressure|1|PV = constant.|E
+M|Charles's law states that, at constant pressure, the volume of a fixed mass of gas is|directly proportional to its absolute temperature|inversely proportional to its absolute temperature|independent of temperature|proportional to its pressure|1|V/T = constant.|E
+M|Absolute zero is|0 K|0 °C|100 K|273 K|1|It is the lowest possible temperature, −273 °C.|E
+M|The temperature in kelvin is the temperature in °C plus|273|100|32|0|1|K = °C + 273.|E
+M|Standard temperature and pressure (STP) are|0 °C and 1 atm|25 °C and 2 atm|100 °C and 1 atm|0 °C and 0 atm|1|STP is 273 K and 101.3 kPa.|E
+M|The volume of one mole of any gas at STP is|22.4 dm³|24 dm³|1 dm³|44.8 dm³|1|The molar volume of a gas at STP is 22.4 dm³.|E
+M|Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain|the same number of molecules|the same mass|the same number of atoms of each kind|different numbers of molecules|1|The number of molecules depends only on volume at fixed T and P.|M
+M|The ideal gas equation is|PV = nRT|PV = nT|P = nRTV|V = nRT/P²|1|It combines the gas laws.|M
+M|The value of the gas constant R is about|0.0821 L atm/mol K|8.21 L atm/mol K|100 L atm/mol K|0.0001 L atm/mol K|1|R = 0.0821 L atm mol⁻¹ K⁻¹.|M
+M|Diffusion is|the spreading of a gas to fill the available space|the compression of a gas|the melting of a solid|the freezing of a liquid|1|Gas molecules mix on their own through random motion.|E
+M|Graham's law states that the rate of diffusion of a gas is|inversely proportional to the square root of its molar mass|proportional to its molar mass|independent of its molar mass|proportional to the square of its molar mass|1|Lighter gases diffuse faster.|H
+M|Of the gases hydrogen, oxygen and carbon dioxide, the fastest diffusing is|hydrogen|oxygen|carbon dioxide|all equal|1|Hydrogen is the lightest.|M
+M|Evaporation is|the escape of molecules from the surface of a liquid at any temperature|boiling only|freezing|melting|1|The fastest molecules leave the surface.|E
+M|The vapour pressure of a liquid|increases with temperature|decreases with temperature|stays the same|is zero|1|More molecules escape at a higher temperature.|M
+M|The boiling point of a liquid is the temperature at which|its vapour pressure equals the external pressure|it freezes|it melts|its density is highest|1|At that point bubbles form throughout the liquid.|M
+M|Viscosity is the|resistance of a liquid to flow|ability of a liquid to evaporate|density of a liquid|colour of a liquid|1|Honey is more viscous than water.|E
+M|Surface tension is the|tendency of a liquid surface to contract to the smallest area|resistance of a liquid to flow|boiling point of a liquid|mass of a liquid|1|It makes drops spherical.|M
+M|Crystalline solids have|a regular repeating arrangement of particles|no definite arrangement|a liquid-like structure|only one atom|1|They have sharp melting points.|M
+M|Amorphous solids|have no regular arrangement of particles|have a regular crystal structure|have a sharp melting point|are always metals|1|Glass and plastic are examples.|M
+M|Allotropy is the existence of an element in|two or more different forms in the same physical state|one form only|only the gaseous state|only the liquid state|1|Diamond and graphite are allotropes of carbon.|M
+M|Diamond and graphite are|allotropes of carbon|isotopes of carbon|compounds of carbon|mixtures|1|They differ in how their carbon atoms are arranged.|E
+M|Which allotrope of carbon conducts electricity?|Graphite|Diamond|Neither|Both|1|Graphite has free electrons between its layers.|M
+M|The hardest natural substance is|diamond|graphite|iron|quartz|1|Each carbon atom is bonded to four others.|E
+M|Gases can be compressed easily because|there is a lot of space between their molecules|their molecules are large|they are heavy|their molecules attract strongly|1|The molecules are far apart.|E
+M|A gas has|no fixed shape or volume|a fixed shape|a fixed volume|a fixed shape and volume|1|It takes the shape and volume of its container.|E
+M|A liquid has|a fixed volume but no fixed shape|a fixed shape|no fixed volume|a fixed shape and volume|1|It takes the shape of its container.|E
+M|When a gas is heated at constant volume, its pressure|increases|decreases|stays the same|becomes zero|1|The molecules strike the walls harder and more often.|M
+N|A gas has a pressure of 2 atm and a volume of 10 L. Find the volume in litres when the pressure becomes 5 atm at constant temperature.|4|P₁V₁ = P₂V₂, so V₂ = 2 × 10 ÷ 5 = 4.|M|2*10/5
+N|A gas has a pressure of 4 atm and a volume of 3 L. Find the volume in litres when the pressure becomes 6 atm at constant temperature.|2|V₂ = 4 × 3 ÷ 6 = 2.|M|4*3/6
+N|A gas occupies 6 L at 300 K. Find its volume in litres at 600 K and constant pressure.|12|V₂ = 6 × 600 ÷ 300 = 12.|M|6*600/300
+N|Convert 27 °C to kelvin.|300|27 + 273 = 300.|E|27+273
+N|Find the number of moles in 44.8 dm³ of a gas at STP.|2|n = 44.8 ÷ 22.4 = 2.|E|44.8/22.4
+N|Find the volume in dm³ of 0.5 mole of a gas at STP.|11.2|V = 0.5 × 22.4 = 11.2.|E|0.5*22.4
+N|Find the mass in grams of 11.2 dm³ of oxygen (molar mass 32 g/mol) at STP.|16|n = 0.5 and m = 0.5 × 32 = 16.|M|11.2/22.4*32
+N|How many times faster does hydrogen (M = 2) diffuse than oxygen (M = 32)?|4|Rate ratio = √(32/2) = 4.|H|Math.sqrt(32/2)
+N|Using PV = nRT with R = 0.0821, find n for P = 1 atm, V = 22.4 L and T = 273 K, to one decimal place.|1.0|n = 22.4 ÷ (0.0821 × 273) = 1.0.|H|1*22.4/(0.0821*273)
+N|A gas at 1 atm, 2 L and 300 K is heated to 600 K and compressed to 2 atm. Find the new volume in litres.|2|V₂ = (1 × 2 × 600) ÷ (300 × 2) = 2.|H|1*2*600/(300*2)
+N|Convert −273 °C to kelvin.|0|−273 + 273 = 0.|E|-273+273
+N|For a gas, P = 3 atm and V = 8 L. Find the product PV in L atm.|24|PV = 3 × 8 = 24.|E|3*8
+N|Find the density of carbon dioxide (molar mass 44 g/mol) at STP in g/dm³, to two decimal places.|1.96|Density = 44 ÷ 22.4 = 1.96.|H|44/22.4
+N|Find the number of moles in 5.6 dm³ of a gas at STP.|0.25|n = 5.6 ÷ 22.4 = 0.25.|M|5.6/22.4
+S|State Boyle's law.|At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure, so PV is constant.|P₁V₁ = P₂V₂.|E
+S|State Charles's law.|At constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature, so V/T is constant.|The temperature must be in kelvin.|E
+S|State Avogadro's law.|Equal volumes of all gases at the same temperature and pressure contain equal numbers of molecules.|One mole of any gas occupies 22.4 dm³ at STP.|M
+S|Define diffusion.|The spontaneous mixing of gases or liquids because of the random motion of their molecules.|Lighter gases diffuse faster.|E
+S|What is allotropy? Give an example.|The existence of an element in two or more different forms in the same physical state. Diamond and graphite are allotropes of carbon.|They differ in the arrangement of atoms.|M
+S|Distinguish between a crystalline solid and an amorphous solid.|A crystalline solid has a regular repeating arrangement of particles and a sharp melting point. An amorphous solid has no regular arrangement and softens over a range of temperatures.|Salt is crystalline and glass is amorphous.|M
+
+# 6 Solutions
+M|A solution is|a homogeneous mixture of two or more substances|a heterogeneous mixture|a pure element|a compound|1|The composition is uniform throughout.|E
+M|In a solution, the substance that is dissolved is called the|solute|solvent|solution|colloid|1|The solute dissolves in the solvent.|E
+M|In a solution, the substance that dissolves the other is called the|solute|solvent|precipitate|alloy|2|The solvent is usually present in the larger amount.|E
+M|A solution in which water is the solvent is called|an aqueous solution|a gaseous solution|an alloy|a suspension|1|Aqueous means in water.|E
+M|A saturated solution is one that|cannot dissolve any more solute at that temperature|can dissolve more solute|has no solute|is always dilute|1|It holds the maximum amount of solute.|E
+M|An unsaturated solution is one that|can dissolve more solute at that temperature|cannot dissolve more solute|has no solvent|is always solid|1|It has less than the maximum amount.|E
+M|A supersaturated solution contains|more solute than a saturated solution at that temperature|less solute than a saturated solution|no solute|a solvent only|1|It is unstable and can crystallise.|M
+M|The solubility of a substance is the|maximum amount that dissolves in 100 g of solvent at a given temperature|amount of solvent|colour of the solution|boiling point of the solvent|1|Solubility is usually given in g per 100 g of water.|M
+M|The solubility of most solids in water|increases with temperature|decreases with temperature|does not change|is zero|1|Heating usually dissolves more solid.|M
+M|The solubility of gases in water|decreases as the temperature rises|increases as the temperature rises|does not change|is zero|1|Warm water holds less dissolved gas.|M
+M|The molarity of a solution is|moles of solute per litre of solution|moles of solute per kilogram of solvent|mass of solute per litre|mass of solute per 100 g|1|M = n/V.|E
+M|The unit of molarity is|mol/L or M|g/L|mol/kg|g/mol|1|It is moles per litre.|E
+M|A 1 M solution contains|1 mole of solute per litre of solution|1 gram of solute per litre|1 mole of solute per kilogram of solvent|1 litre of solute|1|By definition.|E
+M|The percentage by mass of a solution is|(mass of solute ÷ mass of solution) × 100|(mass of solvent ÷ mass of solution) × 100|(mass of solute ÷ mass of solvent) × 100|volume of solute × 100|1|It is the mass of solute in 100 g of solution.|M
+M|A concentrated solution has|a large amount of solute in a given volume|a small amount of solute|no solute|only solvent|1|It contains a relatively high amount of solute.|E
+M|A dilute solution has|a small amount of solute in a given volume|a large amount of solute|no solvent|only solute|1|It contains a relatively small amount of solute.|E
+M|Parts per million (ppm) is used to express|very low concentrations|very high concentrations|volumes|temperatures|1|1 ppm is 1 mg per kg of solution.|M
+M|A colloid is a mixture in which the particle size is|between that of a solution and a suspension|smaller than in a solution|larger than in a suspension|zero|1|Particles are between 1 nm and 1000 nm.|M
+M|The scattering of light by colloidal particles is called the|Tyndall effect|Doppler effect|Bohr effect|Faraday effect|1|It makes a light beam visible in a colloid.|M
+M|Milk is an example of|a colloid|a true solution|an element|a compound|1|It is a liquid dispersed in a liquid.|M
+M|A suspension|settles on standing|never settles|is a true solution|is a pure substance|1|Its particles are large enough to settle.|M
+M|Sugar dissolved in water forms|a true solution|a suspension|a colloid|an emulsion|1|The sugar molecules are evenly dispersed.|E
+M|The rule 'like dissolves like' means that|polar solvents dissolve polar solutes|polar solvents dissolve non-polar solutes|all solvents dissolve everything|water dissolves oil|1|Similar polarity favours dissolving.|M
+M|Which of these is miscible with water?|Ethanol|Oil|Petrol|Kerosene|1|Ethanol forms hydrogen bonds with water.|M
+M|A solution of a gas in a liquid is|soda water|brass|air|steel|1|Carbon dioxide dissolves in water.|M
+M|Brass is a solution of|zinc in copper|copper in iron|carbon in iron|gold in silver|1|It is a solid solution, an alloy.|M
+M|The component of a solution present in the smaller amount is usually the|solute|solvent|precipitate|catalyst|1|The solute is the smaller part.|E
+M|Stirring a solute in a solvent|speeds up dissolving|slows dissolving|stops dissolving|reduces the solubility|1|It brings fresh solvent to the solute.|M
+M|Increasing the surface area of a solid solute by crushing it|speeds up the rate of dissolving|slows the rate of dissolving|increases the solubility|has no effect|1|More surface is in contact with the solvent.|M
+M|A solution is made more dilute by|adding more solvent|adding more solute|evaporating the solvent|cooling it only|1|Adding solvent reduces the concentration.|E
+N|Find the molarity of a solution that contains 0.5 mole of solute in 2 litres of solution.|0.25|M = 0.5 ÷ 2 = 0.25.|E|0.5/2
+N|Find the mass in grams of NaOH (molar mass 40 g/mol) needed to make 1 litre of a 1 M solution.|40|m = 1 × 40 = 40.|E|1*40
+N|10 g of salt are dissolved in 90 g of water. Find the percentage by mass of the solution.|10|10 ÷ (10 + 90) × 100 = 10.|E|10/(10+90)*100
+N|Find the volume in mL of a 0.5 M solution that can be made by diluting 50 mL of a 2 M solution.|200|M₁V₁ = M₂V₂, so V₂ = 2 × 50 ÷ 0.5 = 200.|H|2*50/0.5
+N|Find the number of moles in 0.5 litre of a 0.2 M solution.|0.1|n = 0.2 × 0.5 = 0.1.|M|0.2*0.5
+N|Find the mass in grams of 0.1 mole of sodium chloride (molar mass 58.5 g/mol).|5.85|m = 0.1 × 58.5 = 5.85.|M|0.1*58.5
+N|20 g of sugar are dissolved to make 80 g of solution. Find the percentage by mass of sugar.|25|20 ÷ 80 × 100 = 25.|E|20/80*100
+N|A solution contains 5 mg of a pollutant in 1 kg of water. Find its concentration in ppm.|5|1 mg per kg is 1 ppm, so it is 5 ppm.|M|5/1
+N|Find the volume in litres of a 4 M solution that contains 2 moles of solute.|0.5|V = 2 ÷ 4 = 0.5.|M|2/4
+N|5 g of a solute are dissolved in 100 mL of solution. Find the percentage weight by volume.|5|5 ÷ 100 × 100 = 5.|E|5/100*100
+N|The solubility of a salt is 36 g per 100 g of water. Find the mass in grams that dissolves in 250 g of water.|90|36 × 250 ÷ 100 = 90.|M|36*250/100
+N|0.5 mole of solute is dissolved in 0.25 kg of solvent. Find the molality in mol/kg.|2|Molality = 0.5 ÷ 0.25 = 2.|M|0.5/0.25
+N|Find the molarity of a solution made by dissolving 4 g of NaOH (molar mass 40 g/mol) in 500 mL of solution.|0.2|n = 4 ÷ 40 = 0.1 mol in 0.5 L, so M = 0.2.|H|4/40/0.5
+N|Find the mass in grams of solute in 250 mL of a 2 M solution of NaOH (molar mass 40 g/mol).|20|n = 2 × 0.25 = 0.5 mol, so m = 0.5 × 40 = 20.|H|2*0.25*40
+S|Define a solution, a solute and a solvent.|A solution is a homogeneous mixture of two or more substances. The solute is the substance that dissolves and the solvent is the substance in which it dissolves.|In sugar water, sugar is the solute and water is the solvent.|E
+S|Distinguish between a saturated and an unsaturated solution.|A saturated solution holds the maximum amount of solute at a given temperature. An unsaturated solution can still dissolve more solute.|A supersaturated solution holds more than the maximum.|E
+S|Define the molarity of a solution.|The number of moles of solute dissolved per litre of solution, M = n/V.|Its unit is mol/L.|E
+S|Define solubility.|The maximum amount of a solute that dissolves in 100 g of a solvent at a given temperature to form a saturated solution.|It changes with temperature.|M
+S|Distinguish between a true solution, a colloid and a suspension.|In a true solution the particles are tiny, do not settle and cannot be seen. A colloid has medium-sized particles that scatter light but do not settle. A suspension has large particles that settle on standing.|Sugar water, milk and muddy water are examples.|M
+S|What is the Tyndall effect?|The scattering of a beam of light by colloidal particles, which makes the beam visible.|It distinguishes a colloid from a true solution.|M

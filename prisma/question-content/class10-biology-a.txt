@@ -1,0 +1,161 @@
+@level Class 10
+@subject Biology
+
+# 1 Gaseous Exchange
+M|Gaseous exchange is the|exchange of oxygen and carbon dioxide between an organism and its environment|digestion of food|removal of urine|growth of bones|1|Oxygen goes in and carbon dioxide goes out.|E
+M|A good respiratory surface is|thin, moist and has a large surface area|thick and dry|small|hard|1|These features help gases diffuse quickly.|E
+M|The air passage in humans that leads from the nose to the lungs, in order, is|nose, pharynx, larynx, trachea, bronchi, bronchioles, alveoli|nose, trachea, pharynx, larynx|nose, alveoli, bronchi|mouth, stomach, lungs|1|Air passes through each in turn.|M
+M|The windpipe is also called the|trachea|larynx|pharynx|oesophagus|1|It is kept open by C-shaped rings of cartilage.|E
+M|The trachea is kept open by|rings of cartilage|rings of bone|muscles only|water|1|The cartilage prevents it from collapsing.|E
+M|The voice box is the|larynx|trachea|pharynx|bronchus|1|It contains the vocal cords.|E
+M|The tiny air sacs in the lungs where gaseous exchange takes place are the|alveoli|bronchi|bronchioles|capillaries|1|They have thin walls and a rich blood supply.|E
+M|Alveoli are adapted for gaseous exchange because they|have thin walls and a large total surface area|are thick-walled|have no blood supply|are dry|1|There are millions of them.|E
+M|The total surface area of the human alveoli is about|70 m²|7 cm²|700 mm²|1 m²|1|It is about the size of a tennis court.|M
+M|During inspiration (breathing in), the diaphragm|contracts and flattens|relaxes and rises|stays the same|moves up|1|The chest volume increases.|E
+M|During inspiration, the intercostal muscles|contract and raise the ribs|relax and lower the ribs|stay the same|disappear|1|The ribs move up and out.|E
+M|During expiration (breathing out), the diaphragm|relaxes and rises|contracts and flattens|moves down|stays flat|1|The chest volume decreases.|E
+M|During inspiration, the air pressure inside the lungs|falls below atmospheric pressure|rises above atmospheric pressure|stays the same|is zero|1|Air flows in because the pressure inside is lower.|M
+M|Gases move across the alveolar wall by|diffusion|osmosis|active transport|digestion|1|They move from high to low concentration.|E
+M|Oxygen from the alveolus diffuses into the|blood in the capillaries|bronchus|trachea|nose|1|It is picked up by haemoglobin.|E
+M|Carbon dioxide diffuses from the|blood into the alveoli|alveoli into the blood|nose into the lung|brain into the lung|1|It is breathed out.|E
+M|The percentage of oxygen in inhaled air is about|21 percent|16 percent|4 percent|78 percent|1|Dry air is 21 percent oxygen.|E
+M|The percentage of oxygen in exhaled air is about|16 percent|21 percent|4 percent|0 percent|1|Some oxygen is absorbed by the blood.|M
+M|The percentage of carbon dioxide in exhaled air is about|4 percent|0.04 percent|21 percent|78 percent|1|It is about 100 times higher than in inhaled air.|M
+M|The tidal volume of an adult at rest is about|500 mL|5 L|50 mL|5 mL|1|It is the volume breathed in or out in one normal breath.|M
+M|The vital capacity of the lungs is the|maximum volume of air that can be breathed out after a deep breath in|volume of one normal breath|volume of air that always stays in the lungs|total number of alveoli|1|It is about 4 to 5 litres in an adult.|M
+M|The normal breathing rate of an adult at rest is about|15 breaths per minute|60 breaths per minute|2 breaths per minute|100 breaths per minute|1|It is about 12 to 20.|E
+M|Cilia and mucus in the trachea|trap dust and germs|digest food|make sound|absorb oxygen|1|The cilia sweep the mucus upwards.|E
+M|The disease in which the bronchioles narrow because of an allergic reaction is|asthma|tuberculosis|pneumonia|cholera|1|It causes wheezing and difficulty breathing.|E
+M|The disease caused by a bacterium and affecting the lungs is|tuberculosis|diabetes|goitre|scurvy|1|It is caused by Mycobacterium tuberculosis.|E
+M|Smoking damages the lungs because tobacco smoke contains|tar, nicotine and carbon monoxide|only oxygen|only nitrogen|only water vapour|1|Tar causes cancer.|E
+M|Carbon monoxide in smoke reduces the oxygen-carrying capacity of blood because it|binds to haemoglobin|binds to plasma only|destroys platelets|makes more red cells|1|It forms carboxyhaemoglobin.|M
+M|Emphysema is a disease in which|the walls of the alveoli break down|the stomach is damaged|the bones are soft|the brain swells|1|The surface area for gaseous exchange is reduced.|M
+M|Gaseous exchange in fish takes place through the|gills|skin only|lungs|mouth only|1|Water passes over the gills.|E
+M|Gaseous exchange in insects takes place through|tracheae|lungs|gills|skin only|1|Air enters the spiracles and tracheae.|M
+M|Gaseous exchange in plants takes place mainly through the|stomata|bark|roots only|flowers only|1|Lenticels also help in stems.|E
+M|Lenticels are small pores in the|bark of woody stems|leaves|flowers|roots only|1|They allow gas exchange in stems.|M
+M|Gaseous exchange in an amoeba takes place through the|cell membrane by diffusion|lungs|gills|stomata|1|It is a single cell with a large surface area to volume ratio.|M
+M|The respiratory pigment in human blood is|haemoglobin|chlorophyll|melanin|keratin|1|It carries oxygen as oxyhaemoglobin.|E
+M|Most of the carbon dioxide is carried in the blood as|hydrogencarbonate ions|carbon dioxide gas only|carbon monoxide|oxygen|1|It dissolves as HCO₃⁻ in the plasma.|H
+M|The bronchi divide into smaller tubes called|bronchioles|alveoli|capillaries|tracheae|1|Each ends in clusters of alveoli.|E
+M|The lungs are protected by the|rib cage|skull|pelvis|femur|1|The ribs form a cage.|E
+M|The thin membrane that covers the lungs is the|pleura|pericardium|peritoneum|meninges|1|It reduces friction during breathing.|M
+M|The muscle that separates the chest from the abdomen is the|diaphragm|biceps|triceps|deltoid|1|It is the main muscle of breathing.|E
+M|Breathing out forcefully uses|the abdominal and internal intercostal muscles|the diaphragm only|no muscles|the heart|1|They squeeze the chest.|H
+M|Lung cancer is strongly linked to|smoking|exercise|vitamin C|clean air|1|Smoking is its main cause.|E
+M|Pneumonia is an infection of the|lungs|stomach|brain|skin|1|The alveoli fill with fluid.|E
+N|The tidal volume is 500 mL and the breathing rate is 15 breaths per minute. Find the volume of air breathed in per minute in mL.|7500|500 × 15 = 7500.|E|500*15
+N|A person breathes 20 times per minute. Find the number of breaths in one hour.|1200|20 × 60 = 1200.|E|20*60
+N|Inhaled air has 21 percent oxygen and exhaled air 16 percent. Find the percentage of oxygen absorbed.|5|21 − 16 = 5.|M|21-16
+N|A person breathes 7500 mL of air per minute, which has 21 percent oxygen. Find the volume of oxygen inhaled per minute in mL.|1575|7500 × 0.21 = 1575.|H|7500*0.21
+N|Exhaled air has 4 percent CO₂ and inhaled air has 0.04 percent. Find the increase in percentage points.|3.96|4 − 0.04 = 3.96.|M|4-0.04
+N|The vital capacity of a person is 4.5 L and the residual volume is 1.5 L. Find the total lung capacity in litres.|6|4.5 + 1.5 = 6.|M|4.5+1.5
+S|Define gaseous exchange.|The exchange of oxygen and carbon dioxide between an organism and its environment, by diffusion across a respiratory surface.|In humans it takes place in the alveoli.|E
+S|List the features of a good respiratory surface.|It is thin, moist, has a large surface area and a rich blood supply, and it is permeable to gases.|The alveoli have all these features.|E
+S|Describe how air is breathed in.|The diaphragm contracts and flattens, and the intercostal muscles raise the ribs. The volume of the chest increases, the pressure falls below atmospheric pressure and air rushes in.|Breathing out reverses this.|M
+S|Describe how oxygen reaches the blood in the lungs.|Oxygen from the air in the alveoli dissolves in the moist lining and diffuses through the thin wall into the blood in the capillaries, where it combines with haemoglobin.|It moves from high to low concentration.|M
+S|State two harmful effects of smoking.|It causes lung cancer and damage to the alveoli (emphysema). Carbon monoxide reduces the blood's oxygen-carrying ability.|It also causes heart disease.|M
+S|Name two respiratory diseases.|Asthma and tuberculosis. Pneumonia and bronchitis are others.|Some are caused by germs and some by allergies or pollution.|E
+
+# 2 Homeostasis
+M|Homeostasis is the|maintenance of a constant internal environment|loss of water|growth of the body|digestion of food|1|Body temperature, water and glucose are kept steady.|E
+M|The main excretory organs in humans are the|kidneys|stomach|ears|bones|1|They remove nitrogenous wastes from the blood.|E
+M|Excretion is the|removal of metabolic wastes from the body|taking in of food|growth|movement|1|It includes urea, carbon dioxide and water.|E
+M|The main nitrogenous waste product in humans is|urea|glucose|starch|oxygen|1|It is made in the liver from excess amino acids.|E
+M|Urea is made in the|liver|kidney|heart|lung|1|Excess amino acids are deaminated there.|M
+M|The functional unit of the kidney is the|nephron|neuron|alveolus|villus|1|Each kidney has about a million nephrons.|E
+M|Urine formation begins with the filtration of blood in the|glomerulus|loop of Henle|collecting duct|bladder|1|Blood is filtered under pressure into the Bowman's capsule.|M
+M|The structure that surrounds the glomerulus is the|Bowman's capsule|loop of Henle|ureter|urethra|1|It collects the filtrate.|E
+M|The reabsorption of useful substances such as glucose takes place mainly in the|proximal convoluted tubule|glomerulus|bladder|ureter|1|All the glucose is reabsorbed there.|M
+M|Water is reabsorbed in the|loop of Henle and collecting duct|ureter|bladder|urethra|1|The amount depends on ADH.|M
+M|The tube that carries urine from the kidney to the bladder is the|ureter|urethra|renal vein|aorta|1|It has muscular walls.|E
+M|The tube that carries urine out of the body is the|urethra|ureter|renal artery|vena cava|1|It opens to the outside.|E
+M|Urine is stored in the|bladder|kidney|liver|ureter|1|It is released by urination.|E
+M|The hormone that controls the amount of water reabsorbed by the kidney is|ADH|insulin|adrenaline|thyroxine|1|Antidiuretic hormone from the pituitary.|M
+M|ADH is released by the|pituitary gland|thyroid|pancreas|liver|1|It acts on the collecting ducts.|M
+M|When the blood is too concentrated, more ADH is released and the urine becomes|less in volume and more concentrated|more dilute|more in volume|clear|1|Water is conserved.|M
+M|The normal body temperature of a human is about|37 °C|27 °C|47 °C|57 °C|1|It is maintained by the hypothalamus.|E
+M|The part of the brain that controls body temperature is the|hypothalamus|cerebellum|medulla|cerebrum|1|It acts as the thermostat.|M
+M|When the body is too hot, the skin|sweats and the blood vessels widen|stops sweating|shivers|gets covered in hair|1|Vasodilation and sweating lose heat.|M
+M|When the body is too cold, the skin|blood vessels narrow and shivering begins|sweats|expands|flushes|1|Vasoconstriction reduces heat loss.|M
+M|Sweating cools the body because|the evaporation of sweat takes heat from the skin|sweat is cold|sweat is salty|sweat contains oxygen|1|Evaporation needs heat.|E
+M|The hormone that lowers blood glucose is|insulin|glucagon|adrenaline|thyroxine|1|It is made by the pancreas.|E
+M|The hormone that raises blood glucose is|glucagon|insulin|oestrogen|ADH|1|It converts glycogen into glucose.|M
+M|The disease in which the body cannot control blood glucose is|diabetes|goitre|anaemia|tuberculosis|1|Insulin is lacking or not working.|E
+M|The storage form of glucose in the liver is|glycogen|starch|cellulose|fat|1|It is stored in the liver and muscles.|E
+M|The kidneys of a patient fail. A treatment is|dialysis|insulin|vitamins|antibiotics|1|A machine cleans the blood.|E
+M|A kidney transplant is|replacing a diseased kidney with a healthy one from a donor|removing both kidneys|using an artificial lung|giving a drug|1|It can cure kidney failure.|E
+M|Kidney stones are formed from|salts that crystallise in the kidney|oxygen|vitamins|hormones|1|They can block the ureter.|M
+M|The skin helps in excretion by|sweating|digesting|reproducing|absorbing food|1|Sweat contains water, salts and a little urea.|E
+M|The lungs help in excretion by removing|carbon dioxide and water vapour|urea|glucose|bile|1|They are excretory organs.|E
+M|The liver helps in homeostasis by|storing glycogen and breaking down toxins|making hormones only|digesting fat in the mouth|pumping blood|1|It regulates blood sugar and detoxifies.|M
+M|Bile pigments are the waste products of|the breakdown of haemoglobin|the digestion of fats|the digestion of starch|photosynthesis|1|They are excreted in bile.|H
+M|Osmoregulation is the control of|water and salt balance|body temperature|blood glucose|heart rate|1|The kidneys play the major role.|M
+M|A person who drinks a lot of water will produce|a large volume of dilute urine|a small volume of concentrated urine|no urine|blood|1|Less ADH is released.|M
+M|In the kidney, the blood is filtered under|high pressure|low pressure|no pressure|negative pressure|1|The afferent vessel is wider than the efferent one.|H
+M|Glucose in the urine can be a sign of|diabetes|anaemia|goitre|scurvy|1|The blood glucose is too high for the kidney to reabsorb.|M
+M|The renal artery carries|blood to the kidney|urine to the bladder|blood from the kidney|bile|1|It brings oxygenated blood with urea.|M
+M|The renal vein carries|blood away from the kidney|urine|bile|lymph only|1|It carries blood with less urea.|M
+N|The kidneys filter about 125 mL of blood per minute. Find the volume filtered in 24 hours in litres.|180|125 × 60 × 24 ÷ 1000 = 180.|H|125*60*24/1000
+N|A person makes 1.5 litres of urine per day. Find the volume in mL.|1500|1.5 × 1000 = 1500.|E|1.5*1000
+N|A dialysis patient has 4 hours of dialysis three times a week. Find the hours per week.|12|4 × 3 = 12.|E|4*3
+N|Normal body temperature is 37 °C. A fever of 39.5 °C is how many degrees above normal?|2.5|39.5 − 37 = 2.5.|E|39.5-37
+N|A person has 5 L of blood with 0.1 percent glucose. Find the mass of glucose in grams, taking 1 L = 1000 g.|5|5000 g × 0.001 = 5.|H|5000*0.001
+N|Out of 180 L of filtrate, 178.5 L is reabsorbed. Find the volume of urine in litres.|1.5|180 − 178.5 = 1.5.|M|180-178.5
+S|Define homeostasis and give two examples.|The maintenance of a constant internal environment in the body. Examples are the control of body temperature and the control of blood glucose.|It is controlled by negative feedback.|E
+S|Name the parts of the nephron and state what each does.|The glomerulus and Bowman's capsule filter the blood, the tubule reabsorbs useful substances, and the loop of Henle and collecting duct reabsorb water.|Urine flows to the bladder.|M
+S|How does the body respond to a rise in temperature?|The blood vessels in the skin widen and the sweat glands produce sweat. Heat is lost by radiation and by evaporation of the sweat.|The hypothalamus detects the change.|M
+S|Describe how blood glucose is regulated.|When blood glucose is high, the pancreas releases insulin, which causes the liver to store glucose as glycogen. When it is low, glucagon causes the liver to release glucose.|This is an example of negative feedback.|M
+S|State the role of ADH.|ADH increases the reabsorption of water in the kidney tubules and so reduces the amount of water lost in urine.|It is released when the blood is too concentrated.|M
+S|What is dialysis?|A way of removing wastes such as urea from the blood of a person with kidney failure, using a machine with a partially permeable membrane.|It is needed several times a week.|E
+
+# 3 Coordination and Control
+M|Coordination in animals is brought about by|the nervous system and the endocrine system|only bones|only the stomach|only the heart|1|Both help organs to work together.|E
+M|The two parts of the central nervous system are the|brain and spinal cord|brain and heart|spinal cord and liver|nerves and muscles|1|The rest of the system is peripheral.|E
+M|The basic unit of the nervous system is the|neuron|nephron|alveolus|villus|1|A neuron is a nerve cell.|E
+M|The part of the neuron that carries impulses towards the cell body is the|dendrite|axon|myelin sheath|synapse|1|Dendrites receive messages.|M
+M|The part of the neuron that carries impulses away from the cell body is the|axon|dendrite|nucleus|cytoplasm|1|The axon can be very long.|M
+M|The gap between two neurons is called a|synapse|node|ganglion|nerve|1|Chemical messengers cross it.|M
+M|A sensory neuron carries impulses|from a receptor to the CNS|from the CNS to a muscle|between the brain and the heart|within a muscle|1|It brings information in.|E
+M|A motor neuron carries impulses|from the CNS to an effector|from a receptor to the CNS|only in the brain|only between organs|1|It sends instructions out.|E
+M|A reflex action is|a rapid automatic response to a stimulus|a deliberate action|a slow action|a learned skill|1|It protects the body.|E
+M|The pathway of a reflex action is called the|reflex arc|nerve cell|synapse|axon|1|It involves a receptor, sensory neuron, relay neuron, motor neuron and effector.|E
+M|The correct order in a reflex arc is|receptor, sensory neuron, relay neuron, motor neuron, effector|effector, motor neuron, sensory neuron, receptor|receptor, effector, neuron, brain|brain, receptor, effector|1|The impulse travels in this order.|M
+M|The part of the brain that controls thinking, memory and voluntary actions is the|cerebrum|cerebellum|medulla|hypothalamus|1|It is the largest part of the brain.|E
+M|The part of the brain that controls balance and coordination of movements is the|cerebellum|cerebrum|medulla|pituitary|1|It lies at the back of the brain.|E
+M|The part of the brain that controls involuntary actions such as breathing and heartbeat is the|medulla oblongata|cerebrum|cerebellum|pituitary|1|It joins the brain to the spinal cord.|E
+M|The spinal cord is protected by the|vertebral column|skull|ribs|pelvis|1|The vertebrae enclose it.|E
+M|The brain is protected by the|skull|ribs|vertebrae|pelvis|1|The cranium encloses it.|E
+M|The coloured part of the eye is the|iris|cornea|retina|lens|1|It controls the size of the pupil.|E
+M|The transparent front part of the eye that refracts light is the|cornea|iris|retina|sclera|1|It does most of the focusing.|E
+M|The light-sensitive layer at the back of the eye is the|retina|cornea|iris|choroid|1|It contains rods and cones.|E
+M|Rod cells are for|vision in dim light|colour vision|hearing|taste|1|They are more sensitive.|M
+M|Cone cells are for|colour vision in bright light|vision in dim light|hearing|smell|1|There are three types of cones.|M
+M|In bright light, the pupil|becomes smaller|becomes larger|stays the same|closes forever|1|This protects the retina.|E
+M|The ear bone that is attached to the eardrum is the|malleus|stapes|femur|ulna|1|The three ear ossicles are malleus, incus and stapes.|M
+M|The organ of hearing in the inner ear is the|cochlea|semicircular canals|eustachian tube|pinna|1|It converts vibrations to nerve impulses.|M
+M|The organ of balance in the ear is the|semicircular canals|cochlea|eardrum|pinna|1|They detect head movements.|M
+M|Endocrine glands produce|hormones|enzymes|bile|saliva|1|Hormones are released into the blood.|E
+M|The master gland of the body is the|pituitary|thyroid|pancreas|adrenal|1|It controls other glands.|E
+M|The hormone secreted by the thyroid gland is|thyroxine|insulin|adrenaline|oestrogen|1|It controls metabolic rate.|E
+M|The hormone secreted by the adrenal glands in emergencies is|adrenaline|insulin|testosterone|growth hormone|1|It prepares the body for fight or flight.|E
+M|Insulin is secreted by the|pancreas|liver|pituitary|thyroid|1|It lowers blood glucose.|E
+M|The male sex hormone is|testosterone|oestrogen|progesterone|insulin|1|It is made by the testes.|E
+M|The female sex hormone made by the ovaries is|oestrogen|testosterone|insulin|thyroxine|1|It controls female characteristics.|E
+M|Compared with the nervous system, the endocrine system|acts more slowly and its effects last longer|acts faster|uses nerves|has no effect|1|Hormones travel in the blood.|M
+M|The plant hormone that promotes cell elongation is|auxin|adrenaline|insulin|thyroxine|1|It is made in the shoot tip.|M
+M|The growth of a plant shoot towards light is called|phototropism|geotropism|hydrotropism|thigmotropism|1|The shoot bends towards light.|E
+M|The growth of roots downwards in response to gravity is called|geotropism|phototropism|hydrotropism|thigmotropism|1|Roots are positively geotropic.|E
+M|A stimulus is|a change in the environment that causes a response|a hormone|a muscle|a nerve|1|It is detected by a receptor.|E
+N|A nerve impulse travels at 100 m/s along a nerve 1 m long. Find the time taken in seconds.|0.01|Time = 1 ÷ 100 = 0.01.|M|1/100
+N|A person has 12 pairs of cranial nerves. Find the total number of cranial nerves.|24|12 × 2 = 24.|E|12*2
+N|A person has 31 pairs of spinal nerves. Find the total number of spinal nerves.|62|31 × 2 = 62.|E|31*2
+N|A reflex takes 0.05 s and a voluntary response takes 0.25 s. Find the difference in seconds.|0.2|0.25 − 0.05 = 0.2.|M|0.25-0.05
+N|The human eye has about 120 million rods and 6 million cones. Find the number of rods for each cone.|20|120 ÷ 6 = 20.|M|120/6
+N|The human brain has about 86 billion neurons. Find the number in millions.|86000|86 × 1000 = 86 000 million.|M|86*1000
+S|Name the two parts of the nervous system and state the parts of each.|The central nervous system is the brain and spinal cord. The peripheral nervous system is the nerves that connect them to the rest of the body.|The nerves are sensory and motor.|E
+S|Define a reflex action and give an example.|A rapid, automatic response to a stimulus that does not involve the brain's decision, such as pulling the hand away from a hot object.|It protects the body from harm.|E
+S|Draw up the path of a reflex arc in words.|Stimulus, receptor, sensory neuron, spinal cord (relay neuron), motor neuron, effector (muscle), response.|The brain is not involved in the response.|M
+S|State two functions of the cerebellum and the medulla.|The cerebellum controls balance and coordinates muscle movements. The medulla controls breathing and heart rate.|Both lie at the base of the brain.|M
+S|Distinguish between the nervous and endocrine systems.|The nervous system sends rapid electrical impulses along nerves and its effects are short. The endocrine system releases hormones into the blood and its effects are slower and last longer.|Both coordinate the body.|M
+S|Define phototropism.|The growth movement of a part of a plant in response to light. Shoots grow towards the light.|Auxin causes the effect.|M

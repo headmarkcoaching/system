@@ -1,0 +1,258 @@
+@level Class 10
+@subject Mathematics
+
+# 9 Chords of a Circle
+M|A line segment joining two points on a circle is called a|chord|tangent|radius|sector|1|A chord has both end points on the circle.|E
+M|A chord that passes through the centre is called a|diameter|tangent|secant|arc|1|The diameter is the chord through the centre.|E
+M|The longest chord of a circle is the|diameter|radius|tangent|minor chord|1|No chord is longer than the diameter.|E
+M|The perpendicular from the centre of a circle to a chord|bisects the chord|is longer than the radius|is parallel to the chord|does not meet the chord|1|The foot of the perpendicular is the mid-point of the chord.|M
+M|The line joining the centre of a circle to the mid-point of a chord is|perpendicular to the chord|parallel to the chord|equal to the chord|equal to the diameter|1|It meets the chord at right angles.|M
+M|Equal chords of a circle are|equidistant from the centre|at different distances from the centre|always diameters|always parallel|1|Equal chords lie at equal distances from the centre.|M
+M|Chords of a circle that are equidistant from the centre are|equal|unequal|parallel|diameters|1|This is the converse of the equal-chords theorem.|M
+M|The number of circles passing through three non-collinear points is|zero|one|two|infinitely many|2|There is exactly one circle through three non-collinear points.|M
+M|The number of circles passing through two given points is|zero|one|two|infinitely many|4|Any point on the perpendicular bisector of the segment can be a centre.|M
+M|The centre of the circle through three non-collinear points is the|circumcentre of the triangle they form|incentre|centroid|orthocentre|1|It is where the perpendicular bisectors meet.|M
+M|The perpendicular bisector of a chord passes through|the centre of the circle|the end of the chord|the circumference only|no fixed point|1|The centre is equidistant from both ends of the chord.|M
+M|A chord of 8 cm lies in a circle of radius 5 cm. Its distance from the centre is|2 cm|3 cm|4 cm|5 cm|2|Half the chord is 4, so the distance is √(25 − 16) = 3.|M
+M|A chord of 6 cm lies in a circle of radius 5 cm. Its distance from the centre is|2 cm|3 cm|4 cm|5 cm|3|Half the chord is 3, so the distance is √(25 − 9) = 4.|M
+M|A chord of 16 cm is 6 cm from the centre. The radius is|8 cm|10 cm|12 cm|14 cm|2|The radius is √(8² + 6²) = 10.|M
+M|Of two chords in a circle, the longer chord is|nearer the centre|farther from the centre|at the same distance|parallel to the shorter|1|A longer chord lies closer to the centre.|H
+M|Of two chords in a circle, the one nearer the centre is|longer|shorter|equal|a tangent|1|Closer to the centre means longer.|H
+M|The diameter of a circle of radius 7 cm is|3.5 cm|7 cm|14 cm|49 cm|3|Diameter = 2 × radius = 14.|E
+M|The distance of a diameter from the centre is|zero|equal to the radius|half the radius|undefined|1|A diameter passes through the centre.|M
+M|If chords AB and CD of a circle are equal, then their distances from the centre are|equal|different|zero|equal to the radius|1|Equal chords are equidistant from the centre.|M
+M|A line that cuts a circle at two points is called a|secant|tangent|radius|diameter|1|A secant meets the circle twice.|E
+M|The distance from the centre to a chord of length 8 in a circle of radius 5 is|3|4|5|6|1|√(25 − 16) = 3.|M
+M|A circle through three collinear points|does not exist|is unique|has radius 0|is infinite in number|1|Collinear points cannot lie on one circle.|H
+M|The perpendicular bisectors of two chords of a circle meet at|the centre|a point on the circle|a point outside the circle|no point|1|Both pass through the centre.|M
+M|The angle between the line from the centre to the mid-point of a chord and the chord is|90°|60°|45°|180°|1|The line from the centre to the mid-point is perpendicular to the chord.|M
+M|A radius that is perpendicular to a chord|bisects the chord|is equal to the chord|is parallel to the chord|does not meet the chord|1|The foot of the radius is the mid-point.|M
+M|The length of a chord at distance d from the centre of a circle of radius r is|2√(r² − d²)|√(r² − d²)|2(r − d)|r + d|1|Half the chord is √(r² − d²).|H
+M|In a circle of radius 13 cm a chord is 5 cm from the centre. Its length is|12 cm|18 cm|24 cm|26 cm|3|Half the chord is √(169 − 25) = 12, so the chord is 24.|H
+M|In a circle of radius 10 cm a chord is 6 cm from the centre. Its length is|8 cm|12 cm|16 cm|20 cm|3|Half the chord is √(100 − 36) = 8, so the chord is 16.|H
+M|Concentric circles have the same|centre|radius|circumference|chords|1|Concentric means sharing a centre.|E
+M|Of all chords of a circle, the one farthest from the centre is|the shortest|the longest|a diameter|equal to the radius|1|The farther a chord is from the centre, the shorter it is.|H
+M|A diameter divides a circle into|two semicircles|two quadrants|three arcs|two unequal parts|1|Both parts are half of the circle.|E
+M|If a chord of length 12 is bisected by a radius perpendicular to it, each half of the chord measures|3|6|12|24|2|12 ÷ 2 = 6.|E
+M|The mid-point of a chord and the centre of the circle together lie on|the perpendicular bisector of the chord|the chord itself|a tangent|the circumference|1|The perpendicular bisector of a chord passes through the centre.|H
+M|A chord of a circle of radius r that passes through the centre has length|r|2r|r/2|πr|2|A chord through the centre is a diameter.|E
+M|The converse of the theorem on the perpendicular from the centre to a chord says that the line from the centre to the mid-point of a chord is|perpendicular to the chord|parallel to the chord|equal to the chord|a tangent|1|The line from the centre to the mid-point meets the chord at right angles.|M
+N|A circle has radius 5 cm and a chord is 3 cm from the centre. Find the length of the chord in centimetres.|8|Half the chord is √(25 − 9) = 4, so the chord is 8.|M|2*Math.sqrt(25-9)
+N|A circle has radius 13 cm and a chord is 5 cm from the centre. Find the length of the chord in centimetres.|24|The chord is 2√(169 − 25) = 24.|M|2*Math.sqrt(169-25)
+N|A chord of 16 cm is in a circle of radius 10 cm. Find its distance from the centre in centimetres.|6|The distance is √(100 − 64) = 6.|M|Math.sqrt(100-64)
+N|A chord of 24 cm is 5 cm from the centre of a circle. Find the radius in centimetres.|13|The radius is √(144 + 25) = 13.|M|Math.sqrt(144+25)
+N|A chord of 10 cm is in a circle of radius 13 cm. Find its distance from the centre in centimetres.|12|Half the chord is 5, so the distance is √(169 − 25) = 12.|H|Math.sqrt(169-25)
+N|A chord of 30 cm is in a circle of radius 17 cm. Find its distance from the centre in centimetres.|8|Half the chord is 15, so the distance is √(289 − 225) = 8.|H|Math.sqrt(289-225)
+N|A chord of 48 cm is 7 cm from the centre of a circle. Find the radius in centimetres.|25|The radius is √(576 + 49) = 25.|H|Math.sqrt(576+49)
+N|A chord passes through the centre of a circle of radius 6 cm. Find its length in centimetres.|12|It is a diameter, so its length is 2 × 6 = 12.|E|2*Math.sqrt(36-0)
+N|The half-length of a chord is 6 cm and its distance from the centre is 8 cm. Find the radius in centimetres.|10|The radius is √(36 + 64) = 10.|M|Math.sqrt(36+64)
+N|A circle has radius 25 cm and a chord is 7 cm from the centre. Find the length of the chord in centimetres.|48|The chord is 2√(625 − 49) = 48.|H|2*Math.sqrt(625-49)
+S|Define a chord of a circle.|A line segment whose end points both lie on the circle.|The longest chord is the diameter.|E
+S|State the theorem about the perpendicular from the centre to a chord.|The perpendicular from the centre of a circle to a chord bisects the chord.|The foot of the perpendicular is the mid-point of the chord.|M
+S|State the converse of the theorem about the perpendicular from the centre to a chord.|The line joining the centre of a circle to the mid-point of a chord is perpendicular to the chord.|It is used when the mid-point of a chord is known.|M
+S|How many circles can pass through three non-collinear points?|Exactly one.|Its centre is where the perpendicular bisectors of the sides of the triangle formed by the points meet.|M
+S|State the theorem about equal chords and their distances from the centre.|Equal chords of a circle are equidistant from the centre, and chords equidistant from the centre are equal.|The longer a chord, the nearer it lies to the centre.|M
+S|Why is the diameter the longest chord of a circle?|Any other chord is shorter because its distance from the centre is greater than zero, while the diameter passes through the centre.|The length of a chord is 2√(r² − d²), which is greatest when d = 0.|H
+
+# 10 Tangent to a Circle
+M|A tangent to a circle meets the circle at|exactly one point|exactly two points|no point|every point|1|A tangent touches the circle at one point only.|E
+M|The point where a tangent touches the circle is called the|point of contact|centre|midpoint|vertex|1|It is the single common point of the tangent and the circle.|E
+M|A tangent to a circle is perpendicular to the radius at|the point of contact|the centre|the mid-point of the radius|any point|1|The radius to the point of contact meets the tangent at right angles.|M
+M|The two tangents drawn from an external point to a circle are|equal in length|unequal in length|parallel|perpendicular|1|They are equal.|M
+M|The number of tangents that can be drawn to a circle from a point on the circle is|0|1|2|infinitely many|2|Only one tangent passes through a point on the circle.|M
+M|The number of tangents that can be drawn from an external point is|0|1|2|infinitely many|3|There are exactly two.|M
+M|The number of tangents that can be drawn from a point inside a circle is|0|1|2|infinitely many|1|Any line through an interior point cuts the circle twice.|M
+M|A line that meets a circle at two points is called a|secant|tangent|normal|radius|1|A secant cuts the circle in two points.|E
+M|If a tangent PT and a secant PAB are drawn from an external point P, then|PT² = PA × PB|PT = PA + PB|PT = PA × PB|PT² = PA + PB|1|This is the tangent-secant theorem.|H
+M|Two circles that touch each other externally have the distance between their centres equal to|the sum of their radii|the difference of their radii|zero|twice the larger radius|1|The centres and the point of contact are collinear and the radii add up.|M
+M|Two circles that touch each other internally have the distance between their centres equal to|the sum of their radii|the difference of their radii|zero|twice the smaller radius|2|The radii subtract.|M
+M|The number of common tangents to two circles touching externally is|1|2|3|4|3|Two direct tangents and one at the point of contact.|H
+M|The number of common tangents to two circles touching internally is|1|2|3|4|1|Only the tangent at the point of contact is common.|H
+M|The number of common tangents to two circles that do not meet and lie outside each other is|1|2|3|4|4|There are two direct and two transverse tangents.|H
+M|The number of common tangents to two circles that intersect at two points is|1|2|3|4|2|Only the two direct tangents exist.|H
+M|The length of the tangent from a point 13 cm from the centre of a circle of radius 5 cm is|8 cm|10 cm|12 cm|18 cm|3|√(13² − 5²) = 12.|M
+M|The angle between a tangent and the radius at the point of contact is|45°|60°|90°|180°|3|They are perpendicular.|E
+M|Tangents drawn at the two ends of a diameter are|parallel|perpendicular|intersecting|equal to the diameter|1|Both are perpendicular to the diameter, so they are parallel.|H
+M|The line joining the centre of a circle to an external point|bisects the angle between the two tangents from the point|is perpendicular to a tangent|is shorter than the radius|is a tangent|1|By symmetry the two tangents make equal angles with it.|H
+M|From a point 10 cm from the centre of a circle of radius 6 cm, the length of the tangent is|6 cm|8 cm|10 cm|16 cm|2|√(100 − 36) = 8.|M
+M|A tangent to a circle cannot pass through|an interior point of the circle|the point of contact|an exterior point|a point on the circle|1|All points of a tangent other than the point of contact lie outside the circle.|H
+M|If tangents PA and PB are drawn from P and ∠APB = 60°, then ∠AOB, where O is the centre, is|90°|100°|120°|130°|3|The quadrilateral OAPB has two right angles at A and B, so ∠AOB = 360 − 90 − 90 − 60 = 120.|H
+M|With OP = 5 cm and radius 3 cm, the tangent length PT is|2 cm|4 cm|5 cm|8 cm|2|√(25 − 9) = 4.|M
+M|Two tangents PA and PB are drawn from P. Then|PA = PB|PA > PB|PA < PB|PA = 2PB|1|Tangents from one external point are equal.|E
+M|A circle has radius 7 cm and a tangent is 24 cm long from an external point. The point's distance from the centre is|17 cm|25 cm|31 cm|576 cm|2|√(24² + 7²) = 25.|H
+M|A common tangent to two circles is a line that|touches both circles|cuts both circles|passes through both centres|is parallel to the line of centres|1|It is a tangent to each of them.|E
+M|A direct common tangent has both circles|on the same side of it|on opposite sides of it|inside it|outside it|1|A transverse tangent separates the circles.|H
+M|A transverse common tangent has the two circles|on the same side|on opposite sides|both inside|overlapping|2|It lies between the circles.|H
+M|Circles with the same centre are called|concentric|congruent|tangent|similar|1|Concentric circles share a centre.|E
+M|If the distance from the centre of a circle to a line equals the radius, the line is|a tangent|a secant|a diameter|a chord|1|The line touches the circle at exactly one point.|M
+M|If the distance from the centre of a circle to a line is less than the radius, the line is|a tangent|a secant|outside the circle|a diameter|2|The line cuts the circle at two points.|M
+M|If the distance from the centre of a circle to a line is greater than the radius, the line|does not meet the circle|is a tangent|is a secant|is a diameter|1|The line lies entirely outside the circle.|M
+N|A point P is 13 cm from the centre of a circle of radius 5 cm. Find the tangent length PT in centimetres.|12|PT = √(169 − 25) = 12.|M|Math.sqrt(169-25)
+N|A point P is 10 cm from the centre of a circle of radius 6 cm. Find the tangent length in centimetres.|8|PT = √(100 − 36) = 8.|M|Math.sqrt(100-36)
+N|A tangent of length 24 cm is drawn to a circle of radius 7 cm. Find the distance of the external point from the centre in centimetres.|25|OP = √(576 + 49) = 25.|H|Math.sqrt(576+49)
+N|Two circles of radii 4 cm and 6 cm touch externally. Find the distance between their centres in centimetres.|10|The distance is 4 + 6 = 10.|E|4+6
+N|Two circles of radii 9 cm and 4 cm touch internally. Find the distance between their centres in centimetres.|5|The distance is 9 − 4 = 5.|E|9-4
+N|Tangents PA and PB are drawn from P and ∠APB = 60°. Find ∠AOB in degrees, where O is the centre.|120|∠AOB = 360 − 90 − 90 − 60 = 120.|H|360-180-60
+N|From an external point P two tangents are drawn. PA = 7 cm. Find PB in centimetres.|7|Tangents from one external point are equal.|E|7
+N|A tangent PT and a secant PAB are drawn from P with PA = 4 cm and PB = 9 cm. Find PT in centimetres.|6|PT² = PA × PB = 36, so PT = 6.|H|Math.sqrt(4*9)
+N|A tangent PT of length 6 cm and a secant PAB are drawn from P with PA = 3 cm. Find the chord AB in centimetres.|9|PT² = PA × PB gives 36 = 3 × PB, so PB = 12 and AB = 12 − 3 = 9.|H|36/3-3
+N|A point is 17 cm from the centre of a circle of radius 8 cm. Find the tangent length in centimetres.|15|√(289 − 64) = 15.|H|Math.sqrt(289-64)
+S|Define a tangent to a circle.|A line that touches the circle at exactly one point, called the point of contact.|It lies outside the circle everywhere else.|E
+S|State the theorem about a tangent and the radius at the point of contact.|A tangent to a circle is perpendicular to the radius drawn to the point of contact.|It gives a right angle between the tangent and the radius.|M
+S|State the theorem about tangents drawn from an external point.|The two tangents drawn from an external point to a circle are equal in length.|If PA and PB are tangents then PA = PB.|M
+S|State the tangent-secant theorem.|If a tangent PT and a secant PAB are drawn from an external point P, then PT² = PA × PB.|It links the tangent length to the secant's two segments from P.|H
+S|How many common tangents can two circles touching each other externally have?|Three.|Two direct common tangents and one common tangent at the point of contact.|M
+S|Define the point of contact.|The single point where a tangent meets a circle.|The radius to this point is perpendicular to the tangent.|E
+
+# 11 Chords and Arcs
+M|An arc of a circle is|a part of its circumference|a chord|a radius|a tangent|1|An arc is a connected piece of the circle.|E
+M|An arc smaller than a semicircle is called a|minor arc|major arc|sector|segment|1|A minor arc measures less than 180°.|E
+M|An arc larger than a semicircle is called a|minor arc|major arc|sector|segment|2|A major arc measures more than 180°.|E
+M|A semicircle is an arc of|90°|120°|180°|360°|3|It is half of the circle.|E
+M|The angle subtended at the centre by an arc equals|the measure of the arc|twice the arc|half the arc|the arc length|1|The central angle and the arc have the same measure in degrees.|M
+M|Equal chords of a circle subtend|equal angles at the centre|different angles at the centre|right angles at the centre|no angle|1|Equal chords give equal central angles.|M
+M|If two angles at the centre of a circle are equal, the chords they stand on are|equal|unequal|parallel|diameters|1|This is the converse theorem.|M
+M|Equal arcs of a circle have|equal chords|different chords|no chords|equal tangents|1|Equal arcs correspond to equal chords.|M
+M|A longer arc subtends|a larger angle at the centre|a smaller angle at the centre|the same angle|no angle|1|The central angle is proportional to the arc.|M
+M|The angle subtended at the centre by a semicircle is|60°|90°|180°|360°|3|A semicircle is half the circle, which is 180°.|E
+M|The total angle at the centre of a circle is|90°|180°|270°|360°|4|A full turn is 360°.|E
+M|The length of an arc subtending θ° at the centre of a circle of radius r is|(θ/360) × 2πr|(θ/360) × πr²|θ × r|(360/θ) × 2πr|1|It is the fraction θ/360 of the circumference.|M
+M|The length of a semicircular arc of radius 7 cm, taking π = 22/7, is|11 cm|22 cm|44 cm|154 cm|2|πr = 22/7 × 7 = 22 cm.|M
+M|If a chord of a circle is equal to its radius, the angle it subtends at the centre is|30°|45°|60°|90°|3|The chord and the two radii form an equilateral triangle.|M
+M|A chord of a circle of radius r subtending 90° at the centre has length|r|r√2|2r|r/2|2|By Pythagoras √(r² + r²) = r√2.|H
+M|A sector is the region bounded by|two radii and an arc|a chord and an arc|two chords|a tangent and a radius|1|It is a slice of the circle.|E
+M|The area of a sector with central angle θ° in a circle of radius r is|(θ/360) × πr²|(θ/360) × 2πr|θ × πr²|(360/θ) × πr²|1|It is the fraction θ/360 of the whole area.|M
+M|If arc AB equals arc CD in a circle, then|chord AB = chord CD|chord AB > chord CD|chord AB < chord CD|AB is parallel to CD|1|Equal arcs have equal chords.|M
+M|If the central angle is doubled, the length of the arc is|halved|doubled|the same|quadrupled|2|Arc length is proportional to the central angle.|M
+M|A chord that subtends 180° at the centre is a|diameter|tangent|radius|secant|1|The chord passes through the centre.|M
+M|An arc of 100° subtends an angle at the centre of|50°|100°|200°|260°|2|The central angle equals the arc measure.|E
+M|The measure of a minor arc is always|less than 180°|equal to 180°|more than 180°|equal to 360°|1|By definition a minor arc is less than a semicircle.|E
+M|The measure of a major arc is always|less than 180°|equal to 180°|more than 180°|zero|3|By definition a major arc is more than a semicircle.|E
+M|The circumference of a circle of radius r is|πr²|2πr|πr|4πr|2|C = 2πr.|E
+M|A quarter of a circle is an arc of|45°|90°|180°|270°|2|360 ÷ 4 = 90.|E
+M|An arc that is one-third of a circle subtends at the centre an angle of|60°|90°|120°|180°|3|360 ÷ 3 = 120.|E
+M|The sum of the measures of all arcs that make up a circle is|90°|180°|270°|360°|4|The arcs together form the whole circle.|E
+M|Equal arcs of a circle subtend|equal angles at the centre|unequal angles|right angles|no angle|1|Equal arcs mean equal central angles.|M
+M|The arc length is proportional to|the central angle|the square of the central angle|the chord only|the area only|1|Doubling the angle doubles the arc.|M
+M|A chord divides a circle into|a minor arc and a major arc|two equal arcs always|three arcs|no arcs|1|Unless it is a diameter, the two arcs are unequal.|E
+M|The angle at the centre standing on an arc of 70° measures|35°|70°|140°|290°|2|The central angle equals the arc.|E
+M|The angle at the centre of a circle subtended by an arc of length equal to the radius, in radians, is|1|2|π|0.5|1|By definition one radian is the angle that gives an arc equal to the radius.|H
+M|Two chords of a circle subtend unequal angles at the centre. Then|the chord with the larger angle is longer|the chord with the larger angle is shorter|they are equal|they are parallel|1|A larger central angle means a longer chord.|H
+N|Find the length of an arc subtending 90° at the centre of a circle of radius 14 cm, taking π = 22/7, in centimetres.|22|Arc = 90/360 × 2 × 22/7 × 14 = 22.|M|90/360*2*22/7*14
+N|Find the length of an arc subtending 60° in a circle of radius 21 cm, taking π = 22/7, in centimetres.|22|Arc = 60/360 × 2 × 22/7 × 21 = 22.|M|60/360*2*22/7*21
+N|Find the area of a sector of 90° in a circle of radius 7 cm, taking π = 22/7, in square centimetres.|38.5|Area = 90/360 × 22/7 × 49 = 38.5.|M|90/360*22/7*49
+N|An arc is one-fifth of a circle. Find the angle it subtends at the centre in degrees.|72|360 ÷ 5 = 72.|M|360/5
+N|A chord subtending 60° at the centre of a circle of radius 8 cm. Find its length in centimetres.|8|The chord and two radii form an equilateral triangle, so the chord equals the radius, 8 cm.|M|8
+N|Find the length of a chord that subtends 90° at the centre of a circle of radius 5 cm, correct to two decimal places, in centimetres.|7.07|The chord is 5√2 = 7.07.|H|5*Math.sqrt(2)
+N|A minor arc is 110°. Find the measure of the corresponding major arc in degrees.|250|360 − 110 = 250.|E|360-110
+N|Find the length of a semicircular arc of radius 14 cm, taking π = 22/7, in centimetres.|44|Arc = πr = 22/7 × 14 = 44.|M|22/7*14
+N|Find the circumference of a circle of radius 7 cm, taking π = 22/7, in centimetres.|44|C = 2 × 22/7 × 7 = 44.|E|2*22/7*7
+N|Two arcs of a circle are in the ratio 1 : 3. Find the central angle of the smaller arc in degrees.|90|The angles are in the ratio 1 : 3, so the smaller is 360 ÷ 4 = 90.|H|360/4
+S|Define an arc of a circle.|A continuous part of the circumference of a circle.|It is called minor if it is less than a semicircle and major if it is more.|E
+S|Define a central angle.|An angle whose vertex is at the centre of a circle and whose arms are two radii.|It is subtended by the arc between the two radii.|E
+S|State the theorem about equal chords and the angles they subtend at the centre.|Equal chords of a circle subtend equal angles at the centre.|Its converse also holds: equal central angles give equal chords.|M
+S|State the relation between equal arcs and chords.|If two arcs of a circle are equal, their chords are equal, and if two chords are equal, their minor arcs are equal.|Equal arcs subtend equal angles at the centre.|M
+S|Define a sector of a circle.|The region enclosed by two radii and the arc between them.|Its area is the fraction θ/360 of the area of the circle.|E
+S|Find the length of an arc of 60° in a circle of radius 6 cm, taking π = 3.14.|6.28 cm|Arc = 60/360 × 2 × 3.14 × 6 = 6.28 cm.|M
+
+# 12 Angle in a Segment of a Circle
+M|The angle subtended at the centre by an arc is|twice the angle subtended at the circumference by the same arc|half the angle at the circumference|equal to the angle at the circumference|three times the angle at the circumference|1|This is the central angle theorem.|M
+M|Angles in the same segment of a circle are|equal|supplementary|complementary|different|1|All angles in one segment on the same chord are equal.|M
+M|The angle in a semicircle is|60°|90°|120°|180°|2|An angle in a semicircle is a right angle.|E
+M|An angle in a major segment is|acute|obtuse|a right angle|a straight angle|1|It is less than 90°.|M
+M|An angle in a minor segment is|acute|obtuse|a right angle|zero|2|It is more than 90°.|M
+M|A quadrilateral whose four vertices lie on a circle is called|a cyclic quadrilateral|a trapezium|a kite|a rhombus|1|Its vertices are concyclic.|E
+M|The opposite angles of a cyclic quadrilateral are|equal|supplementary|complementary|right angles|2|They add up to 180°.|M
+M|The exterior angle of a cyclic quadrilateral equals|the interior opposite angle|the adjacent interior angle|twice the interior angle|90°|1|The exterior angle is supplementary to its adjacent interior angle, which is itself supplementary to the opposite one.|H
+M|The angle at the centre is 100°. The angle at the circumference on the same arc is|25°|50°|100°|200°|2|Half of 100° is 50°.|E
+M|The angle at the circumference is 35°. The angle at the centre on the same arc is|17.5°|35°|70°|140°|3|Twice 35° is 70°.|E
+M|AB is a diameter and C is a point on the circle. Then ∠ACB is|45°|60°|90°|180°|3|The angle in a semicircle is a right angle.|E
+M|One angle of a cyclic quadrilateral is 80°. The opposite angle is|80°|100°|120°|280°|2|180 − 80 = 100.|M
+M|A parallelogram inscribed in a circle must be a|rectangle|rhombus|trapezium|kite|1|Opposite angles of a parallelogram are equal and also supplementary, so each is 90°.|H
+M|A trapezium inscribed in a circle must be|isosceles|right-angled|scalene|a square|1|A cyclic trapezium has equal non-parallel sides.|H
+M|Every rectangle is|a cyclic quadrilateral|a rhombus|a kite|a trapezium that is not a parallelogram|1|Opposite angles are 90° and 90°, which add up to 180°.|M
+M|A rhombus can be inscribed in a circle only if it is|a square|a kite|a trapezium|scalene|1|Opposite angles of a rhombus are equal, so they must each be 90°.|H
+M|Points that lie on one circle are called|concyclic|collinear|concurrent|congruent|1|Concyclic means lying on the same circle.|E
+M|If the opposite angles of a quadrilateral are supplementary, the quadrilateral is|cyclic|a rectangle|a parallelogram|a rhombus|1|This is the converse of the cyclic quadrilateral theorem.|H
+M|Angles subtended by the same chord at points on the same side of it are|equal|supplementary|complementary|doubled|1|They are angles in the same segment.|M
+M|In a cyclic quadrilateral ABCD, ∠A + ∠C equals|90°|180°|270°|360°|2|Opposite angles are supplementary.|M
+M|If ∠ABC = 40° and D lies in the same segment, then ∠ADC is|40°|50°|80°|140°|1|Angles in the same segment are equal.|M
+M|If the angle at the centre is 140°, the angle at the circumference in the major segment is|35°|70°|140°|280°|2|Half of 140° is 70°.|M
+M|A chord subtends 30° at the circumference. At the centre it subtends|15°|30°|60°|90°|3|Twice 30° is 60°.|M
+M|An angle inscribed in an arc of 120° measures|30°|60°|120°|240°|2|The inscribed angle is half the arc.|M
+M|The interior opposite angles of a cyclic quadrilateral add up to|90°|180°|270°|360°|2|They are supplementary.|E
+M|An exterior angle of a cyclic quadrilateral is 85°. The interior opposite angle is|85°|95°|105°|175°|1|The exterior angle equals the interior opposite angle.|H
+M|If a quadrilateral inscribed in a circle is a square, its diagonals are|diameters of the circle|chords of unequal length|tangents|radii|1|The diagonals of a square are equal and meet at the centre.|H
+M|If an angle at the circumference is 90°, the chord it stands on is|a diameter|a radius|a tangent|shorter than the radius|1|An angle of 90° at the circumference stands on a semicircle.|H
+M|A triangle inscribed in a semicircle, with the diameter as one side, is|right-angled|equilateral|obtuse|isosceles only|1|The angle opposite the diameter is 90°.|M
+M|The angle between a tangent and a chord at the point of contact equals|the angle in the alternate segment|the angle at the centre|the angle in the same segment|90°|1|This is the alternate segment theorem.|H
+M|If ∠AOB = 160° at the centre, then ∠ACB at a point C on the major arc is|40°|80°|160°|320°|2|Half of 160° is 80°.|M
+M|The angle in a semicircle is a right angle. This is a special case of the central angle theorem because|the central angle is 180° and half of it is 90°|the central angle is 90°|the arc is 90°|the chord is zero|1|A diameter subtends 180° at the centre, so it subtends 90° at the circumference.|H
+M|In a cyclic quadrilateral with ∠A = 70° and ∠B = 110°, which pair of angles is a possible pair of opposite angles?|∠A and ∠C|∠A and ∠B|∠B and ∠A|∠C and ∠B|1|Opposite angles are A and C, and B and D.|H
+N|The angle at the centre of a circle on an arc is 100°. Find the angle at the circumference on the same arc in degrees.|50|Half of 100° is 50°.|E|100/2
+N|The angle at the circumference on an arc is 35°. Find the angle at the centre in degrees.|70|Twice 35° is 70°.|E|35*2
+N|One angle of a cyclic quadrilateral is 80°. Find the opposite angle in degrees.|100|180 − 80 = 100.|M|180-80
+N|In a cyclic quadrilateral ABCD, ∠A = 110°. Find ∠C in degrees.|70|180 − 110 = 70.|M|180-110
+N|AB is a diameter of a circle and C is on the circle. Find ∠ACB in degrees.|90|The angle in a semicircle is 90°.|E|90
+N|∠ABC = 48° and D lies in the same segment of the circle. Find ∠ADC in degrees.|48|Angles in the same segment are equal.|M|48
+N|An exterior angle of a cyclic quadrilateral is 85°. Find the interior opposite angle in degrees.|85|They are equal.|M|85
+N|An arc measures 120°. Find the angle it subtends at the circumference in degrees.|60|Half of 120° is 60°.|M|120/2
+N|The opposite angles of a cyclic quadrilateral are x and 2x + 30. Find x in degrees.|50|x + 2x + 30 = 180, so x = 50.|H|(180-30)/3
+N|The angle at the centre is 160°. Find the angle at the circumference in the major segment in degrees.|80|Half of 160° is 80°.|M|160/2
+S|State the theorem about the angle at the centre and the angle at the circumference.|The angle subtended by an arc at the centre of a circle is twice the angle subtended by the same arc at any point on the remaining part of the circumference.|It is also called the central angle theorem.|M
+S|State the theorem about the angle in a semicircle.|An angle in a semicircle is a right angle.|If AB is a diameter and C is on the circle, then ∠ACB = 90°.|M
+S|State the theorem about the opposite angles of a cyclic quadrilateral.|The opposite angles of a cyclic quadrilateral are supplementary.|They add up to 180°.|M
+S|Define a cyclic quadrilateral.|A quadrilateral whose four vertices all lie on one circle.|Its vertices are said to be concyclic.|E
+S|State the converse of the cyclic quadrilateral theorem.|If the opposite angles of a quadrilateral are supplementary, the quadrilateral is cyclic.|It is used to prove that four points lie on a circle.|H
+S|Why is every rectangle a cyclic quadrilateral?|Each angle of a rectangle is 90°, so opposite angles add up to 90° + 90° = 180°, which makes the rectangle cyclic.|The converse of the cyclic quadrilateral theorem applies.|M
+
+# 13 Practical Geometry: Circles
+M|The centre of the circle passing through the three vertices of a triangle is found by drawing|the perpendicular bisectors of the sides|the angle bisectors|the medians|the altitudes|1|The perpendicular bisectors meet at the circumcentre.|M
+M|The centre of the circle that touches all three sides of a triangle from inside is found by drawing|the perpendicular bisectors of the sides|the angle bisectors|the medians|the altitudes|2|The angle bisectors meet at the incentre.|M
+M|The radius of the inscribed circle of a triangle is|the perpendicular distance from the incentre to a side|the distance from the incentre to a vertex|half a side|the altitude|1|The incircle touches each side at the foot of a perpendicular.|M
+M|A tangent at a point on a circle is drawn by|erecting a perpendicular to the radius at that point|drawing a line parallel to the radius|drawing a chord|joining two points of the circle|1|The tangent is perpendicular to the radius at the point of contact.|M
+M|The number of tangents that can be drawn from an external point is|0|1|2|3|3|Two tangents can be drawn.|E
+M|A circle drawn on the segment joining the centre and an external point as diameter is used to|find the points of contact of the tangents|find the circumcentre|find the incentre|find the centroid|1|The angle in a semicircle is 90°, so the points where the two circles meet are the points of contact.|H
+M|To circumscribe a circle about a triangle, the circle must pass through|the three vertices|the three mid-points of the sides|the three feet of the altitudes|none of the points|1|A circumscribed circle goes through all three vertices.|E
+M|A circle through three collinear points|cannot be drawn|is unique|has two possible centres|has radius 0|1|Collinear points do not lie on a circle.|M
+M|The circumcentre of a right-angled triangle is the|mid-point of the hypotenuse|vertex of the right angle|mid-point of a leg|centroid|1|The mid-point of the hypotenuse is equidistant from all three vertices.|H
+M|The radius of the circumcircle of an equilateral triangle of side a is|a/√3|a/2|a√3|a/3|1|The circumradius of an equilateral triangle is a/√3.|H
+M|The centre of a given circle can be found by drawing|the perpendicular bisectors of two chords|two radii|two diameters only|a tangent|1|The bisectors of two chords meet at the centre.|M
+M|A tangent to a circle meets the radius through the point of contact at|90°|45°|60°|180°|1|They are perpendicular.|E
+M|The circle that touches all three sides of a triangle from inside is called the|incircle|circumcircle|excircle|great circle|1|It is the inscribed circle.|E
+M|The circle that passes through all three vertices of a triangle is called the|incircle|circumcircle|excircle|unit circle|2|It is the circumscribed circle.|E
+M|A circle that touches one side of a triangle from outside and the extensions of the other two is called|an excircle|an incircle|a circumcircle|a unit circle|1|It is an escribed circle.|H
+M|The number of excircles of a triangle is|1|2|3|4|3|There is one opposite each vertex.|M
+M|The common tangent that has the two circles on opposite sides is called|a transverse common tangent|a direct common tangent|a secant|a diameter|1|It crosses between the circles.|H
+M|The common tangent that has both circles on the same side is called|a transverse common tangent|a direct common tangent|a secant|a chord|2|It does not cross between the circles.|H
+M|The first step in circumscribing a circle about a triangle with given sides is to|construct the triangle|bisect an angle|draw a tangent|draw an altitude|1|The triangle must exist before the circle is drawn.|E
+M|The second step in circumscribing a circle about a triangle is to|draw the perpendicular bisectors of two sides|draw a tangent|draw the diameter|draw a median|1|Two perpendicular bisectors meet at the circumcentre.|M
+M|To construct the incircle of a triangle, we bisect|two of the angles|two of the sides|a side and an angle|no angles|1|Two angle bisectors meet at the incentre.|M
+M|The number of incircles of a triangle is|1|2|3|0|1|A triangle has exactly one inscribed circle.|M
+M|The number of circumcircles of a triangle is|1|2|3|0|1|A triangle has exactly one circumscribed circle.|M
+M|In an equilateral triangle, the circumcentre and the incentre|coincide|are different points|lie outside the triangle|are on a side|1|All the centres of an equilateral triangle coincide.|H
+M|To draw a tangent at a point P of a circle with centre O, we join OP and|erect a perpendicular to OP at P|bisect OP|draw a parallel to OP|extend OP only|1|The tangent is perpendicular to OP at P.|M
+M|The compass is opened to the radius in order to|draw the circle|bisect the angle|draw a chord|draw the diameter|1|The distance from the centre is the radius.|E
+M|The inradius of a right triangle with sides 3, 4 and 5 is|1|2|1.5|2.5|1|r = (a + b − c)/2 = (3 + 4 − 5)/2 = 1.|H
+M|The circumradius of a right triangle with sides 3, 4 and 5 is|2|2.5|3|5|2|It is half the hypotenuse: 5/2 = 2.5.|H
+M|The perpendicular bisectors of two sides of a triangle meet at|the circumcentre|the incentre|the centroid|the orthocentre|1|The circumcentre is equidistant from the vertices.|M
+M|The angle bisectors of two angles of a triangle meet at|the circumcentre|the incentre|the centroid|a vertex|2|The incentre is equidistant from the sides.|M
+M|A line that touches a circle at exactly one point is|a tangent|a chord|a secant|a diameter|1|By definition a tangent has one common point.|E
+M|The point of contact of a tangent from an external point can be found using|the circle on the line from the centre to the point as diameter|the perpendicular bisector of a chord|a median|the angle bisector|1|The angle in a semicircle is a right angle.|H
+M|Two common tangents to two non-intersecting circles can cross between the circles. These are|transverse tangents|direct tangents|secants|diameters|1|Transverse tangents cross between the circles.|H
+N|Find the circumradius of a right triangle with sides 6, 8 and 10 in centimetres.|5|The circumradius is half the hypotenuse: 10 ÷ 2 = 5.|M|10/2
+N|Find the inradius of a right triangle with sides 3, 4 and 5 using r = (a + b − c)/2.|1|r = (3 + 4 − 5)/2 = 1.|H|(3+4-5)/2
+N|Find the inradius of a right triangle with sides 5, 12 and 13 using r = (a + b − c)/2.|2|r = (5 + 12 − 13)/2 = 2.|H|(5+12-13)/2
+N|Find the inradius of a right triangle with sides 6, 8 and 10 using r = (a + b − c)/2.|2|r = (6 + 8 − 10)/2 = 2.|H|(6+8-10)/2
+N|Find the circumradius of a right triangle with sides 5, 12 and 13.|6.5|The circumradius is half the hypotenuse: 13 ÷ 2 = 6.5.|M|13/2
+N|Find the inradius of the triangle 3, 4, 5 using r = area ÷ semi-perimeter.|1|The area is 6 and s = 6, so r = 6/6 = 1.|H|6/6
+N|Find the circumradius of an equilateral triangle of side 6 cm, correct to two decimal places, in centimetres.|3.46|R = 6/√3 = 3.46.|H|6/Math.sqrt(3)
+N|A circle has radius 4.5 cm. Find its diameter in centimetres.|9|Diameter = 2 × 4.5 = 9.|E|2*4.5
+N|A point is 10 cm from the centre of a circle of radius 6 cm. Find the length of the tangent in centimetres.|8|The tangent length is √(100 − 36) = 8.|M|Math.sqrt(100-36)
+N|The three angles of a triangle inscribed in a circle add up to what number of degrees?|180|The angles of any triangle add up to 180°.|E|180
+S|Describe how to construct the circumcircle of a triangle.|Construct the triangle. Draw the perpendicular bisectors of two sides. Where they meet is the centre. Open the compass to a vertex and draw the circle.|The circumcentre is equidistant from all three vertices.|M
+S|Describe how to construct the incircle of a triangle.|Bisect two angles of the triangle. Where the bisectors meet is the centre. Draw a perpendicular from it to a side to get the radius and draw the circle.|The incentre is equidistant from the three sides.|M
+S|Describe how to draw a tangent at a point P of a circle with centre O.|Join OP and draw the perpendicular to OP at P. That perpendicular is the tangent.|A tangent is perpendicular to the radius at the point of contact.|M
+S|Describe how to draw tangents to a circle from an external point P.|Join the centre O to P and find its mid-point M. With centre M and radius MO draw a circle meeting the given circle at A and B. Join PA and PB.|The angle in a semicircle is 90°, so PA and PB are perpendicular to the radii OA and OB.|H
+S|Why do the perpendicular bisectors of the sides of a triangle meet at one point?|The point where two of them meet is equidistant from all three vertices, so it also lies on the third bisector.|The point of concurrency is the circumcentre.|H
+S|Define the inscribed circle of a triangle.|The circle that lies inside the triangle and touches all three sides.|Its centre is the incentre.|E

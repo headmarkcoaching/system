@@ -1,0 +1,217 @@
+@level Class 10
+@subject Mathematics
+
+# 5 Sets and Functions
+M|A set is|a well-defined collection of distinct objects|any group of numbers only|a list of letters only|an ordered pair|1|A set is a collection in which it is clear what belongs and what does not.|E
+M|How many elements does the set {1, 2, 3} have?|1|2|3|6|3|It lists three elements.|E
+M|The empty set is written as|{0}|∅|{∅ and 0}|U|2|The empty set has no elements and is written ∅ or { }.|E
+M|The union A ∪ B contains|elements in both A and B only|elements in A or B or both|elements in A only|elements in neither|2|The union combines all the elements of both sets.|E
+M|The intersection A ∩ B contains|elements in A or B|elements in both A and B|elements in A only|elements in B only|2|The intersection holds only the common elements.|E
+M|If A = {1, 2, 3} and B = {3, 4}, then A ∪ B equals|{3}|{1, 2, 3, 4}|{1, 2, 4}|{1, 2, 3, 3, 4}|2|List each element once: 1, 2, 3, 4.|E
+M|If A = {1, 2, 3} and B = {3, 4}, then A ∩ B equals|{3}|{1, 2, 3, 4}|{1, 2}|{4}|1|Only 3 belongs to both.|E
+M|If A = {1, 2, 3} and B = {3, 4}, then A − B equals|{1, 2}|{3}|{4}|{1, 2, 3}|1|A − B has the elements of A that are not in B.|M
+M|The complement of A, written A′, contains|the elements of U that are not in A|the elements of A|the elements common to A and U|all numbers|1|A′ is everything in the universal set outside A.|M
+M|De Morgan's law states that (A ∪ B)′ equals|A′ ∪ B′|A′ ∩ B′|A ∩ B|(A ∩ B)′|2|The complement of a union is the intersection of the complements.|M
+M|De Morgan's law states that (A ∩ B)′ equals|A′ ∪ B′|A′ ∩ B′|A ∪ B|(A ∪ B)′|1|The complement of an intersection is the union of the complements.|M
+M|A is a subset of B if|every element of A is in B|every element of B is in A|A and B have no common element|A has more elements than B|1|A ⊆ B means every element of A also belongs to B.|E
+M|The number of subsets of the set {a, b} is|2|3|4|8|3|The subsets are ∅, {a}, {b} and {a, b}.|M
+M|A set with n elements has how many subsets?|n|2n|n²|2ⁿ|4|Each element is either in or out of a subset, giving 2ⁿ choices.|M
+M|Two sets A and B are disjoint if|A ∩ B = ∅|A ∪ B = ∅|A = B|A ⊆ B|1|Disjoint sets have no common elements.|E
+M|The Cartesian product A × B is the set of|ordered pairs (a, b) with a in A and b in B|common elements|elements of A only|unordered pairs|1|Every element of A is paired with every element of B.|M
+M|If A = {1, 2} and B = {a, b, c}, then n(A × B) is|5|6|8|2|2|n(A × B) = n(A) × n(B) = 2 × 3 = 6.|M
+M|A relation from A to B is|a subset of A × B|a subset of A only|a set of numbers only|an element of A|1|A relation is any collection of ordered pairs from A × B.|M
+M|The domain of a relation is the set of its|first elements|second elements|all elements|common elements|1|The domain holds the first elements of the ordered pairs.|E
+M|The range of a relation is the set of its|first elements|second elements|all elements|common elements|2|The range holds the second elements of the ordered pairs.|E
+M|A function is a relation in which|each element of the domain has exactly one image|each element has two images|some elements have no image|the range is empty|1|No input may have more than one output.|M
+M|Which relation is a function?|{(1, 2), (2, 3), (3, 4)}|{(1, 2), (1, 3), (2, 4)}|{(1, 2), (1, 5)}|{(2, 1), (2, 3)}|1|Each first element appears once.|M
+M|If f(x) = 2x + 1, then f(3) equals|5|6|7|9|3|f(3) = 2(3) + 1 = 7.|E
+M|A one-one function is one in which|different inputs give different outputs|every input gives the same output|the range is the codomain|the domain is empty|1|No two inputs share an output.|M
+M|A function is onto if|its range equals its codomain|each input has two outputs|its domain is empty|it is one-one only|1|Every element of the codomain is an image.|M
+M|A bijective function is one that is|one-one and onto|one-one only|onto only|neither one-one nor onto|1|It is both one-one and onto.|M
+M|The domain of the relation {(1, a), (2, b)} is|{a, b}|{1, 2}|{1, a}|{1, 2, a, b}|2|The first elements are 1 and 2.|E
+M|The universal set contains|all the elements under consideration|only numbers|only letters|no elements|1|It is the set of everything being discussed.|E
+M|For any set A, which statement is true?|A ⊆ A|A ⊂ A|A ⊈ A|A has no subsets|1|Every set is a subset of itself.|M
+M|The empty set is|a subset of every set|a subset of no set|equal to {0}|a member of every set|1|It has no element that could fail to belong to another set.|M
+M|If A ⊆ B and B ⊆ A, then|A = B|A ∩ B = ∅|A ⊂ B only|A and B are disjoint|1|The sets contain exactly the same elements.|M
+M|A ∪ B = B ∪ A is called the|commutative law|associative law|distributive law|De Morgan's law|1|The order of union does not matter.|M
+M|A ∩ (B ∪ C) equals|(A ∩ B) ∪ (A ∩ C)|(A ∪ B) ∩ (A ∪ C)|A ∪ B ∪ C|A ∩ B ∩ C|1|This is the distributive law of intersection over union.|H
+M|For two finite sets, n(A ∪ B) equals|n(A) + n(B)|n(A) + n(B) − n(A ∩ B)|n(A) × n(B)|n(A) − n(B)|2|The common elements are counted twice, so subtract n(A ∩ B) once.|M
+M|The power set of a set A is|the set of all subsets of A|the set of all elements of A|the complement of A|the union of A with itself|1|It contains every subset, including ∅ and A itself.|M
+N|If n(A) = 10, n(B) = 8 and n(A ∩ B) = 3, find n(A ∪ B).|15|n(A ∪ B) = 10 + 8 − 3 = 15.|M|10+8-3
+N|A set has 4 elements. Find the number of its subsets.|16|2⁴ = 16.|M|2^4
+N|If n(A) = 5 and n(B) = 6, find n(A × B).|30|5 × 6 = 30.|E|5*6
+N|If f(x) = 3x − 2, find f(4).|10|f(4) = 12 − 2 = 10.|E|3*4-2
+N|If f(x) = x² + 1, find f(−3).|10|f(−3) = 9 + 1 = 10.|M|(-3)*(-3)+1
+N|Find the number of subsets of a set with 3 elements.|8|2³ = 8.|E|2^3
+N|Find the number of proper subsets of a set with 3 elements.|7|A proper subset excludes the set itself: 2³ − 1 = 7.|M|2^3-1
+N|The universal set has 50 elements and n(A) = 18. Find n(A′).|32|n(A′) = 50 − 18 = 32.|E|50-18
+N|If f(x) = 2x + 5 and f(x) = 13, find x.|4|2x + 5 = 13, so x = 4.|M|(13-5)/2
+N|In a class, 30 students like tea, 20 like coffee and 10 like both. Find how many like tea or coffee.|40|n(T ∪ C) = 30 + 20 − 10 = 40.|M|30+20-10
+S|Define a set.|A well-defined collection of distinct objects, called its elements.|For example the set of vowels in English is {a, e, i, o, u}.|E
+S|Define the union and the intersection of two sets.|The union A ∪ B contains the elements in A or in B or in both. The intersection A ∩ B contains only the elements common to both.|If A = {1, 2} and B = {2, 3}, then A ∪ B = {1, 2, 3} and A ∩ B = {2}.|E
+S|State De Morgan's laws.|(A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′.|The complement of a union is the intersection of the complements, and vice versa.|M
+S|Define a function.|A relation from a set A to a set B in which each element of A is related to exactly one element of B.|No element of the domain may have two different images.|M
+S|Write the domain and the range of the relation {(1, 2), (2, 4), (3, 6)}.|Domain = {1, 2, 3} and range = {2, 4, 6}.|The domain lists the first elements and the range lists the second elements.|M
+S|If A = {1, 2, 3, 4} and B = {3, 4, 5}, find A − B.|{1, 2}|A − B contains the elements of A that are not in B.|E
+
+# 6 Basic Statistics
+M|The range of a set of data is|the highest value minus the lowest value|the mean minus the median|the number of values|the sum of the values|1|The range measures the spread between the extremes.|E
+M|The variance is the|square of the standard deviation|square root of the standard deviation|mean of the data|range divided by 2|1|The standard deviation is the square root of the variance.|M
+M|The standard deviation is the|square of the variance|square root of the variance|mean of the data|range|2|SD = √variance.|M
+M|For ungrouped data, the standard deviation is|√(Σ(x − x̄)²/n)|Σ(x − x̄)/n|Σx/n|(Σx)²/n|1|It is the square root of the average squared deviation from the mean.|M
+M|The variance of a set of identical values is|0|1|the value itself|undefined|1|There is no spread, so every deviation is zero.|M
+M|The standard deviation of 5, 5, 5, 5 is|0|1|5|20|1|All the values equal the mean, so all deviations are zero.|M
+M|Measures of dispersion tell us about the|spread of the data|centre of the data|total of the data|number of classes|1|Dispersion measures how widely the values vary.|E
+M|Which of these is a measure of central tendency?|Median|Range|Variance|Standard deviation|1|The median is a measure of central tendency. The others measure dispersion.|E
+M|The mean of 2, 4, 6 and 8 is|4|5|6|20|2|20 ÷ 4 = 5.|E
+M|The median of 1, 3, 5, 7 and 9 is|3|5|7|25|2|The middle value is 5.|E
+M|The mode of 1, 2, 2, 3, 3, 3 is|1|2|3|none|3|The value 3 occurs most often.|E
+M|If every value of a data set is multiplied by 2, the standard deviation|stays the same|is doubled|is halved|becomes four times|2|The spread scales by the same factor as the data.|H
+M|If 5 is added to every value, the standard deviation|stays the same|increases by 5|is doubled|becomes zero|1|Adding a constant shifts all values equally, so the spread does not change.|H
+M|The mean of grouped data with class marks x and frequencies f is|Σfx/Σf|Σf/Σfx|Σx/Σf|Σfx|1|Multiply each class mark by its frequency, add, and divide by the total frequency.|M
+M|The class mark is|the mid-point of a class|the frequency of a class|the lower limit|the upper limit|1|It is the average of the class limits.|E
+M|The modal class of grouped data is the class with the|highest frequency|lowest frequency|largest class mark|smallest width|1|The modal class is the most frequent class.|M
+M|The median class is the class in which|the cumulative frequency first reaches n/2|the frequency is greatest|the class mark is the largest|the lower limit is zero|1|The median lies at the middle of the ordered data.|H
+M|The sum of the deviations of the values from their mean is|0|1|n|the variance|1|Σ(x − x̄) = 0 always.|M
+M|A larger standard deviation means the data are|more spread out|closer to the mean|all equal|negative|1|A large SD means values lie far from the mean.|M
+M|A small standard deviation means the data are|close to the mean|far from the mean|all different|always negative|1|The values are tightly grouped around the mean.|M
+M|The coefficient of variation is|(SD ÷ mean) × 100|(mean ÷ SD) × 100|SD × mean|variance ÷ mean|1|It expresses the SD as a percentage of the mean.|H
+M|The relative frequency of a class is|its frequency divided by the total frequency|its frequency times the total|its class mark|its width|1|Relative frequency = f/n.|M
+M|A cumulative frequency curve is also called an|ogive|histogram|pie chart|bar chart|1|An ogive plots cumulative frequencies.|M
+M|For symmetrical data|the mean, median and mode are equal|the mean is greater than the mode|the median is zero|the range is zero|1|The centre of a symmetrical distribution is the same by all three measures.|H
+M|The range of 3, 8, 1 and 12 is|9|11|12|24|2|12 − 1 = 11.|E
+M|The variance of the numbers 2 and 4 is|1|2|3|6|1|The mean is 3 and the squared deviations are 1 and 1, so the variance is 2 ÷ 2 = 1.|M
+M|The standard deviation of the numbers 2 and 4 is|1|2|4|√2|1|The variance is 1, so the SD is 1.|M
+M|The unit of the variance is|the unit of the data|the square of the unit of the data|dimensionless|the cube of the unit|2|Deviations are squared, so the unit is squared.|H
+M|The mean of the first n natural numbers is|n/2|(n + 1)/2|n + 1|n(n + 1)/2|2|The sum is n(n + 1)/2 and dividing by n gives (n + 1)/2.|H
+M|Which of these is not a measure of dispersion?|Range|Variance|Mean|Standard deviation|3|The mean is a measure of central tendency.|E
+M|The assumed mean method is used to|simplify the calculation of the mean|find the mode|draw a pie chart|find the range|1|Working with deviations from an assumed mean gives smaller numbers.|M
+M|A frequency distribution is|a table showing values and how often they occur|a graph only|a list of the mean and mode|a measure of spread|1|It records each value or class with its frequency.|E
+M|The most frequent value in a set of data is the|mean|median|mode|range|3|The mode is the value that occurs most often.|E
+M|Which measure is least affected by extreme values?|Mean|Median|Range|Variance|2|Extreme values pull the mean far more than the median.|H
+M|Before calculating the median, the data must be|arranged in order|added|squared|doubled|1|The median is the middle value of the ordered data.|E
+M|The mean of the numbers 10, 20 and 30 is|10|20|30|60|2|60 ÷ 3 = 20.|E
+M|The variance is calculated using|squared deviations from the mean|the deviations themselves|the range|the mode|1|It is the average of the squared deviations.|M
+N|Find the range of 15, 3, 9 and 21.|18|21 − 3 = 18.|E|21-3
+N|Find the mean of 6, 8, 10, 12 and 14.|10|The sum is 50 and 50 ÷ 5 = 10.|E|(6+8+10+12+14)/5
+N|Find the variance of 1, 3 and 5, correct to two decimal places.|2.67|The mean is 3. The squared deviations are 4, 0 and 4, giving 8 ÷ 3 = 2.67.|H|8/3
+N|Find the variance of 2, 4, 6 and 8.|5|The mean is 5. The squared deviations are 9, 1, 1 and 9, giving 20 ÷ 4 = 5.|M|20/4
+N|Find the standard deviation of 2, 4, 6 and 8, correct to two decimal places.|2.24|The variance is 5, so the SD is √5 = 2.24.|H|Math.sqrt(5)
+N|Class marks 5, 15 and 25 have frequencies 2, 3 and 5. Find the mean.|18|Σfx = 10 + 45 + 125 = 180 and Σf = 10, so the mean is 18.|M|(2*5+3*15+5*25)/10
+N|Find the median of 4, 8, 1, 9 and 6.|6|In order: 1, 4, 6, 8, 9. The median is 6.|E|6
+N|The standard deviation of a set of data is 3. Find its variance.|9|Variance = SD² = 9.|E|3*3
+N|A data set has mean 20 and standard deviation 4. Find the coefficient of variation in percent.|20|CV = (4 ÷ 20) × 100 = 20.|M|4/20*100
+N|The variance of a set of data is 49. Find the standard deviation.|7|SD = √49 = 7.|E|Math.sqrt(49)
+S|Define the range.|The difference between the largest and the smallest value in a data set.|It is the simplest measure of dispersion.|E
+S|Define the variance.|The mean of the squared deviations of the values from their mean.|The standard deviation is the square root of the variance.|M
+S|Define the standard deviation.|The positive square root of the variance, a measure of how far values typically lie from the mean.|It has the same unit as the data.|M
+S|Find the mean and the range of 2, 5, 8 and 11.|Mean = 6.5 and range = 9.|The sum is 26, and 26 ÷ 4 = 6.5. The range is 11 − 2 = 9.|M
+S|What does a small standard deviation indicate?|The values are closely grouped around the mean, so there is little variation.|A large standard deviation shows greater spread.|E
+S|Find the mode of 3, 4, 4, 5, 6, 4 and 7.|4|The value 4 occurs three times, more than any other.|E
+
+# 7 Introduction to Trigonometry
+M|In a right triangle, sin θ equals|opposite ÷ hypotenuse|adjacent ÷ hypotenuse|opposite ÷ adjacent|hypotenuse ÷ opposite|1|Sine is opposite over hypotenuse.|E
+M|In a right triangle, cos θ equals|opposite ÷ hypotenuse|adjacent ÷ hypotenuse|opposite ÷ adjacent|adjacent ÷ opposite|2|Cosine is adjacent over hypotenuse.|E
+M|In a right triangle, tan θ equals|opposite ÷ hypotenuse|adjacent ÷ hypotenuse|opposite ÷ adjacent|adjacent ÷ opposite|3|Tangent is opposite over adjacent.|E
+M|cosec θ equals|1/sin θ|1/cos θ|1/tan θ|sin θ/cos θ|1|Cosecant is the reciprocal of sine.|E
+M|sec θ equals|1/sin θ|1/cos θ|1/tan θ|cos θ/sin θ|2|Secant is the reciprocal of cosine.|E
+M|cot θ equals|1/sin θ|1/cos θ|1/tan θ|sin θ × cos θ|3|Cotangent is the reciprocal of tangent.|E
+M|The value of sin 30° is|1/2|√3/2|1/√2|1|1|sin 30° = 1/2.|E
+M|The value of cos 60° is|1/2|√3/2|1/√2|0|1|cos 60° = 1/2.|E
+M|The value of tan 45° is|0|1|√3|1/√3|2|The opposite and adjacent sides are equal in a 45° triangle.|E
+M|The value of sin 45° is|1/2|1/√2|√3/2|1|2|sin 45° = 1/√2 = √2/2.|M
+M|The value of cos 30° is|1/2|1/√2|√3/2|1|3|cos 30° = √3/2.|E
+M|The value of tan 60° is|1/√3|1|√3|0|3|tan 60° = √3.|E
+M|The value of tan 30° is|1/√3|1|√3|0|1|tan 30° = 1/√3.|E
+M|The value of sin 90° is|0|1/2|1|undefined|3|sin 90° = 1.|E
+M|The value of cos 0° is|0|1|1/2|undefined|2|cos 0° = 1.|E
+M|The identity sin²θ + cos²θ equals|0|1|2|tan²θ|2|This is the basic Pythagorean identity.|E
+M|The identity 1 + tan²θ equals|sec²θ|cosec²θ|cot²θ|sin²θ|1|Divide sin²θ + cos²θ = 1 by cos²θ.|M
+M|The identity 1 + cot²θ equals|sec²θ|cosec²θ|tan²θ|cos²θ|2|Divide sin²θ + cos²θ = 1 by sin²θ.|M
+M|tan θ equals|sin θ ÷ cos θ|cos θ ÷ sin θ|sin θ × cos θ|1 ÷ sin θ|1|Dividing sine by cosine gives opposite over adjacent.|E
+M|sin(90° − θ) equals|sin θ|cos θ|tan θ|−sin θ|2|The sine of an angle equals the cosine of its complement.|M
+M|cos(90° − θ) equals|sin θ|cos θ|tan θ|−cos θ|1|The cosine of an angle equals the sine of its complement.|M
+M|tan(90° − θ) equals|tan θ|cot θ|sec θ|cosec θ|2|The tangent of an angle equals the cotangent of its complement.|M
+M|The value of sin 0° is|0|1|1/2|undefined|1|sin 0° = 0.|E
+M|In a right triangle with sides 3, 4 and 5, let θ be the angle opposite the side 3. Then sin θ is|3/5|4/5|3/4|5/3|1|Opposite 3 over hypotenuse 5.|E
+M|In a right triangle with sides 3, 4 and 5, let θ be the angle opposite the side 3. Then cos θ is|3/5|4/5|3/4|5/4|2|Adjacent 4 over hypotenuse 5.|E
+M|In a right triangle with sides 3, 4 and 5, let θ be the angle opposite the side 3. Then tan θ is|3/5|4/5|3/4|4/3|3|Opposite 3 over adjacent 4.|E
+M|The angle of elevation is measured|above the horizontal|below the horizontal|from the vertical|from a vertex|1|It is the angle upward from the horizontal to the line of sight.|E
+M|The angle of depression is measured|above the horizontal|below the horizontal|from the vertical|between two walls|2|It is the angle downward from the horizontal to the line of sight.|E
+M|The greatest value that sin θ can take is|1|2|0|∞|1|The sine of an angle never exceeds 1.|M
+M|If sin θ = 1/2 and θ is acute, then θ equals|30°|45°|60°|90°|1|sin 30° = 1/2.|E
+M|If tan θ = 1 and θ is acute, then θ equals|30°|45°|60°|90°|2|tan 45° = 1.|E
+M|If cos θ = 0 and θ is between 0° and 90° inclusive, then θ equals|0°|45°|60°|90°|4|cos 90° = 0.|M
+M|The value of sin 60° is|1/2|1/√2|√3/2|1|3|sin 60° = √3/2.|E
+M|The value of sec 0° is|0|1|√2|undefined|2|sec 0° = 1/cos 0° = 1.|M
+M|Which pair of values is correct?|sin 30° = 1/2 and cos 30° = √3/2|sin 30° = √3/2 and cos 30° = 1/2|sin 30° = 1 and cos 30° = 0|sin 30° = cos 30°|1|The sine of 30° is 1/2 and the cosine of 30° is √3/2.|M
+M|If sin θ = 3/5, then cos θ equals|3/4|4/5|5/3|5/4|2|cos²θ = 1 − 9/25 = 16/25, so cos θ = 4/5.|H
+M|The value of sin²45° + cos²45° is|0|1/2|1|2|3|This is the identity sin²θ + cos²θ = 1.|M
+N|Find sin 30° + cos 60°.|1|1/2 + 1/2 = 1.|E|0.5+0.5
+N|Find the value of tan 45° × tan 45°.|1|1 × 1 = 1.|E|1*1
+N|A 10 m ladder leans against a wall at 30° to the horizontal. Find how high it reaches in metres, using sin 30° = 0.5.|5|Height = 10 sin 30° = 5.|M|10*0.5
+N|Find sin²30° + cos²30° using the values 1/4 and 3/4 for the squares.|1|1/4 + 3/4 = 1.|M|0.25+0.75
+N|Find 2 sin 30° cos 30° correct to two decimal places.|0.87|2 × 1/2 × √3/2 = √3/2 = 0.87.|H|2*0.5*Math.sqrt(3)/2
+N|In a right triangle the legs are 3 and 4. Find the hypotenuse.|5|√(9 + 16) = 5.|E|Math.sqrt(9+16)
+N|If sin θ = 3/5, find cos θ as a decimal.|0.8|cos θ = √(1 − 9/25) = √(16/25) = 4/5 = 0.8.|M|Math.sqrt(1-9/25)
+N|The angle of elevation of the top of a tower from a point 20 m away is 45°. Find the height of the tower in metres, using tan 45° = 1.|20|Height = 20 × tan 45° = 20.|M|20*1
+N|If sin θ = 0.5 and θ is acute, find θ in degrees.|30|sin 30° = 0.5.|E|30
+N|Find tan 60° × tan 30°.|1|√3 × 1/√3 = 1.|M|Math.sqrt(3)*(1/Math.sqrt(3))
+S|Define sin θ, cos θ and tan θ for an acute angle in a right triangle.|sin θ = opposite ÷ hypotenuse, cos θ = adjacent ÷ hypotenuse and tan θ = opposite ÷ adjacent.|The sides are named relative to the angle θ.|E
+S|State the basic trigonometric identity.|sin²θ + cos²θ = 1|It follows from Pythagoras' theorem in a right triangle with hypotenuse 1.|E
+S|Find the value of sin²60° + cos²60°.|1|By the identity sin²θ + cos²θ = 1. Also (√3/2)² + (1/2)² = 3/4 + 1/4 = 1.|M
+S|Define the angle of elevation.|The angle between the horizontal and the line of sight to an object above the observer.|It is measured upward from the horizontal.|E
+S|If sin θ = 3/5, find tan θ.|3/4|cos θ = 4/5, so tan θ = sin θ ÷ cos θ = 3/4.|M
+S|Write the values of sin, cos and tan for 45°.|sin 45° = 1/√2, cos 45° = 1/√2 and tan 45° = 1.|In a 45° right triangle the legs are equal.|M
+
+# 8 Projection of a Side of a Triangle
+M|The projection of a point on a line is|the foot of the perpendicular from the point to the line|the mid-point of the line|the point itself always|the end of the line|1|It is where the perpendicular meets the line.|E
+M|The projection of a segment AB on a line is|the segment between the feet of the perpendiculars from A and B|the segment AB itself always|a single point always|the longer half|1|It is the part of the line between the two feet.|M
+M|In an acute-angled triangle, the square of a side is|equal to the sum of the squares on the other two sides|less than the sum of the squares on the other two sides|greater than the sum of the squares on the other two sides|zero|2|In an acute triangle c² = a² + b² − 2a·p, which is less than a² + b².|M
+M|In an obtuse-angled triangle, the square of the side opposite the obtuse angle is|equal to the sum of the squares on the other two sides|less than the sum of the squares on the other two sides|greater than the sum of the squares on the other two sides|zero|3|c² = a² + b² + 2a·p, which is greater than a² + b².|M
+M|In a right-angled triangle, the square of the hypotenuse is|less than the sum of the squares of the other sides|equal to the sum of the squares of the other sides|greater than the sum of the squares|zero|2|This is Pythagoras' theorem.|E
+M|Hero's formula for the area of a triangle is|√(s(s − a)(s − b)(s − c))|s(s − a)(s − b)(s − c)|½ base × height only|√(abc)|1|Here s is the semi-perimeter.|M
+M|The semi-perimeter of a triangle with sides a, b and c is|a + b + c|(a + b + c)/2|(a + b + c)/3|abc/2|2|It is half the perimeter.|E
+M|The area of the triangle with sides 3, 4 and 5 is|5|6|7.5|12|2|Here s = 6, and the area is √(6 × 3 × 2 × 1) = √36 = 6.|M
+M|The area of the triangle with sides 5, 5 and 6 is|10|12|15|30|2|Here s = 8, and the area is √(8 × 3 × 3 × 2) = √144 = 12.|H
+M|Apollonius' theorem says that if AD is the median to BC, then|AB² + AC² = 2(AD² + BD²)|AB² + AC² = AD² + BD²|AB + AC = 2AD|AB² − AC² = 2AD²|1|This is the median theorem.|H
+M|If D is the mid-point of BC, then BD equals|BC|BC/2|2BC|BC/4|2|A mid-point halves the segment.|E
+M|The projection of a segment on a line containing it is|the segment itself|a point|twice the segment|half the segment|1|Both ends already lie on the line.|M
+M|The projection of a segment perpendicular to a line, onto that line, is|the segment itself|a single point|half the segment|twice the segment|2|Both end points have the same foot.|H
+M|The length of a projection is never greater than|the length of the segment|twice the segment|half the segment|zero|1|A projection can be at most as long as the segment.|M
+M|If a segment is parallel to a line, its projection on the line has|the same length as the segment|half its length|zero length|twice its length|1|The projection does not shrink.|M
+M|A triangle with sides 7, 8 and 9 is|acute|right-angled|obtuse|impossible|1|9² = 81 is less than 7² + 8² = 113.|H
+M|A triangle with sides 4, 5 and 7 is|acute|right-angled|obtuse|equilateral|3|7² = 49 is greater than 4² + 5² = 41.|H
+M|A triangle with sides 5, 12 and 13 is|acute|right-angled|obtuse|equilateral|2|5² + 12² = 13².|M
+M|The semi-perimeter of a triangle with sides 13, 14 and 15 is|21|42|14|28|1|(13 + 14 + 15)/2 = 21.|E
+M|The area of the triangle with sides 13, 14 and 15 is|84|42|91|105|1|s = 21, and the area is √(21 × 8 × 7 × 6) = √7056 = 84.|H
+M|Hero's formula is useful when|the three sides are known|only the height is known|the angles are known|only one side is known|1|It gives the area directly from the three side lengths.|M
+M|The area of an equilateral triangle of side a is|(√3/4)a²|(√3/2)a²|a²/2|a²|1|It follows from Hero's formula or from the height (√3/2)a.|H
+M|Apollonius' theorem is also known as the|median theorem|projection theorem|angle bisector theorem|sine rule|1|It relates the sides to the median.|M
+M|In triangle ABC, D is the mid-point of BC. If AB = AC, then AD is|perpendicular to BC|parallel to BC|equal to BC|zero|1|In an isosceles triangle the median from the apex is also the altitude.|H
+M|The foot of the perpendicular from A to BC is also called the|projection of A on BC|circumcentre|centroid|incentre|1|A projection is the foot of the perpendicular.|E
+M|The area of a right triangle with sides 3, 4 and 5 is|6|7.5|10|12|1|½ × 3 × 4 = 6.|E
+M|The area of a triangle with sides 6, 8 and 10 is|24|30|48|14|1|It is a right triangle: ½ × 6 × 8 = 24.|M
+M|The semi-perimeter equals|half the perimeter|the perimeter|twice the perimeter|a third of the perimeter|1|s = (a + b + c)/2.|E
+M|Hero's formula can be used to find the area of|any triangle|right triangles only|isosceles triangles only|equilateral triangles only|1|It works for every triangle.|E
+M|A triangle has base 10 and area 40. The height on that base is|4|8|16|20|2|Height = 2 × 40 ÷ 10 = 8.|M
+M|In an obtuse triangle ABC the obtuse angle is at C. Then|AB² > AC² + BC²|AB² < AC² + BC²|AB² = AC² + BC²|AB = 0|1|The side opposite the obtuse angle has the greater square.|M
+M|In an acute triangle, the square of any side is|greater than the sum of the other two squares|less than the sum of the other two squares|equal to the sum of the other two squares|equal to zero|2|All three squares must satisfy c² < a² + b² for an acute triangle.|H
+M|If two sides of a triangle are a and b and the projection of b on a is p, in an acute triangle the third side c satisfies|c² = a² + b² − 2ap|c² = a² + b² + 2ap|c² = a² + b²|c = a + b|1|The projection reduces the square of the third side.|H
+M|If the angle between sides a and b is obtuse, the third side c satisfies|c² = a² + b² − 2ap|c² = a² + b² + 2ap|c² = a² + b²|c = a − b|2|The projection adds to the square of the third side.|H
+N|Use Hero's formula to find the area of a triangle with sides 3, 4 and 5.|6|s = 6, and √(6 × 3 × 2 × 1) = 6.|M|Math.sqrt(6*3*2*1)
+N|Use Hero's formula to find the area of a triangle with sides 5, 5 and 6.|12|s = 8, and √(8 × 3 × 3 × 2) = 12.|M|Math.sqrt(8*3*3*2)
+N|Use Hero's formula to find the area of a triangle with sides 13, 14 and 15.|84|s = 21, and √(21 × 8 × 7 × 6) = 84.|H|Math.sqrt(21*8*7*6)
+N|Use Hero's formula to find the area of a triangle with sides 7, 8 and 9, correct to two decimal places.|26.83|s = 12, and √(12 × 5 × 4 × 3) = √720 = 26.83.|H|Math.sqrt(720)
+N|In triangle ABC, AB = 6, AC = 8 and BC = 10. Find the length of the median AD to BC.|5|AD² = (2(36 + 64) − 100)/4 = 25, so AD = 5.|H|Math.sqrt((2*(36+64)-100)/4)
+N|In an acute triangle, a = 5, b = 6 and the projection of b on a is 3. Find c², the square of the third side.|31|c² = 25 + 36 − 2 × 5 × 3 = 31.|M|25+36-2*5*3
+N|In an obtuse triangle, a = 4, b = 3 and the projection is 2. Find c².|41|c² = 16 + 9 + 2 × 4 × 2 = 41.|M|16+9+2*4*2
+N|Find the area of an equilateral triangle of side 4, correct to two decimal places.|6.93|Area = (√3/4) × 16 = 4√3 = 6.93.|H|4*Math.sqrt(3)
+N|A triangle has area 24 and base 8. Find its height.|6|Height = 2 × 24 ÷ 8 = 6.|M|2*24/8
+N|Find the semi-perimeter of a triangle with sides 9, 10 and 11.|15|(9 + 10 + 11) ÷ 2 = 15.|E|(9+10+11)/2
+S|Define the projection of a point on a line.|The foot of the perpendicular drawn from the point to the line.|It is the point of the line nearest to the given point.|E
+S|State the theorem for the square of a side opposite an acute angle.|In a triangle, the square of the side opposite an acute angle equals the sum of the squares of the other two sides minus twice the product of one of them and the projection of the other on it.|In symbols c² = a² + b² − 2ap.|M
+S|State the theorem for the square of a side opposite an obtuse angle.|The square of the side opposite an obtuse angle equals the sum of the squares of the other two sides plus twice the product of one of them and the projection of the other on it.|In symbols c² = a² + b² + 2ap.|M
+S|State Hero's formula.|The area of a triangle with sides a, b and c is √(s(s − a)(s − b)(s − c)), where s = (a + b + c)/2.|It needs only the three sides.|M
+S|State Apollonius' theorem.|If AD is the median to the side BC of triangle ABC, then AB² + AC² = 2(AD² + BD²).|It relates two sides, the median and half the third side.|H
+S|Find the area of the triangle with sides 6, 8 and 10 by Hero's formula.|24|s = 12, so the area is √(12 × 6 × 4 × 2) = √576 = 24.|M

@@ -1,0 +1,222 @@
+@level Class 9
+@subject Computer Science
+
+# 1 Introduction to Computer Systems
+M|A computer is an electronic device that|accepts data, processes it and gives results as information|only plays music|only prints documents|only stores photographs|1|It follows the cycle of input, processing and output.|E
+M|Raw facts and figures that have not been processed are called|data|information|knowledge|a program|1|Data becomes information when it is processed.|E
+M|Data that has been processed into a meaningful form is called|information|raw data|a byte|a bit|1|Information is useful to the user.|E
+M|The four basic operations of a computer are|input, processing, output and storage|typing, printing, scanning and copying|reading, writing, sleeping and waking|power, fan, light and sound|1|These are the stages of the information processing cycle.|E
+M|The first generation of computers used|vacuum tubes|transistors|integrated circuits|microprocessors|1|ENIAC and UNIVAC are examples.|M
+M|The second generation of computers used|transistors|vacuum tubes|integrated circuits|microprocessors|1|Transistors replaced vacuum tubes.|M
+M|The third generation of computers used|integrated circuits|vacuum tubes|transistors only|artificial intelligence|1|Many components were put on one chip.|M
+M|The fourth generation of computers used|microprocessors|vacuum tubes|transistors|punch cards|1|An entire CPU was put on a single chip.|M
+M|The fifth generation of computers is associated with|artificial intelligence|vacuum tubes|transistors|punch cards|1|They aim at machines that can reason and learn.|M
+M|The most powerful and fastest type of computer is the|supercomputer|mainframe|laptop|tablet|1|It is used for weather forecasting and research.|E
+M|A computer used by large organisations such as banks to handle many users at once is a|mainframe|laptop|tablet|calculator|1|It can process huge amounts of data.|E
+M|A personal computer designed for one person is a|microcomputer|supercomputer|mainframe|minicomputer|1|Desktops and laptops are microcomputers.|E
+M|Which of the following is a portable computer?|Laptop|Supercomputer|Mainframe|Server|1|It can be carried easily.|E
+M|The speed of a computer is usually measured in|hertz (GHz)|metres|kilograms|litres|1|It is the clock speed of the processor.|E
+M|One of the advantages of a computer is its|speed and accuracy|ability to feel|ability to think by itself like a human|ability to be always creative|1|It performs calculations quickly and correctly.|E
+M|A limitation of a computer is that it|cannot work without instructions|is always wrong|is always slow|cannot store data|1|It needs a program to follow.|E
+M|The computer is called a diligent machine because it|can work for long hours without getting tired|is lazy|sleeps often|feels emotions|1|It does not suffer from fatigue.|E
+M|The father of the computer is|Charles Babbage|Bill Gates|Steve Jobs|Alan Turing|1|He designed the Analytical Engine.|E
+M|The first programmer in the world is considered to be|Ada Lovelace|Charles Babbage|Blaise Pascal|Alan Turing|1|She wrote a program for the Analytical Engine.|M
+M|The mechanical calculator called the Pascaline was invented by|Blaise Pascal|Charles Babbage|Ada Lovelace|John von Neumann|1|It could add and subtract.|M
+M|The concept of a stored program computer was proposed by|John von Neumann|Blaise Pascal|Tim Berners-Lee|Bill Gates|1|It is the basis of modern computers.|M
+M|The smallest unit of data in a computer is a|bit|byte|word|file|1|A bit is a 0 or a 1.|E
+M|A group of 8 bits is called a|byte|nibble|word|kilobyte|1|1 byte = 8 bits.|E
+M|A group of 4 bits is called a|nibble|byte|word|bit|1|It is half a byte.|M
+M|One kilobyte is|1024 bytes|1000 bits|100 bytes|1024 bits|1|1 KB = 1024 bytes.|E
+M|One megabyte is|1024 KB|1000 bytes|100 KB|1024 bytes|1|1 MB = 1024 KB.|E
+M|One gigabyte is|1024 MB|1000 KB|100 MB|1024 KB|1|1 GB = 1024 MB.|E
+M|One terabyte is|1024 GB|1000 MB|100 GB|1024 MB|1|1 TB = 1024 GB.|E
+M|Computers are used in banks for|keeping accounts and ATMs|growing crops only|drawing only|cooking|1|They handle transactions.|E
+M|Computers are used in education for|e-learning and research|only games|nothing|only sleeping|1|They make learning interactive.|E
+M|The Internet is a|network of networks|single computer|software program|type of mouse|1|It connects computers around the world.|E
+M|ICT stands for|Information and Communication Technology|Internal Computer Technology|Information and Computer Terms|Internet and Cable Technology|1|It covers computers and communication.|E
+M|A computer system is made up of|hardware, software and users|only hardware|only software|only a monitor|1|All three work together.|E
+M|The physical parts of a computer are called|hardware|software|firmware|malware|1|You can touch them.|E
+M|The programs that run on a computer are called|software|hardware|a motherboard|a monitor|1|They cannot be touched.|E
+M|The first electronic general purpose computer was|ENIAC|Pascaline|Abacus|Analytical Engine|1|It was built in the 1940s using vacuum tubes.|H
+M|The abacus is an example of|an early counting device|a modern computer|an operating system|a program|1|It was used for calculation thousands of years ago.|E
+N|Find the number of bits in 5 bytes.|40|5 × 8 = 40.|E|5*8
+N|Find the number of bytes in 2 KB.|2048|2 × 1024 = 2048.|E|2*1024
+N|Find the number of KB in 3 MB.|3072|3 × 1024 = 3072.|E|3*1024
+N|Find the number of MB in 2 GB.|2048|2 × 1024 = 2048.|E|2*1024
+N|Find the number of GB in 4 TB.|4096|4 × 1024 = 4096.|E|4*1024
+N|A computer processor runs at 3 GHz. Find the number of cycles per second in millions.|3000|3 GHz = 3000 MHz = 3000 million cycles per second.|M|3*1000
+N|Find the number of bits in 1 KB.|8192|1024 × 8 = 8192.|M|1024*8
+N|A file of 5 MB is copied at 1 MB per second. Find the time in seconds.|5|5 ÷ 1 = 5.|E|5/1
+N|A hard disk holds 500 GB. Find its capacity in MB.|512000|500 × 1024 = 512 000.|M|500*1024
+N|A video file is 700 MB. Find how many such files fit in 7000 MB.|10|7000 ÷ 700 = 10.|E|7000/700
+N|A document has 2000 characters and each uses 1 byte. Find its size in bytes.|2000|2000 × 1 = 2000.|E|2000*1
+N|A computer does 2 million calculations per second. Find the number in one minute in millions.|120|2 × 60 = 120.|E|2*60
+S|Define a computer.|An electronic device that accepts data as input, processes it according to instructions and produces information as output, with storage.|It works under the control of a program.|E
+S|Distinguish between data and information.|Data is raw facts and figures. Information is data that has been processed into a meaningful form.|Marks are data and a result card is information.|E
+S|Name the generations of computers and the technology used.|First: vacuum tubes. Second: transistors. Third: integrated circuits. Fourth: microprocessors. Fifth: artificial intelligence.|Each generation was smaller and faster.|M
+S|List four characteristics of a computer.|Speed, accuracy, storage and diligence (it can work without tiredness).|It also cannot think for itself.|E
+S|Name four types of computer by size and power.|Supercomputer, mainframe, minicomputer and microcomputer.|Laptops and desktops are microcomputers.|E
+S|Define a bit and a byte.|A bit is the smallest unit of data, 0 or 1. A byte is a group of 8 bits.|One byte can store one character.|E
+
+# 2 Computer Hardware
+M|The brain of the computer is the|CPU|monitor|keyboard|printer|1|The central processing unit processes instructions.|E
+M|CPU stands for|central processing unit|computer personal unit|central program unit|control power unit|1|It executes instructions.|E
+M|The main parts of the CPU are|the control unit and the arithmetic logic unit|monitor and keyboard|RAM and ROM only|disk and mouse|1|Registers are also part of it.|M
+M|The unit of the CPU that performs calculations and comparisons is the|ALU|control unit|register|cache|1|ALU stands for arithmetic logic unit.|E
+M|The unit of the CPU that directs and coordinates the operations is the|control unit|ALU|RAM|hard disk|1|It fetches and decodes instructions.|E
+M|The small, very fast storage locations inside the CPU are called|registers|disks|ports|cables|1|They hold data being processed.|M
+M|RAM stands for|random access memory|read access memory|random array memory|read all memory|1|It stores data temporarily.|E
+M|RAM is|volatile memory|non-volatile memory|a permanent store|read only|1|Its contents are lost when power is switched off.|E
+M|ROM stands for|read only memory|random only memory|read once memory|run on memory|1|It holds the start-up instructions.|E
+M|ROM is|non-volatile memory|volatile memory|a type of RAM|a type of printer|1|Its contents are kept when the power is off.|E
+M|Cache memory is|a small, very fast memory between the CPU and RAM|a type of hard disk|a printer part|a network card|1|It speeds up access to frequently used data.|M
+M|Which of the following is a secondary storage device?|Hard disk|RAM|Cache|Register|1|It stores data permanently.|E
+M|A hard disk drive stores data|magnetically|using light only|only in registers|using sound|1|It has spinning magnetic platters.|M
+M|A solid-state drive (SSD) has|no moving parts|spinning disks|a laser|a motor|1|It stores data in flash memory chips.|M
+M|A USB flash drive is an example of|portable storage|an output device|an input device|a processor|1|It is small and removable.|E
+M|A CD-ROM stores data|optically|magnetically|electronically only|mechanically|1|A laser reads it.|M
+M|The keyboard is an|input device|output device|storage device|processing device|1|It is used to enter text.|E
+M|The mouse is an|input device|output device|storage device|memory|1|It is a pointing device.|E
+M|The monitor is an|output device|input device|storage device|processing unit|1|It displays information.|E
+M|The printer is an|output device|input device|storage device|memory unit|1|It produces a hard copy.|E
+M|A scanner is an|input device|output device|processor|storage device|1|It converts a document into a digital image.|E
+M|A touch screen is both an|input and output device|input device only|output device only|memory device|1|You touch it and it also displays.|M
+M|A microphone is an|input device|output device|storage device|CPU part|1|It converts sound into electrical signals.|E
+M|A speaker is an|output device|input device|processing unit|storage device|1|It produces sound.|E
+M|The main circuit board of a computer is the|motherboard|keyboard|monitor|mouse|1|All the parts are connected to it.|E
+M|A set of wires that carry data between parts of the computer is a|bus|port|chip|disk|1|Examples are the data bus and the address bus.|M
+M|A socket on a computer where devices are connected is a|port|chip|disk|byte|1|USB and HDMI are ports.|E
+M|The power supply unit changes|AC from the mains to the DC needed by the computer|DC to AC|light to sound|heat to power|1|It provides different voltages.|M
+M|The clock speed of a CPU is measured in|hertz|metres|kilograms|bytes|1|GHz is billions of cycles per second.|E
+M|A 64-bit processor can handle|64 bits of data at a time|64 bytes at a time|only 8 bits|1 bit only|1|It can address more memory than a 32-bit one.|M
+M|The unit that converts digital signals into images on a screen is the|graphics card (GPU)|sound card|network card|power supply|1|It prepares images for display.|M
+M|A device that connects a computer to a network is the|network interface card|graphics card|sound card|power supply|1|It allows communication on a network.|M
+M|The component that cools the CPU is the|heat sink and fan|monitor|keyboard|battery|1|It prevents overheating.|M
+M|Which of the following is NOT an input device?|Printer|Keyboard|Mouse|Scanner|1|A printer is an output device.|E
+M|Which of the following is NOT an output device?|Keyboard|Monitor|Printer|Speaker|1|A keyboard is an input device.|E
+M|The unit that stores the instructions and data currently in use is|RAM|ROM|hard disk|DVD|1|The CPU reads from it directly.|E
+N|A 64 GB flash drive is used to store 8 GB movies. Find how many movies fit.|8|64 ÷ 8 = 8.|E|64/8
+N|A computer has 8 GB of RAM. Find the amount in MB.|8192|8 × 1024 = 8192.|E|8*1024
+N|A hard disk has 1 TB of space. Find the amount in GB.|1024|1 × 1024 = 1024.|E|1*1024
+N|A CPU runs at 2.5 GHz. Find the number of cycles in 4 seconds in billions.|10|2.5 × 4 = 10 billion.|M|2.5*4
+N|A DVD holds 4.7 GB. Find the number of DVDs needed for 94 GB, rounded.|20|94 ÷ 4.7 = 20.|M|94/4.7
+N|A student uses 3 GB of a 16 GB drive. Find the free space in GB.|13|16 − 3 = 13.|E|16-3
+N|A printer prints 20 pages per minute. Find the pages in 15 minutes.|300|20 × 15 = 300.|E|20*15
+N|A 32-bit processor handles 32 bits per cycle. Find the number of bytes per cycle.|4|32 ÷ 8 = 4.|M|32/8
+N|A file of 24 MB is saved on a drive with a speed of 6 MB per second. Find the time in seconds.|4|24 ÷ 6 = 4.|E|24/6
+N|A monitor has a resolution of 1920 × 1080 pixels. Find the number of pixels in thousands, rounded to the nearest thousand.|2074|1920 × 1080 = 2 073 600, which is 2074 thousand.|H|1920*1080/1000
+N|A laptop battery lasts 5 hours at 40 watts. Find the energy in watt-hours.|200|40 × 5 = 200.|M|40*5
+N|A scanner scans at 300 pixels per inch. Find the number of pixels along a 2-inch line.|600|300 × 2 = 600.|E|300*2
+S|Name the main parts of the CPU and state the function of each.|The ALU performs arithmetic and logical operations. The control unit directs the operations. Registers hold data temporarily.|The CPU is the brain of the computer.|M
+S|Distinguish between RAM and ROM.|RAM is volatile memory that stores data and programs currently in use. ROM is non-volatile memory that stores permanent start-up instructions.|RAM can be read and written; ROM is normally only read.|M
+S|Name three input devices and three output devices.|Input: keyboard, mouse and scanner. Output: monitor, printer and speaker.|A touch screen does both.|E
+S|Name three secondary storage devices.|Hard disk, USB flash drive and DVD or CD.|They store data permanently.|E
+S|What is the function of the motherboard?|It is the main circuit board that connects all the parts of the computer, such as the CPU, memory and expansion cards, and allows them to communicate.|It has slots and ports.|M
+S|What is cache memory?|A small, very fast memory close to the CPU that stores frequently used data and instructions to speed up processing.|It is faster than RAM.|M
+
+# 3 Computer Software
+M|The set of instructions that tells the computer what to do is|software|hardware|a monitor|a port|1|Programs are software.|E
+M|Software is divided into|system software and application software|hardware and firmware|input and output|memory and storage|1|These are the two main types.|E
+M|The software that manages the computer hardware and provides a platform for other software is|system software|application software|a game|a browser|1|The operating system is the main example.|E
+M|The software that is used to perform a specific task for the user is|application software|system software|firmware|a compiler|1|Word processors and games are examples.|E
+M|Which of the following is an operating system?|Windows|Microsoft Word|Google Chrome|Excel|1|It manages hardware and software.|E
+M|Which of the following is application software?|Microsoft Word|Windows|Linux|Android only|1|It is used to write documents.|E
+M|Utility software is used to|maintain and protect the computer|play games|draw pictures only|write letters|1|Antivirus and disk cleanup are examples.|E
+M|Antivirus software is an example of|utility software|an operating system|a programming language|hardware|1|It detects and removes viruses.|E
+M|A device driver is a program that|allows the operating system to communicate with a hardware device|draws pictures|plays music|writes letters|1|A printer needs a driver.|M
+M|Firmware is|software stored permanently in hardware|software that is easy to change|a type of RAM|a game|1|It is stored in ROM or flash memory.|M
+M|A program written for a specific purpose by the user's organisation is called|custom software|general software|a utility|a driver|1|It is made to meet special needs.|M
+M|Word processing software is used to|create and edit documents|do accounting only|play music|browse the web|1|Microsoft Word is an example.|E
+M|Spreadsheet software is used to|perform calculations on rows and columns of data|write letters|edit photos only|play videos|1|Microsoft Excel is an example.|E
+M|Presentation software is used to|create slide shows|do calculations|edit photos|write programs|1|PowerPoint is an example.|E
+M|A database management system is used to|store and manage large amounts of data|draw pictures|play music|print only|1|Microsoft Access is an example.|E
+M|The language that a computer understands directly is|machine language|assembly language|English|a high-level language|1|It uses only 0s and 1s.|E
+M|Assembly language uses|mnemonics|binary only|English sentences|pictures|1|It is a low-level language.|M
+M|Programs in a high-level language are translated into machine language by a|compiler or interpreter|printer|monitor|scanner|1|The computer cannot run them directly.|E
+M|A translator that converts the whole program into machine code at once is a|compiler|interpreter|assembler|editor|1|It creates an executable file.|M
+M|A translator that converts and executes a program line by line is an|interpreter|compiler|assembler|linker|1|Python is usually interpreted.|M
+M|A translator that converts assembly language into machine language is an|assembler|compiler|interpreter|editor|1|Each mnemonic becomes machine code.|M
+M|Python and C++ are examples of|high-level languages|machine languages|operating systems|hardware|1|They are close to human language.|E
+M|Software that can be used, copied and changed freely, with the source code available, is|open source software|proprietary software|shareware|spyware|1|Linux is open source.|E
+M|Software that can be used free of cost but not changed is|freeware|open source|shareware|malware|1|Its source code is not available.|M
+M|Software that can be tried for a limited time before buying is|shareware|freeware|open source|malware|1|It stops working after the trial period.|M
+M|A licence agreement for software|gives permission to use the software under conditions|gives ownership of the software|makes it free for all|is a type of hardware|1|The user must follow the terms.|E
+M|Copying software illegally is called|piracy|sharing|backup|installation|1|It is a crime.|E
+M|Software designed to harm a computer is called|malware|freeware|firmware|shareware|1|Viruses and worms are examples.|E
+M|A program that attaches itself to other files and spreads is a|virus|firewall|driver|compiler|1|It can damage data.|E
+M|A program that spreads over a network by itself is a|worm|driver|compiler|patch|1|It does not need a host file.|M
+M|A program that seems useful but secretly does harm is a|Trojan horse|compiler|driver|shell|1|It tricks the user into installing it.|M
+M|Software that secretly collects information about the user is|spyware|firmware|an assembler|a patch|1|It can steal passwords.|M
+M|A firewall is used to|control network traffic and protect a computer|print documents|store data|cool the CPU|1|It blocks unauthorised access.|M
+M|A graphical user interface (GUI) uses|windows, icons and menus|only typed commands|only text|only voice|1|It is easy to use.|E
+M|A command line interface (CLI) uses|typed commands|icons|menus|a mouse only|1|The user types instructions.|E
+M|The operating system for most smartphones that is made by Google is|Android|iOS|Windows|Linux only|1|Android is the most widely used mobile OS.|E
+M|The main functions of an operating system include|managing memory, files and devices|painting pictures|writing letters|selling software|1|It also provides the user interface.|M
+N|A software package costs Rs 12 000 for a licence of 4 computers. Find the cost per computer.|3000|12 000 ÷ 4 = 3000.|E|12000/4
+N|A program has 2000 lines and an interpreter runs 500 lines per second. Find the time in seconds.|4|2000 ÷ 500 = 4.|E|2000/500
+N|An installer is 120 MB. Find the number of such installers that fit on a 4 GB disk, rounding down. (1 GB = 1024 MB)|34|4096 ÷ 120 = 34.|M|Math.floor(4096/120)
+N|A virus infects 5 files on the first day and doubles each day. Find the number of infected files on day 4.|40|5 × 2 × 2 × 2 = 40.|M|5*2*2*2
+N|An antivirus scans 250 files per minute. Find the number of files scanned in 8 minutes.|2000|250 × 8 = 2000.|E|250*8
+N|A system has 10 programs each of 50 MB. Find the total size in MB.|500|10 × 50 = 500.|E|10*50
+N|A software update of 90 MB downloads at 3 MB per second. Find the time in seconds.|30|90 ÷ 3 = 30.|E|90/3
+N|A site licence costs Rs 50 000 for 100 users. Find the cost per user.|500|50 000 ÷ 100 = 500.|E|50000/100
+N|A trial version works for 30 days. Find the number of weeks, rounded down.|4|30 ÷ 7 = 4.|M|Math.floor(30/7)
+N|A compiler translates 10 000 lines in 20 seconds. Find the number of lines per second.|500|10 000 ÷ 20 = 500.|M|10000/20
+S|Distinguish between system software and application software.|System software manages the hardware and provides a platform for other software, such as an operating system. Application software performs specific tasks for the user, such as word processing.|Windows is system software and Word is application software.|E
+S|State four functions of an operating system.|It manages memory, manages files, controls input and output devices, and provides the user interface.|It also manages processes.|M
+S|Distinguish between a compiler and an interpreter.|A compiler translates the whole program into machine code at once. An interpreter translates and runs the program one line at a time.|Compiled programs usually run faster.|M
+S|Name three types of malware.|Viruses, worms and Trojan horses. Spyware is another.|Antivirus software helps to protect against them.|E
+S|What is open source software? Give an example.|Software whose source code is available for anyone to use, study, change and share. Linux is an example.|It is often free of charge.|E
+S|What is a software licence?|A legal agreement that gives the user the right to use the software under certain conditions.|Copying it without permission is piracy.|E
+
+# 4 Number Systems and Data Representation
+M|The binary number system uses the digits|0 and 1|0 to 7|0 to 9|0 to 9 and A to F|1|Its base is 2.|E
+M|The decimal number system has the base|10|2|8|16|1|It uses digits 0 to 9.|E
+M|The octal number system has the base|8|2|10|16|1|It uses digits 0 to 7.|E
+M|The hexadecimal number system has the base|16|2|8|10|1|It uses digits 0 to 9 and A to F.|E
+M|In hexadecimal, the letter F represents the decimal number|15|10|16|14|1|A = 10, B = 11, C = 12, D = 13, E = 14, F = 15.|E
+M|The decimal number 10 is written in hexadecimal as|A|B|F|10|1|A stands for 10.|E
+M|The place values in a binary number, from the right, are|1, 2, 4, 8, 16, ...|1, 10, 100, 1000|1, 3, 9, 27|1, 5, 25, 125|1|They are powers of 2.|E
+M|The binary number 1010 equals the decimal number|10|5|12|8|1|8 + 2 = 10.|E
+M|The binary number 1111 equals the decimal number|15|16|8|14|1|8 + 4 + 2 + 1 = 15.|E
+M|The binary number 100 equals the decimal number|4|2|8|10|1|It is 2².|E
+M|The decimal number 8 in binary is|1000|100|1010|111|1|8 = 2³.|E
+M|The decimal number 5 in binary is|101|110|100|111|1|4 + 1 = 5.|E
+M|The decimal number 12 in binary is|1100|1010|1001|1110|1|8 + 4 = 12.|M
+M|The sum of binary 1 + 1 is|10|11|2|0|1|One plus one is two, which is 10 in binary.|M
+M|The sum of binary 101 and 11 is|1000|110|111|1001|1|5 + 3 = 8, which is 1000.|H
+M|The octal number 10 equals the decimal number|8|10|2|16|1|1 × 8 + 0 = 8.|M
+M|The hexadecimal number 10 equals the decimal number|16|10|1|15|1|1 × 16 + 0 = 16.|M
+M|The hexadecimal number FF equals the decimal number|255|256|15|16|1|15 × 16 + 15 = 255.|H
+M|The ASCII code is used to represent|characters in a computer|colours|sounds only|numbers only|1|Each character has a number.|E
+M|Standard ASCII uses|7 bits|3 bits|16 bits|32 bits|1|It has 128 characters.|M
+M|Extended ASCII uses|8 bits|4 bits|16 bits|32 bits|1|It has 256 characters.|M
+M|The ASCII code of the capital letter A is|65|97|48|32|1|A = 65, B = 66, and so on.|M
+M|The ASCII code of the small letter a is|97|65|48|122|1|a = 97, b = 98, and so on.|M
+M|Unicode is a coding scheme that|represents characters of many languages|represents only English|is used only for numbers|is used only for sound|1|It includes Urdu and Arabic.|M
+M|The number of different values that 8 bits can represent is|256|8|64|128|1|2⁸ = 256.|E
+M|The number of different values that 4 bits can represent is|16|4|8|32|1|2⁴ = 16.|E
+M|A computer uses the binary system because|its circuits have two states, on and off|binary is easier for people|it is faster to write|it uses fewer digits|1|Switches are either on or off.|E
+M|A character in a computer, such as a letter, is usually stored in|one byte|one bit|one kilobyte|one megabyte|1|ASCII uses 8 bits.|E
+M|An image is made up of tiny dots called|pixels|bits|bytes|words|1|Each has a colour value.|E
+M|The number of colours that 8 bits per pixel can give is|256|8|16|65 536|1|2⁸ = 256.|M
+M|The binary number system is also called the|base-2 system|base-10 system|base-8 system|base-16 system|1|It has two digits.|E
+M|The first digit of the binary number 1101 from the left, called the most significant bit, has place value|8|1|2|4|1|It is the leftmost bit: 2³ = 8.|M
+N|Convert the binary number 1011 to decimal.|11|8 + 0 + 2 + 1 = 11.|E|8+2+1
+N|Convert the binary number 11001 to decimal.|25|16 + 8 + 0 + 0 + 1 = 25.|M|16+8+1
+N|Convert the decimal number 13 to binary.|1101|13 = 8 + 4 + 1, which is 1101.|M|1101
+N|Convert the decimal number 20 to binary.|10100|20 = 16 + 4, which is 10100.|M|10100
+N|Convert the hexadecimal number 1A to decimal.|26|1 × 16 + 10 = 26.|M|1*16+10
+N|Convert the hexadecimal number 2F to decimal.|47|2 × 16 + 15 = 47.|M|2*16+15
+N|Convert the octal number 17 to decimal.|15|1 × 8 + 7 = 15.|M|1*8+7
+N|Find the decimal value of the binary addition 101 + 11.|8|5 + 3 = 8.|M|5+3
+N|Find the number of values that 10 bits can represent.|1024|2¹⁰ = 1024.|M|2^10
+N|Find the ASCII code of the capital letter D, given that A is 65.|68|A = 65, B = 66, C = 67, D = 68.|M|65+3
+N|Find the ASCII code of the small letter c, given that a is 97.|99|a = 97, b = 98, c = 99.|M|97+2
+N|Find the number of bits needed to store the word COMPUTER using 8 bits per character.|64|8 characters × 8 bits = 64.|M|8*8
+S|Convert the decimal number 10 to binary.|1010|10 = 8 + 2, so the binary number is 1010.|E
+S|Convert the binary number 1101 to decimal.|13|8 + 4 + 0 + 1 = 13.|E
+S|Why do computers use the binary number system?|Computer circuits have two states, on and off, which are easily represented by 1 and 0, and this makes the electronic circuits simple and reliable.|Binary data can be processed quickly.|M
+S|What is ASCII?|The American Standard Code for Information Interchange, a code that gives a number to each character, so that characters can be stored and processed by computers.|For example A is 65.|M
+S|Name the bases of the binary, octal, decimal and hexadecimal systems.|Binary 2, octal 8, decimal 10 and hexadecimal 16.|They use 2, 8, 10 and 16 digits or symbols respectively.|E
+S|What is a pixel?|The smallest unit of a digital image, a tiny dot of a single colour. An image is made of many pixels.|More pixels give a sharper image.|E

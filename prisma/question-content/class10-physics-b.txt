@@ -1,0 +1,157 @@
+@level Class 10
+@subject Physics
+
+# 4 Electrostatics
+M|Like charges|repel each other|attract each other|have no effect on each other|neutralise each other|1|Charges of the same sign repel and unlike charges attract.|E
+M|The SI unit of electric charge is the|ampere|coulomb|volt|farad|2|The coulomb is the SI unit of charge.|E
+M|The charge on one electron is about|−1.6 × 10⁻¹⁹ C|+1.6 × 10⁻¹⁹ C|−1 C|+1 C|1|The electron has a negative charge of 1.6 × 10⁻¹⁹ C.|M
+M|A body becomes negatively charged by|gaining electrons|losing electrons|gaining protons|losing protons|1|Electrons are the charge carriers that move.|E
+M|A body becomes positively charged by|gaining electrons|losing electrons|gaining neutrons|losing neutrons|2|Losing electrons leaves a surplus of positive charge.|E
+M|The law of conservation of charge states that|charge can neither be created nor destroyed|charge can be created|charge can be destroyed|charge is always zero|1|The total charge of an isolated system is constant.|M
+M|Charge is quantised, which means that|it exists only in whole-number multiples of the electron charge|it can have any value|it is always positive|it is always zero|1|Q = ne.|M
+M|Coulomb's law states that the force between two point charges is|proportional to the product of the charges and inversely proportional to the square of the distance|proportional to the distance|inversely proportional to the charges|independent of distance|1|F = kq₁q₂/r².|M
+M|The value of the constant k in Coulomb's law is about|9 × 10⁹ N m²/C²|9 × 10⁻⁹ N m²/C²|6.67 × 10⁻¹¹ N m²/C²|1 N m²/C²|1|k = 1/(4πε₀) ≈ 9 × 10⁹.|M
+M|If the distance between two charges is doubled, the force becomes|double|half|one quarter|four times|3|F is proportional to 1/r².|M
+M|The electric field intensity at a point is|the force per unit positive charge|the charge per unit force|the energy per unit charge|the work per unit time|1|E = F/q.|M
+M|The SI unit of electric field intensity is|N/C|C/N|J/C|N m|1|Newton per coulomb, which equals volt per metre.|M
+M|Electric lines of force leave|a positive charge and end on a negative charge|a negative charge and end on a positive charge|neither charge|the Earth only|1|The direction of the field is that of the force on a positive charge.|M
+M|Two electric lines of force|never cross each other|always cross|are always parallel|are always circular|1|At a crossing point the field would have two directions.|M
+M|The electric potential at a point is|the work done per unit charge in bringing a positive charge from infinity to that point|the force per unit charge|the charge per unit volume|the current per unit area|1|V = W/q.|M
+M|The SI unit of potential difference is the|volt|ampere|coulomb|farad|1|The volt is one joule per coulomb.|E
+M|One volt is equal to|1 J/C|1 C/J|1 N/C|1 A/s|1|V = W/q.|M
+M|A capacitor is a device that|stores electric charge|produces charge|destroys charge|measures current|1|It stores charge and electrical energy.|E
+M|The capacitance of a capacitor is given by|C = Q/V|C = QV|C = V/Q|C = Q + V|1|Capacitance is charge per unit potential difference.|M
+M|The SI unit of capacitance is the|farad|coulomb|henry|ohm|1|The farad is one coulomb per volt.|E
+M|When capacitors are connected in parallel, the equivalent capacitance is|C₁ + C₂|1/C₁ + 1/C₂|C₁C₂|C₁ − C₂|1|Capacitances add in parallel.|M
+M|When capacitors are connected in series, the reciprocal of the equivalent capacitance is|1/C₁ + 1/C₂|C₁ + C₂|C₁C₂|C₁ − C₂|1|Reciprocals add in series.|M
+M|The energy stored in a capacitor is|½CV²|CV²|C/V|½C/V|1|W = ½CV².|M
+M|Charging by induction is carried out|without touching the charged body to the object|by touching|by heating|by cooling|1|The charged body is only brought near.|M
+M|Which of the following is an insulator?|Glass|Copper|Aluminium|Iron|1|Glass does not allow charge to flow.|E
+M|Which of the following is a good conductor of electricity?|Copper|Rubber|Plastic|Dry wood|1|Metals have free electrons.|E
+M|A gold-leaf electroscope is used to|detect electric charge|measure current|measure heat|measure resistance|1|The leaves repel when charged.|E
+M|A lightning conductor has a pointed top because charge leaks away fastest from|sharp points|flat surfaces|round surfaces|large areas|1|Charge concentrates at points.|H
+M|Earthing a charged body|allows its charge to flow into the ground|increases its charge|doubles its charge|heats it|1|The charge neutralises through the ground.|M
+M|Placing a dielectric between the plates of a capacitor|increases its capacitance|decreases its capacitance|has no effect|removes its charge|1|The dielectric reduces the field and raises C.|H
+N|Find the force in newtons between charges 2 × 10⁻⁶ C and 3 × 10⁻⁶ C placed 0.3 m apart. Take k = 9 × 10⁹ N m²/C².|0.6|F = 9 × 10⁹ × 2 × 10⁻⁶ × 3 × 10⁻⁶ ÷ 0.09 = 0.6.|H|9e9*2e-6*3e-6/(0.3*0.3)
+N|The force between two charges is 8 N. Find the force in newtons when the distance is doubled.|2|The force becomes one quarter: 8 ÷ 4 = 2.|M|8/4
+N|A force of 0.5 N acts on a charge of 2 × 10⁻⁶ C. Find the electric field intensity in N/C.|250000|E = F/q = 0.5 ÷ (2 × 10⁻⁶) = 250 000.|M|0.5/2e-6
+N|A charge of 3 C is placed in an electric field of 2 N/C. Find the force on it in newtons.|6|F = qE = 3 × 2 = 6.|E|3*2
+N|12 J of work is done in moving 3 C of charge between two points. Find the potential difference in volts.|4|V = W/q = 12 ÷ 3 = 4.|E|12/3
+N|A capacitor stores 6 × 10⁻⁶ C at 3 V. Find its capacitance in farads.|0.000002|C = Q/V = 6 × 10⁻⁶ ÷ 3 = 2 × 10⁻⁶.|M|6e-6/3
+N|Two capacitors of 4 μF and 6 μF are connected in parallel. Find the equivalent capacitance in μF.|10|C = 4 + 6 = 10.|E|4+6
+N|Two capacitors of 6 μF and 3 μF are connected in series. Find the equivalent capacitance in μF.|2|1/C = 1/6 + 1/3 = 1/2, so C = 2.|M|1/(1/6+1/3)
+N|A 2 μF capacitor is charged to 100 V. Find the energy stored in joules.|0.01|W = ½CV² = ½ × 2 × 10⁻⁶ × 10⁴ = 0.01.|H|0.5*2e-6*100*100
+N|A body has a charge of 3.2 × 10⁻¹⁹ C. Find the number of electrons it holds in excess, given e = 1.6 × 10⁻¹⁹ C.|2|n = Q/e = 3.2 ÷ 1.6 = 2.|M|3.2e-19/1.6e-19
+N|Find the charge in coulombs of 5 × 10¹⁸ electrons. Take e = 1.6 × 10⁻¹⁹ C.|0.8|Q = ne = 5 × 10¹⁸ × 1.6 × 10⁻¹⁹ = 0.8.|M|5e18*1.6e-19
+N|A potential difference of 200 V exists between plates 0.01 m apart. Find the field between them in V/m.|20000|E = V/d = 200 ÷ 0.01 = 20 000.|M|200/0.01
+N|Find the work in joules done in moving 2 C of charge through a potential difference of 5 V.|10|W = qV = 2 × 5 = 10.|E|2*5
+N|A capacitor has a capacitance of 5 μF. A dielectric of constant 2 fills the space. Find the new capacitance in μF.|10|C becomes 2 × 5 = 10.|M|5*2
+S|State Coulomb's law.|The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them, F = kq₁q₂/r².|The force is along the line joining the charges.|M
+S|Define electric field intensity.|The force acting on a unit positive charge placed at that point, E = F/q.|Its SI unit is newton per coulomb.|E
+S|Define a capacitor and its capacitance.|A capacitor is a device that stores charge. Its capacitance is the charge stored per unit potential difference, C = Q/V.|Its SI unit is the farad.|M
+S|Define electric potential difference.|The work done per unit charge in moving a positive charge from one point to another, V = W/q.|Its SI unit is the volt.|M
+S|Describe how a body can be charged by induction.|Bring a charged body near a conductor, earth the far side to let charge flow, remove the earth connection and then take the charged body away. The conductor is left with the opposite charge.|The charged body never touches the conductor.|H
+S|What is meant by an electric line of force?|A line along which a free positive charge would move, so that its tangent shows the direction of the electric field.|Lines leave positive charges and end on negative charges.|M
+
+# 5 Current Electricity
+M|Electric current is|the rate of flow of charge|the work done per unit charge|the force on a charge|the resistance of a wire|1|I = Q/t.|E
+M|The SI unit of electric current is the|ampere|volt|ohm|watt|1|The ampere is the SI unit of current.|E
+M|One ampere is a flow of|one coulomb per second|one joule per second|one volt per ohm only|one watt per second|1|1 A = 1 C/s.|M
+M|The direction of conventional current is from|positive to negative|negative to positive|north to south|east to west|1|Conventional current flows from the positive terminal.|E
+M|Electrons in a wire move from|negative to positive|positive to negative|north to south|east to west|1|Electrons are drawn towards the positive terminal.|M
+M|Potential difference is measured with a|voltmeter|ammeter|galvanometer only|thermometer|1|A voltmeter measures potential difference.|E
+M|A voltmeter is connected|in parallel with the component|in series with the component|in neither way|inside the cell|1|It must not change the current.|M
+M|An ammeter is connected|in series with the circuit|in parallel with the component|across the cell|to earth|1|The current flows through it.|M
+M|Ohm's law states that the current through a conductor is proportional to the potential difference across it, provided|the temperature stays constant|the length changes|the colour changes|the wire is cold|1|V = IR at constant temperature.|M
+M|The SI unit of resistance is the|ohm|volt|ampere|watt|1|One ohm is one volt per ampere.|E
+M|The resistance of a wire increases with its|length|cross-sectional area|diameter|none of these|1|R = ρL/A, so it grows with length.|M
+M|The resistance of a wire decreases when its|cross-sectional area increases|length increases|temperature increases|resistivity increases|1|R is inversely proportional to the area.|M
+M|The resistance of a wire is given by|ρL/A|ρA/L|LA/ρ|ρ/LA|1|R = ρL/A.|M
+M|Resistors connected in series have an equivalent resistance of|R₁ + R₂|1/R₁ + 1/R₂|R₁R₂|R₁ − R₂|1|Resistances add in series.|E
+M|For resistors in parallel, the reciprocal of the equivalent resistance is|1/R₁ + 1/R₂|R₁ + R₂|R₁R₂|R₁ − R₂|1|Reciprocals add in parallel.|M
+M|In a series circuit, the same quantity flows through every component. It is the|current|voltage|resistance|power|1|There is only one path.|E
+M|In a parallel circuit, the same quantity is across every branch. It is the|voltage|current|resistance|charge|1|Each branch is connected across the same two points.|M
+M|Electrical power is given by|P = VI|P = V/I|P = I/V|P = V + I|1|Power equals voltage times current.|E
+M|The SI unit of power is the|watt|joule|ampere|ohm|1|One watt is one joule per second.|E
+M|Electrical energy used is|P × t|P ÷ t|V ÷ I|I ÷ t|1|E = Pt.|E
+M|The kilowatt-hour is a unit of|energy|power|current|voltage|1|It is the energy used by a 1 kW device in 1 hour.|M
+M|The heat produced in a resistor is given by|I²Rt|IRt²|VIR|I/R|1|Joule's law: H = I²Rt.|M
+M|A fuse is a safety device that|melts when the current is too large|increases the current|stores charge|measures voltage|1|The wire melts and breaks the circuit.|E
+M|A fuse is connected in the|live wire|neutral wire|earth wire|any wire|1|It must cut off the live supply.|M
+M|The earth wire of a plug is for|safety, to carry fault current to the ground|extra power|saving energy|measuring voltage|1|It prevents the metal body from becoming live.|M
+M|Domestic appliances are connected|in parallel|in series|in neither|in a loop only|1|Each works at full voltage independently.|M
+M|The electromotive force of a cell is|the energy supplied per unit charge by the cell|the force on an electron|the resistance of the cell|the current in the cell|1|It is the work done by the cell per coulomb.|M
+M|A rheostat is used to|change the resistance in a circuit|measure current|measure voltage|store charge|1|It is a variable resistor.|E
+M|The colour of the earth wire insulation is|green and yellow|brown|blue|red only|1|The standard code is green and yellow.|M
+M|An electric bulb of 100 W uses energy at the rate of|100 J every second|100 J every hour|10 J every second|1 J every second|1|1 W = 1 J/s.|E
+N|A current of 2 A flows for 10 s. Find the charge in coulombs.|20|Q = It = 2 × 10 = 20.|E|2*10
+N|A charge of 60 C flows through a wire in 20 s. Find the current in amperes.|3|I = Q/t = 60 ÷ 20 = 3.|E|60/20
+N|A current of 2 A flows through a 5 Ω resistor. Find the potential difference in volts.|10|V = IR = 2 × 5 = 10.|E|2*5
+N|A 12 V battery drives a current of 3 A through a resistor. Find the resistance in ohms.|4|R = V/I = 12 ÷ 3 = 4.|E|12/3
+N|Two resistors of 3 Ω and 5 Ω are in series. Find the equivalent resistance in ohms.|8|R = 3 + 5 = 8.|E|3+5
+N|Two resistors of 6 Ω and 3 Ω are in parallel. Find the equivalent resistance in ohms.|2|1/R = 1/6 + 1/3 = 1/2, so R = 2.|M|1/(1/6+1/3)
+N|An appliance works at 220 V and draws 5 A. Find its power in watts.|1100|P = VI = 220 × 5 = 1100.|E|220*5
+N|A 2 kW heater runs for 3 hours. Find the energy used in kilowatt-hours.|6|E = 2 × 3 = 6.|E|2*3
+N|One kilowatt-hour costs Rs 30. Find the cost in rupees of 6 kilowatt-hours.|180|Cost = 6 × 30 = 180.|E|6*30
+N|A current of 2 A flows through a 10 Ω resistor for 5 s. Find the heat produced in joules.|200|H = I²Rt = 4 × 10 × 5 = 200.|M|2*2*10*5
+N|A wire has resistivity 10⁻⁶ Ω m, length 2 m and cross-section 10⁻⁶ m². Find its resistance in ohms.|2|R = ρL/A = 10⁻⁶ × 2 ÷ 10⁻⁶ = 2.|H|1e-6*2/1e-6
+N|A 12 V cell is connected to resistors of 2 Ω and 4 Ω in series. Find the current in amperes.|2|I = 12 ÷ (2 + 4) = 2.|M|12/(2+4)
+N|A 12 V cell is connected across 6 Ω and 12 Ω resistors in parallel. Find the total current in amperes.|3|I = 12/6 + 12/12 = 2 + 1 = 3.|H|12/6+12/12
+N|A current of 3 A flows through a 4 Ω resistor. Find the power dissipated in watts.|36|P = I²R = 9 × 4 = 36.|M|3*3*4
+S|Define electric current and state its SI unit.|The rate of flow of electric charge, I = Q/t. Its SI unit is the ampere.|One ampere is one coulomb per second.|E
+S|State Ohm's law.|The current flowing through a conductor is directly proportional to the potential difference across its ends, provided the temperature and other physical conditions stay the same, V = IR.|The constant of proportionality is the resistance.|M
+S|Define electrical resistance and state its SI unit.|The opposition a conductor offers to the flow of current, R = V/I. Its SI unit is the ohm.|One ohm is one volt per ampere.|E
+S|Define electrical power and state its SI unit.|The rate at which electrical energy is used, P = VI. Its SI unit is the watt.|One watt is one joule per second.|E
+S|Why is a fuse used in an electric circuit?|It is a safety device. If the current becomes too large its thin wire melts and breaks the circuit, which protects the appliance and the wiring.|It is placed in the live wire.|M
+S|State two differences between series and parallel connections.|In a series circuit the same current flows through each component and the resistances add. In a parallel circuit the same voltage is across each branch and the reciprocals of the resistances add.|A break in a series circuit stops the whole circuit.|M
+
+# 6 Electromagnetism
+M|A magnetic field is the region around a magnet in which|a magnetic force can be detected|only iron exists|there is no force|light is bent|1|Another magnet or magnetic material feels a force.|E
+M|Outside a bar magnet, magnetic field lines run from|north pole to south pole|south pole to north pole|east to west|centre to the pole|1|They emerge from the north pole and enter the south pole.|E
+M|The discovery that a current-carrying wire produces a magnetic field is due to|Oersted|Faraday|Newton|Ohm|1|Oersted showed that a current deflects a compass needle.|M
+M|The direction of the magnetic field around a straight current-carrying wire is given by|the right-hand grip rule|Fleming's left-hand rule|Ohm's law|Lenz's law|1|The thumb points along the current and the fingers curl along the field.|M
+M|A solenoid carrying a current behaves like|a bar magnet|a capacitor|a resistor|a battery|1|It has a north pole at one end and a south pole at the other.|M
+M|The force on a current-carrying conductor of length L in a magnetic field B is|F = BIL|F = B/IL|F = BI/L|F = BL/I|1|F = BIL when the conductor is at right angles to the field.|M
+M|The direction of the force on a current-carrying conductor in a magnetic field is given by|Fleming's left-hand rule|Fleming's right-hand rule|Lenz's law|Ohm's law|1|Thumb for force, first finger for field and second finger for current.|M
+M|An electric motor converts|electrical energy into mechanical energy|mechanical energy into electrical energy|heat into light|light into sound|1|The coil turns because of the force on its sides.|E
+M|A generator converts|mechanical energy into electrical energy|electrical energy into mechanical energy|heat into sound|light into heat|1|A coil rotates in a magnetic field and produces an e.m.f.|E
+M|Electromagnetic induction is the production of|an e.m.f. by a changing magnetic flux|a magnetic field by a magnet|heat by a current|light by a bulb|1|A changing flux through a coil induces an e.m.f.|M
+M|Lenz's law states that the direction of the induced current is such that it|opposes the change that produces it|helps the change that produces it|is always clockwise|is always zero|1|This follows from the conservation of energy.|M
+M|The magnitude of the induced e.m.f. depends on|the rate of change of magnetic flux|the colour of the wire|the shape of the magnet only|the age of the coil|1|Faraday's law: e.m.f. = −N dΦ/dt.|M
+M|The slip rings in an AC generator|allow the coil to rotate while keeping contact with the circuit|reverse the current every half turn|reduce the e.m.f.|store charge|1|They carry the alternating current to the outside circuit.|H
+M|The commutator in a DC generator|converts the alternating current in the coil into direct current|stores charge|reduces voltage|stops the coil|1|It reverses the connection every half turn.|H
+M|The split-ring commutator in a DC motor|reverses the current in the coil every half turn so it keeps turning in one direction|stops the motor|reduces the current|stores energy|1|The torque stays in the same direction.|H
+M|A transformer works on the principle of|mutual induction|self induction only|Ohm's law|Coulomb's law|1|A changing current in the primary induces an e.m.f. in the secondary.|M
+M|A step-up transformer has|more turns in the secondary than in the primary|fewer turns in the secondary|equal turns|no turns|1|It increases the voltage.|M
+M|For a transformer, the voltage ratio is|Vs/Vp = Ns/Np|Vs/Vp = Np/Ns|Vs × Vp = Ns × Np|Vs = Vp|1|The voltage ratio equals the turns ratio.|M
+M|A transformer works only with|alternating current|direct current|both equally|no current|1|A changing flux is needed to induce an e.m.f.|M
+M|Electric power is transmitted at high voltage in order to|reduce the loss of energy as heat|increase the current|increase the resistance|slow the flow|1|A higher voltage means a lower current for the same power, so I²R loss falls.|M
+M|For an ideal transformer, the input power equals|the output power|twice the output power|half the output power|zero|1|VpIp = VsIs.|M
+M|The frequency of the AC mains supply in Pakistan is|50 Hz|60 Hz|100 Hz|220 Hz|1|Mains frequency in Pakistan is 50 Hz.|E
+M|The SI unit of magnetic field strength is the|tesla|weber|henry|farad|1|The tesla is one newton per ampere metre.|M
+M|The SI unit of magnetic flux is the|weber|tesla|henry|coulomb|1|One weber is one tesla square metre.|M
+M|Fleming's right-hand rule gives the direction of|the induced current|the force|the magnetic field|the resistance|1|It is used for generators.|M
+M|The core of an electromagnet is made of|soft iron|steel|copper|plastic|1|Soft iron is easily magnetised and demagnetised.|M
+M|The core of a permanent magnet is made of|steel|soft iron|copper|plastic|1|Steel holds its magnetism.|M
+M|A moving-coil galvanometer is used to|detect and measure small currents|measure voltage|produce current|store charge|1|The coil turns in proportion to the current.|M
+M|Alternating current|changes its direction periodically|flows in one direction only|is always zero|is produced only by cells|1|The current reverses direction many times a second.|E
+N|A conductor of length 0.2 m carries 4 A in a field of 0.5 T at right angles to it. Find the force in newtons.|0.4|F = BIL = 0.5 × 4 × 0.2 = 0.4.|M|0.5*4*0.2
+N|A transformer has 100 primary turns and 500 secondary turns. The primary voltage is 20 V. Find the secondary voltage in volts.|100|Vs = Vp × Ns/Np = 20 × 500/100 = 100.|M|20*500/100
+N|A transformer has 1000 primary turns and 50 secondary turns. The primary voltage is 220 V. Find the secondary voltage in volts.|11|Vs = 220 × 50/1000 = 11.|M|220*50/1000
+N|An ideal transformer has Vp = 100 V, Ip = 2 A and Vs = 20 V. Find the secondary current in amperes.|10|VpIp = VsIs, so Is = 100 × 2 ÷ 20 = 10.|H|100*2/20
+N|A current of 10 A is carried at 11 000 V. Find the power in watts.|110000|P = VI = 11 000 × 10 = 110 000.|M|10*11000
+N|The magnetic flux through a coil changes by 0.02 Wb in 0.1 s. Find the induced e.m.f. in volts for one turn.|0.2|e.m.f. = 0.02 ÷ 0.1 = 0.2.|M|0.02/0.1
+N|A coil of 50 turns has a flux change of 0.02 Wb in 0.1 s. Find the induced e.m.f. in volts.|10|e.m.f. = 50 × 0.02 ÷ 0.1 = 10.|H|50*0.02/0.1
+N|Find the magnetic flux in Wb through an area of 0.5 m² held at right angles to a field of 0.4 T.|0.2|Φ = BA = 0.4 × 0.5 = 0.2.|M|0.4*0.5
+N|A current of 10 A flows through cables of total resistance 2 Ω. Find the power lost as heat in watts.|200|P = I²R = 100 × 2 = 200.|M|10*10*2
+N|The mains frequency is 50 Hz. Find the time period in seconds.|0.02|T = 1/50 = 0.02.|E|1/50
+N|A conductor of length 0.5 m carries 5 A in a field of 0.2 T at right angles. Find the force in newtons.|0.5|F = 0.2 × 5 × 0.5 = 0.5.|M|0.2*5*0.5
+N|A transformer takes 100 W and delivers 95 W. Find its efficiency in percent.|95|Efficiency = 95 ÷ 100 × 100 = 95.|M|95/100*100
+N|A transformer has a turns ratio Ns/Np = 5. If Np = 40, find Ns.|200|Ns = 40 × 5 = 200.|M|40*5
+N|The secondary of a transformer supplies 2 A at 24 V. Find the power delivered in watts.|48|P = VI = 24 × 2 = 48.|M|24*2
+S|State Fleming's left-hand rule.|Hold the thumb, first finger and second finger of the left hand at right angles. If the first finger points along the field and the second finger along the current, the thumb gives the direction of the force.|It is used to find the direction of the force on a conductor in a magnetic field.|M
+S|State Faraday's law of electromagnetic induction.|The e.m.f. induced in a circuit is proportional to the rate of change of magnetic flux through it.|It is the principle of the generator and the transformer.|M
+S|State Lenz's law.|The direction of the induced current is such that it opposes the change that produced it.|It is an example of the conservation of energy.|M
+S|Explain how a transformer works.|An alternating current in the primary coil produces a changing flux in the iron core. This induces an alternating e.m.f. in the secondary coil. The voltages are in the ratio of the turns.|It does not work with a steady direct current.|M
+S|State two differences between AC and DC.|Alternating current changes direction periodically, while direct current flows in one direction only. AC can be stepped up or down by a transformer, DC cannot.|Mains electricity is AC.|M
+S|Define electromagnetic induction.|The production of an e.m.f. in a conductor when the magnetic flux linked with it changes.|The change may be caused by relative motion between a magnet and a coil.|E

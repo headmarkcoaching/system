@@ -1,0 +1,154 @@
+@level Class 10
+@subject Biology
+
+# 7 Man and his Environment
+M|Ecology is the study of|the relationships between organisms and their environment|the structure of cells|the chemistry of food|the classification of plants|1|It deals with interactions in nature.|E
+M|An ecosystem is|a community of living things together with its non-living environment|a single species|only plants|only animals|1|A pond or a forest is an ecosystem.|E
+M|The non-living parts of an ecosystem are called|abiotic factors|biotic factors|producers|consumers|1|Examples are light, temperature and water.|E
+M|The living parts of an ecosystem are called|biotic factors|abiotic factors|minerals|soil only|1|They include plants, animals and microbes.|E
+M|Organisms that make their own food are called|producers|consumers|decomposers|parasites|1|Green plants are producers.|E
+M|Animals that feed on plants are called|herbivores|carnivores|omnivores|decomposers|1|A goat is a herbivore.|E
+M|Animals that feed on other animals are called|carnivores|herbivores|producers|saprotrophs|1|A lion is a carnivore.|E
+M|Animals that feed on both plants and animals are called|omnivores|herbivores|carnivores|producers|1|Humans are omnivores.|E
+M|Organisms that break down dead matter are called|decomposers|producers|herbivores|carnivores|1|Bacteria and fungi are decomposers.|E
+M|A food chain shows|the transfer of energy from one organism to another|the number of organisms only|the colour of organisms|the age of organisms|1|The arrows show the direction of energy flow.|E
+M|In a food chain, the arrow points from|the organism eaten to the one that eats it|the consumer to the producer|the sun to the soil|the predator to the prey|1|It shows the flow of energy.|E
+M|A network of interconnected food chains is called a|food web|food pyramid|energy chain|nutrient cycle|1|Most organisms feed on more than one species.|E
+M|The source of energy for almost all ecosystems is|the Sun|the soil|the water|the wind|1|Plants capture sunlight.|E
+M|In an energy flow, about what percentage of energy is passed to the next trophic level?|10 percent|90 percent|50 percent|100 percent|1|The rest is lost as heat, in respiration and in waste.|M
+M|A pyramid of numbers shows|the number of organisms at each trophic level|the energy at each level|the colour of organisms|the size of organisms|1|It can be upright or inverted.|M
+M|A pyramid of energy is|always upright|sometimes inverted|always inverted|a circle|1|Energy always decreases at higher levels.|M
+M|The first trophic level in any food chain is|the producer|the primary consumer|the secondary consumer|the decomposer|1|Producers form the base.|E
+M|The carbon cycle involves the processes of|photosynthesis, respiration and combustion|only freezing|only melting|only evaporation|1|Carbon moves between the air and living things.|M
+M|The main way that carbon dioxide is removed from the air is|photosynthesis|respiration|combustion|decay|1|Plants take it up.|E
+M|Nitrogen in the air is converted into nitrates by|nitrogen-fixing bacteria|lightning only|photosynthesis|respiration|1|Bacteria in root nodules of legumes do this.|M
+M|Legumes such as beans have root nodules containing|nitrogen-fixing bacteria|fungi|algae|viruses|1|They improve the soil.|M
+M|The water cycle includes evaporation, condensation and|precipitation|combustion|fermentation|fixation|1|Water returns to the Earth as rain or snow.|E
+M|Deforestation leads to|soil erosion and loss of habitats|more oxygen|better soil|cleaner air|1|Removing trees leaves the soil bare.|E
+M|The greenhouse effect is increased by|carbon dioxide and methane|oxygen|nitrogen|helium|1|They trap heat.|E
+M|Global warming may cause|melting of glaciers and rising sea levels|cooler summers|more ice|more snow everywhere|1|The Earth's average temperature rises.|E
+M|The ozone layer is damaged by|CFCs|carbon dioxide|oxygen|nitrogen|1|Chlorine atoms break down ozone.|M
+M|Acid rain is caused by the release of|sulphur dioxide and nitrogen oxides|oxygen|nitrogen only|argon|1|They form acids in the clouds.|M
+M|Water pollution is caused by|sewage and industrial waste|rain|sunlight|clean snow|1|They contaminate rivers and lakes.|E
+M|Eutrophication is caused by|excess fertilisers in water|too much oxygen|too much sun|too little salt|1|Algae grow, die and use up oxygen.|M
+M|Over-population results in|pressure on resources and pollution|more resources|less pollution|more forests|1|More people need more food and space.|E
+M|Conservation means|the wise use of natural resources to prevent their loss|using all resources quickly|destroying forests|ignoring wildlife|1|It ensures that resources last.|E
+M|A renewable resource is one that|can be replaced naturally|cannot be replaced|is a fossil fuel|is a mineral|1|Solar energy and forests are renewable.|E
+M|A non-renewable resource is|coal|wind|sunlight|water power|1|Fossil fuels will run out.|E
+M|Recycling helps by|saving raw materials and reducing waste|increasing waste|using more energy|polluting rivers|1|It reduces the load on the environment.|E
+M|Sustainable development means|meeting present needs without harming future generations|using all the resources now|ignoring the environment|building only factories|1|It balances growth and conservation.|M
+M|The role of decomposers in an ecosystem is to|recycle nutrients|make food from sunlight|eat live animals|cause diseases only|1|They break dead matter into simple substances.|E
+M|A habitat is|the place where an organism lives|its food|its enemy|its colour|1|A pond is a habitat for fish.|E
+M|An adaptation is|a feature that helps an organism survive in its environment|a disease|a food|a hormone|1|A camel's hump is an adaptation.|E
+M|Pesticides such as DDT can build up in the bodies of animals at the top of a food chain. This is called|biomagnification|photosynthesis|fertilisation|germination|1|The concentration rises at each level.|H
+M|Burning of fossil fuels increases|carbon dioxide in the atmosphere|the ozone layer|oxygen in the air|nitrogen in the air|1|CO₂ is a product of combustion.|E
+M|Planting trees helps to|reduce carbon dioxide and prevent soil erosion|increase pollution|increase erosion|reduce rainfall|1|Trees absorb CO₂ and hold the soil.|E
+N|Producers have 10 000 J of energy. Find the energy available to secondary consumers, assuming 10 percent is passed at each level.|100|10 000 × 0.1 × 0.1 = 100.|M|10000*0.1*0.1
+N|A primary consumer receives 1000 J. Find the energy passed to the secondary consumer at 10 percent in joules.|100|1000 × 0.1 = 100.|E|1000*0.1
+N|A grassland has 5000 kg of grass, 500 kg of grasshoppers and 50 kg of birds. Find the percentage of biomass passed from grass to grasshoppers.|10|500 ÷ 5000 × 100 = 10.|M|500/5000*100
+N|A population of 200 rabbits increases by 10 percent. Find the new population.|220|200 × 1.1 = 220.|M|200*1.1
+N|A forest loses 5 percent of its 2000 trees each year. Find the number lost in one year.|100|2000 × 0.05 = 100.|E|2000*0.05
+N|A bottle recycling plant saves 30 kg of raw material per tonne of glass. Find the saving for 40 tonnes in kg.|1200|30 × 40 = 1200.|M|30*40
+S|Define an ecosystem.|A community of living organisms together with the non-living environment with which they interact.|A pond is an example.|E
+S|What is a food chain? Give an example.|A series of organisms in which each is eaten by the next, showing the flow of energy. Grass → grasshopper → frog → snake.|Energy is lost at each step.|E
+S|Why does energy decrease along a food chain?|Much of the energy is lost as heat in respiration, in wastes and in parts not eaten, so only about 10 percent passes to the next level.|This is why food chains are short.|M
+S|Describe the carbon cycle.|Plants take in carbon dioxide for photosynthesis. Animals eat the plants. Respiration, decay and burning release carbon dioxide back to the air.|Carbon moves between living things and the air.|M
+S|State two causes and two effects of global warming.|Causes are the burning of fossil fuels and deforestation. Effects are melting glaciers and rising sea levels.|It also changes the weather.|M
+S|Define conservation and give two methods.|The protection and wise use of natural resources. Methods include recycling and planting trees.|Protected areas also help.|E
+
+# 8 Biotechnology
+M|Biotechnology is the|use of living organisms or their products to make useful things|study of rocks|study of stars|study of machines only|1|It includes making cheese, bread and medicines.|E
+M|Traditional biotechnology includes|making bread, yoghurt and cheese|genetic engineering only|cloning only|gene therapy|1|These use microorganisms.|E
+M|Yoghurt is made by the action of|bacteria on milk|yeast on milk|fungi on bread|viruses on milk|1|Lactobacillus converts lactose into lactic acid.|E
+M|Bread is made to rise by|yeast|bacteria|viruses|algae|1|Yeast releases carbon dioxide.|E
+M|Alcohol is produced by the fermentation of sugar by|yeast|bacteria only|viruses|fungi spores only|1|Yeast makes ethanol and carbon dioxide.|E
+M|Fermentation is the|breakdown of sugar by microorganisms without oxygen|breakdown of fats|growth of a seed|formation of a flower|1|It is anaerobic.|M
+M|Genetic engineering is the|transfer of genes from one organism to another|growth of a plant|breeding of animals only|making of food only|1|It changes the genetic make-up.|E
+M|A GM organism is|a genetically modified organism|a general microbe|a giant mutant|a good mixture|1|Its DNA has been altered by genetic engineering.|E
+M|The enzymes that cut DNA at specific places are called|restriction enzymes|ligases|polymerases|lipases|1|They act like molecular scissors.|M
+M|The enzymes that join DNA fragments are called|ligases|restriction enzymes|amylases|proteases|1|They act like molecular glue.|M
+M|A plasmid is|a small circular DNA in bacteria used as a vector|a type of cell|a type of enzyme|a protein|1|It carries the gene into the host.|M
+M|Human insulin is produced on a large scale by|genetically engineered bacteria|human cells in a vat|cows|pigs only|1|The human insulin gene is put into bacteria.|M
+M|Bt cotton is a GM crop that is|resistant to insect pests|resistant to cold|sweeter|bigger only|1|It contains a gene from a bacterium, Bacillus thuringiensis.|M
+M|Tissue culture is the|growing of cells or tissues in a nutrient medium|growing of seeds in soil|breeding of animals|making of cheese|1|It is used for micropropagation.|M
+M|An advantage of tissue culture is that|many identical plants can be grown quickly from a small piece|it needs no nutrients|it produces variation|it takes years|1|It is used to grow disease-free plants.|M
+M|A clone is|an organism genetically identical to its parent|a mutant|a hybrid|a different species|1|Cloning produces exact copies.|E
+M|The first mammal cloned from an adult cell was|Dolly the sheep|Tom the cat|Rex the dog|Max the mouse|1|It was born in 1996.|E
+M|DNA fingerprinting is used in|identifying criminals and establishing parentage|making cheese|growing plants|making bread|1|Every person's DNA is unique, apart from identical twins.|M
+M|PCR stands for|polymerase chain reaction|plant cell reproduction|protein chain reaction|primary cell replication|1|It makes many copies of DNA.|M
+M|A vaccine is|a preparation that stimulates the body to make antibodies|a food|an antibiotic|a hormone|1|It protects against disease.|E
+M|Biogas is mainly|methane|oxygen|nitrogen|carbon dioxide only|1|It is produced by the anaerobic breakdown of waste.|E
+M|Biogas is produced by|bacteria acting on animal waste|yeast on fruit|fungi on bread|viruses|1|It can be used for cooking and lighting.|M
+M|Gasohol is a mixture of petrol and|ethanol|water|methane|diesel|1|The ethanol comes from fermentation of crops.|M
+M|Single-cell protein is|protein obtained from microorganisms|protein from a plant|a type of fat|a vitamin|1|It is used as animal feed.|M
+M|Bioremediation uses microorganisms to|clean up pollution|make plastic|make paper|cut metal|1|They break down oil spills and toxic wastes.|M
+M|Antibiotics such as penicillin are made from|fungi and bacteria|rocks|metals|sand|1|Penicillin comes from the fungus Penicillium.|E
+M|The discoverer of penicillin was|Alexander Fleming|Louis Pasteur|Robert Koch|Edward Jenner|1|He found it in 1928.|E
+M|A possible risk of GM crops is|unexpected effects on the environment or health|more food|lower prices|better taste|1|Their long-term effects are still debated.|M
+M|Gene therapy is the|replacement of faulty genes with healthy ones|cutting of hair|removal of organs|transfer of blood|1|It is used to treat genetic diseases.|M
+M|Interferon is a protein made by|genetic engineering to fight viruses and cancer|plants for food|animals for milk|insects for silk|1|Bacteria can be made to produce it.|H
+M|Enzymes used in washing powders are made by|microorganisms in fermenters|chemists using metals|plants|animals|1|They are obtained from bacteria and fungi.|M
+M|A fermenter is|a large vessel in which microorganisms are grown|a type of plant|a part of a cell|a kind of enzyme|1|Conditions are controlled.|M
+M|The use of microorganisms to make citric acid is an example of|industrial biotechnology|gene therapy|cloning|tissue culture|1|The fungus Aspergillus is used.|M
+M|Pasteurisation of milk|kills harmful bacteria by heating|adds bacteria|makes it sour|makes it solid|1|The milk is heated and cooled quickly.|E
+N|A single bacterium divides every 30 minutes. Find the number of bacteria after 3 hours.|64|There are 6 divisions: 2⁶ = 64.|M|2^6
+N|A fermenter produces 20 g of an antibiotic per litre. Find the mass from 500 L in grams.|10000|20 × 500 = 10 000.|E|20*500
+N|A tissue culture makes 4 plants from each piece each month. Starting from 1 piece, find the number of plants after 3 months if all pieces are cultured again each month.|64|4³ = 64.|H|4^3
+N|A farmer's Bt cotton yields 20 percent more than 40 maunds. Find the yield in maunds.|48|40 × 1.2 = 48.|M|40*1.2
+N|A biogas plant makes 2 m³ of gas per day. Find the volume in 30 days.|60|2 × 30 = 60.|E|2*30
+N|A PCR cycle doubles the DNA. Find the number of copies after 10 cycles from one molecule.|1024|2¹⁰ = 1024.|M|2^10
+S|Define biotechnology.|The use of living organisms, or substances made by them, to produce goods and services useful to humans.|It includes both old and new methods.|E
+S|Name three products made by traditional biotechnology.|Bread, yoghurt and cheese. Vinegar and alcohol are also examples.|They use yeast and bacteria.|E
+S|Describe how human insulin is made by genetic engineering.|The human insulin gene is cut out using restriction enzymes and joined into a bacterial plasmid with ligase. The bacteria multiply in a fermenter and make insulin, which is collected and purified.|It replaces insulin from animals.|M
+S|What is tissue culture and what is its use?|The growth of plant cells or tissues on a sterile nutrient medium. It is used to produce many identical, disease-free plants quickly.|It is also called micropropagation.|M
+S|What is DNA fingerprinting and where is it used?|A method of identifying individuals by their unique pattern of DNA. It is used in crime investigation and in settling parentage.|It needs only a small sample.|M
+S|State one advantage and one risk of genetically modified crops.|Advantage: higher yield or pest resistance. Risk: possible harm to other organisms or unknown effects on health.|Careful testing is needed.|M
+
+# 9 Pharmacology
+M|Pharmacology is the study of|drugs and their effects on the body|plants|rocks|machines|1|It covers sources, uses and effects of drugs.|E
+M|A drug is|a substance that changes the way the body works|only a food|only a vitamin|a type of cell|1|It can be used as a medicine or taken for pleasure.|E
+M|A medicine is a drug used to|prevent, treat or cure disease|colour the skin|improve taste|make noise|1|It must be used correctly.|E
+M|A source of drugs from plants is|opium poppy, which gives morphine|salt|sand|iron|1|Many drugs come from plants.|E
+M|The drug aspirin is used as|an analgesic and antipyretic|an antibiotic|a vaccine|an anaesthetic|1|It relieves pain and reduces fever.|E
+M|Analgesics are drugs that|relieve pain|reduce fever|kill bacteria|cause sleep|1|Paracetamol is an example.|E
+M|Antipyretics are drugs that|reduce fever|relieve pain only|kill germs|cause sleep|1|Paracetamol is both an analgesic and an antipyretic.|E
+M|Antibiotics are drugs that|kill or stop the growth of bacteria|kill viruses|cure all diseases|reduce fever only|1|Penicillin is an antibiotic.|E
+M|Antibiotics are not effective against|viruses|bacteria|some fungi|none|1|Colds and flu are caused by viruses.|E
+M|Antibiotic resistance develops when|bacteria change so that antibiotics no longer kill them|bacteria are always killed|antibiotics are used correctly|viruses die|1|Overuse and misuse increase resistance.|M
+M|To prevent antibiotic resistance, a patient should|complete the full course of the antibiotic|stop when feeling better|share the tablets|take them without advice|1|Incomplete courses leave resistant bacteria.|M
+M|Antiseptics are used to|kill germs on the skin|treat internal infections|reduce fever|relieve pain|1|Dettol and iodine are antiseptics.|E
+M|Disinfectants are used to|kill germs on surfaces|treat wounds on the body|cure disease|reduce fever|1|Bleach is a disinfectant.|E
+M|Anaesthetics are drugs that|cause loss of sensation or consciousness|kill bacteria|reduce fever|stimulate the brain|1|They are used in surgery.|E
+M|A vaccine works by|stimulating the body to make antibodies|killing all germs directly|replacing blood|feeding the body|1|It prepares the immune system.|E
+M|Edward Jenner developed the vaccine against|smallpox|polio|measles|malaria|1|He used cowpox in 1796.|M
+M|Polio can be prevented by|vaccination|antibiotics|rest|exercise|1|The oral polio vaccine is given in drops.|E
+M|A side effect of a drug is|an unwanted effect|the main effect|a cure|a food|1|Some drugs cause drowsiness or nausea.|E
+M|Drug abuse is|the misuse of drugs for non-medical purposes|the correct use of medicines|the sale of medicines|taking vitamins|1|It harms health and society.|E
+M|Addiction means|dependence on a drug|a strong body|a good habit|an allergy|1|The user cannot stop taking the drug.|E
+M|Withdrawal symptoms are|unpleasant effects when an addict stops taking the drug|signs of recovery|a cure|good habits|1|They include shaking and sweating.|M
+M|Alcohol is a|depressant that slows down the nervous system|stimulant|vitamin|medicine for all diseases|1|It affects judgement and reaction time.|E
+M|Drinking alcohol damages the|liver|hair|nails|toes only|1|It can cause cirrhosis.|E
+M|Nicotine is found in|tobacco|tea|milk|water|1|It is an addictive drug.|E
+M|Smoking causes|lung cancer and heart disease|stronger bones|better vision|more energy|1|Tobacco smoke contains tar and carcinogens.|E
+M|Heroin and morphine are|narcotic drugs from the opium poppy|vitamins|antibiotics|vaccines|1|They are highly addictive.|E
+M|Caffeine is a mild stimulant found in|tea and coffee|milk|water|bread|1|It increases alertness.|E
+M|Medicines should be kept|out of the reach of children|within easy reach of children|in sunlight|open|1|Overdoses can be fatal.|E
+M|The expiry date on a medicine tells|when it should no longer be used|when it was made|its price|its colour|1|Old medicines may be ineffective or harmful.|E
+M|A prescription is|a doctor's written instruction for a medicine|a kind of tablet|a bill|a diet|1|Some drugs can be bought only with one.|E
+M|Traditional medicine in Pakistan includes|herbal medicines from plants|only surgery|only X-rays|only vaccines|1|Many herbs are used for treatment.|E
+M|Immunisation protects against|specific infectious diseases|all diseases|accidents|hunger|1|It stimulates immunity.|E
+M|Painkillers should not be taken for a long time without advice because they|can have side effects|always cure disease|are free|are food|1|They can damage the stomach and kidneys.|M
+M|The drug used to treat malaria is|quinine or chloroquine|aspirin|insulin|penicillin|1|Quinine comes from the cinchona tree.|M
+M|Insulin is used to treat|diabetes|malaria|asthma|anaemia|1|It lowers blood glucose.|E
+N|A dose is 5 mg per kg of body mass. Find the dose in mg for a child of mass 40 kg.|200|5 × 40 = 200.|E|5*40
+N|A patient needs 500 mg and each tablet has 250 mg. Find the number of tablets.|2|500 ÷ 250 = 2.|E|500/250
+N|A tablet is taken 3 times a day for 7 days. Find the number of tablets.|21|3 × 7 = 21.|E|3*7
+N|A syrup has 120 mg in 5 mL. Find the mg in 15 mL.|360|120 × 3 = 360.|M|120*15/5
+N|A bottle contains 100 tablets of 500 mg. Find the total mass of the drug in grams.|50|100 × 500 = 50 000 mg = 50 g.|M|100*500/1000
+N|A patient takes 2 tablets, 4 times a day, for 5 days. Find the number of tablets.|40|2 × 4 × 5 = 40.|M|2*4*5
+S|Define a drug and a medicine.|A drug is any substance that changes the way the body works. A medicine is a drug used to prevent, treat or cure a disease.|Not all drugs are medicines.|E
+S|Name three types of medicines and state the use of each.|Analgesics relieve pain, antibiotics kill bacteria and antipyretics reduce fever.|Vaccines prevent infection.|E
+S|How does a vaccine protect against a disease?|It contains a weakened or dead germ or part of it, which stimulates the body to make antibodies and memory cells, so that it can respond quickly to the real infection.|Smallpox was wiped out by vaccination.|M
+S|Why should a course of antibiotics be completed?|If it is stopped early, some bacteria survive and may become resistant to the antibiotic, making future infections harder to treat.|Antibiotic resistance is a serious problem.|M
+S|List two harmful effects of smoking.|It causes lung cancer and damages the heart and blood vessels. It also reduces the blood's ability to carry oxygen.|Nicotine is addictive.|E
+S|What is drug abuse? State two of its effects.|The misuse of drugs for non-medical purposes. It can lead to addiction and damage to the liver, brain and other organs, as well as crime and family problems.|Prevention needs education.|M

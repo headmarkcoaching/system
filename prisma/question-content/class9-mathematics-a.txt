@@ -1,0 +1,54 @@
+@level Class 9
+@subject Mathematics
+
+# 1 Matrices and Determinants
+M|The order of a matrix with 4 rows and 3 columns is|3 × 4|4 × 3|4 × 4|3 × 3|2|Order is written as rows × columns, so 4 rows and 3 columns gives 4 × 3.|E
+M|How many elements does a 3 × 4 matrix have?|7|12|34|9|2|The number of elements is rows × columns = 3 × 4 = 12.|E
+M|A matrix with only one row is called a|Row matrix|Column matrix|Square matrix|Null matrix|1|A matrix with a single row is a row matrix, of order 1 × n.|E
+M|A matrix with only one column is called a|Row matrix|Column matrix|Diagonal matrix|Scalar matrix|2|A matrix with a single column is a column matrix, of order m × 1.|E
+M|A matrix in which every element is zero is called a|Identity matrix|Null matrix|Scalar matrix|Diagonal matrix|2|A matrix whose elements are all zero is a null (zero) matrix.|E
+M|A square matrix whose elements outside the main diagonal are all zero is called a|Row matrix|Diagonal matrix|Rectangular matrix|Column matrix|2|Only the main diagonal may hold non-zero entries in a diagonal matrix.|E
+M|Every element on the main diagonal of an identity matrix is|0|1|2|−1|2|An identity matrix has 1 on the main diagonal and 0 everywhere else.|E
+M|A diagonal matrix whose diagonal elements are all equal is called a|Scalar matrix|Row matrix|Column matrix|Rectangular matrix|1|A diagonal matrix with equal diagonal entries is a scalar matrix.|M
+M|Two matrices are equal only if|they have the same number of rows|they have the same order and equal corresponding elements|they have the same number of elements|they have the same determinant|2|Equal matrices must have the same order and every pair of corresponding entries equal.|M
+M|The transpose of a 2 × 3 matrix has order|3 × 2|2 × 3|3 × 3|2 × 2|1|Transposing turns rows into columns, so 2 × 3 becomes 3 × 2.|E
+M|For any matrix A, the transpose of the transpose of A, written (Aᵗ)ᵗ, equals|A|Aᵗ|2A|the null matrix|1|Transposing twice returns the original matrix.|M
+M|If A is of order 2 × 3 and B is of order 3 × 4, the order of the product AB is|2 × 4|3 × 3|4 × 2|2 × 3|1|The product has the rows of A and the columns of B, so 2 × 4.|M
+M|The product AB of two matrices is defined only when|the number of rows of A equals the number of rows of B|the number of columns of A equals the number of rows of B|the number of columns of A equals the number of columns of B|A and B have the same order|2|Each row of A is multiplied with each column of B, so columns of A must equal rows of B.|M
+M|If A is of order 2 × 3 and B is also of order 2 × 3, then AB is|not defined|of order 2 × 3|of order 3 × 3|of order 2 × 2|1|A has 3 columns but B has 2 rows, so the two do not match and AB is not defined.|M
+M|The determinant of the matrix with rows (a, b) and (c, d) is|ad + bc|ad − bc|ac − bd|ab − cd|2|Multiply the main diagonal and subtract the product of the other diagonal: ad − bc.|E
+M|A square matrix is singular when its determinant is|0|1|−1|2|1|A singular matrix has determinant zero and has no multiplicative inverse.|E
+M|The determinant of the 2 × 2 identity matrix is|0|1|2|−1|2|With rows (1, 0) and (0, 1) the determinant is 1 × 1 − 0 × 0 = 1.|E
+M|The determinant of the 2 × 2 null matrix is|0|1|2|−1|1|Every product is zero, so the determinant is 0.|E
+M|A matrix has a multiplicative inverse only if it is|singular|non-singular|a null matrix|a row matrix|2|An inverse exists only for a square matrix with non-zero determinant, that is a non-singular matrix.|M
+M|The adjoint of the matrix with rows (a, b) and (c, d) has rows|(d, −b) and (−c, a)|(d, b) and (c, a)|(−a, −b) and (−c, −d)|(a, c) and (b, d)|1|Swap the diagonal entries a and d and change the signs of b and c.|M
+M|If A is a non-singular matrix, then A × A⁻¹ equals|the null matrix|the identity matrix|A|A⁻¹|2|A matrix multiplied by its inverse gives the identity matrix.|E
+M|The matrix with rows (2, 0) and (0, 2) is a|scalar matrix|null matrix|column matrix|row matrix|1|It is diagonal with both diagonal entries equal to 2, so it is a scalar matrix.|M
+M|For any square matrix A and the identity matrix I of the same order, AI equals|I|0|A|2A|3|The identity matrix leaves any matrix unchanged under multiplication.|E
+M|Two matrices can be added only if they|have the same number of rows|have the same number of columns|have the same order|are both square|3|Addition works entry by entry, so both matrices must be of the same order.|E
+M|The additive identity for matrices of a given order is the|identity matrix|null matrix|scalar matrix|transpose|2|Adding the null matrix leaves any matrix of that order unchanged.|M
+M|The additive inverse of a matrix A is|A⁻¹|−A|Aᵗ|I|2|A + (−A) is the null matrix, so −A is the additive inverse.|M
+M|For two matrices A and B, in general|AB = BA always|AB is not always equal to BA|AB is always the null matrix|AB is always the identity matrix|2|Matrix multiplication is not commutative, so AB and BA can differ.|M
+M|A square matrix A is symmetric if|Aᵗ = A|Aᵗ = −A|A = I|A = 0|1|A symmetric matrix equals its own transpose.|M
+M|A square matrix A is skew-symmetric if|Aᵗ = A|Aᵗ = −A|A × A = I|A = 0|2|A skew-symmetric matrix equals the negative of its transpose.|H
+M|The matrix with rows (1, 0) and (0, 1) is called the|null matrix|identity matrix|row matrix|column matrix|2|It has 1 on the main diagonal and 0 elsewhere.|E
+M|A matrix with 6 elements and 2 rows has how many columns?|2|3|4|6|2|Columns = elements ÷ rows = 6 ÷ 2 = 3.|M
+M|Which of the following cannot be the order of a square matrix?|2 × 2|3 × 3|2 × 3|1 × 1|3|A square matrix has equal rows and columns, so 2 × 3 is not square.|E
+M|A system of two linear equations in two unknowns has a unique solution by the matrix method if the determinant of the coefficient matrix is|zero|non-zero|negative|equal to 1 only|2|A unique solution needs a non-singular coefficient matrix, which means a non-zero determinant.|M
+M|If a matrix A has order 3 × 1, then A is a|row matrix|column matrix|square matrix|scalar matrix|2|One column means a column matrix.|E
+N|Find the determinant of the matrix with rows (5, 3) and (2, 4).|14|Determinant = ad − bc = 5 × 4 − 3 × 2 = 20 − 6 = 14.|E|5*4-3*2
+N|Find the determinant of the matrix with rows (7, −2) and (3, 5).|41|Determinant = 7 × 5 − (−2) × 3 = 35 + 6 = 41.|M|7*5-(-2)*3
+N|Let A have rows (1, 2) and (3, 4), and B have rows (5, 6) and (7, 8). Find the sum of all the elements of A + B.|36|A + B has rows (6, 8) and (10, 12). Their total is 6 + 8 + 10 + 12 = 36.|E|6+8+10+12
+N|Find x if the determinant of the matrix with rows (x, 2) and (3, 4) equals 10.|4|The determinant is 4x − 6 = 10, so 4x = 16 and x = 4.|M|(10+6)/4
+N|A has rows (1, 2) and (3, 4). B has rows (2, 0) and (1, 3). Find the top-left element of AB.|4|Top-left element = 1 × 2 + 2 × 1 = 4.|M|1*2+2*1
+N|A has rows (1, 2) and (3, 4). B has rows (2, 0) and (1, 3). Find the bottom-right element of AB.|12|Bottom-right element = 3 × 0 + 4 × 3 = 12.|M|3*0+4*3
+N|A has rows (3, 1) and (2, 5). Find the sum of all the elements of 2A.|22|2A has rows (6, 2) and (4, 10). The total is 6 + 2 + 4 + 10 = 22.|E|6+2+4+10
+N|Find k so that the matrix with rows (k, 3) and (2, 6) is singular.|1|It is singular when 6k − 6 = 0, so k = 1.|M|6/6
+N|Solve x + y = 5 and x − y = 1 by Cramer's rule. Find x.|3|The coefficient determinant is 1 × (−1) − 1 × 1 = −2. For x it is 5 × (−1) − 1 × 1 = −6. So x = −6 ÷ −2 = 3.|H|(-6)/(-2)
+N|A has rows (1, 2) and (3, 4). Find the determinant of 2A.|-8|2A has rows (2, 4) and (6, 8). The determinant is 2 × 8 − 4 × 6 = 16 − 24 = −8.|H|2*8-4*6
+S|Define a scalar matrix.|A diagonal matrix whose diagonal elements are all equal.|In a scalar matrix every element outside the main diagonal is zero and every diagonal element is the same, for example the matrix with rows (3, 0) and (0, 3).|E
+S|Define the transpose of a matrix.|The matrix obtained by turning the rows of A into columns, written Aᵗ.|If A is of order m × n, then Aᵗ is of order n × m, and the entry in row i, column j of A becomes the entry in row j, column i of Aᵗ.|E
+S|Find the transpose of the matrix with rows (1, 2, 3) and (4, 5, 6).|The matrix with rows (1, 4), (2, 5) and (3, 6).|The columns (1, 4), (2, 5), (3, 6) become the rows of the transpose.|M
+S|Find the adjoint of the matrix with rows (3, 4) and (2, 5).|The matrix with rows (5, −4) and (−2, 3).|Swap the diagonal entries 3 and 5 and change the signs of 4 and 2.|M
+S|Write the identity matrix of order 3.|The matrix with rows (1, 0, 0), (0, 1, 0) and (0, 0, 1).|An identity matrix has 1 on the main diagonal and 0 elsewhere.|E
+S|Define a symmetric matrix and give an example.|A square matrix equal to its transpose. For example the matrix with rows (1, 2) and (2, 3).|In a symmetric matrix the entry in row i, column j equals the entry in row j, column i.|M

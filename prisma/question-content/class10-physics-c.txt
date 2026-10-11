@@ -1,0 +1,159 @@
+@level Class 10
+@subject Physics
+
+# 7 Basic Electronics
+M|A semiconductor is a material whose conductivity is|between that of a conductor and an insulator|higher than a conductor|zero|infinite|1|Silicon and germanium are semiconductors.|E
+M|Two common semiconductor materials are|silicon and germanium|copper and silver|iron and nickel|rubber and glass|1|They are the basis of electronic devices.|E
+M|An n-type semiconductor is made by adding|a pentavalent impurity|a trivalent impurity|water|iron|1|Five valence electrons give extra free electrons.|M
+M|A p-type semiconductor is made by adding|a pentavalent impurity|a trivalent impurity|water|iron|2|Three valence electrons leave holes.|M
+M|The majority carriers in an n-type semiconductor are|electrons|holes|protons|neutrons|1|The extra electrons carry the current.|M
+M|The majority carriers in a p-type semiconductor are|electrons|holes|protons|neutrons|2|Holes carry most of the current.|M
+M|A p-n junction diode allows current to flow|in one direction only|in both directions equally|in neither direction|only in AC|1|It conducts when forward biased.|E
+M|A diode is forward biased when|the p side is connected to the positive terminal|the n side is connected to the positive terminal|it is not connected|the battery is removed|1|The positive terminal goes to the p-type side.|M
+M|A diode in reverse bias|allows almost no current|conducts strongly|burns out always|acts as a battery|1|The depletion layer widens.|M
+M|A rectifier is a circuit that converts|AC into DC|DC into AC|heat into light|light into heat|1|A diode conducts only in one direction.|E
+M|A half-wave rectifier uses|one diode|four diodes|no diode|two transistors|1|It passes only half of each AC cycle.|M
+M|A full-wave bridge rectifier uses|four diodes|one diode|no diodes|one transistor|1|Both halves of the AC cycle are used.|M
+M|An LED is a|light-emitting diode|large electric device|variable resistor|battery|1|It emits light when forward biased.|E
+M|A transistor has|three terminals|two terminals|four terminals|one terminal|1|The emitter, base and collector.|E
+M|The three terminals of a transistor are the|emitter, base and collector|anode, cathode and gate|source, drain and sink|input, output and ground|1|These are the terminal names.|E
+M|A transistor can be used as|an amplifier and a switch|a battery|a resistor only|a fuse|1|A small base current controls a large collector current.|M
+M|In a transistor, the current gain β equals|Ic/Ib|Ib/Ic|Ie/Ic|Ib × Ic|1|β = collector current ÷ base current.|M
+M|In a transistor, the emitter current equals|the base current plus the collector current|the collector current minus the base current|the base current only|zero|1|Ie = Ib + Ic.|M
+M|An AND gate gives an output of 1 only when|all inputs are 1|any input is 1|all inputs are 0|no input is 1|1|Both inputs must be high.|E
+M|An OR gate gives an output of 1 when|at least one input is 1|all inputs are 0|both inputs are 0|no input is 1|1|Any high input makes the output high.|E
+M|A NOT gate|inverts its input|doubles its input|stores its input|ignores its input|1|A 1 becomes 0 and a 0 becomes 1.|E
+M|A NAND gate is|an AND gate followed by a NOT gate|an OR gate followed by NOT|two NOT gates|an AND gate only|1|Its output is the inverse of AND.|M
+M|A NOR gate is|an OR gate followed by a NOT gate|an AND gate followed by NOT|two AND gates|an OR gate only|1|Its output is the inverse of OR.|M
+M|A signal that varies continuously is called|an analogue signal|a digital signal|a binary signal|a pulse|1|It can take any value in a range.|E
+M|A signal that has only two levels, 0 and 1, is called|an analogue signal|a digital signal|a sine wave|a ramp|2|Digital signals are discrete.|E
+M|Thermionic emission is the emission of|electrons from a hot metal surface|protons from a nucleus|light from a lamp|sound from a speaker|1|A heated filament releases electrons.|M
+M|A cathode ray tube produces|a beam of electrons|a beam of protons|sound waves|X-rays only|1|The electron beam strikes a fluorescent screen.|M
+M|A cathode ray oscilloscope is used to|display and measure electrical signals|store charge|amplify sound|measure mass|1|It shows waveforms of voltages against time.|M
+M|On a CRO screen, the horizontal axis normally shows|time|voltage|current|frequency only|1|The time base moves the spot across.|M
+M|The truth table of a 2-input gate has how many rows?|2|3|4|8|3|Two inputs give 2² = 4 combinations.|M
+M|The output of an AND gate with inputs 1 and 0 is|0|1|2|undefined|1|AND needs both inputs to be 1.|E
+N|A 5 V source drives a diode (0.7 V drop) and a 430 Ω resistor in series. Find the current in amperes.|0.01|I = (5 − 0.7) ÷ 430 = 0.01.|H|(5-0.7)/430
+N|A full-wave rectifier is fed with 50 Hz AC. Find the frequency of the pulsating output in hertz.|100|A full-wave rectifier gives twice the input frequency.|M|2*50
+N|A transistor has a collector current of 2 mA and a base current of 20 μA. Find its current gain.|100|β = Ic/Ib = 2 × 10⁻³ ÷ 20 × 10⁻⁶ = 100.|H|2e-3/20e-6
+N|A transistor has a base current of 0.02 mA and a collector current of 2 mA. Find the emitter current in mA.|2.02|Ie = Ib + Ic = 0.02 + 2 = 2.02.|M|2+0.02
+N|Find the number of rows in the truth table of a 3-input gate.|8|2³ = 8.|M|2^3
+N|Convert the binary number 1011 to decimal.|11|1011 = 8 + 0 + 2 + 1 = 11.|M|8+2+1
+N|Convert the binary number 1101 to decimal.|13|1101 = 8 + 4 + 0 + 1 = 13.|M|8+4+1
+N|Convert the decimal number 13 to binary.|1101|13 = 8 + 4 + 1, which is 1101.|M|1101
+N|An LED with 2 V drop carries 0.02 A. Find the power it uses in watts.|0.04|P = VI = 2 × 0.02 = 0.04.|M|2*0.02
+N|A 5 V supply drives an LED that needs 2 V at 20 mA through a series resistor. Find the resistor in ohms.|150|R = (5 − 2) ÷ 0.02 = 150.|H|(5-2)/0.02
+N|On a CRO, a waveform covers 4 divisions in one period and the time base is 2 ms/div. Find the frequency in hertz.|125|T = 4 × 2 ms = 8 ms, so f = 1 ÷ 0.008 = 125.|H|1/0.008
+N|On a CRO, the peak of a waveform is 3 divisions high and the sensitivity is 2 V/div. Find the peak voltage in volts.|6|Peak = 3 × 2 = 6.|M|3*2
+N|Find the decimal value of the binary number 111.|7|111 = 4 + 2 + 1 = 7.|M|4+2+1
+N|How many different values can 4 binary digits represent?|16|2⁴ = 16.|M|2^4
+S|What is a semiconductor? Name two examples.|A material whose electrical conductivity lies between that of a conductor and an insulator. Silicon and germanium are examples.|Their conductivity can be changed by adding impurities.|E
+S|Differentiate between n-type and p-type semiconductors.|An n-type semiconductor is doped with a pentavalent impurity and has extra free electrons. A p-type semiconductor is doped with a trivalent impurity and has holes.|The majority carriers are electrons in n-type and holes in p-type.|M
+S|What is a rectifier?|A circuit that converts alternating current into direct current using diodes.|A bridge rectifier uses four diodes.|E
+S|Draw up the truth table of an AND gate in words.|The output is 1 only when both inputs are 1. For inputs 00, 01 and 10 the output is 0.|The output for 11 is 1.|M
+S|State two uses of a transistor.|It can be used as an amplifier and as an electronic switch.|A small base current controls a larger collector current.|M
+S|What is thermionic emission?|The emission of electrons from the surface of a heated metal.|It is used in the cathode ray tube.|M
+
+# 8 Information and Communication Technology
+M|ICT stands for|Information and Communication Technology|Internal Control Technology|Information and Computer Terms|Internet and Cable Technology|1|ICT covers the technologies used to store, process and communicate information.|E
+M|Data is|raw facts and figures|processed information only|a computer|a network|1|Information is data that has been processed.|E
+M|A communication system consists of|a transmitter, a channel and a receiver|a bulb and a switch|a motor and a belt|a wire only|1|These are the three basic parts.|E
+M|The medium through which a signal travels is called the|channel|source|receiver|code|1|Examples are wires, air and optical fibre.|E
+M|Modulation is the process of|combining a message signal with a carrier wave|removing a signal|storing a signal|reflecting a signal|1|The message is placed on a high-frequency carrier.|M
+M|In amplitude modulation (AM) the carrier wave's|amplitude varies with the message|frequency varies with the message|speed varies|phase never varies|1|The amplitude follows the signal.|M
+M|In frequency modulation (FM) the carrier wave's|frequency varies with the message|amplitude varies with the message|speed is zero|colour changes|1|The frequency follows the signal.|M
+M|Compared with AM, FM is generally|less affected by noise|more affected by noise|heavier|slower|1|FM carries the message in frequency, not amplitude.|M
+M|A bit is|the smallest unit of digital data|8 bytes|a computer|an image|1|A bit is a single 0 or 1.|E
+M|A byte consists of|8 bits|4 bits|16 bits|2 bits|1|1 byte = 8 bits.|E
+M|One kilobyte is equal to|1024 bytes|1000 bits|100 bytes|10 bytes|1|1 KB = 1024 bytes.|M
+M|One megabyte is equal to|1024 kilobytes|1000 bytes|100 kilobytes|10 bytes|1|1 MB = 1024 KB.|M
+M|The internet is|a worldwide network of computers|a single large computer|a type of radio|a telephone line|1|It connects millions of networks.|E
+M|The world wide web is|a collection of web pages on the internet|the same as the internet|a computer virus|a cable|1|The web is one service that runs on the internet.|M
+M|The unique address of a computer on a network is its|IP address|serial number|hard disk|keyboard|1|Each device has an Internet Protocol address.|M
+M|A device that directs data between networks is a|router|printer|scanner|mouse|1|A router forwards data packets.|M
+M|Optical fibre cables carry signals as|pulses of light|electric current|sound waves|water|1|Light is trapped by total internal reflection.|M
+M|An advantage of optical fibre over copper cable is|it carries more data with less loss|it is heavier|it conducts electricity|it is cheaper in every case|1|Optical fibres have high bandwidth and low loss.|M
+M|A communication satellite is usually placed in|geostationary orbit|a very low orbit|the Moon's orbit|the ocean|1|It stays above one place on the equator.|M
+M|A mobile phone communicates with the network using|radio waves|sound waves|water waves|light bulbs|1|Radio waves link the phone to base stations.|E
+M|The full form of GPS is|Global Positioning System|General Power System|Great Planet Station|Ground Pressure Sensor|1|It gives location from satellite signals.|E
+M|An example of an input device is the|keyboard|monitor|printer|speaker|1|It sends data to the computer.|E
+M|An example of an output device is the|monitor|keyboard|mouse|scanner|1|It shows results from the computer.|E
+M|Email stands for|electronic mail|energy mail|engine mail|external mail|1|Messages are sent through the internet.|E
+M|A computer virus is|a harmful program that can copy itself|a type of bacteria|a monitor|a printer|1|It can damage files and spread to other computers.|E
+M|Antivirus software is used to|detect and remove harmful programs|speed up the keyboard|increase the screen size|play music|1|It protects the computer.|E
+M|A strong password should|combine letters, numbers and symbols|be your name|be 1234|be shared with friends|1|It is harder to guess.|E
+M|E-commerce means|buying and selling over the internet|making radios|a type of telephone|a computer game|1|Business is conducted online.|E
+M|The speed of radio waves in free space is|3 × 10⁸ m/s|340 m/s|3 × 10⁵ m/s|3 × 10¹⁰ m/s|1|They travel at the speed of light.|E
+M|A telephone converts sound into|an electrical signal|light only|heat|magnetism|1|A microphone changes sound into electric signals.|E
+M|The bandwidth of a channel is the|range of frequencies it can carry|length of the cable|colour of the wire|number of users|1|A larger bandwidth carries more data.|M
+N|Find the number of bytes in 2 kilobytes, using 1 KB = 1024 bytes.|2048|2 × 1024 = 2048.|E|2*1024
+N|Find the number of kilobytes in 3 megabytes, using 1 MB = 1024 KB.|3072|3 × 1024 = 3072.|E|3*1024
+N|A file of 10 MB is downloaded at 2 MB per second. Find the time in seconds.|5|10 ÷ 2 = 5.|E|10/2
+N|Find the number of bits in 5 bytes.|40|5 × 8 = 40.|E|5*8
+N|A signal travels from a satellite 36 000 km above the Earth to the ground at 3 × 10⁸ m/s. Find the time in seconds.|0.12|36 000 000 ÷ 3 × 10⁸ = 0.12.|M|36000e3/3e8
+N|A radio station broadcasts at 100 MHz. Find the wavelength in metres, using 3 × 10⁸ m/s.|3|λ = 3 × 10⁸ ÷ 10⁸ = 3.|M|3e8/100e6
+N|A radio wave has a wavelength of 300 m. Find its frequency in kilohertz using 3 × 10⁸ m/s.|1000|f = 3 × 10⁸ ÷ 300 = 10⁶ Hz = 1000 kHz.|H|3e8/300/1000
+N|How many different values can an 8-bit number represent?|256|2⁸ = 256.|M|2^8
+N|A digital image uses 8 bits per pixel and has 1000 pixels. Find its size in bytes.|1000|8 bits make 1 byte, so 1000 pixels need 1000 bytes.|M|1000*8/8
+N|A modem sends 56 000 bits per second. Find the number of bytes it sends in one second.|7000|56 000 ÷ 8 = 7000.|M|56000/8
+N|An email attachment of 4 MB is sent over a link of 0.5 MB/s. Find the time in seconds.|8|4 ÷ 0.5 = 8.|M|4/0.5
+N|A hard disk holds 500 GB. Find its size in MB using 1 GB = 1024 MB.|512000|500 × 1024 = 512 000.|M|500*1024
+N|A video call uses 1.5 MB per minute. Find the data in MB used in 20 minutes.|30|1.5 × 20 = 30.|E|1.5*20
+S|Define ICT.|The technology used to collect, store, process, transmit and display information, such as computers, telephones and the internet.|ICT stands for Information and Communication Technology.|E
+S|Name the three basic parts of a communication system.|A transmitter, a channel (medium) and a receiver.|The message goes from the transmitter through the channel to the receiver.|E
+S|What is modulation? Name two types.|Modulation is combining a message signal with a high-frequency carrier wave so it can be transmitted. Two types are amplitude modulation and frequency modulation.|It lets signals travel long distances.|M
+S|Distinguish between the internet and the world wide web.|The internet is the worldwide network of computers. The world wide web is a collection of web pages that can be reached through the internet.|The web is only one service on the internet.|M
+S|State two advantages of optical fibre cables.|They carry much more data than copper cables and the signal suffers less loss over long distances.|They are also not affected by electrical interference.|M
+S|State two safety measures when using the internet.|Use strong passwords and install antivirus software. Do not share personal information with strangers.|These protect your data and your computer.|E
+
+# 9 Atomic and Nuclear Physics
+M|The nucleus of an atom contains|protons and neutrons|electrons only|protons and electrons|neutrons and electrons|1|The nucleons are protons and neutrons.|E
+M|The atomic number Z of an atom is the number of its|protons|neutrons|nucleons|electrons plus neutrons|1|Z is the proton number.|E
+M|The mass number A of an atom is the number of its|protons plus neutrons|protons only|neutrons only|electrons|1|A is the nucleon number.|E
+M|The number of neutrons in a nucleus is|A − Z|A + Z|Z − A|Z|1|N = A − Z.|M
+M|Atoms of the same element with different numbers of neutrons are called|isotopes|isobars|isomers|ions|1|They have the same Z but different A.|M
+M|Radioactivity is the|spontaneous emission of radiation from unstable nuclei|bending of light|heating of metal|splitting of an atom by a hammer|1|Unstable nuclei decay by themselves.|E
+M|Alpha particles are|helium nuclei|electrons|electromagnetic waves|neutrons|1|An alpha particle is two protons and two neutrons.|E
+M|Beta particles are|fast electrons|helium nuclei|electromagnetic waves|neutrons|1|They come from the nucleus.|E
+M|Gamma rays are|electromagnetic waves of very short wavelength|helium nuclei|electrons|protons|1|They carry no charge or mass.|E
+M|Which radiation is the most penetrating?|Gamma rays|Beta particles|Alpha particles|They all penetrate equally|1|Gamma rays pass through several centimetres of lead.|M
+M|Which radiation is the most strongly ionising?|Alpha particles|Beta particles|Gamma rays|They all ionise equally|1|Alpha particles produce the most ions per unit path.|M
+M|An alpha particle can be stopped by|a sheet of paper|several centimetres of lead|thick concrete|nothing|1|It has low penetrating power.|M
+M|When a nucleus emits an alpha particle, its mass number|decreases by 4|increases by 4|stays the same|decreases by 1|1|An alpha particle has mass number 4.|M
+M|When a nucleus emits an alpha particle, its atomic number|decreases by 2|increases by 2|stays the same|decreases by 4|1|An alpha particle has 2 protons.|M
+M|When a nucleus emits a beta particle, its atomic number|increases by 1|decreases by 1|stays the same|increases by 2|1|A neutron changes into a proton.|H
+M|The half-life of a radioactive substance is the time in which|half the nuclei decay|all the nuclei decay|one nucleus decays|the nucleus doubles|1|It is the time for the activity to fall to one half.|E
+M|After two half-lives, the fraction of a radioactive sample left is|1/4|1/2|1/8|3/4|1|Half of a half is a quarter.|M
+M|The SI unit of radioactivity is the|becquerel|curie only|sievert|gray|1|One becquerel is one decay per second.|M
+M|Nuclear fission is the|splitting of a heavy nucleus into lighter nuclei|joining of light nuclei|decay of a neutron|emission of light|1|It releases a large amount of energy.|E
+M|Nuclear fusion is the|joining of light nuclei to form a heavier nucleus|splitting of a heavy nucleus|emission of alpha particles|absorption of neutrons|1|It powers the Sun.|E
+M|The energy of the Sun is produced by|nuclear fusion|nuclear fission|burning coal|chemical reactions|1|Hydrogen nuclei fuse to form helium.|E
+M|Nuclear power stations use|nuclear fission|nuclear fusion|burning coal|solar panels|1|Controlled fission heats water to make steam.|E
+M|The mass-energy relation is|E = mc²|E = mc|E = mv²|E = m/c²|1|Einstein's equation links mass and energy.|E
+M|A Geiger-Müller counter is used to|detect radiation|measure heat|measure voltage|measure speed|1|It clicks when radiation enters.|E
+M|A common use of gamma rays is|sterilising medical equipment|cooking|lighting a room|heating a house|1|They kill germs.|E
+M|A common use of radioisotopes in medicine is|treating cancer|measuring height|making sound|cooling the body|1|Radiation can destroy cancer cells.|E
+M|Exposure to a large amount of radiation is dangerous because it|damages living cells|heats the Earth|makes sound|stops time|1|It can cause illness or death.|E
+M|The control rods in a nuclear reactor are made of|boron or cadmium|iron|copper|plastic|1|They absorb neutrons and control the reaction.|M
+M|The three particles inside an atom are|protons, neutrons and electrons|atoms, ions and molecules|protons and ions|quarks only|1|They are the basic constituents.|E
+M|Rutherford's gold foil experiment showed that the atom|has a small dense nucleus|is a solid sphere|has no nucleus|has no electrons|1|Most alpha particles passed straight through, so the atom is mostly empty space.|M
+N|A nucleus has mass number 14 and atomic number 6. Find the number of neutrons.|8|N = A − Z = 14 − 6 = 8.|E|14-6
+N|Uranium-238 (Z = 92) emits an alpha particle. Find the mass number of the new nucleus.|234|238 − 4 = 234.|M|238-4
+N|Uranium-238 (Z = 92) emits an alpha particle. Find the atomic number of the new nucleus.|90|92 − 2 = 90.|M|92-2
+N|A nucleus of atomic number 6 emits a beta particle. Find the atomic number of the new nucleus.|7|The atomic number rises by 1: 6 + 1 = 7.|M|6+1
+N|A sample of 80 g has a half-life of 5 days. Find the mass left in grams after 15 days.|10|Three half-lives: 80 ÷ 2 ÷ 2 ÷ 2 = 10.|M|80/2/2/2
+N|A sample has a half-life of 5 days. Find the number of half-lives in 15 days.|3|15 ÷ 5 = 3.|E|15/5
+N|Find the fraction of a radioactive sample left after 3 half-lives, as a decimal.|0.125|(1/2)³ = 1/8 = 0.125.|M|1/8
+N|Find the energy in joules equivalent to a mass of 1 × 10⁻³ kg, taking c = 3 × 10⁸ m/s.|90000000000000|E = mc² = 10⁻³ × 9 × 10¹⁶ = 9 × 10¹³.|H|1e-3*9e16
+N|A neutral atom has atomic number 11. Find the number of electrons it has.|11|A neutral atom has as many electrons as protons.|E|11
+N|A radioactive source has an activity of 800 counts per minute and a half-life of 2 hours. Find the activity in counts per minute after 6 hours.|100|Three half-lives: 800 ÷ 8 = 100.|M|800/8
+N|Find the number of nucleons in a nucleus with 26 protons and 30 neutrons.|56|A = 26 + 30 = 56.|E|26+30
+N|The count rate of a source falls from 400 to 50 in 9 days. Find the half-life in days.|3|The count rate falls by 8, which is 3 half-lives, so each is 9 ÷ 3 = 3 days.|H|9/3
+N|A nucleus of mass number 235 absorbs a neutron. Find its new mass number.|236|235 + 1 = 236.|M|235+1
+N|A source has an activity of 1000 Bq. Find the number of decays in 10 s.|10000|1000 × 10 = 10 000.|M|1000*10
+S|Define atomic number and mass number.|The atomic number is the number of protons in the nucleus. The mass number is the total number of protons and neutrons.|The number of neutrons is A − Z.|E
+S|What are isotopes? Give an example.|Atoms of the same element with the same number of protons but different numbers of neutrons. Carbon-12 and carbon-14 are isotopes of carbon.|They have the same chemical properties.|M
+S|Name the three types of radiation from radioactive substances and state one property of each.|Alpha particles are helium nuclei with high ionising power. Beta particles are fast electrons. Gamma rays are electromagnetic waves with high penetrating power.|Alpha is stopped by paper, beta by aluminium and gamma by lead.|M
+S|Define half-life.|The time taken for half the nuclei in a radioactive sample to decay, or for the activity to fall to half.|It is constant for a given isotope.|E
+S|Distinguish between nuclear fission and nuclear fusion.|Fission is the splitting of a heavy nucleus into lighter ones. Fusion is the joining of light nuclei to form a heavier one. Both release energy.|Fission is used in reactors and fusion powers the Sun.|M
+S|State two uses and one hazard of radioactivity.|Uses are treating cancer and sterilising equipment. A hazard is that radiation can damage living cells.|Safety measures include shielding and limiting exposure.|M

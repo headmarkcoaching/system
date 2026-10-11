@@ -1,0 +1,162 @@
+@level Class 10
+@subject Chemistry
+
+# 5 Environmental Chemistry I: Atmosphere
+M|The most abundant gas in the Earth's atmosphere is|nitrogen|oxygen|carbon dioxide|argon|1|Nitrogen makes up about 78 percent of dry air.|E
+M|Oxygen makes up about what percentage of dry air?|21 percent|78 percent|1 percent|0.04 percent|1|Dry air is about 21 percent oxygen.|E
+M|The percentage of carbon dioxide in air is about|0.04 percent|4 percent|21 percent|78 percent|1|It is a trace gas, but it affects the climate.|E
+M|The layer of the atmosphere closest to the Earth is the|troposphere|stratosphere|mesosphere|thermosphere|1|Weather occurs in the troposphere.|E
+M|The ozone layer lies in the|stratosphere|troposphere|mesosphere|thermosphere|1|It is about 15 to 35 km above the Earth.|E
+M|The ozone layer protects living things from|ultraviolet radiation|infrared radiation|visible light|radio waves|1|Ozone absorbs harmful UV rays.|E
+M|The formula of ozone is|O₃|O₂|O|O₄|1|Ozone has three oxygen atoms.|E
+M|The main cause of ozone layer depletion is|chlorofluorocarbons (CFCs)|carbon dioxide|water vapour|nitrogen|1|CFCs release chlorine atoms that destroy ozone.|M
+M|The greenhouse effect is caused by gases that|trap heat in the atmosphere|absorb all light|reflect all heat into space|cool the Earth|1|They absorb outgoing infrared radiation.|E
+M|Which of the following is a greenhouse gas?|Carbon dioxide|Nitrogen|Argon|Neon|1|CO₂ traps heat.|E
+M|Another important greenhouse gas is|methane|helium|hydrogen|neon|1|Methane traps heat more strongly than CO₂ per molecule.|M
+M|Global warming is the|rise in the average temperature of the Earth|fall in temperature|increase in the ozone layer|growth of forests|1|It is largely caused by an increase in greenhouse gases.|E
+M|The main cause of the increase in atmospheric carbon dioxide is|burning of fossil fuels|volcanoes only|photosynthesis|respiration only|1|Industries and vehicles release CO₂.|E
+M|Acid rain is caused mainly by|sulphur dioxide and nitrogen oxides|carbon dioxide only|oxygen|argon|1|They form sulphuric and nitric acids in rainwater.|E
+M|The pH of normal rainwater is about|5.6|7|10|2|1|CO₂ dissolves in it to make it slightly acidic.|M
+M|Acid rain has a pH of|less than 5.6|7|more than 8|exactly 14|1|It is more acidic than normal rain.|M
+M|Acid rain harms|buildings, plants and aquatic life|only the stars|only deserts|nothing|1|It corrodes stone and damages forests and lakes.|E
+M|Sulphur dioxide in the air comes mainly from|burning coal and oil that contain sulphur|plants|the sea|clouds|1|Power stations are a major source.|M
+M|Oxides of nitrogen in the air come mainly from|car engines and furnaces|trees|oceans|rain|1|They form at high temperatures.|M
+M|Carbon monoxide is formed by|incomplete combustion of fuels|complete combustion|photosynthesis|evaporation|1|It forms when there is too little oxygen.|M
+M|Smog is a mixture of|smoke and fog|rain and snow|oxygen and ozone|hydrogen and helium|1|The word is formed from smoke and fog.|E
+M|Photochemical smog is formed when|sunlight acts on nitrogen oxides and hydrocarbons|rain falls on soil|water freezes|wind blows|1|It contains ozone and other pollutants at ground level.|H
+M|CFCs are used in|refrigerators, air conditioners and aerosol sprays|paints only|cement|fuel|1|They are now being replaced by safer chemicals.|M
+M|A measure to reduce air pollution is|using cleaner fuels and public transport|burning more coal|cutting trees|using more aerosol sprays|1|These reduce emissions.|E
+M|Planting trees helps because trees|absorb carbon dioxide|produce carbon dioxide|produce CFCs|produce acid rain|1|Photosynthesis removes CO₂.|E
+M|A catalytic converter in a car|converts harmful exhaust gases into less harmful ones|adds more fuel|increases pollution|makes noise|1|It converts CO and NOx into CO₂ and N₂.|M
+M|Particulate matter in air is|tiny solid or liquid particles|a type of gas|a vitamin|a metal|1|It can cause breathing problems.|M
+M|The main source of oxygen in the atmosphere is|photosynthesis|burning|volcanoes|the Moon|1|Plants and algae release oxygen.|E
+M|Argon is a|noble gas present in air|metal|liquid|radioactive element|1|It is about 0.9 percent of air.|M
+M|The temperature in the troposphere|decreases with height|increases with height|stays the same|is always zero|1|The air gets colder as you go up.|M
+N|Find the volume in litres of oxygen in 500 L of air, taking 21 percent oxygen.|105|500 × 0.21 = 105.|E|500*0.21
+N|Find the volume in litres of nitrogen in 100 L of air, taking 78 percent nitrogen.|78|100 × 0.78 = 78.|E|100*0.78
+N|Find the volume in litres of carbon dioxide in 10 000 L of air, taking 0.04 percent.|4|10 000 × 0.0004 = 4.|M|10000*0.0004
+N|Find the percentage of the atmosphere that is not nitrogen or oxygen if they make up 78 and 21 percent.|1|100 − 78 − 21 = 1.|M|100-78-21
+N|The concentration of CO₂ rises from 280 ppm to 420 ppm. Find the increase in ppm.|140|420 − 280 = 140.|M|420-280
+N|Find the percentage increase in CO₂ when it rises from 280 ppm to 420 ppm.|50|Increase = 140 ÷ 280 × 100 = 50.|H|140/280*100
+N|Find the pH difference between normal rain (pH 5.6) and acid rain of pH 4.6.|1|5.6 − 4.6 = 1.|M|5.6-4.6
+N|Acid rain of pH 4.6 has how many times more H⁺ than rain of pH 5.6? Find the factor.|10|Each pH unit is a factor of 10.|H|10^1
+N|A car releases 2.3 kg of CO₂ per litre of petrol burned. Find the mass of CO₂ in kg from 40 litres.|92|40 × 2.3 = 92.|M|40*2.3
+N|A tree absorbs 22 kg of CO₂ per year. Find the CO₂ absorbed in kg by 100 trees in 1 year.|2200|22 × 100 = 2200.|M|22*100
+N|Find the mass in grams of SO₂ (64 g/mol) formed by burning 32 g of sulphur (32 g/mol). S + O₂ → SO₂|64|32 g is 1 mole, which gives 1 mole of SO₂ = 64 g.|M|32/32*64
+N|Find the number of moles of CO₂ formed by burning 12 g of carbon (12 g/mol).|1|n = 12 ÷ 12 = 1.|M|12/12
+N|Find the mass in grams of CO₂ (44 g/mol) formed by burning 12 g of carbon (12 g/mol).|44|1 mole of carbon gives 1 mole of CO₂ = 44 g.|M|12/12*44
+N|The altitude of the ozone layer's centre is about 25 km. Find it in metres.|25000|25 × 1000 = 25 000.|E|25*1000
+N|The temperature falls by 6.5 °C per km in the troposphere. Find the fall in °C for 10 km.|65|6.5 × 10 = 65.|M|6.5*10
+S|Name the main gases of the atmosphere and their percentages.|Nitrogen about 78 percent, oxygen about 21 percent, argon about 0.9 percent and carbon dioxide about 0.04 percent.|Water vapour is also present in varying amounts.|E
+S|What is the greenhouse effect?|The warming of the Earth because gases such as carbon dioxide and methane in the atmosphere trap heat radiated from the Earth's surface.|Too much of it causes global warming.|M
+S|What is acid rain and what causes it?|Rain with a pH below 5.6, caused by sulphur dioxide and nitrogen oxides dissolving in rainwater to form sulphuric and nitric acids.|It damages buildings, plants and lakes.|M
+S|Why is the ozone layer important?|It absorbs most of the harmful ultraviolet radiation from the Sun, which protects living things from skin cancer and other damage.|CFCs destroy it.|M
+S|State two ways to reduce air pollution.|Use cleaner fuels and public transport, and plant more trees.|Catalytic converters and filters also help.|E
+S|What is smog?|A mixture of smoke and fog, often produced by pollutants from vehicles and industry, that reduces visibility and harms health.|Photochemical smog needs sunlight.|E
+
+# 6 Environmental Chemistry II: Water
+M|The chemical formula of water is|H₂O|HO₂|H₂O₂|OH|1|It has two hydrogen atoms and one oxygen atom.|E
+M|Water covers about what fraction of the Earth's surface?|Two thirds|One tenth|Everything|One twentieth|1|About 71 percent of the Earth is covered by water.|E
+M|Most of the Earth's water is|salt water in the oceans|fresh water in lakes|water in rivers|ice in glaciers only|1|About 97 percent is in the oceans.|E
+M|Water has its maximum density at|4 °C|0 °C|100 °C|−4 °C|1|Ice floats because it is less dense than water at 4 °C.|M
+M|Pure water is a|poor conductor of electricity|good conductor|metal|strong acid|1|It contains very few ions.|M
+M|The high boiling point of water is due to|hydrogen bonding|ionic bonding|metallic bonding|covalent bonds being weak|1|The molecules attract each other strongly.|M
+M|Water is called the universal solvent because|it dissolves many substances|it is a metal|it is the only liquid|it has no taste|1|Its polarity helps it dissolve ionic and polar substances.|E
+M|Hard water is water that|does not form lather easily with soap|forms lather easily|is frozen|has no minerals|1|It contains dissolved calcium and magnesium salts.|E
+M|Soft water is water that|forms lather easily with soap|is very salty|is always cold|contains many calcium salts|1|It has few dissolved calcium and magnesium salts.|E
+M|Temporary hardness is caused by|calcium and magnesium hydrogencarbonates|calcium and magnesium chlorides|sodium chloride|sulphur|1|It can be removed by boiling.|M
+M|Permanent hardness is caused by|calcium and magnesium sulphates or chlorides|hydrogencarbonates only|sodium chloride|oxygen|1|Boiling does not remove it.|M
+M|Temporary hardness can be removed by|boiling|filtering only|adding salt|adding sugar|1|Boiling decomposes the hydrogencarbonates.|M
+M|Permanent hardness can be removed by|adding washing soda (sodium carbonate)|boiling|cooling|filtering|1|The carbonate precipitates calcium and magnesium ions.|M
+M|The scum formed when soap reacts with hard water is|calcium or magnesium stearate|sodium chloride|calcium oxide|water|1|The insoluble salt of soap forms the scum.|M
+M|Boiling a temporary hard water produces|a precipitate of calcium carbonate|hydrogen|oxygen|sodium|1|Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂.|M
+M|The deposit inside kettles is called|scale|rust|salt|sugar|1|It is mostly calcium carbonate.|E
+M|An ion-exchange resin is used to|soften water|colour water|add salt|cool water|1|It swaps Ca²⁺ and Mg²⁺ for Na⁺.|M
+M|Chlorination of water is done to|kill germs|remove hardness|add colour|add minerals|1|Chlorine disinfects the water.|E
+M|Filtration of water removes|suspended solid particles|dissolved gases|dissolved salts|germs only|1|It separates insoluble matter.|E
+M|The process of boiling and condensing water to purify it is called|distillation|filtration|chlorination|sedimentation|1|It removes dissolved solids.|E
+M|A common water-borne disease is|cholera|measles|tuberculosis|malaria only|1|Cholera spreads through contaminated water.|E
+M|Water pollution is mainly caused by|industrial waste, sewage and fertilisers|clean rain|pure snow|sunlight|1|Pollutants enter rivers and lakes.|E
+M|Eutrophication is caused by|excess nutrients such as nitrates and phosphates in water|lack of nutrients|heat only|salt|1|Algae grow rapidly and use up oxygen.|M
+M|BOD stands for|biochemical oxygen demand|basic oxygen density|biological ozone depletion|boiling oxygen demand|1|It measures the oxygen needed by microbes to break down waste.|M
+M|A high BOD indicates|heavily polluted water|clean water|salty water|cold water|1|Much organic waste needs a lot of oxygen.|M
+M|The pH range of safe drinking water is about|6.5 to 8.5|1 to 3|10 to 14|0 to 2|1|Water that is too acidic or alkaline is unsafe.|M
+M|Desalination is the removal of|salt from sea water|oxygen from water|sugar from water|germs only|1|It makes sea water drinkable.|M
+M|Heavy metals such as lead and mercury in water are|toxic|harmless|nutrients|essential vitamins|1|They damage health.|E
+M|Fluoride in drinking water in small amounts|helps strengthen teeth|is poisonous at any amount|makes water acidic|has no effect|1|Too much causes fluorosis.|M
+M|Dissolved oxygen in water is needed for|fish and other aquatic life|boiling|making soap|making ice|1|Fish breathe oxygen dissolved in water.|E
+M|Water treatment plants remove impurities by|sedimentation, filtration and chlorination|only boiling|only freezing|only adding salt|1|These are the usual steps.|M
+N|Find the mass in grams of CaCO₃ (100 g/mol) formed when 162 g of Ca(HCO₃)₂ (162 g/mol) is boiled. Ca(HCO₃)₂ → CaCO₃ + H₂O + CO₂|100|162 g is 1 mole, which gives 1 mole of CaCO₃ = 100 g.|H|162/162*100
+N|About 3 percent of Earth's water is fresh. Find the volume in litres of fresh water in 1000 L of the Earth's water.|30|1000 × 0.03 = 30.|E|1000*0.03
+N|A water sample has 120 mg of calcium carbonate per litre. Find the mass in mg in 5 litres.|600|120 × 5 = 600.|E|120*5
+N|A water sample has hardness 300 mg/L as CaCO₃. Find the mass in grams in 10 litres.|3|300 × 10 = 3000 mg = 3 g.|M|300*10/1000
+N|Find the number of moles of CaCO₃ (100 g/mol) in 5 g of scale.|0.05|5 ÷ 100 = 0.05.|M|5/100
+N|Find the mass in grams of CO₂ (44 g/mol) released when 1 mole of Ca(HCO₃)₂ is boiled.|44|One mole of CO₂ is released: 44 g.|M|44
+N|A kettle holds 2 litres of water. Find the mass in kg of water, taking 1 litre = 1 kg.|2|1 litre of water has a mass of 1 kg.|E|2*1
+N|Find the volume in litres of a swimming pool 10 m × 5 m × 2 m. (1 m³ = 1000 L)|100000|Volume = 100 m³ = 100 000 L.|M|10*5*2*1000
+N|A person needs 2 litres of water per day. Find the number of litres needed by 5 people in 30 days.|300|2 × 5 × 30 = 300.|M|2*5*30
+N|Chlorine at 0.5 mg/L is added to a tank holding 2000 L. Find the mass of chlorine in mg.|1000|0.5 × 2000 = 1000.|M|0.5*2000
+N|Find the number of moles of Na₂CO₃ (106 g/mol) in 53 g of washing soda.|0.5|53 ÷ 106 = 0.5.|M|53/106
+N|Find the mass in grams of Ca²⁺ (40 g/mol) in 0.05 mole.|2|0.05 × 40 = 2.|M|0.05*40
+N|Sea water contains 3.5 percent dissolved salts. Find the mass in kg of salts in 200 kg of sea water.|7|200 × 0.035 = 7.|M|200*0.035
+N|Find the mass in grams of water (18 g/mol) in 2 moles.|36|2 × 18 = 36.|E|2*18
+N|Water boils at 100 °C. Find its boiling point in kelvin.|373|100 + 273 = 373.|E|100+273
+S|What is hard water? How are the two types of hardness caused?|Water that does not lather easily with soap. Temporary hardness is caused by calcium and magnesium hydrogencarbonates, and permanent hardness by their sulphates and chlorides.|Boiling removes only temporary hardness.|M
+S|How can permanent hardness be removed?|By adding washing soda (sodium carbonate), which precipitates calcium and magnesium as carbonates, or by using an ion-exchange resin.|Boiling does not remove it.|M
+S|Name three steps in water purification.|Sedimentation, filtration and chlorination.|Each removes a different kind of impurity or germ.|E
+S|What is eutrophication?|The excessive growth of algae in water caused by too many nutrients such as nitrates and phosphates, which reduces the dissolved oxygen and kills aquatic life.|Fertilisers and sewage are common causes.|M
+S|Define BOD.|The amount of dissolved oxygen needed by microorganisms to break down the organic matter in a water sample.|A high BOD means the water is polluted.|M
+S|Mention two sources of water pollution.|Industrial waste and sewage, and fertilisers and pesticides washed from farmland.|Oil spills are another.|E
+
+# 7 Chemical Industries
+M|A chemical industry is one that|converts raw materials into useful products by chemical processes|only mines minerals|only sells goods|only repairs machines|1|Examples are fertiliser and cement factories.|E
+M|Fertilisers are used to|supply nutrients to plants|kill insects|colour plants|cool soil|1|They supply nitrogen, phosphorus and potassium.|E
+M|The three main nutrients in NPK fertilisers are|nitrogen, phosphorus and potassium|nickel, platinum and krypton|nitrogen, platinum and krypton|sodium, phosphorus and potassium|1|N, P and K.|E
+M|Urea is a fertiliser made from|ammonia and carbon dioxide|sodium and chlorine|iron and sulphur|nitrogen and oxygen only|1|2NH₃ + CO₂ → CO(NH₂)₂ + H₂O.|M
+M|The formula of urea is|CO(NH₂)₂|NH₄NO₃|(NH₄)₂SO₄|NH₃|1|It contains about 46 percent nitrogen.|M
+M|The raw material for making ammonia in the Haber process is|nitrogen from air and hydrogen|only coal|only salt|only water|1|N₂ + 3H₂ → 2NH₃.|M
+M|Pakistan has large reserves of natural gas, which is used to make|urea fertiliser|steel only|paper only|cement only|1|It supplies hydrogen for ammonia.|M
+M|The main raw materials of cement are|limestone and clay|sand and salt|iron and carbon|water and salt|1|They are heated in a kiln.|E
+M|The main raw materials for making glass are|sand, soda ash and limestone|clay and gypsum|coal and iron|salt and water|1|Sand is silicon dioxide.|M
+M|Soap is made by the reaction of fats or oils with|sodium hydroxide|hydrochloric acid|water only|sodium chloride|1|This is saponification.|M
+M|The reaction between a fat and an alkali to make soap is called|saponification|neutralisation|polymerisation|esterification|1|It gives soap and glycerol.|M
+M|The by-product of soap making is|glycerol|ethanol|water only|carbon dioxide|1|Glycerol is used in cosmetics and medicines.|M
+M|Detergents differ from soaps in that detergents|do not form scum in hard water|are made of fats|are always solid|cannot clean|1|They are made from petrochemicals and do not react with hard water ions.|M
+M|Petroleum refining separates crude oil by|fractional distillation|filtration|electrolysis|crystallisation|1|The components have different boiling points.|E
+M|Crude oil is a mixture of|hydrocarbons|metals|salts|gases only|1|Mostly alkanes.|E
+M|The fraction of petroleum used as aircraft fuel is|kerosene|bitumen|refinery gas|lubricating oil|1|It is a medium-weight fraction.|M
+M|The fraction of petroleum used for road surfacing is|bitumen|petrol|diesel|kerosene|1|It is thick and black.|M
+M|Sugar is obtained from|sugarcane and sugar beet|wheat|rice|cotton|1|Sugarcane is the main source in Pakistan.|E
+M|Gypsum is added to cement to|slow down the setting|speed up the setting|colour it|make it a liquid|1|It controls the rate at which the cement sets.|H
+M|Pakistan is a major producer of|textiles and cotton products|oil only|diamonds|tea only|1|The textile industry is a major part of the economy.|E
+M|Chemical industries should treat their waste because|it can pollute air, water and soil|it is valuable|it is clean|it has no effect|1|Untreated waste harms health and the environment.|E
+M|The raw material of the ceramics industry is|clay|oil|salt|sugar|1|Clay is shaped and fired.|E
+M|A catalyst is used in industry to|speed up a reaction economically|colour the product|stop the reaction|increase the pressure only|1|It lowers the energy needed.|M
+M|Fertilisers can cause water pollution if|too much is washed into rivers and lakes|they are used in the right amount|they are stored dry|they are made|1|Excess nutrients cause eutrophication.|M
+M|Plastics are made from|petroleum products|only wood|only metal|only stone|1|They are polymers of small molecules from crude oil.|E
+M|The paper industry mainly uses|cellulose from wood or other plants|petrol|sand|iron|1|Wood pulp is the raw material.|E
+M|The leather industry uses|hides and skins|clay|sand|cotton|1|It is a major export of Pakistan.|E
+M|An advantage of recycling is|it saves raw materials and energy|it increases pollution|it wastes resources|it costs more energy|1|Recycled glass, paper and metal use less energy.|E
+M|The Solvay process produces|sodium carbonate|ammonia|sulphuric acid|chlorine|1|It uses salt, ammonia and limestone.|H
+M|Caustic soda (NaOH) is mainly made by|electrolysis of brine|burning sodium|mixing salt and sugar|filtering sea water|1|The electrolysis of sodium chloride solution gives NaOH, Cl₂ and H₂.|M
+N|Find the molar mass of urea, CO(NH₂)₂, in g/mol. (C = 12, O = 16, N = 14, H = 1)|60|12 + 16 + 2 × 14 + 4 × 1 = 60.|M|12+16+2*14+4
+N|Find the percentage of nitrogen in urea (60 g/mol), to one decimal place.|46.7|28 ÷ 60 × 100 = 46.7.|M|28/60*100
+N|Find the percentage of nitrogen in ammonium nitrate, NH₄NO₃ (80 g/mol).|35|28 ÷ 80 × 100 = 35.|M|28/80*100
+N|Find the percentage of nitrogen in ammonium sulphate, (NH₄)₂SO₄ (132 g/mol), to one decimal place.|21.2|28 ÷ 132 × 100 = 21.2.|H|28/132*100
+N|A fertiliser contains 46 percent nitrogen. Find the mass in kg of nitrogen in 50 kg of it.|23|50 × 0.46 = 23.|M|50*0.46
+N|A farmer needs 200 kg of fertiliser and bags are 50 kg each. Find the number of bags.|4|200 ÷ 50 = 4.|E|200/50
+N|Find the mass in kg of ammonia (17 g/mol) needed to make 60 kg of urea (60 g/mol). 2NH₃ + CO₂ → CO(NH₂)₂ + H₂O|34|60 kg of urea is 1 kmol and needs 2 kmol of ammonia = 34 kg.|H|60/60*2*17
+N|Find the mass in kg of CaCO₃ (100 g/mol) in 500 kg of limestone that is 90 percent pure.|450|500 × 0.9 = 450.|M|500*0.9
+N|A factory makes 2000 kg of soap per day. Find the mass in kg made in 30 days.|60000|2000 × 30 = 60 000.|E|2000*30
+N|A cement plant produces 1500 tonnes per day. Find the production in tonnes in 7 days.|10500|1500 × 7 = 10 500.|E|1500*7
+N|Crude oil of 100 kg gives 30 kg of petrol. Find the percentage of petrol.|30|30 ÷ 100 × 100 = 30.|E|30/100*100
+N|A reaction gives 90 g of product against a theoretical 100 g. Find the percentage yield.|90|90 ÷ 100 × 100 = 90.|E|90/100*100
+N|Find the mass in g of glycerol (92 g/mol) from 1 mole of fat (a triglyceride).|92|One mole of glycerol is formed: 92 g.|H|92
+N|Find the number of moles of NaOH (40 g/mol) in 120 g.|3|120 ÷ 40 = 3.|M|120/40
+N|A factory emits 5 kg of waste per hour. Find the mass in kg in 24 hours.|120|5 × 24 = 120.|E|5*24
+S|What is a chemical industry? Give two examples.|An industry that changes raw materials into useful products by chemical reactions. Fertiliser and cement industries are examples.|Pakistan has several of both.|E
+S|How is urea made?|Ammonia reacts with carbon dioxide under pressure to give urea, 2NH₃ + CO₂ → CO(NH₂)₂ + H₂O.|The ammonia comes from the Haber process using natural gas.|M
+S|What are the raw materials of cement?|Limestone (calcium carbonate) and clay, with a little gypsum added after heating.|Gypsum controls the setting time.|M
+S|What is saponification?|The reaction of a fat or oil with an alkali such as sodium hydroxide to produce soap and glycerol.|It is the basis of soap making.|M
+S|Name three petroleum fractions and one use of each.|Petrol for cars, kerosene for jet aircraft and bitumen for road surfaces.|They are separated by fractional distillation.|E
+S|State two ways in which a chemical industry can reduce its harm to the environment.|By treating its waste before release and by using cleaner fuels or recycling materials.|Filters and scrubbers reduce emissions.|M

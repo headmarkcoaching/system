@@ -1,0 +1,225 @@
+@level Class 9
+@subject Computer Science
+
+# 5 Operating Systems
+M|An operating system is|system software that manages the computer's hardware and software|a type of hardware|a word processor|a game|1|It is the link between the user and the hardware.|E
+M|Which of the following is an operating system?|Windows|Excel|Chrome|Photoshop|1|Windows, Linux, macOS and Android are operating systems.|E
+M|The process of starting a computer and loading the operating system is called|booting|formatting|installing|compiling|1|It is also called start-up.|E
+M|Starting a computer that is switched off is called a|cold boot|warm boot|hot boot|soft boot|1|Restarting a running computer is a warm boot.|M
+M|Restarting a computer without switching off the power is called a|warm boot|cold boot|power off|shutdown|1|It resets the system.|M
+M|The function of the operating system that allocates RAM to programs is|memory management|file management|device management|process management|1|It keeps track of which parts of memory are in use.|M
+M|The function of the operating system that organises files and folders is|file management|memory management|process management|device management|1|It creates, names and deletes files.|M
+M|The function of the operating system that controls the printer and the keyboard is|device management|file management|memory management|security|1|It uses drivers.|M
+M|The function that decides which program the CPU runs next is|process management|file management|device management|memory management|1|It schedules the processes.|M
+M|An operating system that allows several programs to run at the same time is a|multitasking operating system|single-task operating system|batch system|real-time system only|1|You can listen to music while typing.|E
+M|An operating system that allows many users to use the system at the same time is a|multi-user operating system|single-user operating system|mobile OS|embedded OS|1|Servers use them.|E
+M|An operating system that responds to inputs immediately, as in an aircraft control system, is a|real-time operating system|batch system|multi-user system|single-user system|1|It must respond within a fixed time.|M
+M|The first screen that appears after Windows starts is the|desktop|file|folder|menu|1|It has icons and the taskbar.|E
+M|The bar at the bottom of the Windows screen is the|taskbar|menu bar|title bar|scroll bar|1|It shows open programs and the clock.|E
+M|A small picture on the desktop that represents a program or file is an|icon|window|cursor|pixel|1|Double-clicking opens it.|E
+M|A rectangular area on the screen that shows a program is a|window|icon|folder|menu|1|You can resize and move it.|E
+M|A named collection of data stored on a disk is a|file|folder|window|menu|1|It has a name and an extension.|E
+M|A container that holds files and other folders is a|folder|file|window|byte|1|It helps organise files.|E
+M|The extension of a Word document is|.docx|.xlsx|.pptx|.jpg|1|DOCX is the Word format.|E
+M|The extension of an Excel file is|.xlsx|.docx|.pptx|.mp3|1|XLSX is the Excel format.|E
+M|The extension of a PowerPoint file is|.pptx|.docx|.xlsx|.txt|1|PPTX is the PowerPoint format.|E
+M|The extension of a plain text file is|.txt|.docx|.jpg|.mp3|1|It holds only text.|E
+M|The extension of a common picture file is|.jpg|.docx|.exe|.xlsx|1|JPG is an image format.|E
+M|The extension of a program file that can be run is|.exe|.txt|.jpg|.pdf|1|EXE means executable.|E
+M|The extension of a typical audio file is|.mp3|.docx|.exe|.pptx|1|MP3 is a compressed audio format.|E
+M|The extension of a typical video file is|.mp4|.docx|.txt|.xlsx|1|MP4 is a popular video format.|E
+M|The keyboard shortcut for copy is|Ctrl + C|Ctrl + V|Ctrl + X|Ctrl + Z|1|C is for copy.|E
+M|The keyboard shortcut for paste is|Ctrl + V|Ctrl + C|Ctrl + X|Ctrl + P|1|It pastes the copied item.|E
+M|The keyboard shortcut for cut is|Ctrl + X|Ctrl + C|Ctrl + V|Ctrl + S|1|It removes the selection and keeps it on the clipboard.|E
+M|The keyboard shortcut for undo is|Ctrl + Z|Ctrl + Y|Ctrl + S|Ctrl + A|1|It reverses the last action.|E
+M|The keyboard shortcut for save is|Ctrl + S|Ctrl + P|Ctrl + O|Ctrl + N|1|It saves the file.|E
+M|The keyboard shortcut for select all is|Ctrl + A|Ctrl + C|Ctrl + S|Ctrl + P|1|It selects everything in the window.|E
+M|The program used to view and manage files and folders in Windows is|File Explorer|Notepad|Paint|Calculator|1|It shows the folder structure.|E
+M|Deleted files in Windows are first moved to the|Recycle Bin|Desktop|Downloads|Documents|1|They can be restored from there.|E
+M|Formatting a disk|erases the data and prepares it for use|copies the data|compresses the data|protects the data|1|It creates a new file system.|M
+M|A utility that removes unnecessary files and frees disk space is|Disk Cleanup|Notepad|Paint|WordPad|1|It deletes temporary files.|M
+M|A utility that rearranges files on a hard disk to make it faster is|Disk Defragmenter|Notepad|Calculator|Paint|1|It joins scattered parts of files.|M
+M|The program used to manage running programs and see which is using the CPU is the|Task Manager|Notepad|Calculator|Paint|1|It can end a program that has stopped responding.|M
+M|The operating system used on most Android phones is|Android (based on Linux)|iOS|Windows only|macOS|1|It is developed by Google.|E
+N|A folder has 4 files of 25 MB each. Find the total size in MB.|100|4 × 25 = 100.|E|4*25
+N|A disk has 500 GB of space and 125 GB is used. Find the free space in GB.|375|500 − 125 = 375.|E|500-125
+N|An operating system takes 20 seconds to start. How many times can it start in 5 minutes?|15|5 × 60 ÷ 20 = 15.|M|5*60/20
+N|A folder contains 3 subfolders, each with 10 files. Find the total number of files.|30|3 × 10 = 30.|E|3*10
+N|A file of 6 MB is copied at 2 MB per second. Find the time in seconds.|3|6 ÷ 2 = 3.|E|6/2
+N|The Recycle Bin holds 8 files of 15 MB each. Find the space freed in MB if it is emptied.|120|8 × 15 = 120.|E|8*15
+N|A computer has 4 GB of RAM and each program uses 512 MB. Find the number of programs that fit in RAM.|8|4 × 1024 ÷ 512 = 8.|M|4*1024/512
+N|A disk is 40 percent full and has 400 GB capacity. Find the used space in GB.|160|400 × 0.4 = 160.|M|400*0.4
+N|A user opens 5 windows and closes 2. Find the number of open windows.|3|5 − 2 = 3.|E|5-2
+N|A text file has 3000 characters at 1 byte each. Find its size in KB, to one decimal place.|2.9|3000 ÷ 1024 = 2.9.|H|3000/1024
+S|Define an operating system.|System software that manages the hardware and software resources of a computer and provides an interface between the user and the computer.|Windows and Linux are examples.|E
+S|List four functions of an operating system.|Process management, memory management, file management and device management. It also provides security and a user interface.|These keep the computer running smoothly.|M
+S|Distinguish between a file and a folder.|A file is a named collection of data, such as a document. A folder is a container used to organise files and other folders.|Files have extensions.|E
+S|What is meant by booting?|The process of starting a computer and loading the operating system into memory.|It can be a cold or warm boot.|E
+S|Write the keyboard shortcuts for copy, paste and cut.|Copy is Ctrl + C, paste is Ctrl + V and cut is Ctrl + X.|Undo is Ctrl + Z.|E
+S|What is a multitasking operating system?|One that lets the computer run several programs at the same time, switching quickly between them.|Windows is multitasking.|E
+
+# 6 Networks and the Internet
+M|A computer network is|a group of computers connected to share resources and information|a single computer|a program|a type of printer|1|They are connected by cables or wireless links.|E
+M|A network that covers a small area, such as a school, is a|LAN|WAN|MAN|PAN|1|LAN stands for local area network.|E
+M|A network that covers a large geographical area, such as a country, is a|WAN|LAN|PAN|none|1|WAN stands for wide area network.|E
+M|A network that covers a city is a|MAN|LAN|PAN|none|1|MAN stands for metropolitan area network.|E
+M|The largest network in the world is the|Internet|Ethernet|Intranet|Bluetooth|1|It is a network of networks.|E
+M|The arrangement of computers in a network is called its|topology|protocol|speed|bandwidth|1|Examples are bus, star and ring.|E
+M|In a star topology, all computers are connected to|a central hub or switch|each other in a line|each other in a circle|one cable only|1|If the centre fails, the network fails.|E
+M|In a bus topology, all computers are connected to|a single main cable|a central hub|each other in a ring|each other directly|1|The cable is called the backbone.|E
+M|In a ring topology, the computers are connected|in a closed loop|to a central hub|to a single backbone|with no cables|1|Data travels in one direction.|M
+M|In a mesh topology|each computer is connected to every other computer|computers form a line|computers connect to one hub|there is only one cable|1|It is very reliable but expensive.|M
+M|The device that connects a computer to a network is the|network interface card|monitor|speaker|scanner|1|It has a unique MAC address.|E
+M|The device that connects computers in a LAN and sends data to all of them is a|hub|router|modem|switch only|1|It broadcasts data to every port.|M
+M|The device that sends data only to the intended computer is a|switch|hub|repeater|cable|1|It reads the address of the destination.|M
+M|The device that connects different networks and directs data between them is a|router|hub|repeater|keyboard|1|Home routers connect to the Internet.|E
+M|The device that converts digital signals into analogue signals for telephone lines is a|modem|router|hub|switch|1|It stands for modulator-demodulator.|E
+M|A transmission medium made of glass strands that carry light signals is|optical fibre|coaxial cable|twisted pair|infrared|1|It gives high speed.|E
+M|A transmission medium that is commonly used in LANs is|twisted pair cable|electric wire|rope|glass pipe|1|UTP cables connect computers.|E
+M|Wi-Fi is an example of|wireless networking|wired networking|a cable|a mouse|1|It uses radio waves.|E
+M|The set of rules for communication between computers is a|protocol|topology|server|browser|1|Examples are TCP/IP and HTTP.|E
+M|The protocol used to transfer web pages is|HTTP|SMTP|FTP|POP|1|HTTP stands for hypertext transfer protocol.|E
+M|The protocol used to send email is|SMTP|HTTP|FTP|DNS|1|SMTP stands for simple mail transfer protocol.|M
+M|The protocol used to transfer files is|FTP|HTTP|SMTP|DNS|1|FTP stands for file transfer protocol.|M
+M|The basic protocol suite of the Internet is|TCP/IP|HTTP only|FTP only|SMTP only|1|It breaks data into packets and delivers them.|M
+M|A unique number that identifies a device on a network is the|IP address|URL|domain name|e-mail|1|For example 192.168.1.1.|E
+M|An IPv4 address consists of|32 bits|16 bits|64 bits|128 bits|1|It is written as four numbers separated by dots.|M
+M|The address of a web page is called a|URL|IP address|MAC address|port|1|Uniform resource locator.|E
+M|The system that converts domain names into IP addresses is the|DNS|HTTP|FTP|URL|1|Domain name system.|M
+M|A program used to view web pages is a|web browser|search engine|server|router|1|Chrome and Firefox are browsers.|E
+M|A website that helps to find information on the web is a|search engine|browser|router|modem|1|Google is an example.|E
+M|The first page of a website is called the|home page|last page|first folder|index card|1|It is the starting point.|E
+M|A document with links to other documents, written in HTML, is a|web page|folder|network cable|program|1|It is displayed by a browser.|E
+M|A computer that provides services to other computers on a network is a|server|client|printer|switch|1|A web server stores websites.|E
+M|A computer that uses the services of a server is a|client|server|router|modem|1|Your PC is a client.|E
+M|Storing and accessing data and programs over the Internet instead of on your computer is called|cloud computing|local computing|offline computing|burning|1|Google Drive is an example.|E
+M|The speed at which data is transferred is called|bandwidth|topology|protocol|latency only|1|It is measured in bits per second.|E
+M|E-mail stands for|electronic mail|electric mail|external mail|exchange mail|1|It sends messages over the Internet.|E
+M|The @ symbol in an email address separates|the user name from the domain name|the date from the time|the file from the folder|the IP from the port|1|Example: ali@example.com.|E
+M|An attachment in an email is|a file sent along with the message|a virus|a type of server|a type of cable|1|It may be a document or picture.|E
+N|A connection has a speed of 100 Mbps. Find the speed in MB per second.|12.5|100 ÷ 8 = 12.5.|M|100/8
+N|Find the time in seconds to download a 50 MB file at 10 Mbps.|40|50 × 8 ÷ 10 = 40.|H|50*8/10
+N|Find the number of cable links needed to connect 5 computers in a full mesh, using n(n − 1)/2.|10|5 × 4 ÷ 2 = 10.|M|5*4/2
+N|Find the number of cable links needed to connect 6 computers in a star topology to one hub.|6|Each computer has one link to the hub.|E|6
+N|Find the number of bits in an IPv4 address of four 8-bit parts.|32|4 × 8 = 32.|E|4*8
+N|A school LAN has 4 labs of 30 computers each. Find the total number of computers.|120|4 × 30 = 120.|E|4*30
+N|A cable costs Rs 25 per metre. Find the cost of 40 m in rupees.|1000|25 × 40 = 1000.|E|25*40
+N|A file of 200 MB is sent at 20 MB per second. Find the time in seconds.|10|200 ÷ 20 = 10.|E|200/20
+N|A web page has 5 images of 400 KB each. Find the total size of the images in MB, to one decimal place.|2|5 × 400 = 2000 KB, which is about 2 MB.|M|5*400/1000
+N|A network has 8 computers. Find the number of different pairs of computers.|28|8 × 7 ÷ 2 = 28.|H|8*7/2
+S|Define a computer network.|A group of two or more computers connected together to share resources, such as files and printers, and to communicate.|The connection may be wired or wireless.|E
+S|Distinguish between LAN and WAN.|A LAN covers a small area such as a school or office. A WAN covers a large area such as a country or the world.|The Internet is the largest WAN.|E
+S|Name four network topologies.|Bus, star, ring and mesh.|They differ in how the computers are connected.|E
+S|What is a protocol? Give two examples.|A set of rules for communication between devices. HTTP and TCP/IP are examples.|Both sender and receiver must follow them.|M
+S|What is an IP address?|A unique number that identifies a device on a network, used to send data to the right device.|IPv4 addresses are 32 bits long.|M
+S|Explain the terms URL and DNS.|A URL is the address of a web page. The DNS converts domain names into IP addresses.|They help to locate web pages.|M
+
+# 7 Problem Solving and Algorithms
+M|An algorithm is|a step-by-step procedure for solving a problem|a type of computer|a program only|a computer virus|1|It is written before the program.|E
+M|The steps of problem solving in order are|understand the problem, plan, solve, test|test, solve, plan, understand|plan, test, understand, solve|solve, test, plan, understand|1|Understanding comes first.|M
+M|A good algorithm must be|clear, finite and unambiguous|long and confusing|infinite|random|1|It must end after a finite number of steps.|E
+M|A graphical representation of an algorithm is a|flowchart|database|spreadsheet|table of contents|1|It uses symbols and arrows.|E
+M|In a flowchart, the oval (terminator) symbol represents|start and end|input and output|process|decision|1|Every flowchart begins and ends with it.|E
+M|In a flowchart, the parallelogram represents|input or output|start|decision|process|1|It shows reading or printing data.|E
+M|In a flowchart, the rectangle represents|a process or calculation|a decision|start|connector|1|It shows an operation.|E
+M|In a flowchart, the diamond represents|a decision|a process|start|input|1|It has yes and no branches.|E
+M|The arrows in a flowchart show|the flow of control|the colour|the size|the speed|1|They connect the steps in order.|E
+M|Pseudocode is|an informal way of writing an algorithm using English-like statements|a programming language|a computer virus|a flowchart|1|It is not run by a computer.|E
+M|The three basic control structures are|sequence, selection and iteration|input, output and storage|read, write and print|start, stop and end|1|These form all algorithms.|M
+M|In sequence, the steps are|executed one after another in order|chosen by a condition|repeated|skipped|1|Each step runs once in order.|E
+M|Selection (decision) means|choosing between actions depending on a condition|repeating steps|running steps in order|stopping|1|It uses IF and ELSE.|E
+M|Iteration (looping) means|repeating a set of steps|choosing an action|stopping|running once|1|It uses WHILE or FOR.|E
+M|A named storage location whose value can change is a|variable|constant|loop|flowchart|1|For example sum = 0.|E
+M|A value that does not change is a|constant|variable|loop|decision|1|For example pi = 3.14.|E
+M|The statement that decides which path to follow is the|IF statement|PRINT statement|INPUT statement|END statement|1|It tests a condition.|E
+M|A loop that repeats until a condition becomes false is a|WHILE loop|IF statement|INPUT|PRINT|1|It tests the condition before each repeat.|E
+M|The process of checking an algorithm by following it with sample data is called|a dry run|compiling|printing|formatting|1|It uses a trace table.|M
+M|A table used to record the values of variables during a dry run is a|trace table|truth table|flow table|pivot table|1|It shows how values change at each step.|M
+M|A logical error in an algorithm is|a mistake that gives wrong results|a typing error that stops the program|a missing bracket only|a hardware fault|1|The program runs, but the output is wrong.|M
+M|The process of finding and removing errors is called|debugging|compiling|booting|formatting|1|It makes the program correct.|E
+M|The step in problem solving that checks the algorithm works is|testing|planning|coding|printing|1|Test data is used.|E
+M|An algorithm to find the largest of three numbers needs|selection|only sequence|no steps|only iteration|1|It compares values.|M
+M|An algorithm that adds the numbers from 1 to 100 needs|iteration|no variables|no output|only selection|1|It repeats the addition.|M
+M|The output of an algorithm is|the result it produces|its first step|its input|its error|1|It is what the algorithm gives.|E
+M|An algorithm to check whether a number is even or odd checks the|remainder when divided by 2|colour|size|length|1|If the remainder is 0, the number is even.|M
+M|The symbol that connects parts of a flowchart across pages is the|connector|diamond|rectangle|oval|1|It is a small circle.|M
+M|A flowchart must have|exactly one start and at least one end|no start|no end|only decisions|1|It begins at start and finishes at end.|E
+M|The following pseudocode finds the average: INPUT a, b; avg = (a + b) / 2; PRINT avg. This uses|sequence|selection|iteration|recursion|1|The steps run one after another.|M
+M|The first step in writing a program to solve a problem is to|understand the problem|run the program|print the answer|save the file|1|You must know what is needed.|E
+M|Breaking a large problem into smaller parts is called|decomposition|iteration|selection|compilation|1|It makes problems easier to solve.|M
+M|A real-life example of an algorithm is|a recipe for cooking|a book title|the colour of a car|a song|1|It is a sequence of steps.|E
+M|An algorithm that has no end is called|an infinite loop|a flowchart|a decision|pseudocode|1|It never stops and is a mistake.|M
+M|A condition in an IF statement results in|true or false|a number only|a word only|a picture|1|It is a Boolean value.|M
+M|The relational operator for 'not equal to' in most languages is|!=|==|<=|>=|1|It tests whether two values differ.|M
+M|The logical operator that is true only when both conditions are true is|AND|OR|NOT|IF|1|AND needs both.|M
+N|An algorithm starts with sum = 0 and adds 1, 2, 3, 4 and 5. Find the final value of sum.|15|1 + 2 + 3 + 4 + 5 = 15.|E|1+2+3+4+5
+N|An algorithm calculates the factorial of 5. Find the result.|120|5 × 4 × 3 × 2 × 1 = 120.|M|5*4*3*2*1
+N|An algorithm calculates the average of 10, 20, 30 and 40. Find the result.|25|(10 + 20 + 30 + 40) ÷ 4 = 25.|E|(10+20+30+40)/4
+N|A loop runs from 1 to 10 and prints each number. Find the number of times it runs.|10|It runs once for each of 1 to 10.|E|10
+N|A loop runs for i = 2, 4, 6, ..., 20. Find the number of iterations.|10|There are 10 even numbers from 2 to 20.|M|20/2
+N|An algorithm sets count = 0 and adds 1 for each number from 1 to 50 that is divisible by 5. Find the final count.|10|There are 10 multiples of 5 up to 50.|M|50/5
+N|An algorithm computes x = 3, y = 4 and z = x * x + y * y. Find z.|25|9 + 16 = 25.|E|3*3+4*4
+N|An algorithm computes area = 0.5 * b * h with b = 10 and h = 6. Find the area.|30|0.5 × 10 × 6 = 30.|E|0.5*10*6
+N|An algorithm starts with n = 7 and doubles it three times. Find the final value.|56|7 × 2 × 2 × 2 = 56.|M|7*2*2*2
+N|An algorithm sums the even numbers from 2 to 10. Find the sum.|30|2 + 4 + 6 + 8 + 10 = 30.|M|2+4+6+8+10
+S|Define an algorithm and give an example.|A finite sequence of clear steps for solving a problem. A recipe for making tea is an example.|It can be written as pseudocode or a flowchart.|E
+S|Name the symbols used in a flowchart and state what each represents.|The oval for start and end, the parallelogram for input and output, the rectangle for a process and the diamond for a decision.|Arrows show the flow.|M
+S|Name the three control structures.|Sequence, selection (decision) and iteration (loop).|Algorithms are built from them.|E
+S|Write an algorithm to find the sum of two numbers.|Start. Input a and b. Set sum = a + b. Print sum. End.|It uses only sequence.|E
+S|What is a dry run?|Checking an algorithm by going through its steps with sample data and recording the values of variables in a trace table.|It helps to find logical errors.|M
+S|Write pseudocode to decide whether a number is even or odd.|INPUT n. IF n MOD 2 = 0 THEN PRINT even ELSE PRINT odd.|It uses selection.|M
+
+# 8 Computer Ethics and Security
+M|Computer ethics are|moral rules about the proper use of computers|a type of software|a type of hardware|a game|1|They guide users to behave responsibly.|E
+M|Copyright is|the legal right of the creator to control the use of their work|a type of virus|a kind of password|a computer part|1|It protects creative works.|E
+M|Plagiarism is|copying someone else's work and presenting it as your own|writing your own work|giving credit to the author|backing up a file|1|It is dishonest.|E
+M|Using software without paying for it or without a licence is called|software piracy|backup|installation|sharing a link|1|It is illegal.|E
+M|A hacker is a person who|gains unauthorised access to computer systems|writes books|repairs hardware|sells computers|1|Unauthorised access is a crime.|E
+M|Phishing is|sending fake messages to trick people into giving personal information|catching fish|a type of hardware|backing up data|1|Fake emails ask for passwords or bank details.|E
+M|Identity theft is|using someone's personal information without permission|losing an ID card|buying a computer|writing a program|1|Criminals use it to commit fraud.|E
+M|Cyber bullying is|using electronic communication to harass someone|playing games|sending a birthday message|studying online|1|It can cause serious harm.|E
+M|A strong password should|contain letters, numbers and symbols and be long|be your name|be 1234|be the same for all accounts|1|It is harder to guess.|E
+M|You should never share your password with|anyone|your parents|your teacher|your doctor|1|Keep it secret.|E
+M|A backup is|a copy of data kept in another place in case of loss|a type of virus|a printer|a monitor|1|It protects against loss.|E
+M|Encryption is the process of|converting data into a secret code|deleting data|copying data|printing data|1|Only those with the key can read it.|E
+M|Decryption is the process of|converting coded data back into its original form|deleting data|copying data|compressing data|1|It needs the key.|M
+M|A firewall is|a security system that controls network traffic|a type of virus|a printer|a keyboard|1|It blocks unauthorised access.|E
+M|Antivirus software should be|kept up to date|never updated|removed|used only once|1|New viruses appear all the time.|E
+M|A digital signature is used to|verify the identity of the sender and the integrity of a document|print a letter|draw a picture|play sound|1|It proves authenticity.|M
+M|Spam is|unwanted junk email|an important message|a type of firewall|a kind of backup|1|It is often advertising.|E
+M|Cookies on a website are|small files stored on your computer by the website|a type of food|viruses|a kind of hardware|1|They remember your preferences.|M
+M|When you receive an email from an unknown sender with an attachment, you should|not open it|open it at once|forward it to friends|reply with your password|1|It may contain malware.|E
+M|A secure website address starts with|https|http|ftp|www only|1|The s stands for secure.|E
+M|The padlock symbol in a browser address bar shows that|the connection is encrypted|the website is free|the site is fast|the site has no ads|1|It uses SSL/TLS.|M
+M|Pakistan's law against cyber crimes is the|Prevention of Electronic Crimes Act (PECA)|Companies Act|Traffic Act|Sale of Goods Act|1|It was passed in 2016.|M
+M|The agency in Pakistan that investigates cyber crime is the|FIA Cyber Crime Wing|WAPDA|PIA|NADRA only|1|It handles complaints about online crime.|M
+M|Prolonged use of a computer without breaks can cause|eye strain and back pain|better vision|stronger bones|more height|1|Take regular breaks.|E
+M|Repetitive strain injury (RSI) is caused by|repeating the same movements, such as typing, for long periods|a virus|a hot room|a loud sound|1|It affects the wrists and fingers.|M
+M|To avoid eye strain, you should|look away from the screen regularly|stare at the screen|sit very close|turn the brightness to maximum|1|Rest your eyes.|E
+M|Old computers and electronic devices thrown away are called|e-waste|e-mail|e-learning|e-commerce|1|They contain harmful materials.|E
+M|The best way to handle e-waste is to|recycle it properly|burn it|throw it in rivers|bury it anywhere|1|Recycling recovers metals and avoids pollution.|E
+M|Netiquette means|good manners and rules when using the Internet|a type of network|a protocol|a program|1|Be polite and respectful online.|E
+M|Posting personal information such as your address on social media is|unsafe|safe|required|recommended|1|It can be misused.|E
+M|A computer virus can enter a computer through|infected email attachments and downloads|clean water|sunlight|electric light|1|Be careful with downloads.|E
+M|Two-factor authentication means|using two different proofs of identity to log in|having two computers|using two passwords of the same type|using two monitors|1|For example a password and a code sent to a phone.|M
+M|Using someone else's account without permission is|unauthorised access|permitted|a backup|a licence|1|It is a crime.|E
+M|Sending false information on the Internet is|unethical and may be illegal|good practice|helpful|required|1|It can harm people.|E
+M|A good practice for protecting your data is to|make regular backups|use the same password everywhere|click all links|share your PIN|1|It protects against data loss.|E
+M|Free public Wi-Fi networks are|risky for sensitive transactions|always safe|always encrypted|good for banking|1|Others may read your data.|M
+M|Ethical behaviour online includes|respecting others' privacy and copyright|copying freely|hacking|spreading rumours|1|Be responsible.|E
+N|A PIN has 4 digits, each 0 to 9. Find the number of possible PINs.|10000|10⁴ = 10 000.|M|10^4
+N|A password has 3 lowercase letters. Find the number of possible passwords.|17576|26³ = 17 576.|M|26^3
+N|A backup of 5 GB is made every week. Find the amount in GB in 4 weeks.|20|5 × 4 = 20.|E|5*4
+N|A spam filter removes 90 percent of 200 emails. Find the number removed.|180|200 × 0.9 = 180.|E|200*0.9
+N|A student spends 6 hours a day on a computer. Find the hours in a week.|42|6 × 7 = 42.|E|6*7
+N|A break of 5 minutes is taken every 30 minutes of work. Find the number of breaks in 3 hours.|6|180 ÷ 30 = 6.|M|180/30
+N|A virus infects 3 computers in a lab and each infects 3 more. Find the total number of infected computers after this spread.|12|3 + 3 × 3 = 12.|M|3+3*3
+N|A PIN has 6 digits, each 0 to 9. Find the number of possible PINs.|1000000|10⁶ = 1 000 000.|M|10^6
+N|A software licence costs Rs 8000 per computer. Find the cost in rupees of licences for 5 computers.|40000|8000 × 5 = 40 000.|E|8000*5
+N|A hacker tries 1000 passwords per second. Find the time in seconds to try all 4-digit PINs.|10|10 000 ÷ 1000 = 10.|H|10000/1000
+S|Define computer ethics.|The moral principles and rules that guide the proper and responsible use of computers and the Internet.|They cover privacy, copyright and honesty.|E
+S|What is plagiarism?|Copying the work of another person and presenting it as your own without giving credit.|It is a form of dishonesty.|E
+S|Describe a strong password.|A password that is long and has a mix of uppercase and lowercase letters, numbers and symbols, and is not easy to guess.|It should not be shared.|E
+S|What is phishing and how can you avoid it?|Phishing is the use of fake emails or websites to trick people into revealing personal information. Avoid it by not clicking on suspicious links and by checking the sender.|Banks never ask for passwords by email.|M
+S|Name three threats to computer security and three ways to protect against them.|Threats are viruses, hackers and phishing. Protections are antivirus software, firewalls and strong passwords with regular backups.|They should be used together.|M
+S|State two health problems caused by long use of computers and how to avoid them.|Eye strain and back pain. Take regular breaks, sit with a good posture and adjust the screen.|Exercise also helps.|M

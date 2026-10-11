@@ -1,0 +1,216 @@
+@level Class 10
+@subject Chemistry
+
+# 1 Acids, Bases and Salts
+M|According to Arrhenius, an acid is a substance that|produces H⁺ ions in water|produces OH⁻ ions in water|accepts protons|donates electrons|1|Arrhenius acids release hydrogen ions in aqueous solution.|E
+M|According to Arrhenius, a base is a substance that|produces OH⁻ ions in water|produces H⁺ ions in water|donates protons|accepts electrons|1|Arrhenius bases release hydroxide ions in water.|E
+M|According to Bronsted-Lowry, an acid is a|proton donor|proton acceptor|electron donor|electron acceptor|1|A Bronsted-Lowry acid gives away H⁺.|M
+M|According to Bronsted-Lowry, a base is a|proton donor|proton acceptor|electron pair donor|electron donor|2|A Bronsted-Lowry base accepts H⁺.|M
+M|According to Lewis, an acid is an|electron pair acceptor|electron pair donor|proton donor|proton acceptor|1|A Lewis acid accepts a pair of electrons.|H
+M|According to Lewis, a base is an|electron pair acceptor|electron pair donor|proton donor|proton acceptor|2|A Lewis base donates a pair of electrons.|H
+M|The pH of a neutral solution at 25 °C is|0|7|14|1|2|Pure water has a pH of 7.|E
+M|A solution with a pH less than 7 is|acidic|basic|neutral|a salt|1|Lower pH means more H⁺ ions.|E
+M|A solution with a pH greater than 7 is|acidic|basic|neutral|a salt|2|A higher pH means fewer H⁺ ions and more OH⁻ ions.|E
+M|The pH scale usually ranges from|0 to 14|1 to 7|7 to 14|0 to 7|1|It is a scale from 0 (strongly acidic) to 14 (strongly basic).|E
+M|The pH of a solution is defined as|−log[H⁺]|log[H⁺]|[H⁺]|1/[H⁺]|1|pH = −log₁₀[H⁺].|M
+M|Litmus paper turns red in|an acid|a base|neutral water|a salt|1|Blue litmus turns red in acid.|E
+M|Litmus paper turns blue in|an acid|a base|neutral water|an oxidiser|2|Red litmus turns blue in alkali.|E
+M|Phenolphthalein is colourless in an acid and turns pink in|a base|an acid|water|a salt|1|It is a common indicator for titrations with bases.|M
+M|Methyl orange is red in an acid and yellow in|a base|an acid|water|oil|1|It changes colour around pH 3 to 4.|M
+M|The reaction between an acid and a base to form a salt and water is called|neutralisation|oxidation|reduction|decomposition|1|It is a typical acid-base reaction.|E
+M|Hydrochloric acid and sodium hydroxide react to form|sodium chloride and water|sodium and chlorine|hydrogen and sodium chloride|sodium oxide|1|HCl + NaOH → NaCl + H₂O.|E
+M|A strong acid is one that|ionises completely in water|ionises partially in water|does not ionise|is always concentrated|1|Hydrochloric acid is a strong acid.|M
+M|A weak acid is one that|ionises only partially in water|ionises completely|is always dilute|has no hydrogen|1|Acetic acid is a weak acid.|M
+M|Which of the following is a strong acid?|Hydrochloric acid|Acetic acid|Carbonic acid|Citric acid|1|HCl ionises completely.|E
+M|Which of the following is a weak base?|Ammonium hydroxide|Sodium hydroxide|Potassium hydroxide|Calcium hydroxide only|1|NH₄OH is partly ionised.|M
+M|Which of the following is a strong base?|Sodium hydroxide|Ammonium hydroxide|Aluminium hydroxide|Water|1|NaOH ionises completely in water.|E
+M|The acid in vinegar is|acetic acid|citric acid|lactic acid|tartaric acid|1|Vinegar contains about 5 percent acetic acid.|E
+M|The acid in lemons is|citric acid|acetic acid|lactic acid|formic acid|1|Citrus fruits contain citric acid.|E
+M|Salts are formed when|an acid reacts with a base|a metal reacts with oxygen|two metals mix|a gas dissolves|1|The metal ion of the base and the anion of the acid form the salt.|E
+M|Sodium chloride is a|normal salt|acid salt|basic salt|double salt|1|It has no replaceable hydrogen or hydroxide.|M
+M|Sodium hydrogen carbonate (NaHCO₃) is an|acid salt|normal salt|basic salt|oxide|1|It still has a replaceable hydrogen atom.|H
+M|Antacids are used to|neutralise excess stomach acid|increase stomach acid|kill all bacteria|colour the stomach|1|They are mild bases such as magnesium hydroxide.|M
+M|Stomach acid is|hydrochloric acid|sulphuric acid|nitric acid|acetic acid|1|It aids digestion.|E
+M|A solution of pH 3 is how many times more acidic than a solution of pH 4?|10 times|3 times|4 times|100 times|1|Each pH unit is a factor of 10 in [H⁺].|H
+M|Aqueous solutions of acids conduct electricity because they contain|ions|only molecules|only electrons|neutrons|1|Ions carry the current.|E
+M|Acids react with metals to give|a salt and hydrogen|a salt and oxygen|a salt and water|an oxide|1|For example Zn + 2HCl → ZnCl₂ + H₂.|E
+M|Acids react with carbonates to give|a salt, water and carbon dioxide|a salt and hydrogen|a base and water|an oxide only|1|The gas turns limewater milky.|M
+N|Find the pH of a 0.01 M solution of hydrochloric acid, a strong acid.|2|[H⁺] = 0.01, so pH = −log 0.01 = 2.|M|-Math.log10(0.01)
+N|Find the pH of a solution with [H⁺] = 0.001 mol/L.|3|pH = −log 0.001 = 3.|M|-Math.log10(0.001)
+N|Find the [H⁺] in mol/L of a solution of pH 4.|0.0001|[H⁺] = 10⁻⁴ = 0.0001.|M|1e-4
+N|Find the pOH of a 0.001 M NaOH solution.|3|[OH⁻] = 0.001, so pOH = 3.|M|-Math.log10(0.001)
+N|Find the pH of a 0.001 M NaOH solution using pH + pOH = 14.|11|pOH = 3, so pH = 14 − 3 = 11.|H|14-3
+N|Find the volume in mL of 0.2 M NaOH needed to neutralise 20 mL of 0.1 M HCl.|10|M₁V₁ = M₂V₂, so V = 0.1 × 20 ÷ 0.2 = 10.|H|0.1*20/0.2
+N|Find the mass in grams of NaOH (40 g/mol) needed to neutralise 0.1 mole of HCl.|4|0.1 mole of NaOH is needed: 0.1 × 40 = 4.|M|0.1*40
+N|Find [OH⁻] in mol/L when [H⁺] = 10⁻³ mol/L using [H⁺][OH⁻] = 10⁻¹⁴.|0.00000000001|[OH⁻] = 10⁻¹⁴ ÷ 10⁻³ = 10⁻¹¹.|H|1e-14/1e-3
+N|Find the number of moles of HCl in 50 mL of 0.2 M solution.|0.01|n = 0.2 × 0.05 = 0.01.|M|0.2*0.05
+N|Find the pH of pure water at 25 °C.|7|[H⁺] = 10⁻⁷, so pH = 7.|E|7
+N|Find the concentration in mol/L of H⁺ in 0.05 M H₂SO₄ if it ionises completely to give 2 H⁺ per molecule.|0.1|[H⁺] = 2 × 0.05 = 0.1.|H|2*0.05
+N|Find the pH of a solution with [OH⁻] = 10⁻⁵ mol/L.|9|pOH = 5, so pH = 14 − 5 = 9.|H|14-5
+N|Find the volume in mL of 0.1 M NaOH needed to neutralise 25 mL of 0.1 M HCl.|25|The concentrations are equal, so the volumes are equal.|M|0.1*25/0.1
+N|Find the mass in grams of HCl (36.5 g/mol) in 1 litre of a 0.1 M solution.|3.65|m = 0.1 × 36.5 = 3.65.|M|0.1*36.5
+N|Find the number of moles of NaOH needed to neutralise 0.5 mole of H₂SO₄ (H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O).|1|Each H₂SO₄ needs 2 NaOH: 0.5 × 2 = 1.|H|0.5*2
+S|Define an acid and a base according to Arrhenius.|An acid produces H⁺ ions in water and a base produces OH⁻ ions in water.|The theory applies to aqueous solutions only.|E
+S|Define pH.|The negative logarithm to base 10 of the hydrogen ion concentration, pH = −log[H⁺].|A neutral solution has a pH of 7.|E
+S|State the Bronsted-Lowry definition of acids and bases.|An acid is a proton donor and a base is a proton acceptor.|It applies to reactions that do not involve water.|M
+S|What is neutralisation? Give an example.|The reaction of an acid with a base to form a salt and water. HCl + NaOH → NaCl + H₂O.|The pH of the solution moves towards 7.|E
+S|State two properties of acids.|They turn blue litmus red and they react with metals to release hydrogen. They also taste sour.|They react with carbonates to release carbon dioxide.|E
+S|What are indicators? Name two.|Substances that change colour depending on the acidity or alkalinity of a solution. Litmus and phenolphthalein are examples.|Methyl orange is another.|E
+
+# 2 Organic Chemistry
+M|Organic chemistry is the study of|carbon compounds|metals|rocks|gases only|1|Organic compounds contain carbon, usually bonded to hydrogen.|E
+M|Carbon forms a large number of compounds because of|catenation and tetravalency|being a metal|being a gas|being radioactive|1|It can bond to itself in chains and rings and forms four bonds.|M
+M|The valency of carbon is|4|2|3|1|1|Carbon forms four covalent bonds.|E
+M|Catenation is the ability of an element to|form chains by bonding to its own atoms|dissolve in water|conduct heat|form ions|1|Carbon shows catenation strongly.|M
+M|The main natural sources of organic compounds are|coal, petroleum and natural gas|sand and salt|water only|air only|1|They are fossil fuels.|E
+M|Petroleum is separated into its components by|fractional distillation|filtration|crystallisation|electrolysis|1|The components have different boiling points.|E
+M|A functional group is|an atom or group of atoms that gives a compound its characteristic properties|a group of students|the nucleus of an atom|a type of metal|1|It decides how the compound reacts.|M
+M|The functional group of alcohols is|−OH|−COOH|−CHO|−NH₂|1|Alcohols contain the hydroxyl group.|E
+M|The functional group of carboxylic acids is|−COOH|−OH|−CHO|−CO−|1|It is the carboxyl group.|E
+M|The functional group of aldehydes is|−CHO|−OH|−COOH|−CO−|1|It is the aldehyde group.|M
+M|The functional group of ketones is|−CO− (carbonyl between two carbons)|−CHO|−OH|−COOH|1|The carbonyl group lies between two carbon atoms.|M
+M|A homologous series is a family of compounds with|the same functional group and a general formula, each member differing by CH₂|the same colour|the same melting point|the same mass|1|Successive members differ by a CH₂ unit.|M
+M|The general formula of alkanes is|CₙH₂ₙ₊₂|CₙH₂ₙ|CₙH₂ₙ₋₂|CₙHₙ|1|Alkanes are saturated hydrocarbons.|E
+M|The molecular formula of methane is|CH₄|C₂H₆|C₃H₈|C₂H₄|1|It is the simplest alkane.|E
+M|The molecular formula of ethane is|CH₄|C₂H₆|C₃H₈|C₂H₄|2|It has two carbon atoms.|E
+M|The molecular formula of propane is|C₂H₆|C₃H₈|C₄H₁₀|C₃H₆|2|It has three carbon atoms.|E
+M|The molecular formula of butane is|C₃H₈|C₄H₁₀|C₅H₁₂|C₄H₈|2|It has four carbon atoms.|E
+M|The molecular formula of pentane is|C₄H₁₀|C₅H₁₂|C₆H₁₄|C₅H₁₀|2|It has five carbon atoms.|E
+M|The molecular formula of ethanol is|CH₃OH|C₂H₅OH|C₃H₇OH|CH₃COOH|2|It has two carbon atoms and a hydroxyl group.|E
+M|The molecular formula of acetic acid is|HCOOH|CH₃COOH|C₂H₅OH|CH₃CHO|2|It is also called ethanoic acid.|E
+M|Compounds having the same molecular formula but different structural formulae are called|isomers|isotopes|allotropes|polymers|1|Butane and isobutane are isomers.|M
+M|The number of structural isomers of butane (C₄H₁₀) is|1|2|3|4|2|They are butane and 2-methylpropane.|M
+M|The IUPAC name of CH₃OH is|methanol|ethanol|methanal|methanoic acid|1|It has one carbon and a hydroxyl group.|E
+M|The IUPAC name of CH₃COOH is|ethanoic acid|methanoic acid|ethanol|ethanal|1|Two carbons and a carboxyl group.|M
+M|The IUPAC name of HCHO is|methanal|ethanal|methanol|methane|1|Formaldehyde is methanal.|M
+M|Hydrocarbons are compounds of|carbon and hydrogen only|carbon and oxygen only|hydrogen and oxygen only|carbon and nitrogen|1|They contain only C and H atoms.|E
+M|Saturated hydrocarbons contain|only single bonds between carbon atoms|a double bond|a triple bond|no hydrogen|1|Alkanes are saturated.|E
+M|Unsaturated hydrocarbons contain|at least one double or triple bond|only single bonds|no carbon|no hydrogen|1|Alkenes and alkynes are unsaturated.|E
+M|Fractional distillation of petroleum gives, among others,|petrol, kerosene and diesel|only water|only gold|only salt|1|Each fraction boils at a different range.|E
+M|The fraction of petroleum with the lowest boiling range is|refinery gas|bitumen|diesel|lubricating oil|1|Light, small molecules are gases.|M
+M|The fraction of petroleum that remains at the bottom is|bitumen|petrol|kerosene|refinery gas|1|It has the largest molecules and the highest boiling point.|M
+N|Find the number of hydrogen atoms in an alkane with 5 carbon atoms, using CₙH₂ₙ₊₂.|12|2 × 5 + 2 = 12.|E|2*5+2
+N|Find the number of hydrogen atoms in an alkane with 8 carbon atoms.|18|2 × 8 + 2 = 18.|E|2*8+2
+N|Find the number of carbon atoms in an alkane with 22 hydrogen atoms.|10|2n + 2 = 22, so n = 10.|M|(22-2)/2
+N|Find the molar mass of methane, CH₄, in g/mol. (C = 12, H = 1)|16|12 + 4 = 16.|E|12+4
+N|Find the molar mass of ethanol, C₂H₅OH, in g/mol. (C = 12, H = 1, O = 16)|46|24 + 6 + 16 = 46.|M|24+6+16
+N|Find the molar mass of acetic acid, CH₃COOH, in g/mol. (C = 12, H = 1, O = 16)|60|24 + 4 + 32 = 60.|M|24+4+32
+N|Find the number of covalent bonds in an ethane molecule, C₂H₆.|7|There are 6 C–H bonds and 1 C–C bond.|M|6+1
+N|Find the number of covalent bonds in a methane molecule.|4|There are 4 C–H bonds.|E|4
+N|Find the number of structural isomers of butane.|2|Butane and 2-methylpropane.|M|2
+N|Find the number of hydrogen atoms in an alkene with 4 carbon atoms, using CₙH₂ₙ.|8|2 × 4 = 8.|M|2*4
+N|Find the molar mass of propane, C₃H₈, in g/mol. (C = 12, H = 1)|44|36 + 8 = 44.|E|36+8
+N|Find the number of carbon atoms in decane, a ten-carbon alkane.|10|Decane has ten carbon atoms.|E|10
+N|Find the molar mass of methanol, CH₃OH, in g/mol. (C = 12, H = 1, O = 16)|32|12 + 4 + 16 = 32.|M|12+4+16
+N|Find the difference in molar mass between successive alkanes in the homologous series, in g/mol. (C = 12, H = 1)|14|Each step adds CH₂, which is 12 + 2 = 14.|M|12+2
+S|Define organic chemistry.|The branch of chemistry that deals with the compounds of carbon, other than a few simple ones such as carbonates and oxides.|Organic compounds usually contain hydrogen too.|E
+S|What is meant by a homologous series?|A family of organic compounds with the same functional group, the same general formula and similar chemical properties, in which successive members differ by CH₂.|Alkanes form a homologous series.|M
+S|Define isomerism and give an example.|The existence of compounds with the same molecular formula but different structures. Butane and 2-methylpropane are isomers of C₄H₁₀.|Isomers have different properties.|M
+S|What is a functional group? Name two.|An atom or group of atoms that gives a compound its characteristic chemical properties. The hydroxyl group (−OH) and the carboxyl group (−COOH) are examples.|It decides the class of the compound.|E
+S|Name the first four alkanes and give their formulae.|Methane CH₄, ethane C₂H₆, propane C₃H₈ and butane C₄H₁₀.|They fit the formula CₙH₂ₙ₊₂.|E
+S|Why is carbon able to form so many compounds?|It has a valency of four and shows catenation, so its atoms can join in long chains and rings with single, double or triple bonds.|It also bonds with hydrogen, oxygen and nitrogen.|M
+
+# 3 Hydrocarbons
+M|Alkanes are|saturated hydrocarbons|unsaturated hydrocarbons|aromatic compounds only|alcohols|1|They contain only single bonds.|E
+M|Alkenes are|hydrocarbons with at least one carbon-carbon double bond|hydrocarbons with only single bonds|hydrocarbons with a triple bond|alcohols|1|The double bond makes them unsaturated.|E
+M|Alkynes are|hydrocarbons with a carbon-carbon triple bond|hydrocarbons with a double bond|saturated hydrocarbons|alcohols|1|The triple bond makes them unsaturated.|E
+M|The general formula of alkenes is|CₙH₂ₙ|CₙH₂ₙ₊₂|CₙH₂ₙ₋₂|CₙHₙ|1|Alkenes have two fewer hydrogens than the alkane.|E
+M|The general formula of alkynes is|CₙH₂ₙ|CₙH₂ₙ₊₂|CₙH₂ₙ₋₂|CₙHₙ₊₂|3|Alkynes have four fewer hydrogens than the alkane.|E
+M|The molecular formula of ethene is|C₂H₄|C₂H₆|C₂H₂|CH₄|1|It has a carbon-carbon double bond.|E
+M|The molecular formula of ethyne (acetylene) is|C₂H₄|C₂H₆|C₂H₂|CH₄|3|It has a carbon-carbon triple bond.|E
+M|The common name of ethyne is|acetylene|ethylene|methane|propylene|1|Ethyne is also called acetylene.|E
+M|The common name of ethene is|ethylene|acetylene|methylene|propylene|1|Ethene is also called ethylene.|E
+M|The characteristic reaction of alkanes is|substitution|addition|polymerisation|hydrolysis|1|One hydrogen is replaced by another atom.|M
+M|The characteristic reaction of alkenes is|addition|substitution|neutralisation|condensation|1|The double bond opens to add atoms.|M
+M|The reaction of methane with chlorine in sunlight is an example of|substitution|addition|polymerisation|reduction|1|Chlorine atoms replace hydrogen atoms.|M
+M|Alkenes can be distinguished from alkanes by|decolourising bromine water|dissolving in water|burning|their smell only|1|Alkenes turn bromine water from orange to colourless.|M
+M|Complete combustion of a hydrocarbon gives|carbon dioxide and water|carbon and hydrogen|carbon monoxide only|hydrogen peroxide|1|The products are CO₂ and H₂O.|E
+M|Incomplete combustion of a hydrocarbon in a limited supply of oxygen gives|carbon monoxide or carbon, with water|only carbon dioxide|only water|oxygen|1|It can produce poisonous carbon monoxide.|M
+M|Carbon monoxide is dangerous because it|combines with haemoglobin and reduces oxygen transport|dissolves in blood as acid|is radioactive|has a bad colour|1|It is a poisonous gas.|M
+M|Polymerisation is the process of|joining many small molecules (monomers) into a large molecule|breaking a large molecule|burning a hydrocarbon|dissolving a gas|1|Ethene polymerises to polyethene.|M
+M|The monomer of polyethene is|ethene|ethane|ethyne|methane|1|Many ethene molecules join together.|E
+M|The addition of hydrogen to an alkene is called|hydrogenation|dehydrogenation|hydration|polymerisation|1|It converts an alkene to an alkane.|M
+M|Hydrogenation of vegetable oils is used to make|margarine|petrol|soap|plastic|1|Unsaturated oils become more saturated and solid.|M
+M|The addition of water to ethene gives|ethanol|ethane|ethanoic acid|ethyne|1|Hydration of ethene gives ethanol.|M
+M|The product of adding bromine to ethene is|1,2-dibromoethane|bromoethane|ethyne|tribromoethane|1|One bromine atom adds to each carbon.|H
+M|Natural gas consists mainly of|methane|ethane|propane|butane|1|Methane is the main component.|E
+M|LPG consists mainly of|propane and butane|methane|ethene|acetylene|1|It is liquefied petroleum gas.|M
+M|Acetylene is used in|welding|making soap|making cement|drying clothes|1|It burns with a very hot flame.|E
+M|The hydrocarbon used to ripen fruits artificially is|ethene|methane|ethane|propane|1|Ethene is a ripening hormone.|M
+M|Compared with alkanes, alkenes are|more reactive|less reactive|inert|solid at room temperature|1|The double bond is a reactive site.|M
+M|The shape of an ethene molecule is|planar around each carbon|tetrahedral|linear for the whole molecule|pyramidal|1|Each carbon is trigonal planar.|H
+M|The shape of an ethyne molecule is|linear|bent|tetrahedral|pyramidal|1|The triple bond makes it linear.|H
+M|The product of a dehydration reaction of ethanol with concentrated sulphuric acid is|ethene|ethane|ethyne|methane|1|Water is removed to form the double bond.|H
+M|Alkanes burn in air with|a clean flame in plenty of oxygen|an extremely sooty flame always|no flame|a green flame|1|Complete combustion gives a blue flame.|M
+N|Find the number of hydrogen atoms in an alkene with 6 carbon atoms.|12|2 × 6 = 12.|E|2*6
+N|Find the number of hydrogen atoms in an alkyne with 5 carbon atoms using CₙH₂ₙ₋₂.|8|2 × 5 − 2 = 8.|M|2*5-2
+N|Find the mass in grams of carbon dioxide (44 g/mol) formed by burning 16 g of methane (16 g/mol). CH₄ + 2O₂ → CO₂ + 2H₂O|44|16 g is 1 mole of CH₄, which gives 1 mole of CO₂ = 44 g.|M|16/16*44
+N|Find the number of moles of oxygen needed to burn 1 mole of methane completely.|2|CH₄ + 2O₂ → CO₂ + 2H₂O.|M|2
+N|Find the number of moles of oxygen needed to burn 1 mole of ethane completely. (2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O)|3.5|Two moles of ethane need seven moles of oxygen, so one mole needs 3.5.|H|7/2
+N|Find the molar mass of ethene, C₂H₄, in g/mol. (C = 12, H = 1)|28|24 + 4 = 28.|E|24+4
+N|Find the molar mass of a polyethene molecule made of 1000 ethene units, in g/mol.|28000|1000 × 28 = 28 000.|M|28*1000
+N|Find the volume in dm³ at STP of carbon dioxide produced by burning 1 mole of methane completely.|22.4|One mole of CO₂ is produced, and a mole of gas at STP is 22.4 dm³.|M|22.4
+N|Find the number of moles of water produced by burning 1 mole of methane.|2|CH₄ + 2O₂ → CO₂ + 2H₂O.|M|2
+N|Find the number of hydrogen atoms in propene, an alkene with 3 carbons.|6|2 × 3 = 6.|E|2*3
+N|Find the molar mass of ethyne, C₂H₂, in g/mol. (C = 12, H = 1)|26|24 + 2 = 26.|E|24+2
+N|Find the mass in grams of water (18 g/mol) formed by burning 1 mole of ethene. (C₂H₄ + 3O₂ → 2CO₂ + 2H₂O)|36|Two moles of water are formed: 2 × 18 = 36.|H|2*18
+N|Find the number of moles of CO₂ formed by burning 1 mole of propane. (C₃H₈ + 5O₂ → 3CO₂ + 4H₂O)|3|One mole of propane gives three moles of CO₂.|M|3
+N|Find the volume in dm³ at STP of oxygen needed to burn 1 mole of methane.|44.8|Two moles of O₂ are needed: 2 × 22.4 = 44.8.|H|2*22.4
+S|Define an alkane and give its general formula.|A saturated hydrocarbon that contains only single bonds. Its general formula is CₙH₂ₙ₊₂.|Methane, ethane and propane are alkanes.|E
+S|Define an alkene and give its general formula.|An unsaturated hydrocarbon that contains at least one carbon-carbon double bond. Its general formula is CₙH₂ₙ.|Ethene is the simplest alkene.|E
+S|How can an alkene be distinguished from an alkane?|Shake with bromine water. The alkene decolourises it from orange to colourless, while the alkane does not.|Alkenes show addition reactions.|M
+S|What is polymerisation? Give an example.|The joining of many small molecules called monomers to form a large molecule called a polymer. Ethene forms polyethene.|The reaction is addition polymerisation.|M
+S|Write the equation for the complete combustion of methane.|CH₄ + 2O₂ → CO₂ + 2H₂O|Methane burns completely in a plentiful supply of oxygen.|M
+S|Write two uses of ethyne.|It is used in oxy-acetylene welding and as a starting material for making plastics.|It burns with a very hot flame.|M
+
+# 4 Biochemistry
+M|Biochemistry is the study of|the chemistry of living organisms|metals|gases|rocks|1|It studies the chemical processes in living things.|E
+M|The main classes of biomolecules are|carbohydrates, proteins, lipids and nucleic acids|only water and salt|only minerals|only gases|1|These are the large molecules of life.|E
+M|Carbohydrates are compounds of|carbon, hydrogen and oxygen|carbon and nitrogen only|only nitrogen|sodium and chlorine|1|Their general formula is Cₙ(H₂O)ₘ.|E
+M|Glucose is an example of a|monosaccharide|disaccharide|polysaccharide|protein|1|It is a simple sugar.|E
+M|Sucrose is an example of a|disaccharide|monosaccharide|polysaccharide|lipid|1|It is made of glucose and fructose.|E
+M|Starch is an example of a|polysaccharide|monosaccharide|disaccharide|protein|1|It is a long chain of glucose units.|E
+M|Cellulose is a|polysaccharide found in plant cell walls|protein|lipid|nucleic acid|1|It gives plants their structure.|E
+M|The molecular formula of glucose is|C₆H₁₂O₆|C₁₂H₂₂O₁₁|C₆H₁₀O₅|C₂H₅OH|1|It has six carbon atoms.|E
+M|The molecular formula of sucrose is|C₆H₁₂O₆|C₁₂H₂₂O₁₁|C₆H₁₀O₅|CH₂O|2|It is a disaccharide of glucose and fructose.|M
+M|Proteins are polymers of|amino acids|glucose|fatty acids|nucleotides|1|Amino acids join by peptide bonds.|E
+M|The bond that joins two amino acids is called a|peptide bond|ionic bond|hydrogen bond|glycosidic bond|1|It forms between the carboxyl group and the amino group.|M
+M|The bond that joins monosaccharides together is called a|glycosidic bond|peptide bond|ester bond|hydrogen bond|1|It forms between two sugar units.|M
+M|Lipids are mainly composed of|fatty acids and glycerol|amino acids|glucose|nucleotides|1|Fats are esters of glycerol.|M
+M|A saturated fat contains|only single bonds in its fatty acid chains|at least one double bond|no carbon|only oxygen|1|Animal fats are mostly saturated.|M
+M|An unsaturated fat contains|at least one double bond in its fatty acid chains|only single bonds|no hydrogen|no carbon|1|Vegetable oils are mostly unsaturated.|M
+M|Enzymes are|biological catalysts, mostly proteins|carbohydrates|vitamins|fats|1|They speed up reactions in living organisms.|E
+M|Vitamins are|organic compounds needed in small amounts for health|sources of energy only|minerals|proteins only|1|Deficiency causes disease.|E
+M|Vitamin C is needed to prevent|scurvy|rickets|night blindness|beriberi|1|Lack of vitamin C causes scurvy.|M
+M|Vitamin D is needed to prevent|rickets|scurvy|night blindness|beriberi|1|It helps the body use calcium.|M
+M|DNA stands for|deoxyribonucleic acid|dioxyribonucleic acid|deoxyribose nitrogen acid|dynamic nucleic acid|1|It stores genetic information.|E
+M|RNA stands for|ribonucleic acid|ribose nitrogen acid|reverse nucleic acid|radio nucleic acid|1|It helps make proteins.|E
+M|The test for starch is|iodine solution turning blue-black|Benedict's solution turning red|biuret turning purple|bromine water turning colourless|1|Iodine and starch form a blue-black complex.|E
+M|Benedict's test is used to detect|reducing sugars|starch|proteins|fats|1|The blue solution turns brick red on heating.|M
+M|The biuret test is used to detect|proteins|starch|sugars|fats|1|It gives a purple colour.|M
+M|The main function of carbohydrates in the body is to|provide energy|build muscles only|store genes|carry oxygen|1|They are the main energy source.|E
+M|The main function of proteins in the body is to|build and repair tissues|provide most of the heat only|carry light|conduct electricity|1|They make muscles, enzymes and hormones.|E
+M|The main function of fats in the body is to|store energy|speed up reactions|carry genetic information|transport oxygen|1|They give more energy per gram than carbohydrates.|M
+M|The energy provided by 1 g of fat is about|9 kcal|4 kcal|1 kcal|0.5 kcal|1|Fats give about 9 kcal per gram.|M
+M|The energy provided by 1 g of carbohydrate is about|4 kcal|9 kcal|1 kcal|16 kcal|1|Carbohydrates give about 4 kcal per gram.|M
+M|Hydrolysis of a disaccharide gives|two monosaccharides|a polysaccharide|two proteins|an amino acid|1|Sucrose gives glucose and fructose.|M
+N|Find the energy in kcal given by 50 g of carbohydrate at 4 kcal per gram.|200|50 × 4 = 200.|E|50*4
+N|Find the energy in kcal given by 10 g of fat at 9 kcal per gram.|90|10 × 9 = 90.|E|10*9
+N|Find the molar mass of glucose, C₆H₁₂O₆, in g/mol. (C = 12, H = 1, O = 16)|180|72 + 12 + 96 = 180.|M|6*12+12+6*16
+N|Find the molar mass of sucrose, C₁₂H₂₂O₁₁, in g/mol. (C = 12, H = 1, O = 16)|342|144 + 22 + 176 = 342.|M|12*12+22+11*16
+N|Find the number of peptide bonds in a tripeptide.|2|A chain of 3 amino acids has 3 − 1 = 2 peptide bonds.|M|3-1
+N|Find the number of peptide bonds in a protein chain of 50 amino acids.|49|50 − 1 = 49.|M|50-1
+N|Find the number of water molecules removed when two glucose molecules join to form a disaccharide.|1|One water molecule is lost.|M|1
+N|Find the number of water molecules removed when 100 glucose units join to form a polysaccharide chain.|99|100 − 1 = 99.|H|100-1
+N|Find the mass in grams of glucose in 0.5 mole (molar mass 180 g/mol).|90|0.5 × 180 = 90.|M|0.5*180
+N|A meal has 30 g protein (4 kcal/g), 50 g carbohydrate (4 kcal/g) and 20 g fat (9 kcal/g). Find the total energy in kcal.|500|120 + 200 + 180 = 500.|H|30*4+50*4+20*9
+N|Find the number of moles in 360 g of glucose (molar mass 180 g/mol).|2|360 ÷ 180 = 2.|M|360/180
+N|Find the number of carbon atoms in 1 molecule of sucrose.|12|Sucrose is C₁₂H₂₂O₁₁.|E|12
+N|Find the molar mass of water, H₂O, lost in the formation of one sucrose from glucose and fructose, in g/mol.|18|One water molecule is removed: 2 + 16 = 18.|M|2+16
+N|A food has 20 g of fat. Find the energy in kJ if 1 kcal = 4.2 kJ and fat gives 9 kcal per gram.|756|20 × 9 = 180 kcal, and 180 × 4.2 = 756 kJ.|H|20*9*4.2
+S|Name the four main classes of biomolecules.|Carbohydrates, proteins, lipids and nucleic acids.|They are the main constituents of living cells.|E
+S|Define a carbohydrate and give an example of each type.|A compound of carbon, hydrogen and oxygen in the ratio of Cₙ(H₂O)ₘ. Glucose is a monosaccharide, sucrose a disaccharide and starch a polysaccharide.|They are the main source of energy.|M
+S|What are proteins made of?|Long chains of amino acids joined by peptide bonds.|Each amino acid has an amino group and a carboxyl group.|E
+S|What are enzymes? State one property.|Biological catalysts made of protein that speed up reactions in living things. Each enzyme is specific to a particular reaction.|They work best at a certain temperature and pH.|E
+S|Describe the test for starch.|Add a few drops of iodine solution to the sample. A blue-black colour shows that starch is present.|Iodine and starch form a complex.|E
+S|Differentiate between saturated and unsaturated fats.|Saturated fats have only single bonds in their fatty acid chains and are usually solid. Unsaturated fats have one or more double bonds and are usually liquid.|Animal fats are saturated and vegetable oils are unsaturated.|M

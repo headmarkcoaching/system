@@ -1,0 +1,105 @@
+@level Class 9
+@subject Mathematics
+
+# 4 Algebraic Expressions and Algebraic Formulas
+M|The degree of the polynomial 5x³ + 2x − 1 is|1|2|3|5|3|The degree is the highest power of the variable, which is 3.|E
+M|How many terms does 3x² − 5x + 7 have?|1|2|3|4|3|The terms are 3x², −5x and 7, so there are three.|E
+M|Which pair are like terms?|3x²y and 5x²y|3x²y and 5xy²|4x and 4y|2x and 2x²|1|Like terms have exactly the same variables with the same powers. Only the coefficients differ.|E
+M|The coefficient of x in 7x² − 3x + 1 is|7|−3|1|3|2|The number multiplying x is −3, sign included.|E
+M|The constant term of 2x² + 5x − 9 is|2|5|−9|9|3|The term without a variable is −9.|E
+M|A polynomial with exactly one term is called a|monomial|binomial|trinomial|quadratic|1|Mono means one: a polynomial with one term is a monomial.|E
+M|A polynomial with exactly two terms is called a|monomial|binomial|trinomial|constant|2|Bi means two: a polynomial with two terms is a binomial.|E
+M|A polynomial with exactly three terms is called a|monomial|binomial|trinomial|cubic|3|Tri means three: a polynomial with three terms is a trinomial.|E
+M|(a + b)² equals|a² + b²|a² + 2ab + b²|a² − 2ab + b²|2a + 2b|2|The square of a sum has a middle term 2ab.|E
+M|(a − b)² equals|a² − b²|a² + 2ab + b²|a² − 2ab + b²|a² + b²|3|The square of a difference has a middle term −2ab.|E
+M|(a + b)(a − b) equals|a² + b²|a² − b²|a² + 2ab − b²|2a|2|The middle terms cancel, leaving the difference of squares.|E
+M|(a + b)³ equals|a³ + b³|a³ + 3a²b + 3ab² + b³|a³ + 3ab + b³|a³ − 3a²b + 3ab² − b³|2|The cube of a sum is a³ + 3a²b + 3ab² + b³.|M
+M|(a − b)³ equals|a³ − b³|a³ − 3a²b + 3ab² − b³|a³ + 3a²b + 3ab² − b³|a³ − 3ab + b³|2|The signs alternate: a³ − 3a²b + 3ab² − b³.|M
+M|a³ + b³ equals|(a + b)(a² − ab + b²)|(a + b)(a² + ab + b²)|(a − b)(a² + ab + b²)|(a + b)³|1|The sum of cubes factorises as (a + b)(a² − ab + b²).|M
+M|a³ − b³ equals|(a − b)(a² − ab + b²)|(a − b)(a² + ab + b²)|(a + b)(a² − ab + b²)|(a − b)³|2|The difference of cubes factorises as (a − b)(a² + ab + b²).|M
+M|(a + b + c)² equals|a² + b² + c²|a² + b² + c² + 2ab + 2bc + 2ca|a² + b² + c² + ab + bc + ca|(a + b)² + c|2|Each pair of terms contributes twice its product.|M
+M|(x + a)(x + b) equals|x² + (a + b)x + ab|x² + (a − b)x + ab|x² + abx + (a + b)|x² + ab|1|Multiply out: x² + bx + ax + ab = x² + (a + b)x + ab.|M
+M|a² + b² can be written as|(a + b)² − 2ab|(a + b)² + 2ab|(a − b)² − 2ab|(a + b)² − ab|1|Since (a + b)² = a² + 2ab + b², we get a² + b² = (a + b)² − 2ab.|M
+M|(a + b)² − (a − b)² equals|2ab|4ab|2a² + 2b²|0|2|The a² and b² terms cancel and 2ab − (−2ab) = 4ab.|M
+M|(a + b)² + (a − b)² equals|4ab|2ab|2(a² + b²)|a² + b²|3|The ab terms cancel and a² + b² appears twice.|M
+M|The degree of the constant polynomial 7 is|0|1|7|undefined|1|A non-zero constant can be written 7x⁰, so its degree is 0.|M
+M|Which of the following is not a polynomial?|x² + 3|x² + 1/x|5x|7|2|A polynomial has only whole-number powers of the variable. 1/x is x⁻¹, so it is not.|M
+M|The middle term in the expansion of (x + 4)² is|4x|8x|16x|x²|2|(x + 4)² = x² + 2(x)(4) + 16, so the middle term is 8x.|E
+M|The value of 99² using (100 − 1)² is|9801|9899|9999|9701|1|(100 − 1)² = 10000 − 200 + 1 = 9801.|M
+M|(x + 1/x)² equals|x² + 1/x²|x² + 2 + 1/x²|x² − 2 + 1/x²|x² + 1|2|The middle term is 2 × x × 1/x = 2.|M
+M|The degree of the monomial x²y³ is|2|3|5|6|3|Add the powers of all variables: 2 + 3 = 5.|M
+M|The sum of (2x + 3) and (x − 5) is|3x − 2|3x + 8|x − 2|3x + 2|1|Add like terms: 2x + x = 3x and 3 − 5 = −2.|E
+M|(5x² + 2) − (3x² − 1) equals|2x² + 1|2x² + 3|8x² + 1|2x² − 3|2|Subtract like terms: 5x² − 3x² = 2x² and 2 − (−1) = 3.|M
+M|(x + 2)(x − 2) equals|x² + 4|x² − 4|x² − 2x|x² + 2x − 4|2|It is a difference of squares: x² − 4.|E
+M|The first term in the expansion of (2x + 3y)² is|2x²|4x²|4x|6xy|2|The first term is (2x)² = 4x².|M
+M|(a − b)² is always|negative|greater than or equal to zero|less than zero|equal to a² − b²|2|A real number squared cannot be negative, so (a − b)² ≥ 0.|M
+M|(x − y)(x² + xy + y²) equals|x³ + y³|x³ − y³|x² − y²|(x − y)³|2|This is the difference of cubes formula, giving x³ − y³.|M
+M|What must be added to x² + 2x to make it a perfect square?|1|2|4|x|1|x² + 2x + 1 = (x + 1)².|H
+N|Find the value of x² + 2x + 1 when x = 4.|25|(4 + 1)² = 25. Check: 16 + 8 + 1 = 25.|E|4*4+2*4+1
+N|If a + b = 7 and ab = 10, find a² + b².|29|a² + b² = (a + b)² − 2ab = 49 − 20 = 29.|M|7*7-2*10
+N|If a + b = 9 and ab = 14, find (a − b)².|25|(a − b)² = (a + b)² − 4ab = 81 − 56 = 25.|M|81-4*14
+N|Use (100 + 3)² to find 103².|10609|(100 + 3)² = 10000 + 600 + 9 = 10609.|E|103*103
+N|Use (100 − 3)(100 + 3) to find 97 × 103.|9991|(100 − 3)(100 + 3) = 100² − 3² = 10000 − 9 = 9991.|M|100*100-9
+N|If x + 1/x = 3, find x² + 1/x².|7|x² + 1/x² = (x + 1/x)² − 2 = 9 − 2 = 7.|H|3*3-2
+N|If a + b = 5 and ab = 6, find a³ + b³.|35|a³ + b³ = (a + b)³ − 3ab(a + b) = 125 − 90 = 35.|H|125-3*6*5
+N|Find the value of (x + 2)(x + 3) when x = 1.|12|(1 + 2)(1 + 3) = 3 × 4 = 12.|E|3*4
+N|Find the coefficient of x in the expansion of (x + 3)(x + 5).|8|(x + 3)(x + 5) = x² + 8x + 15, so the coefficient of x is 8.|M|3+5
+N|If a − b = 3 and ab = 10, find a² + b².|29|a² + b² = (a − b)² + 2ab = 9 + 20 = 29.|M|9+2*10
+S|Define a polynomial in one variable.|An algebraic expression in which the variable has only non-negative whole-number powers, such as 3x² − 5x + 2.|The powers of x must be 0, 1, 2, 3, …, with no negative or fractional powers and no variable in a denominator.|E
+S|Expand (2x + 3)².|4x² + 12x + 9|(2x + 3)² = (2x)² + 2(2x)(3) + 3² = 4x² + 12x + 9.|M
+S|Expand (x − 2)³.|x³ − 6x² + 12x − 8|(a − b)³ = a³ − 3a²b + 3ab² − b³. With a = x and b = 2 this is x³ − 6x² + 12x − 8.|H
+S|Find the product (x + 5)(x − 5).|x² − 25|It is a difference of squares: x² − 5² = x² − 25.|E
+S|Write the formula for a³ + b³.|a³ + b³ = (a + b)(a² − ab + b²)|This is the factorised form of the sum of two cubes.|M
+S|Simplify (a + b)² − (a − b)².|4ab|Expanding gives (a² + 2ab + b²) − (a² − 2ab + b²) = 4ab.|M
+
+# 5 Factorization
+M|Factorise x² − 16.|(x − 4)(x + 4)|(x − 8)(x + 2)|(x − 4)²|(x + 4)²|1|x² − 16 = x² − 4², a difference of squares.|E
+M|Factorise x² + 7x + 12.|(x + 3)(x + 4)|(x + 2)(x + 6)|(x + 1)(x + 12)|(x − 3)(x − 4)|1|Find two numbers with product 12 and sum 7: they are 3 and 4.|E
+M|Factorise x² − 5x + 6.|(x − 2)(x − 3)|(x + 2)(x + 3)|(x − 1)(x − 6)|(x − 5)(x − 1)|1|Two numbers with product 6 and sum −5 are −2 and −3.|E
+M|Factorise x² + x − 12.|(x + 4)(x − 3)|(x − 4)(x + 3)|(x + 6)(x − 2)|(x + 12)(x − 1)|1|Two numbers with product −12 and sum +1 are 4 and −3.|M
+M|Factorise x² − x − 12.|(x − 4)(x + 3)|(x + 4)(x − 3)|(x − 6)(x + 2)|(x − 12)(x + 1)|1|Two numbers with product −12 and sum −1 are −4 and 3.|M
+M|Factorise 3x + 6.|3(x + 2)|3(x + 6)|x(3 + 6)|6(x + 3)|1|The common factor is 3, giving 3(x + 2).|E
+M|The highest common factor of 4x²y and 6xy² is|2xy|4xy|2x²y²|12x²y²|1|The HCF of 4 and 6 is 2, and the lowest power of each variable is xy.|M
+M|Factorise ax + ay + bx + by by grouping.|(a + b)(x + y)|(a − b)(x − y)|(a + y)(b + x)|(ax + by)(1)|1|Group as a(x + y) + b(x + y) = (a + b)(x + y).|M
+M|Factorise x² + 6x + 9.|(x + 3)²|(x − 3)²|(x + 9)(x + 1)|(x + 3)(x − 3)|1|x² + 6x + 9 = x² + 2(x)(3) + 3², a perfect square.|E
+M|Factorise a² − b².|(a − b)(a + b)|(a − b)²|(a + b)²|a(a − b)|1|The difference of two squares factorises as (a − b)(a + b).|E
+M|Factorise x³ − 8.|(x − 2)(x² + 2x + 4)|(x − 2)(x² − 2x + 4)|(x + 2)(x² − 2x + 4)|(x − 2)³|1|a³ − b³ = (a − b)(a² + ab + b²) with a = x and b = 2.|M
+M|Factorise x³ + 27.|(x + 3)(x² − 3x + 9)|(x + 3)(x² + 3x + 9)|(x − 3)(x² + 3x + 9)|(x + 3)³|1|a³ + b³ = (a + b)(a² − ab + b²) with a = x and b = 3.|M
+M|Factorise 2x² + 5x + 3.|(2x + 3)(x + 1)|(2x + 1)(x + 3)|(2x − 3)(x − 1)|(x + 5)(2x + 3)|1|Split 5x as 2x + 3x: 2x(x + 1) + 3(x + 1) = (2x + 3)(x + 1).|M
+M|The remainder when x² + 3x + 2 is divided by x − 1 is|0|3|6|2|3|By the remainder theorem it is p(1) = 1 + 3 + 2 = 6.|M
+M|The remainder theorem says that when p(x) is divided by x − a, the remainder is|p(0)|p(a)|p(−a)|a|2|The remainder equals the value of the polynomial at x = a.|M
+M|By the factor theorem, x − a is a factor of p(x) if and only if|p(0) = a|p(a) = 0|p(−a) = 0|p(a) = a|2|If p(a) = 0 the remainder is zero, so x − a divides p(x) exactly.|M
+M|Is x − 2 a factor of x² − 4?|Yes|No|Only if x > 2|Cannot be decided|1|Putting x = 2 gives 4 − 4 = 0, so x − 2 is a factor.|M
+M|Which of the following is a factor of x² − 9?|x + 3|x + 9|x − 9|x − 6|1|x² − 9 = (x − 3)(x + 3), so x + 3 is a factor.|E
+M|Factorise 4x² − 9.|(2x − 3)(2x + 3)|(4x − 3)(x + 3)|(2x − 3)²|(2x + 3)²|1|4x² − 9 = (2x)² − 3², a difference of squares.|M
+M|Factorise x² + 2x + 1.|(x + 1)²|(x − 1)²|(x + 2)(x + 1)|(x + 1)(x − 1)|1|x² + 2x + 1 = x² + 2(x)(1) + 1², a perfect square.|E
+M|Factorise 9x² − 12x + 4.|(3x − 2)²|(3x + 2)²|(9x − 4)(x − 1)|(3x − 4)(3x − 1)|1|9x² − 12x + 4 = (3x)² − 2(3x)(2) + 2², a perfect square.|H
+M|(x + 1)(x − 1)(x² + 1) equals|x⁴ − 1|x⁴ + 1|x² − 1|x³ − 1|1|(x + 1)(x − 1) = x² − 1, and (x² − 1)(x² + 1) = x⁴ − 1.|H
+M|Factorise x⁴ − 16 completely into factors with whole-number coefficients, the first step gives|(x² − 4)(x² + 4)|(x − 4)(x³ + 4)|(x² − 8)²|(x − 2)⁴|1|x⁴ − 16 = (x²)² − 4², so it is (x² − 4)(x² + 4). The factor x² − 4 can be split again.|H
+M|The highest common factor of x² − 1 and x + 1 is|x − 1|x + 1|x² − 1|1|2|x² − 1 = (x − 1)(x + 1), and x + 1 divides itself, so the HCF is x + 1.|H
+M|Factorise x² + 4x + 4.|(x + 2)²|(x − 2)²|(x + 4)(x + 1)|(x + 2)(x − 2)|1|x² + 4x + 4 = x² + 2(x)(2) + 2².|E
+M|Factorise x² − 2x + 1.|(x − 1)²|(x + 1)²|(x − 2)(x + 1)|(x − 1)(x + 1)|1|x² − 2x + 1 = x² − 2(x)(1) + 1².|E
+M|If x − 3 is a factor of p(x), then|p(3) = 0|p(−3) = 0|p(0) = 3|p(3) = 3|1|By the factor theorem, x − 3 is a factor exactly when p(3) = 0.|M
+M|Which of the following is not a factor of x² − 5x + 6?|x − 2|x − 3|x + 2|(x − 2)(x − 3)|3|x² − 5x + 6 = (x − 2)(x − 3), so x + 2 is not a factor.|M
+M|Factorise 6x² + 11x + 3.|(3x + 1)(2x + 3)|(6x + 1)(x + 3)|(3x + 3)(2x + 1)|(2x + 1)(3x − 3)|1|(3x + 1)(2x + 3) = 6x² + 9x + 2x + 3 = 6x² + 11x + 3.|H
+M|Factorise x² − (y + 1)².|(x − y − 1)(x + y + 1)|(x − y)(x + y + 1)|(x − y + 1)(x + y − 1)|(x − y − 1)²|1|It is a difference of squares, a² − b² with b = y + 1.|H
+M|a² + 2ab + b² − c² factorises as|(a + b − c)(a + b + c)|(a + b)² − c|(a − b − c)(a + b + c)|(a + b + c)²|1|a² + 2ab + b² = (a + b)², so the expression is (a + b)² − c², a difference of squares.|H
+M|Factorise 8x³ − 1.|(2x − 1)(4x² + 2x + 1)|(2x − 1)(4x² − 2x + 1)|(2x + 1)(4x² − 2x + 1)|(2x − 1)³|1|8x³ − 1 = (2x)³ − 1³ = (2x − 1)(4x² + 2x + 1).|H
+M|The remainder when x³ − 1 is divided by x + 1 is|0|1|−2|2|3|Put x = −1: (−1)³ − 1 = −2.|H
+M|Factorise x² + 9x + 20.|(x + 4)(x + 5)|(x + 2)(x + 10)|(x + 1)(x + 20)|(x − 4)(x − 5)|1|Two numbers with product 20 and sum 9 are 4 and 5.|E
+N|Find the larger root of x² − 7x + 12 = 0.|4|x² − 7x + 12 = (x − 3)(x − 4), so the roots are 3 and 4.|M|(7+Math.sqrt(49-48))/2
+N|If p(x) = x² − 5x + 6, find p(4).|2|p(4) = 16 − 20 + 6 = 2.|E|16-20+6
+N|Find the remainder when x³ + 2x + 1 is divided by x − 2.|13|By the remainder theorem it is p(2) = 8 + 4 + 1 = 13.|M|8+4+1
+N|Find k so that x − 1 is a factor of x² + kx − 3.|2|p(1) = 1 + k − 3 = 0, so k = 2.|M|3-1
+N|Use a² − b² to evaluate 101² − 99².|400|101² − 99² = (101 − 99)(101 + 99) = 2 × 200 = 400.|M|101*101-99*99
+N|If x + 2 is a factor of x² + 5x + k, find k.|6|p(−2) = 4 − 10 + k = 0, so k = 6.|H|10-4
+N|Find the value of x² + 10x + 25 when x = −5.|0|x² + 10x + 25 = (x + 5)², and (−5 + 5)² = 0.|M|25-50+25
+N|Find the remainder when x² − 4x + 7 is divided by x − 3.|4|p(3) = 9 − 12 + 7 = 4.|M|9-12+7
+N|Find the value of (x + 3)(x + 4) when x = 1.|20|(1 + 3)(1 + 4) = 4 × 5 = 20.|E|4*5
+N|Find the remainder when x² + x + 1 is divided by x − 2.|7|p(2) = 4 + 2 + 1 = 7.|M|4+2+1
+S|Factorise 5x² − 20x.|5x(x − 4)|The common factor is 5x, giving 5x(x − 4).|E
+S|Factorise x² − 25.|(x − 5)(x + 5)|x² − 25 = x² − 5², a difference of squares.|E
+S|Factorise x² + 9x + 18.|(x + 3)(x + 6)|Two numbers with product 18 and sum 9 are 3 and 6.|M
+S|State the factor theorem.|If p(a) = 0 then x − a is a factor of the polynomial p(x), and if x − a is a factor then p(a) = 0.|The theorem links zeros of a polynomial with its linear factors.|M
+S|Factorise x³ + 8.|(x + 2)(x² − 2x + 4)|a³ + b³ = (a + b)(a² − ab + b²) with a = x and b = 2.|M
+S|Factorise 4x² + 12x + 9.|(2x + 3)²|4x² + 12x + 9 = (2x)² + 2(2x)(3) + 3², a perfect square.|M

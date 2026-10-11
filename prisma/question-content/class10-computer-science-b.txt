@@ -1,0 +1,234 @@
+@level Class 10
+@subject Computer Science
+
+# 5 Web Development: HTML and CSS
+M|HTML stands for|HyperText Markup Language|High Text Machine Language|Hyperlink and Text Management Language|Home Tool Markup Language|1|It is the standard language for web pages.|E
+M|HTML is a|markup language|programming language|operating system|database|1|It describes the structure of a page with tags.|E
+M|HTML elements are written using|tags|brackets only|loops|functions|1|For example <p> and </p>.|E
+M|A tag that has a start and an end, such as <p> ... </p>, is called a|container tag|empty tag|attribute|selector|1|It surrounds some content.|M
+M|The tag that has no closing tag is called an|empty tag|container tag|link|style|1|<br> is an example.|M
+M|The tag that holds the whole HTML document is|<html>|<head>|<body>|<title>|1|It is the root element.|E
+M|The title of a web page appears in the browser tab. It is defined inside the|<title> tag|<h1> tag|<p> tag|<br> tag|1|It is placed inside <head>.|E
+M|The visible content of a web page goes inside the|<body> tag|<head> tag|<title> tag|<meta> tag|1|The body is shown in the browser.|E
+M|The tag for the largest heading is|<h1>|<h6>|<head>|<big>|1|<h1> is the highest-level heading.|E
+M|The tag for the smallest heading is|<h6>|<h1>|<h3>|<head>|1|<h6> is the lowest-level heading.|E
+M|The tag for a paragraph is|<p>|<para>|<pr>|<text>|1|It starts a new paragraph.|E
+M|The tag for a line break is|<br>|<lb>|<break>|<newline>|1|It is an empty tag.|E
+M|The tag for a horizontal line is|<hr>|<line>|<h>|<rule>|1|It draws a divider.|E
+M|The tag for bold text is|<b>|<i>|<u>|<p>|1|It makes text bold.|E
+M|The tag for italic text is|<i>|<b>|<u>|<h1>|1|It makes text slanted.|E
+M|The tag for underlined text is|<u>|<b>|<i>|<hr>|1|It underlines text.|E
+M|The tag used to insert a hyperlink is|<a>|<link>|<href>|<url>|1|The href attribute holds the address.|E
+M|The attribute that gives the destination of a link is|href|src|alt|id|1|<a href="page.html">.|E
+M|The tag used to insert an image is|<img>|<image>|<pic>|<src>|1|It uses the src attribute.|E
+M|The attribute of <img> that gives the file name or address is|src|href|alt only|title only|1|<img src="photo.jpg">.|E
+M|The alt attribute of <img> provides|alternative text for the image|the image size|the image link|the image colour|1|It is shown if the image does not load.|M
+M|The tag for an unordered (bulleted) list is|<ul>|<ol>|<li>|<dl>|1|Each item is in <li>.|E
+M|The tag for an ordered (numbered) list is|<ol>|<ul>|<li>|<dl>|1|Each item is in <li>.|E
+M|The tag for a list item is|<li>|<ul>|<ol>|<item>|1|It goes inside <ul> or <ol>.|E
+M|The tag for a table is|<table>|<tab>|<tbl>|<grid>|1|It holds rows and cells.|E
+M|The tag for a table row is|<tr>|<td>|<th>|<row>|1|It holds the cells of a row.|E
+M|The tag for a table data cell is|<td>|<tr>|<th>|<cell>|1|It holds the data.|E
+M|The tag for a table heading cell is|<th>|<td>|<tr>|<head>|1|The text is bold and centred.|E
+M|The tag used to add a comment in HTML is|<!-- comment -->|// comment|# comment|/* comment */|1|The browser does not show it.|M
+M|The tag used to create a form is|<form>|<input>|<table>|<div>|1|It collects user input.|E
+M|The tag for a text box in a form is|<input>|<text>|<box>|<field>|1|The type attribute decides its kind.|M
+M|An attribute is|extra information given inside a start tag|a closing tag|a heading|a comment|1|It has a name and a value.|E
+M|The file extension of an HTML file is|.html|.txt only|.doc|.jpg|1|Browsers open .html files.|E
+M|A web browser is used to|view web pages|write HTML only|store web pages|connect to the Internet only|1|Chrome and Firefox are browsers.|E
+M|A program in which you can write HTML code is a|text editor|calculator|player|printer|1|Notepad is an example.|E
+M|CSS stands for|Cascading Style Sheets|Computer Style Sheets|Creative Style System|Colourful Style Sheets|1|It controls the look of a web page.|E
+M|CSS is used to|style the appearance of web pages|store data|add new tags|connect to a database|1|It sets colour, fonts and layout.|E
+M|The CSS property for the text colour is|color|text-color|font-colour|fcolor|1|For example color: red;.|E
+M|The CSS property for the background colour is|background-color|bgcolor only|back-color|color-bg|1|For example background-color: yellow;.|E
+M|The CSS property for the size of text is|font-size|text-size|size|font-height|1|For example font-size: 20px;.|E
+M|The CSS property for the space inside an element's border is|padding|margin|border|spacing|1|It is between the content and the border.|M
+M|The CSS property for the space outside an element's border is|margin|padding|border|content|1|It separates the element from others.|M
+M|CSS written inside a tag using the style attribute is called|inline CSS|internal CSS|external CSS|embedded file|1|It applies to that element only.|M
+M|CSS written inside a <style> tag in the head is called|internal CSS|inline CSS|external CSS|browser CSS|1|It applies to the whole page.|M
+M|CSS written in a separate .css file and linked to a page is called|external CSS|inline CSS|internal CSS|hidden CSS|1|It can style many pages.|M
+M|In CSS, a selector that starts with # selects an element by its|id|class|tag name|colour|1|For example #title.|M
+M|In CSS, a selector that starts with a full stop selects elements by their|class|id|tag name|text|1|For example .note.|M
+N|A table has 3 rows and 4 columns. Find the number of data cells.|12|3 × 4 = 12.|E|3*4
+N|A list contains 5 <li> items. Find the number of <li> tags needed.|5|One per item.|E|5
+N|A page has headings <h1> to <h6>. Find the number of heading levels.|6|There are six levels.|E|6
+N|An image is 200 pixels wide and displayed at half the width. Find the new width in pixels.|100|200 ÷ 2 = 100.|E|200/2
+N|A paragraph has margin 10px on all four sides. Find the total margin in pixels around it.|40|4 × 10 = 40.|M|4*10
+N|A box has width 100px, padding 10px and border 2px on each side. Find the total width in pixels.|124|100 + 2 × 10 + 2 × 2 = 124.|H|100+2*10+2*2
+N|A web page of 120 KB loads at 60 KB per second. Find the load time in seconds.|2|120 ÷ 60 = 2.|E|120/60
+N|A website has 15 pages, each linking to 3 others. Find the total number of links.|45|15 × 3 = 45.|M|15*3
+N|A page has 4 images of 250 KB each. Find the total size of the images in KB.|1000|4 × 250 = 1000.|E|4*250
+N|The hexadecimal colour code #FF0000 has red value FF. Find FF in decimal.|255|15 × 16 + 15 = 255.|H|15*16+15
+S|What is HTML?|HyperText Markup Language, the standard language used to create the structure of web pages with tags.|It is not a programming language.|E
+S|Write the basic structure of an HTML page.|<html><head><title>Title</title></head><body>Content</body></html>|The head holds the title and the body holds the content.|M
+S|Write the HTML to make a link to google.com with the text Search.|<a href="https://google.com">Search</a>|The href attribute holds the address.|M
+S|Distinguish between <ol> and <ul>.|<ol> makes an ordered (numbered) list. <ul> makes an unordered (bulleted) list.|Items go in <li> tags.|E
+S|What is CSS and why is it used?|Cascading Style Sheets, a language used to control the appearance of web pages, such as colours, fonts and layout.|It separates style from content.|E
+S|Name the three ways of using CSS.|Inline CSS, internal CSS and external CSS.|External CSS is stored in a separate file.|E
+
+# 6 Spreadsheets
+M|A spreadsheet is a|program that organises data in rows and columns and performs calculations|word processor|presentation program|database only|1|Excel is an example.|E
+M|A file in a spreadsheet program is called a|workbook|document only|slide|record|1|It contains one or more worksheets.|E
+M|A single page in a workbook is called a|worksheet|slide|record|table|1|It has rows and columns.|E
+M|The intersection of a row and a column is called a|cell|range|chart|formula|1|Data is entered in cells.|E
+M|In a spreadsheet, columns are named with|letters|numbers|symbols|colours|1|A, B, C and so on.|E
+M|In a spreadsheet, rows are named with|numbers|letters|symbols|colours|1|1, 2, 3 and so on.|E
+M|The address of the cell in column B and row 3 is|B3|3B|B-3|3,B|1|The column letter comes first.|E
+M|A group of selected cells such as A1 to C3 is called a|range|chart|formula|worksheet|1|It is written A1:C3.|E
+M|Every formula in a spreadsheet begins with|=|+|#|@|1|The equals sign tells the program it is a formula.|E
+M|The function that adds the values in a range is|SUM|ADD|TOTAL|PLUS|1|=SUM(A1:A5).|E
+M|The function that finds the average of a range is|AVERAGE|MEAN|AVG only|MEDIAN|1|=AVERAGE(A1:A5).|E
+M|The function that finds the largest value in a range is|MAX|BIG|HIGH|TOP|1|=MAX(A1:A5).|E
+M|The function that finds the smallest value in a range is|MIN|LOW|SMALL|BOTTOM|1|=MIN(A1:A5).|E
+M|The function that counts the cells containing numbers is|COUNT|NUMBER|TALLY|ADD|1|=COUNT(A1:A5).|E
+M|The function used to make a decision in a cell is|IF|WHEN|CHOOSE only|SELECT|1|=IF(A1>50, "Pass", "Fail").|M
+M|The formula =IF(A1>50,"Pass","Fail") with A1 = 60 shows|Pass|Fail|60|Error|1|The condition is true.|M
+M|The formula =IF(A1>50,"Pass","Fail") with A1 = 40 shows|Fail|Pass|40|Error|1|The condition is false.|M
+M|The arithmetic operator for multiplication in a spreadsheet is|*|x|%|^|1|=A1*B1.|E
+M|The arithmetic operator for division in a spreadsheet is|/|\|÷|%|1|=A1/B1.|E
+M|The arithmetic operator for power in a spreadsheet is|^|**|pow|%|1|=2^3 gives 8.|M
+M|In a spreadsheet, the order of operations follows|brackets, powers, multiplication or division, then addition or subtraction|addition first|left to right only|subtraction first|1|This is the standard rule.|M
+M|A relative cell reference such as A1|changes when the formula is copied to another cell|never changes|is always fixed|is a range|1|It adjusts to the new position.|M
+M|An absolute cell reference is written as|$A$1|A1|A$|$|1|The dollar signs fix the column and row.|M
+M|Copying a formula that uses an absolute reference|keeps the reference unchanged|changes it|deletes it|converts it to a range|1|It stays fixed to the same cell.|M
+M|The feature that quickly fills a series such as 1, 2, 3 is|AutoFill|AutoSum|Auto-correct|AutoFormat|1|Drag the fill handle.|E
+M|The feature that quickly adds a column of numbers is|AutoSum|AutoFill|Sort|Filter|1|It inserts the SUM function.|E
+M|The feature that arranges data in order is|Sort|Filter|Chart|Merge|1|It can be ascending or descending.|E
+M|The feature that shows only the rows that meet a condition is|Filter|Sort|Merge|Wrap|1|The other rows are hidden.|E
+M|A graphical display of data in a spreadsheet is a|chart|cell|range|formula|1|Types include bar, line and pie charts.|E
+M|A chart that is best for showing parts of a whole is a|pie chart|line chart|scatter chart|bar chart only|1|The slices show proportions.|E
+M|A chart that is best for showing a change over time is a|line chart|pie chart|table|text box|1|It shows trends.|E
+M|A chart that compares values among categories is a|bar chart|pie chart only|none|text|1|The bars show values.|E
+M|The file extension of an Excel workbook is|.xlsx|.docx|.pptx|.txt|1|XLSX is the Excel format.|E
+M|The error shown when a formula divides by zero is|#DIV/0!|#NAME?|#REF!|#VALUE!|1|Division by zero is not allowed.|M
+M|The feature that combines two or more cells into one is|Merge|Split|Sort|Filter|1|It is used for headings.|E
+M|Wrap text is used to|display long text on several lines in a cell|delete text|sort text|colour text|1|The cell height increases.|M
+M|Freezing panes keeps|headings visible while scrolling|data hidden|formulas fixed|charts open|1|It is useful for large tables.|M
+M|The formula =A1+B1 adds|the values in cells A1 and B1|the text A1 and B1|rows 1 and 1|columns A and B|1|It uses cell references.|E
+N|Cells A1 to A5 contain 10, 20, 30, 40 and 50. Find the result of =SUM(A1:A5).|150|10 + 20 + 30 + 40 + 50 = 150.|E|10+20+30+40+50
+N|Cells A1 to A5 contain 10, 20, 30, 40 and 50. Find the result of =AVERAGE(A1:A5).|30|150 ÷ 5 = 30.|E|150/5
+N|Cells A1 to A5 contain 10, 20, 30, 40 and 50. Find the result of =MAX(A1:A5).|50|The largest value is 50.|E|50
+N|Cells A1 to A5 contain 10, 20, 30, 40 and 50. Find the result of =MIN(A1:A5).|10|The smallest value is 10.|E|10
+N|A1 = 6 and B1 = 7. Find the result of =A1*B1.|42|6 × 7 = 42.|E|6*7
+N|A1 = 100 and B1 = 4. Find the result of =A1/B1.|25|100 ÷ 4 = 25.|E|100/4
+N|Find the result of =2^3 + 4.|12|8 + 4 = 12.|M|2^3+4
+N|Find the result of =2+3*4.|14|Multiplication first: 2 + 12 = 14.|M|2+3*4
+N|Find the number of cells in the range A1:C4.|12|3 columns × 4 rows = 12.|M|3*4
+N|Marks in B2:B6 are 70, 80, 90, 60 and 50. Find the average.|70|350 ÷ 5 = 70.|M|(70+80+90+60+50)/5
+N|A1 = 8 and the formula =A1*10% is entered. Find the result.|0.8|10 percent of 8 is 0.8.|M|8*0.1
+N|A product costs Rs 250 and 12 are sold. Find the result of the formula =250*12.|3000|250 × 12 = 3000.|E|250*12
+S|Define a spreadsheet and name an example.|A program that stores data in rows and columns and performs calculations using formulas. Microsoft Excel is an example.|It is used for accounts and marks.|E
+S|Distinguish between a workbook and a worksheet.|A workbook is a whole spreadsheet file. A worksheet is a single page within it, made of rows and columns.|A workbook can have many worksheets.|E
+S|Write the formula to add the cells A1 to A10.|=SUM(A1:A10)|Every formula begins with an equals sign.|E
+S|Distinguish between relative and absolute cell references.|A relative reference such as A1 changes when copied. An absolute reference such as $A$1 does not change.|The dollar signs fix the cell.|M
+S|Write a formula that shows Pass if A1 is 40 or more and Fail otherwise.|=IF(A1>=40, "Pass", "Fail")|The IF function chooses between two results.|M
+S|Name three types of charts and state a use of each.|A bar chart compares values among categories, a line chart shows change over time and a pie chart shows parts of a whole.|Charts make data easier to understand.|E
+
+# 7 Cyber Security and Digital Citizenship
+M|Cyber security is|protecting computers, networks and data from attack or damage|making computers faster|buying computers|designing websites|1|It covers people, processes and technology.|E
+M|A digital citizen is a person who|uses technology responsibly and safely|owns a computer|plays games only|sells computers|1|They behave well online.|E
+M|Your digital footprint is|the trail of data you leave when you use the Internet|the size of your shoe|a type of virus|a program|1|Posts, searches and likes are part of it.|E
+M|The goal of confidentiality in security is to ensure that|only authorised people can see the data|data is always visible|data is deleted|data is copied|1|It keeps data private.|M
+M|Integrity in security means that|data is accurate and has not been changed without permission|data is hidden|data is deleted|data is large|1|It prevents tampering.|M
+M|Availability in security means that|authorised users can access data when needed|data is secret|data is old|data is very small|1|Systems must be working when needed.|M
+M|Malware is|software designed to harm or exploit a computer|a useful program|a game|a type of hardware|1|Viruses and ransomware are malware.|E
+M|Ransomware is malware that|locks data and demands payment|speeds up the computer|cleans the disk|prints documents|1|It encrypts files and asks for money.|M
+M|Social engineering is|tricking people into giving away confidential information|a type of engineering|building websites|designing hardware|1|It exploits human trust.|M
+M|A fake email that appears to come from a bank and asks for your password is|phishing|a backup|a firewall|encryption|1|It is a common scam.|E
+M|A DoS attack tries to|make a website or service unavailable|steal passwords|speed up a server|back up files|1|It floods the system with requests.|M
+M|A strong password is|long and has letters, numbers and symbols|your birthday|the word password|your name|1|It is harder to crack.|E
+M|Two-factor authentication requires|two different forms of proof of identity|two passwords|two computers|two users|1|For example a password and a code on a phone.|M
+M|Biometric authentication uses|fingerprints or face recognition|passwords only|PINs only|cards only|1|It uses physical features.|E
+M|Encryption protects data by|converting it into unreadable code|deleting it|copying it|printing it|1|Only those with the key can read it.|E
+M|A firewall protects a network by|filtering incoming and outgoing traffic|printing documents|cleaning the screen|adding speed|1|It blocks unauthorised connections.|E
+M|Antivirus software protects a computer by|detecting and removing malware|making the monitor brighter|adding memory|printing|1|It must be updated.|E
+M|The best protection against losing data is|regular backups|deleting files|using one password|sharing files|1|Keep a copy elsewhere.|E
+M|Software updates and patches are important because they|fix security weaknesses|make the computer slower|delete files|add viruses|1|Attackers exploit known weaknesses.|M
+M|A secure website address begins with|https|http|ftp|www|1|The s means secure.|E
+M|Public Wi-Fi is risky because|others may be able to intercept your data|it is always fast|it is always free|it is always encrypted|1|Avoid sensitive transactions on it.|M
+M|Cyber bullying should be|reported to a trusted adult or the authorities|ignored|spread|encouraged|1|Do not reply to bullies.|E
+M|You should not post personal details such as your address online because|they can be misused|they are boring|they use memory|they are free|1|They can lead to identity theft.|E
+M|Copyright protects|the rights of creators over their work|only computers|only software|nothing|1|Permission is needed to use their work.|E
+M|Plagiarism is|presenting someone else's work as your own|writing an essay|using a library|doing homework|1|It is dishonest.|E
+M|Netiquette refers to|rules of polite behaviour on the Internet|a type of network|a type of cable|a type of virus|1|Be respectful and kind.|E
+M|In Pakistan, cyber crimes are dealt with under the|Prevention of Electronic Crimes Act (PECA)|Motor Vehicles Act|Sale of Goods Act|Land Act|1|It was enacted in 2016.|M
+M|Pakistan's FIA has a wing that deals with|cyber crime|traffic|customs only|taxes|1|It investigates online crimes.|E
+M|Identity theft is|using another person's personal information to commit fraud|losing your ID card|buying an ID|printing an ID|1|It can cause financial loss.|E
+M|Hacking is|gaining unauthorised access to a computer system|repairing a computer|writing programs|installing software|1|It is illegal.|E
+M|An ethical hacker|tests systems for weaknesses with permission|breaks into systems for profit|steals data|spreads viruses|1|They help organisations improve security.|M
+M|A VPN is used to|create a secure, encrypted connection over the Internet|print faster|play music|store files|1|It hides your traffic.|M
+M|Privacy settings on social media allow you to|control who can see your information|delete your account only|make posts public always|speed up the Internet|1|Check them regularly.|E
+M|A suspicious email with an unknown link should|be deleted without clicking|be opened at once|be forwarded|be answered with your details|1|The link may lead to malware.|E
+M|When shopping online, you should check that|the website is secure and trusted|the website has many ads|the website is new|the prices are unbelievably low|1|Look for https and reviews.|E
+M|A cookie is|a small file a website stores on your computer|a virus|a type of bread|a password|1|It remembers your preferences.|M
+M|Excessive screen time can cause|eye strain and poor sleep|stronger eyes|better posture|more height|1|Take breaks.|E
+N|A PIN has 4 digits, each 0 to 9. Find the number of possible PINs.|10000|10⁴ = 10 000.|M|10^4
+N|A password has 4 lowercase letters. Find the number of possible passwords.|456976|26⁴ = 456 976.|H|26^4
+N|A hacker tries 1000 passwords per second. Find the time in seconds to try all 4-digit PINs.|10|10 000 ÷ 1000 = 10.|H|10000/1000
+N|A school receives 400 emails and 25 percent are spam. Find the number of spam emails.|100|400 × 0.25 = 100.|E|400*0.25
+N|A backup of 3 GB is made daily for a week. Find the total in GB.|21|3 × 7 = 21.|E|3*7
+N|An attacker sends 5000 requests per second to a server for 60 seconds. Find the total number of requests.|300000|5000 × 60 = 300 000.|M|5000*60
+N|A person receives 20 phishing emails a month and 5 percent are opened. Find the number opened.|1|20 × 0.05 = 1.|M|20*0.05
+N|A system has 200 computers and 15 percent are infected. Find the number infected.|30|200 × 0.15 = 30.|M|200*0.15
+N|A company loses Rs 50 000 per hour of downtime. Find the loss in rupees for 6 hours.|300000|50 000 × 6 = 300 000.|E|50000*6
+N|A password is changed every 90 days. Find the number of changes in 360 days.|4|360 ÷ 90 = 4.|E|360/90
+S|What is cyber security?|The protection of computers, networks, programs and data from unauthorised access, attack and damage.|It involves technology and good behaviour.|E
+S|What is a digital footprint?|The record of all the data a person leaves when using the Internet, such as posts, searches and online purchases.|It can last for a long time.|E
+S|Name three types of cyber threats.|Malware, phishing and hacking. Ransomware is another.|Each needs a different defence.|E
+S|State four ways to stay safe online.|Use strong passwords and two-factor authentication, keep software updated, avoid clicking on suspicious links and keep personal information private.|Back up important data.|M
+S|What is encryption and why is it used?|Converting data into a coded form so that only people with the key can read it. It protects the privacy of data.|It is used in https and messaging apps.|M
+S|What is netiquette? Give two rules.|Good manners on the Internet. Be respectful and do not use capital letters to shout. Do not share others' private information.|Think before you post.|E
+
+# 8 Emerging Technologies
+M|Artificial intelligence (AI) is|the ability of machines to perform tasks that normally need human intelligence|a type of hardware|a type of cable|a virus|1|Examples are speech recognition and translation.|E
+M|Machine learning is a branch of AI in which|computers learn from data without being explicitly programmed|computers are switched off|humans do all the work|computers use only paper|1|Programs improve with experience.|M
+M|Which of the following uses AI?|A voice assistant on a phone|A paper calendar|A pencil|A ruler|1|It understands speech.|E
+M|A robot is|a machine that can carry out tasks automatically|a type of software only|a type of virus|a monitor|1|It may be programmed or use AI.|E
+M|Robots are used in industry for|repetitive and dangerous jobs|only writing|only cooking|nothing|1|They do the work with accuracy.|E
+M|The Internet of Things (IoT) is|a network of everyday devices connected to the Internet|a type of website|a social network|a program|1|Smart bulbs and watches are examples.|E
+M|Which of the following is an IoT device?|A smart thermostat|A paper book|A wooden chair|A pencil|1|It connects to the Internet.|E
+M|Cloud computing means|using servers on the Internet to store and process data|a type of weather|a type of cable|a type of paper|1|Google Drive is an example.|E
+M|An advantage of cloud storage is that|files can be accessed from anywhere with the Internet|it needs no Internet|it is always free|it cannot be lost|1|It also allows sharing.|E
+M|Big data refers to|extremely large sets of data that need special tools to process|a very large computer|a type of cable|a type of virus|1|It is analysed to find patterns.|M
+M|Blockchain is a technology that|records transactions in linked, secure blocks|is a type of game|is a type of printer|is a virus|1|It is used for cryptocurrencies.|M
+M|A cryptocurrency such as Bitcoin is|a digital currency that uses cryptography|a paper currency|a coin|a credit card|1|It is not issued by a government.|M
+M|Virtual reality (VR) is|a computer-generated environment that a user can experience as if real|a type of television|a type of phone|a type of camera|1|It uses a headset.|E
+M|Augmented reality (AR) is|a technology that adds digital objects to the real world view|a type of virus|a game console only|a type of cable|1|Pokémon Go is an example.|M
+M|5G is|the fifth generation of mobile network technology|a type of phone|a type of computer|a type of cable|1|It offers higher speed and lower delay.|E
+M|3D printing is|making a solid object by adding layers of material|printing on paper only|a type of scanner|a type of monitor|1|It builds an object from a digital model.|E
+M|A drone is|an unmanned aerial vehicle|a type of bird|a type of car|a type of printer|1|It can be controlled remotely.|E
+M|A smart city uses|technology to improve services and quality of life|only old methods|no technology|only paper|1|For example smart traffic lights.|M
+M|Biometric systems identify people using|fingerprints, face or iris|passwords only|names|addresses|1|They use unique body features.|E
+M|A chatbot is|a program that simulates conversation with users|a type of robot with arms|a type of cable|a type of game|1|It is used in customer service.|E
+M|A self-driving car uses|sensors and AI to drive without a human|a steam engine|only a map|a horse|1|Cameras and radar detect the road.|M
+M|Natural language processing allows computers to|understand human language|print paper|cool the CPU|store food|1|It is used in translation and voice assistants.|M
+M|Facial recognition is used for|identifying people from images|only photographing|only printing|cleaning|1|It is used in phones and security.|E
+M|An ethical concern about AI is that it|may cause job losses and bias|always improves everything|never makes mistakes|has no data|1|It needs careful use.|M
+M|An advantage of automation is|higher speed and accuracy|more mistakes|higher cost always|slower work|1|Machines do not tire.|E
+M|A disadvantage of heavy dependence on technology is|loss of jobs and privacy concerns|more free time always|less work for all|no risks|1|There are social issues too.|M
+M|Wearable technology includes|smart watches and fitness bands|bricks|pencils|chairs|1|They track health data.|E
+M|E-learning means|learning using electronic technology and the Internet|learning only in a classroom|learning from papers|learning without a teacher|1|It uses videos and online lessons.|E
+M|E-commerce is|buying and selling goods and services online|a type of printer|a type of hardware|a type of cable|1|Daraz is an example.|E
+M|Digital payments in Pakistan include|Easypaisa and JazzCash|only coins|only barter|only cheques|1|They use mobile phones.|E
+M|Telemedicine allows doctors to|treat patients remotely using technology|only sell medicine|only write books|only clean|1|It helps people in remote areas.|E
+M|Quantum computers use|qubits|only bits|only bytes|only pixels|1|They can handle certain problems much faster.|H
+M|Edge computing processes data|close to where it is produced|only in distant servers|nowhere|only on paper|1|It reduces delay.|H
+M|A digital twin is|a virtual copy of a real object or system|a type of virus|a twin sibling|a type of printer|1|It is used to test and monitor.|H
+M|A smart home might include|lights and doors controlled by a phone|only manual switches|no electricity|only candles|1|It uses IoT devices.|E
+M|A key skill needed for the future is|digital literacy|only memorising|only handwriting|nothing|1|People must be able to use technology wisely.|E
+N|4G has a speed of 100 Mbps and 5G has a speed of 10 000 Mbps. Find how many times faster 5G is.|100|10 000 ÷ 100 = 100.|M|10000/100
+N|A smart home has 20 IoT devices and each sends 2 MB per day. Find the total data in MB per day.|40|20 × 2 = 40.|E|20*2
+N|An AI model identifies 92 of 100 pictures correctly. Find its accuracy in percent.|92|92 ÷ 100 × 100 = 92.|E|92/100*100
+N|A drone flies at 15 m/s. Find the distance in metres covered in 2 minutes.|1800|15 × 120 = 1800.|M|15*120
+N|A 3D printer prints 5 mm of height per hour. Find the number of hours needed for a 60 mm object.|12|60 ÷ 5 = 12.|M|60/5
+N|A robot welds 6 joints per minute. Find the number of joints in 8 hours.|2880|6 × 60 × 8 = 2880.|M|6*60*8
+N|A cloud service charges Rs 200 per GB per month. Find the cost for 15 GB for 3 months.|9000|200 × 15 × 3 = 9000.|M|200*15*3
+N|A chatbot answers 120 questions per hour. Find the number answered in a day of 24 hours.|2880|120 × 24 = 2880.|M|120*24
+N|A sensor sends a reading every 5 seconds. Find the number of readings in one hour.|720|3600 ÷ 5 = 720.|M|3600/5
+N|A video file of 600 MB downloads in 6 seconds over 5G. Find the speed in MB per second.|100|600 ÷ 6 = 100.|M|600/6
+S|Define artificial intelligence and give an example.|The ability of a machine to perform tasks that normally need human intelligence, such as understanding speech. A voice assistant is an example.|Machine learning is a branch of AI.|E
+S|What is the Internet of Things?|A network of everyday objects with sensors and software that are connected to the Internet and can exchange data.|Smart bulbs and watches are examples.|E
+S|Explain cloud computing and state one advantage.|The use of remote servers on the Internet to store, manage and process data instead of a local computer. Data can be accessed from anywhere.|Google Drive is an example.|M
+S|Distinguish between virtual reality and augmented reality.|Virtual reality creates a completely computer-generated environment. Augmented reality adds digital objects to the real-world view.|VR uses a headset.|M
+S|State two advantages and two disadvantages of automation.|Advantages are speed and accuracy. Disadvantages are loss of jobs and the cost of equipment.|Technology must be used wisely.|M
+S|Name three emerging technologies and state one use of each.|Artificial intelligence for voice assistants, drones for photography and 3D printing for making models.|Blockchain and 5G are others.|E

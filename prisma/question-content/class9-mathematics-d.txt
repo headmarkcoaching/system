@@ -1,0 +1,209 @@
+@level Class 9
+@subject Mathematics
+
+# 6 Algebraic Manipulation
+M|The HCF of 12x²y and 18xy² is|6xy|12xy|36x²y²|6x²y²|1|The HCF of 12 and 18 is 6, and the lowest power of each variable is xy.|M
+M|The LCM of 4x and 6x² is|12x²|24x³|2x|12x|1|The LCM of 4 and 6 is 12, and the highest power of x is x².|M
+M|The HCF of two polynomials is the|polynomial of highest degree that divides both exactly|polynomial of lowest degree that both divide|sum of the two polynomials|product of the two polynomials|1|It is the greatest common divisor, the highest-degree expression dividing both.|E
+M|For two polynomials A and B, HCF × LCM equals|A + B|A × B|A ÷ B|A − B|2|The product of the HCF and the LCM equals the product of the two expressions.|M
+M|The HCF of x² − 4 and x² − 2x is|x|x + 2|x − 2|x²|3|x² − 4 = (x − 2)(x + 2) and x² − 2x = x(x − 2). The common factor is x − 2.|M
+M|The LCM of x and x + 1 is|x|x + 1|x(x + 1)|x² + 1|3|They have no common factor, so the LCM is their product.|E
+M|The LCM of x² − 1 and x − 1 is|x − 1|x² − 1|x + 1|(x − 1)²|2|x² − 1 = (x − 1)(x + 1) already contains x − 1, so it is the LCM.|M
+M|The HCF of x² − 9 and x + 3 is|x − 3|x + 3|x² − 9|1|2|x² − 9 = (x − 3)(x + 3), so x + 3 divides both.|M
+M|(x² − 1)/(x − 1), in simplest form, equals|x + 1|x − 1|x² + 1|1|1|Cancel the common factor x − 1 from (x − 1)(x + 1)/(x − 1).|E
+M|(x² − 4)/(x + 2), in simplest form, equals|x − 2|x + 2|x² − 2|2|1|x² − 4 = (x − 2)(x + 2), and x + 2 cancels.|E
+M|1/x + 1/y equals|2/(x + y)|(x + y)/xy|1/(xy)|(x − y)/xy|2|Use the common denominator xy: y/xy + x/xy = (x + y)/xy.|M
+M|(x/y) × (y/z) equals|x/z|xy/z|x/y²z|z/x|1|The y cancels, leaving x/z.|E
+M|(a/b) ÷ (c/d) equals|ac/bd|ad/bc|bc/ad|ab/cd|2|Dividing by a fraction means multiplying by its reciprocal: (a/b)(d/c) = ad/bc.|M
+M|a/c + b/c equals|(a + b)/c|(a + b)/2c|ab/c|(a + b)/c²|1|Fractions with the same denominator add by adding the numerators.|E
+M|An algebraic fraction is defined only when its denominator is|zero|not zero|negative|positive|2|Division by zero is not defined.|E
+M|The fraction x/(x − 2) is not defined when x equals|0|1|2|−2|3|At x = 2 the denominator is zero.|M
+M|A square root of x² + 2x + 1 is|x + 1|x − 1|x² + 1|2x + 1|1|x² + 2x + 1 = (x + 1)², so a square root is x + 1.|M
+M|A square root of a² + 2ab + b² is|a − b|a + b|a² + b²|ab|2|a² + 2ab + b² = (a + b)².|M
+M|A square root of x⁴ is|x|x²|x⁸|2x|2|(x²)² = x⁴.|E
+M|A square root of 9x² is|3x|9x|3x²|x³|1|(3x)² = 9x².|E
+M|One square root of 4x² − 12x + 9 is|2x − 3|2x + 3|4x − 9|x − 3|1|4x² − 12x + 9 = (2x − 3)².|H
+M|The LCM of (x + 1)(x + 2) and (x + 2)(x + 3) is|(x + 1)(x + 2)(x + 3)|(x + 2)|(x + 1)(x + 3)|(x + 1)(x + 2)²(x + 3)|1|Take each distinct factor once, with its highest power.|H
+M|The HCF of (x + 1)(x + 2) and (x + 2)(x + 3) is|x + 2|(x + 1)(x + 3)|(x + 1)(x + 2)(x + 3)|1|1|Only x + 2 is common to both.|M
+M|(x² + 3x + 2)/(x + 1), in simplest form, equals|x + 1|x + 2|x + 3|x + 1/2|2|x² + 3x + 2 = (x + 1)(x + 2), and x + 1 cancels.|M
+M|(x² − 5x + 6)/(x − 2), in simplest form, equals|x − 3|x + 3|x − 2|x + 2|1|x² − 5x + 6 = (x − 2)(x − 3), and x − 2 cancels.|M
+M|2/x + 3/x equals|5/x|5/2x|6/x|5/x²|1|Add the numerators over the common denominator: (2 + 3)/x.|E
+M|1/x − 1/(x + 1) equals|1/(x(x + 1))|1/(x − 1)|0|(x + 1)/x|1|The common denominator is x(x + 1): ((x + 1) − x)/(x(x + 1)) = 1/(x(x + 1)).|H
+M|6x²/3x, in simplest form, equals|2x|3x|2x²|18x³|1|Divide 6 by 3 and x² by x.|E
+M|The LCM of 2x²y and 3xy² is|6x²y²|6xy|5x²y²|x²y²|1|The LCM of 2 and 3 is 6, and the highest powers are x² and y².|M
+M|The HCF of a²b and ab² is|ab|a²b²|a²|b²|1|The lowest power of a is 1 and of b is 1.|M
+M|A fraction is in lowest terms when|the numerator is smaller than the denominator|the numerator and denominator have no common factor except 1|the denominator is 1|the numerator is 0|2|Nothing more can be cancelled when the only common factor is 1.|M
+M|A square root of a⁶ is|a²|a³|a⁶|a¹²|2|(a³)² = a⁶.|M
+M|The reciprocal of x/y is|y/x|−x/y|x/y|xy|1|The reciprocal turns the fraction upside down.|E
+M|(x + y)/(x² − y²), in simplest form, equals|1/(x − y)|1/(x + y)|x − y|x + y|1|x² − y² = (x − y)(x + y), and x + y cancels.|M
+N|Find the value of (x² − 9)/(x − 3) when x = 5.|8|(x² − 9)/(x − 3) = x + 3, and 5 + 3 = 8.|M|5+3
+N|Find the value, at x = 2, of the HCF of x² − 1 and x² + x − 2. The two expressions factorise as (x − 1)(x + 1) and (x − 1)(x + 2).|1|The HCF is x − 1, and at x = 2 it equals 1.|H|2-1
+N|Find the numerical coefficient of the LCM of 8x and 12x².|24|The LCM of 8 and 12 is 24, so the LCM is 24x².|M|24
+N|Find the value of a square root of 25x² when x = 4.|20|A square root is 5x, and 5 × 4 = 20.|E|5*4
+N|Find the value of a square root of 49x² when x = 3.|21|A square root is 7x, and 7 × 3 = 21.|E|7*3
+N|Find the value of (x² + 5x + 6)/(x + 2) when x = 4.|7|x² + 5x + 6 = (x + 2)(x + 3), so the fraction is x + 3, and 4 + 3 = 7.|M|4+3
+N|The HCF of x and x² is x and their LCM is x². Find the value of HCF × LCM when x = 2.|8|HCF × LCM = x × x² = x³, and 2³ = 8.|M|2*2*2
+N|Find the value of (a² − b²)/(a − b) when a = 7 and b = 3.|10|(a² − b²)/(a − b) = a + b = 10.|M|7+3
+N|Find the degree of the LCM of x²y and xy³.|5|The LCM is x²y³, whose degree is 2 + 3 = 5.|M|2+3
+N|Find the value of 1/2 + 1/3 as a fraction in sixths. Give the numerator over 6.|5|1/2 + 1/3 = 3/6 + 2/6 = 5/6, so the numerator is 5.|E|3+2
+S|Define the highest common factor of two polynomials.|The expression of highest degree that divides each of the two polynomials exactly.|For example, the HCF of x² − 4 and x² − 2x is x − 2.|E
+S|Find the HCF of 6x²y and 9xy².|3xy|The HCF of 6 and 9 is 3, and the lowest powers are x and y, giving 3xy.|M
+S|Find the LCM of x² − 1 and x + 1.|x² − 1|x² − 1 = (x − 1)(x + 1) already contains the factor x + 1.|M
+S|Simplify (x² − 16)/(x − 4).|x + 4|x² − 16 = (x − 4)(x + 4), and the common factor x − 4 cancels, for x not equal to 4.|M
+S|Find a square root of x² + 6x + 9.|x + 3|x² + 6x + 9 = x² + 2(x)(3) + 3² = (x + 3)².|M
+S|Simplify 1/(x − 1) + 1/(x + 1).|2x/(x² − 1)|The common denominator is (x − 1)(x + 1) = x² − 1. The numerator is (x + 1) + (x − 1) = 2x.|H
+
+# 7 Linear Equations and Inequalities
+M|A linear equation in one variable is one in which the highest power of the variable is|0|1|2|3|2|Linear means the variable appears only to the first power.|E
+M|The solution of 2x + 5 = 11 is|x = 3|x = 8|x = 6|x = 2|1|2x = 11 − 5 = 6, so x = 3.|E
+M|The solution of 3x − 7 = 8 is|x = 5|x = 1/3|x = 15|x = 3|1|3x = 15, so x = 5.|E
+M|The solution of x/2 = 6 is|x = 3|x = 12|x = 8|x = 4|2|Multiply both sides by 2.|E
+M|The solution of x + 3 = 3 is|x = 6|x = 0|x = 3|x = −3|2|Subtract 3 from both sides.|E
+M|The equation x + 2 = x + 5 has|one solution|two solutions|no solution|infinitely many solutions|3|Subtracting x from both sides gives 2 = 5, which is false, so there is no solution.|H
+M|The solutions of ∣x∣ = 5 are|x = 5 only|x = −5 only|x = 5 or x = −5|no solution|3|The absolute value 5 comes from both 5 and −5.|M
+M|The solution of ∣x∣ = 0 is|x = 0|x = 1|x = −1|no solution|1|Only 0 has an absolute value of 0.|M
+M|The equation ∣x∣ = −3 has|one solution|two solutions|no solution|infinitely many solutions|3|An absolute value cannot be negative.|M
+M|The solutions of ∣x − 2∣ = 3 are|x = 5 or x = −1|x = 5 only|x = −1 only|x = 1 or x = −5|1|x − 2 = 3 gives x = 5, and x − 2 = −3 gives x = −1.|H
+M|The inequality x > 3 is read|x is less than 3|x is greater than 3|x is at least 3|x is equal to 3|2|The symbol > means greater than.|E
+M|If a > b, then a + c is|greater than b + c|less than b + c|equal to b + c|not related to b + c|1|Adding the same number to both sides keeps the inequality.|M
+M|If a > b and c > 0, then|ac > bc|ac < bc|ac = bc|ac = 0|1|Multiplying by a positive number keeps the direction.|M
+M|If a > b and c < 0, then|ac > bc|ac < bc|ac = bc|a + c < b + c|2|Multiplying by a negative number reverses the inequality.|M
+M|When both sides of an inequality are multiplied by a negative number, the inequality sign|stays the same|is reversed|becomes an equals sign|disappears|2|The direction of the inequality must be reversed.|M
+M|The solution of x + 4 > 7 is|x > 3|x > 11|x < 3|x < 11|1|Subtract 4 from both sides.|E
+M|The solution of 2x < 8 is|x < 16|x < 4|x > 4|x < 6|2|Divide both sides by 2.|E
+M|The solution of −x > 2 is|x > −2|x < −2|x > 2|x < 2|2|Multiply by −1 and reverse the sign: x < −2.|H
+M|The inequality x ≥ 2 includes|2 and all numbers greater than 2|only numbers greater than 2|only 2|numbers less than 2|1|The symbol ≥ means greater than or equal to.|E
+M|On a number line, a strict inequality such as x > 2 is shown with|a filled circle at 2|an open circle at 2|no mark at 2|a square at 2|2|An open circle shows that 2 itself is not included.|M
+M|The solution of 3x − 2 ≤ 7 is|x ≤ 3|x ≥ 3|x ≤ 5|x ≤ 9|1|3x ≤ 9, so x ≤ 3.|M
+M|Which integer is a solution of x < 3?|3|4|2|5|3|Only 2 is less than 3 among the choices.|E
+M|The solution of 4x − 3 = 2x + 5 is|x = 1|x = 4|x = 8|x = 2|2|2x = 8, so x = 4.|M
+M|The solution of x/3 + 2 = 5 is|x = 9|x = 3|x = 21|x = 1|1|x/3 = 3, so x = 9.|M
+M|The solution of 2(x − 1) = 8 is|x = 3|x = 5|x = 9|x = 4|2|x − 1 = 4, so x = 5.|M
+M|When a term moves from one side of an equation to the other, its sign|stays the same|changes|becomes zero|doubles|2|Transposing a term reverses its sign.|E
+M|∣x∣ < 2 means|x < 2 only|−2 < x < 2|x > 2 or x < −2|x = 2|2|The distance of x from 0 is less than 2.|H
+M|∣x∣ > 2 means|−2 < x < 2|x > 2 or x < −2|x = 2|x = −2|2|The distance of x from 0 is more than 2, so x is beyond 2 on either side.|H
+M|If x − 5 < 0, then|x < 5|x > 5|x = 5|x < −5|1|Add 5 to both sides.|E
+M|Which of the following is not a linear equation?|x + 1 = 5|x² + 1 = 5|2x = 8|x/2 = 3|2|The term x² makes it quadratic.|E
+M|The equation 0x = 5 has|no solution|one solution|two solutions|infinitely many solutions|1|Zero times any number is 0, never 5.|H
+M|The solution of 5 − 2x = 1 is|x = 2|x = 3|x = −2|x = 6|1|−2x = −4, so x = 2.|M
+M|If 2x + 3 > 3, then|x > 0|x < 0|x > 3|x = 0|1|2x > 0, so x > 0.|M
+N|Solve 7x − 5 = 16. Find x.|3|7x = 21, so x = 3.|E|(16+5)/7
+N|Solve 3(x + 2) = 21. Find x.|5|x + 2 = 7, so x = 5.|E|21/3-2
+N|Solve 5x + 3 = 2x + 15. Find x.|4|3x = 12, so x = 4.|M|12/3
+N|Solve x/4 + 3 = 7. Find x.|16|x/4 = 4, so x = 16.|M|(7-3)*4
+N|Solve ∣2x − 1∣ = 5. Find the positive solution.|3|2x − 1 = 5 gives x = 3. The other equation 2x − 1 = −5 gives x = −2.|H|(5+1)/2
+N|Find the largest integer x that satisfies 2x + 1 < 11.|4|2x < 10, so x < 5. The largest integer less than 5 is 4.|M|5-1
+N|Find the smallest integer x that satisfies 3x − 1 > 8.|4|3x > 9, so x > 3. The smallest integer greater than 3 is 4.|M|3+1
+N|Solve 9 − 4x = −3. Find x.|3|−4x = −12, so x = 3.|M|(9+3)/4
+N|If x = 2 satisfies 3x + k = 11, find k.|5|3(2) + k = 11, so k = 11 − 6 = 5.|M|11-6
+N|Find the sum of all the integers x that satisfy 1 ≤ x ≤ 4.|10|The integers are 1, 2, 3 and 4, and 1 + 2 + 3 + 4 = 10.|E|1+2+3+4
+S|Define a linear equation in one variable.|An equation that can be written as ax + b = 0 where a is not zero, so the variable appears only to the power 1.|An example is 2x + 5 = 11.|E
+S|Solve the inequality 2x + 5 < 11.|x < 3|2x < 6, so x < 3.|M
+S|Solve ∣x + 1∣ = 4.|x = 3 or x = −5|x + 1 = 4 gives x = 3, and x + 1 = −4 gives x = −5.|M
+S|Solve the inequality 3 − 2x ≥ 7.|x ≤ −2|−2x ≥ 4. Dividing by −2 reverses the sign, so x ≤ −2.|H
+S|What happens to the sign of an inequality when both sides are multiplied by a negative number?|The sign is reversed. For example 2 < 3 becomes −4 > −6 after multiplying by −2.|Multiplying by a negative number reverses the order of numbers on the number line.|M
+S|Solve 5(x − 2) = 3x + 4.|x = 7|5x − 10 = 3x + 4, so 2x = 14 and x = 7.|M
+
+# 8 Linear Graphs and Their Applications
+M|The horizontal axis of the Cartesian plane is called the|x-axis|y-axis|origin|quadrant|1|The horizontal axis is the x-axis and the vertical axis is the y-axis.|E
+M|The point where the two axes meet is called the|origin|abscissa|ordinate|quadrant|1|The axes meet at the origin, the point (0, 0).|E
+M|The abscissa of the point (3, −4) is|3|−4|7|−1|1|The abscissa is the x-coordinate.|E
+M|The ordinate of the point (3, −4) is|3|−4|−1|7|2|The ordinate is the y-coordinate.|E
+M|The point (−2, 5) lies in the|first quadrant|second quadrant|third quadrant|fourth quadrant|2|A negative x and positive y place a point in the second quadrant.|E
+M|The point (3, 4) lies in the|first quadrant|second quadrant|third quadrant|fourth quadrant|1|Both coordinates are positive, so it is in the first quadrant.|E
+M|The point (−3, −2) lies in the|first quadrant|second quadrant|third quadrant|fourth quadrant|3|Both coordinates are negative, so it is in the third quadrant.|E
+M|The point (4, −1) lies in the|first quadrant|second quadrant|third quadrant|fourth quadrant|4|A positive x and negative y place a point in the fourth quadrant.|E
+M|Every point on the x-axis has its y-coordinate equal to|0|1|x|−1|1|On the x-axis the height above the axis is zero.|E
+M|Every point on the y-axis has its x-coordinate equal to|0|1|y|−1|1|On the y-axis the distance from the axis is zero.|E
+M|The point (0, 5) lies on the|x-axis|y-axis|first quadrant only|origin|2|The x-coordinate is 0, so the point is on the y-axis.|E
+M|The Cartesian plane has how many quadrants?|2|3|4|8|3|The axes divide the plane into four quadrants.|E
+M|The graph of y = 2x + 1 is|a parabola|a straight line|a circle|a curve|2|An equation of the form y = mx + c has a straight-line graph.|E
+M|The graph of y = x passes through|the origin|the point (0, 1)|the point (1, 0)|no axis|1|When x = 0, y = 0, so it passes through the origin.|M
+M|The smallest number of points needed to draw a straight line is|1|2|3|4|2|Two points determine a line. A third point is used to check.|M
+M|The graph of y = 3 is a line|parallel to the x-axis|parallel to the y-axis|through the origin|with slope 3|1|Every point has y = 3, so it is a horizontal line.|M
+M|The graph of x = 2 is a line|parallel to the x-axis|parallel to the y-axis|through the origin|with slope 2|2|Every point has x = 2, so it is a vertical line.|M
+M|The y-intercept of y = 2x + 5 is|2|5|−5|0|2|Put x = 0: y = 5.|M
+M|The x-intercept of y = 2x − 4 is|2|−4|4|0|1|Put y = 0: 2x = 4, so x = 2.|M
+M|Which point lies on the line y = 2x + 1?|(1, 2)|(1, 3)|(2, 4)|(0, 0)|2|When x = 1, y = 2(1) + 1 = 3.|M
+M|The slope of the line y = 3x − 1 is|3|−1|1|0|1|In y = mx + c the slope is m.|M
+M|The slope of a horizontal line is|0|1|undefined|−1|1|A horizontal line does not rise.|M
+M|On a distance-time graph, a steeper line means|a slower speed|a faster speed|no movement|a longer time|2|Steeper means more distance in less time, which is a greater speed.|M
+M|On a distance-time graph, a horizontal line means the object is|moving fast|moving slowly|at rest|speeding up|3|The distance is not changing as time passes, so the object is at rest.|M
+M|A graph used to change measurements from one unit to another is called a|conversion graph|bar graph|histogram|pie chart|1|A conversion graph lets you read off equivalent values in two units.|E
+M|A point with both coordinates negative lies in the|first quadrant|second quadrant|third quadrant|fourth quadrant|3|The third quadrant has negative x and negative y.|E
+M|The coordinates of the origin are|(1, 1)|(0, 0)|(1, 0)|(0, 1)|2|The origin is at zero on both axes.|E
+M|The points (a, b) and (b, a) are the same point only when|a = b|a = 0|b = 0|a + b = 0|1|The coordinates match only when a and b are equal.|H
+M|The point (−5, 0) lies on the|positive x-axis|negative x-axis|positive y-axis|negative y-axis|2|The y-coordinate is 0 and x is negative, so it is on the negative part of the x-axis.|M
+M|Which point lies on the line y = −x?|(2, −2)|(2, 2)|(−2, −2)|(1, 2)|1|For (2, −2), y = −2 and −x = −2.|M
+M|The slope of the line through (0, 0) and (2, 4) is|2|4|1/2|8|1|Slope = (4 − 0)/(2 − 0) = 2.|M
+M|The equation of the x-axis is|y = 0|x = 0|y = x|x + y = 0|1|Every point on the x-axis has y = 0.|M
+M|The equation of the y-axis is|y = 0|x = 0|y = x|x = 1|2|Every point on the y-axis has x = 0.|M
+M|The lines x = 3 and y = 2 meet at the point|(2, 3)|(3, 2)|(3, 3)|(0, 0)|2|The point must have x = 3 and y = 2.|M
+N|If y = 2x + 3, find y when x = 4.|11|y = 2(4) + 3 = 11.|E|2*4+3
+N|If y = 5x − 2, find y when x = −1.|-7|y = 5(−1) − 2 = −7.|E|5*(-1)-2
+N|Find the slope of the line through (1, 2) and (3, 8).|3|Slope = (8 − 2)/(3 − 1) = 6/2 = 3.|M|(8-2)/(3-1)
+N|Find the x-intercept of the line 3x + 6y = 12.|4|Put y = 0: 3x = 12, so x = 4.|M|12/3
+N|Find the y-intercept of the line 3x + 6y = 12.|2|Put x = 0: 6y = 12, so y = 2.|M|12/6
+N|The point (2, k) lies on the line y = 4x − 1. Find k.|7|k = 4(2) − 1 = 7.|M|4*2-1
+N|A car covers 150 km in 3 hours at a steady speed. Find its speed in km per hour.|50|Speed = distance ÷ time = 150 ÷ 3 = 50.|E|150/3
+N|If y = x/2 + 1, find y when x = 6.|4|y = 6/2 + 1 = 4.|E|6/2+1
+N|Find the slope of the line 2y = 6x + 4.|3|Divide by 2: y = 3x + 2, so the slope is 3.|H|6/2
+N|Find the area of the triangle with corners (0, 0), (4, 0) and (0, 3).|6|Base 4 and height 3 give an area of 4 × 3 ÷ 2 = 6.|M|4*3/2
+S|What are the four quadrants of the Cartesian plane? Describe the signs of the coordinates in each.|First: x positive, y positive. Second: x negative, y positive. Third: x negative, y negative. Fourth: x positive, y negative.|The quadrants are numbered anticlockwise starting from the top right.|M
+S|State the signs of x and y for a point in the second quadrant.|x is negative and y is positive.|The second quadrant lies above the x-axis and to the left of the y-axis.|E
+S|Find where the line y = 2x − 4 crosses the x-axis.|At the point (2, 0).|Put y = 0: 2x − 4 = 0, so x = 2.|M
+S|Describe how to draw the graph of a linear equation.|Find at least two points that satisfy the equation, preferably three, plot them on the Cartesian plane and join them with a straight line.|The third point is a check: it must lie on the same line.|M
+S|Find the slope of the line joining (2, 3) and (4, 7).|2|Slope = (7 − 3)/(4 − 2) = 4/2 = 2.|M
+S|What does a steeper line tell you on a distance-time graph?|The object is moving faster, because it covers more distance in the same time.|The slope of a distance-time graph is the speed.|M
+
+# 9 Basic Statistics
+M|Statistics is the science of|collecting, organising, presenting and analysing data|solving equations only|drawing shapes|measuring angles|1|Statistics deals with data from collection through to interpretation.|E
+M|Data that has been collected but not yet organised is called|raw data|grouped data|a frequency table|a histogram|1|Raw data is the unorganised data as first recorded.|E
+M|The frequency of a value is|the number of times it occurs|its size|the largest value|the total of all values|1|Frequency counts how often an observation appears.|E
+M|The class boundaries of the class 10–19 are|9.5–19.5|10–20|9–19|10.5–19.5|1|Boundaries lie half a unit beyond the limits on each side.|H
+M|The mid-point of the class 10–20 is|10|15|20|30|2|The mid-point is (10 + 20) ÷ 2 = 15.|E
+M|The mean of 2, 4 and 6 is|3|4|5|6|2|(2 + 4 + 6) ÷ 3 = 12 ÷ 3 = 4.|E
+M|For an odd number of values arranged in order, the median is|the middle value|the average of all values|the most frequent value|the largest value|1|The median is the central value of the ordered data.|E
+M|The mode of a set of data is|the average|the middle value|the most frequent value|the largest value|3|The mode is the value that occurs most often.|E
+M|The range of a set of data is|highest value − lowest value|highest value + lowest value|the mean − the mode|the number of values|1|The range measures the spread from the smallest to the largest value.|E
+M|A histogram is used to show|a continuous frequency distribution|the order of events|a single value|categories with no numbers|1|A histogram uses touching bars for classes of continuous data.|M
+M|A bar chart is best used for|categorical or discrete data|continuous data only|angles|a single number|1|Bar charts compare separate categories with gaps between the bars.|M
+M|The central angle of a sector in a pie chart is|(value ÷ total) × 360°|(value ÷ total) × 180°|value × 360°|total ÷ value|1|Each sector's angle is its share of the total times 360°.|M
+M|The sum of the central angles in a pie chart is|90°|180°|270°|360°|4|The sectors fill a whole circle.|E
+M|The mean of n values with total Σx is|Σx × n|Σx ÷ n|n ÷ Σx|Σx − n|2|The mean is the sum of the values divided by their number.|E
+M|The median of 3, 5, 7 and 9 is|5|6|7|8|2|With an even count, take the mean of the two middle values: (5 + 7) ÷ 2 = 6.|M
+M|The mode of 2, 3, 3, 4, 5, 3 is|2|3|4|5|2|The value 3 occurs three times, more than any other.|E
+M|A data set with two modes is called|unimodal|bimodal|zero-modal|trimodal|2|Bi means two, so it is bimodal.|M
+M|Cumulative frequency is|a running total of frequencies|the largest frequency|the mean frequency|the frequency of the mode|1|Each cumulative frequency adds the current class to all the classes before it.|M
+M|A frequency polygon is drawn by joining|the mid-points of the tops of the bars|the corners of the bars|the bottoms of the bars|the class boundaries|1|The mid-points of the top of each bar are joined by straight lines.|H
+M|The mean of 5 numbers is 10. Their sum is|15|50|2|10|2|The sum = mean × number of values = 10 × 5 = 50.|M
+M|If every value in a data set is increased by 2, the mean|stays the same|increases by 2|doubles|decreases by 2|2|Adding 2 to every value adds 2 to the average.|H
+M|Before finding the median, the data must be|added|arranged in order|doubled|grouped in fives|2|The median is the middle value of the ordered list.|E
+M|For an even number of ordered values, the median is|the larger middle value|the smaller middle value|the mean of the two middle values|their product|3|Take the average of the two central values.|M
+M|Tally marks are usually grouped in|twos|threes|fives|tens|3|Four strokes crossed by a fifth make a group of five, which is easy to count.|E
+M|The colour of students' eyes is an example of|qualitative data|quantitative data|continuous data|discrete numerical data|1|Colours are descriptions, not numbers, so the data is qualitative.|M
+M|The heights of students are an example of|qualitative data|quantitative data|categorical data|nominal data|2|Heights are measured numbers, so the data is quantitative.|M
+M|The total of all the frequencies in a frequency table equals|the mean|the number of observations|the range|the mode|2|Each observation is counted exactly once.|M
+M|Which measure of average is most affected by an extreme value?|mean|median|mode|none of these|1|A very large or very small value pulls the mean towards it.|H
+M|The range of 4, 9, 2 and 15 is|11|13|15|30|2|The range is 15 − 2 = 13.|E
+M|The mean of the first five natural numbers is|2|3|4|5|2|(1 + 2 + 3 + 4 + 5) ÷ 5 = 15 ÷ 5 = 3.|E
+M|The class mark of a class is|the average of its lower and upper limits|the frequency of the class|its width|its lower limit|1|The class mark is the mid-point of the class.|M
+M|The class width of the class 20–29 followed by 30–39 is|9|10|11|20|2|The classes start 10 apart, so the width is 10.|H
+M|Data listed value by value, without grouping into classes, is called|ungrouped data|grouped data|a histogram|a polygon|1|Ungrouped data is each individual observation listed on its own.|E
+M|A pie chart is best used to show|how a whole is divided into parts|change over time|a continuous distribution|the range|1|The sectors show each part's share of the whole.|M
+N|Find the mean of 4, 8, 12, 16 and 20.|12|The sum is 60 and 60 ÷ 5 = 12.|E|(4+8+12+16+20)/5
+N|Find the median of 3, 9, 5, 7 and 1.|5|In order the values are 1, 3, 5, 7, 9. The middle one is 5.|E|5
+N|Find the mode of 4, 5, 5, 6, 7, 5 and 8.|5|The value 5 occurs three times, more than any other.|E|5
+N|Find the range of 12, 7, 25 and 3.|22|The range is 25 − 3 = 22.|E|25-3
+N|Find the mean of 10, 20, 30 and 40.|25|The sum is 100 and 100 ÷ 4 = 25.|E|100/4
+N|Find the median of 2, 4, 6 and 10.|5|With four values, the median is the mean of the middle two: (4 + 6) ÷ 2 = 5.|M|(4+6)/2
+N|The sum of 8 values is 72. Find their mean.|9|72 ÷ 8 = 9.|E|72/8
+N|In a pie chart, find the central angle for 25 percent of the total.|90|25 percent of 360° is 90°.|M|0.25*360
+N|In a class of 200 students, 40 prefer cricket. Find the central angle of the cricket sector in a pie chart, in degrees.|72|(40 ÷ 200) × 360° = 72°.|M|40/200*360
+N|The mean of 3, 5, x and 9 is 6. Find x.|7|The sum must be 6 × 4 = 24. So 3 + 5 + x + 9 = 24, giving x = 7.|H|24-17
+S|Define the arithmetic mean.|The sum of all the values divided by the number of values.|For example the mean of 2, 3, 5, 7, 8 is 25 ÷ 5 = 5.|E
+S|Find the median of 7, 3, 9, 5 and 11.|7|In order: 3, 5, 7, 9, 11. The middle value is 7.|E
+S|Define the mode and give an example.|The value that occurs most often. In 2, 3, 3, 4 the mode is 3.|A data set may have no mode, one mode or more than one mode.|E
+S|Find the mean of 2, 3, 5, 7 and 8.|5|The sum is 25 and 25 ÷ 5 = 5.|E
+S|What is a histogram?|A graph of a continuous frequency distribution, with touching bars whose heights show the frequencies of the classes.|The bars touch because the classes follow on from one another without gaps.|M
+S|Find the mid-point of the class 20–30.|25|(20 + 30) ÷ 2 = 25.|E

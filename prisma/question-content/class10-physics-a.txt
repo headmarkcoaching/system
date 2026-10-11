@@ -1,0 +1,160 @@
+@level Class 10
+@subject Physics
+
+# 1 Simple Harmonic Motion and Waves
+M|In simple harmonic motion the acceleration of the body is|proportional to its displacement and directed towards the mean position|constant|zero at all times|directed away from the mean position|1|SHM satisfies a = −ω²x, which is proportional to displacement and opposite to it.|M
+M|The SI unit of the time period of an oscillation is the|hertz|second|metre|newton|2|The time period is the time for one complete oscillation, in seconds.|E
+M|The SI unit of frequency is the|second|hertz|metre|joule|2|One hertz is one oscillation per second.|E
+M|The frequency f and the time period T are related by|f = 1/T|f = T|f = T²|f = 2T|1|Frequency is the reciprocal of the time period.|E
+M|The amplitude of an oscillation is|the maximum displacement from the mean position|the distance between two crests|the time for one oscillation|the number of oscillations per second|1|It is the largest distance from the mean position.|E
+M|The time period of a simple pendulum is|2π√(l/g)|2π√(g/l)|2π√(lg)|π√(l/g)|1|T = 2π√(l/g).|M
+M|The time period of a simple pendulum depends on|its length and the value of g|the mass of the bob|the amplitude|the material of the bob|1|It does not depend on the mass or, for small angles, on the amplitude.|M
+M|The time period of a mass m on a spring of constant k is|2π√(m/k)|2π√(k/m)|2π√(mk)|2π m/k|1|T = 2π√(m/k).|M
+M|A wave transfers|energy without transferring matter|matter without energy|neither energy nor matter|both matter and energy|1|The medium's particles only oscillate about their positions.|E
+M|In a transverse wave, the particles of the medium vibrate|perpendicular to the direction of the wave|parallel to the direction of the wave|in circles only|not at all|1|Water waves and light waves are transverse.|E
+M|In a longitudinal wave, the particles of the medium vibrate|perpendicular to the direction of the wave|parallel to the direction of the wave|in circles|not at all|2|Sound waves are longitudinal.|E
+M|Sound waves in air are|longitudinal waves|transverse waves|electromagnetic waves|surface waves only|1|The air molecules vibrate along the direction of travel.|E
+M|The wavelength of a wave is the|distance between two consecutive crests or compressions|time for one oscillation|height of a crest|speed of the wave|1|It is the length of one complete wave.|E
+M|The wave equation is|v = fλ|v = f/λ|v = λ/f|v = fλ²|1|Speed = frequency × wavelength.|E
+M|A longitudinal wave consists of|compressions and rarefactions|crests and troughs|only crests|only troughs|1|Regions of high and low pressure alternate.|E
+M|The highest point of a transverse wave is called a|crest|trough|node|compression|1|The lowest point is a trough.|E
+M|Mechanical waves|need a material medium|can travel through a vacuum|need no medium|are always transverse|1|Sound and water waves need a medium.|M
+M|Electromagnetic waves|can travel through a vacuum|need a material medium|are always longitudinal|cannot carry energy|1|Light is an electromagnetic wave.|M
+M|The bouncing back of a wave from a surface is called|reflection|refraction|diffraction|interference|1|Reflection is the return of a wave from a barrier.|E
+M|The change in the speed and direction of a wave on passing from one medium to another is called|reflection|refraction|diffraction|interference|2|This is refraction.|M
+M|The bending of waves around the edges of an obstacle or aperture is called|reflection|refraction|diffraction|polarisation|3|Diffraction is the spreading of waves.|M
+M|The superposition of two or more waves is called|interference|diffraction|reflection|refraction|1|Waves add together where they meet.|M
+M|A ripple tank is used to study|water waves|sound waves|light rays|magnetic fields|1|It shows reflection, refraction and diffraction of water waves.|M
+M|The speed of a wave depends on|the medium through which it travels|its amplitude|its colour|the source of the wave only|1|The medium decides the speed.|M
+M|When a wave passes from one medium into another, its frequency|stays the same|doubles|halves|becomes zero|1|The frequency is fixed by the source.|H
+M|At the same speed, a wave with a longer wavelength has|a lower frequency|a higher frequency|the same frequency|no frequency|1|v = fλ, so f = v/λ.|M
+M|At the mean position, the speed of the bob of a simple pendulum is|maximum|zero|half the maximum|infinite|1|All the energy is kinetic there.|M
+M|At the extreme position, the speed of the bob of a pendulum is|zero|maximum|infinite|half the maximum|1|The bob momentarily stops.|M
+M|The gradual decrease in the amplitude of an oscillation caused by friction is called|damping|resonance|interference|diffraction|1|Energy is lost as heat.|M
+M|One complete oscillation of a pendulum is|a movement from one extreme to the other and back|a movement from one extreme to the mean position|half a period|one quarter of a period|1|It returns to the starting position with the same motion.|M
+M|If the length of a simple pendulum is increased, its time period|increases|decreases|stays the same|becomes zero|1|T is proportional to √l.|M
+N|The time period of an oscillation is 0.5 s. Find the frequency in hertz.|2|f = 1/T = 1 ÷ 0.5 = 2.|E|1/0.5
+N|The frequency of an oscillation is 50 Hz. Find the time period in seconds.|0.02|T = 1/f = 1 ÷ 50 = 0.02.|E|1/50
+N|A wave has a frequency of 5 Hz and a wavelength of 2 m. Find its speed in m/s.|10|v = fλ = 5 × 2 = 10.|E|5*2
+N|Sound has a speed of 340 m/s and a frequency of 170 Hz. Find its wavelength in metres.|2|λ = v/f = 340 ÷ 170 = 2.|M|340/170
+N|Find the time period in seconds of a simple pendulum of length 1 m. Take g = 9.8 m/s² and π = 3.1416, correct to two decimal places.|2.01|T = 2π√(1/9.8) = 2.01.|H|2*3.1416*Math.sqrt(1/9.8)
+N|Find the time period in seconds of a simple pendulum of length 0.25 m. Take g = 10 m/s² and π = 3.1416, correct to two decimal places.|0.99|T = 2π√(0.25/10) = 0.99.|H|2*3.1416*Math.sqrt(0.25/10)
+N|A body makes 30 oscillations in 60 s. Find its frequency in hertz.|0.5|f = 30 ÷ 60 = 0.5.|E|30/60
+N|A wave has a frequency of 4 Hz and a speed of 8 m/s. Find its wavelength in metres.|2|λ = 8 ÷ 4 = 2.|M|8/4
+N|A mass of 1 kg hangs on a spring of constant 100 N/m. Find its time period in seconds, taking π = 3.1416 and correct to two decimal places.|0.63|T = 2π√(1/100) = 0.63.|H|2*3.1416*Math.sqrt(1/100)
+N|50 oscillations take 25 s. Find the time period in seconds.|0.5|T = 25 ÷ 50 = 0.5.|E|25/50
+N|A wave has wavelength 0.2 m and frequency 1500 Hz. Find its speed in m/s.|300|v = 0.2 × 1500 = 300.|M|0.2*1500
+N|A body in SHM has an amplitude of 5 cm. Find the total distance it covers in one complete oscillation in cm.|20|One oscillation covers 4 times the amplitude: 4 × 5 = 20.|M|4*5
+N|A radio wave of speed 3 × 10⁸ m/s has a wavelength of 300 m. Find its frequency in hertz.|1000000|f = v/λ = 3 × 10⁸ ÷ 300 = 10⁶.|H|3e8/300
+N|A pendulum has a time period of 1 s. Its length is made four times as long. Find the new time period in seconds.|2|T is proportional to √l, so it becomes 1 × √4 = 2.|H|1*Math.sqrt(4)
+S|Define simple harmonic motion.|A to-and-fro motion in which the acceleration is directly proportional to the displacement from the mean position and is directed towards it.|A pendulum and a spring are examples.|M
+S|Define amplitude, time period and frequency.|Amplitude is the maximum displacement from the mean position. Time period is the time for one oscillation. Frequency is the number of oscillations per second.|f = 1/T.|E
+S|State the difference between transverse and longitudinal waves.|In a transverse wave the particles vibrate at right angles to the direction of the wave. In a longitudinal wave they vibrate parallel to it.|Light is transverse and sound is longitudinal.|M
+S|State the wave equation.|v = fλ, where v is the speed, f the frequency and λ the wavelength.|It holds for all waves.|E
+S|Define wavelength.|The distance between two consecutive crests, or two consecutive compressions, of a wave.|It is the length of one complete wave.|E
+S|Name three properties of waves that can be shown in a ripple tank.|Reflection, refraction and diffraction.|Interference can also be shown.|M
+
+# 2 Sound
+M|Sound is produced by|vibrating bodies|stationary bodies|light|heat only|1|Every sound comes from something vibrating.|E
+M|Sound needs a medium to travel because it is a|mechanical wave|electromagnetic wave|light wave|radio wave|1|It cannot travel through a vacuum.|E
+M|Sound travels fastest in|solids|liquids|gases|a vacuum|1|The particles are closest together in solids.|M
+M|The speed of sound in air at room temperature is about|34 m/s|340 m/s|3400 m/s|3 × 10⁸ m/s|2|It is about 340 m/s.|E
+M|The speed of sound in air|increases as the temperature rises|decreases as the temperature rises|does not depend on temperature|is zero|1|The molecules move faster in warm air.|M
+M|The speed of sound in water is about|340 m/s|1500 m/s|15 m/s|3 × 10⁸ m/s|2|Sound travels about 1500 m/s in water.|M
+M|An echo is produced by|reflection of sound|refraction of sound|diffraction of sound|absorption of sound|1|Sound bounces off a hard surface.|E
+M|To hear a distinct echo, the reflecting surface must be at least|about 17 m away|1 m away|100 m away|5 m away|1|The echo must arrive at least 0.1 s after the original sound.|M
+M|The pitch of a sound depends on its|frequency|amplitude|speed|quality|1|A higher frequency gives a higher pitch.|E
+M|The loudness of a sound depends on its|amplitude|frequency|speed|wavelength|1|A larger amplitude gives a louder sound.|E
+M|The quality or timbre of a sound lets us|tell the sources apart even at the same pitch and loudness|measure its speed|hear it better|reflect it|1|Different instruments produce different waveforms.|M
+M|The audible range of a normal human ear is about|20 Hz to 20 000 Hz|2 Hz to 20 Hz|20 000 Hz to 200 000 Hz|200 Hz to 2000 Hz|1|Frequencies from 20 Hz to 20 kHz can be heard.|E
+M|Sound waves with frequencies above 20 000 Hz are called|ultrasonic waves|infrasonic waves|audible waves|radio waves|1|They are above the human hearing range.|E
+M|Sound waves with frequencies below 20 Hz are called|ultrasonic waves|infrasonic waves|audible waves|radio waves|2|They are below the human hearing range.|E
+M|Ultrasound is used in|medical scanning|cooking|generating power|heating|1|It images the inside of the body.|E
+M|The SI unit of the intensity level of sound commonly used is the|decibel|hertz|newton|pascal|1|Sound level is measured in decibels.|M
+M|Unwanted sound is called|noise|music|echo|pitch|1|Noise is unpleasant or unwanted sound.|E
+M|Sound travels as|compressions and rarefactions|crests and troughs|rays|particles|1|It is a longitudinal wave.|E
+M|The speed of sound in a vacuum is|340 m/s|0 m/s|1500 m/s|3 × 10⁸ m/s|2|Sound cannot travel in a vacuum.|M
+M|The relation between the speed, frequency and wavelength of sound is|v = fλ|v = f/λ|v = λ/f|v = f + λ|1|This is the wave equation.|E
+M|A sound of higher pitch has|a higher frequency|a lower frequency|a larger wavelength|a lower speed|1|Pitch increases with frequency.|E
+M|A sound of larger amplitude is|louder|higher in pitch|lower in pitch|slower|1|Loudness increases with amplitude.|E
+M|Bats use ultrasound to|locate objects|see in colour|cook food|breathe|1|They emit ultrasound and detect its echo.|M
+M|SONAR is used to find|the depth of the sea|the temperature of the sea|the direction of the wind|the colour of the sea|1|It uses ultrasonic echoes.|M
+M|The reflection of sound is used in|a stethoscope|a bulb|a battery|a fuse|1|A stethoscope guides sound waves along a tube.|H
+M|Soft materials such as curtains|absorb sound|reflect sound strongly|amplify sound|make sound faster|1|They reduce echo in a hall.|M
+M|The sound of a thunderclap is heard after the lightning flash because|light travels much faster than sound|sound is quicker|lightning is silent|light is slower|1|Light travels at 3 × 10⁸ m/s, which is far faster.|E
+M|Sound travels slowest in|gases|liquids|solids|metals|1|The particles in gases are far apart.|E
+M|A tuning fork produces a sound of|one definite frequency|many frequencies|no frequency|infinite frequency|1|It vibrates at its natural frequency.|M
+M|Which of the following can travel through a vacuum?|Light|Sound|Water waves|Waves on a rope|1|Light is an electromagnetic wave, so it needs no medium.|E
+N|Sound travels at 340 m/s. Find the distance in metres covered in 3 s.|1020|Distance = 340 × 3 = 1020.|E|340*3
+N|A sound takes 2 s to travel to a cliff and back. Taking the speed of sound as 340 m/s, find the distance of the cliff in metres.|340|The sound travels 680 m in total, so the cliff is 340 m away.|M|340*2/2
+N|A ship sends an ultrasonic pulse to the sea bed and receives the echo after 4 s. Taking the speed of sound in water as 1500 m/s, find the depth in metres.|3000|Depth = 1500 × 4 ÷ 2 = 3000.|M|1500*4/2
+N|A sound has a frequency of 340 Hz and a speed of 340 m/s. Find its wavelength in metres.|1|λ = 340 ÷ 340 = 1.|E|340/340
+N|A wave of frequency 1000 Hz has a wavelength of 0.34 m. Find its speed in m/s.|340|v = fλ = 1000 × 0.34 = 340.|E|1000*0.34
+N|A man hears an echo 0.5 s after he claps. Taking 340 m/s, find the distance of the reflecting wall in metres.|85|Distance = 340 × 0.5 ÷ 2 = 85.|M|340*0.5/2
+N|Lightning is seen and thunder is heard 3 s later. Taking the speed of sound as 340 m/s, find the distance of the lightning in metres.|1020|Distance = 340 × 3 = 1020.|E|340*3
+N|The wavelength of a sound of frequency 20 Hz in air at 340 m/s is found by v/f. Find it in metres.|17|λ = 340 ÷ 20 = 17.|M|340/20
+N|The wavelength of a sound of frequency 20 000 Hz in air at 340 m/s is found by v/f. Find it in metres.|0.017|λ = 340 ÷ 20 000 = 0.017.|M|340/20000
+N|Sound travels 1500 m in water in 1 s. Find its speed in km/s.|1.5|1500 m = 1.5 km, so the speed is 1.5 km/s.|E|1500/1000
+N|A sound wave has a period of 0.002 s. Find its frequency in hertz.|500|f = 1 ÷ 0.002 = 500.|M|1/0.002
+N|An echo returns after 0.2 s. Find the minimum distance of the wall in metres, taking 340 m/s.|34|Distance = 340 × 0.2 ÷ 2 = 34.|M|340*0.2/2
+N|A source sends 2000 waves in 5 s. Find its frequency in hertz.|400|f = 2000 ÷ 5 = 400.|M|2000/5
+N|A sound wave of frequency 500 Hz has a wavelength of 0.68 m. Find its speed in m/s.|340|v = 500 × 0.68 = 340.|M|500*0.68
+S|What is sound and how is it produced?|Sound is a longitudinal mechanical wave produced by a vibrating body and carried by a material medium.|It needs a medium and cannot travel through a vacuum.|E
+S|What is an echo?|The sound heard after it is reflected from a hard surface, such as a wall or a cliff.|The reflecting surface must be at least about 17 m away for a distinct echo.|E
+S|Define the pitch of a sound.|The characteristic of a sound that depends on its frequency. A higher frequency gives a higher pitch.|It lets us tell shrill sounds from deep ones.|E
+S|Define the loudness of a sound.|The characteristic of a sound that depends on its amplitude. A larger amplitude gives a louder sound.|It is measured in decibels.|E
+S|What are ultrasonic waves? Give one use.|Sound waves of frequency above 20 000 Hz. They are used in medical scanning.|They are also used in SONAR.|M
+S|State the audible range of human hearing.|About 20 Hz to 20 000 Hz.|Below this the sound is infrasonic and above it ultrasonic.|E
+
+# 3 Geometrical Optics
+M|The law of reflection states that the angle of incidence is|equal to the angle of reflection|greater than the angle of reflection|less than the angle of reflection|90°|1|The angle of incidence equals the angle of reflection.|E
+M|The image formed by a plane mirror is|virtual and of the same size as the object|real and inverted|real and magnified|virtual and magnified|1|It appears behind the mirror, laterally inverted.|E
+M|A concave mirror is also called a|converging mirror|diverging mirror|plane mirror|prism|1|It brings parallel rays to a focus.|E
+M|A convex mirror is also called a|converging mirror|diverging mirror|plane mirror|lens|2|It spreads parallel rays out.|E
+M|The focal length of a spherical mirror is|half of the radius of curvature|equal to the radius of curvature|twice the radius of curvature|zero|1|f = R/2.|M
+M|Refraction of light is the|change in the direction of light as it passes from one medium to another|bouncing of light|bending around obstacles|splitting of light|1|It occurs because the speed of light changes.|E
+M|The refractive index of a medium is|speed of light in vacuum ÷ speed of light in the medium|speed in the medium ÷ speed in vacuum|sin r ÷ sin i for vacuum only|always 1|1|n = c/v.|M
+M|Snell's law states that, for light going from medium 1 to medium 2,|sin i / sin r is constant|i/r is constant|sin i × sin r is constant|i + r is constant|1|n = sin i / sin r.|M
+M|When a ray goes from air into glass, it bends|towards the normal|away from the normal|along the normal|not at all|1|Glass is optically denser.|M
+M|Total internal reflection occurs when light goes from|a denser to a rarer medium at an angle greater than the critical angle|a rarer to a denser medium|air to glass|any medium at any angle|1|The ray is reflected back into the denser medium.|M
+M|The critical angle is the angle of incidence in the denser medium for which the angle of refraction is|90°|0°|45°|60°|1|The refracted ray grazes the surface.|M
+M|Optical fibres work on the principle of|total internal reflection|refraction only|diffraction|polarisation|1|Light is trapped inside the fibre.|M
+M|A convex lens is also called a|converging lens|diverging lens|plane lens|prism|1|It brings parallel rays to a focus.|E
+M|A concave lens is also called a|converging lens|diverging lens|plane lens|mirror|2|It spreads parallel rays out.|E
+M|The lens formula is|1/f = 1/p + 1/q|f = p + q|f = pq|1/f = p + q|1|1/f = 1/p + 1/q, where p is the object distance and q the image distance.|M
+M|The magnification of a lens is|image height ÷ object height|object height ÷ image height|image distance × object distance|f ÷ p|1|m = h′/h = q/p.|M
+M|The power of a lens is|1/f, with f in metres|f in metres|f²|2f|1|P = 1/f.|M
+M|The SI unit of the power of a lens is the|dioptre|watt|newton|hertz|1|The dioptre is one per metre.|M
+M|The power of a convex lens is|positive|negative|zero|infinite|1|A converging lens has a positive power.|M
+M|The power of a concave lens is|positive|negative|zero|infinite|2|A diverging lens has a negative power.|M
+M|A person who cannot see distant objects clearly has|hypermetropia|myopia|astigmatism|no defect|2|That is short sight (myopia). Distant objects blur.|M
+M|Myopia is corrected with a|concave lens|convex lens|plane mirror|prism|1|A diverging lens moves the image back onto the retina.|M
+M|Hypermetropia is corrected with a|concave lens|convex lens|plane mirror|prism|2|A converging lens brings the image forward onto the retina.|M
+M|The image on the retina of the human eye is|real and inverted|virtual and erect|real and erect|virtual and inverted|1|The brain interprets it as upright.|M
+M|The part of the eye that controls the amount of light entering is the|iris|retina|cornea|lens|1|The iris adjusts the size of the pupil.|E
+M|A simple microscope is a|convex lens of short focal length|concave lens|plane mirror|prism|1|It gives a magnified virtual image.|M
+M|A magnifying glass is a|convex lens|concave lens|plane mirror|prism|1|It gives an enlarged virtual image.|E
+M|The image formed by a concave lens is always|virtual, erect and diminished|real and inverted|real and magnified|virtual and magnified|1|It cannot form a real image.|H
+M|The speed of light in vacuum is about|3 × 10⁸ m/s|3 × 10⁶ m/s|340 m/s|3 × 10¹⁰ m/s|1|c ≈ 3 × 10⁸ m/s.|E
+M|The refractive index of air is about|1|1.5|0|2|1|The speed of light in air is nearly the same as in vacuum.|M
+M|The refractive index of glass is about|1|1.5|3|0.5|2|Typical glass has n ≈ 1.5.|M
+N|A convex lens has focal length 10 cm. An object is 30 cm from it. Find the image distance in cm using 1/f = 1/p + 1/q.|15|1/q = 1/10 − 1/30 = 2/30, so q = 15.|H|1/(1/10-1/30)
+N|A convex lens has focal length 20 cm. An object is 40 cm from it. Find the image distance in cm.|40|1/q = 1/20 − 1/40 = 1/40, so q = 40.|H|1/(1/20-1/40)
+N|Find the power in dioptres of a convex lens of focal length 50 cm.|2|P = 1/f = 1 ÷ 0.5 = 2.|M|1/0.5
+N|Find the power in dioptres of a lens of focal length 25 cm.|4|P = 1 ÷ 0.25 = 4.|M|1/0.25
+N|A lens has a power of 5 dioptres. Find its focal length in cm.|20|f = 1/5 m = 20 cm.|M|100/5
+N|An object 4 cm high gives an image 12 cm high. Find the magnification.|3|m = 12 ÷ 4 = 3.|E|12/4
+N|An object is 20 cm from a lens and its image is 40 cm from it. Find the magnification.|2|m = q/p = 40 ÷ 20 = 2.|M|40/20
+N|The speed of light in glass is 2 × 10⁸ m/s and in vacuum it is 3 × 10⁸ m/s. Find the refractive index of the glass.|1.5|n = 3 × 10⁸ ÷ 2 × 10⁸ = 1.5.|M|3e8/2e8
+N|Light is incident on glass with sin i = 0.75 and sin r = 0.5. Find the refractive index.|1.5|n = 0.75 ÷ 0.5 = 1.5.|M|0.75/0.5
+N|A concave mirror has a radius of curvature of 40 cm. Find its focal length in cm.|20|f = R/2 = 20.|E|40/2
+N|The angle of incidence of a ray on a plane mirror is 35°. Find the angle of reflection in degrees.|35|The angle of reflection equals the angle of incidence.|E|35
+N|A convex lens has focal length 15 cm. An object is 30 cm away. Find the image distance in cm.|30|1/q = 1/15 − 1/30 = 1/30, so q = 30.|H|1/(1/15-1/30)
+N|A 5 cm tall object is 30 cm from a lens and the image is 15 cm from it. Find the image height in cm.|2.5|m = q/p = 0.5, so the height is 5 × 0.5 = 2.5.|H|5*15/30
+N|A myopic eye needs a lens of power −2 dioptres. Find the focal length in cm of the lens.|-50|f = 1/P = −0.5 m = −50 cm.|H|100/(-2)
+S|State the laws of reflection of light.|The angle of incidence equals the angle of reflection, and the incident ray, the reflected ray and the normal all lie in the same plane.|They hold for all reflecting surfaces.|E
+S|State Snell's law of refraction.|The ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant for a given pair of media, sin i / sin r = n.|n is the refractive index.|M
+S|Define total internal reflection.|The complete reflection of light inside a denser medium when it meets the boundary with a rarer medium at an angle of incidence greater than the critical angle.|It is used in optical fibres.|M
+S|Define the power of a lens.|The reciprocal of its focal length in metres, P = 1/f. Its unit is the dioptre.|A convex lens has a positive power and a concave lens a negative power.|M
+S|Name two defects of vision and how each is corrected.|Short sight (myopia) is corrected by a concave lens. Long sight (hypermetropia) is corrected by a convex lens.|The lens shifts the image onto the retina.|M
+S|Define the critical angle.|The angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°.|Beyond it, total internal reflection occurs.|M

@@ -1,0 +1,159 @@
+@level Class 9
+@subject Physics
+
+# 1 Physical Quantities and Measurement
+M|A physical quantity is any quantity that|can be measured|cannot be measured|is always a number only|has no unit|1|A physical quantity is something that can be measured, such as length or time.|E
+M|How many base quantities are there in the SI system?|3|5|7|9|3|The SI system has seven base quantities.|E
+M|The SI unit of length is the|centimetre|metre|kilometre|foot|2|The metre is the SI unit of length.|E
+M|The SI unit of mass is the|gram|kilogram|tonne|pound|2|The kilogram is the SI unit of mass.|E
+M|The SI unit of time is the|minute|hour|second|day|3|The second is the SI unit of time.|E
+M|The SI unit of temperature is the|degree Celsius|kelvin|degree Fahrenheit|calorie|2|The kelvin is the SI unit of temperature.|E
+M|The SI unit of electric current is the|volt|ampere|ohm|watt|2|The ampere is the SI unit of electric current.|E
+M|The SI unit of amount of substance is the|gram|mole|litre|kilogram|2|The mole measures the amount of substance.|M
+M|The SI unit of luminous intensity is the|lumen|candela|lux|watt|2|The candela measures luminous intensity.|M
+M|Which of the following is a derived quantity?|Length|Mass|Velocity|Time|3|Velocity is length divided by time, so it is derived from base quantities.|E
+M|The SI unit of area is|m|m²|m³|kg|2|Area is length × length.|E
+M|The SI unit of volume is|m|m²|m³|litre only|3|Volume is length × length × length.|E
+M|The SI unit of density is|kg|kg/m³|m³/kg|N/m|2|Density is mass divided by volume.|M
+M|The prefix kilo stands for|10³|10⁻³|10⁶|10⁻⁶|1|1 kilo = 1000.|E
+M|The prefix milli stands for|10³|10⁻³|10⁶|10⁻⁶|2|1 milli = one thousandth.|E
+M|The prefix micro stands for|10⁶|10⁻⁶|10⁻³|10⁻⁹|2|1 micro = one millionth.|M
+M|The prefix mega stands for|10³|10⁶|10⁹|10¹²|2|1 mega = one million.|E
+M|The prefix centi stands for|10⁻¹|10⁻²|10⁻³|10²|2|1 centi = one hundredth.|E
+M|The prefix nano stands for|10⁻⁶|10⁻⁹|10⁻¹²|10⁹|2|1 nano = one billionth.|M
+M|The prefix giga stands for|10³|10⁶|10⁹|10¹²|3|1 giga = 10⁹.|M
+M|The least count of an ordinary metre rule is|1 mm|1 cm|0.1 mm|0.01 mm|1|The smallest division on a metre rule is 1 mm.|E
+M|The least count of a vernier calliper is usually|1 mm|0.1 mm|0.01 mm|1 cm|2|A typical vernier calliper has a least count of 0.1 mm.|M
+M|The least count of a screw gauge is usually|1 mm|0.1 mm|0.01 mm|1 cm|3|A typical screw gauge has a least count of 0.01 mm.|M
+M|The most suitable instrument for measuring the diameter of a thin wire is a|metre rule|screw gauge|measuring tape|stopwatch|2|A screw gauge measures small thicknesses very precisely.|M
+M|A measuring cylinder is used to measure the|volume of a liquid|mass|time|temperature|1|It is graduated in millilitres or cubic centimetres.|E
+M|A stopwatch is used to measure|time|length|mass|volume|1|It measures intervals of time.|E
+M|Zero error in an instrument is present when|the reading is not zero when it should be zero|the instrument is broken|the reading is always large|it has no scale|1|For example a screw gauge that reads something when its jaws are closed.|M
+M|The number of significant figures in 0.0450 is|2|3|4|5|2|The leading zeros do not count. The significant figures are 4, 5 and 0.|H
+M|The number of significant figures in 3.06 is|2|3|4|1|2|All three digits count, because the zero lies between non-zero digits.|M
+M|The number 0.00056 in scientific notation is|5.6 × 10⁻⁴|5.6 × 10⁴|56 × 10⁻⁵|0.56 × 10⁻³|1|Move the decimal point four places to the right: 5.6 × 10⁻⁴.|M
+M|The unit of speed in the SI system is|km/h|m/s|cm/s|mile/h|2|Speed is distance divided by time, in metres per second.|E
+N|Convert 3.5 km to metres.|3500|1 km = 1000 m, so 3.5 × 1000 = 3500.|E|3.5*1000
+N|Convert 250 cm to metres.|2.5|1 m = 100 cm, so 250 ÷ 100 = 2.5.|E|250/100
+N|Convert 5 kg to grams.|5000|1 kg = 1000 g, so 5 × 1000 = 5000.|E|5*1000
+N|Convert 2 hours to seconds.|7200|2 × 60 × 60 = 7200.|E|2*3600
+N|Convert 72 km/h to m/s.|20|72 × 1000 ÷ 3600 = 20.|M|72*1000/3600
+N|Convert 2.5 litres to cm³ (1 litre = 1000 cm³).|2500|2.5 × 1000 = 2500.|E|2.5*1000
+N|Find the volume in cm³ of a cube of side 3 cm.|27|3 × 3 × 3 = 27.|E|3*3*3
+N|A block has a mass of 500 kg and a volume of 2 m³. Find its density in kg/m³.|250|Density = 500 ÷ 2 = 250.|M|500/2
+N|Find the area in m² of a rectangle 4 m long and 2.5 m wide.|10|4 × 2.5 = 10.|E|4*2.5
+N|Convert 25 °C to kelvin (K = °C + 273).|298|25 + 273 = 298.|E|25+273
+N|On a vernier calliper, 1 main-scale division is 1 mm and 10 vernier divisions equal 9 mm. Find the least count in mm.|0.1|Least count = 1 − 0.9 = 0.1 mm.|H|1-0.9
+N|A screw gauge has a pitch of 1 mm and 100 divisions on its circular scale. Find the least count in mm.|0.01|Least count = pitch ÷ divisions = 1 ÷ 100 = 0.01 mm.|H|1/100
+N|A pendulum makes 20 oscillations in 40 s. Find its time period in seconds.|2|Time period = 40 ÷ 20 = 2 s.|M|40/20
+N|A vernier calliper has a zero error of +0.02 cm and gives a reading of 3.45 cm. Find the corrected reading in cm.|3.43|Corrected reading = 3.45 − 0.02 = 3.43 cm.|H|3.45-0.02
+S|Define a base quantity and give two examples.|A quantity that is not defined in terms of other quantities. Examples are length and mass.|The SI system has seven base quantities.|E
+S|Define a derived quantity and give two examples.|A quantity obtained from base quantities. Examples are area and velocity.|Area is length × length and velocity is length ÷ time.|E
+S|Define the least count of an instrument.|The smallest reading that the instrument can measure.|A vernier calliper has a least count of 0.1 mm.|E
+S|What are significant figures?|The digits in a measurement that are known with certainty, plus one estimated digit.|They show the precision of a measurement.|M
+S|What is meant by zero error and how is it corrected?|Zero error is a non-zero reading when the instrument should read zero. It is corrected by subtracting it from, or adding it to, every reading.|A positive zero error is subtracted and a negative one is added.|M
+S|Write the SI units of mass, time and temperature.|Mass: kilogram (kg). Time: second (s). Temperature: kelvin (K).|These are three of the seven SI base units.|E
+
+# 2 Kinematics
+M|Distance is a|scalar quantity|vector quantity|unit|force|1|Distance has magnitude only.|E
+M|Displacement is a|scalar quantity|vector quantity|unit|speed|2|Displacement has both magnitude and direction.|E
+M|Speed is defined as|distance ÷ time|displacement ÷ time|time ÷ distance|force ÷ time|1|Speed is the distance covered per unit time.|E
+M|Velocity is defined as|distance ÷ time|displacement ÷ time|speed × time|force × time|2|Velocity is the displacement per unit time.|E
+M|Acceleration is defined as|the rate of change of displacement|the rate of change of velocity|the rate of change of distance|speed ÷ distance|2|Acceleration = change in velocity ÷ time taken.|E
+M|The SI unit of velocity is|m|m/s|m/s²|km/h|2|Velocity is measured in metres per second.|E
+M|The SI unit of acceleration is|m/s|m/s²|m²/s|m|2|Acceleration is measured in metres per second squared.|E
+M|A body moves with uniform velocity if it covers|equal distances in equal times in a straight line|different distances in equal times|equal distances in different times|no distance|1|Uniform velocity means constant speed in a fixed direction.|M
+M|A negative acceleration is also called|retardation|velocity|inertia|momentum|1|A body that is slowing down has a retardation.|M
+M|The slope of a distance-time graph gives|acceleration|speed|force|momentum|2|Slope = change in distance ÷ change in time.|M
+M|The slope of a velocity-time graph gives|speed|acceleration|distance|force|2|Slope = change in velocity ÷ change in time.|M
+M|The area under a velocity-time graph gives|acceleration|distance travelled|force|mass|2|Area = velocity × time = distance.|M
+M|A horizontal line on a distance-time graph shows that the body is|moving with uniform speed|at rest|accelerating|retarding|2|The distance does not change with time.|M
+M|A straight sloping line on a velocity-time graph shows|uniform acceleration|uniform velocity|rest|retardation always|1|The velocity changes by equal amounts in equal times.|M
+M|A horizontal line on a velocity-time graph shows|uniform acceleration|uniform velocity|rest|zero velocity|2|The velocity does not change.|M
+M|The first equation of motion is|v = u + at|s = ut + ½at²|v² = u² + 2as|s = vt|1|v = u + at gives the final velocity.|E
+M|The second equation of motion is|v = u + at|s = ut + ½at²|v² = u² + 2as|v = s/t|2|s = ut + ½at² gives the distance covered.|E
+M|The third equation of motion is|v = u + at|s = ut + ½at²|v² = u² + 2as|v = s/t|3|v² = u² + 2as links velocity and distance.|E
+M|A body starting from rest has an initial velocity of|zero|1 m/s|g|infinite|1|At rest the initial velocity u = 0.|E
+M|The acceleration due to gravity near the Earth's surface is about|1 m/s²|9.8 m/s²|98 m/s²|0.98 m/s²|2|g ≈ 9.8 m/s², often taken as 10 m/s².|E
+M|In the absence of air, all freely falling bodies have|the same acceleration|a larger acceleration if heavier|zero acceleration|a smaller acceleration if heavier|1|They all fall with the acceleration due to gravity.|M
+M|Average speed equals|total distance ÷ total time|total displacement ÷ total time|distance × time|speed ÷ time|1|It is the total distance divided by the total time taken.|E
+M|A body moving in a circle at constant speed has|constant velocity|changing velocity|zero acceleration|zero speed|2|The direction changes continuously, so the velocity changes.|H
+M|A car goes once round a circular track and returns to its start. Its displacement is|the length of the track|zero|half the track|twice the track|2|The start and end points are the same.|M
+M|Which of the following is a vector quantity?|Speed|Distance|Velocity|Time|3|Velocity has magnitude and direction.|E
+M|Which of the following is a scalar quantity?|Velocity|Displacement|Speed|Acceleration|3|Speed has magnitude only.|E
+M|The velocity of a ball at the highest point of its vertical flight is|maximum|zero|equal to g|infinite|2|The ball stops momentarily before it falls.|M
+M|A body is thrown vertically upwards. Its acceleration during the whole flight is|zero at the top|g, directed downwards|g, directed upwards on the way up|varying|2|Gravity acts downwards throughout.|H
+M|Uniform acceleration means the velocity changes by|equal amounts in equal times|different amounts in equal times|the same amount in different times|no amount|1|The rate of change of velocity is constant.|M
+M|A body is dropped from rest. After 1 second, taking g = 10 m/s², its velocity is|5 m/s|10 m/s|20 m/s|0 m/s|2|v = gt = 10 × 1 = 10.|M
+N|A body starts from rest with an acceleration of 2 m/s². Find its velocity after 5 s in m/s.|10|v = u + at = 0 + 2 × 5 = 10.|E|2*5
+N|A body starts from rest with an acceleration of 2 m/s². Find the distance it covers in 5 s in metres.|25|s = ½at² = ½ × 2 × 25 = 25.|M|0.5*2*25
+N|A body has an initial velocity of 10 m/s and accelerates at 2 m/s² for 4 s. Find its final velocity in m/s.|18|v = 10 + 2 × 4 = 18.|E|10+2*4
+N|A body goes from rest to 20 m/s in 4 s. Find its acceleration in m/s².|5|a = (20 − 0) ÷ 4 = 5.|E|20/4
+N|A body starts from rest with a = 5 m/s². Find its velocity after covering 10 m in m/s.|10|v² = 2as = 2 × 5 × 10 = 100, so v = 10.|M|Math.sqrt(2*5*10)
+N|A car covers 120 km in 2 hours. Find its average speed in km/h.|60|120 ÷ 2 = 60.|E|120/2
+N|Convert the speed 54 km/h to m/s.|15|54 × 1000 ÷ 3600 = 15.|M|54*1000/3600
+N|A car slows from 20 m/s to rest in 5 s. Find its acceleration in m/s².|-4|a = (0 − 20) ÷ 5 = −4.|M|(0-20)/5
+N|A car moving at 20 m/s is brought to rest with a deceleration of 4 m/s². Find the stopping distance in metres.|50|s = u²/(2a) = 400 ÷ 8 = 50.|H|20*20/(2*4)
+N|A stone falls freely from rest for 3 s. Taking g = 10 m/s², find its speed in m/s.|30|v = gt = 10 × 3 = 30.|M|10*3
+N|A stone falls freely from rest for 3 s. Taking g = 10 m/s², find the distance fallen in metres.|45|s = ½gt² = ½ × 10 × 9 = 45.|M|0.5*10*9
+N|A stone dropped from a tower takes 2 s to reach the ground. Taking g = 10 m/s², find the height of the tower in metres.|20|h = ½gt² = ½ × 10 × 4 = 20.|M|0.5*10*4
+N|A body moves at a constant 10 m/s for 6 s. Find the distance covered, which equals the area under the velocity-time graph, in metres.|60|Area = 10 × 6 = 60.|E|10*6
+N|A body has an initial velocity of 5 m/s and accelerates at 3 m/s² for 2 s. Find the distance covered in metres.|16|s = ut + ½at² = 10 + 6 = 16.|H|5*2+0.5*3*4
+S|State the difference between distance and displacement.|Distance is the total length of the path travelled and is a scalar. Displacement is the shortest straight-line distance from the starting point to the end point in a given direction and is a vector.|A round trip has a non-zero distance but zero displacement.|M
+S|Define acceleration.|The rate of change of velocity, equal to the change in velocity divided by the time taken.|Its SI unit is m/s².|E
+S|State the three equations of motion for uniform acceleration.|v = u + at, s = ut + ½at² and v² = u² + 2as.|Here u is the initial velocity, v the final velocity, a the acceleration, t the time and s the distance.|M
+S|What does the slope of a velocity-time graph give?|The acceleration of the body.|A steeper line means a larger acceleration.|E
+S|Define uniform velocity.|Motion in which a body covers equal distances in equal intervals of time in a fixed direction.|Both its speed and direction stay constant.|E
+S|Define free fall.|The motion of a body falling under gravity alone, with no air resistance.|All freely falling bodies have the same acceleration g.|E
+
+# 3 Dynamics
+M|Newton's first law of motion is also called the law of|inertia|acceleration|action and reaction|gravitation|1|A body stays at rest or in uniform motion unless acted on by a force.|E
+M|The inertia of a body depends on its|mass|colour|shape|temperature|1|The larger the mass, the larger the inertia.|E
+M|Newton's second law gives|F = ma|F = mg|F = mv|F = m/a|1|Force equals mass times acceleration.|E
+M|The SI unit of force is the|joule|newton|watt|pascal|2|The newton is the SI unit of force.|E
+M|One newton is equal to|1 kg m/s|1 kg m/s²|1 kg m²/s²|1 g m/s²|2|F = ma, so 1 N = 1 kg × 1 m/s².|M
+M|Momentum is defined as|mass × velocity|mass × acceleration|force × time|mass ÷ velocity|1|p = mv.|E
+M|The SI unit of momentum is|kg m/s|kg m/s²|N s²|J|1|Momentum is mass times velocity.|M
+M|Newton's third law states that|every action has an equal and opposite reaction|force equals mass times acceleration|a body stays at rest|force is a vector|1|Action and reaction are equal in size and opposite in direction.|E
+M|Action and reaction forces act on|the same body|different bodies|the ground only|no body|2|They act on two different bodies, so they do not cancel.|M
+M|The force of friction always|opposes motion|helps motion|acts at right angles to motion|is zero|1|Friction opposes the relative motion of surfaces.|E
+M|Friction depends on|the nature of the surfaces in contact|the colour of the surfaces|the temperature only|the area only|1|Rougher surfaces produce more friction.|M
+M|Limiting friction is|greater than kinetic friction|less than kinetic friction|zero|always equal to weight|1|The force needed to start motion is greater than the force needed to keep it going.|M
+M|The coefficient of friction μ is given by|F/R|R/F|F × R|F + R|1|μ = friction force ÷ normal reaction.|M
+M|Rolling friction is generally|less than sliding friction|more than sliding friction|equal to sliding friction|zero|1|This is why wheels and ball bearings reduce friction.|M
+M|Lubricants are used to|reduce friction|increase friction|increase weight|increase speed only|1|They form a film between surfaces.|E
+M|The law of conservation of momentum states that, if no external force acts,|total momentum is constant|total energy is zero|velocity is constant|mass changes|1|Momentum before a collision equals momentum after it.|M
+M|The working of a rocket is explained by|Newton's third law|Newton's first law|Ohm's law|Boyle's law|1|The exhaust gases are pushed back and the rocket is pushed forward.|M
+M|A centripetal force is directed|towards the centre of the circle|away from the centre|along the tangent|along the radius outward|1|It pulls a body towards the centre of its circular path.|M
+M|The centripetal force on a mass m moving with speed v in a circle of radius r is|mv²/r|mvr|mr/v²|m/vr|1|F = mv²/r.|M
+M|The weight of a body of mass m is|mg|m/g|g/m|m + g|1|W = mg.|E
+M|The mass of a body|is the same everywhere|is greater on the Moon|is zero in space|changes with height|1|Mass is the amount of matter and does not change.|E
+M|Passengers in a bus jerk forward when it brakes suddenly because of|inertia|friction|gravity|weight|1|Their bodies tend to keep moving forward.|E
+M|If the net force on a body is zero, the body|moves with constant velocity or stays at rest|accelerates|loses mass|stops always|1|By the first law, zero net force means no change in motion.|M
+M|Impulse is equal to|change in momentum|change in velocity|force ÷ time|mass × acceleration|1|Impulse = F × t = change in momentum.|H
+M|For the same mass, a larger force produces|a larger acceleration|a smaller acceleration|no acceleration|a constant velocity|1|a = F/m.|E
+M|For the same force, a larger mass has|a smaller acceleration|a larger acceleration|the same acceleration|no inertia|1|a = F/m.|E
+M|A body is in equilibrium when|the net force on it is zero|it moves faster|it has no mass|friction is zero|1|All the forces balance.|M
+M|Friction is useful when|walking on a road|an engine runs|a ball rolls on ice|a ship moves|1|Without friction we could not grip the ground.|E
+M|Friction between surfaces produces|heat|light|sound only|nothing|1|Rubbing converts kinetic energy into heat.|M
+M|The normal reaction acts|perpendicular to the surface|parallel to the surface|along the motion|upwards always|1|It is the force the surface exerts at right angles to itself.|M
+N|A force acts on a mass of 5 kg and produces an acceleration of 2 m/s². Find the force in newtons.|10|F = ma = 5 × 2 = 10.|E|5*2
+N|A force of 20 N acts on a mass of 4 kg. Find the acceleration in m/s².|5|a = F/m = 20 ÷ 4 = 5.|E|20/4
+N|Find the momentum in kg m/s of a body of mass 3 kg moving at 4 m/s.|12|p = mv = 3 × 4 = 12.|E|3*4
+N|Taking g = 10 m/s², find the weight in newtons of a body of mass 10 kg.|100|W = mg = 10 × 10 = 100.|E|10*10
+N|A force of 6 N acts on a mass of 2 kg. Find the acceleration in m/s².|3|a = 6 ÷ 2 = 3.|E|6/2
+N|A force of 10 N acts for 3 s. Find the impulse in N s.|30|Impulse = F × t = 10 × 3 = 30.|M|10*3
+N|A body of mass 2 kg changes its velocity from 3 m/s to 8 m/s. Find the change in momentum in kg m/s.|10|Change = 2 × (8 − 3) = 10.|M|2*(8-3)
+N|A 2 kg trolley moving at 6 m/s collides with a 4 kg trolley at rest and they stick together. Find their common velocity in m/s.|2|By conservation of momentum 2 × 6 = (2 + 4)v, so v = 2.|H|2*6/(2+4)
+N|A friction force of 20 N acts when the normal reaction is 50 N. Find the coefficient of friction.|0.4|μ = F/R = 20 ÷ 50 = 0.4.|M|20/50
+N|The coefficient of friction is 0.3 and the normal reaction is 100 N. Find the friction force in newtons.|30|F = μR = 0.3 × 100 = 30.|M|0.3*100
+N|A 2 kg mass moves in a circle of radius 8 m at 4 m/s. Find the centripetal force in newtons.|4|F = mv²/r = 2 × 16 ÷ 8 = 4.|H|2*4*4/8
+N|A bullet of mass 0.02 kg is fired at 300 m/s from a gun of mass 3 kg. Find the recoil velocity of the gun in m/s.|2|The momenta are equal: 3v = 0.02 × 300, so v = 2.|H|0.02*300/3
+N|A force stops a car of mass 1000 kg moving at 20 m/s in 5 s. Find the force in newtons.|4000|F = change in momentum ÷ time = 1000 × 20 ÷ 5 = 4000.|H|1000*20/5
+N|On the Moon g = 1.6 m/s². Find the weight in newtons of a 60 kg person there.|96|W = mg = 60 × 1.6 = 96.|M|60*1.6
+S|State Newton's first law of motion.|A body stays at rest, or keeps moving with constant velocity in a straight line, unless an unbalanced force acts on it.|It is also called the law of inertia.|E
+S|State Newton's second law of motion.|The acceleration of a body is directly proportional to the net force acting on it and inversely proportional to its mass, so F = ma.|The acceleration is in the direction of the force.|M
+S|State Newton's third law of motion.|To every action there is an equal and opposite reaction.|The two forces act on different bodies.|E
+S|Define momentum.|The product of the mass and the velocity of a body, p = mv.|Its SI unit is kg m/s.|E
+S|Define friction.|The force that opposes the relative motion between two surfaces in contact.|It depends on the nature of the surfaces and the normal reaction.|E
+S|State the law of conservation of momentum.|When no external force acts on a system, the total momentum before a collision equals the total momentum after it.|It follows from Newton's third law.|M

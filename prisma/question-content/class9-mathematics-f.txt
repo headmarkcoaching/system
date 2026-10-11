@@ -1,0 +1,223 @@
+@level Class 9
+@subject Mathematics
+
+# 15 Ratio and Proportion
+M|The ratio of 6 to 9 in its lowest terms is|2 : 3|3 : 2|6 : 9|1 : 3|1|Divide both by 3 to get 2 : 3.|E
+M|The ratio 15 : 25 in its lowest terms is|5 : 3|3 : 5|15 : 5|1 : 5|2|Divide both by 5 to get 3 : 5.|E
+M|Four quantities a, b, c, d are in proportion if|a/b = c/d|a + b = c + d|a − b = c − d|ab = cd|1|A proportion states that two ratios are equal.|E
+M|If a : b = c : d, then|ad = bc|ab = cd|ac = bd|a + d = b + c|1|The product of the extremes equals the product of the means.|M
+M|If a : b = c : d, then a : c = b : d. This property is called|invertendo|alternando|componendo|dividendo|2|Alternando interchanges the means.|M
+M|If a : b = c : d, then b : a = d : c. This property is called|invertendo|alternando|componendo|dividendo|1|Invertendo inverts both ratios.|M
+M|If a/b = c/d, then (a + b)/b = (c + d)/d. This property is called|invertendo|alternando|componendo|dividendo|3|Componendo adds the denominator to the numerator on both sides.|M
+M|If a/b = c/d, then (a − b)/b = (c − d)/d. This property is called|invertendo|alternando|componendo|dividendo|4|Dividendo subtracts the denominator from the numerator on both sides.|M
+M|The mean proportional between 4 and 9 is|5|6|6.5|36|2|The mean proportional is √(4 × 9) = 6.|M
+M|The third proportional to 4 and 6 is|8|9|10|12|2|4 : 6 = 6 : x gives x = 36 ÷ 4 = 9.|M
+M|If x : 4 = 9 : 12, then x equals|3|4|9|12|1|x = 4 × 9 ÷ 12 = 3.|M
+M|The fourth proportional to 2, 3 and 4 is|5|6|7|8|2|2 : 3 = 4 : x gives x = 3 × 4 ÷ 2 = 6.|M
+M|The ratio of Rs 50 to Rs 200 is|1 : 2|1 : 4|4 : 1|2 : 1|2|50 : 200 = 1 : 4.|E
+M|Three quantities a, b, c are in continued proportion if|a : b = b : c|a + b = c|a = b = c|a : b = c : a|1|In a continued proportion the middle term is the mean proportional.|M
+M|If a/b = c/d = k, then a equals|bk|b/k|k/b|b + k|1|From a/b = k we get a = bk.|M
+M|A ratio compares two quantities that are|of the same kind|of different kinds|always whole numbers|always equal|1|You can only form a ratio of quantities measured in the same units.|E
+M|The ratio 1 : 2 is equal to|2 : 4|2 : 1|1 : 4|4 : 2|1|Multiplying both by 2 gives 2 : 4.|E
+M|The basic proportionality theorem states that a line parallel to one side of a triangle|divides the other two sides in the same ratio|is equal to the third side|bisects the angle|is perpendicular to the base|1|A line parallel to one side cuts the other two sides proportionally.|M
+M|In ΔABC, D is on AB and E is on AC with DE parallel to BC. Then|AD/DB = AE/EC|AD/AB = EC/AC|AD = AE|DE = BC|1|This follows from the basic proportionality theorem.|M
+M|In ΔABC with DE parallel to BC, AD = 2, DB = 4 and AE = 3. Then EC equals|4|5|6|9|3|AD/DB = AE/EC gives 2/4 = 3/EC, so EC = 6.|H
+M|If a : b = b : c, then b is the|mean proportional between a and c|third proportional|fourth proportional|sum of a and c|1|b² = ac.|M
+M|If a : b = 3 : 4 and b : c = 4 : 5, then a : c equals|3 : 5|4 : 5|3 : 4|5 : 3|1|The b terms match, so a : c = 3 : 5.|M
+M|If a/b = c/d, then (a + c)/(b + d) equals|a/b|b/a|ab/cd|0|1|When two ratios are equal, adding numerators and denominators gives the same ratio.|H
+M|The ratio of 1 hour to 30 minutes is|1 : 30|2 : 1|1 : 2|30 : 1|2|1 hour is 60 minutes, so the ratio is 60 : 30 = 2 : 1.|M
+M|If 2 : 3 = x : 12, then x equals|6|8|9|18|2|x = 2 × 12 ÷ 3 = 8.|M
+M|Rs 15 is divided in the ratio 2 : 3. The smaller part is|Rs 3|Rs 6|Rs 9|Rs 10|2|Each part is worth 15 ÷ 5 = 3, so the smaller is 2 × 3 = 6.|M
+M|The ratio of 2 m to 50 cm is|2 : 50|4 : 1|1 : 4|1 : 25|2|2 m is 200 cm, so the ratio is 200 : 50 = 4 : 1.|H
+M|If a : b = 2 : 3, then|3a = 2b|2a = 3b|a = b|a + b = 5|1|The cross products are equal: 3a = 2b.|M
+M|The mean proportional between 5 and 20 is|10|12.5|15|25|1|√(5 × 20) = √100 = 10.|M
+M|Compounding the ratios 2 : 3 and 3 : 4 gives|1 : 2|6 : 12|2 : 4|3 : 4|1|(2 × 3) : (3 × 4) = 6 : 12 = 1 : 2.|H
+M|Which four numbers are in proportion?|2, 4, 6, 12|2, 4, 6, 10|1, 2, 3, 5|3, 4, 5, 6|1|2/4 = 6/12, because both equal 1/2.|M
+M|A ratio can be written as|a fraction|a decimal only|a percentage only|a negative number|1|The ratio a : b can be written as the fraction a/b.|E
+M|The ratio of 0.5 to 2 is|1 : 4|4 : 1|1 : 2|2 : 1|1|0.5 ÷ 2 = 1/4.|M
+M|If 3 pens cost Rs 45, the number of pens and the cost are in|direct proportion|inverse proportion|no proportion|continued proportion only|1|More pens cost proportionally more.|M
+M|If a/b = c/d, then the product of the means is|bc|ad|ab|cd|1|In a : b = c : d the means are b and c.|M
+M|In a : b = c : d, the first and the last terms a and d are called the|means|extremes|ratios|constants|2|The outer terms are the extremes and the inner terms are the means.|M
+M|If two ratios are equal, they are said to be|in proportion|reciprocal|continued|unequal|1|A statement that two ratios are equal is a proportion.|E
+M|Doubling the first term of a ratio a : b without changing b gives the ratio|2a : b|a : 2b|a : b|a + 2 : b|1|The first term becomes 2a.|M
+N|If 3 : x = 6 : 10, find x.|5|3 × 10 = 6x, so x = 30 ÷ 6 = 5.|M|3*10/6
+N|Find the mean proportional between 9 and 16.|12|The mean proportional is √(9 × 16) = √144 = 12.|M|Math.sqrt(9*16)
+N|Find the third proportional to 3 and 6.|12|3 : 6 = 6 : x gives x = 36 ÷ 3 = 12.|M|6*6/3
+N|Find the fourth proportional to 3, 5 and 9.|15|3 : 5 = 9 : x gives x = 5 × 9 ÷ 3 = 15.|M|5*9/3
+N|Divide 120 in the ratio 3 : 5. Find the larger part.|75|Each part is 120 ÷ 8 = 15, so the larger is 5 × 15 = 75.|M|120*5/8
+N|If a : b = 2 : 3 and b = 12, find a.|8|a = 12 × 2 ÷ 3 = 8.|M|12*2/3
+N|In ΔABC, DE is parallel to BC with D on AB and E on AC. If AD = 4, DB = 6 and EC = 9, find AE.|6|AD/DB = AE/EC gives 4/6 = AE/9, so AE = 6.|H|4*9/6
+N|The angles of a triangle are in the ratio 1 : 2 : 3. Find the largest angle in degrees.|90|Each part is 180 ÷ 6 = 30, so the largest is 3 × 30 = 90.|M|180*3/6
+N|If x/4 = 15/20, find x.|3|x = 4 × 15 ÷ 20 = 3.|M|4*15/20
+N|The sum of two numbers is 60 and they are in the ratio 5 : 7. Find the larger number.|35|Each part is 60 ÷ 12 = 5, so the larger is 7 × 5 = 35.|M|60*7/12
+S|Define a ratio.|A comparison of two quantities of the same kind by division, written a : b or a/b.|For example the ratio of 6 cm to 9 cm is 2 : 3.|E
+S|Define a proportion.|A statement that two ratios are equal, a : b = c : d.|The terms a and d are the extremes and b and c are the means.|E
+S|State the property of componendo.|If a/b = c/d, then (a + b)/b = (c + d)/d.|The denominator is added to the numerator on both sides.|M
+S|Find the mean proportional between 4 and 25.|10|The mean proportional is √(4 × 25) = √100 = 10.|M
+S|State the basic proportionality theorem.|A line drawn parallel to one side of a triangle divides the other two sides in the same ratio.|If DE is parallel to BC then AD/DB = AE/EC.|M
+S|Find x in 4 : x = 12 : 15.|x = 5|Cross multiply: 12x = 4 × 15 = 60, so x = 5.|M
+
+# 16 Pythagoras' Theorem
+M|Pythagoras' theorem states that in a right-angled triangle|the square on the hypotenuse equals the sum of the squares on the other two sides|the hypotenuse equals the sum of the other two sides|the sum of the angles is 90°|the legs are equal|1|If c is the hypotenuse then a² + b² = c².|E
+M|The hypotenuse of a right-angled triangle is the|side opposite the right angle|shortest side|side adjacent to the right angle|altitude|1|It is the side facing the right angle.|E
+M|Which of the following is a Pythagorean triplet?|3, 4, 5|3, 4, 6|2, 3, 4|4, 5, 7|1|3² + 4² = 9 + 16 = 25 = 5².|E
+M|Which set of lengths can be the sides of a right triangle with hypotenuse 13?|5, 12, 13|5, 12, 14|6, 8, 11|7, 8, 9|1|5² + 12² = 25 + 144 = 169 = 13².|E
+M|The hypotenuse of a right triangle with legs 6 and 8 is|10|12|14|9|1|√(36 + 64) = √100 = 10.|E
+M|Which set of three numbers satisfies a² + b² = c² with c the largest, among the choices below?|8, 15, 17|8, 15, 16|9, 12, 16|10, 12, 15|1|64 + 225 = 289 = 17².|M
+M|Which of these sets of lengths forms a right-angled triangle?|7, 24, 25|7, 24, 26|8, 24, 25|9, 24, 25|1|49 + 576 = 625 = 25².|M
+M|The converse of Pythagoras' theorem says that if a² + b² = c², the triangle is|right-angled|equilateral|isosceles|obtuse|1|The angle opposite the side c is a right angle.|M
+M|Is a triangle with sides 6, 8 and 11 right-angled?|Yes|No|Only if isosceles|Cannot be decided|2|6² + 8² = 100, but 11² = 121, so it is not.|M
+M|In a triangle with longest side c, if c² > a² + b² the triangle is|acute|right-angled|obtuse|equilateral|3|The largest angle exceeds 90°.|H
+M|In a triangle with longest side c, if c² < a² + b² the triangle is|acute|right-angled|obtuse|degenerate|1|All angles are less than 90°.|H
+M|The diagonal of a rectangle measuring 3 by 4 is|5|7|6|25|1|√(9 + 16) = 5.|E
+M|The diagonal of a square of side 1 is|1|√2|2|√3|2|√(1 + 1) = √2.|M
+M|The diagonal of a square of side a is|a|a√2|2a|a²|2|√(a² + a²) = a√2.|M
+M|Which set is a multiple of the 3, 4, 5 triplet?|6, 8, 10|5, 7, 9|4, 6, 8|3, 5, 7|1|Doubling 3, 4, 5 gives 6, 8, 10.|M
+M|Which of the following is not a Pythagorean triplet?|3, 4, 5|5, 12, 13|4, 5, 6|6, 8, 10|3|4² + 5² = 41, but 6² = 36.|M
+M|A 10 m ladder has its foot 6 m from a wall. How high up the wall does it reach?|4 m|8 m|12 m|16 m|2|The height is √(100 − 36) = √64 = 8 m.|M
+M|The altitude of an equilateral triangle of side 2 is|1|√3|2|√2|2|The altitude splits the base into 1 and 1, so the height is √(4 − 1) = √3.|H
+M|The hypotenuse of a right isosceles triangle with legs 1 is|1|√2|2|√3|2|√(1 + 1) = √2.|M
+M|Are 9, 12 and 15 the sides of a right triangle?|Yes|No|Only if isosceles|Cannot be decided|1|81 + 144 = 225 = 15².|M
+M|The hypotenuse of a right triangle with legs 5 and 12 is|13|17|15|169|1|√(25 + 144) = 13.|E
+M|A right triangle has hypotenuse 13 and one leg 5. The other leg is|8|12|18|10|2|√(169 − 25) = √144 = 12.|M
+M|Are 2, 3 and 4 the sides of a right triangle?|Yes|No|Only if scalene|Cannot be decided|2|4 + 9 = 13, but 4² = 16.|M
+M|Pythagoras' theorem applies to|right-angled triangles only|all triangles|isosceles triangles only|equilateral triangles only|1|The relation a² + b² = c² holds only when the angle between a and b is 90°.|E
+M|Which is the smallest Pythagorean triplet?|3, 4, 5|1, 1, 2|2, 3, 4|5, 12, 13|1|3, 4 and 5 is the smallest set of whole numbers satisfying a² + b² = c².|M
+M|The longest side of a right triangle is the|hypotenuse|altitude|base|median|1|The hypotenuse is opposite the largest angle.|E
+M|A triangle with sides 1, 1 and √2 is|a right isosceles triangle|equilateral|obtuse|scalene right-angled|1|1² + 1² = (√2)², and two sides are equal.|M
+M|Which is a Pythagorean triplet?|20, 21, 29|20, 21, 30|20, 22, 29|21, 21, 29|1|400 + 441 = 841 = 29².|H
+M|The distance of the point (6, 8) from the origin is|10|14|7|48|1|By Pythagoras √(36 + 64) = 10.|M
+M|If a² + b² = c² in a triangle, the angle opposite the side c is|60°|90°|120°|45°|2|By the converse of Pythagoras' theorem it is a right angle.|M
+M|A triangle has sides 5, 5 and 8. It is|acute|right-angled|obtuse|impossible|3|8² = 64 is greater than 5² + 5² = 50, so the triangle is obtuse.|H
+M|A triangle has sides 4, 5 and 6. It is|acute|right-angled|obtuse|impossible|1|6² = 36 is less than 4² + 5² = 41, so all angles are acute.|H
+M|The square on the hypotenuse of a right triangle equals|the sum of the squares on the other two sides|the product of the other two sides|twice the area|the difference of the other sides|1|This is Pythagoras' theorem.|E
+M|The diagonal of a rectangle 5 by 12 is|13|17|7|60|1|√(25 + 144) = 13.|E
+N|Find the hypotenuse of a right triangle with legs 9 and 12.|15|√(81 + 144) = √225 = 15.|E|Math.sqrt(81+144)
+N|A right triangle has hypotenuse 25 and one leg 7. Find the other leg.|24|√(625 − 49) = √576 = 24.|M|Math.sqrt(625-49)
+N|Find the diagonal of a rectangle 8 by 15.|17|√(64 + 225) = √289 = 17.|M|Math.sqrt(64+225)
+N|A 13 m ladder has its foot 5 m from a wall. Find how high it reaches in metres.|12|√(169 − 25) = √144 = 12.|M|Math.sqrt(169-25)
+N|Find the diagonal of a square of side 10, correct to two decimal places.|14.14|The diagonal is 10√2 = 14.142… which is 14.14 to two decimal places.|M|10*Math.sqrt(2)
+N|Find the altitude of an equilateral triangle of side 6, correct to two decimal places.|5.20|The altitude splits the base into 3 and 3, so it is √(36 − 9) = √27 = 5.196… which is 5.20.|H|3*Math.sqrt(3)
+N|Find the perimeter of a right triangle with legs 6 and 8.|24|The hypotenuse is 10, so the perimeter is 6 + 8 + 10 = 24.|M|6+8+Math.sqrt(100)
+N|Find the area of a right triangle with legs 5 and 12.|30|Area = 5 × 12 ÷ 2 = 30.|M|5*12/2
+N|A right triangle has legs 3 and x and hypotenuse x + 1. Find x.|4|9 + x² = (x + 1)² = x² + 2x + 1, so 2x = 8 and x = 4.|H|(9-1)/2
+N|Find the distance between (1, 1) and (7, 9).|10|The differences are 6 and 8, so the distance is √(36 + 64) = 10.|M|Math.sqrt(36+64)
+S|State Pythagoras' theorem.|In a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides.|If the legs are a and b and the hypotenuse is c, then a² + b² = c².|E
+S|State the converse of Pythagoras' theorem.|If the square on one side of a triangle equals the sum of the squares on the other two sides, the angle opposite that side is a right angle.|It is used to prove that a triangle is right-angled.|M
+S|Is a triangle with sides 7, 24 and 25 right-angled? Give a reason.|Yes, because 7² + 24² = 49 + 576 = 625 = 25².|The sum of the squares on the two shorter sides equals the square on the longest side.|M
+S|Find the diagonal of a square of side 5.|5√2|The diagonal is √(5² + 5²) = √50 = 5√2.|M
+S|Define a Pythagorean triplet.|Three whole numbers a, b and c such that a² + b² = c². For example 3, 4 and 5.|They are the side lengths of a right-angled triangle.|E
+S|A 17 m ladder has its foot 8 m from a wall. How high up the wall does it reach?|15 m|The height is √(17² − 8²) = √(289 − 64) = √225 = 15 m.|M
+
+# 17 Theorems Related with Area of Parallelograms and Triangles
+M|The area of a parallelogram is|base × height|½ × base × height|base + height|2 × (base + height)|1|The height is the perpendicular distance between the parallel sides.|E
+M|The area of a triangle is|base × height|½ × base × height|base + height|base² × height|2|A triangle is half of a parallelogram on the same base.|E
+M|Parallelograms on the same base and between the same parallels have|equal areas|different areas|equal perimeters|equal angles|1|This is the main theorem on parallelograms.|M
+M|Triangles on the same base and between the same parallels have|equal areas|different areas|equal perimeters|equal angles|1|They have the same base and the same height.|M
+M|A triangle and a parallelogram are on the same base and between the same parallels. The area of the triangle is|equal to the parallelogram|half the parallelogram|double the parallelogram|one third of the parallelogram|2|A triangle is half of a parallelogram with the same base and height.|M
+M|A median of a triangle divides it into two triangles of|equal area|equal perimeter|equal angles|areas in the ratio 1 : 2|1|The two triangles have equal bases and the same height.|M
+M|A diagonal of a parallelogram divides it into two triangles of|equal area|unequal area|equal angles only|areas in ratio 1 : 2|1|The two triangles are congruent.|M
+M|The area of a rectangle is|length × width|length + width|½ × length × width|2(length + width)|1|Multiply the two adjacent sides.|E
+M|The area of a square of side s is|2s|4s|s²|s³|3|Area = s × s.|E
+M|The area of a trapezium with parallel sides a and b and height h is|½(a + b)h|(a + b)h|ab h|½ab|1|It is the average of the parallel sides times the height.|M
+M|The area of a rhombus with diagonals d₁ and d₂ is|d₁ d₂|½ d₁ d₂|d₁ + d₂|2 d₁ d₂|2|A rhombus is made of four right triangles, giving half the product of the diagonals.|M
+M|A triangle has area 24 cm² and base 8 cm. Its height is|3 cm|6 cm|12 cm|48 cm|2|Height = 2 × 24 ÷ 8 = 6.|M
+M|A parallelogram has base 10 cm and height 5 cm. Its area is|15 cm²|25 cm²|50 cm²|100 cm²|3|10 × 5 = 50.|E
+M|A triangle has base 6 cm and height 4 cm. Its area is|10 cm²|12 cm²|24 cm²|48 cm²|2|½ × 6 × 4 = 12.|E
+M|Two triangles on the same base with equal areas lie between|the same parallels|different parallels|perpendicular lines|intersecting lines|1|Equal areas on the same base mean equal heights, so the opposite vertices lie on a line parallel to the base.|H
+M|The area of a triangle with base b and height h is|bh/2|bh|b + h|2bh|1|It is half of base times height.|E
+M|If the base of a parallelogram is doubled and the height stays the same, the area|stays the same|doubles|is halved|becomes four times|2|Area is proportional to the base.|M
+M|If both the base and the height of a triangle are doubled, the area becomes|the same|twice|four times|eight times|3|Area = ½ × 2b × 2h = 4 × (½ bh).|H
+M|The area of a square with diagonal d is|d²|d²/2|2d²|d/2|2|The square is made of two triangles with base d and height d/2, giving d²/2.|H
+M|The area of a right triangle with legs a and b is|ab|ab/2|a + b|a²b²|2|Each leg is the height for the other.|E
+M|Triangles with equal bases and equal heights have|equal areas|different areas|equal perimeters|equal sides|1|Area depends only on base and height.|M
+M|Area is measured in|metres|square units|cubic units|degrees|2|Area measures surface, so the unit is a square unit such as cm².|E
+M|A rectangle 8 cm by 6 cm has area|14 cm²|28 cm²|48 cm²|96 cm²|3|8 × 6 = 48.|E
+M|A rectangle and a parallelogram are on the same base and between the same parallels. Their areas are|equal|different|in the ratio 1 : 2|in the ratio 2 : 1|1|A rectangle is a parallelogram, so the theorem applies.|M
+M|A right triangle with sides 3, 4 and 5 has area|6|7.5|10|12|1|½ × 3 × 4 = 6.|M
+M|In parallelogram ABCD, the area of triangle ABD is|half the area of the parallelogram|equal to the parallelogram|a quarter of the parallelogram|twice the parallelogram|1|The diagonal BD splits the parallelogram into two equal triangles.|M
+M|The diagonals of a parallelogram divide it into four triangles of|equal area|different areas|equal perimeters only|areas in the ratio 1 : 2 : 2 : 1|1|They meet at the mid-point of each diagonal, so the four triangles have equal bases and heights.|H
+M|A triangle has base 10 cm and area 40 cm². Its height is|4 cm|8 cm|16 cm|20 cm|2|Height = 2 × 40 ÷ 10 = 8.|M
+M|The height of a parallelogram is|the perpendicular distance between a pair of parallel sides|the length of a slanting side|the length of a diagonal|half of the perimeter|1|It is the perpendicular distance between the base and the opposite side.|E
+M|A parallelogram has area 60 cm² and base 12 cm. Its height is|5 cm|6 cm|12 cm|720 cm|1|Height = 60 ÷ 12 = 5.|M
+M|A median divides a triangle's area into|two equal parts|two parts in ratio 1 : 2|three equal parts|four equal parts|1|It splits the base in half, so both parts have the same area.|M
+M|If the vertex of a triangle moves along a line parallel to the base, its area|stays the same|increases|decreases|doubles|1|The base and the height stay the same.|M
+M|Two triangles on the base BC have their third vertices on a line parallel to BC. Their areas are|equal|different|in ratio 1 : 2|not related|1|They have the same base and the same height.|M
+M|The area of a rhombus with diagonals 6 cm and 8 cm is|14 cm²|24 cm²|48 cm²|28 cm²|2|½ × 6 × 8 = 24.|M
+M|Which pair of figures must have equal areas?|Parallelograms on the same base and between the same parallels|Any two quadrilaterals|Any two triangles|Any two rectangles|1|Only the stated condition guarantees equal areas.|M
+M|The area of a parallelogram is equal to the area of a rectangle with|the same base and the same height|the same perimeter|the same angles|the same sides|1|Cut and move a triangle from one end to the other to form a rectangle.|H
+M|A triangle and a parallelogram have the same base and the same height. If the parallelogram's area is 50 cm², the triangle's area is|25 cm²|50 cm²|100 cm²|75 cm²|1|The triangle is half of the parallelogram.|M
+M|If the height of a triangle is halved and the base is unchanged, its area|stays the same|is halved|doubles|is quartered|2|Area is proportional to height.|M
+M|A trapezium has parallel sides 6 cm and 10 cm and height 4 cm. Its area is|32 cm²|24 cm²|40 cm²|64 cm²|1|½ × (6 + 10) × 4 = 32.|M
+M|The base of a parallelogram can be taken as|any side|only the longest side|only the shortest side|only a diagonal|1|Any side can be the base, as long as the height is measured to it.|H
+N|Find the area of a parallelogram with base 12 cm and height 7 cm in square centimetres.|84|12 × 7 = 84.|E|12*7
+N|Find the area of a triangle with base 10 cm and height 6 cm in square centimetres.|30|½ × 10 × 6 = 30.|E|10*6/2
+N|A triangle has area 36 cm² and base 9 cm. Find its height in centimetres.|8|Height = 2 × 36 ÷ 9 = 8.|M|36*2/9
+N|A parallelogram has area 90 cm² and height 6 cm. Find its base in centimetres.|15|Base = 90 ÷ 6 = 15.|M|90/6
+N|Find the area of a rhombus with diagonals 10 cm and 12 cm in square centimetres.|60|½ × 10 × 12 = 60.|M|10*12/2
+N|Find the area of a trapezium with parallel sides 6 cm and 10 cm and height 4 cm in square centimetres.|32|½ × (6 + 10) × 4 = 32.|M|(6+10)/2*4
+N|A triangle and a parallelogram are on the same base and between the same parallels. The parallelogram has area 80 cm². Find the area of the triangle in square centimetres.|40|The triangle has half the area: 80 ÷ 2 = 40.|M|80/2
+N|A square has a diagonal of 8 cm. Find its area in square centimetres.|32|Area = d²/2 = 64 ÷ 2 = 32.|H|8*8/2
+N|Find the area of a right triangle with legs 9 cm and 12 cm in square centimetres.|54|½ × 9 × 12 = 54.|M|9*12/2
+N|A median divides a triangle of area 50 cm² into two parts. Find the area of each part in square centimetres.|25|The two parts are equal, so each is 50 ÷ 2 = 25.|M|50/2
+S|State the theorem about parallelograms on the same base and between the same parallels.|Parallelograms on the same base and between the same parallels are equal in area.|They have the same base and the same height.|M
+S|State the theorem about triangles on the same base and between the same parallels.|Triangles on the same base and between the same parallels are equal in area.|They have the same base and the same height.|M
+S|Why does a median divide a triangle into two triangles of equal area?|It splits the base into two equal parts, and both triangles have the same height from the vertex, so their areas are equal.|Area is half of base times height.|H
+S|Write the formula for the area of a trapezium.|Area = ½ (a + b) × h, where a and b are the parallel sides and h is the distance between them.|It is the average of the two parallel sides times the height.|M
+S|Define the altitude of a parallelogram.|The perpendicular distance between the base and the opposite side.|It is measured at right angles to the base, not along a slanting side.|E
+S|Find the area of a rhombus with diagonals 16 cm and 30 cm.|240 cm²|Area = ½ × 16 × 30 = 240 cm².|M
+
+# 18 Practical Geometry: Triangles
+M|The two instruments used for geometrical constructions are the|compass and straightedge|protractor and calculator|set square and calculator|calculator and ruler only|1|Constructions use a compass to draw arcs and a straightedge to draw lines.|E
+M|Three given lengths can be the sides of a constructible triangle only if|the sum of any two is greater than the third|they are equal|the sum of all three is 180|one is double another|1|This is the triangle inequality.|M
+M|A 60° angle is constructed using|arcs of equal radius from the vertex and the point where the first arc cuts the arm|a protractor only|a ruler only|any random arcs|1|Two arcs of equal radius make an equilateral triangle, so the angle is 60°.|M
+M|A 30° angle is constructed by|bisecting a 60° angle|doubling a 60° angle|bisecting a 90° angle|adding two 60° angles|1|Half of 60° is 30°.|M
+M|A 90° angle is constructed by|erecting a perpendicular|doubling a 30° angle only|bisecting a 60° angle|bisecting a 180° angle only|1|A right angle is a perpendicular. It can also be made by bisecting a straight angle.|M
+M|A 45° angle is constructed by|bisecting a 90° angle|bisecting a 60° angle|doubling a 30° angle|bisecting a 120° angle|1|Half of 90° is 45°.|M
+M|To construct the perpendicular bisector of a segment, the compass is opened to a radius|greater than half the length of the segment|less than half the length of the segment|equal to a quarter of the length|equal to zero|1|The two arcs must be able to cross each other.|M
+M|To bisect an angle, the first arc is drawn|from the vertex, cutting both arms|from the end of one arm only|anywhere on the page|through the vertex|1|The arc cuts both arms at equal distances from the vertex.|M
+M|A triangle with sides 3 cm, 4 cm and 5 cm is|right-angled|equilateral|obtuse|impossible|1|3² + 4² = 5².|M
+M|Can a triangle with sides 2 cm, 3 cm and 6 cm be constructed?|Yes|No|Only with a protractor|Only if it is isosceles|2|2 + 3 is less than 6, so the arcs would never meet.|M
+M|To construct a triangle using SAS you need|two sides and the included angle|three angles|two angles and a side|three sides|1|The angle goes between the two given sides.|E
+M|To construct a triangle using ASA you need|two angles and the included side|two sides and an angle|three sides|three angles|1|The given side lies between the two given angles.|E
+M|To construct a right-angled triangle given the hypotenuse and one side you use|RHS|AAA|SSA with no right angle|ASA only|1|The right angle, hypotenuse and side fix the triangle.|M
+M|The three angles of any triangle you construct add up to|90°|180°|270°|360°|2|The interior angles of a triangle always add up to 180°.|E
+M|An equilateral triangle has each angle equal to|45°|60°|90°|120°|2|180 ÷ 3 = 60.|E
+M|Compass arcs are used in constructions to|mark equal distances|measure angles|measure areas|draw straight lines|1|An arc is the set of points at a fixed distance from a centre.|E
+M|The circumcentre of a triangle is located by drawing|the perpendicular bisectors of the sides|the angle bisectors|the altitudes|the medians|1|They meet at the circumcentre.|M
+M|The incentre of a triangle is located by drawing|the perpendicular bisectors of the sides|the angle bisectors|the altitudes|the medians|2|They meet at the incentre.|M
+M|Knowing only the three angles of a triangle, the triangle is|unique|not unique, because it can be any size|impossible|always equilateral|2|Triangles of different sizes can have the same angles.|M
+M|A triangle cannot have angles of|90° and 100°|60° and 60°|30° and 60°|45° and 45°|1|90° + 100° is more than 180°.|M
+M|A line segment of a given length is drawn with|a ruler|a compass only|a protractor only|a set square only|1|A ruler measures and draws the segment.|E
+M|To copy an angle, you use|arcs of equal radius to transfer the angle|a protractor only|a ruler only|the perpendicular bisector|1|The arc radius is kept the same and the chord is copied.|M
+M|In constructing a triangle with three given sides, the first step is to|draw one side as the base|draw the three angles|bisect an angle|draw a circle through the vertices|1|Draw one side, then use arcs for the other two.|E
+M|Given the base and the two base angles, the third vertex is|where two rays from the ends of the base meet|any point above the base|the mid-point of the base|at the origin|1|Each base angle gives a ray, and they cross at the third vertex.|M
+M|A perpendicular from a point on a line is constructed using|arcs on both sides of the point|a protractor only|a diagonal|a median|1|Equal arcs on both sides give the perpendicular bisector of that part of the line.|M
+M|A median of a triangle is constructed by joining a vertex to|the mid-point of the opposite side|the foot of the perpendicular on the opposite side|the opposite vertex|the centroid only|1|Find the mid-point by the perpendicular bisector.|M
+M|An altitude of a triangle is constructed by drawing|a perpendicular from a vertex to the opposite side|a line to the mid-point|an angle bisector|a line parallel to a side|1|It meets the opposite side at a right angle.|M
+M|An isosceles triangle with equal sides of 5 cm and a base of 6 cm|can be constructed|cannot be constructed|has a right angle|has two obtuse angles|1|5 + 5 is greater than 6, so the arcs meet.|M
+M|A 15° angle is constructed by|bisecting a 30° angle|bisecting a 45° angle|doubling a 30° angle|bisecting a 90° angle|1|Half of 30° is 15°.|M
+M|A 120° angle is constructed by|drawing two adjacent 60° angles|bisecting 60°|doubling 30°|bisecting 90°|1|60° + 60° = 120°.|M
+M|A 75° angle is constructed by|combining a 60° angle and a 15° angle|bisecting 60°|doubling 30°|bisecting 90°|1|60° + 15° = 75°.|H
+M|A right triangle with hypotenuse 5 cm and one leg 3 cm has another leg of|2 cm|4 cm|5 cm|8 cm|2|√(25 − 9) = 4.|M
+M|When constructing the perpendicular bisector, the two arcs cross at|two points, one on each side of the segment|one point on the segment|no point|the end of the segment|1|The two crossing points are joined to make the bisector.|M
+M|The sum of the two shorter sides of a constructible triangle is|always greater than the longest side|always equal to the longest side|always less than the longest side|always 180|1|Otherwise the arcs would not meet.|M
+M|Which instrument is not used in basic geometrical construction of triangles?|Calculator|Ruler|Compass|Pencil|1|Basic constructions need only a ruler, a compass and a pencil.|E
+M|The point where the perpendicular bisectors of a triangle meet is the centre of|the circle through all three vertices|the circle touching all three sides|an excircle|the nine-point circle only|1|It is equidistant from all three vertices.|M
+M|A 105° angle is constructed by|combining a 90° angle and a 15° angle|bisecting 60°|doubling 30°|bisecting 90°|1|90° + 15° = 105°.|H
+N|Two angles of a triangle are 55° and 65°. Find the third angle in degrees.|60|180 − 120 = 60.|E|180-120
+N|Find the perimeter of a triangle with sides 4 cm, 5 cm and 6 cm in centimetres.|15|4 + 5 + 6 = 15.|E|4+5+6
+N|A right triangle has hypotenuse 10 cm and one leg 6 cm. Find the other leg in centimetres.|8|√(100 − 36) = 8.|M|Math.sqrt(100-36)
+N|A right angle is bisected. Find the size of each part in degrees.|45|90 ÷ 2 = 45.|E|90/2
+N|A 60° angle is bisected. Find the size of each part in degrees.|30|60 ÷ 2 = 30.|E|60/2
+N|A 30° angle is bisected. Find the size of each part in degrees.|15|30 ÷ 2 = 15.|E|30/2
+N|The three angles of an equilateral triangle are 60° each. Find their sum in degrees.|180|60 × 3 = 180.|E|60*3
+N|An isosceles triangle has two equal sides of 7 cm and a perimeter of 20 cm. Find its base in centimetres.|6|Base = 20 − 14 = 6.|M|20-14
+N|A segment of 9 cm is bisected. Find the length of each half in centimetres.|4.5|9 ÷ 2 = 4.5.|E|9/2
+N|Two sides of a triangle are 3 cm and 5 cm. Find the largest whole number of centimetres the third side can be.|7|The third side must be less than 8, so the largest whole number is 7.|H|3+5-1
+S|Name the instruments needed for geometrical constructions.|A ruler (straightedge), a compass and a pencil. A set square is sometimes used.|The compass draws arcs and the ruler draws straight lines.|E
+S|Describe how to construct the perpendicular bisector of a line segment.|Open the compass to more than half the segment. Draw arcs from both ends so they cross above and below. Join the two crossing points.|The line joining the crossing points cuts the segment at its mid-point at right angles.|M
+S|Describe how to construct a 60° angle.|Draw a ray. With the compass at its end draw an arc cutting the ray. With the same radius and centre at the cut point, mark a second arc on the first. Join the end of the ray to the crossing point.|The two arcs and the ray form an equilateral triangle, so the angle is 60°.|M
+S|State the condition for a triangle with three given sides to exist.|The sum of any two sides must be greater than the third side.|If it fails, the arcs will not meet.|M
+S|Describe how to bisect an angle.|Draw an arc from the vertex cutting both arms. From the two cut points draw equal arcs that cross inside the angle. Join the vertex to the crossing point.|The line is the bisector of the angle.|M
+S|How do you construct a 30° angle?|Construct a 60° angle and bisect it.|Half of 60° is 30°.|M

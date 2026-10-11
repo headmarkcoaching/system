@@ -1,0 +1,158 @@
+@level Class 9
+@subject Chemistry
+
+# 7 Electrochemistry
+M|Oxidation is the|loss of electrons|gain of electrons|gain of protons|loss of neutrons|1|Remember OIL RIG: oxidation is loss, reduction is gain of electrons.|E
+M|Reduction is the|loss of electrons|gain of electrons|loss of protons|gain of neutrons|2|Reduction is the gain of electrons.|E
+M|An oxidising agent is a substance that|accepts electrons|loses electrons|loses protons|is always oxygen|1|It is itself reduced.|M
+M|A reducing agent is a substance that|donates electrons|accepts electrons|gains protons|is always hydrogen|1|It is itself oxidised.|M
+M|The oxidation number of an element in its free state is|0|1|−1|+2|1|Atoms in an uncombined element have an oxidation number of zero.|E
+M|The oxidation number of oxygen in most compounds is|−2|+2|0|−1|1|It is −2 except in peroxides.|E
+M|The oxidation number of hydrogen in most compounds is|+1|−1|0|+2|1|It is +1 except in metal hydrides.|E
+M|The oxidation number of an alkali metal in its compounds is|+1|+2|−1|0|1|Group 1 metals always show +1.|E
+M|The sum of the oxidation numbers in a neutral compound is|0|1|−1|the number of atoms|1|The positive and negative numbers balance.|M
+M|An electrolyte is a substance that|conducts electricity when molten or dissolved in water|never conducts|is always a metal|is always a gas|1|Ions carry the current.|E
+M|A non-electrolyte is a substance that|does not conduct electricity in solution or when molten|always conducts|is a salt|is an acid|1|Sugar is a non-electrolyte.|E
+M|Electrolysis is the|chemical decomposition of an electrolyte by electric current|heating of a solution|dissolving of a salt|cooling of a liquid|1|Electrical energy causes a chemical change.|E
+M|During electrolysis, oxidation takes place at the|anode|cathode|salt bridge|electrolyte only|1|The anode is the positive electrode.|M
+M|During electrolysis, reduction takes place at the|anode|cathode|salt bridge|battery|2|The cathode is the negative electrode.|M
+M|In an electrolytic cell, the anode is|positive|negative|neutral|a liquid|1|It is connected to the positive terminal of the battery.|M
+M|When molten sodium chloride is electrolysed, the product at the cathode is|sodium|chlorine|hydrogen|oxygen|1|Na⁺ ions gain electrons.|M
+M|When molten sodium chloride is electrolysed, the product at the anode is|sodium|chlorine|hydrogen|oxygen|2|Cl⁻ ions lose electrons.|M
+M|Electroplating is used to|coat an object with a thin layer of metal|dissolve a metal|melt a metal|colour a gas|1|The object is made the cathode.|E
+M|In electroplating, the object to be plated is made the|cathode|anode|salt bridge|electrolyte|1|Metal ions are reduced onto it.|M
+M|A galvanic (voltaic) cell converts|chemical energy into electrical energy|electrical energy into chemical energy|heat into light|light into heat|1|A spontaneous redox reaction produces current.|E
+M|In a galvanic cell, the anode is|negative|positive|neutral|absent|1|Oxidation occurs there and releases electrons.|M
+M|In a galvanic cell, the cathode is|negative|positive|neutral|absent|2|Reduction occurs there.|M
+M|The Daniell cell consists of|a zinc electrode in ZnSO₄ and a copper electrode in CuSO₄|two iron electrodes|a carbon rod and a zinc rod in acid only|a battery and a bulb|1|The two half-cells are joined by a salt bridge.|M
+M|The function of a salt bridge is to|complete the circuit and keep the solutions electrically neutral|stop the reaction|produce heat|store electrons|1|Ions migrate through it.|M
+M|The standard electrode potential of the standard hydrogen electrode is|0 V|1 V|−1 V|0.76 V|1|It is the reference, defined as zero.|M
+M|Rusting of iron needs|oxygen and water|only oxygen|only water|only nitrogen|1|Both are required.|E
+M|Iron can be protected from rusting by|painting or galvanising|heating|leaving it in water|exposing it to acid|1|These keep out moisture or oxygen.|E
+M|Galvanising means coating iron with|zinc|copper|gold|silver|1|Zinc protects the iron even if scratched.|M
+M|In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, zinc is|oxidised|reduced|neither|a spectator|1|It loses electrons.|M
+M|The unit of electric charge used in Faraday's laws is the|coulomb|ampere|ohm|volt|1|Charge Q = It.|M
+N|Find the oxidation number of sulphur in H₂SO₄. (H = +1, O = −2)|6|2(+1) + S + 4(−2) = 0, so S = +6.|M|8-2
+N|Find the oxidation number of manganese in KMnO₄. (K = +1, O = −2)|7|1 + Mn + 4(−2) = 0, so Mn = +7.|M|8-1
+N|Find the oxidation number of chromium in K₂Cr₂O₇. (K = +1, O = −2)|6|2(+1) + 2Cr + 7(−2) = 0, so 2Cr = 12 and Cr = +6.|H|(14-2)/2
+N|Find the oxidation number of nitrogen in NH₃. (H = +1)|-3|N + 3(+1) = 0, so N = −3.|M|-3
+N|Find the oxidation number of carbon in CO₂. (O = −2)|4|C + 2(−2) = 0, so C = +4.|M|4
+N|Find the oxidation number of chlorine in HClO₄. (H = +1, O = −2)|7|1 + Cl + 4(−2) = 0, so Cl = +7.|H|8-1
+N|A current of 2 A flows for 10 minutes. Find the charge in coulombs.|1200|Q = It = 2 × 600 = 1200.|M|2*600
+N|The charge of one mole of electrons is 96 500 C. Find the number of moles of electrons in 9650 C.|0.1|n = 9650 ÷ 96 500 = 0.1.|M|9650/96500
+N|Find the mass in grams of copper (molar mass 63.5 g/mol, Cu²⁺ + 2e⁻ → Cu) deposited by 9650 C.|3.175|m = 63.5 ÷ (2 × 96 500) × 9650 = 3.175.|H|63.5/(2*96500)*9650
+N|The standard electrode potentials are E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V. Find the e.m.f. of the Daniell cell in volts.|1.1|E = E(cathode) − E(anode) = 0.34 − (−0.76) = 1.10.|H|0.34-(-0.76)
+N|Find the number of electrons gained by one Cu²⁺ ion when it becomes a copper atom.|2|Cu²⁺ + 2e⁻ → Cu.|M|2
+N|Find the number of electrons lost by one atom of aluminium when it forms Al³⁺.|3|Al → Al³⁺ + 3e⁻.|M|3
+N|Find the oxidation number of iron in Fe₂O₃. (O = −2)|3|2Fe + 3(−2) = 0, so Fe = +3.|M|6/2
+N|Find the oxidation number of Mg in MgCl₂.|2|Mg + 2(−1) = 0, so Mg = +2.|E|2
+N|Find the time in seconds for a current of 5 A to deliver 1000 C.|200|t = Q/I = 1000 ÷ 5 = 200.|M|1000/5
+N|Find the mass in grams of silver (molar mass 108 g/mol, Ag⁺ + e⁻ → Ag) deposited by 9650 C.|10.8|m = 108 ÷ 96 500 × 9650 = 10.8.|H|108/96500*9650
+S|Define oxidation and reduction in terms of electrons.|Oxidation is the loss of electrons by an atom, ion or molecule. Reduction is the gain of electrons.|They always occur together in a redox reaction.|E
+S|What is an oxidising agent? Give an example.|A substance that accepts electrons and is reduced itself. Potassium permanganate is an example.|It causes the oxidation of another substance.|M
+S|Define electrolysis.|The decomposition of an electrolyte by the passage of electric current through it.|Positive ions move to the cathode and negative ions to the anode.|E
+S|What is electroplating?|The coating of a metal object with a thin layer of another metal by electrolysis.|The object is the cathode and the plating metal is usually the anode.|M
+S|Describe the Daniell cell.|It has a zinc rod in zinc sulphate solution and a copper rod in copper sulphate solution, joined by a salt bridge. Zinc is oxidised at the anode and copper ions are reduced at the cathode.|It produces an e.m.f. of about 1.1 V.|M
+S|State two methods of preventing rusting.|Painting or coating the iron to keep out water and air, and galvanising it with zinc.|Oiling and plating are also used.|E
+
+# 8 Chemical Reactivity
+M|A metal that reacts violently with cold water is|sodium|copper|gold|silver|1|Sodium and potassium react vigorously with water.|E
+M|The most reactive metal in the reactivity series list K, Na, Ca, Mg, Al, Zn, Fe is|potassium|zinc|iron|aluminium|1|Potassium is at the top.|E
+M|The least reactive metal is|gold|iron|zinc|sodium|1|Gold is at the bottom of the series.|E
+M|A more reactive metal can displace a less reactive metal from|its salt solution|its oxide only|its sulphide only|nothing|1|This is a displacement reaction.|M
+M|Zinc added to copper sulphate solution|displaces copper|does not react|forms hydrogen|forms oxygen|1|Zinc is more reactive than copper.|M
+M|Copper added to zinc sulphate solution|does not react|displaces zinc|forms hydrogen|forms a gas|1|Copper is less reactive than zinc.|M
+M|The gas produced when a reactive metal reacts with a dilute acid is|hydrogen|oxygen|carbon dioxide|chlorine|1|The metal displaces hydrogen from the acid.|E
+M|The test for hydrogen gas is|it burns with a pop sound|it relights a glowing splint|it turns limewater milky|it bleaches litmus|1|A lighted splint produces a pop.|E
+M|The test for oxygen gas is|it relights a glowing splint|it burns with a pop|it turns limewater milky|it turns litmus red|1|Oxygen supports burning.|E
+M|The test for carbon dioxide gas is|it turns limewater milky|it burns with a pop|it relights a glowing splint|it bleaches litmus|1|Calcium carbonate forms.|E
+M|Metals like potassium and sodium are extracted by|electrolysis of their molten compounds|reduction with carbon|heating alone|filtering|1|They are too reactive for carbon to reduce.|M
+M|Iron is extracted from its ore in a|blast furnace|electric cell|fractional distillation tower|kiln for bricks|1|Carbon monoxide reduces iron oxide.|M
+M|Copper is a|poor reactant with dilute hydrochloric acid|violent reactant with water|very reactive metal|non-metal|1|It lies below hydrogen in the reactivity series.|M
+M|Rusting is the|slow oxidation of iron in the presence of water and oxygen|burning of iron|melting of iron|boiling of iron|1|Hydrated iron(III) oxide forms.|E
+M|An alloy is|a mixture of a metal with another element|a pure metal|a compound|a gas|1|Brass and steel are alloys.|E
+M|Steel is an alloy of iron with|carbon|copper|zinc|tin|1|A small percentage of carbon makes the iron harder.|E
+M|Bronze is an alloy of copper and|tin|zinc|lead|iron|1|Bronze is copper and tin.|M
+M|Brass is an alloy of copper and|zinc|tin|lead|nickel|1|Brass is copper and zinc.|M
+M|Among the halogens, the most reactive is|fluorine|chlorine|bromine|iodine|1|Reactivity decreases down the group.|M
+M|Chlorine can displace|bromine from potassium bromide|fluorine from potassium fluoride|nothing|sodium from sodium chloride|1|A more reactive halogen displaces a less reactive one.|M
+M|The noble gases are chemically|inert|very reactive|explosive|corrosive|1|Their outer shells are full.|E
+M|Non-metals generally|gain electrons to form negative ions|lose electrons to form positive ions|never form ions|are good conductors|1|They form anions.|E
+M|Metals generally|lose electrons to form positive ions|gain electrons to form negative ions|never form ions|are insulators|1|They form cations.|E
+M|Which of the following is a property of metals?|They conduct electricity|They are brittle solids|They have low melting points always|They are poor conductors of heat|1|Metals have free electrons.|E
+M|An acid reacts with a base to form|a salt and water|a metal and water|a gas only|an oxide|1|This is neutralisation.|E
+M|Calcium carbonate decomposes on heating to give|calcium oxide and carbon dioxide|calcium and oxygen|calcium chloride|calcium hydroxide only|1|CaCO₃ → CaO + CO₂.|M
+M|The reaction of magnesium with oxygen forms|magnesium oxide|magnesium hydroxide|magnesium carbonate|magnesium chloride|1|2Mg + O₂ → 2MgO.|E
+M|A catalyst|speeds up a reaction without being used up|slows down a reaction|is consumed completely|increases the yield only|1|It provides a path with lower activation energy.|M
+M|The reaction of sodium with water produces|sodium hydroxide and hydrogen|sodium oxide and oxygen|sodium chloride|sodium carbonate|1|2Na + 2H₂O → 2NaOH + H₂.|M
+N|12 g of magnesium (Mg = 24) react with excess hydrochloric acid. Find the number of moles of hydrogen produced. (Mg + 2HCl → MgCl₂ + H₂)|0.5|Moles of Mg = 12 ÷ 24 = 0.5, and 1 mole of Mg gives 1 mole of H₂.|M|12/24
+N|Find the volume in dm³ at STP of 0.5 mole of hydrogen.|11.2|V = 0.5 × 22.4 = 11.2.|M|0.5*22.4
+N|Find the mass in grams of magnesium oxide (MgO = 40) produced by burning 24 g of magnesium. (2Mg + O₂ → 2MgO)|40|24 g is 1 mole of Mg, which gives 1 mole of MgO = 40 g.|M|24/24*40
+N|Find the mass in grams of calcium oxide (CaO = 56) obtained by heating 100 g of calcium carbonate (CaCO₃ = 100).|56|100 g is 1 mole of CaCO₃, which gives 1 mole of CaO = 56 g.|M|100/100*56
+N|Find the mass in grams of water (H₂O = 18) formed by burning 4 g of hydrogen (H₂ = 2). (2H₂ + O₂ → 2H₂O)|36|4 g is 2 moles of H₂, which gives 2 moles of water = 36 g.|M|4/2*18
+N|Find the volume in dm³ at STP of hydrogen from 6.5 g of zinc (Zn = 65). (Zn + H₂SO₄ → ZnSO₄ + H₂)|2.24|n(Zn) = 6.5 ÷ 65 = 0.1, so the volume is 0.1 × 22.4 = 2.24.|H|6.5/65*22.4
+N|Find the mass in grams of iron (Fe = 56) produced from 160 g of iron(III) oxide (Fe₂O₃ = 160). (Fe₂O₃ + 3CO → 2Fe + 3CO₂)|112|160 g is 1 mole of Fe₂O₃, which gives 2 moles of Fe = 112 g.|H|160/160*2*56
+N|A reaction should give 50 g of product but gives only 45 g. Find the percentage yield.|90|45 ÷ 50 × 100 = 90.|M|45/50*100
+N|Find the number of moles of oxygen needed to burn 2 moles of hydrogen. (2H₂ + O₂ → 2H₂O)|1|Two moles of hydrogen need one mole of oxygen.|M|2/2
+N|Find the number of moles of hydrogen produced from 23 g of sodium (Na = 23). (2Na + 2H₂O → 2NaOH + H₂)|0.5|1 mole of Na gives 0.5 mole of H₂.|H|23/23/2
+N|Find the mass in grams of sodium hydroxide (NaOH = 40) produced from 23 g of sodium.|40|1 mole of Na gives 1 mole of NaOH = 40 g.|H|23/23*40
+N|Find the volume in dm³ at STP of carbon dioxide from 50 g of calcium carbonate (CaCO₃ = 100) on heating.|11.2|n = 0.5, so the volume is 0.5 × 22.4 = 11.2.|H|50/100*22.4
+N|Find the number of moles of CO₂ formed when 1 mole of CaCO₃ is heated.|1|CaCO₃ → CaO + CO₂, one to one.|E|1
+N|Find the mass in grams of oxygen (O₂ = 32) needed to burn 24 g of magnesium completely.|16|24 g Mg is 1 mole and needs 0.5 mole of O₂ = 16 g.|H|24/24*0.5*32
+N|Find the number of moles of Cu produced when 1 mole of zinc displaces copper from copper sulphate.|1|Zn + CuSO₄ → ZnSO₄ + Cu.|M|1
+S|State the order of reactivity of the metals K, Na, Ca, Mg, Al, Zn, Fe, Cu, Ag, Au.|From the most to the least reactive: K, Na, Ca, Mg, Al, Zn, Fe, Cu, Ag, Au.|This is the reactivity series.|M
+S|What is a displacement reaction? Give an example.|A reaction in which a more reactive element displaces a less reactive element from its compound. Zn + CuSO₄ → ZnSO₄ + Cu.|Zinc is more reactive than copper.|M
+S|How are sodium and iron extracted from their ores?|Sodium is extracted by the electrolysis of molten sodium chloride. Iron is extracted by reducing iron oxide with carbon monoxide in a blast furnace.|The method depends on the reactivity of the metal.|M
+S|What is an alloy? Give two examples.|A mixture of a metal with another element, often another metal. Brass and steel are alloys.|Alloys are often stronger than pure metals.|E
+S|Write the equation for the reaction of magnesium with dilute hydrochloric acid.|Mg + 2HCl → MgCl₂ + H₂|Magnesium displaces hydrogen from the acid.|M
+S|State the tests for oxygen and carbon dioxide gases.|Oxygen relights a glowing splint. Carbon dioxide turns limewater milky.|These are the standard laboratory tests.|E
+
+# 9 Chemical Equilibrium
+M|A reversible reaction is one that|can proceed in both forward and backward directions|goes in one direction only|never occurs|needs no reactants|1|It is shown with a double arrow.|E
+M|Chemical equilibrium is reached when|the rate of the forward reaction equals the rate of the backward reaction|the forward reaction stops|the backward reaction stops|all reactants are used up|1|The concentrations stop changing.|E
+M|At equilibrium, the concentrations of reactants and products|remain constant|become zero|keep increasing|keep decreasing|1|The reaction appears to have stopped, but it is dynamic.|E
+M|Chemical equilibrium is described as dynamic because|both forward and backward reactions continue|nothing happens|the temperature rises|the reaction stops|1|The two rates are equal but not zero.|M
+M|For the reaction aA + bB ⇌ cC + dD, the equilibrium constant is|[C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ|[A]ᵃ[B]ᵇ / [C]ᶜ[D]ᵈ|[C][D] + [A][B]|[A] + [B]|1|Kc equals products over reactants, each to the power of its coefficient.|M
+M|A large value of Kc means that at equilibrium|the products are favoured|the reactants are favoured|there is no reaction|the reaction has not started|1|There is a high concentration of products.|M
+M|A small value of Kc means that at equilibrium|the reactants are favoured|the products are favoured|the reaction is fast|there are no reactants|1|There is little product.|M
+M|Le Chatelier's principle states that if a stress is applied to a system at equilibrium,|the system shifts to reduce the stress|nothing changes|the system stops|the reaction speeds up only|1|It opposes the change.|M
+M|Adding more reactant to a system at equilibrium shifts the equilibrium|towards the products|towards the reactants|nowhere|backwards only|1|The system uses up the added reactant.|M
+M|Removing a product from a system at equilibrium shifts the equilibrium|towards the products|towards the reactants|nowhere|backwards only|1|The system makes more product to replace it.|M
+M|Increasing the pressure of a gaseous equilibrium shifts it towards|the side with fewer moles of gas|the side with more moles of gas|neither side|no side ever|1|This reduces the pressure.|H
+M|Increasing the temperature shifts an equilibrium towards|the endothermic direction|the exothermic direction|neither|the reactants always|1|The system absorbs the extra heat.|H
+M|A catalyst in a reversible reaction|speeds up both forward and backward reactions equally|shifts the equilibrium to products|shifts the equilibrium to reactants|slows the reaction|1|It does not change the equilibrium position.|M
+M|The Haber process makes|ammonia|sulphuric acid|ethanol|nitric acid|1|N₂ + 3H₂ ⇌ 2NH₃.|M
+M|The Haber process uses|iron as a catalyst|platinum as a catalyst|no catalyst|copper as a catalyst|1|Finely divided iron is the catalyst.|M
+M|The reaction in the Haber process is|N₂ + 3H₂ ⇌ 2NH₃|N₂ + O₂ ⇌ 2NO|H₂ + Cl₂ ⇌ 2HCl|2SO₂ + O₂ ⇌ 2SO₃|1|Nitrogen and hydrogen form ammonia.|M
+M|The Contact process makes|sulphuric acid|ammonia|nitric acid|ethanol|1|SO₂ is oxidised to SO₃ using a vanadium catalyst.|M
+M|In the Contact process, the catalyst is|vanadium(V) oxide|iron|nickel|platinum only|1|V₂O₅ is used.|H
+M|The unit of Kc depends on|the equation of the reaction|the colour|the catalyst|nothing|1|It is found from the concentrations in the expression.|H
+M|The value of Kc changes with|temperature|pressure|concentration|a catalyst|1|Kc is constant at a given temperature.|M
+M|The reaction H₂ + I₂ ⇌ 2HI has Kc equal to|[HI]² / ([H₂][I₂])|[H₂][I₂] / [HI]²|[HI] / ([H₂] + [I₂])|[H₂] + [I₂]|1|The product concentration is squared because of the coefficient 2.|M
+M|For a reaction in equilibrium, a reversible reaction in a closed vessel|never goes to completion|always goes to completion|always stops|always explodes|1|Both reactants and products are present at equilibrium.|M
+M|An equilibrium that is established in a closed container with all species in the same phase is called|homogeneous equilibrium|heterogeneous equilibrium|static equilibrium|no equilibrium|1|All reactants and products are in one phase.|M
+M|The rates of the forward and the backward reactions are equal|at equilibrium|at the start|at the end of the reaction only|never|1|That is the definition.|E
+M|Which change does not affect the position of equilibrium?|Adding a catalyst|Adding reactant|Changing the temperature|Changing the pressure of gases with unequal moles|1|A catalyst only speeds up the approach to equilibrium.|M
+M|Raising the temperature of an exothermic equilibrium shifts it towards|the reactants|the products|neither|a catalyst|1|The system moves in the endothermic direction, which is backward.|H
+M|Lowering the temperature of an exothermic equilibrium shifts it towards|the products|the reactants|neither|nothing|1|The system releases heat by moving forward.|H
+M|At high pressure the Haber process gives a higher yield of ammonia because|there are fewer moles of gas on the product side|there are more moles of gas on the product side|pressure is a catalyst|pressure lowers the temperature|1|4 moles of gas become 2.|H
+N|For A + B ⇌ C + D the equilibrium concentrations are [A] = 1, [B] = 4, [C] = 2 and [D] = 2 (mol/L). Find Kc.|1|Kc = (2 × 2) ÷ (1 × 4) = 1.|M|2*2/(1*4)
+N|For N₂ + 3H₂ ⇌ 2NH₃, [N₂] = 0.1, [H₂] = 0.2 and [NH₃] = 0.2 mol/L. Find Kc.|50|Kc = 0.2² ÷ (0.1 × 0.2³) = 0.04 ÷ 0.0008 = 50.|H|0.2*0.2/(0.1*0.2*0.2*0.2)
+N|For H₂ + I₂ ⇌ 2HI, [H₂] = 0.5, [I₂] = 0.5 and [HI] = 2.5 mol/L. Find Kc.|25|Kc = 2.5² ÷ (0.5 × 0.5) = 6.25 ÷ 0.25 = 25.|M|2.5*2.5/(0.5*0.5)
+N|For A ⇌ B, [A] = 0.2 and [B] = 0.8 mol/L. Find Kc.|4|Kc = 0.8 ÷ 0.2 = 4.|E|0.8/0.2
+N|For 2A ⇌ B, [A] = 0.5 and [B] = 1.0 mol/L. Find Kc.|4|Kc = 1.0 ÷ 0.5² = 4.|M|1.0/(0.5*0.5)
+N|For A + B ⇌ C, [A] = 2, [B] = 5 and Kc = 0.5. Find [C] in mol/L.|5|[C] = Kc × [A][B] = 0.5 × 10 = 5.|H|0.5*2*5
+N|In the Haber process, 4 moles of reactant gas form 2 moles of product gas. Find the decrease in the number of moles.|2|4 − 2 = 2.|M|4-2
+N|A reaction starts with 1 mole of A. At equilibrium 0.4 mole of A remains. Find the moles of A that have reacted.|0.6|1 − 0.4 = 0.6.|E|1-0.4
+N|For N₂O₄ ⇌ 2NO₂, [N₂O₄] = 0.25 and [NO₂] = 0.5 mol/L. Find Kc.|1|Kc = 0.5² ÷ 0.25 = 1.|M|0.5*0.5/0.25
+N|For A ⇌ B, Kc = 4 and [A] = 0.1 mol/L. Find [B] in mol/L.|0.4|[B] = Kc × [A] = 4 × 0.1 = 0.4.|M|4*0.1
+N|The forward rate is 0.02 mol/L·s at equilibrium. Find the backward rate in mol/L·s.|0.02|At equilibrium the two rates are equal.|M|0.02
+N|For 2SO₂ + O₂ ⇌ 2SO₃, [SO₂] = 0.2, [O₂] = 0.1 and [SO₃] = 0.4 mol/L. Find Kc.|40|Kc = 0.4² ÷ (0.2² × 0.1) = 0.16 ÷ 0.004 = 40.|H|0.4*0.4/(0.2*0.2*0.1)
+N|For A + B ⇌ C + D, Kc = 9 and [C] = [D] = 3 mol/L, [A] = 1 mol/L. Find [B] in mol/L.|1|9 = (3 × 3) ÷ (1 × [B]), so [B] = 1.|H|3*3/(9*1)
+N|A system has Kc = 100. Find the value of Kc for the reverse reaction.|0.01|The reverse constant is 1 ÷ 100 = 0.01.|H|1/100
+S|What is a reversible reaction?|A reaction in which the products can react to form the reactants again, so it can proceed in both directions.|It is shown with the symbol ⇌.|E
+S|What is meant by chemical equilibrium?|The state in which the rates of the forward and backward reactions are equal, so the concentrations of reactants and products stay constant.|It is a dynamic equilibrium.|M
+S|State Le Chatelier's principle.|If a stress such as a change of concentration, temperature or pressure is applied to a system at equilibrium, the system shifts in the direction that reduces the stress.|It is used to increase the yield of industrial reactions.|M
+S|Write the expression for Kc of N₂ + 3H₂ ⇌ 2NH₃.|Kc = [NH₃]² / ([N₂][H₂]³)|Products over reactants, each raised to the power of its coefficient.|M
+S|What is the effect of a catalyst on an equilibrium?|A catalyst speeds up both the forward and backward reactions equally, so equilibrium is reached faster, but the position of equilibrium and the value of Kc do not change.|It lowers the activation energy.|M
+S|Name two industrial processes based on reversible reactions.|The Haber process for ammonia and the Contact process for sulphuric acid.|Conditions are chosen using Le Chatelier's principle.|M

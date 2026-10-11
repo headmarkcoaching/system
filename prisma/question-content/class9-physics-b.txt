@@ -1,0 +1,159 @@
+@level Class 9
+@subject Physics
+
+# 4 Turning Effect of Forces
+M|The turning effect of a force about a point is called its|moment or torque|momentum|impulse|pressure|1|Torque is the turning effect of a force.|E
+M|Torque is equal to|force × perpendicular distance from the pivot|force ÷ distance|force × time|mass × acceleration|1|τ = F × d.|E
+M|The SI unit of torque is the|N|N m|N/m|J/s|2|Force in newtons times distance in metres.|E
+M|The torque of a force increases if|the perpendicular distance from the pivot increases|the distance decreases|the force decreases|the pivot is at the force|1|Torque is proportional to the distance from the pivot.|E
+M|The principle of moments states that for a body in equilibrium|clockwise moments equal anticlockwise moments|the net force is zero only|the weight is zero|the acceleration is non-zero|1|The total clockwise moment equals the total anticlockwise moment.|M
+M|A couple consists of|two equal and opposite parallel forces not in the same line|two equal forces in the same line|a single force|two perpendicular forces|1|A couple produces rotation without translation.|M
+M|The centre of gravity of a body is the|point where its whole weight appears to act|point at the surface|point of zero weight|centre of the Earth|1|It is the point where the weight can be taken to act.|E
+M|The centre of gravity of a uniform rod lies at|one end|its mid-point|a quarter of its length|outside the rod|2|The weight is evenly spread along the rod.|E
+M|The centre of gravity of a uniform circular disc is at|the edge|its centre|a quarter of its radius|outside the disc|2|By symmetry it lies at the centre.|E
+M|The first condition for equilibrium is that the|net force on the body is zero|net torque is zero|body is at rest only|body is heavy|1|The forces must balance.|M
+M|The second condition for equilibrium is that the|net torque about any point is zero|net force is positive|body is moving|body is light|1|The clockwise and anticlockwise torques must balance.|M
+M|A body in stable equilibrium, when slightly displaced,|returns to its original position|moves further away|stays in its new position|breaks|1|Its centre of gravity rises when displaced.|M
+M|A body in unstable equilibrium, when slightly displaced,|returns to its original position|moves further away|stays in its new position|stops moving|2|Its centre of gravity falls when displaced.|M
+M|A body in neutral equilibrium, when slightly displaced,|returns to its original position|moves further away|stays in its new position|falls|3|Its centre of gravity stays at the same height.|M
+M|A body is more stable if its centre of gravity is|lower|higher|outside the body|moving|1|A lower centre of gravity makes it harder to topple.|E
+M|A body is more stable if its base is|wider|narrower|smaller|pointed|1|A wide base keeps the vertical line through the centre of gravity inside it.|E
+M|The resultant of two forces acting in the same direction is|their sum|their difference|their product|zero|1|The forces add up.|E
+M|The resultant of two forces acting in opposite directions is|their sum|their difference|their product|always zero|2|The larger force minus the smaller.|E
+M|The components of a force are usually taken|perpendicular to each other|parallel to each other|opposite to each other|equal to each other|1|Horizontal and vertical components are at right angles.|M
+M|The horizontal component of a force F at an angle θ to the horizontal is|F sin θ|F cos θ|F tan θ|F/θ|2|Fx = F cos θ.|M
+M|The vertical component of a force F at an angle θ to the horizontal is|F sin θ|F cos θ|F tan θ|F/θ|1|Fy = F sin θ.|M
+M|A spanner with a long handle makes it easier to turn a nut because|the torque is larger for the same force|the force is larger|the nut is smaller|friction is zero|1|A longer arm gives a larger torque.|E
+M|A door is easiest to open by pushing at|the handle far from the hinge|a point near the hinge|the hinge|the middle of the door|1|The torque is largest at the greatest distance from the hinge.|E
+M|A see-saw is balanced when|the moments on both sides are equal|the weights are equal always|the persons are the same height|the distances are zero|1|The principle of moments applies.|M
+M|A force whose line of action passes through the pivot has a torque of|zero|maximum|infinite|equal to the force|1|The perpendicular distance is zero.|M
+M|A ball on a flat horizontal table is in|stable equilibrium|unstable equilibrium|neutral equilibrium|no equilibrium|3|Pushing it only moves it, and its centre of gravity does not change height.|M
+M|A cone balanced on its tip is in|stable equilibrium|unstable equilibrium|neutral equilibrium|no equilibrium|2|Any small displacement makes it fall.|M
+M|A double-decker bus with a high load may topple easily because|its centre of gravity is high|its base is wide|it is slow|it is light|1|A high centre of gravity makes it unstable.|M
+M|Two equal and opposite forces acting along the same line produce|no rotation or translation|rotation only|translation only|both|1|They cancel each other completely.|H
+M|The moment of a couple equals|one force × perpendicular distance between the forces|the sum of the forces|the difference of the forces|zero|1|Moment of couple = F × d.|H
+M|A body that is at rest or moves with constant velocity is said to be in|equilibrium|rotation|acceleration|oscillation|1|The net force and net torque are zero.|M
+N|A force of 10 N acts at a perpendicular distance of 0.5 m from a pivot. Find the torque in N m.|5|Torque = 10 × 0.5 = 5.|E|10*0.5
+N|A force of 20 N acts at a perpendicular distance of 30 cm from a pivot. Find the torque in N m.|6|30 cm = 0.3 m, so torque = 20 × 0.3 = 6.|M|20*0.3
+N|On a see-saw, a 40 N weight is 2 m from the pivot. Find the weight in newtons that balances it at 1 m on the other side.|80|40 × 2 = W × 1, so W = 80.|M|40*2/1
+N|Two forces of 6 N and 8 N act at right angles. Find the resultant force in newtons.|10|√(36 + 64) = 10.|M|Math.sqrt(36+64)
+N|Two forces of 5 N and 3 N act in the same direction. Find the resultant in newtons.|8|5 + 3 = 8.|E|5+3
+N|Two forces of 5 N and 3 N act in opposite directions. Find the resultant in newtons.|2|5 − 3 = 2.|E|5-3
+N|A force of 100 N acts at 60° to the horizontal. Find its horizontal component in newtons using cos 60° = 0.5.|50|Fx = 100 × 0.5 = 50.|M|100*0.5
+N|A force of 100 N acts at 60° to the horizontal. Find its vertical component in newtons, correct to one decimal place.|86.6|Fy = 100 × sin 60° = 100 × 0.866 = 86.6.|H|100*Math.sqrt(3)/2
+N|A couple has two forces of 15 N each, 0.4 m apart. Find its moment in N m.|6|Moment = 15 × 0.4 = 6.|M|15*0.4
+N|A uniform metre rule is balanced at its 50 cm mark. A 2 N weight hangs at 20 cm. Find the weight in newtons that must hang at 80 cm to keep it balanced.|2|The distances from the pivot are equal at 30 cm, so the weights are equal.|H|2*30/30
+N|A 100 N weight is 1.5 m to the right of a pivot. Find the distance in metres at which a 150 N weight must be placed on the left to balance it.|1|100 × 1.5 = 150 × d, so d = 1.|M|100*1.5/150
+N|A wrench is pushed with 50 N at 0.2 m from the nut. Find the torque in N m.|10|50 × 0.2 = 10.|E|50*0.2
+N|A torque of 12 N m is produced by a 4 N force. Find the perpendicular distance in metres.|3|d = 12 ÷ 4 = 3.|M|12/4
+N|Weights of 10 N and 20 N balance a beam. The 20 N weight is 0.5 m from the pivot. Find the distance of the 10 N weight in metres.|1|10 × d = 20 × 0.5, so d = 1.|M|20*0.5/10
+S|Define torque.|The turning effect of a force about a point, equal to the force multiplied by the perpendicular distance from the pivot.|Its SI unit is the newton metre.|E
+S|State the principle of moments.|When a body is in equilibrium, the sum of the clockwise moments about any point equals the sum of the anticlockwise moments about that point.|It is used to find unknown forces or distances.|M
+S|Define the centre of gravity.|The point at which the whole weight of a body can be considered to act.|For a uniform rod it is at the mid-point.|E
+S|Define a couple.|Two equal, opposite and parallel forces that do not act along the same line, producing a turning effect.|Its moment is the force multiplied by the distance between the forces.|M
+S|State the two conditions of equilibrium.|The resultant force on the body must be zero, and the resultant torque about any point must be zero.|Together they mean the body does not accelerate or rotate faster.|M
+S|Name the three states of equilibrium.|Stable, unstable and neutral equilibrium.|They differ in what the body does when slightly displaced.|E
+
+# 5 Gravitation
+M|Newton's law of gravitation says that two bodies attract each other with a force that is|proportional to the product of their masses|proportional to the sum of their masses|independent of the masses|proportional to the distance|1|F is proportional to m₁m₂.|E
+M|The gravitational force between two masses m₁ and m₂ at distance r is|F = Gm₁m₂/r²|F = Gm₁m₂r²|F = Gm₁/m₂r|F = G(m₁ + m₂)/r|1|The force is inversely proportional to the square of the distance.|E
+M|The value of the universal gravitational constant G is about|6.67 × 10⁻¹¹ N m²/kg²|9.8 N m²/kg²|6.67 × 10¹¹ N m²/kg²|1 N m²/kg²|1|G = 6.67 × 10⁻¹¹ N m²/kg².|M
+M|The SI unit of G is|N m²/kg²|N kg/m²|N/m|kg/m³|1|From F = Gm₁m₂/r², G has units N m² kg⁻².|M
+M|The acceleration due to gravity on the surface of a planet of mass M and radius R is|GM/R²|GM/R|GR/M²|G/MR|1|g = GM/R².|M
+M|As we go higher above the Earth's surface, the value of g|increases|decreases|stays the same|becomes infinite|2|The distance from the centre increases.|E
+M|The value of g on the Moon is|more than on Earth|about one-sixth of that on Earth|equal to that on Earth|zero|2|The Moon has a smaller mass and radius.|E
+M|The weight of a body differs from place to place but its mass|stays constant|doubles|halves|becomes zero|1|Mass is a measure of matter, not of gravity.|E
+M|The gravitational force between two masses is always|attractive|repulsive|zero|magnetic|1|Gravity only attracts.|E
+M|If the distance between two masses is doubled, the gravitational force becomes|double|half|one quarter|four times|3|F is proportional to 1/r², so doubling r divides F by 4.|M
+M|If one of the masses is doubled, the gravitational force becomes|double|half|one quarter|unchanged|1|F is proportional to the mass.|M
+M|A satellite orbiting the Earth is kept in its orbit by|gravitational force acting as centripetal force|its engine|air resistance|friction|1|Gravity provides the centripetal force.|M
+M|A geostationary satellite has a time period of|90 minutes|12 hours|24 hours|365 days|3|It takes 24 hours, the same as the Earth.|M
+M|A geostationary satellite orbits above the|equator|North Pole|South Pole|tropic of Cancer|1|It must orbit in the equatorial plane.|M
+M|An artificial satellite is|a man-made object orbiting a planet|the Moon|a star|a comet|1|It is launched by humans.|E
+M|The Moon is a|natural satellite of the Earth|artificial satellite|star|planet|1|It orbits the Earth naturally.|E
+M|The orbital velocity of a satellite at distance r from the centre of the Earth of mass M is|√(GM/r)|GM/r|GM/r²|GMr|1|Setting gravity equal to centripetal force gives v = √(GM/r).|H
+M|The value of g is greater at the poles than at the equator because|the Earth is slightly flattened at the poles|the poles are warmer|there is less air|the Earth spins faster there|1|The poles are nearer the centre of the Earth.|H
+M|The mass of the Earth is about|6 × 10²⁴ kg|6 × 10⁴ kg|6 × 10¹² kg|6 kg|1|M ≈ 6 × 10²⁴ kg.|M
+M|The radius of the Earth is about|640 km|6400 km|64 000 km|640 000 km|2|R ≈ 6400 km.|M
+M|Astronauts in an orbiting spacecraft feel weightless because|they and the spacecraft are in free fall|there is no gravity in space|they are far from the Earth|the spacecraft is very large|1|Both fall together around the Earth.|H
+M|The gravitational force between two bodies acts|along the line joining their centres|perpendicular to that line|only on the larger body|only on the smaller body|1|It acts along the line joining their centres.|M
+M|The gravitational forces on two bodies attracting each other are|equal and opposite|unequal|in the same direction|zero|1|By Newton's third law they are equal and opposite.|M
+M|The value of g on a planet depends on the planet's|mass and radius|colour|distance from the Sun only|age|1|g = GM/R².|M
+M|The weight of a 1 kg mass on the Earth's surface is about|1 N|9.8 N|98 N|0.98 N|2|W = mg = 1 × 9.8.|E
+M|The Moon stays in orbit around the Earth because of|gravitational attraction|friction|magnetism|wind|1|Gravity pulls it towards the Earth.|E
+M|Ocean tides are caused mainly by the|gravitational pull of the Moon|wind|rotation of the Moon|magnetism|1|The Moon's gravity pulls on the water.|M
+M|Communication satellites are usually placed in|geostationary orbits|polar orbits only|the Moon's orbit|the ocean|1|They stay above one place on Earth.|M
+M|The escape velocity from the Earth is about|1.1 km/s|11.2 km/s|112 km/s|0.1 km/s|2|It is about 11.2 km/s.|H
+M|The force of gravitation between two objects does not depend on|the colour of the objects|their masses|the distance between them|the constant G|1|Only the masses and distance matter.|M
+N|Taking g = 10 m/s², find the weight in newtons of a 5 kg mass on the Earth.|50|W = mg = 5 × 10 = 50.|E|5*10
+N|Taking g = 1.6 m/s² on the Moon, find the weight in newtons of a 10 kg mass.|16|W = 10 × 1.6 = 16.|E|10*1.6
+N|The gravitational force between two masses is 16 N. Find the new force in newtons if the distance is doubled.|4|The force becomes one quarter: 16 ÷ 4 = 4.|M|16/4
+N|The gravitational force between two masses is 3 N. Find the new force in newtons if both masses are doubled.|12|The force becomes four times: 3 × 4 = 12.|M|3*4
+N|Using g = GM/R² with G = 6.67 × 10⁻¹¹, M = 6 × 10²⁴ kg and R = 6.4 × 10⁶ m, find g in m/s², correct to two decimal places.|9.77|g = 6.67 × 10⁻¹¹ × 6 × 10²⁴ ÷ (6.4 × 10⁶)² = 9.77.|H|6.67e-11*6e24/(6.4e6*6.4e6)
+N|A satellite takes 90 minutes for one orbit. Find the number of orbits it completes in 24 hours.|16|24 × 60 ÷ 90 = 16.|M|24*60/90
+N|On a planet g = 5 m/s². Find the weight in newtons of a 60 kg mass.|300|W = 60 × 5 = 300.|E|60*5
+N|The Moon's g is one-sixth of 9.6 m/s². Find it in m/s².|1.6|9.6 ÷ 6 = 1.6.|M|9.6/6
+N|Taking g = 1.6 m/s² on the Moon, find the weight in newtons of a 70 kg person.|112|W = 70 × 1.6 = 112.|E|70*1.6
+N|The gravitational force between two masses is 18 N. Find the new force in newtons if the distance is tripled.|2|The force becomes one ninth: 18 ÷ 9 = 2.|M|18/9
+N|A body weighs 490 N where g = 9.8 m/s². Find its mass in kilograms.|50|m = W/g = 490 ÷ 9.8 = 50.|M|490/9.8
+N|Taking g = 10 m/s² and R = 6.4 × 10⁶ m, find the speed in m/s of a satellite orbiting close to the Earth using v = √(gR).|8000|v = √(10 × 6.4 × 10⁶) = 8000.|H|Math.sqrt(10*6.4e6)
+N|Taking g = 9.8 m/s², find the weight in newtons of a 1 kg mass.|9.8|W = 1 × 9.8 = 9.8.|E|1*9.8
+N|A 2 kg mass is at the Earth's surface where g = 9.8 m/s². Find its weight in newtons.|19.6|W = 2 × 9.8 = 19.6.|E|2*9.8
+S|State Newton's law of gravitation.|Every body in the universe attracts every other body with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.|F = Gm₁m₂/r².|M
+S|Define g, the acceleration due to gravity.|The acceleration with which a freely falling body moves towards the Earth, about 9.8 m/s² near its surface.|It equals GM/R² for a planet of mass M and radius R.|E
+S|Why is the weight of a body on the Moon less than on the Earth?|The Moon's g is about one-sixth of the Earth's g, and weight is W = mg, while the mass stays the same.|The Moon has a smaller mass and a smaller radius.|M
+S|What is a geostationary satellite?|A satellite that orbits above the equator with a time period of 24 hours, so it stays above the same point on Earth.|It is used for communication and television.|M
+S|State the difference between mass and weight.|Mass is the amount of matter in a body and is constant everywhere. Weight is the gravitational force on the body and changes with g.|Mass is measured in kilograms and weight in newtons.|M
+S|Define the orbital velocity of a satellite.|The speed with which a satellite must move to stay in a circular orbit around a planet.|At distance r from the centre it is √(GM/r).|M
+
+# 6 Work and Energy
+M|Work done by a force is|force × displacement in the direction of the force|force ÷ displacement|force × time|mass × acceleration|1|W = F × d when the force and displacement are in the same direction.|E
+M|The SI unit of work is the|newton|joule|watt|pascal|2|The joule is the unit of work and energy.|E
+M|One joule is equal to|1 N m|1 N/m|1 kg m|1 W s⁻¹|1|1 J = 1 N × 1 m.|E
+M|Work is a|scalar quantity|vector quantity|force|velocity|1|Work has magnitude only.|E
+M|The work done by a force acting at 90° to the displacement is|zero|maximum|equal to the force|equal to the displacement|1|W = Fd cos 90° = 0.|M
+M|Energy is defined as|the capacity to do work|the rate of doing work|a force|a velocity|1|A body with energy can do work.|E
+M|The SI unit of energy is the|joule|watt|newton|kelvin|1|Energy has the same unit as work.|E
+M|The kinetic energy of a body of mass m and velocity v is|½mv²|mv²|mv|mgh|1|KE = ½mv².|E
+M|The potential energy of a body of mass m at height h is|mgh|½mgh|mg/h|mh/g|1|PE = mgh.|E
+M|If the velocity of a body is doubled, its kinetic energy becomes|doubled|four times|half|eight times|2|KE is proportional to v².|M
+M|If the mass of a moving body is doubled at the same speed, its kinetic energy|doubles|halves|stays the same|becomes four times|1|KE is proportional to m.|M
+M|The law of conservation of energy says that energy can|neither be created nor destroyed, only changed from one form to another|be created|be destroyed|only be stored|1|The total energy of an isolated system is constant.|E
+M|Power is defined as|the rate of doing work|work × time|force × time|energy × time|1|P = W/t.|E
+M|The SI unit of power is the|joule|watt|newton|pascal|2|One watt is one joule per second.|E
+M|One kilowatt equals|10 W|100 W|1000 W|10 000 W|3|1 kW = 1000 W.|E
+M|One horsepower is about|7.46 W|74.6 W|746 W|7460 W|3|1 hp ≈ 746 W.|M
+M|The efficiency of a machine is|useful output ÷ input|input ÷ output|output × input|output − input|1|Efficiency = useful energy output ÷ total energy input.|M
+M|The efficiency of a real machine is always|more than 100 percent|less than 100 percent|exactly 100 percent|zero|2|Some energy is always lost, usually as heat.|M
+M|A non-renewable source of energy is|coal|the Sun|wind|water|1|Coal, oil and gas will eventually run out.|E
+M|A renewable source of energy is|oil|natural gas|solar energy|coal|3|Solar energy is replenished constantly.|E
+M|When a ball falls freely, its potential energy|decreases and its kinetic energy increases|increases and its kinetic energy decreases|stays the same|becomes zero at the start|1|Potential energy is converted into kinetic energy.|M
+M|A dry cell converts|chemical energy into electrical energy|electrical energy into chemical energy|heat into light|sound into light|1|A cell stores chemical energy.|E
+M|An electric bulb converts electrical energy mainly into|light and heat|sound|chemical energy|nuclear energy|1|It produces light and a lot of heat.|E
+M|In a hydroelectric power station, the energy of falling water is converted into|electrical energy|chemical energy|nuclear energy|sound only|1|The water turns turbines connected to generators.|M
+M|A moving body possesses|kinetic energy|only potential energy|no energy|only heat|1|Motion gives a body kinetic energy.|E
+M|A stretched spring has|potential energy|no energy|kinetic energy only|sound energy|1|It stores elastic potential energy.|M
+M|The work done in lifting a body of weight W through height h is|Wh|W/h|W + h|W − h|1|Work = force × distance = Wh.|M
+M|A body of mass m is raised through h. The increase in its potential energy equals|mgh|½mgh|mh|mg|1|PE = mgh.|M
+M|Energy cannot be|created or destroyed|stored|transferred|converted|1|The law of conservation of energy.|M
+M|A machine with a power of 1 kW does work at the rate of|1 J per second|10 J per second|100 J per second|1000 J per second|4|1 kW = 1000 W = 1000 J/s.|M
+N|A force of 20 N moves a body 5 m in its own direction. Find the work done in joules.|100|W = Fd = 20 × 5 = 100.|E|20*5
+N|Find the kinetic energy in joules of a 2 kg body moving at 3 m/s.|9|KE = ½ × 2 × 9 = 9.|E|0.5*2*9
+N|Find the kinetic energy in joules of a 4 kg body moving at 5 m/s.|50|KE = ½ × 4 × 25 = 50.|M|0.5*4*25
+N|Taking g = 10 m/s², find the potential energy in joules of a 5 kg mass at a height of 4 m.|200|PE = mgh = 5 × 10 × 4 = 200.|E|5*10*4
+N|A machine does 600 J of work in 10 s. Find its power in watts.|60|P = 600 ÷ 10 = 60.|E|600/10
+N|An engine of power 500 W works for 20 s. Find the work done in joules.|10000|W = Pt = 500 × 20 = 10 000.|M|500*20
+N|A machine takes in 1000 J and gives out 800 J of useful work. Find its efficiency in percent.|80|Efficiency = 800 ÷ 1000 × 100 = 80.|M|800/1000*100
+N|A body of mass 2 kg is dropped from a height of 5 m. Taking g = 10 m/s², find its speed in m/s just before it lands.|10|From mgh = ½mv², v = √(2gh) = √100 = 10.|H|Math.sqrt(2*10*5)
+N|A body of mass 10 kg is lifted 3 m. Taking g = 10 m/s², find the work done in joules.|300|W = mgh = 10 × 10 × 3 = 300.|E|10*10*3
+N|Find the power in watts needed to lift a 50 kg load 6 m in 10 s. Take g = 10 m/s².|300|Work = 50 × 10 × 6 = 3000 J, so P = 3000 ÷ 10 = 300.|H|50*10*6/10
+N|A bulb of power 60 W is switched on for 5 hours. Find the energy used in watt-hours.|300|Energy = 60 × 5 = 300 W h.|M|60*5
+N|A body has a kinetic energy of 50 J and a mass of 4 kg. Find its speed in m/s.|5|v = √(2 × 50 ÷ 4) = 5.|H|Math.sqrt(2*50/4)
+N|Express 3 kW in watts.|3000|3 × 1000 = 3000.|E|3*1000
+N|A boy of mass 40 kg climbs 10 m of stairs in 20 s. Taking g = 10 m/s², find his power in watts.|200|Work = 40 × 10 × 10 = 4000 J, so P = 4000 ÷ 20 = 200.|H|40*10*10/20
+S|Define work and state its SI unit.|Work is the product of force and the displacement of its point of application in the direction of the force. Its SI unit is the joule.|One joule is the work done when a force of 1 N moves a body through 1 m.|E
+S|Define kinetic energy and state its formula.|The energy a body has because of its motion, KE = ½mv².|It depends on the mass and the square of the speed.|E
+S|Define potential energy and state its formula.|The energy a body has because of its position or state, such as PE = mgh for height h.|It is stored energy that can be changed into other forms.|E
+S|State the law of conservation of energy.|Energy can neither be created nor destroyed. It can only be converted from one form to another.|The total energy of an isolated system remains constant.|M
+S|Define power and state its SI unit.|Power is the rate of doing work, P = W/t. Its SI unit is the watt.|One watt is one joule per second.|E
+S|Define efficiency.|The ratio of the useful output energy to the total input energy, usually given as a percentage.|No real machine is 100 percent efficient.|M

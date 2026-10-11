@@ -1,0 +1,156 @@
+@level Class 10
+@subject Biology
+
+# 4 Support and Movement
+M|The skeleton of a human provides|support, protection and movement|digestion|respiration|excretion only|1|Bones also store minerals and make blood cells.|E
+M|The number of bones in an adult human skeleton is|206|300|150|100|1|A newborn baby has about 300 bones, some of which fuse.|E
+M|The skeleton is divided into the|axial and appendicular skeleton|front and back skeleton|upper and lower skeleton only|inner and outer skeleton|1|The axial skeleton is the skull, spine and ribs.|M
+M|The axial skeleton includes the|skull, vertebral column and rib cage|arms and legs|hands and feet only|pelvic girdle only|1|It forms the main axis of the body.|M
+M|The appendicular skeleton includes the|limbs and girdles|skull|vertebral column|ribs|1|It includes the arms, legs, pectoral and pelvic girdles.|M
+M|The number of vertebrae in the human vertebral column is|33|7|12|24|1|7 cervical, 12 thoracic, 5 lumbar, 5 sacral and 4 coccygeal.|M
+M|The number of cervical vertebrae in the neck is|7|12|5|4|1|There are seven neck vertebrae.|M
+M|The number of pairs of ribs in humans is|12|7|10|14|1|There are 24 ribs altogether.|E
+M|The bone of the upper arm is the|humerus|femur|radius|tibia|1|It runs from the shoulder to the elbow.|E
+M|The bone of the thigh is the|femur|humerus|ulna|fibula|1|It is the longest bone of the body.|E
+M|The longest bone in the body is the|femur|humerus|tibia|radius|1|It is the thigh bone.|E
+M|The bones of the forearm are the|radius and ulna|tibia and fibula|femur and patella|humerus and clavicle|1|The radius and ulna lie between the elbow and the wrist.|E
+M|The bones of the lower leg are the|tibia and fibula|radius and ulna|humerus and femur|scapula and clavicle|1|The tibia is the shin bone.|E
+M|The kneecap is called the|patella|scapula|clavicle|sternum|1|It protects the knee joint.|E
+M|The collar bone is the|clavicle|scapula|sternum|femur|1|It joins the shoulder to the sternum.|E
+M|The shoulder blade is the|scapula|clavicle|sternum|humerus|1|It is a flat triangular bone.|E
+M|The breastbone is the|sternum|clavicle|femur|patella|1|It joins the ribs at the front.|E
+M|Bones are made mainly of|calcium phosphate and collagen|only collagen|only iron|only sodium|1|The minerals make them hard.|E
+M|Cartilage is|a flexible tissue found at joints and in the ear and nose|a hard tissue|a muscle|a nerve|1|It reduces friction at joints.|E
+M|Ligaments connect|bone to bone|muscle to bone|muscle to muscle|nerve to bone|1|They hold the joints together.|E
+M|Tendons connect|muscle to bone|bone to bone|nerve to muscle|skin to bone|1|They transmit the force of muscle contraction.|E
+M|A joint is the place where|two or more bones meet|a muscle ends|a nerve starts|blood is made|1|It allows movement.|E
+M|The shoulder and hip are examples of|ball and socket joints|hinge joints|pivot joints|gliding joints|1|They allow movement in many directions.|E
+M|The elbow and knee are examples of|hinge joints|ball and socket joints|pivot joints|gliding joints|1|They allow movement in one plane.|E
+M|The joint between the atlas and axis vertebrae of the neck is a|pivot joint|hinge joint|ball and socket joint|fixed joint|1|It allows the head to turn.|M
+M|The joints between the bones of the skull are|fixed (immovable) joints|ball and socket|hinge joints|pivot joints|1|They are sutures.|M
+M|Synovial fluid in a joint|lubricates it|digests it|colours it|cools it|1|It reduces friction.|E
+M|Muscles work in pairs, which are called|antagonistic muscles|synergistic muscles|bones|ligaments|1|One contracts while the other relaxes.|E
+M|When the biceps contracts, the forearm|bends (flexes)|straightens (extends)|rotates only|stays still|1|The triceps relaxes.|E
+M|When the triceps contracts, the forearm|straightens (extends)|bends|stays still|rotates only|1|The biceps relaxes.|E
+M|Skeletal muscle is|voluntary and striated|involuntary and smooth|involuntary and striated|voluntary and smooth|1|It is attached to bones.|M
+M|Cardiac muscle is found in the|heart|stomach|bladder|arteries|1|It is involuntary and never tires.|E
+M|Smooth muscle is found in the|walls of the intestine and blood vessels|biceps|heart|tongue only|1|It is involuntary.|M
+M|Osteoporosis is a condition in which|bones become weak and brittle|bones grow too fast|muscles waste|joints fuse|1|It is caused by a loss of calcium.|M
+M|Arthritis is an inflammation of the|joints|muscles|nerves|skin|1|It causes pain and stiffness.|E
+M|Rickets is caused by a deficiency of|vitamin D|vitamin C|vitamin A|vitamin K|1|The bones of children become soft and bend.|E
+M|A break in a bone is called a|fracture|sprain|strain|dislocation|1|It needs medical care.|E
+M|Plants are supported by|turgor pressure and strengthening tissues|bones|a skeleton|shells|1|Water in the cells keeps them firm.|E
+N|A newborn baby has about 300 bones and an adult has 206. Find the number of bones that fuse.|94|300 − 206 = 94.|M|300-206
+N|Find the total number of ribs in a person with 12 pairs.|24|12 × 2 = 24.|E|12*2
+N|Find the number of vertebrae made up of the cervical (7), thoracic (12) and lumbar (5) groups together.|24|7 + 12 + 5 = 24.|M|7+12+5
+N|The human hand has 27 bones in total, 14 of them in the fingers. Find the number of bones in the wrist and palm.|13|27 − 14 = 13.|M|27-14
+N|The skull has 22 bones, 8 in the cranium. Find the number of facial bones.|14|22 − 8 = 14.|M|22-8
+N|The spine of an adult is 70 cm long. The discs make up about one quarter. Find the length of the discs in cm.|17.5|70 ÷ 4 = 17.5.|H|70/4
+S|State three functions of the skeleton.|It supports the body, protects delicate organs such as the brain and heart, and allows movement. It also makes blood cells and stores minerals.|These functions are essential.|E
+S|Distinguish between a ligament and a tendon.|A ligament joins one bone to another bone. A tendon joins a muscle to a bone.|Both are made of connective tissue.|M
+S|Name four types of joints with an example of each.|Ball and socket (shoulder), hinge (elbow), pivot (neck) and fixed (skull).|They allow different movements.|M
+S|Explain how the arm bends and straightens.|The biceps and triceps are antagonistic muscles. When the biceps contracts and the triceps relaxes, the arm bends. When the triceps contracts and the biceps relaxes, it straightens.|The muscles are attached to bones by tendons.|M
+S|What is osteoporosis?|A disease in which the bones become weak and brittle because they lose calcium and other minerals.|It is more common in old age.|M
+S|How are plants supported?|By turgor pressure in their cells and by strengthening tissues such as xylem and sclerenchyma.|A plant wilts when it loses water.|M
+
+# 5 Reproduction
+M|Reproduction is the|production of new individuals of the same species|digestion of food|growth of a plant|death of a cell|1|It keeps the species alive.|E
+M|Reproduction that involves only one parent is called|asexual reproduction|sexual reproduction|fertilisation|pollination|1|The offspring are genetically identical to the parent.|E
+M|Reproduction that involves two gametes is called|sexual reproduction|asexual reproduction|budding|binary fission|1|The offspring show variation.|E
+M|Binary fission occurs in|amoeba and bacteria|humans|birds|flowering plants|1|The cell splits into two.|E
+M|Budding occurs in|yeast and hydra|humans|rabbits|birds|1|A new individual grows out of the parent.|E
+M|Spore formation is seen in|fungi like mushrooms and moulds|mammals|birds|insects|1|Spores are tiny reproductive cells.|E
+M|Vegetative propagation by runners occurs in|strawberry|wheat|rice|peas|1|New plants grow from stems that run along the ground.|M
+M|Vegetative propagation by tubers occurs in|potato|rose|mango|onion|1|Eyes on the tuber grow into new plants.|M
+M|An advantage of asexual reproduction is that|it is quick and needs one parent|it produces a lot of variation|it needs gametes|it needs pollination|1|It does not need a mate.|E
+M|An advantage of sexual reproduction is that|it produces variation|it needs only one parent|it is faster|it makes clones|1|Variation helps species survive changes.|E
+M|The male gamete in humans is the|sperm|ovum|zygote|embryo|1|It is made in the testes.|E
+M|The female gamete in humans is the|ovum (egg)|sperm|zygote|foetus|1|It is made in the ovaries.|E
+M|Sperms are made in the|testes|ovaries|uterus|prostate|1|They are produced in the seminiferous tubules.|E
+M|Eggs are made in the|ovaries|testes|uterus|vagina|1|One egg is released each month.|E
+M|Fertilisation in humans normally takes place in the|fallopian tube (oviduct)|uterus|vagina|ovary|1|The sperm meets the egg in the oviduct.|M
+M|The fusion of the male and female gametes is called|fertilisation|ovulation|menstruation|pollination|1|It forms the zygote.|E
+M|The fertilised egg is called the|zygote|embryo|foetus|gamete|1|It divides to form an embryo.|E
+M|The embryo implants in the wall of the|uterus|ovary|fallopian tube|vagina|1|The uterus is the womb.|E
+M|The organ that supplies food and oxygen to the developing baby is the|placenta|ovary|uterus lining only|heart|1|It connects the mother and the foetus.|E
+M|The umbilical cord connects|the foetus to the placenta|the ovary to the uterus|the uterus to the vagina|the testis to the penis|1|It carries blood to and from the foetus.|E
+M|The length of the human pregnancy is about|9 months|3 months|12 months|6 weeks|1|It is about 40 weeks or 280 days.|E
+M|The release of an egg from the ovary is called|ovulation|fertilisation|menstruation|implantation|1|It happens around day 14 of the cycle.|E
+M|The length of a typical menstrual cycle is about|28 days|7 days|14 days|60 days|1|It can vary from person to person.|E
+M|Menstruation is the|monthly loss of the uterus lining|release of an egg|fertilisation|birth|1|It is the beginning of the cycle.|E
+M|The hormone responsible for male characteristics is|testosterone|oestrogen|progesterone|insulin|1|It is produced in the testes.|E
+M|A disease transmitted by sexual contact is|HIV/AIDS|malaria|tuberculosis|cholera|1|It is a sexually transmitted infection.|E
+M|The male part of a flower is the|stamen|carpel|petal|sepal|1|It consists of the anther and filament.|E
+M|The female part of a flower is the|carpel (pistil)|stamen|petal|sepal|1|It consists of the stigma, style and ovary.|E
+M|Pollen grains are produced in the|anther|stigma|ovary|style|1|They contain the male gametes.|E
+M|The transfer of pollen from an anther to a stigma is called|pollination|fertilisation|germination|respiration|1|It can be by wind, insects or water.|E
+M|Pollination of a flower by the pollen of the same flower is called|self-pollination|cross-pollination|fertilisation|germination|1|It involves one plant.|E
+M|After fertilisation, the ovule develops into the|seed|fruit|flower|stamen|1|The ovary becomes the fruit.|E
+M|After fertilisation, the ovary develops into the|fruit|seed|flower|stem|1|It protects the seeds.|E
+M|The process by which a seed begins to grow is called|germination|pollination|fertilisation|ovulation|1|It needs water, oxygen and warmth.|E
+M|The conditions necessary for the germination of seeds are|water, oxygen and a suitable temperature|only light|only soil|only fertiliser|1|Light is not needed by most seeds.|E
+M|The part of the seed that develops into the root is the|radicle|plumule|cotyledon|testa|1|It emerges first.|M
+M|The part of the seed that develops into the shoot is the|plumule|radicle|cotyledon|testa|1|It grows upwards.|M
+M|Insect-pollinated flowers usually have|brightly coloured petals and nectar|small green petals|no scent|lots of light pollen|1|These attract insects.|M
+M|Wind-pollinated flowers usually have|small petals and light pollen|big colourful petals|nectar|strong scent|1|The pollen is carried by the wind.|M
+N|Find the length of a pregnancy in days if it lasts 40 weeks.|280|40 × 7 = 280.|E|40*7
+N|In a 28-day menstrual cycle, an egg is released at the middle. Find the day of ovulation.|14|28 ÷ 2 = 14.|E|28/2
+N|A zygote has 46 chromosomes. Find the number of chromosomes in the sperm that contributed to it.|23|Each gamete has half: 46 ÷ 2 = 23.|M|46/2
+N|Of 50 seeds sown, 45 germinate. Find the percentage that germinate.|90|45 ÷ 50 × 100 = 90.|E|45/50*100
+N|A bacterium divides every 20 minutes. Find the number of cells after 2 hours starting from one cell.|64|There are 6 divisions: 2⁶ = 64.|H|2^6
+N|A human male makes about 200 million sperms per ejaculation. Find the number in millions of sperms in 5 such releases.|1000|200 × 5 = 1000.|M|200*5
+S|Distinguish between asexual and sexual reproduction.|Asexual reproduction involves one parent and produces identical offspring. Sexual reproduction involves two parents and the fusion of gametes, and produces offspring that show variation.|Sexual reproduction increases variation.|M
+S|Name the parts of the male reproductive system.|Testes, epididymis, sperm duct (vas deferens), prostate gland, urethra and penis.|The testes make sperms.|M
+S|Name the parts of the female reproductive system.|Ovaries, oviducts (fallopian tubes), uterus, cervix and vagina.|The ovaries make eggs.|M
+S|Define pollination and name two agents.|The transfer of pollen from an anther to a stigma. Wind and insects are agents of pollination.|Water and birds also pollinate some flowers.|E
+S|State the conditions necessary for seed germination.|Water, oxygen and a suitable temperature.|Light is not necessary for most seeds.|E
+S|What is the function of the placenta?|It allows the exchange of food, oxygen and wastes between the mother's blood and the foetus's blood, without the two bloods mixing.|It also makes hormones.|M
+
+# 6 Inheritance
+M|Inheritance is the|passing of characteristics from parents to offspring|breaking of food|growth of cells|digestion|1|It is also called heredity.|E
+M|The scientist known as the father of genetics is|Gregor Mendel|Charles Darwin|Louis Pasteur|Robert Hooke|1|He worked on pea plants.|E
+M|Mendel carried out his experiments on|pea plants|rats|fruit flies|bacteria|1|Garden peas (Pisum sativum) were his subject.|E
+M|A gene is|a section of DNA that codes for a protein|a type of cell|a type of organ|a kind of tissue|1|It is the unit of heredity.|E
+M|Different forms of a gene are called|alleles|genomes|chromosomes|zygotes|1|For example T and t.|E
+M|An allele that shows its effect even in the presence of another allele is|dominant|recessive|mutant|neutral|1|It is usually shown by a capital letter.|E
+M|An allele that shows its effect only when no dominant allele is present is|recessive|dominant|mutant|neutral|1|It is shown by a small letter.|E
+M|The genetic make-up of an individual is its|genotype|phenotype|karyotype|phylum|1|Example: Tt.|E
+M|The observable characteristics of an individual are its|phenotype|genotype|allele|gene|1|Example: tall.|E
+M|An individual with two identical alleles for a gene is|homozygous|heterozygous|hemizygous|mutant|1|Example: TT or tt.|E
+M|An individual with two different alleles for a gene is|heterozygous|homozygous|haploid|dominant|1|Example: Tt.|E
+M|When a tall plant (TT) is crossed with a short plant (tt), all the offspring in the F1 generation are|tall (Tt)|short|half tall and half short|dwarf|1|Tall is dominant.|M
+M|When Tt is crossed with Tt, the phenotypic ratio in the offspring is|3 tall : 1 short|1 tall : 1 short|1 tall : 3 short|all tall|1|This is Mendel's 3 : 1 ratio.|M
+M|When Tt is crossed with Tt, the genotypic ratio in the offspring is|1 TT : 2 Tt : 1 tt|3 TT : 1 tt|1 TT : 1 tt|all Tt|1|This is the 1 : 2 : 1 ratio.|M
+M|A test cross is used to find out whether a dominant individual is|homozygous or heterozygous|male or female|young or old|healthy or diseased|1|It is crossed with a homozygous recessive.|H
+M|Mendel's first law is the law of|segregation|independent assortment|dominance only|mutation|1|The two alleles of a gene separate during gamete formation.|M
+M|Mendel's second law is the law of|independent assortment|segregation|linkage|dominance|1|Genes for different traits are inherited independently.|M
+M|In incomplete dominance, the heterozygote|shows an intermediate phenotype|shows the dominant phenotype|shows the recessive phenotype|dies|1|A red and a white flower give pink.|H
+M|The number of chromosomes in a human body cell is|46|23|44|48|1|There are 23 pairs.|E
+M|The sex chromosomes of a human female are|XX|XY|YY|XO|1|The two X chromosomes are alike.|E
+M|The sex chromosomes of a human male are|XY|XX|YY|XO|1|Males have one X and one Y.|E
+M|The sex of a child is decided by the|father's sperm|mother's egg|doctor|environment|1|The sperm carries either X or Y.|E
+M|The probability that a child will be a boy is|50 percent|25 percent|75 percent|100 percent|1|Half of the sperms carry Y.|E
+M|Colour blindness is inherited as a|sex-linked recessive trait|dominant trait|trait on the Y chromosome|trait without a gene|1|It is carried on the X chromosome.|M
+M|Haemophilia is a|sex-linked recessive disorder|dominant disorder|infection|vitamin deficiency|1|The blood does not clot normally.|M
+M|Down syndrome is caused by|an extra copy of chromosome 21|a missing X chromosome|an infection|a vitamin deficiency|1|The person has 47 chromosomes.|M
+M|Turner syndrome is caused by|a missing X chromosome in females|an extra Y|an extra chromosome 21|a virus|1|The person has 45 chromosomes.|H
+M|DNA stands for|deoxyribonucleic acid|ribonucleic acid|deoxyribose nitrogen acid|dioxynucleic acid|1|It carries the genetic code.|E
+M|The shape of the DNA molecule is a|double helix|single strand|circle only|triangle|1|It was described by Watson and Crick.|E
+M|In DNA, adenine pairs with|thymine|guanine|cytosine|uracil|1|A pairs with T, and C with G.|M
+M|In DNA, cytosine pairs with|guanine|adenine|thymine|uracil|1|C pairs with G.|M
+M|A sudden change in the genetic material is called a|mutation|crossing over|fertilisation|replication|1|It can be harmful, harmless or beneficial.|E
+M|Variation in a species can be caused by|mutation and sexual reproduction|only food|only exercise|only water|1|Both produce new combinations of genes.|M
+M|Natural selection is the process by which|the individuals best suited to their environment survive and reproduce|all individuals survive|the weakest are always chosen|genes never change|1|It was proposed by Darwin.|M
+M|The theory of evolution by natural selection was proposed by|Charles Darwin|Gregor Mendel|Louis Pasteur|Hooke|1|He published On the Origin of Species.|E
+N|A cross between two heterozygous tall plants (Tt × Tt) gives 400 offspring. Find the expected number of tall offspring.|300|Three quarters are tall: 400 × 3/4 = 300.|M|400*3/4
+N|Tt × Tt gives 400 offspring. Find the expected number of short offspring.|100|One quarter are short: 400 ÷ 4 = 100.|M|400/4
+N|Find the percentage of offspring expected to be TT in a Tt × Tt cross.|25|One in four is TT.|M|1/4*100
+N|A person with Down syndrome has an extra chromosome. Find the total number of chromosomes.|47|46 + 1 = 47.|E|46+1
+N|In a DNA molecule, adenine makes up 30 percent of the bases. Find the percentage of guanine.|20|T is 30 percent, so A + T = 60 percent. G + C = 40 percent, so G = 20 percent.|H|(100-60)/2
+N|A DNA molecule has 1000 base pairs. Find the total number of bases.|2000|1000 × 2 = 2000.|E|1000*2
+S|Define the terms gene, allele, genotype and phenotype.|A gene is a unit of heredity. Alleles are alternative forms of a gene. The genotype is the genetic make-up and the phenotype is the observable characteristic.|For example Tt is a genotype and tall is a phenotype.|M
+S|State Mendel's law of segregation.|The two alleles of a gene separate when gametes are formed, so each gamete carries only one allele of each gene.|The alleles pair again at fertilisation.|M
+S|Show the cross between two heterozygous tall plants.|Tt × Tt gives TT, Tt, Tt and tt. This is 3 tall to 1 short, with a genotype ratio of 1 TT : 2 Tt : 1 tt.|The tall allele T is dominant.|M
+S|How is the sex of a child determined?|A mother's egg always carries an X chromosome. A father's sperm carries either X or Y. If an X sperm fertilises the egg the child is a girl (XX), and if a Y sperm does the child is a boy (XY).|The chances are equal.|M
+S|Describe the structure of DNA.|DNA is a double helix made of two strands of nucleotides. The bases adenine, thymine, cytosine and guanine pair as A with T and C with G.|It carries the genetic code.|M
+S|What is a mutation?|A sudden change in the DNA of a gene or chromosome. It can be caused by radiation or chemicals and can be passed on.|Some mutations are harmful.|E

@@ -1,0 +1,256 @@
+@level Class 9
+@subject Mathematics
+
+# 10 Introduction to Coordinate Geometry
+M|The distance between the points (0, 0) and (3, 4) is|5|7|12|1|1|Distance = √(3² + 4²) = √25 = 5.|E
+M|The distance between points (x₁, y₁) and (x₂, y₂) is|√((x₂ − x₁)² + (y₂ − y₁)²)|(x₂ − x₁) + (y₂ − y₁)|(x₂ + x₁)² + (y₂ + y₁)²|√(x₁x₂ + y₁y₂)|1|The distance formula comes from Pythagoras' theorem.|M
+M|The mid-point of the line segment joining (x₁, y₁) and (x₂, y₂) is|((x₁ + x₂)/2, (y₁ + y₂)/2)|((x₁ − x₂)/2, (y₁ − y₂)/2)|(x₁x₂, y₁y₂)|((x₁ + x₂), (y₁ + y₂))|1|Average the x-coordinates and average the y-coordinates.|E
+M|The mid-point of the points (2, 4) and (6, 8) is|(4, 6)|(8, 12)|(2, 2)|(3, 5)|1|((2 + 6)/2, (4 + 8)/2) = (4, 6).|E
+M|The distance between (1, 1) and (1, 5) is|2|4|5|6|2|The points have the same x-coordinate, so the distance is the difference in y: 5 − 1 = 4.|E
+M|The distance between (2, 3) and (5, 3) is|2|3|5|8|2|The points have the same y-coordinate, so the distance is 5 − 2 = 3.|E
+M|The distance of the point (6, 8) from the origin is|10|14|2|48|1|Distance = √(6² + 8²) = √100 = 10.|E
+M|The distance of the point (−3, 4) from the origin is|1|5|7|25|2|Distance = √((−3)² + 4²) = √25 = 5.|E
+M|The mid-point of the points (0, 0) and (4, 6) is|(4, 6)|(2, 3)|(1, 1.5)|(8, 12)|2|Halve each coordinate: (2, 3).|E
+M|The mid-point of the points (−2, −4) and (4, 2) is|(1, −1)|(2, −2)|(−1, 1)|(3, 3)|1|((−2 + 4)/2, (−4 + 2)/2) = (1, −1).|M
+M|If A = (1, 2) and the mid-point of AB is (3, 4), then B is|(2, 3)|(5, 6)|(4, 6)|(3, 4)|2|B = (2 × 3 − 1, 2 × 4 − 2) = (5, 6).|H
+M|Three points A, B and C are collinear if|AB + BC = AC for the appropriate order of the points|AB = BC = CA|AB² + BC² = AC²|they have equal x-coordinates only|1|If the points lie on one line, the two shorter distances add up to the longest.|H
+M|A triangle with all three sides equal is called|scalene|isosceles|equilateral|right|3|Equal sides on all three means equilateral.|E
+M|The distance between two points is always|negative|zero or positive|greater than 1|an integer|2|A distance is a length and cannot be negative.|M
+M|The distance from A to B is|equal to the distance from B to A|the negative of the distance from B to A|twice the distance from B to A|different from the distance from B to A|1|Distance does not depend on the direction.|M
+M|The distance formula is based on|Pythagoras' theorem|the sine rule|the area of a circle|the mid-point theorem|1|The horizontal and vertical differences form the legs of a right triangle.|M
+M|The distance between (3, 4) and (−3, 4) is|0|3|6|8|3|The y-coordinates are equal, so the distance is 3 − (−3) = 6.|E
+M|The distance between (0, 5) and (0, −3) is|2|5|8|3|3|The x-coordinates are equal, so the distance is 5 − (−3) = 8.|E
+M|The x-coordinate of the mid-point of a segment with end x-coordinates x₁ and x₂ is|(x₁ + x₂)/2|x₁ − x₂|x₁x₂|(x₁ − x₂)/2|1|It is the average of the two x-coordinates.|E
+M|The segment joining (1, 2) and (1, 8) is|horizontal|vertical|neither|a point|2|The x-coordinate does not change, so the segment is vertical.|E
+M|The segment joining (−1, 3) and (5, 3) is|horizontal|vertical|neither|a point|1|The y-coordinate does not change, so the segment is horizontal.|E
+M|The distance between (0, 0) and (5, 12) is|7|13|17|60|2|Distance = √(25 + 144) = √169 = 13.|M
+M|The distance between (1, 2) and (4, 6) is|3|4|5|7|3|Distance = √(3² + 4²) = 5.|M
+M|The mid-point of (a, b) and (c, d) is|((a + c)/2, (b + d)/2)|(a + c, b + d)|((a − c)/2, (b − d)/2)|(ac, bd)|1|Average the x-coordinates and the y-coordinates.|M
+M|The triangle with corners (0, 0), (4, 0) and (0, 3) has its right angle at|(0, 0)|(4, 0)|(0, 3)|no corner|1|The sides along the axes meet at the origin at right angles.|M
+M|The longest side of the triangle with corners (0, 0), (4, 0) and (0, 3) has length|3|4|5|7|3|The hypotenuse joins (4, 0) and (0, 3): √(16 + 9) = 5.|M
+M|Which point is at a distance of 5 from the origin?|(1, 2)|(2, 3)|(3, 4)|(4, 4)|3|√(3² + 4²) = 5.|M
+M|The distance between (−2, −3) and (−2, 4) is|1|5|7|−7|3|The x-coordinates are equal, so the distance is 4 − (−3) = 7.|M
+M|If the mid-point of (x, 3) and (5, 7) is (4, 5), then x equals|2|3|4|9|2|(x + 5)/2 = 4, so x + 5 = 8 and x = 3.|H
+M|The distance of the point (a, b) from the origin is|√(a² + b²)|a + b|a² + b²|√(a + b)|1|The distance formula with the second point at (0, 0).|M
+M|The points (0, 0), (2, 2) and (4, 4) lie on|a vertical line|a horizontal line|the line y = x|a circle|3|In each point y = x, so all three lie on that line.|M
+M|The mid-point of a line segment divides it into|two equal parts|two parts in the ratio 1 : 2|three parts|two unequal parts|1|The mid-point is equally far from both ends.|E
+M|The quadrilateral with corners (0, 0), (2, 0), (2, 2) and (0, 2) is a|square|rhombus that is not a square|triangle|trapezium|1|All sides have length 2 and the angles are right angles.|M
+M|The distance between (3, −2) and (3, 5) is|3|5|7|−7|3|The x-coordinates are equal, so the distance is 5 − (−2) = 7.|E
+N|Find the distance between (1, 2) and (4, 6).|5|The differences are 3 and 4, so the distance is √(9 + 16) = 5.|M|Math.sqrt(9+16)
+N|Find the distance between (−1, −1) and (2, 3).|5|The differences are 3 and 4, so the distance is √(9 + 16) = 5.|M|Math.sqrt(9+16)
+N|Find the distance between (0, 0) and (8, 15).|17|Distance = √(64 + 225) = √289 = 17.|M|Math.sqrt(64+225)
+N|Find the x-coordinate of the mid-point of (2, 5) and (8, 9).|5|(2 + 8)/2 = 5.|E|(2+8)/2
+N|Find the y-coordinate of the mid-point of (2, 5) and (8, 9).|7|(5 + 9)/2 = 7.|E|(5+9)/2
+N|The mid-point of AB is (3, −1) and A = (1, −3). Find the x-coordinate of B.|5|(1 + x)/2 = 3, so x = 5.|H|2*3-1
+N|The mid-point of AB is (3, −1) and A = (1, −3). Find the y-coordinate of B.|1|(−3 + y)/2 = −1, so y = −2 + 3 = 1.|H|2*(-1)-(-3)
+N|Find the distance between (−5, 1) and (7, 6).|13|The differences are 12 and 5, so the distance is √(144 + 25) = 13.|H|Math.sqrt(144+25)
+N|Find the perimeter of the triangle with corners (0, 0), (3, 0) and (0, 4).|12|The sides are 3, 4 and 5, so the perimeter is 12.|M|3+4+Math.sqrt(9+16)
+N|Find the area of the rectangle with corners (0, 0), (5, 0), (5, 3) and (0, 3).|15|The length is 5 and the width is 3, so the area is 15.|E|5*3
+S|State the distance formula.|The distance between (x₁, y₁) and (x₂, y₂) is √((x₂ − x₁)² + (y₂ − y₁)²).|It follows from Pythagoras' theorem applied to the horizontal and vertical differences.|M
+S|Find the mid-point of the points (−4, 6) and (2, −2).|(−1, 2)|((−4 + 2)/2, (6 − 2)/2) = (−1, 2).|M
+S|Are the points (0, 0), (1, 1) and (2, 2) collinear? Give a reason.|Yes. The distances are √2, √2 and 2√2, and √2 + √2 = 2√2.|When the two shorter distances add up to the longest, the points lie on one line.|H
+S|Find the distance between (2, −1) and (−1, 3).|5|The differences are 3 and 4, so the distance is √(9 + 16) = 5.|M
+S|State the mid-point formula.|The mid-point of (x₁, y₁) and (x₂, y₂) is ((x₁ + x₂)/2, (y₁ + y₂)/2).|It averages the coordinates of the two end points.|E
+S|Find the length of the hypotenuse of the triangle with corners (0, 0), (6, 0) and (0, 8).|10|The hypotenuse joins (6, 0) and (0, 8): √(36 + 64) = 10.|M
+
+# 11 Congruent Triangles
+M|Two figures are congruent if they have|the same shape only|the same size only|the same shape and the same size|the same area only|3|Congruent figures can be placed exactly on top of each other.|E
+M|The SAS criterion says two triangles are congruent if|two sides and the included angle of one equal those of the other|two sides and any angle are equal|three angles are equal|one side and two angles are equal|1|The angle must be the one included between the two equal sides.|M
+M|The SSS criterion says two triangles are congruent if|three sides of one equal three sides of the other|three angles are equal|two sides are equal|one side and one angle are equal|1|Equal corresponding sides fix the shape and size completely.|M
+M|The ASA criterion says two triangles are congruent if|two angles and the included side of one equal those of the other|two angles are equal|three sides are equal|two sides and an angle are equal|1|The side must lie between the two equal angles.|M
+M|The RHS criterion applies to|any triangles|right-angled triangles|isosceles triangles only|equilateral triangles|2|RHS stands for right angle, hypotenuse and a side, so both triangles must be right-angled.|M
+M|Which of these is not a criterion for congruence?|SAS|SSS|AAA|ASA|3|Triangles with equal angles can have different sizes, so AAA does not prove congruence.|M
+M|The symbol ≅ means|is similar to|is congruent to|is parallel to|is perpendicular to|2|The symbol ≅ is read as is congruent to.|E
+M|If two triangles are congruent, their corresponding sides and angles are|different|equal|in the ratio 2 : 1|supplementary|2|Corresponding parts of congruent triangles are equal.|E
+M|In a triangle, the angles opposite equal sides are|equal|supplementary|complementary|right angles|1|This is the isosceles triangle theorem.|M
+M|If two angles of a triangle are equal, then the sides opposite them are|unequal|equal|parallel|perpendicular|2|This is the converse of the isosceles triangle theorem.|M
+M|Each angle of an equilateral triangle measures|45°|60°|90°|120°|2|The three equal angles add up to 180°, so each is 60°.|E
+M|In triangle ABC, if AB = AC then|∠A = ∠B|∠B = ∠C|∠A = ∠C|∠A = 90°|2|The angles opposite the equal sides AC and AB are ∠B and ∠C.|M
+M|If ΔABC ≅ ΔPQR in that order, side AB corresponds to|PQ|QR|PR|PA|1|The order of the letters shows the matching: A to P, B to Q and C to R.|M
+M|Congruent triangles have|equal areas|different areas|areas in ratio 1 : 2|areas that cannot be compared|1|They have the same size, so the same area.|E
+M|Two triangles with equal angles but different sizes are|congruent|similar but not congruent|identical|unrelated|2|Equal angles give the same shape, which is similarity, but the sizes differ.|M
+M|In an isosceles triangle the vertex angle is 40°. Each base angle is|40°|60°|70°|140°|3|The base angles are equal and add up to 140°, so each is 70°.|M
+M|The line from the vertex of an isosceles triangle perpendicular to the base|bisects the base|is longer than the equal sides|is parallel to the base|does not meet the base|1|It splits the isosceles triangle into two congruent right triangles, so it bisects the base.|H
+M|The hypotenuse of a right triangle is|the shortest side|the side opposite the right angle|a side next to the right angle|the side opposite the smallest angle|2|The hypotenuse faces the right angle and is the longest side.|E
+M|Which of the following is a valid congruence criterion?|SAS|SSA in general|AAA|AAS only for right triangles|1|SAS is always valid. SSA is not valid in general and AAA is not valid at all.|M
+M|For the RHS criterion, the triangles must have equal|hypotenuses and one other side|three angles|areas only|perimeters only|1|The right angle, the hypotenuse and one side are equal.|M
+M|In triangle ABC, if ∠A = ∠B then|BC = AC|AB = AC|AB = BC|BC = AB|1|The sides opposite equal angles are equal: BC is opposite A and AC is opposite B.|H
+M|Triangles with sides 3, 4, 5 and 3, 4, 5 are congruent by|SSS|SAS|ASA|AAA|1|All three pairs of sides are equal.|E
+M|In the SAS criterion, the equal angle lies|between the two equal sides|opposite the longest side|outside the triangle|anywhere|1|It is the included angle.|M
+M|A triangle with two equal sides is called|scalene|isosceles|right-angled|obtuse|2|Isosceles means at least two equal sides.|E
+M|The sum of the interior angles of a triangle is|90°|180°|270°|360°|2|The three interior angles add up to a straight angle.|E
+M|An exterior angle of a triangle equals|the sum of the two interior opposite angles|the adjacent interior angle|180° minus the sum of the opposite angles|the difference of the opposite angles|1|This is the exterior angle theorem.|M
+M|A median of a triangle joins a vertex to|the mid-point of the opposite side|the foot of the perpendicular on the opposite side|the bisector of the opposite angle|another vertex|1|A median ends at the mid-point of the opposite side.|E
+M|Two congruent triangles can be made to coincide by|superposition|stretching|rotating only|changing the angles|1|Moving one on top of the other makes them match exactly.|M
+M|Every equilateral triangle is also|isosceles|right-angled|obtuse|scalene|1|It has at least two equal sides, so it is isosceles.|M
+M|Two right triangles with equal hypotenuses and one pair of equal sides are congruent by|RHS|AAA|SSA with no condition|ASA only|1|This is the RHS criterion.|M
+M|If ∠B = ∠C in triangle ABC, then|AB = AC|AB = BC|BC = AC|∠A = 90°|1|The sides opposite equal angles ∠C and ∠B are AB and AC.|M
+M|In triangle ABC the side opposite ∠A is|AB|BC|AC|AD|2|The side opposite a vertex is the one that does not contain it.|E
+M|Corresponding parts of congruent triangles are|equal|different|supplementary|unrelated|1|This is why proving two triangles congruent proves their sides and angles equal.|M
+N|The vertex angle of an isosceles triangle is 50°. Find each base angle in degrees.|65|The base angles are (180 − 50) ÷ 2 = 65.|M|(180-50)/2
+N|Find each angle of an equilateral triangle in degrees.|60|180 ÷ 3 = 60.|E|180/3
+N|Two angles of an isosceles triangle are equal and each measures 70°. Find the third angle.|40|The third angle is 180 − 140 = 40.|E|180-140
+N|The angles of a triangle are x, 2x and 3x. Find x in degrees.|30|6x = 180, so x = 30.|M|180/6
+N|Two interior opposite angles of a triangle are 50° and 60°. Find the exterior angle in degrees.|110|The exterior angle equals their sum: 50 + 60 = 110.|M|50+60
+N|If ΔABC ≅ ΔDEF and AB = 7 cm, find DE in centimetres.|7|AB corresponds to DE, and corresponding sides are equal.|E|7
+N|ΔABC ≅ ΔPQR and ΔABC has sides 5, 6 and 7. Find the perimeter of ΔPQR.|18|The sides are equal, so the perimeter is 5 + 6 + 7 = 18.|E|5+6+7
+N|In isosceles triangle ABC, AB = AC = 10 and BC = 12. Find the height from A to BC.|8|The height bisects BC, so it forms a right triangle with sides 6 and 10: √(100 − 36) = 8.|H|Math.sqrt(100-36)
+N|In a right triangle ∠A = 90° and ∠B = 35°. Find ∠C in degrees.|55|∠C = 90 − 35 = 55.|E|90-35
+N|Two angles of a triangle are 45° and 60°. Find the third angle in degrees.|75|180 − (45 + 60) = 75.|E|180-105
+S|State the SAS congruence criterion.|If two sides and the included angle of one triangle equal two sides and the included angle of another, the triangles are congruent.|The angle must lie between the two given sides.|M
+S|State the RHS congruence criterion.|Two right-angled triangles are congruent if the hypotenuse and one side of one equal the hypotenuse and one side of the other.|RHS stands for right angle, hypotenuse, side.|M
+S|State the theorem about angles opposite to equal sides of a triangle.|If two sides of a triangle are equal, the angles opposite them are equal.|It is the isosceles triangle theorem.|M
+S|Why is AAA not a criterion for congruence?|Triangles with equal angles can be different sizes, so they need not be congruent.|For example a small and a large equilateral triangle have the same angles.|M
+S|Define congruent triangles.|Triangles that have exactly the same shape and size, so their corresponding sides and angles are equal.|One triangle can be placed exactly on top of the other.|E
+S|State the converse of the isosceles triangle theorem.|If two angles of a triangle are equal, the sides opposite them are equal.|It is used to prove a triangle isosceles from its angles.|M
+
+# 12 Parallelograms and Triangles
+M|A parallelogram is a quadrilateral in which|opposite sides are parallel|all sides are equal|all angles are right angles|only one pair of sides is parallel|1|Both pairs of opposite sides are parallel.|E
+M|The opposite sides of a parallelogram are|equal|unequal|perpendicular|always 5 cm|1|Opposite sides of a parallelogram are equal in length.|E
+M|The opposite angles of a parallelogram are|equal|supplementary|complementary|right angles|1|Opposite angles of a parallelogram are equal.|E
+M|The diagonals of a parallelogram|bisect each other|are always equal|are always perpendicular|never meet|1|They meet at a point that is the mid-point of each.|E
+M|Two consecutive angles of a parallelogram are|equal|supplementary|complementary|always 90°|2|Consecutive angles add up to 180°.|M
+M|A quadrilateral with four equal sides and four right angles is a|rectangle that is not a square|rhombus that is not a square|square|trapezium|3|Equal sides and right angles describe a square.|E
+M|The diagonals of a rectangle are|equal|perpendicular|unequal|parallel|1|The diagonals of a rectangle have equal lengths.|M
+M|The diagonals of a rhombus|bisect each other at right angles|are equal|are parallel|do not meet|1|They are perpendicular bisectors of each other.|M
+M|A diagonal of a parallelogram divides it into|two congruent triangles|two squares|three triangles|two unequal triangles|1|The two triangles are congruent.|M
+M|A quadrilateral with one pair of opposite sides equal and parallel is a|parallelogram|trapezium only|kite|triangle|1|This is a sufficient condition for a parallelogram.|H
+M|The mid-point theorem says that the segment joining the mid-points of two sides of a triangle is|parallel to the third side and half its length|perpendicular to the third side|equal to the third side|twice the third side|1|It is parallel to the third side and half as long.|M
+M|In ΔABC, D and E are the mid-points of AB and AC. Then DE is|parallel to BC|perpendicular to BC|equal to BC|equal to AB|1|By the mid-point theorem, DE is parallel to BC.|M
+M|In ΔABC, D and E are the mid-points of AB and AC. If BC = 10 cm, DE is|2.5 cm|5 cm|10 cm|20 cm|2|DE is half of BC.|M
+M|A rhombus is a parallelogram in which|all sides are equal|all angles are equal|diagonals are equal|only two sides are equal|1|A rhombus has four equal sides.|E
+M|The diagonals of a square are|equal and perpendicular bisectors of each other|unequal|parallel|equal but not perpendicular|1|A square has the properties of both a rectangle and a rhombus.|M
+M|The sum of the interior angles of a quadrilateral is|180°|270°|360°|540°|3|A quadrilateral can be split into two triangles, giving 360°.|E
+M|One angle of a parallelogram is 70°. The adjacent angle is|70°|110°|90°|20°|2|Adjacent angles add up to 180°, so 180 − 70 = 110.|M
+M|One angle of a parallelogram is 70°. The opposite angle is|70°|110°|90°|140°|1|Opposite angles are equal.|E
+M|A rectangle is a parallelogram in which|one angle is a right angle|all sides are equal|diagonals are perpendicular|only one pair of sides is equal|1|One right angle forces all four to be right angles.|M
+M|A trapezium has|one pair of parallel sides|two pairs of parallel sides|no parallel sides|four equal sides|1|A trapezium has exactly one pair of parallel sides.|E
+M|A parallelogram whose diagonals are equal is a|rhombus|rectangle|kite|trapezium|2|A parallelogram with equal diagonals is a rectangle.|H
+M|In parallelogram ABCD, side AB equals|BC|CD|AC|BD|2|Opposite sides are equal, and CD is opposite AB.|E
+M|If the diagonals of a quadrilateral bisect each other, then it is a|parallelogram|trapezium|kite|triangle|1|Bisecting diagonals are enough to make a parallelogram.|M
+M|The diagonals of a rhombus bisect|the angles of the rhombus|only the sides|nothing|only the area|1|Each diagonal bisects the angles at its two ends.|H
+M|A rhombus with one right angle is a|square|trapezium|kite|triangle|1|All sides equal and one right angle make it a square.|M
+M|The opposite sides of a rectangle are|equal and parallel|unequal|perpendicular|equal but not parallel|1|A rectangle is a parallelogram.|E
+M|A kite has|two pairs of adjacent equal sides|two pairs of opposite equal sides|all sides equal|no equal sides|1|A kite's equal sides are next to each other.|M
+M|A parallelogram has sides 5 cm and 7 cm. Its perimeter is|12 cm|24 cm|35 cm|17 cm|2|Perimeter = 2(5 + 7) = 24 cm.|E
+M|The number of diagonals of a quadrilateral is|1|2|3|4|2|A quadrilateral has two diagonals.|E
+M|In parallelogram ABCD, ∠A + ∠B equals|90°|180°|270°|360°|2|Adjacent angles of a parallelogram are supplementary.|M
+M|Joining the mid-points of the three sides of a triangle divides it into|four congruent triangles|two triangles|three triangles|four unequal triangles|1|The four small triangles are all congruent.|H
+M|A parallelogram is a rhombus if its diagonals are|equal|perpendicular|parallel|unequal|2|Perpendicular diagonals make a parallelogram a rhombus.|H
+N|One angle of a parallelogram is 65°. Find the adjacent angle in degrees.|115|Adjacent angles are supplementary: 180 − 65 = 115.|E|180-65
+N|The sides of a parallelogram are 8 cm and 5 cm. Find its perimeter in centimetres.|26|Perimeter = 2(8 + 5) = 26.|E|2*(8+5)
+N|In ΔABC, D and E are the mid-points of AB and AC and BC = 18 cm. Find DE in centimetres.|9|DE = BC ÷ 2 = 9.|M|18/2
+N|Each side of a rhombus is 6 cm. Find its perimeter in centimetres.|24|Four equal sides: 4 × 6 = 24.|E|4*6
+N|Two adjacent angles of a parallelogram are in the ratio 1 : 2. Find the smaller angle in degrees.|60|They add up to 180°, so the smaller is 180 ÷ 3 = 60.|M|180/3
+N|Three angles of a quadrilateral are 80°, 90° and 100°. Find the fourth in degrees.|90|The angles add up to 360°: 360 − 270 = 90.|M|360-270
+N|A rectangle has a diagonal of 13 cm and one side of 5 cm. Find the other side in centimetres.|12|By Pythagoras, the other side is √(169 − 25) = √144 = 12.|H|Math.sqrt(169-25)
+N|A rectangle has length 9 cm and width 4 cm. Find its area in square centimetres.|36|9 × 4 = 36.|E|9*4
+N|The diagonals of a parallelogram meet at O. If AC = 14 cm, find AO in centimetres.|7|The diagonals bisect each other, so AO = 14 ÷ 2 = 7.|M|14/2
+N|Find the perimeter of a square of side 5 cm in centimetres.|20|4 × 5 = 20.|E|4*5
+S|Define a parallelogram.|A quadrilateral in which both pairs of opposite sides are parallel.|Its opposite sides and opposite angles are equal and its diagonals bisect each other.|E
+S|State the mid-point theorem.|The line segment joining the mid-points of two sides of a triangle is parallel to the third side and half its length.|It is used to find lengths and prove lines parallel.|M
+S|State two properties of the diagonals of a rhombus.|They bisect each other at right angles, and they bisect the angles of the rhombus.|These come from the four equal sides of the rhombus.|M
+S|State a condition under which a quadrilateral is a parallelogram.|If its diagonals bisect each other, or if one pair of opposite sides is equal and parallel.|Either condition is enough.|M
+S|Why is every square a rectangle?|A square has four right angles and opposite sides equal, which is exactly what a rectangle needs.|A square is a special rectangle with all sides equal.|M
+S|Three angles of a quadrilateral are 70°, 80° and 110°. Find the fourth angle.|100°|The angles add up to 360°, so the fourth is 360 − 260 = 100°.|E
+
+# 13 Line Bisectors and Angle Bisectors
+M|The perpendicular bisector of a line segment is a line that|is perpendicular to the segment and passes through its mid-point|is parallel to the segment|passes through one end only|is perpendicular at one end|1|It cuts the segment into two equal halves at right angles.|E
+M|Any point on the perpendicular bisector of a segment is|equidistant from its end points|closer to one end point|on the segment itself|at a fixed distance from the mid-point|1|If P is on the perpendicular bisector of AB, then PA = PB.|M
+M|A point equidistant from the end points of a segment lies on|the segment's perpendicular bisector|the segment itself|a line parallel to the segment|no particular line|1|This is the converse of the perpendicular bisector theorem.|M
+M|Any point on the bisector of an angle is|equidistant from the arms of the angle|nearer to one arm|on one arm|at distance 1 from the vertex|1|The distances to the two arms are equal.|M
+M|The circumcentre of a triangle is the point where|the perpendicular bisectors of the sides meet|the angle bisectors meet|the medians meet|the altitudes meet|1|The circumcentre is the intersection of the three perpendicular bisectors.|M
+M|The incentre of a triangle is the point where|the perpendicular bisectors meet|the angle bisectors meet|the medians meet|the altitudes meet|2|The incentre is the intersection of the three angle bisectors.|M
+M|The centroid of a triangle is the point where|the medians meet|the angle bisectors meet|the altitudes meet|the perpendicular bisectors meet|1|The three medians meet at the centroid.|M
+M|The orthocentre of a triangle is the point where|the altitudes meet|the medians meet|the angle bisectors meet|the perpendicular bisectors meet|1|The three altitudes meet at the orthocentre.|M
+M|The centroid divides each median in the ratio|1 : 1|2 : 1 from the vertex|1 : 2 from the vertex|3 : 1|2|The part from the vertex is twice the part to the mid-point.|H
+M|The circumcentre is equidistant from|the three vertices|the three sides|the three mid-points only|no fixed points|1|It is the centre of the circle through the three vertices.|M
+M|The incentre is equidistant from|the three vertices|the three sides|the mid-points only|one side only|2|It is the centre of the circle touching all three sides.|M
+M|The circumcentre of a right-angled triangle lies at|the vertex of the right angle|the mid-point of the hypotenuse|the mid-point of a leg|outside the triangle|2|The mid-point of the hypotenuse is equally far from all three vertices.|H
+M|The circumcentre of an acute-angled triangle lies|inside the triangle|on a side|outside the triangle|at a vertex|1|For an acute triangle all three perpendicular bisectors meet inside.|H
+M|The circumcentre of an obtuse-angled triangle lies|inside the triangle|on a side|outside the triangle|at a vertex|3|For an obtuse triangle the perpendicular bisectors meet outside.|H
+M|The incentre of a triangle always lies|inside the triangle|outside the triangle|on a side|at a vertex|1|The angle bisectors always meet inside the triangle.|M
+M|How many angle bisectors does a triangle have?|1|2|3|6|3|There is one bisector for each of the three angles.|E
+M|An angle bisector divides an angle into|two equal parts|two parts in ratio 1 : 2|three parts|two right angles|1|The bisector splits the angle into two equal angles.|E
+M|If an angle measures 80°, each part made by its bisector measures|20°|40°|80°|160°|2|80 ÷ 2 = 40.|E
+M|In an equilateral triangle, the centroid, incentre, circumcentre and orthocentre|are four different points|are all the same point|are on a line but different|lie outside the triangle|2|All four centres coincide in an equilateral triangle.|H
+M|The shortest distance from a point to a line is|the perpendicular distance|any slanting line|a line at 45°|the longest line|1|The perpendicular is the shortest path to the line.|M
+M|If P lies on the perpendicular bisector of AB, then|PA = PB|PA = AB|PB = AB|PA > PB|1|Points on the perpendicular bisector are equidistant from A and B.|M
+M|The point equidistant from the three vertices of a triangle is the|incentre|circumcentre|centroid|orthocentre|2|The circumcentre is the centre of the circumcircle.|M
+M|The three perpendicular bisectors of the sides of a triangle are|concurrent|parallel|never meeting|equal|1|They all pass through one point.|M
+M|The circle passing through all three vertices of a triangle is called the|incircle|circumcircle|excircle|unit circle|2|It is the circumscribed circle.|E
+M|The circle touching all three sides of a triangle from inside is called the|incircle|circumcircle|excircle|great circle|1|It is the inscribed circle.|E
+M|An altitude of a triangle is|perpendicular from a vertex to the opposite side|a line from a vertex to the mid-point of the opposite side|bisector of an angle|parallel to a side|1|It measures the height of the triangle.|E
+M|A line segment has how many perpendicular bisectors?|1|2|3|infinitely many|1|There is exactly one line perpendicular to the segment through its mid-point.|M
+M|An angle has how many bisectors?|1|2|3|infinitely many|1|Only one ray divides it into two equal parts.|E
+M|The mid-point of the hypotenuse of a right triangle is|equidistant from all three vertices|equidistant from the legs only|the incentre|not special|1|It is the circumcentre.|H
+M|If the perpendicular bisector of AB (AB = 10 cm) meets AB at M, then AM equals|2.5 cm|5 cm|10 cm|20 cm|2|M is the mid-point, so AM = 10 ÷ 2 = 5.|E
+M|The centroid of a triangle always lies|inside the triangle|outside the triangle|on a side|at a vertex|1|The medians always meet inside the triangle.|M
+M|The set of all points equidistant from two fixed points is|a circle|the perpendicular bisector of the segment joining them|a parallel line|a single point|2|This is the locus described by the perpendicular bisector theorem.|H
+N|AB = 14 cm and its perpendicular bisector meets AB at M. Find AM in centimetres.|7|M is the mid-point, so AM = 14 ÷ 2 = 7.|E|14/2
+N|An angle of 74° is bisected. Find the measure of each part in degrees.|37|74 ÷ 2 = 37.|E|74/2
+N|A median of a triangle is 12 cm long. Find the distance from the vertex to the centroid in centimetres.|8|The centroid is 2/3 of the way from the vertex: 12 × 2 ÷ 3 = 8.|H|12*2/3
+N|A median of a triangle is 12 cm long. Find the distance from the centroid to the mid-point of the side in centimetres.|4|That part is 1/3 of the median: 12 ÷ 3 = 4.|H|12/3
+N|A right triangle has legs 6 cm and 8 cm. Find the radius of its circumcircle in centimetres.|5|The hypotenuse is 10 cm and the circumcentre is its mid-point, so the radius is 5.|H|10/2
+N|P lies on the perpendicular bisector of AB with PA = 3x + 1 and PB = 13. Find x.|4|PA = PB, so 3x + 1 = 13 and x = 4.|M|(13-1)/3
+N|A right angle is bisected. Find the measure of each part in degrees.|45|90 ÷ 2 = 45.|E|90/2
+N|∠ABC = 64°. Find the angle between its bisector and the arm BA in degrees.|32|64 ÷ 2 = 32.|M|64/2
+N|In ΔABC, ∠A = 60° and ∠B = 70°. Find ∠ICB in degrees, where I is the incentre.|25|∠C = 180 − 130 = 50, and the bisector makes ∠ICB = 25.|H|(180-60-70)/2
+N|In ΔABC, ∠A = 70°. Find the angle between the bisectors of ∠B and ∠C, in degrees, using 90 + A/2.|125|The angle is 90 + 70/2 = 125.|H|90+70/2
+S|Define the perpendicular bisector of a line segment.|The line that is perpendicular to the segment and passes through its mid-point.|Every point on it is the same distance from both end points of the segment.|E
+S|State the property of a point on the perpendicular bisector of a segment.|It is equidistant from the two end points of the segment.|If P is on the perpendicular bisector of AB, then PA = PB.|M
+S|Define the circumcentre of a triangle.|The point where the perpendicular bisectors of the three sides meet, equidistant from the three vertices.|It is the centre of the circle passing through all three vertices.|M
+S|Define the incentre of a triangle.|The point where the three angle bisectors meet, equidistant from the three sides.|It is the centre of the circle that touches all three sides.|M
+S|In what ratio does the centroid divide each median?|2 : 1, counting from the vertex.|The part between the vertex and the centroid is twice the part between the centroid and the mid-point.|M
+S|State the property of a point on the bisector of an angle.|It is equidistant from the two arms of the angle.|The perpendicular distances from the point to both arms are equal.|M
+
+# 14 Sides and Angles of a Triangle
+M|In any triangle the sum of two sides is always|less than the third side|greater than the third side|equal to the third side|equal to the other two sides|2|This is the triangle inequality.|E
+M|Can a triangle have sides 3 cm, 4 cm and 8 cm?|Yes|No|Only if it is right-angled|Only if it is isosceles|2|3 + 4 = 7, which is less than 8, so these lengths cannot form a triangle.|M
+M|Can a triangle have sides 5 cm, 6 cm and 7 cm?|Yes|No|Only if it is isosceles|Only if it is equilateral|1|Every pair of sides adds to more than the third.|E
+M|In a triangle, the larger angle has|the shorter opposite side|the longer opposite side|an equal opposite side|no relation to the sides|2|The side opposite the larger angle is longer.|M
+M|The longest side of a triangle is opposite the|smallest angle|largest angle|right angle only|middle angle|2|The longest side faces the largest angle.|M
+M|In a right-angled triangle the longest side is the|hypotenuse|base|altitude|median|1|The hypotenuse is opposite the right angle, the largest angle.|E
+M|An exterior angle of a triangle equals|the sum of the two interior opposite angles|the difference of the two opposite angles|the adjacent interior angle|180°|1|This is the exterior angle theorem.|M
+M|An exterior angle of a triangle is|smaller than either interior opposite angle|greater than either interior opposite angle|equal to the adjacent interior angle|always 90°|2|It equals their sum, so it is larger than each.|M
+M|The sum of the three interior angles of a triangle is|90°|180°|270°|360°|2|A triangle's angles add up to 180°.|E
+M|Of all the segments from a point to a line, the shortest is the|perpendicular|longest slant|one at 45°|one at 30°|1|The perpendicular distance is the shortest.|M
+M|In triangle ABC, if AB > AC then|∠C > ∠B|∠B > ∠C|∠A > ∠B|∠B = ∠C|1|The larger side AB is opposite ∠C, so ∠C is the larger angle.|H
+M|In triangle ABC, if ∠A > ∠B then|BC > AC|AC > BC|AB = AC|BC = AC|1|The side opposite ∠A is BC and the side opposite ∠B is AC.|H
+M|An exterior angle of an equilateral triangle measures|60°|90°|120°|180°|3|180 − 60 = 120.|M
+M|A triangle has angles 40°, 60° and 80°. The shortest side is opposite the angle of|40°|60°|80°|none|1|The smallest angle has the shortest opposite side.|M
+M|Can a triangle have sides 2 cm, 3 cm and 6 cm?|Yes|No|Only if isosceles|Only if right-angled|2|2 + 3 = 5, which is less than 6.|M
+M|Can a triangle have sides 4 cm, 4 cm and 8 cm?|Yes|No|Only if isosceles|Only if right-angled|2|4 + 4 = 8, which is not greater than 8. The points would lie on one line.|H
+M|The difference between any two sides of a triangle is always|greater than the third side|less than the third side|equal to the third side|zero|2|From a + b > c we get c − b < a, so a difference of two sides is less than the third.|H
+M|An isosceles triangle has equal sides of 5 cm and a base of 6 cm. Its perimeter is|11 cm|16 cm|21 cm|30 cm|2|5 + 5 + 6 = 16.|E
+M|A triangle can have at most how many obtuse angles?|0|1|2|3|2|One obtuse angle already takes more than 90° of the 180°.|M
+M|A triangle can have at most how many right angles?|0|1|2|3|2|Two right angles would leave no angle for the third.|M
+M|The triangle with sides 3 cm, 4 cm and 5 cm is|acute|right-angled|obtuse|equilateral|2|3² + 4² = 5².|M
+M|A triangle with angles 90°, 45° and 45° is|isosceles right-angled|equilateral|scalene|obtuse|1|Two equal angles mean two equal sides, plus a right angle.|M
+M|Which could be the third side of a triangle whose other two sides are 7 cm and 10 cm?|2 cm|3 cm|12 cm|17 cm|3|The third side must be greater than 3 and less than 17. Only 12 fits.|H
+M|An exterior angle of a triangle is formed by|extending one side|bisecting an angle|joining two vertices|drawing a median|1|Extending a side beyond a vertex makes the exterior angle.|E
+M|The angles of a triangle are in the ratio 1 : 2 : 3. The triangle is|acute|right-angled|obtuse|equilateral|2|The angles are 30°, 60° and 90°.|H
+M|The three exterior angles of a triangle, one at each vertex, add up to|180°|270°|360°|720°|3|The exterior angles of any polygon add up to 360°.|H
+M|In ΔABC, ∠A = 70° and ∠B = 60°. The longest side is|AB|BC|AC|they are all equal|2|∠C = 50°, so ∠A is the largest, and BC is opposite ∠A.|H
+M|The sum of any two angles of a triangle is always|more than 180°|less than 180°|equal to 90°|equal to 180°|2|The third angle is positive, so the other two add up to less than 180°.|M
+M|The exterior angle at C is 110° and ∠A = 50°. Then ∠B is|50°|60°|70°|110°|2|The exterior angle at C equals ∠A + ∠B, so ∠B = 110 − 50 = 60.|H
+M|Which statement is false?|The longest side is opposite the largest angle|The hypotenuse is the longest side of a right triangle|The shortest side is opposite the largest angle|Equal angles have equal sides opposite them|3|The shortest side is opposite the smallest angle.|H
+M|In a right triangle the hypotenuse is|longer than each of the other two sides|shorter than the legs|equal to one leg|equal to the sum of the legs|1|It is opposite the largest angle, so it is the longest side.|M
+M|If two angles of a triangle are equal, the triangle is|scalene|isosceles|obtuse|right-angled always|2|The sides opposite the equal angles are equal.|M
+M|A triangle can have two right angles.|True|False|Only in some cases|Only when isosceles|2|Two right angles already total 180°, leaving nothing for the third angle.|M
+N|An exterior angle of a triangle is 110° and one interior opposite angle is 45°. Find the other interior opposite angle in degrees.|65|The exterior angle is the sum of the two, so 110 − 45 = 65.|M|110-45
+N|Two angles of a triangle are 55° and 65°. Find the third angle in degrees.|60|180 − 120 = 60.|E|180-120
+N|An isosceles triangle has sides 7 cm, 7 cm and 4 cm. Find its perimeter in centimetres.|18|7 + 7 + 4 = 18.|E|7+7+4
+N|Two sides of a triangle are 6 cm and 9 cm. Find the largest whole number of centimetres the third side can be.|14|The third side must be less than 15, so the largest whole number is 14.|H|6+9-1
+N|Two sides of a triangle are 6 cm and 9 cm. Find the smallest whole number of centimetres the third side can be.|4|The third side must be more than 3, so the smallest whole number is 4.|H|9-6+1
+N|Each exterior angle of an equilateral triangle is 120°. Find the sum of its three exterior angles in degrees.|360|3 × 120 = 360.|M|3*120
+N|The angles of a triangle are x°, (x + 10)° and (x + 20)°. Find x.|50|3x + 30 = 180, so x = 50.|M|(180-30)/3
+N|The angles of a triangle are in the ratio 2 : 3 : 4. Find the largest angle in degrees.|80|Each part is 180 ÷ 9 = 20°, so the largest is 4 × 20 = 80.|M|4*20
+N|Find an exterior angle of an equilateral triangle in degrees.|120|180 − 60 = 120.|E|180-60
+N|The angles of a triangle are in the ratio 2 : 3 : 4. Find the smallest angle in degrees.|40|Each part is 20°, so the smallest is 2 × 20 = 40.|M|2*20
+S|State the triangle inequality.|The sum of any two sides of a triangle is greater than the third side.|It decides whether three given lengths can form a triangle.|M
+S|State the exterior angle theorem.|An exterior angle of a triangle equals the sum of the two interior opposite angles.|It follows because the three interior angles add up to 180°.|M
+S|Can 4 cm, 5 cm and 10 cm be the sides of a triangle? Give a reason.|No, because 4 + 5 = 9, which is less than 10.|The sum of two sides must be greater than the third.|M
+S|State the relation between the angles and the sides opposite them in a triangle.|The larger angle has the longer side opposite it, and the longer side has the larger angle opposite it.|The longest side faces the largest angle.|M
+S|Define an exterior angle of a triangle.|The angle formed outside the triangle when one of its sides is extended.|It is supplementary to the adjacent interior angle.|E
+S|Which is the shortest segment from a point to a line, and why?|The perpendicular, because every other segment from the point to the line is longer.|The perpendicular and a slanting segment form a right triangle in which the slant is the hypotenuse.|M

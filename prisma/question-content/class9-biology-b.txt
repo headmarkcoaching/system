@@ -1,0 +1,159 @@
+@level Class 9
+@subject Biology
+
+# 4 Cells and Tissues
+M|The cell theory states that|all living things are made of cells|only plants have cells|cells come from non-living matter|cells have no nucleus|1|The cell is the basic unit of structure and function in living things.|E
+M|The cell theory was first proposed by|Schleiden and Schwann|Pasteur and Redi|Darwin and Wallace|Mendel and Morgan|1|Schleiden and Schwann proposed it in the 1830s.|M
+M|The cell was first observed by|Robert Hooke|Antonie van Leeuwenhoek|Pasteur|Mendel|1|Hooke observed cork cells in 1665.|M
+M|The 'control centre' of a cell is the|nucleus|mitochondrion|ribosome|vacuole|1|It contains the genetic material.|E
+M|The 'power house' of a cell, where aerobic respiration occurs, is the|mitochondrion|nucleus|ribosome|lysosome|1|Mitochondria release energy as ATP.|E
+M|Photosynthesis takes place in the|chloroplast|mitochondrion|nucleus|lysosome|1|Chloroplasts contain chlorophyll.|E
+M|Protein synthesis takes place on the|ribosomes|lysosomes|vacuoles|chloroplasts|1|Ribosomes join amino acids.|E
+M|The organelle that packages and modifies substances for secretion is the|Golgi apparatus|nucleus|chloroplast|ribosome|1|The Golgi body processes and packages proteins.|M
+M|The organelle that contains digestive enzymes is the|lysosome|ribosome|nucleolus|centriole|1|Lysosomes break down waste and old organelles.|M
+M|The structure that controls the movement of substances into and out of the cell is the|cell membrane|cell wall|nucleus|vacuole|1|The membrane is selectively permeable.|E
+M|The cell wall of plant cells is made of|cellulose|protein|chitin|fat|1|It gives the cell shape and strength.|E
+M|Which of these is found in plant cells but not in animal cells?|Chloroplasts|Mitochondria|Ribosomes|Nucleus|1|Animal cells have no chloroplasts or cell wall.|E
+M|Which of these is found in both plant and animal cells?|Mitochondria|Chloroplasts|Cell wall|Large central vacuole|1|Both need energy from respiration.|E
+M|The large central vacuole is found in|plant cells|animal cells only|bacteria only|viruses|1|It stores water and cell sap.|E
+M|Prokaryotic cells|have no nucleus enclosed by a membrane|have a nucleus|are always plant cells|are always large|1|Bacteria are prokaryotes.|M
+M|Eukaryotic cells|have a true nucleus|have no nucleus|are always bacteria|have no organelles|1|Plants, animals, fungi and protists have eukaryotic cells.|M
+M|The endoplasmic reticulum with ribosomes on it is called|rough ER|smooth ER|Golgi body|nucleolus|1|It is involved in protein synthesis.|M
+M|Smooth ER is involved in|making lipids|making proteins on its surface|photosynthesis|respiration|1|It has no ribosomes.|H
+M|The jelly-like substance in which the organelles lie is the|cytoplasm|nucleoplasm|cell wall|membrane|1|Chemical reactions occur in it.|E
+M|The movement of molecules from a region of higher concentration to a region of lower concentration is called|diffusion|osmosis|active transport|phagocytosis|1|It does not need energy.|E
+M|The movement of water through a semipermeable membrane from a dilute solution to a concentrated solution is called|osmosis|diffusion|active transport|transpiration|1|Water moves from high to low water potential.|E
+M|Active transport|needs energy to move substances against a concentration gradient|needs no energy|moves substances from high to low concentration|occurs only in plants|1|ATP provides the energy.|M
+M|A plant cell placed in pure water becomes|turgid|flaccid|plasmolysed|dead at once|1|Water enters by osmosis and the cell swells.|M
+M|A plant cell placed in a strong salt solution undergoes|plasmolysis|turgidity|division|photosynthesis|1|Water leaves and the membrane pulls away from the wall.|M
+M|The tissue that is made of actively dividing cells in plants is|meristematic tissue|epidermis|xylem|phloem|1|It is found at root and shoot tips.|M
+M|The tissue that carries water and minerals in plants is|xylem|phloem|epidermis|collenchyma|1|Xylem moves water up from the roots.|E
+M|The tissue that carries manufactured food in plants is|phloem|xylem|epidermis|sclerenchyma|1|Phloem transports sugars.|E
+M|Strengthening tissue made of dead cells with thick lignified walls is|sclerenchyma|parenchyma|collenchyma|epidermis|1|Sclerenchyma gives hardness.|H
+M|The outermost protective layer of a plant is the|epidermis|xylem|phloem|cortex|1|It covers leaves, stems and roots.|E
+M|The animal tissue that covers surfaces and lines organs is|epithelial tissue|connective tissue|muscular tissue|nervous tissue|1|The skin is covered by epithelium.|E
+M|Blood and bone are examples of|connective tissue|epithelial tissue|nervous tissue|muscular tissue|1|Connective tissues support and connect.|E
+M|The tissue that causes movement by contraction is|muscular tissue|epithelial tissue|connective tissue|nervous tissue|1|Muscle cells shorten.|E
+M|The tissue that carries messages in the form of impulses is|nervous tissue|muscular tissue|epithelial tissue|connective tissue|1|Neurons conduct nerve impulses.|E
+M|The three types of muscle tissue are|skeletal, smooth and cardiac|skeletal, bone and fat|smooth, bone and heart|bone, cartilage and fat|1|They differ in structure and control.|M
+M|The unit used to measure the size of cells is the|micrometre|centimetre|kilometre|metre|1|1 μm is one thousandth of a millimetre.|E
+M|Magnification is calculated as|image size ÷ real size|real size ÷ image size|image size × real size|image size − real size|1|Magnification = I ÷ A.|M
+M|The electron microscope has a higher resolving power than the light microscope because|it uses a beam of electrons with a short wavelength|it is bigger|it uses visible light|it uses a mirror only|1|Short wavelengths give a better resolution.|H
+M|The nucleolus is the site where|ribosomes are made|photosynthesis occurs|respiration occurs|digestion occurs|1|It makes ribosomal RNA.|H
+M|Chromosomes are made of|DNA and protein|only lipid|only starch|only water|1|They carry the genes.|M
+N|A microscope has an eyepiece of 10× and an objective of 40×. Find the total magnification.|400|10 × 40 = 400.|E|10*40
+N|An image of a cell is 20 mm long. The magnification is 400. Find the real length in mm.|0.05|Real length = 20 ÷ 400 = 0.05 mm.|M|20/400
+N|A cell has a real diameter of 50 μm. Find the length of its image in mm at a magnification of 200.|10|Image = 50 × 200 = 10 000 μm = 10 mm.|H|50*200/1000
+N|A plant tissue has 1000 cells and 15 percent are dividing. Find the number of dividing cells.|150|1000 × 0.15 = 150.|E|1000*0.15
+N|Find the number of mitochondria in 8 cells if each cell has 120.|960|8 × 120 = 960.|E|8*120
+N|A cell membrane is 8 nm thick. Find its thickness in micrometres (1 μm = 1000 nm).|0.008|8 ÷ 1000 = 0.008.|M|8/1000
+S|State the cell theory.|All living things are made of cells, the cell is the basic unit of life, and all cells arise from pre-existing cells.|It was developed by Schleiden, Schwann and Virchow.|M
+S|Distinguish between prokaryotic and eukaryotic cells.|A prokaryotic cell has no true nucleus and no membrane-bound organelles. A eukaryotic cell has a true nucleus and membrane-bound organelles.|Bacteria are prokaryotes.|M
+S|Name three differences between plant and animal cells.|Plant cells have a cell wall, chloroplasts and a large central vacuole. Animal cells do not.|Animal cells have centrioles.|M
+S|Define diffusion and osmosis.|Diffusion is the movement of molecules from a region of higher concentration to a region of lower concentration. Osmosis is the diffusion of water through a semipermeable membrane.|Neither needs energy.|M
+S|State the functions of the mitochondrion and the nucleus.|The mitochondrion releases energy from food by aerobic respiration. The nucleus controls the activities of the cell and holds its genetic material.|They are called the powerhouse and control centre.|E
+S|Name the types of animal tissues.|Epithelial tissue, connective tissue, muscular tissue and nervous tissue.|Each has a particular function.|E
+
+# 5 Cell Cycle
+M|The cell cycle is the|series of events from one cell division to the next|death of a cell|growth of an organ|reproduction of an animal|1|It includes interphase and cell division.|E
+M|The longest stage of the cell cycle is|interphase|prophase|metaphase|anaphase|1|The cell grows and copies its DNA.|M
+M|The stages of interphase in order are|G1, S, G2|S, G1, G2|G2, S, G1|M, S, G1|1|G1 is growth, S is DNA synthesis and G2 is preparation for division.|M
+M|DNA replication takes place during the|S phase|G1 phase|G2 phase|M phase|1|S stands for synthesis.|M
+M|Mitosis is a type of cell division that produces|two identical daughter cells|four different cells|gametes|one cell|1|The daughter cells have the same chromosome number as the parent.|E
+M|The stages of mitosis in order are|prophase, metaphase, anaphase, telophase|metaphase, prophase, anaphase, telophase|anaphase, prophase, metaphase, telophase|telophase, anaphase, metaphase, prophase|1|Remember PMAT.|E
+M|In prophase, the chromosomes|become visible and the nuclear membrane breaks down|line up at the equator|move to the poles|uncoil completely|1|The chromosomes condense.|M
+M|In metaphase, the chromosomes|line up at the equator of the cell|move to the poles|disappear|duplicate|1|They attach to the spindle fibres.|M
+M|In anaphase, the sister chromatids|separate and move to opposite poles|line up at the equator|become visible|join together|1|The spindle fibres pull them apart.|M
+M|In telophase, the|nuclear membranes re-form around the two sets of chromosomes|chromosomes double|cell stops dividing and dies|spindle forms|1|The cell prepares to divide the cytoplasm.|M
+M|The division of the cytoplasm is called|cytokinesis|mitosis|meiosis|replication|1|It follows nuclear division.|M
+M|In animal cells, cytokinesis occurs by|a cleavage furrow|a cell plate|a cell wall|a vacuole|1|The membrane pinches in.|M
+M|In plant cells, cytokinesis occurs by|a cell plate|a cleavage furrow|a lysosome|a centriole|1|A new wall forms across the cell.|M
+M|Mitosis is important for|growth and repair|production of gametes|variation only|evolution only|1|It makes new cells for growth and replaces damaged cells.|E
+M|Meiosis is a type of cell division that produces|four cells with half the chromosome number|two identical cells|one cell|two cells with the same number|1|It makes gametes.|E
+M|Meiosis takes place in the|reproductive organs|skin|bone|blood|1|It makes sperms and eggs.|E
+M|The number of chromosomes in a human body cell is|46|23|92|48|1|There are 23 pairs.|E
+M|The number of chromosomes in a human gamete is|23|46|92|12|1|Gametes have half the number.|E
+M|A cell with two sets of chromosomes is called|diploid|haploid|triploid|monoploid|1|Body cells are diploid (2n).|M
+M|A cell with one set of chromosomes is called|haploid|diploid|triploid|polyploid|1|Gametes are haploid (n).|M
+M|Meiosis results in|genetic variation|identical offspring|clones|no change|1|Crossing over and independent assortment create variation.|M
+M|Crossing over happens during|prophase I of meiosis|metaphase of mitosis|interphase|cytokinesis|1|Chromosomes exchange segments.|H
+M|Uncontrolled cell division results in|cancer|growth|repair|healing|1|It forms tumours.|E
+M|A tumour is|a mass of cells dividing without control|a normal organ|a bone|a type of food|1|It can be benign or malignant.|M
+M|Spindle fibres are made of|microtubules|cellulose|glycogen|starch|1|They move chromosomes.|H
+M|Centrioles help in|forming the spindle in animal cells|photosynthesis|respiration|digestion|1|They organise the spindle fibres.|M
+M|During mitosis, one cell gives rise to|two cells|four cells|one cell|eight cells|1|Mitosis produces two daughter cells.|E
+M|During meiosis, one cell gives rise to|four cells|two cells|one cell|eight cells|1|Meiosis produces four daughter cells.|E
+M|Each chromosome before division consists of|two sister chromatids joined at the centromere|one chromatid|four chromatids|no chromatids|1|DNA is copied in the S phase.|M
+M|The structure that joins two sister chromatids is the|centromere|centriole|nucleolus|ribosome|1|Spindle fibres attach to it.|M
+M|Mitosis is used in single-celled organisms for|asexual reproduction|sexual reproduction|death|photosynthesis|1|For example amoeba divides by binary fission.|M
+M|The phase in which chromosomes are most clearly visible and easy to count is|metaphase|interphase|telophase|G1|1|They are fully condensed and lined up.|H
+M|The structure that holds chromosomes together in the cell nucleus is|chromatin|ribosome|mitochondrion|lysosome|1|Chromatin is DNA with proteins.|M
+M|Chromosomes are most tightly coiled and easiest to see during|metaphase|interphase|G1|S phase|1|The condensed chromosomes are lined up at the equator.|M
+M|The stage during which chromosomes first become visible as the nuclear envelope begins to break down is|prophase|anaphase|telophase|interphase|1|Chromatin condenses into chromosomes.|M
+M|The two daughter cells produced by mitosis are genetically|identical to each other and to the parent cell|different from each other|haploid|different from the parent|1|Mitosis makes clones.|E
+M|Binary fission in bacteria is a form of|asexual reproduction|sexual reproduction|meiosis|digestion|1|One cell divides into two identical cells.|M
+M|The checkpoints in the cell cycle make sure that|the cell is ready before it divides|the cell never divides|the cell dies|the nucleus is removed|1|They check for damage before division.|H
+N|A human body cell has 46 chromosomes and divides by mitosis. Find the number of chromosomes in each daughter cell.|46|Mitosis keeps the chromosome number the same.|E|46
+N|A human cell with 46 chromosomes divides by meiosis. Find the number of chromosomes in each gamete.|23|The number is halved: 46 ÷ 2 = 23.|E|46/2
+N|A single cell divides by mitosis 5 times. Find the number of cells formed.|32|2⁵ = 32.|M|2^5
+N|A cell divides by mitosis every 20 minutes. Find the number of cells after 2 hours starting from 1 cell.|64|There are 6 divisions in 2 hours, so 2⁶ = 64.|H|2^6
+N|A species has a diploid number of 8. Find its haploid number.|4|8 ÷ 2 = 4.|E|8/2
+N|Find the number of daughter cells formed from one cell by meiosis.|4|Meiosis gives four cells.|E|4
+S|Define the cell cycle.|The sequence of events in the life of a cell from its formation to its division into two daughter cells.|It consists of interphase and mitotic division.|E
+S|State the stages of mitosis in order.|Prophase, metaphase, anaphase and telophase.|Cytokinesis follows telophase.|E
+S|State two importance of mitosis.|It is used for growth of an organism and for replacing worn-out or damaged cells. It also produces cells for asexual reproduction.|Mitosis makes identical cells.|M
+S|Distinguish between mitosis and meiosis.|Mitosis produces two identical diploid daughter cells and is used for growth and repair. Meiosis produces four genetically different haploid cells and is used to make gametes.|Meiosis has two divisions.|M
+S|What is cancer?|A disease in which cells divide uncontrollably and form tumours that can spread to other parts of the body.|Smoking and radiation are some causes.|M
+S|Define diploid and haploid.|A diploid cell has two sets of chromosomes (2n) and a haploid cell has one set (n).|Human body cells are diploid and gametes are haploid.|M
+
+# 6 Enzymes
+M|Enzymes are|biological catalysts made of protein|carbohydrates|fats|vitamins|1|They speed up chemical reactions in living things.|E
+M|A catalyst is a substance that|speeds up a reaction without being used up|slows down a reaction|is used up in a reaction|stops a reaction|1|It is unchanged at the end.|E
+M|The substance on which an enzyme acts is called its|substrate|product|catalyst|inhibitor|1|The substrate fits the active site.|E
+M|The part of an enzyme where the substrate binds is the|active site|nucleus|membrane|cofactor|1|It has a specific shape.|E
+M|The lock and key model of enzyme action says that|the substrate fits the active site like a key in a lock|the enzyme changes the substrate colour|the enzyme is used up|the enzyme has no shape|1|The shape of the substrate is complementary to the active site.|M
+M|Enzymes are specific, which means that|each enzyme acts on a particular substrate|each enzyme acts on everything|they work only at 0 °C|they are not proteins|1|The active site fits one kind of substrate.|M
+M|Enzymes work best at|their optimum temperature and pH|any temperature|very high temperatures|zero temperature|1|Each enzyme has an optimum condition.|E
+M|The optimum temperature for most human enzymes is about|37 °C|0 °C|100 °C|70 °C|1|It is human body temperature.|E
+M|At very high temperatures, enzymes|are denatured|work faster|become more specific|are made|1|The protein shape changes permanently.|E
+M|Denaturation of an enzyme means|a permanent change in its shape that stops it working|its formation|a rise in its rate|its production|1|The active site is destroyed.|M
+M|At low temperatures, enzyme activity|is slow, but the enzyme is not destroyed|is destroyed|is fastest|never happens|1|Molecules move slowly, so fewer collisions occur.|M
+M|The optimum pH of pepsin, an enzyme in the stomach, is about|2|7|9|12|1|It works in acidic conditions.|M
+M|The optimum pH of amylase in the mouth is about|7|2|12|1|1|It works in neutral conditions.|M
+M|Salivary amylase digests|starch|protein|fat|cellulose|1|It converts starch to maltose.|E
+M|Pepsin digests|proteins|starch|fats|sugar|1|It works in the stomach.|E
+M|Lipase digests|fats|proteins|starch|cellulose|1|It breaks fats into fatty acids and glycerol.|E
+M|Catalase breaks down|hydrogen peroxide|starch|protein|sucrose|1|It produces water and oxygen.|M
+M|Trypsin is an enzyme that acts on|proteins|starch|fats|cellulose|1|It is made in the pancreas.|M
+M|Maltase breaks down maltose into|glucose|fructose|starch|amino acids|1|Maltose is a disaccharide.|M
+M|The rate of an enzyme-controlled reaction increases with temperature up to|the optimum temperature|any temperature|the boiling point|0 °C|1|After that the enzyme is denatured.|M
+M|Increasing the substrate concentration increases the rate until|all the active sites are occupied|the enzyme is made|the pH drops|the temperature drops|1|The enzyme is then saturated.|M
+M|An enzyme inhibitor|reduces the activity of an enzyme|speeds up an enzyme|is a substrate|is a vitamin|1|It blocks or alters the active site.|M
+M|A cofactor is|a non-protein substance that helps an enzyme work|a type of fat|a substrate|a vitamin only|1|Metal ions are cofactors.|H
+M|Coenzymes are often derived from|vitamins|fats|salts|waste products|1|Many vitamins form coenzymes.|H
+M|After a reaction, the enzyme is|unchanged and can be reused|used up|destroyed|changed into a substrate|1|It is a catalyst.|E
+M|The names of most enzymes end in|-ase|-ose|-ine|-ate|1|Examples are amylase and lipase.|E
+M|Enzymes lower the|activation energy of a reaction|temperature of the body|pH of the stomach|mass of the reactants|1|They make it easier for reactions to start.|M
+M|Enzymes are used in washing powders to|break down stains such as proteins and fats|add colour|add smell|make bubbles|1|Biological detergents contain proteases and lipases.|M
+M|Enzymes are used in making|cheese and yoghurt|only plastic|only metal|only glass|1|Rennin helps clot milk.|M
+M|The induced fit model says that|the active site changes shape slightly to fit the substrate|the substrate is destroyed|the enzyme is destroyed|the substrate does not bind|1|It is a refinement of the lock and key model.|H
+M|Enzymes are needed in digestion because|they speed up the breakdown of food|they supply energy|they are the food|they colour the food|1|Digestion would be too slow without them.|E
+M|The enzyme that breaks down hydrogen peroxide is found in|liver and potato|bone|hair|nails|1|Fresh liver bubbles with oxygen.|M
+M|Enzyme activity is affected by|temperature, pH and substrate concentration|colour|shape of the container|smell|1|These are the main factors.|E
+M|Enzymes are affected by heavy metal ions such as mercury because these|bind to the enzyme and inhibit it|are substrates|are products|increase the rate|1|They change the structure of the active site.|H
+M|The enzyme rennin is used to|clot milk in cheese making|break down starch|make bread rise|digest cellulose|1|It coagulates milk protein.|M
+M|Yeast makes bread rise using enzymes that|ferment sugar into carbon dioxide|digest the flour completely|make the dough colder|add vitamins|1|The gas makes bubbles in the dough.|M
+M|A substance that binds to the active site and prevents the substrate from binding is a|competitive inhibitor|cofactor|coenzyme|product|1|It competes with the substrate.|H
+M|The rate of an enzyme reaction can be measured by|the amount of product formed per unit time|the colour of the enzyme|the size of the container|the mass of the enzyme only|1|Rate is the change per unit time.|M
+N|An enzyme produces 20 mL of oxygen in 4 minutes. Find the rate in mL per minute.|5|20 ÷ 4 = 5.|E|20/4
+N|The rate of an enzyme reaction doubles for each 10 °C rise up to the optimum. Starting at a rate of 2 units at 20 °C, find the rate at 40 °C.|8|It doubles twice: 2 × 2 × 2 = 8.|M|2*2*2
+N|An enzyme converts 100 molecules of substrate per second. Find the number converted in 1 minute.|6000|100 × 60 = 6000.|M|100*60
+N|In an experiment, 30 mL of gas is collected in 6 minutes. Find the rate in mL per minute.|5|30 ÷ 6 = 5.|E|30/6
+N|A student records starch disappearing in 120 s. Find the time in minutes.|2|120 ÷ 60 = 2.|E|120/60
+N|An enzyme works at a rate of 8 units at 40 °C and 4 units at 30 °C. Find the ratio of the rate at 40 °C to that at 30 °C.|2|8 ÷ 4 = 2.|M|8/4
+S|Define an enzyme.|A biological catalyst, made of protein, that speeds up chemical reactions in living organisms without being used up itself.|Most enzyme names end in -ase.|E
+S|Describe the lock and key model of enzyme action.|The substrate has a shape that fits the active site of the enzyme like a key fits a lock. They form an enzyme-substrate complex and the substrate is changed into products.|The enzyme is released unchanged.|M
+S|State three properties of enzymes.|They are specific, they work best at an optimum temperature and pH, and they are not used up in the reaction.|They are proteins.|M
+S|Why does an enzyme stop working at a high temperature?|The heat changes the shape of the active site, so the substrate can no longer fit. This permanent change is called denaturation.|Most human enzymes are denatured above about 45 °C.|M
+S|State the effect of pH on enzymes.|Each enzyme has an optimum pH. Away from this pH, the activity falls and an extreme pH can denature the enzyme.|Pepsin works at pH 2 and amylase at pH 7.|M
+S|Name an enzyme that digests starch, one that digests protein and one that digests fat.|Amylase digests starch, pepsin digests protein and lipase digests fat.|They are digestive enzymes.|E

@@ -1,0 +1,156 @@
+@level Class 9
+@subject Biology
+
+# 1 Introduction to Biology
+M|Biology is the study of|living things|rocks|stars|chemical elements only|1|Bio means life and logy means study.|E
+M|The study of animals is called|zoology|botany|ecology|genetics|1|Zoology deals with animal life.|E
+M|The study of plants is called|botany|zoology|anatomy|virology|1|Botany deals with plant life.|E
+M|The study of microorganisms is called|microbiology|ecology|taxonomy|embryology|1|Microbiology studies bacteria, viruses and other tiny organisms.|E
+M|The study of the relationship between organisms and their environment is called|ecology|genetics|anatomy|physiology|1|Ecology studies living things and their surroundings.|E
+M|The study of heredity and variation is called|genetics|ecology|taxonomy|anatomy|1|Genetics deals with how traits are passed on.|E
+M|The study of the structure of living things is called|anatomy|physiology|ecology|genetics|1|Anatomy deals with structure.|E
+M|The study of the functions of body parts is called|physiology|anatomy|taxonomy|ecology|1|Physiology deals with how parts work.|E
+M|The study of the classification of organisms is called|taxonomy|ecology|anatomy|embryology|1|Taxonomy names and groups organisms.|E
+M|The study of the development of an organism from fertilisation to birth is called|embryology|genetics|ecology|cytology|1|Embryology studies early development.|M
+M|The study of cells is called|cytology|histology|ecology|zoology|1|Cytology deals with cells.|E
+M|The study of tissues is called|histology|cytology|ecology|taxonomy|1|Histology deals with tissues.|M
+M|The use of living organisms to produce useful products is called|biotechnology|ecology|taxonomy|anatomy|1|Making medicines with bacteria is an example.|E
+M|The correct order of levels of organisation from smallest to largest is|cell, tissue, organ, organ system, organism|organ, tissue, cell, organism|organism, organ, cell, tissue|tissue, organ, cell, organism|1|Cells form tissues, tissues form organs and so on.|M
+M|A group of similar cells that perform a particular function is called a|tissue|organ|organism|population|1|For example muscle tissue.|E
+M|A group of tissues that work together to perform a function is called an|organ|organelle|ecosystem|population|1|The heart is an organ.|E
+M|A group of organs that work together is called an|organ system|ecosystem|organelle|tissue|1|The digestive system is an example.|E
+M|All the living organisms of the same species in an area are called a|population|community|ecosystem|biosphere|1|A population is one species in a place.|M
+M|All the different populations living in an area are called a|community|species|organ|tissue|1|A community includes all the species in a habitat.|M
+M|The living community together with its non-living environment is called an|ecosystem|organ|population|species|1|A pond is an ecosystem.|M
+M|The part of the Earth where life exists is called the|biosphere|lithosphere|atmosphere|hydrosphere|1|The biosphere includes land, water and air that support life.|M
+M|Which of the following is a characteristic of all living things?|Reproduction|Sparkling|Colour|Hardness|1|Living things can reproduce.|E
+M|The ability of living things to respond to stimuli is called|irritability or sensitivity|growth|excretion|metabolism|1|They react to changes in the environment.|M
+M|The removal of waste products of metabolism is called|excretion|nutrition|respiration|growth|1|Living things must remove their wastes.|E
+M|The taking in and use of food is called|nutrition|respiration|excretion|reproduction|1|Food provides energy and materials.|E
+M|The release of energy from food is called|respiration|photosynthesis|excretion|digestion|1|Cells break down food to release energy.|E
+M|The sum of all chemical reactions in a living organism is called|metabolism|digestion|osmosis|diffusion|1|It includes building up and breaking down.|M
+M|An increase in size and number of cells is called|growth|reproduction|nutrition|excretion|1|Growth is a characteristic of life.|E
+M|The word 'biology' comes from the Greek words 'bios' and 'logos'. 'Logos' means|study|life|cell|animal|1|Bios means life and logos means study.|E
+M|The founder of modern medicine and the author of the Canon of Medicine was|Ibn Sina (Avicenna)|Aristotle|Darwin|Pasteur|1|His Canon of Medicine was used for centuries.|M
+M|The Muslim scientist who wrote about the circulation of blood in the lungs was|Ibn al-Nafis|Al-Razi|Al-Jahiz|Al-Biruni|1|Ibn al-Nafis described pulmonary circulation.|H
+M|Al-Jahiz is known for his book on|animals (Kitab al-Hayawan)|stars|chemistry|geography|1|It describes animals and food chains.|H
+M|A career in biology includes|medicine and agriculture|only mining|only accounting|only sculpture|1|Biology leads to many careers.|E
+M|The smallest unit of life is the|cell|tissue|organ|organism|1|The cell is the basic unit of life.|E
+M|Which of these is a non-living thing?|A rock|A bacterium|A mushroom|A fish|1|A rock has no life processes.|E
+M|Living things are made of|cells|only atoms|only metals|only rocks|1|The cell theory says all living things are made of cells.|E
+M|Biology helps us to|understand diseases and how to treat them|make machines only|build roads only|forecast tides only|1|It is useful for health, food and the environment.|E
+M|The study of how organisms are related and have changed over time is called|evolution|nutrition|excretion|metabolism|1|Evolution explains the diversity of life.|M
+N|A microscope has an eyepiece of 10× and an objective of 40×. Find the total magnification.|400|Total = 10 × 40 = 400.|E|10*40
+N|An image of a cell measures 5 cm and the magnification is 100×. Find the real size in mm.|0.5|Real size = 5 cm ÷ 100 = 0.05 cm = 0.5 mm.|H|5/100*10
+N|Convert 0.5 mm to micrometres (1 mm = 1000 μm).|500|0.5 × 1000 = 500.|E|0.5*1000
+N|Convert 2 μm to millimetres.|0.002|2 ÷ 1000 = 0.002.|M|2/1000
+N|An object that is 2 mm long appears 10 cm long under a microscope. Find the magnification.|50|10 cm = 100 mm, and 100 ÷ 2 = 50.|H|100/2
+N|Count the levels of organisation from the cell to the organism: cell, tissue, organ, organ system and organism.|5|There are five levels.|E|5
+S|Define biology and name two of its branches.|The scientific study of living things. Two branches are zoology (animals) and botany (plants).|Others are ecology, genetics and microbiology.|E
+S|List the levels of biological organisation.|Molecule, organelle, cell, tissue, organ, organ system, organism, population, community, ecosystem and biosphere.|Each level is made up of the one before it.|M
+S|Name five characteristics of living things.|Nutrition, respiration, growth, reproduction and excretion. Movement and sensitivity are also characteristics.|All living things show them.|E
+S|Define a tissue and an organ.|A tissue is a group of similar cells that do the same job. An organ is a group of different tissues that work together to do a particular job.|Muscle is a tissue and the heart is an organ.|E
+S|Distinguish between anatomy and physiology.|Anatomy is the study of the structure of living things. Physiology is the study of how their parts work.|Both are branches of biology.|E
+S|What is metabolism?|All the chemical reactions that take place in a living organism, which build up and break down substances to release and use energy.|It includes digestion and respiration.|M
+
+# 2 Solving a Biological Problem
+M|The first step in the scientific method is|recognising a problem and making observations|writing the conclusion|publishing the results|buying equipment|1|Scientists begin by observing and identifying a problem.|E
+M|A hypothesis is|a tentative explanation that can be tested|a proven law|a measurement|a conclusion|1|It is a testable guess based on observations.|E
+M|The steps of the scientific method in order are|observation, hypothesis, experiment, results, conclusion|conclusion, experiment, observation, hypothesis|hypothesis, conclusion, experiment|results, hypothesis, observation|1|Scientists observe, propose, test, record and conclude.|M
+M|A prediction made from a hypothesis, such as 'if... then...', is called a|deduction|conclusion|result|variable|1|Deductions are tested by experiments.|M
+M|In an experiment, the factor that the scientist changes on purpose is the|independent variable|dependent variable|controlled variable|constant|1|It is the cause being tested.|M
+M|In an experiment, the factor that is measured is the|dependent variable|independent variable|control|hypothesis|1|It changes in response to the independent variable.|M
+M|Factors that are kept the same in an experiment are called|controlled variables or constants|dependent variables|independent variables|hypotheses|1|They ensure a fair test.|M
+M|A control experiment is|a comparison set with no treatment|a set with all variables changed|a set with the hypothesis changed|a set with no result|1|It shows what happens without the treatment.|M
+M|The experiment of Francesco Redi on flies and meat showed that|maggots come from fly eggs, not spontaneously from meat|maggots grow from meat itself|flies come from air|meat produces flies|1|Meat covered with gauze had no maggots.|M
+M|Louis Pasteur's experiment with swan-necked flasks disproved|spontaneous generation|cell theory|evolution|photosynthesis|1|Microbes did not arise from broth by themselves.|M
+M|A scientific theory is|a well-tested explanation supported by much evidence|a guess|an opinion|a law that never changes|1|Theories are supported by many experiments.|M
+M|A scientific law|describes what happens in nature|is a guess|is never tested|is a hypothesis|1|It describes a pattern that is always observed.|M
+M|Data collected as numbers is called|quantitative data|qualitative data|a hypothesis|a conclusion|1|Measurements are quantitative.|E
+M|Data collected as descriptions, such as colour, is called|qualitative data|quantitative data|a variable|a result|1|It describes qualities.|E
+M|A graph is used to|show the relationship between variables|replace the experiment|hide data|decide the hypothesis|1|It makes patterns easy to see.|E
+M|The dependent variable is usually plotted on the|y-axis|x-axis|neither|a pie chart|1|The independent variable goes on the x-axis.|M
+M|The independent variable is usually plotted on the|x-axis|y-axis|neither|a table only|1|The cause is plotted along the horizontal axis.|M
+M|The conclusion of an experiment should|be based on the results|ignore the results|be decided before the experiment|be a guess|1|It says whether the hypothesis is supported.|E
+M|Repeating an experiment several times|makes the results more reliable|makes the results wrong|is a waste of time|changes the hypothesis|1|It reduces the effect of chance.|E
+M|The mean of a set of readings is|the sum divided by the number of readings|the largest reading|the smallest reading|the difference between readings|1|It is the average.|E
+M|A fair test is one in which|only one variable is changed at a time|all variables are changed|no variables are kept the same|there is no control|1|It lets us link the effect to one cause.|E
+M|The use of a sample in an experiment|saves time and cost|always gives exact results|is not allowed|gives no information|1|The sample should represent the whole population.|M
+M|A large sample size|improves the reliability of the results|makes results less reliable|has no effect|prevents any conclusion|1|More data reduces random error.|M
+M|A bar chart is best used to show|categories|continuous data|angles|a single value|1|Bars compare different groups.|E
+M|A histogram is used to show|continuous data grouped into classes|categories only|a single measurement|a hypothesis|1|The bars touch because the data is continuous.|M
+M|A line graph is used to show|change over time|categories only|a proportion of a whole|nothing|1|It shows trends.|E
+M|A pie chart is used to show|how a whole is divided into parts|change over time|temperature|a hypothesis|1|It shows proportions.|E
+M|A hypothesis that cannot be tested is|not scientific|always correct|a theory|a law|1|Science depends on testable ideas.|M
+M|When the results do not support the hypothesis, the scientist should|revise or reject the hypothesis|change the results|ignore the results|hide the data|1|Honest science follows the evidence.|M
+M|The unit used to measure length in a microscope slide is the|micrometre|kilogram|litre|second|1|Cells are measured in micrometres.|M
+M|Bias in an experiment means|unfair influence on the result|a careful design|a graph|a control|1|It can make results misleading.|M
+M|Biological problems can be solved by|using the scientific method|guessing only|asking no questions|ignoring evidence|1|The scientific method is a systematic approach.|E
+M|An organised way of recording data is a|table|guess|opinion|theory|1|Tables record the observations clearly.|E
+M|Which of these is a quantitative observation?|The plant is 12 cm tall|The leaf is green|The soil is wet|The flower smells nice|1|It uses a number.|E
+M|Which of these is a qualitative observation?|The leaf is green|The plant is 12 cm tall|The temperature is 25 °C|The mass is 3 g|1|It describes a quality, not a number.|E
+M|The statement 'If plants are given more light, then they will grow taller' is an example of|a hypothesis|a conclusion|a result|a control|1|It proposes a testable relationship.|E
+N|Three plants grow 12 cm, 14 cm and 16 cm. Find the mean growth in cm.|14|(12 + 14 + 16) ÷ 3 = 14.|E|(12+14+16)/3
+N|A group of plants grew from 10 cm to 15 cm. Find the percentage increase in height.|50|(15 − 10) ÷ 10 × 100 = 50.|M|(15-10)/10*100
+N|In an experiment, 40 seeds are planted and 34 germinate. Find the percentage that germinate.|85|34 ÷ 40 × 100 = 85.|M|34/40*100
+N|Readings of 5, 7, 6, 8 and 9 are taken. Find the mean.|7|35 ÷ 5 = 7.|E|(5+7+6+8+9)/5
+N|A control group has a mean height of 10 cm and a treated group has 14 cm. Find the difference in cm.|4|14 − 10 = 4.|E|14-10
+N|An experiment is repeated 5 times with results 4, 6, 5, 7 and 3. Find the range.|4|7 − 3 = 4.|M|7-3
+S|List the steps of the scientific method.|Observation and recognition of a problem, forming a hypothesis, making deductions, carrying out experiments, recording and analysing results, and reaching a conclusion.|The method may be repeated if the hypothesis is rejected.|M
+S|Define a hypothesis.|A tentative, testable explanation for an observation or problem.|It must be possible to test it by experiment.|E
+S|What is the purpose of a control experiment?|To provide a comparison, so that the effect of the variable being tested can be seen.|The control is treated like the experiment, except for the factor being tested.|M
+S|Distinguish between independent and dependent variables.|The independent variable is the factor that the experimenter changes. The dependent variable is the factor that is measured in response.|Other factors are controlled.|M
+S|Describe Redi's experiment.|Redi placed meat in jars, some open and some covered with gauze. Maggots appeared only in the open jars, showing that maggots come from eggs laid by flies, not from the meat itself.|It disproved spontaneous generation of flies.|M
+S|Why should an experiment be repeated?|To check that the results are reliable and not due to chance, and to calculate an average.|More repeats give more confidence in the conclusion.|E
+
+# 3 Biodiversity
+M|Biodiversity means|the variety of living organisms in an area|a single species|only plants|only animals|1|It includes species, genes and ecosystems.|E
+M|The science of naming and classifying organisms is called|taxonomy|ecology|physiology|genetics|1|Taxonomy arranges organisms into groups.|E
+M|The scientist who introduced binomial nomenclature was|Carolus Linnaeus|Charles Darwin|Louis Pasteur|Gregor Mendel|1|Linnaeus named species with two Latin names.|E
+M|In binomial nomenclature, an organism's name has|two parts, genus and species|one part|three parts|four parts|1|Example: Homo sapiens.|E
+M|The scientific name of a human being is|Homo sapiens|Homo erectus|Panthera leo|Canis lupus|1|Homo is the genus and sapiens the species.|E
+M|In a scientific name, the genus name begins with|a capital letter|a small letter|a number|a symbol|1|The species name begins with a small letter.|E
+M|Scientific names are written in|italics or underlined|bold only|any colour|capitals only|1|This is the convention.|M
+M|The basic unit of classification is the|species|genus|family|order|1|A species is a group that can interbreed.|E
+M|The correct order of taxonomic ranks from the largest to the smallest is|kingdom, phylum, class, order, family, genus, species|species, genus, family, order, class, phylum, kingdom|kingdom, class, phylum, family, order, genus, species|phylum, kingdom, order, class, genus, family, species|1|The hierarchy narrows from kingdom to species.|M
+M|The number of kingdoms in the five-kingdom system is|5|3|4|6|1|Monera, Protista, Fungi, Plantae and Animalia.|E
+M|The five kingdoms are|Monera, Protista, Fungi, Plantae, Animalia|Plantae, Animalia, Viruses, Bacteria, Fungi|Archaea, Monera, Fungi, Plantae, Animalia|Bacteria, Algae, Fungi, Plants, Animals|1|This is the five-kingdom system of Whittaker.|M
+M|Bacteria belong to the kingdom|Monera|Protista|Fungi|Plantae|1|They are prokaryotes.|E
+M|Prokaryotes are organisms that|have no true nucleus|have a true nucleus|are always plants|are always animals|1|Their DNA is not enclosed in a nuclear membrane.|M
+M|Amoeba and Paramecium belong to the kingdom|Protista|Monera|Fungi|Animalia|1|They are single-celled eukaryotes.|M
+M|Mushrooms and yeast belong to the kingdom|Fungi|Plantae|Protista|Monera|1|Fungi absorb food from their surroundings.|E
+M|Organisms that make their own food by photosynthesis belong to the kingdom|Plantae|Animalia|Fungi|Monera only|1|Plants are autotrophs.|E
+M|Animals are|heterotrophic and multicellular|autotrophic|single-celled only|prokaryotic|1|They feed on other organisms.|E
+M|Viruses are not classified in any of the five kingdoms because|they are not made of cells|they are plants|they are animals|they are fungi|1|They can reproduce only inside a host cell.|M
+M|A virus consists of|genetic material in a protein coat|a nucleus and cytoplasm|a cell wall and chloroplasts|many cells|1|It is the simplest particle.|M
+M|Vertebrates are animals that have|a backbone|no backbone|a shell only|wings only|1|Fish, amphibians, reptiles, birds and mammals.|E
+M|Invertebrates are animals that have|no backbone|a backbone|four legs|feathers|1|Insects and worms are invertebrates.|E
+M|Which of the following is a mammal?|Whale|Shark|Frog|Lizard|1|Whales are mammals that suckle their young.|E
+M|The snow leopard is|an endangered species in Pakistan|a bird|a fish|an insect|1|It lives in the mountains of northern Pakistan.|M
+M|The markhor, the national animal of Pakistan, is a|wild goat|bird|fish|insect|1|It lives in mountainous areas.|M
+M|The Indus river dolphin is|a mammal found in the River Indus|a fish|a reptile|an amphibian|1|It is an endangered freshwater mammal.|M
+M|A species that has disappeared from the Earth is said to be|extinct|endangered|common|abundant|1|No members are left alive.|E
+M|A species whose numbers are so low that it may become extinct is|endangered|common|abundant|extinct|1|It needs protection.|E
+M|A major cause of loss of biodiversity is|habitat destruction|planting trees|breeding in zoos|protecting forests|1|Cutting forests removes homes of species.|E
+M|A way of conserving biodiversity is|setting up national parks and reserves|clearing forests|hunting|polluting rivers|1|Protected areas keep habitats safe.|E
+M|Conservation of an organism in its natural habitat is called|in situ conservation|ex situ conservation|extinction|migration|1|National parks are an example.|M
+M|Conservation outside the natural habitat, such as in a zoo, is called|ex situ conservation|in situ conservation|extinction|adaptation|1|Zoos and seed banks are examples.|M
+M|A dichotomous key is used to|identify organisms|measure cells|make food|cure diseases|1|It uses a series of two-way choices.|M
+M|Classification helps scientists to|study organisms in an organised way|destroy organisms|make new species|stop evolution|1|It makes the huge number of organisms manageable.|E
+M|Algae are mostly classified in the kingdom|Protista|Animalia|Fungi|Monera|1|Many algae are protists.|M
+M|The Latin word 'genus' refers to|a group of closely related species|a single individual|a kingdom|a cell|1|Species in a genus are similar.|M
+M|Lions and tigers belong to the same genus. Their genus is|Panthera|Canis|Felis|Homo|1|Panthera leo and Panthera tigris.|H
+M|Animals that can regulate their body temperature are called|warm-blooded|cold-blooded|plants|bacteria|1|Birds and mammals are warm-blooded.|E
+M|A group of organisms that can interbreed and produce fertile offspring is a|species|kingdom|phylum|class|1|This is the biological definition of a species.|E
+N|Count the number of taxonomic ranks from kingdom to species: kingdom, phylum, class, order, family, genus and species.|7|There are seven ranks.|E|7
+N|Count the number of words in a binomial scientific name.|2|A binomial name has a genus and a species name.|E|2
+N|A forest has 4 species of birds, 6 of mammals and 10 of insects. Find the total number of species.|20|4 + 6 + 10 = 20.|E|4+6+10
+N|A population of 500 animals falls by 20 percent. Find the number remaining.|400|500 − 100 = 400.|M|500*0.8
+N|A reserve has 25 species out of 100 in a region. Find the percentage of species in the reserve.|25|25 ÷ 100 × 100 = 25.|E|25/100*100
+N|There are 5 kingdoms. Plants, animals and fungi account for 3. Find the number of kingdoms of single-celled organisms.|2|Monera and Protista, so 5 − 3 = 2.|M|5-3
+S|Define biodiversity.|The variety of living organisms on the Earth or in an area, including the variety of species, genes and ecosystems.|It is greatest in tropical rainforests.|E
+S|What is binomial nomenclature? Give an example.|The system of naming a species with two Latin names, the genus and the species. Homo sapiens is the name for humans.|It was introduced by Linnaeus.|E
+S|List the taxonomic ranks in order.|Kingdom, phylum, class, order, family, genus and species.|A mnemonic helps in remembering them.|M
+S|Name the five kingdoms.|Monera, Protista, Fungi, Plantae and Animalia.|Viruses are not included.|E
+S|State two causes of the loss of biodiversity.|Destruction of habitats and hunting or over-collecting of organisms. Pollution and climate change also contribute.|These can cause extinction.|M
+S|State two ways of conserving biodiversity.|By setting up national parks and wildlife reserves, and by breeding endangered species in zoos or protected areas.|Laws against hunting also help.|E

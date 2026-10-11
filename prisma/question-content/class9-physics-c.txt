@@ -1,0 +1,160 @@
+@level Class 9
+@subject Physics
+
+# 7 Properties of Matter
+M|The three common states of matter are|solid, liquid and gas|solid, liquid and plasma only|hot, cold and warm|metal, wood and glass|1|Matter exists as solid, liquid or gas.|E
+M|Density is defined as|mass ÷ volume|volume ÷ mass|mass × volume|force ÷ area|1|ρ = m/V.|E
+M|The density of pure water is about|1 kg/m³|100 kg/m³|1000 kg/m³|10 000 kg/m³|3|Water has a density of 1000 kg/m³, or 1 g/cm³.|E
+M|Pressure is defined as|force per unit area|force × area|mass per unit volume|work per unit time|1|P = F/A.|E
+M|The SI unit of pressure is the|newton|pascal|joule|watt|2|The pascal is one newton per square metre.|E
+M|One pascal equals|1 N m|1 N/m²|1 N/m|1 kg/m³|2|1 Pa = 1 N/m².|E
+M|The pressure in a liquid|increases with depth|decreases with depth|is the same at all depths|is zero|1|The deeper you go, the more liquid is above.|E
+M|The pressure at depth h in a liquid of density ρ is|ρgh|ρg/h|ρh/g|gh/ρ|1|P = hρg.|M
+M|Pascal's law states that pressure applied to a confined fluid is|transmitted equally in all directions|transmitted only downwards|reduced with distance|stored in the fluid|1|The pressure change is the same throughout the fluid.|M
+M|A hydraulic press is based on|Pascal's law|Archimedes' principle|Hooke's law|Newton's third law only|1|A small force on a small piston makes a large force on a large piston.|M
+M|Atmospheric pressure at sea level is about|101 325 Pa|1013 Pa|10 Pa|1 000 000 Pa|1|It is about 1.01 × 10⁵ Pa.|M
+M|A barometer is used to measure|atmospheric pressure|temperature|humidity|speed|1|A mercury barometer measures atmospheric pressure.|E
+M|Atmospheric pressure|decreases as we go higher|increases as we go higher|stays the same at all heights|is zero at sea level|1|There is less air above at greater heights.|E
+M|The height of the mercury column in a barometer at sea level is about|7.6 cm|76 cm|760 cm|7.6 m|2|Standard atmospheric pressure supports 76 cm of mercury.|M
+M|Archimedes' principle states that the buoyant force on a body equals|the weight of the liquid displaced|the weight of the body|the volume of the body|the density of the liquid|1|The upthrust equals the weight of the fluid pushed aside.|M
+M|A body floats in a liquid if its density is|less than that of the liquid|greater than that of the liquid|zero|equal to that of air|1|A less dense body is held up by the liquid.|M
+M|A body sinks in a liquid if its density is|less than that of the liquid|greater than that of the liquid|equal to nothing|zero|2|A denser body weighs more than the liquid it displaces.|M
+M|A steel ship floats because|it displaces a weight of water equal to its own weight|steel is lighter than water|it has no weight|the sea is shallow|1|Its shape displaces a large volume of water.|M
+M|Hooke's law states that within the elastic limit, the extension is|proportional to the applied force|inversely proportional to the force|independent of the force|equal to the force|1|Stress is proportional to strain.|E
+M|The elastic limit is the|maximum stress up to which a body returns to its original shape|minimum stress|point where it breaks|point where it melts|1|Beyond it the body is permanently deformed.|M
+M|A spring stretches by 2 cm under a load of 10 N. Under a load of 20 N, within the elastic limit, it stretches by|1 cm|2 cm|4 cm|8 cm|3|The extension is proportional to the load.|M
+M|Young's modulus is equal to|stress ÷ strain|strain ÷ stress|force ÷ area|extension ÷ length|1|Y = stress/strain.|M
+M|Stress is defined as|force per unit area|extension per unit length|mass per unit volume|force × area|1|Stress = F/A.|M
+M|Strain is defined as|change in length ÷ original length|force ÷ area|mass ÷ volume|length × area|1|Strain = ΔL/L.|M
+M|Strain has|no unit|the unit of length|the unit of force|the unit of pressure|1|It is a ratio of two lengths.|M
+M|A sharp knife cuts easily because|a small area gives a large pressure|it is heavy|it is hot|the force is smaller|1|P = F/A, so a smaller area means a greater pressure.|E
+M|Wide tyres on heavy vehicles|reduce the pressure on the ground|increase the pressure|reduce the weight|increase the speed|1|A larger area gives a smaller pressure.|E
+M|A material that breaks without bending much is called|brittle|ductile|malleable|elastic|1|Glass is brittle.|E
+M|A material that can be drawn into wires is called|brittle|ductile|rigid|fluid|2|Copper is ductile.|E
+M|A body that does not regain its original shape after the load is removed has|exceeded its elastic limit|stayed elastic|lost mass|gained energy|1|It has undergone plastic deformation.|M
+M|Liquids and gases are called fluids because|they can flow|they are heavy|they are cold|they are rigid|1|Both have no fixed shape.|E
+N|A body has a mass of 200 g and a volume of 50 cm³. Find its density in g/cm³.|4|Density = 200 ÷ 50 = 4.|E|200/50
+N|Find the mass in kg of 0.5 m³ of a metal of density 2700 kg/m³.|1350|m = ρV = 2700 × 0.5 = 1350.|E|2700*0.5
+N|A force of 100 N acts on an area of 0.5 m². Find the pressure in pascals.|200|P = 100 ÷ 0.5 = 200.|E|100/0.5
+N|Taking ρ = 1000 kg/m³ and g = 10 m/s², find the pressure in pascals due to water at a depth of 5 m.|50000|P = ρgh = 1000 × 10 × 5 = 50 000.|M|1000*10*5
+N|A pressure of 2000 Pa acts on an area of 0.2 m². Find the force in newtons.|400|F = PA = 2000 × 0.2 = 400.|E|2000*0.2
+N|In a hydraulic press the small piston has an area of 2 cm² and the large piston 50 cm². A force of 20 N acts on the small piston. Find the force in newtons on the large piston.|500|F₂ = 20 × 50 ÷ 2 = 500.|H|20*50/2
+N|A body displaces 0.002 m³ of water. Taking ρ = 1000 kg/m³ and g = 10 m/s², find the buoyant force in newtons.|20|F = ρgV = 1000 × 10 × 0.002 = 20.|H|1000*10*0.002
+N|A body weighs 50 N in air and 40 N when fully in water. Find the buoyant force in newtons.|10|The buoyant force is 50 − 40 = 10.|M|50-40
+N|A force of 200 N acts on a wire of cross-section 0.01 m². Find the stress in pascals.|20000|Stress = 200 ÷ 0.01 = 20 000.|M|200/0.01
+N|A wire 1000 mm long is stretched by 2 mm. Find the strain.|0.002|Strain = 2 ÷ 1000 = 0.002.|M|2/1000
+N|The stress on a wire is 2 × 10⁸ Pa and the strain is 0.001. Find Young's modulus in pascals.|200000000000|Y = stress ÷ strain = 2 × 10⁸ ÷ 0.001 = 2 × 10¹¹.|H|2e8/0.001
+N|A spring is extended by 2 cm by a force of 10 N. Find the extension in cm for 15 N within the elastic limit.|3|The extension is proportional to the force: 2 × 15 ÷ 10 = 3.|M|2*15/10
+N|Taking ρ = 1000 kg/m³ and g = 10 m/s², find the depth in metres at which the water pressure is 20 000 Pa.|2|h = P/ρg = 20 000 ÷ 10 000 = 2.|M|20000/(1000*10)
+N|A liquid has a density of 800 kg/m³. Find the mass in kg of 0.25 m³ of it.|200|m = 800 × 0.25 = 200.|E|800*0.25
+S|Define density and state its SI unit.|The mass per unit volume of a substance, ρ = m/V. Its SI unit is kg/m³.|Water has a density of 1000 kg/m³.|E
+S|State Pascal's law.|Pressure applied to an enclosed fluid is transmitted equally and undiminished to every part of the fluid and to the walls of its container.|It is the principle behind the hydraulic press.|M
+S|State Archimedes' principle.|When a body is wholly or partly immersed in a fluid, it experiences an upward force equal to the weight of the fluid displaced.|It explains why ships float.|M
+S|State Hooke's law.|Within the elastic limit, the extension of a body is directly proportional to the force applied to it.|It means stress is proportional to strain.|M
+S|Define pressure and state its SI unit.|Force acting normally per unit area, P = F/A. Its SI unit is the pascal.|One pascal is one newton per square metre.|E
+S|What is atmospheric pressure?|The pressure exerted by the weight of the air above us.|At sea level it is about 101 325 Pa.|E
+
+# 8 Thermal Properties of Matter
+M|Temperature is a measure of|how hot or cold a body is|the heat in a body|the mass of a body|the energy of light|1|It tells the degree of hotness.|E
+M|The SI unit of temperature is the|kelvin|celsius|fahrenheit|joule|1|The kelvin is the SI unit.|E
+M|To convert a temperature from degrees Celsius to kelvin we|add 273|subtract 273|multiply by 273|divide by 273|1|K = °C + 273.|E
+M|The boiling point of water at normal pressure is|0 °C|50 °C|100 °C|273 °C|3|Water boils at 100 °C.|E
+M|The freezing point of water is|0 °C|4 °C|100 °C|−273 °C|1|Pure water freezes at 0 °C.|E
+M|The upper fixed point on a Celsius thermometer is|0 °C|50 °C|100 °C|273 °C|3|It is the boiling point of water.|E
+M|The lower fixed point on a Celsius thermometer is|0 °C|50 °C|100 °C|273 °C|1|It is the melting point of ice.|E
+M|The liquid most commonly used in laboratory thermometers is|mercury or alcohol|water|oil|milk|1|They expand uniformly and are visible.|E
+M|A clinical thermometer has a range of about|35 °C to 42 °C|0 °C to 100 °C|−10 °C to 110 °C|100 °C to 200 °C|1|It measures human body temperature.|M
+M|Heat is a form of|energy|force|power|temperature|1|Heat is energy in transit because of a temperature difference.|E
+M|The SI unit of heat is the|joule|watt|kelvin|newton|1|Heat is energy, so it is measured in joules.|E
+M|The specific heat capacity of a substance is the|heat needed to raise the temperature of 1 kg by 1 K|heat needed to melt 1 kg|heat needed to boil 1 kg|temperature of 1 kg|1|c = Q/(mΔT).|M
+M|The SI unit of specific heat capacity is|J/kg K|J/kg|J/K|W/m|1|c is in joules per kilogram per kelvin.|M
+M|The specific heat capacity of water is about|420 J/kg K|4200 J/kg K|42 000 J/kg K|42 J/kg K|2|It is 4200 J/kg K, which is very high.|M
+M|The heat capacity of a body of mass m and specific heat c is|mc|m/c|c/m|m + c|1|Heat capacity = mc.|M
+M|The heat needed to change the temperature of a mass m by ΔT is|mcΔT|mc/ΔT|mΔT/c|cΔT/m|1|Q = mcΔT.|M
+M|The latent heat of fusion is the heat needed to|change 1 kg of solid to liquid at its melting point|raise the temperature by 1 K|change liquid to gas|freeze a liquid|1|The temperature does not change during melting.|M
+M|The latent heat of vaporisation is the heat needed to|change 1 kg of liquid to vapour at its boiling point|change solid to liquid|raise the temperature of water|freeze a liquid|1|The temperature does not change during boiling.|M
+M|The heat needed to change the state of a mass m is|mL|mcΔT|m/L|L/m|1|Q = mL, where L is the latent heat.|M
+M|Evaporation takes place|at any temperature|only at the boiling point|only below 0 °C|only at 100 °C|1|Fast molecules leave the surface at any temperature.|M
+M|Evaporation causes|cooling|heating|no change|melting|1|The fastest molecules escape, so the liquid cools.|M
+M|Boiling takes place|at a fixed temperature|at any temperature|only at the surface|only in a vacuum|1|At normal pressure water boils at 100 °C.|M
+M|When a solid is heated it generally|expands|contracts|stays the same|disappears|1|The atoms vibrate more and move apart.|E
+M|Gaps are left between railway track sections to allow for|thermal expansion|sound|friction|rust|1|The rails expand in hot weather.|E
+M|Water has its maximum density at|0 °C|4 °C|100 °C|−4 °C|2|This is the unusual expansion of water.|H
+M|For the same rise in temperature, gases expand|more than liquids and solids|less than liquids|the same as solids|not at all|1|Gases expand the most.|M
+M|A bimetallic strip bends when heated because|the two metals expand by different amounts|it melts|it gets lighter|one metal vanishes|1|The metal that expands more ends up on the outside of the curve.|M
+M|Two bodies in thermal equilibrium have the same|temperature|mass|heat capacity|volume|1|No net heat flows between them.|M
+M|Heat flows from a body at|a higher temperature to one at a lower temperature|a lower temperature to one at a higher temperature|equal temperatures|any temperature to any other|1|Heat always flows from hot to cold.|E
+M|The scale in which water freezes at 32 degrees is the|Fahrenheit scale|Celsius scale|Kelvin scale|Absolute scale|1|On the Fahrenheit scale water freezes at 32 °F and boils at 212 °F.|M
+M|Absolute zero is|0 K|0 °C|100 K|273 K|1|It is the lowest possible temperature, −273 °C.|M
+M|A larger specific heat capacity means the substance|heats up more slowly|heats up faster|has more mass|never melts|1|More heat is needed for the same temperature rise.|M
+N|Convert 27 °C to kelvin.|300|27 + 273 = 300.|E|27+273
+N|Convert 350 K to degrees Celsius.|77|350 − 273 = 77.|E|350-273
+N|Convert 100 °C to degrees Fahrenheit using F = 9C/5 + 32.|212|9 × 100 ÷ 5 + 32 = 212.|M|100*9/5+32
+N|Find the heat in joules needed to raise the temperature of 2 kg of water by 10 K (c = 4200 J/kg K).|84000|Q = mcΔT = 2 × 4200 × 10 = 84 000.|M|2*4200*10
+N|A body has a mass of 0.5 kg and specific heat 400 J/kg K. Find its heat capacity in J/K.|200|Heat capacity = mc = 0.5 × 400 = 200.|M|0.5*400
+N|Find the heat in joules needed to melt 0.5 kg of ice at 0 °C (L = 336 000 J/kg).|168000|Q = mL = 0.5 × 336 000 = 168 000.|M|0.5*336000
+N|Find the heat in joules needed to change 0.1 kg of water at 100 °C to steam (L = 2 260 000 J/kg).|226000|Q = mL = 0.1 × 2 260 000 = 226 000.|M|0.1*2260000
+N|A 1 kg block of water receives 8400 J (c = 4200 J/kg K). Find the temperature rise in kelvin.|2|ΔT = Q ÷ (mc) = 8400 ÷ 4200 = 2.|M|8400/(1*4200)
+N|A 0.5 kg metal receives 4000 J and its temperature rises by 20 K. Find its specific heat capacity in J/kg K.|400|c = Q ÷ (mΔT) = 4000 ÷ 10 = 400.|H|4000/(0.5*20)
+N|A rod of length 100 m has α = 1.2 × 10⁻⁵ per K. Find its expansion in metres for a 30 K rise.|0.036|ΔL = αLΔT = 1.2 × 10⁻⁵ × 100 × 30 = 0.036.|H|1.2e-5*100*30
+N|Equal masses of water at 50 °C and 30 °C are mixed. Find the final temperature in °C.|40|The final temperature is the average, 40 °C.|M|(50+30)/2
+N|A 1000 W heater is on for 2 minutes. Find the heat supplied in joules.|120000|Q = Pt = 1000 × 120 = 120 000.|M|1000*120
+N|How many kilograms of water (c = 4200 J/kg K) need 42 000 J to rise 5 K?|2|m = Q ÷ (cΔT) = 42 000 ÷ 21 000 = 2.|H|42000/(4200*5)
+N|Convert 212 °F to degrees Celsius using C = (F − 32) × 5/9.|100|(212 − 32) × 5 ÷ 9 = 100.|M|(212-32)*5/9
+S|Define temperature.|A measure of the degree of hotness or coldness of a body.|Its SI unit is the kelvin.|E
+S|Define heat and state its SI unit.|Energy that flows from a hotter body to a colder body because of the difference in temperature. Its SI unit is the joule.|Heat flows until the two bodies reach thermal equilibrium.|E
+S|Define specific heat capacity.|The amount of heat required to raise the temperature of 1 kg of a substance by 1 kelvin.|Its SI unit is J/kg K.|M
+S|Define latent heat of fusion.|The heat required to change 1 kg of a solid into liquid at its melting point without a change in temperature.|For ice it is 336 000 J/kg.|M
+S|Why are gaps left between the sections of a railway track?|Rails expand when heated. The gaps allow for this expansion and prevent the track from bending.|Metals expand in hot weather.|M
+S|State two differences between evaporation and boiling.|Evaporation takes place at any temperature and only at the surface, while boiling takes place at a fixed temperature and throughout the liquid.|Boiling is much faster than evaporation.|M
+
+# 9 Transfer of Heat
+M|The three methods of heat transfer are|conduction, convection and radiation|conduction, friction and gravity|evaporation, boiling and melting|reflection, refraction and diffusion|1|Heat moves by conduction, convection or radiation.|E
+M|Heat transfer through solids occurs mainly by|conduction|convection|radiation|evaporation|1|Vibrating particles pass energy to their neighbours.|E
+M|Heat transfer in liquids and gases occurs mainly by|conduction|convection|radiation only|friction|2|Warm fluid rises and cool fluid sinks.|E
+M|Heat from the Sun reaches the Earth by|conduction|convection|radiation|evaporation|3|Radiation needs no medium.|E
+M|Which of the following is a good conductor of heat?|Copper|Wood|Plastic|Air|1|Metals conduct heat well.|E
+M|Which of the following is a poor conductor of heat?|Silver|Copper|Wood|Aluminium|3|Wood is an insulator.|E
+M|Materials that do not conduct heat well are called|insulators|conductors|superconductors|semiconductors|1|They are thermal insulators.|E
+M|Heat transfer by convection requires|a fluid medium|a vacuum|a solid only|no medium|1|Convection happens only in liquids and gases.|M
+M|Radiation can travel through|a vacuum|solids only|liquids only|air only|1|It does not need a medium.|M
+M|A metal spoon in hot tea becomes hot by|conduction|convection|radiation only|evaporation|1|Heat conducts along the metal.|E
+M|Heating water in a pot works mainly by|convection currents|conduction only|radiation only|friction|1|The warm water at the bottom rises.|M
+M|Sea breeze during the day is caused by|convection|conduction|radiation only|condensation|1|Warm air over land rises and cool air from the sea moves in.|M
+M|Which surface is the best absorber of radiation?|Dull black|Shiny white|Shiny silver|Dull white|1|Dull black surfaces absorb the most.|M
+M|Which surface is the best reflector of radiation?|Dull black|Shiny silver|Dull white|Rough surface|2|A shiny surface reflects most radiation.|M
+M|Which surface is the best emitter of radiation?|Dull black|Shiny silver|Shiny white|Polished metal|1|Good absorbers are also good emitters.|M
+M|A thermos flask reduces heat loss by conduction using|a vacuum between double walls|a thick metal wall|a black surface|a wide neck|1|A vacuum prevents conduction and convection.|M
+M|The silvered walls of a thermos flask reduce heat loss by|radiation|conduction|convection|evaporation|1|Silver reflects the radiation back.|M
+M|The plastic cork of a thermos flask reduces heat loss by|conduction and convection|radiation|friction|evaporation|1|Plastic is a poor conductor and the cork seals the neck.|M
+M|A black car parked in sunlight becomes hotter than a white car because black|absorbs more radiation|reflects more radiation|conducts less|is lighter|1|Dull black surfaces are good absorbers.|M
+M|People in hot countries wear white clothes because white|reflects more radiation|absorbs more radiation|is heavier|conducts heat|1|White reflects most of the Sun's heat.|M
+M|The cooling element of a refrigerator is placed at the top because|cold air sinks, setting up convection|hot air sinks|it is cheaper|heat rises from the floor|1|Cold air flows down, which cools the whole interior.|M
+M|Air is a poor conductor of heat, so woollen clothes keep us warm by|trapping air|conducting heat|absorbing sunlight|radiating heat|1|Trapped air is a good insulator.|M
+M|In conduction, heat is transferred without|any bulk movement of the material|any contact|any temperature difference|any energy|1|The particles vibrate but stay in place.|M
+M|In convection, heat is carried by|the movement of the fluid itself|vibration of atoms only|electromagnetic waves|the container|1|The fluid moves and carries the heat.|M
+M|The rate of heat conduction through a rod does not depend on|the colour of the rod|its cross-sectional area|its length|the temperature difference|1|It depends on area, length, temperature difference and the material.|H
+M|The rate of heat conduction through a rod is|inversely proportional to its length|proportional to its length|independent of its length|proportional to the square of its length|1|A longer rod conducts heat more slowly.|H
+M|Thermal conductivity is a property of|the material|the shape|the colour|the mass|1|Different materials conduct heat at different rates.|M
+M|Metals are good conductors of heat because they have|free electrons|no atoms|a low density|a low melting point|1|Free electrons carry heat energy quickly.|H
+M|Cooking pots are made of metal with plastic handles because|metals conduct heat well and plastic does not|plastic conducts heat well|metals do not conduct|plastic is cheap only|1|The handle stays cool.|E
+M|The heating coil of an electric kettle is placed near the bottom to|set up convection currents|reduce cost|reduce weight|reduce noise|1|Hot water rises and cold water takes its place.|M
+M|The roof of a house is often painted white to|reflect the Sun's radiation|absorb heat|reduce rain|keep it noisy|1|It stays cooler in summer.|M
+M|Ice is packed in sawdust or wool to keep it from melting because these materials|are poor conductors|are good conductors|are heavy|are cold|1|They slow the transfer of heat.|M
+M|Radiation is a transfer of heat energy by|electromagnetic waves|moving particles|vibration|collisions|1|It is carried by infrared waves.|M
+N|The rate of heat conduction through a slab is Q/t = kAΔT/d. Find Q/t in watts for k = 400 W/m K, A = 0.01 m², ΔT = 50 K and d = 0.5 m.|400|Q/t = 400 × 0.01 × 50 ÷ 0.5 = 400.|H|400*0.01*50/0.5
+N|Using Q/t = kAΔT/d, find Q/t in watts for k = 0.8, A = 2 m², ΔT = 10 K and d = 0.2 m.|80|Q/t = 0.8 × 2 × 10 ÷ 0.2 = 80.|H|0.8*2*10/0.2
+N|Heat flows through a window at 120 W. Find the heat lost in joules in 10 minutes.|72000|Q = 120 × 600 = 72 000.|M|120*600
+N|A room heater supplies 2000 W. Find the heat in joules it supplies in 5 minutes.|600000|Q = 2000 × 300 = 600 000.|M|2000*300
+N|The temperature of a rod's two ends are 100 °C and 20 °C. Find the temperature difference in K.|80|ΔT = 100 − 20 = 80.|E|100-20
+N|A rod conducts 50 W. Find the heat conducted in joules in 2 minutes.|6000|Q = 50 × 120 = 6000.|M|50*120
+N|By what factor does the rate of conduction change when the length of a rod is doubled, with everything else unchanged? Give the factor as a decimal.|0.5|The rate is inversely proportional to the length, so it becomes 1/2.|H|1/2
+N|By what factor does the rate of conduction change when the cross-sectional area of a rod is tripled? Give the factor.|3|The rate is proportional to the area, so it becomes three times.|H|3
+N|Water in a kettle receives 336 000 J in 280 s. Find the average power of the kettle in watts.|1200|P = 336 000 ÷ 280 = 1200.|M|336000/280
+N|A thermos flask loses 10 J of heat every second. Find the heat lost in joules in one hour.|36000|Q = 10 × 3600 = 36 000.|M|10*3600
+S|Name the three methods of heat transfer.|Conduction, convection and radiation.|They differ in whether a material medium is needed.|E
+S|Define conduction.|The transfer of heat through a material by the vibration of its particles, without the movement of the material as a whole.|It occurs mainly in solids, especially metals.|E
+S|Define convection.|The transfer of heat in a fluid by the movement of the fluid itself, as warm fluid rises and cooler fluid sinks.|It occurs in liquids and gases.|E
+S|Define radiation.|The transfer of heat by electromagnetic waves, which does not need a medium.|The heat of the Sun reaches the Earth by radiation.|E
+S|Describe how a thermos flask keeps liquids hot.|It has double walls with a vacuum between them to stop conduction and convection, silvered surfaces to reflect radiation and a plastic stopper to reduce loss through the neck.|It is designed to stop all three methods of heat transfer.|M
+S|Why do dull black surfaces absorb heat better than shiny surfaces?|A dull black surface absorbs most of the radiation that falls on it, while a shiny surface reflects most of it.|They are also better at emitting radiation.|M

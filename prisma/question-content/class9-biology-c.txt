@@ -1,0 +1,160 @@
+@level Class 9
+@subject Biology
+
+# 7 Bioenergetics
+M|Bioenergetics is the study of|energy flow in living organisms|bones|rocks|animals only|1|It covers photosynthesis and respiration.|E
+M|The molecule that stores and supplies energy in cells is|ATP|DNA|RNA|glucose only|1|ATP is the energy currency of the cell.|E
+M|ATP stands for|adenosine triphosphate|adenine tri-phosphorus|amino tri-protein|adenosine trinitrate|1|It has an adenine, a ribose and three phosphate groups.|E
+M|Photosynthesis is the process by which|plants make food using light energy|plants break down food|animals digest food|bacteria make proteins only|1|Carbon dioxide and water form glucose and oxygen.|E
+M|The equation of photosynthesis is|6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂|C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O|CO₂ + O₂ → H₂O|6CO₂ + 6O₂ → C₆H₁₂O₆|1|Light energy and chlorophyll are needed.|M
+M|The green pigment that absorbs light for photosynthesis is|chlorophyll|haemoglobin|melanin|carotene only|1|It is found in chloroplasts.|E
+M|Photosynthesis takes place mainly in the|leaves|roots|flowers only|bark|1|Leaves have many chloroplasts.|E
+M|The light-dependent reactions of photosynthesis take place in the|grana of the chloroplast|stroma|mitochondria|nucleus|1|Light energy is trapped by chlorophyll.|M
+M|The light-independent reactions (Calvin cycle) take place in the|stroma of the chloroplast|grana|nucleus|cytoplasm|1|Carbon dioxide is converted into glucose.|M
+M|The oxygen released in photosynthesis comes from|water|carbon dioxide|glucose|chlorophyll|1|Water is split by light.|M
+M|The raw materials of photosynthesis are|carbon dioxide and water|oxygen and glucose|nitrogen and water|starch and oxygen|1|Light is the energy source.|E
+M|The factors that affect the rate of photosynthesis include|light intensity, carbon dioxide concentration and temperature|colour of the leaf only|the size of the pot only|nothing|1|Any of these can be limiting.|E
+M|A limiting factor is|the factor in shortest supply that slows the reaction|a factor in excess|a catalyst|a product|1|The rate is limited by it.|M
+M|Plants store excess glucose as|starch|protein|chlorophyll|water|1|Starch is a storage polysaccharide.|E
+M|The test for starch in a leaf uses|iodine solution|Benedict's solution|biuret|limewater|1|Starch turns the iodine blue-black.|E
+M|Respiration is the|release of energy from food|making of food|digestion of food|storage of food|1|It occurs in all living cells.|E
+M|The equation of aerobic respiration is|C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy|6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂|C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂|CO₂ → C|1|Glucose is broken down using oxygen.|M
+M|Aerobic respiration takes place mainly in the|mitochondria|chloroplasts|nucleus|ribosomes|1|Mitochondria have enzymes for the later stages.|E
+M|Anaerobic respiration occurs|without oxygen|with oxygen|only in plants|only in the sun|1|Less energy is released.|E
+M|The first stage of respiration, glycolysis, takes place in the|cytoplasm|mitochondria|nucleus|chloroplast|1|Glucose is split into pyruvate.|M
+M|Anaerobic respiration in yeast produces|ethanol and carbon dioxide|lactic acid|oxygen and water|glucose|1|It is called alcoholic fermentation.|E
+M|Anaerobic respiration in muscle cells produces|lactic acid|ethanol|oxygen|starch|1|Lactic acid builds up during hard exercise.|E
+M|The build-up of lactic acid in muscles causes|muscle fatigue and cramps|stronger muscles|more oxygen|better sight|1|It happens when oxygen supply is too low.|E
+M|Aerobic respiration releases|more energy than anaerobic respiration|less energy than anaerobic respiration|no energy|the same energy as anaerobic respiration|1|About 38 ATP compared with 2 ATP.|M
+M|The number of ATP molecules produced from one glucose in anaerobic respiration is|2|38|8|0|1|Glycolysis gives a net of 2 ATP.|M
+M|The number of ATP molecules produced from one glucose in aerobic respiration is about|38|2|4|0|1|About 36 to 38 ATP.|M
+M|Fermentation is used in making|bread and yoghurt|plastic|glass|soap|1|Yeast and bacteria use anaerobic respiration.|E
+M|Yeast makes bread rise because it|produces carbon dioxide|produces oxygen|produces alcohol that rises|absorbs water|1|The gas makes bubbles in the dough.|E
+M|Respiration and photosynthesis are|opposite processes|the same process|unrelated|only in animals|1|One makes glucose and the other breaks it down.|M
+M|Plants respire|all the time, day and night|only at night|only in the day|never|1|Respiration is needed for energy at all times.|M
+M|Plants photosynthesise|only when light is available|only at night|never|only in winter|1|Light is needed.|E
+M|Stomata are tiny pores in leaves that|allow gas exchange|store food|make glucose|make roots|1|Carbon dioxide enters and oxygen leaves.|E
+M|The cells that control the opening of the stomata are|guard cells|root hairs|xylem cells|palisade cells|1|They swell or shrink to open or close the pore.|M
+M|Palisade mesophyll cells in a leaf|contain many chloroplasts|have no chloroplasts|are found in the roots|store water|1|They carry out most of the photosynthesis.|M
+M|The energy released in respiration is stored as|ATP|DNA|RNA|salt|1|Cells use ATP for their activities.|E
+M|The conversion of ADP to ATP needs|energy|oxygen only|water only|nothing|1|An extra phosphate group is added.|M
+M|The compensation point of a plant is where|photosynthesis equals respiration|photosynthesis is zero|respiration is zero|the plant dies|1|There is no net gas exchange.|H
+M|The by-product of photosynthesis is|oxygen|carbon dioxide|water vapour only|nitrogen|1|Oxygen is released into the air.|E
+M|The by-products of aerobic respiration are|carbon dioxide and water|oxygen and glucose|alcohol and carbon dioxide|lactic acid|1|They are removed from the cell.|E
+M|Chloroplasts are found in|plant cells|animal cells only|bacteria only|viruses|1|Only plant cells and some protists have them.|E
+M|Photosynthesis converts|light energy into chemical energy|chemical energy into light energy|heat into chemical energy|chemical energy into heat only|1|Energy is stored in glucose.|E
+N|One glucose molecule gives 38 ATP in aerobic respiration and 2 ATP in anaerobic respiration. Find how many times more ATP is made aerobically.|19|38 ÷ 2 = 19.|M|38/2
+N|Find the number of molecules of oxygen released when 6 molecules of carbon dioxide are used in photosynthesis.|6|6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.|M|6
+N|Find the mass in grams of glucose (180 g/mol) in 0.5 mole.|90|0.5 × 180 = 90.|M|0.5*180
+N|A leaf makes 4 mL of oxygen in 2 minutes. Find the rate in mL per minute.|2|4 ÷ 2 = 2.|E|4/2
+N|A yeast culture produces 30 mL of CO₂ in 10 minutes. Find the rate in mL per minute.|3|30 ÷ 10 = 3.|E|30/10
+N|Find the number of carbon atoms in 6 molecules of CO₂.|6|Each molecule has one carbon atom.|E|6
+S|Define photosynthesis and write its equation.|The process by which green plants make glucose from carbon dioxide and water using light energy trapped by chlorophyll. 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.|Oxygen is released.|M
+S|Define respiration.|The process by which cells release energy from food, usually glucose, stored as ATP.|It can be aerobic or anaerobic.|E
+S|Distinguish between aerobic and anaerobic respiration.|Aerobic respiration needs oxygen and releases much energy, about 38 ATP per glucose. Anaerobic respiration occurs without oxygen and releases little energy, 2 ATP per glucose.|Anaerobic respiration produces lactic acid or ethanol.|M
+S|What is ATP?|Adenosine triphosphate, the molecule that stores and supplies energy for the activities of cells.|It is called the energy currency of the cell.|E
+S|Name three factors that affect the rate of photosynthesis.|Light intensity, carbon dioxide concentration and temperature.|The one in shortest supply is the limiting factor.|M
+S|State the role of stomata.|They are pores in the leaf surface through which gases, such as carbon dioxide and oxygen, enter and leave, and through which water vapour escapes.|Guard cells control their opening.|E
+
+# 8 Nutrition
+M|Nutrition is the process of|taking in and using food|making oxygen|losing wastes|growing roots|1|It includes ingestion, digestion, absorption and assimilation.|E
+M|Organisms that make their own food are called|autotrophs|heterotrophs|parasites|saprotrophs|1|Plants are autotrophs.|E
+M|Organisms that depend on others for food are called|heterotrophs|autotrophs|producers|plants|1|Animals are heterotrophs.|E
+M|An organism that lives on or in another and harms it is a|parasite|saprotroph|producer|herbivore|1|Tapeworms and mosquitoes are parasites.|E
+M|An organism that feeds on dead organic matter is a|saprotroph|parasite|producer|carnivore|1|Fungi and many bacteria are saprotrophs.|M
+M|The main source of energy in our diet is|carbohydrates|vitamins|minerals|water|1|They are the cheapest source of energy.|E
+M|Proteins are needed for|growth and repair|only energy|only colour|only taste|1|They are body-building foods.|E
+M|Fats are needed for|energy storage and insulation|only growth|blood clotting only|vision only|1|They give twice as much energy per gram as carbohydrates.|E
+M|Vitamin A deficiency causes|night blindness|rickets|scurvy|beriberi|1|It affects the retina.|E
+M|Vitamin C deficiency causes|scurvy|rickets|anaemia|night blindness|1|Gums bleed and wounds heal slowly.|E
+M|Vitamin D deficiency causes|rickets|scurvy|pellagra|goitre|1|Bones become soft.|E
+M|Iron deficiency causes|anaemia|goitre|rickets|scurvy|1|There is not enough haemoglobin.|E
+M|Iodine deficiency causes|goitre|anaemia|rickets|scurvy|1|The thyroid gland enlarges.|E
+M|Calcium is needed for|strong bones and teeth|digestion of fats|sight|hair colour|1|It is also needed for blood clotting.|E
+M|A balanced diet contains|all the nutrients in the right proportions|only protein|only carbohydrates|only fat|1|It includes water and fibre.|E
+M|Dietary fibre helps|prevent constipation|build bones|store fat|clot blood|1|It adds bulk to the food.|E
+M|Malnutrition is caused by|a diet that lacks, or has too much of, certain nutrients|too little sleep|too much exercise|clean water|1|It includes undernutrition and obesity.|E
+M|Kwashiorkor is caused by a deficiency of|protein|iron|calcium|iodine|1|Children suffer from swollen bellies.|M
+M|Obesity is caused by|eating more energy than the body uses|too much exercise|too little food|lack of salt|1|Excess energy is stored as fat.|E
+M|The digestion of starch begins in the|mouth|stomach|large intestine|liver|1|Salivary amylase acts there.|E
+M|Protein digestion begins in the|stomach|mouth|small intestine|large intestine|1|Pepsin acts in acid conditions.|E
+M|Most of the digestion and absorption of food takes place in the|small intestine|stomach|mouth|large intestine|1|The villi absorb the nutrients.|E
+M|The villi in the small intestine|increase the surface area for absorption|produce bile|store food|digest proteins|1|They have a rich blood supply.|E
+M|Bile is produced by the|liver|stomach|pancreas|gall bladder only|1|It is stored in the gall bladder.|E
+M|Bile helps in the|emulsification of fats|digestion of proteins|digestion of starch|absorption of water|1|It breaks fat into small droplets.|M
+M|The enzyme in the stomach that digests protein is|pepsin|amylase|lipase|maltase|1|It works in acid conditions.|E
+M|The hydrochloric acid in the stomach|kills bacteria and provides acidic conditions for pepsin|digests fat|neutralises bile|absorbs water|1|The pH is about 2.|E
+M|Water is mainly absorbed in the|large intestine|stomach|mouth|liver|1|The large intestine absorbs water from the undigested food.|E
+M|The movement of food along the alimentary canal is called|peristalsis|diffusion|osmosis|digestion|1|Muscles contract in waves.|E
+M|The pancreas produces|digestive enzymes and insulin|bile|hydrochloric acid|saliva|1|It makes amylase, lipase and protease.|M
+M|The end products of the digestion of proteins are|amino acids|glucose|fatty acids|glycerol|1|Proteins break down into amino acids.|E
+M|The end products of the digestion of fats are|fatty acids and glycerol|amino acids|glucose|maltose|1|Lipase breaks fats down.|E
+M|The end product of the digestion of starch is|glucose|amino acids|fatty acids|glycerol|1|Starch is a long chain of glucose units.|E
+M|Plants need nitrogen to make|proteins|only sugar|only water|only starch|1|Nitrogen is a part of amino acids and chlorophyll's structure.|M
+M|Magnesium is needed by plants to make|chlorophyll|starch|cellulose|water|1|It is at the centre of the chlorophyll molecule.|M
+M|Lack of nitrogen in plants causes|yellowing of leaves|red flowers|taller plants|more fruits|1|Leaves turn pale because proteins and chlorophyll are reduced.|M
+M|Insectivorous plants such as the Venus flytrap get extra nitrogen from|trapping insects|the roots only|sunlight|rain only|1|They grow in nitrogen-poor soil.|M
+M|The function of the liver in nutrition includes|storing glycogen and making bile|making saliva|digesting protein in the stomach|absorbing water|1|It also stores vitamins.|M
+N|A person has a mass of 70 kg and a height of 1.75 m. Find the body mass index (BMI = mass ÷ height²), to one decimal place.|22.9|BMI = 70 ÷ 3.0625 = 22.9.|H|70/(1.75*1.75)
+N|A food contains 10 g protein (4 kcal/g), 20 g carbohydrate (4 kcal/g) and 5 g fat (9 kcal/g). Find the energy in kcal.|165|40 + 80 + 45 = 165.|M|10*4+20*4+5*9
+N|A person needs 2000 kcal per day. If 50 percent comes from carbohydrate at 4 kcal/g, find the mass of carbohydrate in grams.|250|1000 kcal ÷ 4 = 250 g.|H|2000*0.5/4
+N|A glass of milk of 200 mL contains 6.6 g of protein. Find the protein in grams in 1 litre of milk.|33|6.6 × 5 = 33.|M|6.6*5
+N|A boy eats food worth 2500 kcal and uses 2000 kcal. Find the excess energy in kcal.|500|2500 − 2000 = 500.|E|2500-2000
+N|The small intestine is about 6.5 m long. Find its length in cm.|650|6.5 × 100 = 650.|E|6.5*100
+S|Define nutrition.|The process by which an organism obtains food and uses it for energy, growth and repair.|It includes ingestion, digestion, absorption and assimilation.|E
+S|What is a balanced diet?|A diet that contains carbohydrates, proteins, fats, vitamins, minerals, water and fibre in the right proportions to meet the body's needs.|The amounts depend on age and activity.|E
+S|Name two deficiency diseases and their causes.|Scurvy is caused by lack of vitamin C and rickets by lack of vitamin D or calcium.|Anaemia is caused by a lack of iron.|E
+S|Explain how the small intestine is adapted for absorption.|It is long, and its inner surface has many villi that give it a large surface area. The villi have thin walls and a rich blood supply.|Nutrients diffuse into the blood.|M
+S|What is the role of bile in digestion?|Bile, made in the liver, emulsifies fats into small droplets, which gives lipase a larger surface area to act on, and it neutralises the acid from the stomach.|It is stored in the gall bladder.|M
+S|Name the enzymes that digest starch, protein and fats and the organs that produce them.|Amylase from the salivary glands and pancreas digests starch, pepsin from the stomach digests protein, and lipase from the pancreas digests fats.|They break food into small molecules.|M
+
+# 9 Transport
+M|Transport in plants is needed to|carry water, minerals and food around the plant|move the whole plant|make seeds|store light|1|Large plants need a transport system.|E
+M|Water is absorbed by the root hairs by|osmosis|active transport only|diffusion of air|photosynthesis|1|The soil water is more dilute than the cell sap.|E
+M|Root hairs increase the|surface area for absorption|length of the root|weight of the plant|number of leaves|1|They are long, thin projections.|E
+M|Water travels up the stem through the|xylem|phloem|epidermis|cortex only|1|Xylem vessels are dead tubes.|E
+M|The loss of water vapour from the leaves is called|transpiration|translocation|respiration|digestion|1|It occurs mostly through the stomata.|E
+M|Most transpiration takes place through the|stomata|bark|roots|flowers|1|The stomata are mainly on the underside of leaves.|E
+M|Transpiration is faster when the air is|hot, dry and windy|cold and humid|still and humid|dark and cold|1|These increase evaporation.|M
+M|The transpiration pull is caused by|evaporation of water from the leaves|pumping by the root|gravity|photosynthesis|1|It pulls the water column up the xylem.|M
+M|The transport of manufactured food in plants is called|translocation|transpiration|osmosis|diffusion|1|It occurs in the phloem.|E
+M|Phloem tubes carry|sugars made in leaves|only water|only minerals|only gases|1|Sucrose is transported to all parts.|E
+M|The instrument used to measure the rate of transpiration is the|potometer|thermometer|barometer|ammeter|1|It measures water uptake.|M
+M|The heart of a human has|four chambers|two chambers|three chambers|five chambers|1|Two atria and two ventricles.|E
+M|The upper chambers of the heart are called|atria|ventricles|valves|arteries|1|They receive blood.|E
+M|The lower chambers of the heart are called|ventricles|atria|valves|veins|1|They pump blood out.|E
+M|The blood vessels that carry blood away from the heart are|arteries|veins|capillaries|lymph vessels|1|Arteries have thick, muscular walls.|E
+M|The blood vessels that carry blood to the heart are|veins|arteries|capillaries|nerves|1|Veins have valves.|E
+M|The smallest blood vessels, where exchange occurs, are|capillaries|arteries|veins|aortae|1|Their walls are one cell thick.|E
+M|The largest artery in the body is the|aorta|vena cava|pulmonary vein|carotid|1|It carries blood from the left ventricle.|E
+M|The vessel that carries deoxygenated blood from the heart to the lungs is the|pulmonary artery|pulmonary vein|aorta|vena cava|1|It is an exception: an artery carrying deoxygenated blood.|M
+M|The vessel that carries oxygenated blood from the lungs to the heart is the|pulmonary vein|pulmonary artery|aorta|vena cava|1|It is an exception: a vein carrying oxygenated blood.|M
+M|The side of the heart that pumps oxygenated blood to the body is the|left side|right side|upper side only|neither|1|The left ventricle has the thickest wall.|E
+M|The valves in the heart|prevent the backflow of blood|pump blood|make blood|store blood|1|They open in one direction only.|E
+M|Red blood cells carry oxygen because they contain|haemoglobin|chlorophyll|melanin|keratin|1|Haemoglobin binds oxygen.|E
+M|Red blood cells have no nucleus so that|there is more space for haemoglobin|they can divide|they are red|they live longer|1|They are biconcave discs.|M
+M|White blood cells function in|defence against disease|carrying oxygen|clotting only|carrying carbon dioxide|1|They destroy germs.|E
+M|Platelets are involved in|blood clotting|carrying oxygen|defence only|digestion|1|They help to seal wounds.|E
+M|Plasma is the|liquid part of blood|solid part of blood|part that carries oxygen only|a cell|1|It carries dissolved substances.|E
+M|The pulse can be felt at the|wrist|toes|tip of the nose|ear lobe|1|It shows the heartbeat.|E
+M|The normal resting pulse rate of an adult is about|70 beats per minute|20 beats per minute|200 beats per minute|5 beats per minute|1|It is roughly 60 to 80.|E
+M|High blood pressure can be reduced by|a healthy diet and exercise|eating more salt|smoking|stress|1|Lifestyle changes help.|E
+M|A heart attack is caused by|blockage of the coronary arteries|a bone injury|lack of vitamin C|a cold|1|The heart muscle is starved of oxygen.|M
+M|Atherosclerosis is the|build-up of fatty deposits in the arteries|swelling of veins|loss of red cells|clotting of lymph|1|It narrows the arteries.|M
+M|The ABO blood groups are|A, B, AB and O|A, B, C and D|X, Y, Z and O|P, Q, R and S|1|They are determined by antigens on the red cells.|E
+M|The universal donor blood group is|O|A|B|AB|1|Group O has no A or B antigens.|M
+M|The universal recipient blood group is|AB|O|A|B|1|Group AB has no antibodies to A or B.|M
+M|The circulation in which blood goes from the heart to the lungs and back is called|pulmonary circulation|systemic circulation|coronary circulation|renal circulation|1|It carries blood to and from the lungs.|M
+M|The circulation in which blood goes from the heart to the body and back is called|systemic circulation|pulmonary circulation|lymphatic circulation|none|1|It supplies the body tissues.|M
+N|The heart pumps 70 mL of blood per beat at 72 beats per minute. Find the cardiac output in mL per minute.|5040|70 × 72 = 5040.|M|70*72
+N|A pulse is counted as 24 beats in 20 seconds. Find the pulse rate per minute.|72|24 × 3 = 72.|E|24*3
+N|The heart beats 70 times per minute. Find the number of beats in one hour.|4200|70 × 60 = 4200.|E|70*60
+N|A leaf loses 3 mL of water in 6 hours. Find the rate in mL per hour.|0.5|3 ÷ 6 = 0.5.|M|3/6
+N|An adult has about 5 litres of blood. Find the volume in mL.|5000|5 × 1000 = 5000.|E|5*1000
+N|A blood sample contains 5 million red cells per mm³. Find the number in 2 mm³, in millions.|10|5 × 2 = 10.|E|5*2
+S|How does water enter a plant and move up to the leaves?|Water enters the root hairs by osmosis and moves across the root to the xylem, which carries it up the stem to the leaves. Transpiration pulls the water up.|The process is called the transpiration stream.|M
+S|Define transpiration and state its importance.|The loss of water vapour from the aerial parts of a plant, mainly through the stomata. It pulls water and minerals up and cools the plant.|It is faster in hot, dry, windy weather.|M
+S|Distinguish between xylem and phloem.|Xylem carries water and minerals from the roots to the leaves. Phloem carries manufactured food from the leaves to all parts of the plant.|Xylem is dead tissue and phloem is living.|M
+S|Name the four chambers of the heart.|The right atrium, the right ventricle, the left atrium and the left ventricle.|The left ventricle has the thickest wall.|E
+S|Compare arteries, veins and capillaries.|Arteries carry blood away from the heart and have thick muscular walls. Veins carry blood to the heart and have valves. Capillaries are tiny vessels with thin walls where exchange takes place.|Most arteries carry oxygenated blood.|M
+S|State the functions of red blood cells, white blood cells and platelets.|Red blood cells carry oxygen, white blood cells fight germs and platelets help in blood clotting.|They are suspended in plasma.|E

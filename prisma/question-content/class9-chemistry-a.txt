@@ -1,0 +1,160 @@
+@level Class 9
+@subject Chemistry
+
+# 1 Fundamentals of Chemistry
+M|Chemistry is the branch of science that deals with|the composition, structure and properties of matter|the study of living things|the study of stars|the study of rocks only|1|Chemistry studies what matter is made of and how it changes.|E
+M|Matter is anything that|has mass and occupies space|has colour|has energy only|can be heard|1|Matter has mass and takes up space.|E
+M|A pure substance made of only one kind of atom is called|an element|a compound|a mixture|a solution|1|An element contains atoms of one kind only.|E
+M|A pure substance made of two or more elements chemically combined is called|an element|a compound|a mixture|an alloy only|2|A compound has a fixed composition.|E
+M|Air is an example of|a mixture|a compound|an element|a pure substance|1|Air is a mixture of gases such as nitrogen and oxygen.|E
+M|Water is an example of|an element|a compound|a mixture|an alloy|2|Water is made of hydrogen and oxygen chemically combined.|E
+M|The symbol of sodium is|S|So|Na|N|3|The symbol Na comes from the Latin name natrium.|E
+M|The symbol of potassium is|P|K|Po|Pt|2|The symbol K comes from the Latin name kalium.|E
+M|The symbol of iron is|I|Ir|Fe|F|3|The symbol Fe comes from the Latin name ferrum.|E
+M|The atomic mass unit (amu) is defined as|one twelfth of the mass of a carbon-12 atom|the mass of a hydrogen molecule|the mass of an electron|the mass of an oxygen atom|1|1 amu = 1/12 of the mass of one carbon-12 atom.|M
+M|The relative atomic mass of carbon is|6|12|14|16|2|Carbon-12 is the standard, so its mass is 12.|E
+M|The mole is the SI unit of|amount of substance|mass|volume|temperature|1|One mole contains 6.02 × 10²³ particles.|E
+M|Avogadro's number is|6.02 × 10²³|6.02 × 10⁻²³|3 × 10⁸|9.8|1|One mole contains 6.02 × 10²³ particles.|E
+M|The molar mass of a substance is the|mass of one mole of it|mass of one atom of it|volume of one mole of it|number of atoms in it|1|It is expressed in g/mol.|E
+M|The number of moles of a substance equals|mass ÷ molar mass|mass × molar mass|molar mass ÷ mass|mass + molar mass|1|n = m/M.|E
+M|The number of particles in n moles of a substance is|n × 6.02 × 10²³|n ÷ 6.02 × 10²³|n + 6.02 × 10²³|n − 6.02 × 10²³|1|N = n × N_A.|M
+M|The empirical formula of a compound shows|the simplest whole-number ratio of its atoms|the actual number of atoms in a molecule|the shape of the molecule|its colour|1|For example CH₂O is the empirical formula of glucose.|M
+M|The molecular formula of a compound shows|the actual number of atoms of each element in a molecule|the simplest ratio|the mass only|the colour|1|For glucose it is C₆H₁₂O₆.|M
+M|The molecular formula of glucose is|C₆H₁₂O₆|CH₂O|C₂H₆O|C₁₂H₂₂O₁₁|1|It contains 6 carbon, 12 hydrogen and 6 oxygen atoms.|M
+M|The formula of water is|HO|H₂O|H₂O₂|OH₂O|2|It has two hydrogen atoms and one oxygen atom.|E
+M|The formula of carbon dioxide is|CO|CO₂|C₂O|C₂O₂|2|One carbon atom and two oxygen atoms.|E
+M|A homogeneous mixture is one that|has a uniform composition throughout|has visible layers|contains only one element|is always solid|1|A solution is an example.|M
+M|A heterogeneous mixture|has different phases that can be seen|is always a gas|has a uniform composition|is a compound|1|Sand in water is an example.|M
+M|Which of the following is a chemical change?|Rusting of iron|Melting of ice|Boiling of water|Breaking of glass|1|A new substance is formed.|E
+M|Which of the following is a physical change?|Melting of ice|Burning of paper|Rusting of iron|Cooking food|1|No new substance is formed.|E
+M|Which of the following is a mixture?|Brass|Water|Sodium chloride|Oxygen|1|Brass is an alloy of copper and zinc.|M
+M|Which of the following is a diatomic molecule?|O₂|He|Ne|Ar|1|An oxygen molecule has two atoms.|M
+M|The branch of chemistry that deals with carbon compounds is|organic chemistry|inorganic chemistry|physical chemistry|biochemistry|1|Organic chemistry studies carbon compounds.|E
+N|Find the molar mass of water, H₂O, in g/mol. (H = 1, O = 16)|18|2 × 1 + 16 = 18.|E|2*1+16
+N|Find the molar mass of carbon dioxide, CO₂, in g/mol. (C = 12, O = 16)|44|12 + 2 × 16 = 44.|E|12+2*16
+N|Find the molar mass of sulphuric acid, H₂SO₄, in g/mol. (H = 1, S = 32, O = 16)|98|2 + 32 + 64 = 98.|M|2+32+64
+N|Find the molar mass of sodium chloride, NaCl, in g/mol. (Na = 23, Cl = 35.5)|58.5|23 + 35.5 = 58.5.|E|23+35.5
+N|Find the molar mass of calcium carbonate, CaCO₃, in g/mol. (Ca = 40, C = 12, O = 16)|100|40 + 12 + 48 = 100.|M|40+12+48
+N|Find the number of moles in 36 g of water (molar mass 18 g/mol).|2|n = 36 ÷ 18 = 2.|E|36/18
+N|Find the mass in grams of 3 moles of carbon dioxide (molar mass 44 g/mol).|132|m = 3 × 44 = 132.|E|3*44
+N|Find the number of molecules in 2 moles of a substance, in units of 10²³. (Avogadro's number = 6.02 × 10²³)|12.04|2 × 6.02 = 12.04, which is 12.04 × 10²³ molecules.|M|2*6.02
+N|Find the number of moles in 12 g of magnesium (Mg = 24).|0.5|n = 12 ÷ 24 = 0.5.|E|12/24
+N|Find the percentage of oxygen in water by mass, to one decimal place. (H = 1, O = 16)|88.9|16 ÷ 18 × 100 = 88.9.|M|16/18*100
+N|Find the percentage of hydrogen in water by mass, to one decimal place. (H = 1, O = 16)|11.1|2 ÷ 18 × 100 = 11.1.|M|2/18*100
+N|Find the mass in grams of 0.5 mole of sodium chloride (molar mass 58.5 g/mol).|29.25|m = 0.5 × 58.5 = 29.25.|M|0.5*58.5
+N|Find the number of moles in 2.2 g of carbon dioxide (molar mass 44 g/mol).|0.05|n = 2.2 ÷ 44 = 0.05.|M|2.2/44
+N|Find the empirical formula mass of CH₂O. (C = 12, H = 1, O = 16)|30|12 + 2 + 16 = 30.|M|12+2+16
+N|Find the number of atoms in one molecule of H₂SO₄.|7|2 + 1 + 4 = 7.|E|2+1+4
+N|Find the molar mass of magnesium hydroxide, Mg(OH)₂, in g/mol. (Mg = 24, O = 16, H = 1)|58|24 + 2 × 16 + 2 × 1 = 58.|H|24+2*16+2*1
+N|Find the number of moles of oxygen atoms in 2 moles of carbon dioxide.|4|Each CO₂ has 2 oxygen atoms: 2 × 2 = 4.|M|2*2
+S|Define the mole.|The amount of a substance that contains 6.02 × 10²³ particles, which is the same number of particles as there are atoms in 12 g of carbon-12.|It is the SI unit of the amount of substance.|M
+S|What is Avogadro's number?|The number of particles in one mole of a substance, 6.02 × 10²³.|The particles may be atoms, molecules or ions.|E
+S|Distinguish between an empirical formula and a molecular formula.|The empirical formula gives the simplest whole-number ratio of the atoms. The molecular formula gives the actual number of atoms in a molecule.|For glucose the empirical formula is CH₂O and the molecular formula is C₆H₁₂O₆.|M
+S|Define an element, a compound and a mixture.|An element has only one kind of atom. A compound has two or more elements chemically combined in a fixed ratio. A mixture has two or more substances physically mixed in any ratio.|Water is a compound and air is a mixture.|E
+S|Define the atomic mass unit.|One twelfth of the mass of a carbon-12 atom.|It is used to express the masses of atoms.|M
+S|Define molar mass.|The mass of one mole of a substance, expressed in grams per mole.|It equals the relative molecular mass in grams.|E
+
+# 2 Structure of Atoms
+M|The three subatomic particles of an atom are|protons, neutrons and electrons|protons, ions and electrons|neutrons, ions and atoms|photons, protons and electrons|1|Every atom is made of these particles.|E
+M|The charge of a proton is|+1|−1|0|+2|1|A proton has a positive charge of +1 unit.|E
+M|The charge of an electron is|+1|−1|0|+2|2|An electron has a negative charge of −1 unit.|E
+M|The charge of a neutron is|+1|−1|0|+2|3|A neutron is neutral.|E
+M|The mass of a proton is approximately|1 amu|0 amu|1836 amu|2 amu|1|A proton has a mass of about 1 amu.|M
+M|The mass of an electron compared with a proton is|about 1/1836|equal|about 1836 times larger|twice as large|1|The electron is very light.|M
+M|The nucleus of an atom contains|protons and neutrons|electrons only|protons and electrons|neutrons and electrons|1|The nucleus holds nearly all the mass.|E
+M|The electron was discovered by|J.J. Thomson|Rutherford|Bohr|Chadwick|1|Thomson discovered the electron in 1897.|M
+M|The neutron was discovered by|Chadwick|Thomson|Rutherford|Bohr|1|James Chadwick discovered it in 1932.|M
+M|The nucleus was discovered by|Rutherford|Thomson|Bohr|Dalton|1|Rutherford's gold foil experiment showed a small dense nucleus.|M
+M|Bohr's model says that electrons move in|fixed circular orbits or shells|random paths|the nucleus|straight lines|1|Each orbit has a definite energy.|M
+M|The maximum number of electrons that can be held in the nth shell is|2n²|n²|2n|n + 2|1|The K shell holds 2, the L shell 8 and the M shell 18.|M
+M|The maximum number of electrons in the K shell is|2|8|18|32|1|2 × 1² = 2.|E
+M|The maximum number of electrons in the L shell is|2|8|18|32|2|2 × 2² = 8.|E
+M|The electronic configuration of sodium (Z = 11) is|2, 8, 1|2, 8, 2|2, 8, 8|2, 9|1|It has 11 electrons.|E
+M|The electronic configuration of chlorine (Z = 17) is|2, 8, 7|2, 8, 8|2, 7, 8|2, 8, 6|1|It has 17 electrons.|E
+M|Electrons in the outermost shell are called|valence electrons|core electrons|free protons|neutrons|1|They decide the chemical behaviour of an atom.|E
+M|The atomic number of an atom is the number of its|protons|neutrons|nucleons|valence electrons|1|It identifies the element.|E
+M|The mass number of an atom is the number of its|protons and neutrons|protons only|neutrons only|electrons|1|It is also called the nucleon number.|E
+M|Atoms of the same element that have the same atomic number but different mass numbers are called|isotopes|isobars|isotones|ions|1|They differ in the number of neutrons.|M
+M|The isotopes of hydrogen are|protium, deuterium and tritium|oxygen, nitrogen and carbon|helium and neon|sodium and potassium|1|They have 0, 1 and 2 neutrons.|M
+M|An atom is electrically neutral because|the number of protons equals the number of electrons|it has no protons|it has no electrons|the neutrons are neutral|1|Positive and negative charges balance.|E
+M|A positive ion is formed when an atom|loses electrons|gains electrons|gains protons|loses neutrons|1|Losing electrons leaves an excess of positive charge.|M
+M|A negative ion is formed when an atom|loses electrons|gains electrons|loses protons|loses neutrons|2|Gaining electrons gives an excess of negative charge.|M
+M|The valency of sodium is|1|2|3|4|1|It loses one electron.|E
+M|The valency of oxygen is|1|2|3|4|2|It gains two electrons.|E
+M|The valency of chlorine is|1|2|3|7|1|It gains one electron.|E
+M|The number of valence electrons in chlorine is|1|3|7|17|3|Its outer shell is 2, 8, 7.|E
+M|The relative atomic mass of an element with isotopes is the|weighted average of the isotope masses|sum of the isotope masses|mass of the lightest isotope|mass of the heaviest isotope|1|It takes the abundances into account.|H
+M|Thomson's model of the atom is also called the|plum pudding model|solar system model|nuclear model|quantum model|1|Electrons were embedded in a positive sphere.|M
+N|An atom has atomic number 17 and mass number 35. Find the number of neutrons.|18|N = 35 − 17 = 18.|E|35-17
+N|Find the number of electrons in a neutral atom with atomic number 11.|11|A neutral atom has as many electrons as protons.|E|11
+N|Find the maximum number of electrons in the third shell, using 2n².|18|2 × 3² = 18.|E|2*3*3
+N|Chlorine has two isotopes: 75 percent of mass 35 and 25 percent of mass 37. Find the average atomic mass.|35.5|0.75 × 35 + 0.25 × 37 = 35.5.|H|0.75*35+0.25*37
+N|Find the number of electrons in the sodium ion Na⁺, which has atomic number 11.|10|It has lost one electron: 11 − 1 = 10.|M|11-1
+N|Find the number of electrons in the oxide ion O²⁻, which has atomic number 8.|10|It has gained two electrons: 8 + 2 = 10.|M|8+2
+N|Find the number of valence electrons in an atom with the electronic configuration 2, 8, 5.|5|The outermost shell holds 5 electrons.|E|5
+N|An atom has 12 protons and 12 neutrons. Find its mass number.|24|A = 12 + 12 = 24.|E|12+12
+N|Find the number of protons in an atom of mass number 27 that has 14 neutrons.|13|Z = 27 − 14 = 13.|M|27-14
+N|Find the maximum number of electrons in the fourth shell, using 2n².|32|2 × 4² = 32.|M|2*4*4
+N|Find the total number of electrons in a neutral atom with configuration 2, 8, 8, 2.|20|2 + 8 + 8 + 2 = 20.|E|2+8+8+2
+N|Boron has two isotopes: 20 percent of mass 10 and 80 percent of mass 11. Find the average atomic mass.|10.8|0.2 × 10 + 0.8 × 11 = 10.8.|H|0.2*10+0.8*11
+N|Find the number of neutrons in carbon-14, with atomic number 6.|8|N = 14 − 6 = 8.|E|14-6
+N|The mass of 1836 electrons equals the mass of one proton. Find the ratio of proton mass to electron mass.|1836|The ratio is 1836.|M|1836
+S|State the charge and approximate relative mass of a proton, a neutron and an electron.|Proton: +1, 1 amu. Neutron: 0, 1 amu. Electron: −1, about 1/1836 amu.|Protons and neutrons are in the nucleus.|E
+S|Define isotopes and give an example.|Atoms of the same element with the same atomic number but different mass numbers. For example protium, deuterium and tritium are isotopes of hydrogen.|They have the same chemical properties.|M
+S|Write the electronic configuration of the element with atomic number 12.|2, 8, 2|Magnesium has 12 electrons: 2 in the K shell, 8 in the L shell and 2 in the M shell.|M
+S|Define valency.|The combining capacity of an atom, usually the number of electrons it loses, gains or shares to complete its outer shell.|Sodium has a valency of 1.|E
+S|State Rutherford's conclusion from his gold foil experiment.|The atom has a small, dense, positively charged nucleus at its centre, and most of the atom is empty space.|A few alpha particles bounced back.|M
+S|Define atomic number and mass number.|The atomic number is the number of protons in an atom. The mass number is the total number of protons and neutrons.|The mass number minus the atomic number is the number of neutrons.|E
+
+# 3 Periodic Table and Periodicity of Properties
+M|The modern periodic law states that the properties of elements are a periodic function of their|atomic numbers|atomic masses|number of neutrons|densities|1|The modern table is arranged by atomic number.|M
+M|Mendeleev arranged the elements in order of increasing|atomic mass|atomic number|density|colour|1|Mendeleev's table was based on atomic mass.|M
+M|The horizontal rows of the periodic table are called|periods|groups|families|blocks only|1|There are 7 periods.|E
+M|The vertical columns of the periodic table are called|periods|groups|rows|series|2|There are 18 groups.|E
+M|The number of periods in the modern periodic table is|5|6|7|8|3|There are 7 periods.|E
+M|The number of groups in the modern periodic table is|8|10|16|18|4|There are 18 groups.|E
+M|The elements of Group 1 (except hydrogen) are called|alkali metals|alkaline earth metals|halogens|noble gases|1|They react with water to form alkalis.|E
+M|The elements of Group 2 are called|alkali metals|alkaline earth metals|halogens|noble gases|2|They include magnesium and calcium.|E
+M|The elements of Group 17 are called|alkali metals|alkaline earth metals|halogens|noble gases|3|They include fluorine and chlorine.|E
+M|The elements of Group 18 are called|alkali metals|alkaline earth metals|halogens|noble gases|4|They are chemically inert.|E
+M|The number of valence electrons in the elements of Group 1 is|1|2|7|8|1|They have a single outer electron.|E
+M|The number of valence electrons in the halogens is|1|2|7|8|3|They have seven outer electrons.|E
+M|The number of valence electrons in the noble gases (except helium) is|1|2|7|8|4|Their outer shell is full.|E
+M|Moving from left to right across a period, the atomic radius|decreases|increases|stays the same|doubles|1|The nuclear charge increases and pulls the electrons in.|M
+M|Moving down a group, the atomic radius|increases|decreases|stays the same|becomes zero|1|More shells are added.|M
+M|Moving from left to right across a period, the ionisation energy generally|increases|decreases|stays the same|becomes zero|1|It becomes harder to remove an electron.|M
+M|Moving down a group, the ionisation energy generally|decreases|increases|stays the same|doubles|1|The outer electron is farther from the nucleus.|M
+M|Electronegativity is the tendency of an atom to|attract the shared electrons in a bond|lose electrons|gain protons|become a metal|1|It is a measure of electron-attracting power.|M
+M|Moving from left to right across a period, electronegativity generally|increases|decreases|stays the same|becomes zero|1|Atoms attract bonding electrons more strongly.|M
+M|The most electronegative element is|fluorine|oxygen|chlorine|sodium|1|Fluorine has the highest electronegativity.|M
+M|Among the alkali metals, reactivity is greatest for the element that is|at the bottom of the group|at the top of the group|in the middle of the group|the lightest in the group|1|Reactivity increases down Group 1, because the outer electron is lost more easily.|H
+M|The most reactive halogen is|fluorine|chlorine|bromine|iodine|1|Reactivity decreases down Group 17, so fluorine is the most reactive.|M
+M|Elements in the same group have|the same number of valence electrons|the same number of shells|the same atomic number|the same mass number|1|They behave in a similar way chemically.|E
+M|The period number of an element equals|the number of occupied shells|the number of valence electrons|its atomic number|its mass number|1|Sodium (2, 8, 1) is in period 3.|M
+M|An element with electronic configuration 2, 8, 1 belongs to|Group 1, Period 3|Group 3, Period 1|Group 1, Period 2|Group 2, Period 3|1|It has 3 shells and 1 valence electron.|M
+M|An element with electronic configuration 2, 8, 7 belongs to|Group 17, Period 3|Group 7, Period 2|Group 17, Period 2|Group 3, Period 7|1|It has 3 shells and 7 valence electrons.|M
+M|The transition elements are found in|the middle of the periodic table|Group 1 only|Group 18 only|the top row|1|They occupy groups 3 to 12.|M
+M|Most elements in the periodic table are|metals|non-metals|noble gases|liquids|1|About three quarters are metals.|E
+M|A group of elements with similar properties is also called a|family|period|series|block of rows|1|For example the halogen family.|E
+M|The only liquid non-metal at room temperature is|bromine|chlorine|iodine|fluorine|1|Bromine is a red-brown liquid.|M
+M|The only liquid metal at room temperature is|mercury|sodium|iron|copper|1|Mercury is liquid at room temperature.|E
+N|Find the number of elements in the second period of the periodic table.|8|Period 2 has 8 elements, from lithium to neon.|E|8
+N|Find the group number of an element with the electronic configuration 2, 8, 2.|2|It has 2 valence electrons, so it belongs to Group 2.|E|2
+N|Find the period number of an element with electronic configuration 2, 8, 8, 1.|4|It has four shells, so it is in period 4.|E|4
+N|Find the atomic number of the noble gas neon, which has the configuration 2, 8.|10|2 + 8 = 10.|E|2+8
+N|Find the atomic number of the element just after neon in the periodic table.|11|Neon has 10, so the next is 10 + 1 = 11.|E|10+1
+N|Find the number of valence electrons in an element of atomic number 15.|5|The configuration is 2, 8, 5, so there are 5 valence electrons.|M|15-10
+N|Find the number of shells in an element of atomic number 20.|4|The configuration is 2, 8, 8, 2, so there are 4 shells.|M|4
+N|Find the atomic number of the first halogen, fluorine, which has configuration 2, 7.|9|2 + 7 = 9.|E|2+7
+N|Find the number of elements in the third period.|8|Period 3 has 8 elements, from sodium to argon.|E|8
+N|Find the atomic number of the element below fluorine in the same group, chlorine, which has configuration 2, 8, 7.|17|2 + 8 + 7 = 17.|M|2+8+7
+N|Find the atomic number of the alkali metal in period 2, lithium, with configuration 2, 1.|3|2 + 1 = 3.|E|2+1
+N|Find the difference in atomic number between sodium (11) and potassium (19).|8|19 − 11 = 8.|M|19-11
+N|Find the number of electrons in a neutral atom of the third halogen, bromine (atomic number 35).|35|A neutral atom has as many electrons as protons.|M|35
+N|Find the number of elements in the first period.|2|It has only hydrogen and helium.|E|2
+S|State the modern periodic law.|The properties of elements are a periodic function of their atomic numbers.|Elements with similar properties recur at regular intervals.|M
+S|What is meant by a group and a period in the periodic table?|A group is a vertical column of elements with similar properties and the same number of valence electrons. A period is a horizontal row of elements with the same number of shells.|There are 18 groups and 7 periods.|E
+S|State the trend in atomic radius across a period and down a group.|The atomic radius decreases from left to right across a period and increases down a group.|The nuclear charge increases across a period and shells are added down a group.|M
+S|Define ionisation energy.|The energy needed to remove the most loosely held electron from a gaseous atom.|It generally increases across a period and decreases down a group.|M
+S|Name the alkali metals.|Lithium, sodium, potassium, rubidium, caesium and francium.|They are the elements of Group 1 except hydrogen.|E
+S|State two properties of the noble gases.|They are chemically inert because their outer shells are full, and they exist as single-atom gases.|Helium, neon and argon are examples.|E
