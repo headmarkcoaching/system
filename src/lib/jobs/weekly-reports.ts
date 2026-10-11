@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import * as automationService from "@/lib/services/automation";
 import * as recipients from "@/lib/services/automation-recipients";
 import * as parentReportService from "@/lib/services/parent-reports";
+import * as practiceService from "@/lib/services/practice";
 
 const RULE_KEY = "WEEKLY_PARENT_REPORT" as const;
 const DEFAULTS = {};
@@ -28,13 +29,18 @@ export async function runWeeklyParentReports(now = new Date()) {
 
     const report = await parentReportService.generateParentReport(student.id, periodStart, periodEnd);
     const contacts = await recipients.getStudentContacts(student.id);
+    const practice = await practiceService.getPracticeScoresForStudent(student.id, 1);
+    const practiceLine =
+      practice.weekCount > 0
+        ? ` Practice: ${practice.weekCount} ${practice.weekCount === 1 ? "paper" : "papers"}${practice.weekAveragePercent !== null ? `, average ${practice.weekAveragePercent}%` : ""}.`
+        : "";
 
     const variables = { student_name: student.fullName };
     await automationService.dispatchAlert({
       userIds: contacts.parents.map((p) => p.userId).filter((id): id is string => Boolean(id)),
       notificationType: "PERFORMANCE_ALERT",
       title: "Weekly progress report",
-      message: `${student.fullName}'s weekly report is ready: ${Math.round(report.attendancePercent)}% attendance, ${Math.round(report.homeworkCompletionPercent)}% homework completion.`,
+      message: `${student.fullName}'s weekly report is ready: ${Math.round(report.attendancePercent)}% attendance, ${Math.round(report.homeworkCompletionPercent)}% homework completion.${practiceLine}`,
       relatedEntityType: "ParentReport",
       relatedEntityId: report.id,
       whatsapp: contacts.parents.map((p) => ({ phone: p.phone, userId: p.userId, templateKey: "WEEKLY_PARENT_REPORT", variables })),

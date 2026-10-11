@@ -8,6 +8,8 @@ import * as testService from "@/lib/services/tests";
 import * as performanceService from "@/lib/services/performance";
 import * as paymentsService from "@/lib/services/payments";
 import * as parentReportService from "@/lib/services/parent-reports";
+import * as practiceService from "@/lib/services/practice";
+import { PracticeScoresCard } from "@/components/shared/practice-scores-card";
 import * as communicationService from "@/lib/services/communication";
 import * as engagementService from "@/lib/services/engagement";
 import * as gamificationService from "@/lib/services/gamification";
@@ -134,6 +136,7 @@ export default async function StudentProfilePage({ params, searchParams }: { par
     latestRisk,
     goals,
     goalSubjects,
+    practiceScores,
   ] = await Promise.all([
     studentService.getStudentAttendance(student.id),
     studentService.getStudentHomework(student.id),
@@ -159,6 +162,7 @@ export default async function StudentProfilePage({ params, searchParams }: { par
     riskService.getLatestRiskScore(student.id),
     goalsService.listGoalsForStudent(student.id),
     studentService.listSubjectsForStudent(student.id),
+    practiceService.getPracticeScoresForStudent(student.id, 10),
   ]);
 
   const attendanceRate = studentService.computeAttendanceRate(attendance);
@@ -357,7 +361,10 @@ export default async function StudentProfilePage({ params, searchParams }: { par
         </TabsContent>
 
         <TabsContent value="tests">
-          <StudentTestsTab tests={tests} />
+          <div className="space-y-6">
+            <StudentTestsTab tests={tests} />
+            <PracticeScoresCard recent={practiceScores.recent} weekCount={practiceScores.weekCount} weekAveragePercent={practiceScores.weekAveragePercent} />
+          </div>
         </TabsContent>
 
         {!isParentViewer && (

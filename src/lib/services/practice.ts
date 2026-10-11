@@ -169,6 +169,66 @@ export function listSessions(studentId: string, subjectId?: string, take = 10) {
   });
 }
 
+export interface PracticeScoreRow {
+  id: string;
+  subjectName: string;
+  scopeLabel: string;
+  submittedAt: Date;
+  marksObtained: number;
+  totalMarks: number;
+  percent: number;
+  /** Written answers the student has not marked yet, so the score may still rise. */
+  markingPending: boolean;
+}
+
+/** Scores only, for the parent and teacher views: no questions, answers or explanations.
+ * Callers must already have checked that the viewer may see this student. */
+export async function getPracticeScoresForStudent(studentId: string, take = 10) {
+  const weekAgo = new Date(Date.now() - 7 * 86_400_000);
+  const sessions = await db.practiceSession.findMany({
+    where: { studentId, status: "SUBMITTED", submittedAt: { not: null } },
+    select: {
+      id: true,
+      scopeLabel: true,
+      totalMarks: true,
+      marksObtained: true,
+      submittedAt: true,
+      answers: true,
+      subject: { select: { name: true } },
+    },
+    orderBy: { submittedAt: "desc" },
+    take: Math.max(take, 50),
+  });
+
+  const rows: PracticeScoreRow[] = sessions
+    .filter((s) => s.totalMarks > 0 && s.submittedAt)
+    .map((s) => {
+      const answers = Object.values((s.answers ?? {}) as unknown as AnswerMap);
+      const marksObtained = s.marksObtained ?? 0;
+      return {
+        id: s.id,
+        subjectName: s.subject.name,
+        scopeLabel: s.scopeLabel,
+        submittedAt: s.submittedAt!,
+        marksObtained,
+        totalMarks: s.totalMarks,
+        percent: Math.round((marksObtained / s.totalMarks) * 100),
+        markingPending: answers.some((a) => a.marksAwarded === null),
+      };
+    });
+
+  const thisWeek = rows.filter((r) => r.submittedAt >= weekAgo);
+  return {
+    recent: rows.slice(0, take),
+    weekCount: thisWeek.length,
+    // Papers still waiting on written-answer marking would drag the average down unfairly.
+    weekAveragePercent: (() => {
+      const settled = thisWeek.filter((r) => !r.markingPending);
+      return settled.length ? Math.round(settled.reduce((sum, r) => sum + r.percent, 0) / settled.length) : null;
+    })(),
+  };
+}
+
 export async function listPastPapersForStudent(studentId: string, subjectId: string) {
   const student = await getStudentScope(studentId);
   const papers = await db.pastPaper.findMany({

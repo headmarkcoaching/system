@@ -16,6 +16,8 @@ import { ChildSwitcher } from "./child-switcher";
 import * as performanceService from "@/lib/services/performance";
 import * as paymentsService from "@/lib/services/payments";
 import * as testService from "@/lib/services/tests";
+import * as practiceService from "@/lib/services/practice";
+import { PracticeScoresCard } from "@/components/shared/practice-scores-card";
 import * as parentReportService from "@/lib/services/parent-reports";
 import * as announcementService from "@/lib/services/announcements";
 import { AnnouncementsCard } from "@/components/shared/announcements-card";
@@ -54,7 +56,7 @@ export default async function ParentDashboardPage({ searchParams }: { searchPara
     })
   );
 
-  const [attendance, homework, todaysClasses, latestPerformance, paymentPlan, testResults, parentReports, announcements, referralCode, referralStats, nextActions, currentMonthFee] = await Promise.all([
+  const [attendance, homework, todaysClasses, latestPerformance, paymentPlan, testResults, parentReports, announcements, referralCode, referralStats, nextActions, currentMonthFee, practiceScores] = await Promise.all([
     studentService.getStudentAttendance(student.id),
     studentService.getStudentHomework(student.id),
     batchService.listTodaysClassesForStudent(student.id),
@@ -67,6 +69,7 @@ export default async function ParentDashboardPage({ searchParams }: { searchPara
     referralsService.statsForReferrer("parent", parent.id),
     nextActionsService.getNextActionsForStudent(student.id),
     paymentsService.getCurrentMonthPaymentStatus(student.id),
+    practiceService.getPracticeScoresForStudent(student.id, 5),
   ]);
 
   const attendanceRate = studentService.computeAttendanceRate(attendance);
@@ -205,6 +208,8 @@ export default async function ParentDashboardPage({ searchParams }: { searchPara
             )}
           </CardContent>
         </Card>
+
+        <PracticeScoresCard recent={practiceScores.recent} weekCount={practiceScores.weekCount} weekAveragePercent={practiceScores.weekAveragePercent} />
 
         <div className="flex flex-col gap-3 sm:flex-row">
           <Button asChild variant="outline">
