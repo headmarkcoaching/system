@@ -589,6 +589,8 @@ model Student {
   doubts         Doubt[]
   teacherThreads TeacherThread[]
 
+  practiceSessions PracticeSession[]
+
   @@map("students")
 }
 
@@ -690,6 +692,10 @@ model AcademicLevel {
   tests              Test[]
   knowledgeDocuments KnowledgeDocument[]
 
+  chapters           Chapter[]
+  bankQuestions      BankQuestion[]
+  pastPapers         PastPaper[]
+
   @@map("academic_levels")
 }
 
@@ -704,6 +710,10 @@ model Board {
   batches            Batch[]
   leads              Lead[]
   knowledgeDocuments KnowledgeDocument[]
+
+  chapters           Chapter[]
+  bankQuestions      BankQuestion[]
+  pastPapers         PastPaper[]
 
   @@map("boards")
 }
@@ -763,6 +773,11 @@ model Subject {
 
   @@unique([name, academicLevelId])
   doubts             Doubt[]
+
+  chapters           Chapter[]
+  bankQuestions      BankQuestion[]
+  pastPapers         PastPaper[]
+  practiceSessions   PracticeSession[]
 
   @@map("subjects")
 }
@@ -2210,6 +2225,7 @@ enum FilePurpose {
   NOTES_SUBSCRIPTION_RECEIPT
   DOUBT_ATTACHMENT
   MESSAGE_ATTACHMENT
+  PAST_PAPER
 }
 
 // Provider-agnostic file metadata (src/lib/storage/*) — mirrors the WhatsApp/AI provider
@@ -2243,6 +2259,8 @@ model UploadedFile {
 
   @@index([purpose])
   @@index([uploadedById])
+  pastPapers                PastPaper[]
+
   @@map("uploaded_files")
 }
 
@@ -2377,4 +2395,171 @@ model TeacherMessage {
 
   @@index([threadId, createdAt])
   @@map("teacher_messages")
+}
+
+// ==========================================================================
+// Practice tests and exam preparation
+// ==========================================================================
+
+enum QuestionDifficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum BankQuestionSource {
+  TEACHER
+  PAST_PAPER
+  AI_DRAFT
+}
+
+// Only APPROVED questions are ever shown to students. AI drafts and anything a teacher is still
+// preparing stay DRAFT until someone reviews them.
+enum BankQuestionStatus {
+  DRAFT
+  APPROVED
+  ARCHIVED
+}
+
+enum PracticeMode {
+  PRACTICE
+  EXAM
+}
+
+enum PracticeScope {
+  CHAPTER
+  QUARTER
+  HALF
+  FULL
+  PAST_PAPER
+  WEAK_AREAS
+}
+
+enum PracticeStatus {
+  IN_PROGRESS
+  SUBMITTED
+}
+
+enum PastPaperSession {
+  ANNUAL
+  SUPPLEMENTARY
+  MODEL
+}
+
+// The ordered chapters of a subject's book for one class (and optionally one board). The order is
+// what lets "quarter", "half" and "full book" be worked out: the book is split into equal runs of
+// consecutive chapters.
+model Chapter {
+  id              String   @id @default(cuid())
+  subjectId       String
+  academicLevelId String
+  boardId         String?
+  number          Int
+  title           String
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  subject       Subject       @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  board         Board?        @relation(fields: [boardId], references: [id])
+
+  questions BankQuestion[]
+
+  @@unique([subjectId, academicLevelId, boardId, number])
+  @@index([subjectId, academicLevelId])
+  @@map("chapters")
+}
+
+// A reusable question that practice papers are assembled from. Unlike TestQuestion it belongs to
+// no single test, carries a worked explanation, and may come from a past paper.
+model BankQuestion {
+  id              String             @id @default(cuid())
+  subjectId       String
+  academicLevelId String
+  boardId         String?
+  chapterId       String
+  topic           String?
+  type            QuestionType
+  questionText    String
+  options         Json?
+  correctAnswer   String?
+  explanation     String?
+  marks           Int                @default(1)
+  difficulty      QuestionDifficulty @default(MEDIUM)
+  source          BankQuestionSource @default(TEACHER)
+  status          BankQuestionStatus @default(DRAFT)
+  pastPaperId     String?
+  paperOrder      Int                @default(0)
+  createdById     String?
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  subject       Subject       @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  board         Board?        @relation(fields: [boardId], references: [id])
+  chapter       Chapter       @relation(fields: [chapterId], references: [id], onDelete: Cascade)
+  pastPaper     PastPaper?    @relation(fields: [pastPaperId], references: [id], onDelete: SetNull)
+
+  @@index([subjectId, chapterId, status])
+  @@index([pastPaperId])
+  @@map("bank_questions")
+}
+
+model PastPaper {
+  id              String           @id @default(cuid())
+  subjectId       String
+  academicLevelId String
+  boardId         String?
+  year            Int
+  session         PastPaperSession @default(ANNUAL)
+  title           String
+  totalMarks      Int
+  durationMinutes Int
+  fileId          String?
+  isPublished     Boolean          @default(false)
+  createdById     String?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  subject       Subject       @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
+  board         Board?        @relation(fields: [boardId], references: [id])
+  file          UploadedFile? @relation(fields: [fileId], references: [id])
+
+  questions BankQuestion[]
+  sessions  PracticeSession[]
+
+  @@index([subjectId, academicLevelId, isPublished])
+  @@map("past_papers")
+}
+
+// One self-serve attempt. The question list is fixed when the paper is assembled, so reloading or
+// reviewing later always shows the same paper. Unlike a scheduled Test there is no attempt cap:
+// students build as many papers as they like.
+model PracticeSession {
+  id              String         @id @default(cuid())
+  studentId       String
+  subjectId       String
+  mode            PracticeMode
+  scope           PracticeScope
+  scopeLabel      String
+  chapterIds      String[]
+  pastPaperId     String?
+  questionIds     String[]
+  totalMarks      Int
+  durationMinutes Int?
+  status          PracticeStatus @default(IN_PROGRESS)
+  answers         Json?
+  marksObtained   Int?
+  startedAt       DateTime       @default(now())
+  submittedAt     DateTime?
+
+  student   Student    @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  pastPaper PastPaper? @relation(fields: [pastPaperId], references: [id], onDelete: SetNull)
+
+  @@index([studentId, startedAt])
+  @@index([studentId, subjectId, status])
+  @@map("practice_sessions")
 }

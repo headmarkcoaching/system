@@ -1,7 +1,9 @@
 "use client";
 
-import { CalendarClock, TrendingDown } from "lucide-react";
+import Link from "next/link";
+import { CalendarClock, Target, TrendingDown } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { EmptyState } from "@/components/shared/empty-state";
 import { ProgressBar } from "@/components/shared/progress-bar";
@@ -28,6 +30,21 @@ export function ExamPrepView({ data }: { data: ExamPrepData }) {
           </p>
           <p className="text-5xl font-bold">{data.daysRemaining}</p>
           <p className="text-sm text-muted-foreground">day{data.daysRemaining === 1 ? "" : "s"} remaining · {formatDate(test.startDate)}</p>
+        </CardContent>
+      </Card>
+
+      <Card className="border-primary/30 bg-primary/[0.04]">
+        <CardContent className="flex flex-col gap-3 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-5">
+          <div className="flex items-start gap-3">
+            <Target className="mt-0.5 h-5 w-5 shrink-0 text-primary" aria-hidden="true" />
+            <div>
+              <p className="font-semibold">Prepare with practice papers</p>
+              <p className="text-sm text-muted-foreground">Build a paper for any chapter, quarter, half or the full book, or solve a past paper against the clock.</p>
+            </div>
+          </div>
+          <Button asChild className="shrink-0">
+            <Link href={`/student/practice?subject=${test.subjectId}`}>Open Practice</Link>
+          </Button>
         </CardContent>
       </Card>
 

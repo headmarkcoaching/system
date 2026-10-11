@@ -43,6 +43,8 @@ import {
   Mail,
   MessageCircleQuestion,
   MessageSquare,
+  Target,
+  Landmark,
   type LucideIcon,
 } from "lucide-react";
 import type { IconKey } from "@/lib/nav-config";
@@ -94,4 +96,6 @@ export const ICON_MAP: Record<IconKey, LucideIcon> = {
   notesSubscription: Mail,
   doubts: MessageCircleQuestion,
   messages: MessageSquare,
+  practice: Target,
+  questionBank: Landmark,
 };

@@ -100,7 +100,8 @@ export function Conversation({
               <div className={cn("max-w-[80%] rounded-lg border border-border p-3 text-sm", mine ? "bg-primary/10" : "bg-muted/40")}>
                 <p className="mb-1 text-xs font-medium text-muted-foreground">
                   {m.authorName} · {formatDate(m.createdAt)}{" "}
-                  {new Date(m.createdAt).toLocaleTimeString("en-PK", { hour: "numeric", minute: "2-digit" })}
+                  {/* The server and the reader's browser can be in different time zones, so the clock time may legitimately differ between the two renders. */}
+                  <span suppressHydrationWarning>{new Date(m.createdAt).toLocaleTimeString("en-PK", { hour: "numeric", minute: "2-digit" })}</span>
                 </p>
                 <p className="whitespace-pre-wrap break-words">{m.body}</p>
                 {m.attachment && <AttachmentView attachment={m.attachment} />}

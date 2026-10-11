@@ -78,6 +78,19 @@ async function assertCanReadFile(session: Session, fileId: string, purpose: stri
     return;
   }
 
+  // A past paper's file is readable by teachers (who manage the bank) and by students of that
+  // class once the paper is published. Parents are not meant to see exam material.
+  if (purpose === "PAST_PAPER") {
+    const paper = await db.pastPaper.findFirst({ where: { fileId }, select: { academicLevelId: true, boardId: true, isPublished: true } });
+    if (!paper) throw new Error("Not found");
+    if (session.user.role === "TEACHER") return;
+    if (session.user.role === "STUDENT" && paper.isPublished) {
+      const student = await db.student.findUnique({ where: { userId: session.user.id }, select: { academicLevelId: true, boardId: true } });
+      if (student?.academicLevelId === paper.academicLevelId && (!paper.boardId || paper.boardId === student.boardId)) return;
+    }
+    throw new Error("Forbidden");
+  }
+
   if (purpose === "LEAD_ASSESSMENT") {
     const assessment = await db.assessment.findFirst({ where: { documentFileId: fileId }, select: { leadId: true } });
     if (!assessment) throw new Error("Not found");

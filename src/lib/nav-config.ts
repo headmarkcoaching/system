@@ -50,7 +50,9 @@ export type IconKey =
   | "integrations"
   | "notesSubscription"
   | "doubts"
-  | "messages";
+  | "messages"
+  | "practice"
+  | "questionBank";
 
 export interface NavItem {
   label: string;
@@ -79,6 +81,7 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
         { label: "Doubts", href: "/teacher/doubts", icon: "doubts" },
         { label: "Messages", href: "/teacher/messages", icon: "messages" },
         { label: "Knowledge Base", href: "/knowledge-base", icon: "knowledgeBase" },
+        { label: "Question Bank", href: "/question-bank", icon: "questionBank" },
       ],
     },
     {
@@ -96,6 +99,7 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
         { label: "Timetable", href: "/student/timetable", icon: "timetable" },
         { label: "Homework", href: "/student/homework", icon: "homework" },
         { label: "Tests", href: "/student/tests", icon: "tests" },
+        { label: "Practice", href: "/student/practice", icon: "practice" },
         { label: "Exam Prep", href: "/student/exam-prep", icon: "examPrep" },
         { label: "Recordings", href: "/student/recordings", icon: "recordings" },
         { label: "Ask a Doubt", href: "/student/doubts", icon: "doubts" },
@@ -179,6 +183,7 @@ function adminNav(): NavSection[] {
       items: [
         { label: "Study Material", href: "/admin/study-material", icon: "material" },
         { label: "Knowledge Base", href: "/knowledge-base", icon: "knowledgeBase" },
+        { label: "Question Bank", href: "/question-bank", icon: "questionBank" },
       ],
     },
     {
