@@ -1,0 +1,215 @@
+@level 1st Year
+@subject Computer Science
+
+# 5 Operating Systems
+M|An operating system is|system software that manages hardware and software resources|an application program|a type of hardware|a programming language|1|Interface between user and hardware.|E
+M|Which of the following is an operating system?|Linux|Python|Oracle|Photoshop|1|Open source.|E
+M|The main functions of an operating system include|process, memory, file and device management|only printing|only graphics|only networking|1|Resource manager.|E
+M|A GUI operating system uses|windows, icons and menus|only typed commands|punch cards|switches|1|Graphical user interface.|E
+M|A CLI requires the user to|type commands|click icons|touch the screen|speak|1|Command line interface.|E
+M|The process of loading the operating system at start-up is called|booting|formatting|compiling|defragmenting|1|Bootstrap loader.|E
+M|A process is|a program in execution|a stored file|a hardware device|a network|1|Active.|M
+M|A program becomes a process when|it is loaded into memory and executed|it is printed|it is deleted|it is typed|1|Creation.|M
+M|The process states include|ready, running and waiting|on, off and idle|read, write and delete|open, close and save|1|Process life cycle.|M
+M|CPU scheduling decides|which process runs next|which file to delete|which printer to use|which network to join|1|Scheduler.|M
+M|In FCFS scheduling, processes are served in|order of arrival|order of size|random order|order of priority|1|First come, first served.|M
+M|In round-robin scheduling each process gets|a fixed time slice|unlimited time|no time|the largest slice|1|Time quantum.|M
+M|Multitasking means|running several programs at the same time|running one program only|shutting down|printing only|1|Time sharing.|E
+M|A multiuser operating system allows|many users to use the computer at the same time|one user only|no user|only the administrator|1|UNIX.|M
+M|A real-time operating system is used in|systems that need immediate response|word processing only|gaming only|offices only|1|Aircraft control.|M
+M|Virtual memory uses part of the|hard disk as extra RAM|CPU as RAM|monitor as RAM|printer as RAM|1|Swapping.|M
+M|Paging divides memory into|fixed-size blocks called pages|variable-size files|folders|clusters of disks|1|Memory management.|M
+M|A deadlock occurs when|processes wait for each other forever|a process finishes|memory is free|the CPU is idle|1|Circular wait.|M
+M|A file system organises|files on storage|programs in memory|processes|networks|1|FAT, NTFS.|M
+M|The file system of modern Windows is|NTFS|FAT only|ext4|HFS|1|New Technology File System.|M
+M|A directory is|a folder that contains files|a program|a virus|a network|1|Hierarchy.|E
+M|A file extension .txt indicates|a text file|an image|a video|an executable|1|Plain text.|E
+M|A file extension .exe indicates|an executable file|a text file|an image|a document|1|Program.|E
+M|A device driver is|software that controls a hardware device|a hardware device|a virus|a network|1|Printer driver.|M
+M|The kernel is|the core part of the operating system|the user interface|an application|a printer|1|Manages hardware.|M
+M|The shell is|the interface between the user and the kernel|the CPU|the memory|the disk|1|Command interpreter.|M
+M|Defragmentation|rearranges files on a disk for faster access|deletes files|formats the disk|installs software|1|Contiguous storage.|M
+M|Formatting a disk|prepares it for storing data|speeds up the CPU|increases RAM|scans for viruses|1|Creates file system.|M
+M|Utility software includes|antivirus and backup programs|word processors|spreadsheets|games|1|Maintenance tools.|M
+M|Android is an operating system for|mobile devices|supercomputers only|printers|calculators|1|Based on Linux.|E
+M|The Windows operating system is developed by|Microsoft|Apple|Google|IBM|1|Windows 11 is the latest family.|E
+M|Spooling is used mainly with|printers|monitors|keyboards|mice|1|Simultaneous peripheral operations on-line.|H
+M|A batch operating system|runs jobs in groups without user interaction|requires constant interaction|is a GUI|is a mobile OS|1|Early systems.|M
+M|The command to list files in Linux is|ls|dir only|list|show|1|DOS uses dir.|M
+M|The command to list files in MS-DOS is|dir|ls|list|show|1|Directory.|M
+M|An operating system that is free and open source is|Linux|Windows|macOS|iOS|1|Source code available.|M
+M|Task Manager in Windows is used to|view and end running processes|write documents|browse the web|play music|1|Ctrl+Shift+Esc.|M
+N|A process needs 4 time slices and each slice is 10 ms. Find its total CPU time in ms.|40|4 × 10.|E|4*10
+N|Three processes with burst times 5, 3 and 8 ms run by FCFS in that order. Find the waiting time of the third process in ms.|8|5 + 3.|M|5+3
+N|Three processes with burst times 5, 3 and 8 ms run by FCFS in that order. Find the average waiting time in ms to one decimal place.|4.3|(0 + 5 + 8)/3.|H|(0+5+8)/3
+N|A system has 4 GB of RAM and uses 1 GB of virtual memory. Find the total memory in GB.|5|4 + 1.|E|4+1
+N|A page size is 4 KB. Find the number of pages in a 64 KB program.|16|64/4.|M|64/4
+N|A disk has 500 GB and 120 GB is used. Find the free space in GB.|380|500 − 120.|E|500-120
+N|A quantum is 20 ms and a process needs 70 ms. Find the number of quanta needed (round up).|4|70/20 = 3.5.|M|Math.ceil(70/20)
+N|A computer boots in 45 seconds. Find the time in minutes to boot 20 times.|15|45 × 20 / 60.|M|45*20/60
+S|List the main functions of an operating system.|It manages processes, memory, files, devices and security, and provides a user interface.|Resource manager.|M
+S|Distinguish between a GUI and a CLI.|A GUI uses windows, icons and a mouse and is easy to use, while a CLI needs typed commands and is more powerful for experts.|Different styles.|M
+S|Explain virtual memory.|Virtual memory uses part of the hard disk as if it were RAM so that programs larger than physical memory can run, by swapping pages in and out.|Slower than RAM.|M
+S|Describe round-robin scheduling.|Each process is given a fixed time slice in turn, and if it is not finished it goes to the back of the queue.|Fair to all processes.|M
+S|Explain what a deadlock is.|It is a situation in which two or more processes each wait for a resource held by another, so none can proceed.|Avoid by ordering resources.|M
+S|Name three types of operating systems and give an example of each.|Batch systems, multiuser systems such as UNIX, and real-time systems used in aircraft control.|Also mobile OS such as Android.|M
+
+# 6 Programming Concepts and Algorithms
+M|An algorithm is|a step-by-step procedure for solving a problem|a program|a computer|a language|1|Finite, ordered, clear.|E
+M|A good algorithm must be|finite, clear and effective|infinite|ambiguous|random|1|Properties.|E
+M|A flowchart is|a graphical representation of an algorithm|a program|a computer|a language|1|Uses symbols.|E
+M|In a flowchart, the oval symbol represents|start or end|process|decision|input|1|Terminator.|E
+M|In a flowchart, the rectangle represents|a process|a decision|start|a connector|1|Calculation.|E
+M|In a flowchart, the diamond represents|a decision|a process|start|input|1|Yes or no.|E
+M|In a flowchart, the parallelogram represents|input or output|process|decision|connector|1|I/O.|E
+M|Pseudocode is|an informal description of an algorithm in plain language|machine code|a compiler|a language|1|Structured English.|E
+M|The three basic control structures are|sequence, selection and iteration|input, output and storage|read, write and delete|add, subtract and multiply|1|Structured programming.|M
+M|Selection is implemented by|if-else statements|loops|functions|comments|1|Decisions.|E
+M|Iteration is implemented by|loops|if statements|comments|variables|1|Repetition.|E
+M|Machine language consists of|binary code|English words|symbols only|pictures|1|0s and 1s.|E
+M|Assembly language uses|mnemonics|binary only|English sentences|pictures|1|ADD, MOV.|M
+M|A high-level language is|close to human language|binary|assembly|machine code|1|C, Python.|E
+M|A compiler|translates the whole program into machine code at once|translates line by line|executes the code directly|writes the program|1|Creates an executable.|M
+M|An interpreter|translates and executes line by line|translates the entire program|creates an executable|stores the program|1|Python.|M
+M|An assembler translates|assembly language into machine code|C into assembly|machine code into C|English into C|1|Low-level translator.|M
+M|Errors found during compilation are called|syntax errors|logical errors|run-time errors|human errors|1|Violation of rules.|M
+M|An error that gives wrong results without stopping the program is a|logical error|syntax error|compile error|link error|1|Hard to find.|M
+M|Division by zero during execution is an example of a|run-time error|syntax error|logical error|compile-time warning|1|Crash.|M
+M|The process of finding and fixing errors is|debugging|compiling|linking|booting|1|Testing.|E
+M|A variable is|a named memory location|a constant|a function|a keyword|1|Holds a value.|E
+M|A constant is a value that|does not change during execution|changes often|is always zero|is a function|1|Fixed.|E
+M|An array is|a collection of elements of the same type|a single value|a function|a loop|1|Indexed.|M
+M|Structured programming avoids|the unrestricted use of goto|loops|variables|functions|1|Dijkstra.|M
+M|Object-oriented programming is based on|objects and classes|only functions|only goto|only assembly|1|Encapsulation, inheritance.|M
+M|The four main OOP concepts include|encapsulation, inheritance, polymorphism and abstraction|input, output, process and storage|compile, link, load and run|read, write, copy and paste|1|Pillars of OOP.|M
+M|The step of a software development life cycle that follows analysis is|design|maintenance|testing|deployment|1|SDLC.|M
+M|The program development steps are|analysis, design, coding, testing and maintenance|buy, install and run|input, output and storage|read and write|1|Waterfall.|M
+M|Source code is|the program written by the programmer|the executable file|machine code|an operating system|1|Human-readable.|E
+M|A top-down design|breaks a problem into smaller sub-problems|builds from the smallest parts upward|is random|avoids planning|1|Divide and conquer.|M
+M|Python is a|high-level interpreted language|machine language|assembly language|markup language|1|Readable.|E
+M|The time complexity of a linear search of n items is|O(n)|O(1)|O(log n)|O(n²)|1|Check each item.|H
+M|Binary search requires the data to be|sorted|unsorted|random|duplicated|1|Halves each step.|M
+M|Bubble sort works by|repeatedly swapping adjacent items that are out of order|selecting the smallest|splitting the list|searching|1|Simple sort.|M
+M|A syntax error in a program is detected by|the compiler or interpreter|the monitor|the printer|the keyboard|1|Rules of the language.|E
+N|A loop runs from 1 to 10 adding each number. Find the total.|55|n(n + 1)/2.|E|10*11/2
+N|Find the factorial of 5.|120|5 × 4 × 3 × 2 × 1.|E|5*4*3*2*1
+N|A loop runs 20 times with 3 operations each. Find the total operations.|60|20 × 3.|E|20*3
+N|A linear search checks up to 100 items. Find the maximum comparisons.|100|Worst case.|E|100
+N|A binary search on 128 sorted items takes at most how many comparisons? (log₂128 + 1)|8|7 + 1.|H|7+1
+N|A list of 8 items is bubble sorted. Find the maximum number of comparisons in the first pass.|7|n − 1.|M|8-1
+N|Find the sum of the first 20 even numbers.|420|n(n + 1) with n = 20.|M|20*21
+N|Find the 8th term of the Fibonacci sequence 1, 1, 2, 3, 5, 8, 13, 21.|21|Sum of previous two.|M|21
+S|Define algorithm and state its properties.|An algorithm is a finite set of clear steps that solves a problem, and it must have input, output, definiteness, finiteness and effectiveness.|Written as pseudocode or flowchart.|M
+S|Write the pseudocode to find the largest of three numbers.|Read A, B, C; set max to A; if B is greater than max set max to B; if C is greater than max set max to C; print max.|Selection.|M
+S|Distinguish between a compiler and an interpreter.|A compiler translates the whole program into machine code before running, while an interpreter translates and runs it line by line.|Compiled code is faster.|M
+S|Distinguish between syntax errors and logical errors.|A syntax error breaks the rules of the language and stops compilation, while a logical error gives wrong results although the program runs.|Logic needs testing.|M
+S|Name the symbols of a flowchart and their meanings.|The oval marks start or end, the rectangle a process, the diamond a decision and the parallelogram input or output.|Arrows show flow.|M
+S|Describe the steps of program development.|Analyse the problem, design the algorithm, write the code, test and debug it, and then maintain and document it.|SDLC.|M
+
+# 7 Programming in C
+M|C language was developed by|Dennis Ritchie|Bjarne Stroustrup|James Gosling|Guido van Rossum|1|At Bell Labs in 1972.|E
+M|Every C program must have a function called|main|start|begin|run|1|Entry point.|E
+M|A C statement ends with|a semicolon|a colon|a full stop|a comma|1|;|E
+M|The header file for input and output in C is|stdio.h|math.h|string.h|conio|1|printf and scanf.|E
+M|The function to display output in C is|printf|scanf|input|display|1|Formatted output.|E
+M|The function to read input in C is|scanf|printf|show|write|1|Formatted input.|E
+M|The format specifier for an integer is|%d|%f|%c|%s|1|Decimal.|E
+M|The format specifier for a float is|%f|%d|%c|%s|1|Floating point.|E
+M|The format specifier for a character is|%c|%d|%f|%s|1|Single char.|E
+M|The format specifier for a string is|%s|%c|%d|%f|1|Array of chars.|E
+M|The data type to store a whole number is|int|float|char|double|1|Integer.|E
+M|The data type to store a decimal number is|float|int|char|void|1|Real number.|E
+M|The data type for a single character is|char|int|float|string|1|One byte.|E
+M|The escape sequence for a new line is|\n|\t|\b|\r|1|Line feed.|E
+M|The escape sequence for a tab is|\t|\n|\b|\r|1|Horizontal tab.|M
+M|The single-line comment in C starts with|//|/*|#|--|1|Ignored by compiler.|E
+M|The multi-line comment in C starts with|/*|//|#|--|1|Ends with */.|E
+M|The assignment operator in C is|=|==|:=|->|1|Stores a value.|E
+M|The equality operator in C is|==|=|!=|:=|1|Comparison.|E
+M|The logical AND operator in C is|&&|&|^^|&&&|1|Short-circuit.|M
+M|The logical NOT operator in C is|!|~|not|?|1|Negation.|M
+M|The modulus operator in C is|%|/|*|#|1|Remainder.|E
+M|The result of 7 / 2 in C when both are integers is|3|3.5|4|2|1|Integer division.|M
+M|The result of 7 % 2 in C is|1|3|0|2|1|Remainder.|E
+M|The increment operator is|++|+=|--|==|1|Adds one.|E
+M|The statement that executes code only if a condition is true is|if|for|while|switch|1|Selection.|E
+M|A loop that checks the condition before each iteration is|while|do-while|goto|switch|1|Entry-controlled.|M
+M|A loop that executes at least once is|do-while|while|for|if|1|Exit-controlled.|M
+M|The for loop has the parts|initialisation, condition and increment|input, output and storage|start, middle and end|read, write and print|1|for(i=0; i<n; i++).|M
+M|The statement that exits a loop immediately is|break|continue|stop|exit loop|1|Terminates the loop.|M
+M|The statement that skips to the next iteration is|continue|break|next|skip|1|Jumps to loop test.|M
+M|An array in C is declared as|int a[10];|int a(10);|array a[10];|int[10] a;|1|10 elements.|M
+M|The first index of an array in C is|0|1|-1|any value|1|Zero-based.|E
+M|In an array a[5], the last valid index is|4|5|6|0|1|Indexes 0–4.|M
+M|The function to find the length of a string is|strlen|length|size|count|1|string.h.|M
+M|A function in C that returns nothing has the return type|void|null|empty|none|1|No return.|M
+M|The operator used to get the address of a variable is|&|*|#|@|1|Address-of.|M
+M|A pointer variable stores|a memory address|a value only|a function|a character only|1|Declared with *.|M
+M|The function to open a file in C is|fopen|open|fread|fload|1|stdio.h.|H
+N|Find the value of 17 % 5 in C.|2|Remainder.|E|17-Math.floor(17/5)*5
+N|Find the value of 17 / 5 in C when both are integers.|3|Integer division.|E|Math.floor(17/5)
+N|Find the output of: int a = 5; a++; printf(a); (value of a)|6|Increment.|E|5+1
+N|A loop for(i=1; i<=10; i++) runs how many times?|10|1 to 10.|E|10
+N|A loop for(i=0; i<20; i+=2) runs how many times?|10|0, 2, ..., 18.|M|20/2
+N|Find the number of elements in int a[15].|15|Array size.|E|15
+N|Find the value of the expression 3 + 4 * 2 in C.|11|Precedence.|E|3+4*2
+N|Find the value of the expression (3 + 4) * 2 in C.|14|Brackets first.|E|(3+4)*2
+S|Write a C program to print "Hello World".|Include stdio.h, write the main function with printf("Hello World"); and return 0.|Basic structure.|M
+S|Distinguish between while and do-while loops.|A while loop checks the condition first and may not run at all, while a do-while loop runs the body once before checking the condition.|Entry and exit controlled.|M
+S|Explain the structure of a C program.|It has preprocessor directives, the main function with declarations and statements enclosed in braces, and optionally other functions.|Compiled to an executable.|M
+S|Explain the use of an array with an example.|An array stores several values of the same type under one name, such as int marks[5]; accessed by index marks[0] to marks[4].|Used with loops.|M
+S|Distinguish between = and == in C.|The single equal sign assigns a value to a variable, while the double equal sign compares two values.|Common beginner mistake.|M
+S|Write the C code for finding the sum of the first n numbers using a loop.|Use sum = 0; for(i = 1; i <= n; i++) sum = sum + i; and then print sum.|Accumulator pattern.|M
+
+# 8 Data Communication and Networks
+M|Data communication is|the exchange of data between devices|storing data|printing data|deleting data|1|Through a medium.|E
+M|The basic elements of data communication are|sender, receiver, medium, message and protocol|input, process and output|CPU, memory and disk|client and printer|1|Five components.|M
+M|A network is|a group of connected computers|a single computer|a program|a printer|1|Share resources.|E
+M|A LAN covers|a small area such as a building|a country|the world|the oceans|1|Local area network.|E
+M|A WAN covers|a large geographical area|a room|a desk|a single computer|1|Wide area network.|E
+M|A MAN covers|a city|a continent|a desk|a house|1|Metropolitan area network.|M
+M|The largest network is the|Internet|LAN|MAN|PAN|1|Network of networks.|E
+M|A PAN is a network|around a person|in a country|of satellites|of cables|1|Bluetooth.|M
+M|The network topology in which all nodes connect to a central device is|star|bus|ring|mesh|1|Hub or switch.|E
+M|The topology in which all nodes connect to one cable is|bus|star|ring|mesh|1|Backbone.|E
+M|The topology in which each node connects to two neighbours in a circle is|ring|star|bus|mesh|1|Token passing.|M
+M|The topology in which every node connects to every other node is|mesh|star|bus|ring|1|Most reliable, costly.|M
+M|The main disadvantage of the star topology is|failure of the central device stops the network|slow speed|high noise|no expansion|1|Single point of failure.|M
+M|A hub|broadcasts data to all connected devices|sends data to one device only|connects networks of different protocols|stores files|1|Simple device.|M
+M|A switch|sends data only to the intended device|broadcasts to all|stores files|prints|1|Uses MAC addresses.|M
+M|A router|connects different networks|prints documents|stores web pages|encrypts files|1|Uses IP addresses.|M
+M|A modem|converts digital signals to analog and back|stores data|prints|scans|1|Modulator-demodulator.|M
+M|A network interface card (NIC)|connects a computer to a network|stores data|displays images|prints|1|Has a MAC address.|M
+M|The twisted pair cable is|a copper cable of twisted wires|a glass cable|a wireless medium|a satellite|1|Ethernet.|E
+M|Fibre optic cable transmits data as|light|electricity|sound|radio waves only|1|Very high speed.|E
+M|The fastest transmission medium is usually|fibre optic cable|twisted pair|coaxial cable|infrared|1|Light speed.|M
+M|Wi-Fi is a|wireless LAN technology|type of cable|operating system|programming language|1|IEEE 802.11.|E
+M|Bluetooth is used for|short-range wireless communication|long-distance cables|satellite TV|printing|1|Personal area networks.|E
+M|The speed of data transmission is measured in|bits per second|bytes|hertz only|watts|1|bps.|E
+M|Bandwidth is|the maximum data rate of a channel|the size of a file|the number of users|the length of a cable|1|bps or Hz.|M
+M|The protocol suite of the Internet is|TCP/IP|FTP|HTML|HTTP only|1|Transmission Control Protocol/Internet Protocol.|M
+M|An IP address identifies|a device on a network|a user's name|a file|a program|1|IPv4 has 32 bits.|M
+M|An IPv4 address consists of|four numbers separated by dots|six hexadecimal pairs|two numbers|a name|1|e.g. 192.168.1.1.|M
+M|A MAC address has|48 bits|32 bits|64 bits|128 bits|1|Hardware address.|H
+M|DNS translates|domain names into IP addresses|IP into MAC|files into folders|text into audio|1|Domain Name System.|M
+M|HTTP is the protocol used for|transferring web pages|sending email|transferring files only|remote login|1|Hypertext Transfer Protocol.|M
+M|FTP is used for|transferring files|browsing the web|sending mail|chatting|1|File Transfer Protocol.|M
+M|SMTP is used for|sending email|browsing the web|transferring files|remote login|1|Simple Mail Transfer Protocol.|M
+M|A firewall|protects a network from unauthorised access|speeds up the network|stores files|prints|1|Security.|M
+M|In the OSI model, the number of layers is|7|5|4|9|1|Physical to application.|M
+M|In a client-server network|a server provides services to clients|all computers are equal|there is no server|there are no clients|1|Centralised.|M
+M|In a peer-to-peer network|all computers have equal status|there is a dedicated server|there are no computers|there is only one computer|1|Decentralised.|M
+N|A file of 10 MB is sent at 8 Mbps. Find the time in seconds.|10|10 × 8 / 8.|M|10*8/8
+N|A file of 100 MB is downloaded at 20 Mbps. Find the time in seconds.|40|100 × 8 / 20.|M|100*8/20
+N|A connection of 2 Mbps transfers how many bits in 5 seconds in millions?|10|2 × 5.|E|2*5
+N|An IPv4 address has 32 bits. Find the number of possible addresses in billions to one decimal place.|4.3|2³² ≈ 4.29 × 10⁹.|H|2^32/1e9
+N|A star network has 12 computers. Find the number of cables needed.|12|One per node.|E|12
+N|A mesh of 5 nodes needs how many links?|10|n(n − 1)/2.|M|5*4/2
+N|A mesh of 8 nodes needs how many links?|28|n(n − 1)/2.|M|8*7/2
+N|A signal travels 3000 km at 300 000 km/s. Find the delay in milliseconds.|10|3000/300 000 × 1000.|M|3000/300000*1000
+S|Distinguish between LAN, MAN and WAN.|A LAN covers a small area such as a building, a MAN covers a city, and a WAN covers a large region such as a country.|Based on geographical size.|M
+S|Describe the star topology with advantages and disadvantages.|All nodes connect to a central hub or switch. It is easy to manage and one failed node does not stop others, but if the centre fails the whole network fails.|Most common.|M
+S|Distinguish between a hub, a switch and a router.|A hub broadcasts data to all devices, a switch sends data only to the destination device, and a router connects different networks.|Different layers.|M
+S|State the purpose of the TCP/IP protocols.|TCP splits data into packets and ensures reliable delivery, and IP addresses and routes the packets across networks.|Basis of the Internet.|M
+S|Distinguish between client-server and peer-to-peer networks.|In client-server a dedicated server provides services to clients, while in peer-to-peer all computers share resources equally.|Server is centrally managed.|M
+S|Explain the role of DNS.|The Domain Name System converts human-readable domain names such as example.com into IP addresses that computers use to locate each other.|Like a phone book.|M

@@ -1,0 +1,166 @@
+@level 2nd Year
+@subject Chemistry
+
+# 4 Halogens and Noble Gases
+M|The elements of group 17 are called|halogens|alkali metals|noble gases|chalcogens|1|F, Cl, Br, I and At.|E
+M|The outer electronic configuration of halogens is|ns² np⁵|ns² np⁶|ns² np⁴|ns¹|1|Seven valence electrons.|E
+M|At room temperature chlorine is a|greenish yellow gas|red liquid|violet solid|colourless gas|1|Cl₂.|E
+M|At room temperature bromine is a|red-brown liquid|gas|solid|colourless liquid|1|The only liquid non-metal.|E
+M|At room temperature iodine is a|violet-black solid|gas|liquid|green gas|1|It sublimes on heating.|E
+M|The oxidising power of the halogens|decreases down the group|increases down the group|is the same|is zero|1|F₂ is the strongest.|M
+M|The most reactive halogen is|fluorine|chlorine|bromine|iodine|1|Smallest and most electronegative.|M
+M|Chlorine displaces bromine from|potassium bromide|potassium fluoride|potassium chloride|none|1|More reactive halogen displaces a less reactive one.|M
+M|The boiling points of the halogens|increase down the group|decrease down the group|are equal|are zero|1|London forces increase.|M
+M|The bond energy of F–F is lower than that of Cl–Cl because of|repulsion between lone pairs on small atoms|large size|ionic character|metallic bonding|1|F atoms are small.|H
+M|The strongest hydrohalic acid is|HI|HF|HCl|HBr|1|The H–X bond is weakest in HI.|M
+M|The weakest hydrohalic acid is|HF|HCl|HBr|HI|1|Strong H–F bond and hydrogen bonding.|M
+M|HF is a weak acid because|the H–F bond is very strong|F is large|HF is ionic|HF has no hydrogen|1|Poor dissociation.|M
+M|Hydrofluoric acid is used for|etching glass|making soap|cooking|painting|1|It reacts with silica.|M
+M|Chlorine is prepared in the laboratory by|MnO₂ with concentrated HCl|NaCl with water|HCl with NaOH|Cl₂ from air|1|MnO₂ + 4HCl → MnCl₂ + Cl₂ + 2H₂O.|M
+M|Chlorine is manufactured by|electrolysis of brine|distillation|reduction|mining|1|Chlor-alkali process.|M
+M|Bleaching powder is|CaOCl₂|CaCl₂|Ca(OH)₂|CaCO₃|1|Made from Cl₂ and slaked lime.|M
+M|Chlorine water bleaches by|oxidation|reduction|neutralisation|dehydration|1|It forms HOCl.|M
+M|Chlorine reacts with cold dilute NaOH to give|sodium hypochlorite|sodium chlorate|sodium chloride only|sodium perchlorate|1|NaOCl.|M
+M|Chlorine reacts with hot concentrated NaOH to give|sodium chlorate|sodium hypochlorite|sodium perchlorate|sodium chlorite|1|NaClO₃.|H
+M|The oxidation number of Cl in HClO₄ is|+7|+5|+3|+1|1|Perchloric acid.|M
+M|The oxidation number of Cl in NaOCl is|+1|+3|+5|+7|1|Hypochlorite.|M
+M|Interhalogen compounds are compounds of|two different halogens|halogen and oxygen|halogen and hydrogen|halogen and carbon|1|For example ICl.|M
+M|The test for halide ions is|silver nitrate solution|barium chloride|litmus|limewater|1|AgCl white, AgBr cream, AgI yellow.|M
+M|The colour of silver iodide precipitate is|yellow|white|cream|black|1|Insoluble in ammonia.|M
+M|The colour of silver chloride precipitate is|white|yellow|cream|black|1|Soluble in dilute ammonia.|M
+M|The noble gases belong to group|18|17|1|16|1|He, Ne, Ar, Kr, Xe, Rn.|E
+M|The noble gases are chemically|inert|very reactive|explosive|corrosive|1|Complete octets.|E
+M|The first noble gas compound was prepared by|Neil Bartlett|Rutherford|Dalton|Bohr|1|XePtF₆ in 1962.|M
+M|Xenon forms compounds with|fluorine and oxygen|sodium|hydrogen|carbon|1|XeF₂, XeF₄, XeF₆.|M
+M|Helium is used in|balloons and cooling superconducting magnets|welding steel only|cooking|paints|1|It is light and inert.|M
+M|Argon is used in|filling electric bulbs|making soap|medicine only|cement|1|It is inert.|M
+M|Neon is used in|advertising signs|batteries|plastics|fertilisers|1|Red glow.|M
+M|The most abundant noble gas in the atmosphere is|argon|helium|neon|krypton|1|0.93%.|M
+N|Find the oxidation number of Cl in KClO₃.|5|1 + Cl − 6 = 0.|M|6-1
+N|Find the oxidation number of Cl in HClO₄.|7|1 + Cl − 8 = 0.|M|8-1
+N|Find the mass in g of Cl₂ (71 g/mol) from 87 g of MnO₂ (87 g/mol) with excess HCl.|71|1 mol.|M|87/87*71
+N|Find the volume in dm³ of Cl₂ at STP from 87 g of MnO₂.|22.4|1 mol.|M|87/87*22.4
+N|Find the molar mass of CaOCl₂ in g/mol. (Ca = 40, O = 16, Cl = 35.5)|127|40 + 16 + 71.|M|40+16+71
+N|Find the number of moles of NaCl in 58.5 g.|1|58.5/58.5.|E|58.5/58.5
+N|Find the mass in g of AgCl (143.5 g/mol) precipitated from 1 mol of NaCl with excess AgNO₃.|143.5|1 mol.|M|143.5
+N|Find the number of valence electrons in a halogen atom.|7|Group 17.|E|7
+N|Find the number of electrons in Br⁻ (Z = 35).|36|35 + 1.|E|35+1
+N|Find the number of neutrons in ³⁵Cl (Z = 17).|18|35 − 17.|E|35-17
+N|Find the relative atomic mass of chlorine with 75% ³⁵Cl and 25% ³⁷Cl.|35.5|0.75 × 35 + 0.25 × 37.|M|0.75*35+0.25*37
+N|Find the molar mass of XeF₄ in g/mol. (Xe = 131, F = 19)|207|131 + 76.|M|131+4*19
+N|Find the number of lone pairs on Xe in XeF₂.|3|8 − 2 = 6 electrons.|H|3
+N|Find the molar mass of NaClO in g/mol. (Na = 23, Cl = 35.5, O = 16)|74.5|23 + 35.5 + 16.|M|23+35.5+16
+N|Find the bond order of the F₂ molecule.|1|Single bond.|M|1
+S|Compare the reactivity of the halogens and give a displacement reaction.|Reactivity decreases down the group. Chlorine displaces bromine from KBr: Cl₂ + 2KBr → 2KCl + Br₂.|F₂ is the most reactive.|M
+S|Explain the trend in the acid strength of the hydrogen halides.|Acid strength increases from HF to HI, because the H–X bond becomes longer and weaker down the group.|HF is the weakest.|M
+S|Describe the manufacture of chlorine.|By the electrolysis of brine. Chlorine is liberated at the anode and hydrogen at the cathode, leaving NaOH in solution.|It is the chlor-alkali industry.|M
+S|Why are the noble gases chemically inert?|Their outer shells are completely filled, giving very stable configurations with high ionisation energies and no tendency to gain or lose electrons.|Xenon forms a few compounds.|M
+S|State three uses of the noble gases.|Helium fills balloons, neon is used in signs and argon fills electric bulbs.|They are inert.|E
+
+# 5 Transition Elements
+M|The transition elements are those with|partly filled d orbitals in the atom or ions|filled s orbitals|empty p orbitals|filled f orbitals|1|d-block elements.|E
+M|The general electronic configuration of the first transition series is|[Ar] 3dˣ 4s¹ or ²|[Ar] 4s²|[Ne] 3d|[Kr] 4d|1|Sc to Zn.|M
+M|Transition metals show|variable oxidation states|only one oxidation state|no oxidation states|only +1|1|The d and s electrons have similar energies.|M
+M|The common oxidation state of all the first-row transition elements is|+2|+1|+7|+8|1|Both 4s electrons are lost.|M
+M|The highest oxidation state of Mn is|+7|+2|+4|+3|1|In KMnO₄.|M
+M|Transition metal ions are generally|coloured|colourless|white|black only|1|d-d transitions.|M
+M|The colour of Cu²⁺(aq) is|blue|green|colourless|red|1|[Cu(H₂O)₆]²⁺.|M
+M|The colour of Fe²⁺(aq) is|pale green|yellow|blue|colourless|1|[Fe(H₂O)₆]²⁺.|M
+M|Zn²⁺ ions are colourless because|they have a complete 3d subshell|they have no electrons|they are large|they are alkali|1|3d¹⁰.|M
+M|Transition metals and their compounds act as catalysts because|they have variable oxidation states and can form intermediates|they are heavy|they are shiny|they are cheap|1|Surface adsorption too.|M
+M|Iron is the catalyst in the|Haber process|Contact process|Ostwald process|Solvay process|1|Finely divided iron.|M
+M|Vanadium(V) oxide is the catalyst in the|Contact process|Haber process|Ostwald process|Solvay process|1|Oxidation of SO₂.|M
+M|Transition metals are generally|paramagnetic due to unpaired electrons|diamagnetic|non-magnetic|radioactive|1|Unpaired d electrons.|M
+M|The number of unpaired electrons in Fe³⁺ (3d⁵) is|5|4|3|0|1|Half-filled.|M
+M|The number of unpaired electrons in Cu⁺ (3d¹⁰) is|0|1|2|10|1|Filled subshell.|M
+M|A complex compound contains|a central metal ion bonded to ligands|only ionic bonds|only metallic bonds|no bonds|1|Coordination compound.|M
+M|A ligand is|an ion or molecule that donates a lone pair to the metal|an acceptor|a metal|a proton|1|Lewis base.|M
+M|The coordination number is|the number of ligand donor atoms bonded to the central ion|the oxidation number|the charge|the number of ions|1|Typically 4 or 6.|M
+M|The coordination number of Fe in [Fe(CN)₆]⁴⁻ is|6|4|2|3|1|Six cyanide ligands.|M
+M|The oxidation state of Fe in [Fe(CN)₆]⁴⁻ is|+2|+3|+4|+6|1|x − 6 = −4.|M
+M|The oxidation state of Cu in [Cu(NH₃)₄]²⁺ is|+2|+4|0|+1|1|NH₃ is neutral.|M
+M|A bidentate ligand is|one that donates two lone pairs|one that donates one pair|one that donates three pairs|a metal|1|For example ethylenediamine.|M
+M|EDTA is a|hexadentate ligand|monodentate ligand|bidentate ligand|metal|1|It forms six bonds.|M
+M|The shape of a tetrahedral complex such as [NiCl₄]²⁻ has coordination number|4|6|2|8|1|Four ligands.|M
+M|The shape of an octahedral complex has coordination number|6|4|2|8|1|Six ligands.|M
+M|The formula of potassium hexacyanoferrate(II) is|K₄[Fe(CN)₆]|K₃[Fe(CN)₆]|K[Fe(CN)₆]|Fe(CN)₂|1|The complex ion has 4− charge.|M
+M|Brass is an alloy of|copper and zinc|copper and tin|iron and carbon|aluminium and copper|1|About 60:40.|M
+M|Bronze is an alloy of|copper and tin|copper and zinc|iron and carbon|lead and tin|1|Harder than copper.|M
+M|Steel is an alloy of iron with|carbon|copper|zinc|tin|1|Small percentage of carbon.|M
+M|Rusting of iron needs|oxygen and water|only oxygen|only water|nitrogen|1|Fe₂O₃·xH₂O.|M
+M|Potassium permanganate acts as|an oxidising agent|a reducing agent|a base|a catalyst only|1|In acidic medium, Mn⁷⁺ → Mn²⁺.|M
+M|The colour of KMnO₄ solution is|purple|green|orange|yellow|1|MnO₄⁻.|M
+M|The colour of K₂Cr₂O₇ solution is|orange|purple|green|colourless|1|Dichromate.|M
+N|Find the number of 3d electrons in an Fe atom (Z = 26).|6|[Ar] 3d⁶ 4s².|M|6
+N|Find the number of unpaired electrons in Fe²⁺ (3d⁶).|4|Five spins up, one pair.|H|4
+N|Find the number of 3d electrons in Cu²⁺.|9|Cu is 3d¹⁰ 4s¹, remove two.|H|9
+N|Find the oxidation number of Mn in MnO₄⁻.|7|x − 8 = −1.|M|8-1
+N|Find the oxidation number of Mn in MnO₂.|4|x − 4 = 0.|M|4
+N|Find the oxidation number of Cr in Cr₂O₇²⁻.|6|2x − 14 = −2.|M|(14-2)/2
+N|Find the oxidation number of Fe in [Fe(CN)₆]³⁻.|3|x − 6 = −3.|M|6-3
+N|Find the coordination number of Co in [Co(NH₃)₆]³⁺.|6|Six ammonia ligands.|M|6
+N|Find the coordination number of Ni in [Ni(en)₃]²⁺ where en is bidentate.|6|3 × 2.|H|3*2
+N|Find the number of electrons in the central ion of [Cu(NH₃)₄]²⁺.|27|29 − 2.|M|29-2
+N|Find the spin-only magnetic moment in BM for 5 unpaired electrons, √(n(n + 2)), to two decimals.|5.92|√35.|H|Math.sqrt(5*7)
+N|Find the spin-only magnetic moment in BM for 2 unpaired electrons, to two decimals.|2.83|√8.|H|Math.sqrt(2*4)
+N|Find the molar mass of KMnO₄ in g/mol. (K = 39, Mn = 55, O = 16)|158|39 + 55 + 64.|M|39+55+64
+N|Find the mass in g of KMnO₄ needed for 0.1 mol.|15.8|0.1 × 158.|M|0.1*158
+N|Find the number of d electrons in Zn²⁺.|10|3d¹⁰.|M|10
+S|List four characteristic properties of transition elements.|They show variable oxidation states, form coloured compounds, act as catalysts and form complex ions, and many are paramagnetic.|These arise from partly filled d orbitals.|M
+S|Explain why transition metal ions are coloured.|The d orbitals are split in energy in the presence of ligands, and electrons absorb visible light to move between them (d-d transitions), so the complementary colour is seen.|Zn²⁺ is colourless because d is full.|H
+S|Define ligand and coordination number.|A ligand is an ion or molecule that donates a lone pair to a central metal ion. The coordination number is the number of donor atoms attached to the metal.|Examples are NH₃ and CN⁻.|M
+S|Why do transition metals act as catalysts?|They have variable oxidation states and vacant d orbitals, so they can form intermediate compounds and adsorb reactants on their surface.|Iron in the Haber process.|M
+S|Name the alloys of iron and copper and give a use of each.|Steel (iron with carbon) for construction, and brass (copper and zinc) for instruments and utensils.|Bronze is copper and tin.|E
+
+# 6 Fundamental Principles of Organic Chemistry
+M|Organic chemistry is the chemistry of|carbon compounds|metals|rocks|gases|1|Excluding carbonates, oxides.|E
+M|Carbon forms a large number of compounds because of|catenation and tetravalency|being a metal|being radioactive|being heavy|1|It forms chains and rings.|E
+M|The valency of carbon is|4|2|3|1|1|Tetravalent.|E
+M|The hybridisation of carbon in methane is|sp³|sp²|sp|dsp²|1|Tetrahedral.|M
+M|The functional group of alcohols is|−OH|−COOH|−CHO|−NH₂|1|Hydroxyl.|E
+M|The functional group of aldehydes is|−CHO|−OH|−CO−|−COOH|1|Formyl.|E
+M|The functional group of ketones is|−CO− between two carbon atoms|−CHO|−OH|−COOH|1|Carbonyl.|E
+M|The functional group of carboxylic acids is|−COOH|−OH|−CHO|−CO−|1|Carboxyl.|E
+M|The functional group of amines is|−NH₂|−OH|−CN|−NO₂|1|Amino.|E
+M|A homologous series is a family of compounds with|the same functional group differing by CH₂|the same colour|the same melting point|the same density|1|Similar chemical properties.|M
+M|The IUPAC name of CH₃–CH₂–CH₃ is|propane|ethane|butane|methane|1|Three carbons.|E
+M|The IUPAC name of CH₃CH₂OH is|ethanol|methanol|propanol|ethanal|1|Two carbons with −OH.|E
+M|The IUPAC name of CH₃CHO is|ethanal|methanal|ethanol|propanal|1|Two carbons, aldehyde.|M
+M|The IUPAC name of CH₃COCH₃ is|propanone|propanal|propanol|ethanone|1|Acetone.|M
+M|The IUPAC name of CH₃COOH is|ethanoic acid|methanoic acid|propanoic acid|ethanol|1|Acetic acid.|M
+M|Compounds with the same molecular formula but different structures are called|isomers|isotopes|allotropes|homologues|1|Structural isomers.|M
+M|The number of structural isomers of C₄H₁₀ is|2|1|3|4|1|Butane and 2-methylpropane.|M
+M|The number of structural isomers of C₅H₁₂ is|3|2|4|5|1|Pentane, isopentane and neopentane.|M
+M|Geometrical (cis-trans) isomerism is shown by|2-butene|ethane|propane|ethene|1|Restricted rotation about C=C.|M
+M|Optical isomerism requires a|chiral carbon (four different groups)|double bond|ring|triple bond|1|Non-superimposable mirror images.|M
+M|Homolytic fission of a bond gives|free radicals|ions|cations only|anions only|1|Each atom takes one electron.|M
+M|Heterolytic fission of a bond gives|ions|free radicals|neutral atoms|molecules|1|One atom takes both electrons.|M
+M|A free radical is a species with|an unpaired electron|a positive charge|a negative charge|no electrons|1|Highly reactive.|M
+M|A nucleophile is a species that|donates an electron pair|accepts an electron pair|has no electrons|is a radical|1|For example OH⁻.|M
+M|An electrophile is a species that|accepts an electron pair|donates an electron pair|has a lone pair|is neutral always|1|For example H⁺.|M
+M|The inductive effect is|the permanent polarisation of a sigma bond due to electronegativity difference|resonance|hyperconjugation only|steric effect|1|Transmitted through sigma bonds.|M
+M|The most stable carbocation is|tertiary|primary|secondary|methyl|1|More alkyl groups stabilise it.|M
+M|The order of stability of carbocations is|3° > 2° > 1° > methyl|methyl > 1° > 2° > 3°|1° > 2° > 3°|3° < 2° < 1°|1|Due to inductive effect and hyperconjugation.|M
+M|Resonance is the|delocalisation of π electrons over several atoms|breaking of bonds|formation of ions|oxidation|1|Stabilises the molecule.|M
+M|The reaction CH₄ + Cl₂ → CH₃Cl + HCl is|substitution|addition|elimination|rearrangement|1|Free radical mechanism.|M
+M|The reaction C₂H₄ + Br₂ → C₂H₄Br₂ is|addition|substitution|elimination|rearrangement|1|The double bond breaks.|M
+N|Find the degree of unsaturation of C₆H₆ using (2C + 2 − H)/2.|4|(14 − 6)/2.|M|(2*6+2-6)/2
+N|Find the degree of unsaturation of C₄H₁₀.|0|(10 − 10)/2.|M|(2*4+2-10)/2
+N|Find the number of carbon atoms in an alkane with 22 hydrogen atoms.|10|2n + 2 = 22.|M|(22-2)/2
+N|Find the number of hydrogen atoms in an alkene with 8 carbon atoms.|16|2n.|M|2*8
+N|Find the molar mass of CH₃COOH in g/mol.|60|24 + 4 + 32.|E|24+4+32
+N|Find the molar mass of C₂H₅OH in g/mol.|46|24 + 6 + 16.|E|24+6+16
+N|Find the percentage of carbon in methane.|75|12/16.|M|12/16*100
+N|Find the number of sigma bonds in ethene.|5|4 C–H + 1 C–C.|M|5
+N|Find the number of pi bonds in ethyne.|2|A triple bond has two.|M|2
+N|Find the number of σ bonds in propane.|10|8 C–H + 2 C–C.|M|8+2
+N|Find the number of structural isomers of C₃H₈O (alcohols and ether).|3|Propan-1-ol, propan-2-ol and methoxyethane.|H|3
+N|Find the number of chiral centres in CH₃CHClCH₂CH₃.|1|The carbon bearing Cl.|M|1
+N|Find the number of possible stereoisomers for a compound with 2 chiral centres.|4|2ⁿ.|H|2^2
+N|Find the number of hydrogen atoms per carbon atom in the empirical formula of ethane (C₂H₆).|3|C₂H₆ gives CH₃.|M|3
+N|Find the number of electrons in a methyl carbocation CH₃⁺ (6 + 3 − 1).|8|Carbon 6 + 3 H − 1.|H|6+3-1
+S|Define homologous series and give an example.|A series of compounds with the same functional group and general formula, differing from each other by CH₂, for example the alkanes CH₄, C₂H₆ and C₃H₈.|Chemical properties are similar.|M
+S|Distinguish between homolytic and heterolytic fission.|In homolytic fission each atom takes one electron of the bonding pair to give free radicals. In heterolytic fission one atom takes both electrons to give ions.|Free radicals are neutral.|M
+S|Define nucleophile and electrophile with examples.|A nucleophile donates an electron pair, for example OH⁻. An electrophile accepts an electron pair, for example H⁺ or NO₂⁺.|They attack at electron-rich and electron-poor sites.|M
+S|Explain the inductive effect.|The permanent displacement of electrons along a chain of sigma bonds caused by the difference in electronegativity between atoms.|Alkyl groups are electron-releasing.|M
+S|State the types of isomerism in organic compounds.|Structural isomerism (chain, position and functional group) and stereoisomerism (geometrical and optical).|They have the same molecular formula.|M

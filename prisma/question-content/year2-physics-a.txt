@@ -1,0 +1,158 @@
+@level 2nd Year
+@subject Physics
+
+# 1 Electrostatics
+M|Coulomb's law gives the force between two point charges q₁ and q₂ at distance r as|F = k q₁q₂/r²|F = k q₁q₂ r²|F = k q₁/q₂ r|F = k (q₁ + q₂)/r|1|k = 1/(4πε₀).|E
+M|The value of the constant k = 1/(4πε₀) is about|9 × 10⁹ N m² C⁻²|9 × 10⁻⁹ N m² C⁻²|6.67 × 10⁻¹¹ N m² C⁻²|1 N m² C⁻²|1|It appears in Coulomb's law.|M
+M|The value of the permittivity of free space ε₀ is|8.85 × 10⁻¹² C² N⁻¹ m⁻²|8.85 × 10¹² C² N⁻¹ m⁻²|9 × 10⁹ C² N⁻¹ m⁻²|1.6 × 10⁻¹⁹ C|1|It relates charge and force.|M
+M|The SI unit of charge is the|coulomb|ampere|volt|farad|1|One ampere second.|E
+M|The charge on an electron is|−1.6 × 10⁻¹⁹ C|+1.6 × 10⁻¹⁹ C|−1 C|+1 C|1|The elementary charge.|E
+M|The electric field intensity at a point is the|force per unit positive test charge|charge per unit force|energy per unit charge|potential per unit charge|1|E = F/q.|M
+M|The SI unit of electric field intensity is|N C⁻¹|C N⁻¹|J C⁻¹|V s|1|Equivalent to V m⁻¹.|M
+M|The electric field due to a point charge Q at distance r is|kQ/r²|kQ/r|kQr|kQ²/r|1|It falls as 1/r².|M
+M|Electric lines of force|start on positive charges and end on negative charges|cross each other|are always closed loops|have no direction|1|They never intersect.|M
+M|The electric flux through a surface is|the product of E and the area normal to it|E/A|E + A|A/E|1|Φ = E A cos θ.|M
+M|Gauss's law states that the total electric flux through a closed surface equals|Q/ε₀|Q ε₀|ε₀/Q|Q/4π|1|Q is the enclosed charge.|M
+M|The electric field inside a charged conducting sphere is|zero|maximum|infinite|equal to the surface value|1|Charge stays on the surface.|M
+M|The electric field of an infinite sheet of charge with surface density σ is|σ/2ε₀|σ/ε₀|2σ/ε₀|σ/4πε₀|1|It is uniform.|H
+M|The electric potential at a point is|the work done per unit charge in bringing a positive test charge from infinity|force per unit charge|charge per unit work|energy|1|V = W/q.|M
+M|The SI unit of potential is the|volt|joule|coulomb|farad|1|One joule per coulomb.|E
+M|The potential due to a point charge Q at distance r is|kQ/r|kQ/r²|kQr|kQ²/r|1|It falls as 1/r.|M
+M|The electric field is related to the potential gradient by|E = −dV/dr|E = V r|E = V/r²|E = dV|1|Field points down the potential.|H
+M|The work done in moving a charge q through a potential difference V is|q V|V/q|q/V|q + V|1|W = qV.|M
+M|One electron volt equals|1.6 × 10⁻¹⁹ J|1.6 × 10¹⁹ J|9.1 × 10⁻³¹ J|1 J|1|The energy gained across 1 V.|M
+M|The capacitance of a capacitor is defined as|C = Q/V|C = Q V|C = V/Q|C = Q + V|1|Charge per unit potential difference.|E
+M|The SI unit of capacitance is the|farad|coulomb|henry|ohm|1|One coulomb per volt.|E
+M|The capacitance of a parallel plate capacitor is|ε₀ A/d|ε₀ d/A|A/ε₀ d|d/ε₀ A|1|A is plate area and d separation.|M
+M|The energy stored in a charged capacitor is|½ C V²|C V²|½ C V|C V|1|W = ½CV².|M
+M|When capacitors are connected in parallel, the equivalent capacitance is|C₁ + C₂|1/C₁ + 1/C₂|C₁ C₂|C₁ − C₂|1|Capacitances add.|M
+M|When capacitors are connected in series, the reciprocal of the equivalent capacitance is|1/C₁ + 1/C₂|C₁ + C₂|C₁ C₂|C₁ − C₂|1|Reciprocals add.|M
+M|Introducing a dielectric between the plates of a capacitor|increases its capacitance|decreases its capacitance|has no effect|makes the charge zero|1|C = K C₀.|M
+M|The dielectric constant K of a material is|C/C₀|C₀/C|C − C₀|C C₀|1|The ratio with and without the dielectric.|M
+M|The potential energy of two like charges as they approach|increases|decreases|remains constant|becomes zero|1|Work is done against repulsion.|M
+M|An equipotential surface is one on which|the potential is the same at every point|the field is zero|the charge is zero|the field is constant|1|No work is done in moving along it.|M
+M|Electric field lines are perpendicular to|equipotential surfaces|the charge|the plates only|the force|1|Always.|M
+M|A charge placed in a uniform electric field E experiences a force|q E|q/E|E/q|q E²|1|F = qE.|E
+M|The torque on an electric dipole of moment p in a field E is|p E sin θ|p E cos θ|p/E|p E|1|τ = p × E.|H
+N|Find the force in N between charges 2 μC and 3 μC placed 0.3 m apart. Take k = 9 × 10⁹.|0.6|9 × 10⁹ × 6 × 10⁻¹²/0.09.|M|9e9*2e-6*3e-6/(0.3*0.3)
+N|Find the electric field in N/C at 0.5 m from a charge of 5 μC. Take k = 9 × 10⁹.|180000|9 × 10⁹ × 5 × 10⁻⁶/0.25.|M|9e9*5e-6/(0.5*0.5)
+N|Find the potential in V at 0.5 m from a charge of 5 μC. Take k = 9 × 10⁹.|90000|kQ/r.|M|9e9*5e-6/0.5
+N|Find the work done in J in moving a charge of 2 C through a potential difference of 12 V.|24|qV.|E|2*12
+N|Find the capacitance in μF of a capacitor that stores 6 μC at 3 V.|2|Q/V.|E|6/3
+N|Two capacitors of 4 μF and 6 μF are connected in parallel. Find the total in μF.|10|C₁ + C₂.|E|4+6
+N|Two capacitors of 6 μF and 3 μF are connected in series. Find the total in μF.|2|6 × 3/9.|M|6*3/(6+3)
+N|Find the energy in J stored in a 10 μF capacitor charged to 100 V.|0.05|½ × 10 × 10⁻⁶ × 10⁴.|M|0.5*10e-6*10000
+N|A parallel plate capacitor has area 0.01 m² and separation 1 mm. Find its capacitance in pF to one decimal place. Take ε₀ = 8.85 × 10⁻¹².|88.5|ε₀A/d.|M|8.85e-12*0.01/0.001/1e-12
+N|A dielectric of constant 4 is inserted into a capacitor of 5 μF. Find the new capacitance in μF.|20|K C₀.|M|4*5
+N|Find the energy in eV gained by an electron accelerated through 100 V.|100|e V in eV.|M|100
+N|Find the energy in J gained by an electron accelerated through 100 V, in units of 10⁻¹⁷ J.|1.6|1.6 × 10⁻¹⁹ × 100.|M|1.6e-19*100/1e-17
+N|The electric field between two plates 2 cm apart with a 200 V difference is how many V/m?|10000|V/d.|M|200/0.02
+N|A charge of 1 μC is placed in a field of 5000 N/C. Find the force in mN.|5|qE = 5 × 10⁻³ N.|M|1e-6*5000*1000
+N|A 100 pF capacitor is charged to 50 V. Find the charge in nC.|5|CV = 5 × 10⁻⁹ C.|M|100e-12*50*1e9
+S|State Coulomb's law.|The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them, F = kq₁q₂/r².|It acts along the line joining them.|M
+S|State Gauss's law.|The total electric flux through any closed surface equals the net charge enclosed divided by ε₀, Φ = Q/ε₀.|It is useful for symmetrical charge distributions.|M
+S|Define electric potential and potential difference.|The potential at a point is the work done per unit charge in bringing a positive test charge from infinity to the point. The potential difference between two points is the work per unit charge to move a charge between them.|The unit is the volt.|M
+S|Define capacitance and give the formula for a parallel plate capacitor.|The ratio of the charge on a capacitor to the potential difference across it, C = Q/V. For parallel plates C = ε₀A/d.|The unit is the farad.|M
+S|Explain the effect of a dielectric on a capacitor.|The dielectric reduces the electric field between the plates, so for the same charge the potential difference falls and the capacitance increases by the factor K.|C = KC₀.|M
+
+# 2 Current Electricity
+M|Electric current is|the rate of flow of charge|the charge|the potential difference|the resistance|1|I = Q/t.|E
+M|The SI unit of current is the|ampere|coulomb|volt|ohm|1|One coulomb per second.|E
+M|Conventional current is taken in the direction of flow of|positive charge|electrons|neutrons|protons only|1|The opposite of electron flow.|E
+M|Ohm's law states that the current through a conductor is proportional to the potential difference provided|the temperature stays constant|the length changes|the area changes|the material changes|1|V = IR.|M
+M|The SI unit of resistance is the|ohm|volt|ampere|watt|1|One volt per ampere.|E
+M|The resistance of a wire of length L, area A and resistivity ρ is|ρ L/A|ρ A/L|L A/ρ|ρ/LA|1|R = ρL/A.|M
+M|The SI unit of resistivity is|ohm metre|ohm|ohm/metre|siemens|1|ρ = RA/L.|M
+M|The conductivity of a material is|the reciprocal of resistivity|equal to resistivity|resistivity squared|zero|1|σ = 1/ρ.|M
+M|The resistance of a metal conductor with a rise in temperature|increases|decreases|stays the same|becomes zero|1|More lattice vibrations.|M
+M|The resistance of a semiconductor with a rise in temperature|decreases|increases|stays the same|becomes infinite|1|More charge carriers.|M
+M|The temperature coefficient of resistance α is defined by|R_t = R₀(1 + α t)|R_t = R₀ α t|R_t = α/R₀|R_t = R₀/α t|1|The fractional change per degree.|M
+M|The equivalent resistance of resistors in series is|R₁ + R₂|1/R₁ + 1/R₂|R₁ R₂|R₁ − R₂|1|Resistances add.|E
+M|The reciprocal of the equivalent resistance of resistors in parallel is|1/R₁ + 1/R₂|R₁ + R₂|R₁ R₂|R₁ − R₂|1|Reciprocals add.|E
+M|The electromotive force (e.m.f.) of a cell is|the energy supplied per unit charge by the cell|the force on a charge|the current|the resistance|1|ε = W/q.|M
+M|The terminal potential difference of a cell of e.m.f. ε and internal resistance r delivering current I is|ε − I r|ε + I r|ε/I r|I r|1|Lost volts I r.|M
+M|Kirchhoff's first law (junction rule) states that|the sum of currents at a junction is zero|the sum of voltages in a loop is zero|V = IR|power is conserved|1|Conservation of charge.|M
+M|Kirchhoff's second law (loop rule) states that|the algebraic sum of potential differences around a closed loop is zero|the sum of currents is zero|V = IR|charge is lost|1|Conservation of energy.|M
+M|A Wheatstone bridge is balanced when|P/Q = R/S|P = Q|P + Q = R + S|P R = Q|1|No current flows in the galvanometer.|M
+M|The potentiometer is used to|measure potential differences without drawing current|measure resistance only|amplify current|store charge|1|It is a null method.|M
+M|The power dissipated in a resistor is|I²R|I/R|R/I²|I R|1|Also V²/R = V I.|M
+M|The SI unit of power is the|watt|joule|volt|ohm|1|One joule per second.|E
+M|The heat produced in a resistor in time t is|I² R t|I R t²|V I R|I/R t|1|Joule's law.|M
+M|The unit of electrical energy used in homes is the|kilowatt hour|joule only|watt|volt|1|1 kWh = 3.6 × 10⁶ J.|E
+M|The drift velocity of electrons in a wire is|very small compared with the thermal velocity|equal to the speed of light|infinite|zero|1|Typically mm/s.|M
+M|The current in a conductor is related to the drift velocity by|I = n e A v|I = n e v/A|I = e A/n v|I = n A/e v|1|n is the electron density.|H
+M|A voltmeter has|a very high resistance|a very low resistance|zero resistance|an infinite current|1|It is connected in parallel.|M
+M|An ammeter has|a very low resistance|a very high resistance|infinite resistance|zero current|1|It is connected in series.|M
+M|An ideal battery has|zero internal resistance|infinite internal resistance|zero e.m.f.|no current|1|The terminal voltage equals the e.m.f.|M
+M|The colour code of a resistor with bands brown, black, red is|1000 Ω|10 Ω|100 Ω|10 000 Ω|1|1, 0, × 10².|M
+M|The maximum power is transferred to a load when its resistance|equals the internal resistance of the source|is zero|is infinite|is twice the internal resistance|1|The maximum power theorem.|H
+N|A current of 3 A flows for 20 s. Find the charge in C.|60|It.|E|3*20
+N|A resistor of 5 Ω carries 2 A. Find the potential difference in V.|10|IR.|E|2*5
+N|A wire has ρ = 1.7 × 10⁻⁸ Ω m, L = 10 m and A = 1 mm². Find its resistance in Ω to two decimal places.|0.17|ρL/A.|M|1.7e-8*10/1e-6
+N|Three resistors of 2 Ω, 3 Ω and 6 Ω are in parallel. Find the equivalent resistance in Ω.|1|1/R = 1/2 + 1/3 + 1/6 = 1.|M|1/(1/2+1/3+1/6)
+N|A cell of e.m.f. 12 V and internal resistance 1 Ω is connected to a 5 Ω resistor. Find the current in A.|2|12/(5 + 1).|M|12/(5+1)
+N|A cell of e.m.f. 12 V and internal resistance 1 Ω is connected to a 5 Ω resistor. Find the terminal voltage in V.|10|ε − Ir.|M|12-2*1
+N|A 100 W bulb runs for 10 hours. Find the energy in kWh.|1|0.1 × 10.|E|0.1*10
+N|Electricity costs Rs 30 per unit. Find the cost in Rs of 5 kWh.|150|5 × 30.|E|5*30
+N|A resistor has R₀ = 100 Ω at 0 °C and α = 0.004 K⁻¹. Find R at 50 °C in Ω.|120|100(1 + 0.004 × 50).|M|100*(1+0.004*50)
+N|A Wheatstone bridge has P = 10 Ω, Q = 20 Ω and R = 30 Ω. At balance find S in Ω.|60|S = QR/P.|M|20*30/10
+N|A 220 V heater draws 5 A. Find its power in W.|1100|VI.|E|220*5
+N|Find the heat in J produced in a 10 Ω resistor carrying 2 A for 5 s.|200|I²Rt.|M|2*2*10*5
+N|Find the e.m.f. in V of a cell that gives 0.5 A through 9 Ω and has internal resistance 1 Ω.|5|I(R + r).|M|0.5*(9+1)
+N|Find the conductance in S of a 4 Ω resistor.|0.25|1/R.|E|1/4
+N|Find the drift velocity in mm/s in a copper wire of area 1 mm² carrying 1 A. n = 8.5 × 10²⁸ m⁻³, e = 1.6 × 10⁻¹⁹ C. Give to three decimals.|0.074|I/(neA).|H|1/(8.5e28*1.6e-19*1e-6)*1000
+S|State Ohm's law.|The current through a conductor is directly proportional to the potential difference across it, provided the temperature and other physical conditions stay constant, V = IR.|The constant is the resistance.|E
+S|State Kirchhoff's laws.|The first law: the algebraic sum of the currents at a junction is zero. The second law: the algebraic sum of the e.m.f.s and potential drops around a closed loop is zero.|They express conservation of charge and energy.|M
+S|Distinguish between e.m.f. and terminal potential difference.|The e.m.f. is the energy supplied per unit charge by the cell, while the terminal potential difference is ε − Ir, the voltage across the terminals when current flows.|They are equal on open circuit.|M
+S|Explain the Wheatstone bridge.|Four resistances P, Q, R and S form a bridge with a galvanometer. When the galvanometer shows no deflection, P/Q = R/S, which is used to find an unknown resistance.|It is a null method.|M
+S|Define resistivity and give its unit.|The resistance of a wire of unit length and unit cross-sectional area, ρ = RA/L, measured in ohm metre.|It depends on the material and temperature.|M
+
+# 3 Electromagnetism
+M|A magnetic field is produced by|moving charges|stationary charges|neutral atoms only|insulators|1|A current produces a magnetic field.|E
+M|The SI unit of magnetic field strength (flux density) is the|tesla|weber|henry|gauss|1|One newton per ampere metre.|E
+M|The SI unit of magnetic flux is the|weber|tesla|henry|farad|1|One tesla square metre.|E
+M|The force on a charge q moving with velocity v in a magnetic field B is|q v B sin θ|q v/B|q B/v|q v + B|1|The Lorentz force.|M
+M|The magnetic force on a moving charge does|no work|positive work|negative work|infinite work|1|It is perpendicular to the velocity.|M
+M|The force on a straight conductor of length L carrying current I in a field B is|I L B sin θ|I B/L|L B/I|I L/B|1|F = I L × B.|M
+M|The direction of the force on a current-carrying conductor is given by|Fleming's left-hand rule|Fleming's right-hand rule|Lenz's law|Ohm's law|1|Thumb: force, first finger: field, second finger: current.|M
+M|A charged particle moves in a circle in a uniform magnetic field with radius|r = m v/(q B)|r = q B/m v|r = m v B/q|r = q v/m B|1|From qvB = mv²/r.|M
+M|The period of a charged particle moving in a circle in a magnetic field is|2π m/(q B)|2π q B/m|q B/2π m|m/q B|1|Independent of speed.|H
+M|A velocity selector has crossed electric and magnetic fields and selects particles of speed|E/B|B/E|E B|E + B|1|The forces balance.|H
+M|The magnetic field at the centre of a circular coil of N turns and radius r carrying current I is|μ₀ N I/2r|μ₀ N I/r|μ₀ I/2πr|μ₀ N r/2I|1|At the centre.|M
+M|The magnetic field at a distance r from a long straight wire carrying current I is|μ₀ I/2π r|μ₀ I/r|μ₀ I r|μ₀ I/2r|1|It falls as 1/r.|M
+M|The magnetic field inside a long solenoid is|μ₀ n I|μ₀ I/n|μ₀ n/I|n I/μ₀|1|n is the number of turns per unit length.|M
+M|The value of μ₀ is|4π × 10⁻⁷ T m A⁻¹|4π × 10⁷ T m A⁻¹|8.85 × 10⁻¹² T m A⁻¹|9 × 10⁹ T m A⁻¹|1|The permeability of free space.|M
+M|Ampere's law states that the line integral of B around a closed path equals|μ₀ times the enclosed current|zero always|B|μ₀ B|1|∮B·dl = μ₀I.|H
+M|Two parallel wires carrying currents in the same direction|attract each other|repel each other|do not interact|spin|1|Parallel currents attract.|M
+M|The force per unit length between two long parallel wires with currents I₁, I₂ at distance d is|μ₀ I₁I₂/2π d|μ₀ I₁I₂/d|μ₀ I₁I₂ d|I₁I₂/2π d|1|Defines the ampere.|H
+M|The torque on a current loop of area A and N turns in a field B is|N I A B sin θ|N I A/B|N I B/A|I A B|1|τ = NIAB sin θ.|M
+M|A moving coil galvanometer works on the principle that|a current-carrying coil in a magnetic field experiences a torque|a coil produces e.m.f.|resistance changes|charge is stored|1|The deflection is proportional to the current.|M
+M|A galvanometer is converted into an ammeter by connecting|a small resistance (shunt) in parallel|a large resistance in series|a capacitor|an inductor|1|Most current bypasses the coil.|M
+M|A galvanometer is converted into a voltmeter by connecting|a large resistance in series|a small resistance in parallel|a capacitor|a diode|1|It limits the current.|M
+M|A charged particle moving parallel to a magnetic field experiences|no magnetic force|maximum force|a force along the velocity|a force in a circle|1|sin 0° = 0.|M
+M|A charged particle moving at right angles to a uniform magnetic field moves in|a circle|a straight line|a parabola|a spiral only|1|The force is perpendicular to the velocity.|M
+M|A charged particle moving at an angle to a uniform magnetic field moves in|a helix|a circle only|a straight line|a parabola|1|The parallel component stays constant.|H
+M|The Hall effect is used to|measure the magnetic field and the type of charge carrier|produce e.m.f.|make magnets|measure resistance|1|It produces a transverse voltage.|H
+M|The cyclotron is used to|accelerate charged particles|measure charge|produce light|store energy|1|It uses electric and magnetic fields.|M
+M|The mass spectrometer is used to|measure the masses of ions|measure currents|produce light|store energy|1|It bends ions in a field.|M
+M|Magnetic field lines|form closed loops|start on north poles and end on nothing|cross each other|have no direction|1|They have no beginning or end.|M
+M|Soft iron is used as the core of an electromagnet because it|is easily magnetised and demagnetised|retains magnetism|is a conductor of heat|is cheap only|1|Low retentivity.|M
+N|Find the force in N on a 0.5 m wire carrying 4 A at right angles to a 0.2 T field.|0.4|ILB.|M|4*0.5*0.2
+N|Find the force in N on a 2 μC charge moving at 10⁶ m/s perpendicular to a 0.5 T field.|1|qvB = 2 × 10⁻⁶ × 10⁶ × 0.5.|M|2e-6*1e6*0.5
+N|Find the radius in mm of the path of an electron (m = 9.1 × 10⁻³¹ kg, q = 1.6 × 10⁻¹⁹ C) at 10⁷ m/s in a 0.01 T field, to two decimal places.|5.69|mv/qB.|H|9.1e-31*1e7/(1.6e-19*0.01)*1000
+N|Find the magnetic field in μT at 0.1 m from a long wire carrying 5 A. μ₀ = 4π × 10⁻⁷.|10|μ₀I/2πr.|M|2e-7*5/0.1*1e6
+N|Find the magnetic field in mT inside a solenoid of 1000 turns per metre carrying 2 A, to two decimal places.|2.51|μ₀nI.|M|4*3.14159265e-7*1000*2*1000
+N|Find the magnetic field in μT at the centre of a coil of 10 turns, radius 0.1 m, carrying 1 A, to one decimal place.|62.8|μ₀NI/2r.|M|4*3.14159265e-7*10*1/(2*0.1)*1e6
+N|A coil of 100 turns and area 0.01 m² carries 2 A in a field of 0.5 T at 90°. Find the torque in N m.|1|NIAB.|M|100*2*0.01*0.5
+N|A galvanometer has resistance 50 Ω and full-scale current 1 mA. Find the series resistance in Ω needed to make a 10 V voltmeter.|9950|V/I − G.|H|10/0.001-50
+N|A galvanometer has resistance 50 Ω and full-scale current 1 mA. Find the shunt in Ω to make a 0.1 A ammeter, to two decimal places.|0.51|IgG/(I − Ig).|H|0.001*50/(0.1-0.001)
+N|Find the speed in km/s selected by E = 1000 V/m and B = 0.01 T.|100|E/B = 10⁵ m/s.|M|1000/0.01/1000
+N|Find the force in μN per metre between two wires 1 m apart carrying 1 A each in the same direction. μ₀ = 4π × 10⁻⁷.|0.2|μ₀I₁I₂/2πd = 2 × 10⁻⁷ N.|H|2e-7*1e6
+N|An electron moves at 2 × 10⁶ m/s in a field of 0.1 T perpendicular to it. Find the force in units of 10⁻¹⁴ N.|3.2|1.6 × 10⁻¹⁹ × 2 × 10⁶ × 0.1.|M|1.6e-19*2e6*0.1/1e-14
+N|Find the number of turns per metre of a solenoid of length 0.5 m with 250 turns.|500|N/L.|E|250/0.5
+N|A proton (q = 1.6 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg) is in a 1 T field. Find its cyclotron frequency in MHz, to one decimal place.|15.2|qB/2πm.|H|1.6e-19*1/(2*3.14159265*1.67e-27)/1e6
+S|State the formula for the force on a moving charge in a magnetic field and the right-hand rule.|F = qvB sin θ, perpendicular to both v and B. The direction is given by the left-hand rule for positive charge.|It does no work.|M
+S|State Ampere's law.|The line integral of the magnetic field around any closed path equals μ₀ times the net current passing through the surface bounded by the path.|∮B·dl = μ₀I.|M
+S|Describe the principle of a moving coil galvanometer.|A rectangular coil carrying current in a magnetic field experiences a torque, which is balanced by a spring, so the deflection is proportional to the current.|It can be converted to an ammeter or a voltmeter.|M
+S|How is a galvanometer converted into an ammeter and a voltmeter?|By connecting a low shunt resistance in parallel to make an ammeter and a high resistance in series to make a voltmeter.|The shunt takes most of the current.|M
+S|Explain the motion of a charged particle in a uniform magnetic field.|The magnetic force qvB is perpendicular to the velocity, so it provides the centripetal force and the particle moves in a circle of radius mv/qB.|It moves in a helix if the velocity has a parallel component.|M

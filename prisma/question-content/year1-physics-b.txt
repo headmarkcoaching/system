@@ -1,0 +1,153 @@
+@level 1st Year
+@subject Physics
+
+# 4 Work and Energy
+M|Work done by a constant force F through a displacement d at an angle θ to the force is|F d cos θ|F d sin θ|F d|F/d|1|W = F · d.|E
+M|The SI unit of work is the|joule|watt|newton|pascal|1|One newton metre.|E
+M|The work done by a force perpendicular to the displacement is|zero|maximum|equal to F d|negative|1|cos 90° = 0.|M
+M|The work done by the centripetal force on a body in uniform circular motion is|zero|positive|negative|infinite|1|The force is perpendicular to the displacement.|M
+M|The work done by a variable force is the|area under the force-displacement graph|slope of the graph|product of the end values|average force only|1|W = ∫F dx.|M
+M|The kinetic energy of a body of mass m and speed v is|½ m v²|m v²|m v|m g h|1|Energy of motion.|E
+M|The work-energy theorem states that the net work done on a body equals|its change in kinetic energy|its change in potential energy|its total energy|its momentum|1|W = ΔKE.|M
+M|The gravitational potential energy of a mass m at height h is|m g h|½ m g h|m g/h|m h/g|1|Near the Earth's surface.|E
+M|The elastic potential energy stored in a spring of constant k stretched by x is|½ k x²|k x|k x²|½ k x|1|The area under F = kx.|M
+M|A force is conservative if the work done by it|is independent of the path|depends on the path|is always zero|is always positive|1|Gravity and spring forces are conservative.|M
+M|The work done by a conservative force around a closed path is|zero|positive|negative|infinite|1|It returns to the start.|M
+M|Friction is a|non-conservative force|conservative force|central force|nuclear force|1|The work depends on the path.|M
+M|The law of conservation of energy states that|energy cannot be created or destroyed|energy is lost in friction|kinetic energy is always conserved|potential energy is constant|1|It changes from one form to another.|E
+M|In the absence of non-conservative forces, the total mechanical energy of a system|remains constant|increases|decreases|becomes zero|1|KE + PE is constant.|M
+M|Power is the|rate of doing work|work done|force per area|energy|1|P = W/t.|E
+M|The SI unit of power is the|watt|joule|newton|pascal|1|One joule per second.|E
+M|The power delivered by a force F to a body moving at constant speed v in the force's direction is|F v|F/v|F + v|F v²|1|P = F · v.|M
+M|One kilowatt-hour equals|3.6 × 10⁶ J|3600 J|10³ J|10⁶ J|1|1000 W × 3600 s.|M
+M|One horsepower is equal to about|746 W|100 W|1000 W|7460 W|1|A common unit of power.|M
+M|The efficiency of a machine is|useful output/input|input/output|output × input|output − input|1|It is less than 1.|M
+M|Kinetic energy is proportional to|the square of the speed|the speed|the cube of the speed|the reciprocal of speed|1|KE = ½mv².|E
+M|If the speed of a body doubles, its kinetic energy|becomes four times|doubles|halves|becomes eight times|1|KE depends on v².|E
+M|The escape velocity from the Earth's surface is|√(2 g R)|√(g R)|2 g R|g R|1|It makes total energy zero.|H
+M|The value of the escape velocity from the Earth is about|11.2 km/s|7.9 km/s|9.8 km/s|3 km/s|1|About 11.2 km/s.|M
+M|A body released from a height h reaches the ground with a speed of|√(2 g h)|√(g h)|2 g h|g h|1|From conservation of energy.|M
+M|Energy stored in water behind a dam is|potential energy|kinetic energy|thermal energy|nuclear energy|1|It is converted to electricity.|E
+M|The work done in stretching a spring from x = 0 to x is|½ k x²|k x²|k x|2 k x|1|The area of the triangle under F = kx.|M
+M|A non-renewable source of energy is|coal|sunlight|wind|biomass|1|Fossil fuels are finite.|E
+M|A renewable source of energy is|solar energy|oil|natural gas|coal|1|It is continuously replaced.|E
+M|The work done against gravity in raising a mass m by height h is|m g h|m h|g h|½ m g h|1|It equals the gain in potential energy.|E
+M|Energy is a|scalar quantity|vector quantity|force|momentum|1|It has no direction.|E
+N|Find the work done in J by a force of 10 N moving a body 5 m in the direction of the force.|50|10 × 5.|E|10*5
+N|Find the work done in J by a 20 N force acting at 60° to the displacement of 4 m.|40|20 × 4 × 0.5.|M|20*4*Math.cos(60*3.14159265/180)
+N|Find the kinetic energy in J of a 2 kg body moving at 3 m/s.|9|½ × 2 × 9.|E|0.5*2*9
+N|Find the potential energy in J of a 5 kg mass at 10 m. Take g = 9.8 m/s².|490|5 × 9.8 × 10.|E|5*9.8*10
+N|A spring of constant 200 N/m is stretched by 0.1 m. Find the stored energy in J.|1|½ × 200 × 0.01.|M|0.5*200*0.01
+N|A 1000 kg car accelerates from rest to 20 m/s. Find the work done on it in kJ.|200|½ × 1000 × 400 = 200 000 J.|M|0.5*1000*400/1000
+N|A body falls from rest from 20 m. Taking g = 9.8, find its speed in m/s on reaching the ground to one decimal place.|19.8|√(2 × 9.8 × 20).|M|Math.sqrt(2*9.8*20)
+N|A motor lifts a 100 kg load by 10 m in 20 s. Take g = 9.8. Find the power in W.|490|100 × 9.8 × 10/20.|M|100*9.8*10/20
+N|A 60 W bulb is used for 5 hours. Find the energy in kWh.|0.3|0.06 × 5.|E|0.06*5
+N|A machine takes in 500 J and does 400 J of useful work. Find its efficiency in percent.|80|400/500 × 100.|E|400/500*100
+N|A force of 50 N moves a body at a constant 4 m/s. Find the power in W.|200|P = F v.|E|50*4
+N|The escape velocity from a planet with g = 9.8 m/s² and R = 6.4 × 10⁶ m is √(2gR). Find it in km/s to one decimal place.|11.2|√(2 × 9.8 × 6.4 × 10⁶) = 11 200 m/s.|H|Math.sqrt(2*9.8*6.4e6)/1000
+N|A ball of 0.5 kg is thrown upward at 10 m/s. Find its kinetic energy in J at the start.|25|½ × 0.5 × 100.|M|0.5*0.5*100
+N|How many joules are in 2 kWh?|7200000|2 × 3.6 × 10⁶.|M|2*3.6e6
+S|State the work-energy theorem.|The net work done on a body is equal to the change in its kinetic energy, W = ΔKE.|It follows from Newton's second law.|M
+S|Distinguish between conservative and non-conservative forces.|The work done by a conservative force depends only on the end points, so it is zero over a closed path, while the work done by a non-conservative force such as friction depends on the path.|Gravity is conservative.|M
+S|State the law of conservation of energy.|Energy can neither be created nor destroyed but only transformed from one form to another, so the total energy of an isolated system is constant.|Mechanical energy is conserved without friction.|E
+S|Define power and give its unit.|The rate of doing work, P = W/t = F v. Its SI unit is the watt.|1 W = 1 J/s.|E
+S|Define escape velocity.|The minimum speed that a body must have at the surface of a planet to escape its gravitational field without further propulsion.|v = √(2gR).|M
+
+# 5 Circular Motion
+M|The angular displacement of a body is measured in|radians|metres|degrees only|seconds|1|θ = s/r.|E
+M|The relation between the arc length s, radius r and angle θ is|s = r θ|s = r/θ|s = r θ²|s = θ/r|1|With θ in radians.|E
+M|The angular velocity ω is the|rate of change of angular displacement|rate of change of velocity|speed|force|1|ω = dθ/dt.|E
+M|The relation between linear speed v and angular speed ω is|v = r ω|v = ω/r|v = r/ω|v = r ω²|1|v = rω.|E
+M|The SI unit of angular velocity is|rad s⁻¹|m s⁻¹|N|Hz only|1|Radians per second.|E
+M|The angular velocity in terms of frequency f is|2π f|f/2π|π f|f²|1|ω = 2πf.|M
+M|The angular velocity in terms of period T is|2π/T|T/2π|π T|2π T|1|ω = 2π/T.|M
+M|The centripetal acceleration of a body in uniform circular motion is|v²/r|v r|r/v²|r ω|1|a = v²/r = rω².|M
+M|The centripetal force on a mass m moving in a circle of radius r with speed v is|m v²/r|m v r|m r/v|m v²|1|F = mv²/r.|M
+M|The centripetal force is directed|towards the centre|away from the centre|along the tangent|along the velocity|1|It keeps the body in a circle.|E
+M|The centripetal force does|no work|positive work|negative work|infinite work|1|It is perpendicular to the velocity.|M
+M|A car turns on a flat curve. The centripetal force is provided by|friction|the engine only|gravity|air|1|Friction between tyres and road.|M
+M|The maximum speed of a car on a flat curve of radius r with coefficient of friction μ is|√(μ g r)|μ g r|√(g r/μ)|μ g/r|1|From μmg = mv²/r.|H
+M|The angle of banking θ for a curve with no friction is given by|tan θ = v²/(r g)|sin θ = v²/(r g)|tan θ = r g/v²|cos θ = v²/r g|1|From N sin θ and N cos θ.|H
+M|The moment of inertia of a body about an axis depends on|its mass and the distribution of mass about the axis|its speed|its colour|its charge|1|I = Σ m r².|M
+M|The SI unit of the moment of inertia is|kg m²|kg m|kg/m²|N m|1|I = m r².|M
+M|The torque on a body is related to its angular acceleration by|τ = I α|τ = I ω|τ = α/I|τ = I/α|1|The rotational form of Newton's second law.|M
+M|The angular momentum of a rotating body is|I ω|I α|τ ω|m v|1|L = Iω.|M
+M|The law of conservation of angular momentum says that if no external torque acts,|L stays constant|torque is maximum|ω is zero|I is zero|1|A skater spins faster when she pulls in her arms.|M
+M|The rotational kinetic energy of a body is|½ I ω²|I ω²|½ I ω|I ω|1|By analogy with ½mv².|M
+M|Newton's law of gravitation gives the force between masses m₁ and m₂ at distance r as|G m₁ m₂/r²|G m₁ m₂ r²|G m₁/m₂ r|G (m₁ + m₂)/r|1|F = G m₁m₂/r².|M
+M|The value of G is about|6.67 × 10⁻¹¹ N m² kg⁻²|9.8 N m² kg⁻²|6.67 × 10¹¹ N m² kg⁻²|1 N m² kg⁻²|1|The universal gravitational constant.|M
+M|The orbital speed of a satellite close to the Earth is|√(g R)|√(2 g R)|g R|R/g|1|About 7.9 km/s.|H
+M|The orbital speed of a satellite at height h above the Earth is|√(G M/(R + h))|√(G M (R + h))|G M/(R + h)|(R + h)/G M|1|From G Mm/r² = mv²/r.|H
+M|A geostationary satellite has a period of|24 hours|12 hours|90 minutes|1 week|1|It stays above one point.|M
+M|An astronaut in orbit feels weightless because|there is no support force (free fall)|there is no gravity|they are far from Earth|the satellite is large|1|Both fall together.|H
+M|The weight of a body at the centre of the Earth is|zero|maximum|infinite|equal to mg|1|The net gravitational pull is zero.|H
+M|The value of g at a height h above the Earth's surface|decreases as h increases|increases as h increases|is constant|is zero|1|g = GM/(R + h)².|M
+M|The acceleration due to gravity at the Earth's surface is related by|g = G M/R²|g = G M R²|g = G R/M²|g = M/R²|1|From the law of gravitation.|M
+M|Kepler's third law states that T² is proportional to|r³|r²|r|1/r|1|The orbital period and radius.|M
+N|Find the angular velocity in rad/s of a wheel turning at 120 rpm, to two decimal places.|12.57|120 × 2π/60.|M|120*2*3.14159265/60
+N|A body moves in a circle of radius 2 m at 4 m/s. Find its centripetal acceleration in m/s².|8|v²/r = 16/2.|E|16/2
+N|A 2 kg mass moves in a circle of radius 0.5 m at 3 m/s. Find the centripetal force in N.|36|2 × 9/0.5.|M|2*9/0.5
+N|A car goes round a flat curve of radius 50 m with μ = 0.5. Take g = 10. Find the maximum speed in m/s.|15.81|√(0.5 × 10 × 50) = √250.|M|Math.sqrt(0.5*10*50)
+N|Find the period in s of a body in a circle with ω = 2π rad/s.|1|T = 2π/ω.|E|1
+N|A wheel has a moment of inertia of 2 kg m² and angular acceleration 3 rad/s². Find the torque in N m.|6|I α.|E|2*3
+N|A wheel of moment of inertia 4 kg m² rotates at 5 rad/s. Find its angular momentum in kg m²/s.|20|Iω.|E|4*5
+N|Find the rotational kinetic energy in J of a body with I = 4 kg m² and ω = 5 rad/s.|50|½ × 4 × 25.|M|0.5*4*25
+N|A skater with I = 4 kg m² and ω = 2 rad/s pulls in her arms so that I = 2 kg m². Find the new ω in rad/s.|4|I₁ω₁ = I₂ω₂.|H|4*2/2
+N|Find the linear speed in m/s of a point 0.5 m from the axis of a wheel with ω = 10 rad/s.|5|v = rω.|E|0.5*10
+N|The Moon's orbital period is 27.3 days. Find it in hours to the nearest hour.|655|27.3 × 24.|M|27.3*24
+N|Find the orbital speed in m/s of a satellite near the Earth if g = 9.8 and R = 6.4 × 10⁶ m, to the nearest m/s.|7920|√(9.8 × 6.4 × 10⁶).|H|Math.sqrt(9.8*6.4e6)
+N|Find the force in N between two masses of 10 kg each, 1 m apart, giving the answer in units of 10⁻¹⁰ N. G = 6.67 × 10⁻¹¹.|66.7|6.67 × 10⁻¹¹ × 100 = 66.7 × 10⁻¹⁰.|H|6.67*100/10
+N|Find the angle in radians subtended by an arc of 6 m at a radius of 4 m.|1.5|θ = s/r.|E|6/4
+S|Define angular velocity and give its relation to linear velocity.|Angular velocity is the rate of change of angular displacement, ω = dθ/dt, and v = rω.|Its unit is rad/s.|E
+S|Derive the expression for centripetal acceleration.|For uniform circular motion the velocity changes direction, giving a = v²/r = rω² directed towards the centre.|The force is F = mv²/r.|M
+S|State the law of conservation of angular momentum.|If no external torque acts on a system, its total angular momentum remains constant.|L = Iω.|M
+S|Define the moment of inertia.|The property of a body that measures its resistance to angular acceleration, I = Σ m r².|It depends on the axis.|M
+S|State Newton's law of gravitation.|Two masses attract each other with a force proportional to the product of the masses and inversely proportional to the square of the distance between them, F = Gm₁m₂/r².|G is the gravitational constant.|M
+
+# 6 Fluid Dynamics
+M|A fluid is a substance that|can flow|has a fixed shape|is always a liquid|is always incompressible|1|Liquids and gases are fluids.|E
+M|Viscosity is the property of a fluid by which it|opposes relative motion between its layers|flows quickly|compresses|evaporates|1|It is internal friction.|E
+M|The SI unit of the coefficient of viscosity is|Pa s|N/m²|N s/m|m²/s only|1|η = F/(A dv/dy).|M
+M|Stokes' law gives the viscous force on a small sphere of radius r moving at speed v as|6π η r v|4π η r v|6 η r v²|η r v|1|F = 6πηrv.|M
+M|The terminal velocity of a sphere falling in a viscous fluid is reached when|the net force becomes zero|the sphere stops|the viscous force is zero|the weight is zero|1|Weight = buoyancy + viscous force.|M
+M|Streamline flow is|steady flow in which fluid layers do not mix|irregular flow with eddies|flow with no velocity|flow in a vacuum|1|Each particle follows the same path.|M
+M|Turbulent flow is|irregular flow with eddies|steady flow|flow with no friction|laminar flow|1|It occurs at high speed.|M
+M|The equation of continuity states that|A₁v₁ = A₂v₂ for an incompressible fluid|P₁v₁ = P₂v₂|v₁/A₁ = v₂/A₂|A₁ + v₁ = A₂ + v₂|1|The volume flow rate is constant.|M
+M|When a pipe narrows, the speed of the fluid|increases|decreases|stays the same|becomes zero|1|From A v = constant.|M
+M|Bernoulli's equation states that along a streamline P + ½ ρ v² + ρ g h is|constant|zero|increasing|decreasing|1|Conservation of energy per unit volume.|M
+M|Bernoulli's equation is a statement of|conservation of energy|conservation of momentum|conservation of charge|Newton's third law|1|For ideal fluids.|M
+M|In a horizontal pipe, where the speed is greater the pressure is|lower|higher|the same|infinite|1|From Bernoulli's equation.|M
+M|The Venturi meter is used to measure|the speed of flow of a fluid|temperature|density|viscosity|1|It uses the pressure difference.|M
+M|The lift on an aeroplane wing is explained by|Bernoulli's principle|Pascal's law|Archimedes' principle|Boyle's law|1|Faster air above gives lower pressure.|M
+M|The speed of efflux of liquid from a hole at depth h below the surface is|√(2 g h)|√(g h)|2 g h|g h|1|Torricelli's theorem.|M
+M|An ideal fluid is|incompressible and non-viscous|compressible and viscous|always a gas|always a liquid|1|A model.|E
+M|Pressure in a liquid at depth h is|ρ g h|ρ h/g|ρ g/h|g h/ρ|1|Gauge pressure.|E
+M|The buoyant force on a submerged body is equal to|the weight of the displaced fluid|the weight of the body|the density of the fluid|the volume of the body|1|Archimedes' principle.|M
+M|A body floats if its average density is|less than that of the fluid|greater than that of the fluid|equal to zero|infinite|1|Buoyancy exceeds weight.|M
+M|The Reynolds number is used to decide whether the flow is|laminar or turbulent|hot or cold|fast or slow only|compressible|1|Large values mean turbulence.|H
+M|Blood pressure is measured with a|sphygmomanometer|barometer|thermometer|voltmeter|1|Used in medicine.|E
+M|The magnus effect makes a spinning ball|curve in flight|go faster|stop|float|1|It is explained by Bernoulli's principle.|H
+M|The force of viscosity between layers of fluid is proportional to|the area and the velocity gradient|the temperature|the density|the time|1|Newton's law of viscosity.|M
+M|The viscosity of a liquid generally|decreases as temperature rises|increases as temperature rises|stays constant|is zero|1|Honey flows faster when heated.|M
+M|The viscosity of a gas generally|increases as temperature rises|decreases as temperature rises|is zero|is constant|1|Opposite to liquids.|H
+M|A raindrop falls with a constant velocity because|viscous drag balances its weight|gravity stops|it has no mass|air pushes up equally with zero drag|1|Terminal velocity.|M
+M|The atmospheric pressure at sea level is about|1.01 × 10⁵ Pa|1000 Pa|10⁹ Pa|10 Pa|1|One atmosphere.|E
+M|The unit of the Reynolds number is|dimensionless|Pa s|m/s|kg/m³|1|It is a ratio.|H
+N|Water flows at 2 m/s through a pipe of area 0.01 m². It enters a section of area 0.004 m². Find the speed in m/s in the narrow part.|5|A₁v₁/A₂.|M|0.01*2/0.004
+N|Find the pressure in Pa at a depth of 10 m in water. Take ρ = 1000, g = 9.8.|98000|ρ g h.|E|1000*9.8*10
+N|Find the speed in m/s of water leaving a hole 5 m below the surface. Take g = 9.8, to two decimal places.|9.9|√(2 × 9.8 × 5).|M|Math.sqrt(2*9.8*5)
+N|Find the volume flow rate in m³/s for a pipe of area 0.02 m² with speed 3 m/s.|0.06|A v.|E|0.02*3
+N|Find the viscous force in N on a sphere of radius 0.01 m moving at 0.1 m/s in a fluid with η = 0.5 Pa s, to three decimal places.|0.009|6π × 0.5 × 0.01 × 0.1 = 0.0094.|H|6*3.14159265*0.5*0.01*0.1
+N|A pipe carries water at 4 m/s with pressure 2 × 10⁵ Pa and narrows so that the speed is 8 m/s. Take ρ = 1000. Find the new pressure in Pa.|176000|P₂ = P₁ + ½ρ(v₁² − v₂²).|H|200000+0.5*1000*(16-64)
+N|Find the weight in N of the water displaced by a block of volume 0.002 m³ in water. Take g = 9.8.|19.6|1000 × 0.002 × 9.8.|M|1000*0.002*9.8
+N|A river 20 m wide and 2 m deep flows at 1.5 m/s. Find the volume flow rate in m³/s.|60|20 × 2 × 1.5.|E|20*2*1.5
+N|A syringe's piston has area 2 cm² and the needle area 0.1 cm². If the piston moves at 1 cm/s, find the speed of the fluid in cm/s in the needle.|20|A₁v₁/A₂.|M|2*1/0.1
+N|Find the terminal velocity in m/s of a sphere with η = 0.4, r = 0.002 m and (ρ − σ) = 5000 kg/m³, from v = 2r²(ρ − σ)g/9η, to three decimals. Take g = 9.8.|0.109|2 × 4 × 10⁻⁶ × 5000 × 9.8/3.6.|H|2*0.000004*5000*9.8/(9*0.4)
+N|The pressure difference between two points in a horizontal pipe is 3 × 10³ Pa. Find the difference in ½ρv² terms in Pa.|3000|By Bernoulli's equation.|M|3000
+N|A tank has water at a depth of 2 m. Find the speed in m/s of efflux from a hole at its base, to two places. g = 9.8.|6.26|√(2 × 9.8 × 2).|M|Math.sqrt(2*9.8*2)
+N|How many times the pressure is the pressure at 20 m depth compared with that at 10 m (gauge)?|2|ρgh doubles.|M|2
+S|State the equation of continuity.|For the steady flow of an incompressible fluid, A₁v₁ = A₂v₂, so the volume flow rate is constant.|Speed rises where the pipe narrows.|M
+S|State Bernoulli's equation.|For the steady, non-viscous, incompressible flow of a fluid along a streamline, P + ½ρv² + ρgh is constant.|It expresses conservation of energy.|M
+S|State Stokes' law.|The viscous drag force on a small sphere moving slowly through a fluid is F = 6πηrv.|It gives the terminal velocity.|M
+S|Define viscosity and give its unit.|The internal friction of a fluid that opposes relative motion between its layers. The unit of the coefficient of viscosity is Pa s.|It decreases with temperature for liquids.|M
+S|Explain how an aeroplane wing produces lift.|The wing shape makes air move faster over the top than below, so the pressure above is lower than the pressure below by Bernoulli's principle, giving an upward force.|The angle of attack also helps.|M

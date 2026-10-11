@@ -1,0 +1,212 @@
+@level 2nd Year
+@subject Computer Science
+
+# 1 Data Structures and Algorithms
+M|A data structure is|a way of organising data in memory|a programming language|a type of hardware|a network|1|Arrays, lists, stacks.|E
+M|An array stores elements in|contiguous memory locations|random locations|only on disk|separate files|1|Indexed access.|E
+M|Accessing an element of an array by index takes|constant time|linear time|logarithmic time|quadratic time|1|O(1).|M
+M|A stack follows the principle|LIFO|FIFO|random access|priority|1|Last in, first out.|E
+M|A queue follows the principle|FIFO|LIFO|random access|priority|1|First in, first out.|E
+M|The operation to add an item to a stack is|push|pop|peek|enqueue|1|Top.|E
+M|The operation to remove an item from a stack is|pop|push|insert|enqueue|1|Top item.|E
+M|The operation to add an item to a queue is|enqueue|dequeue|push|pop|1|At the rear.|E
+M|The operation to remove an item from a queue is|dequeue|enqueue|push|pop|1|From the front.|E
+M|Stack overflow occurs when|pushing onto a full stack|popping an empty stack|the queue is empty|the array is sorted|1|Capacity exceeded.|M
+M|Stack underflow occurs when|popping from an empty stack|pushing onto a full stack|the queue is full|the array is unsorted|1|Nothing to remove.|M
+M|A stack is used in|undo operations and function calls|first-come service queues|printer spooling|round-robin scheduling|1|Call stack.|M
+M|A queue is used in|printer spooling|undo operations|expression evaluation|recursion only|1|Jobs wait their turn.|M
+M|A circular queue is used to|use array space efficiently|sort data|search data|encrypt data|1|Wraps around.|M
+M|A linked list consists of|nodes with data and a pointer|a single array|a stack only|a table|1|Dynamic structure.|E
+M|The advantage of a linked list over an array is|easy insertion and deletion|faster indexing|less memory|sorted order|1|No shifting.|M
+M|The last node of a singly linked list points to|NULL|the first node|itself|the previous node|1|End marker.|M
+M|A doubly linked list node has|two pointers|one pointer|no pointers|three pointers|1|Next and previous.|M
+M|A tree is a|hierarchical data structure|linear data structure|table|stack|1|Root and children.|E
+M|The top node of a tree is the|root|leaf|branch|parent only|1|No parent.|E
+M|A node with no children is a|leaf|root|parent|branch|1|Terminal node.|E
+M|In a binary tree each node has at most|two children|three children|one child|four children|1|Left and right.|E
+M|In-order traversal of a binary search tree gives|sorted order|reverse order|random order|level order|1|Left, root, right.|M
+M|The pre-order traversal visits|root, left, right|left, root, right|left, right, root|right, left, root|1|NLR.|M
+M|The post-order traversal visits|left, right, root|root, left, right|left, root, right|right, root, left|1|LRN.|M
+M|In a binary search tree, the left child is|smaller than the parent|larger than the parent|equal to the parent|unrelated|1|Ordering property.|M
+M|The height of a tree with only a root node is|0|1|2|-1|1|Edges from root to deepest leaf.|H
+M|A graph consists of|vertices and edges|rows and columns|nodes only|arrays|1|Networks, maps.|M
+M|Recursion is when a function|calls itself|calls main|calls printf|stops|1|Needs a base case.|M
+M|A recursive function must have|a base case|a loop|an array|a pointer|1|Termination.|M
+M|The time complexity of bubble sort is|O(n²)|O(n)|O(log n)|O(1)|1|Nested loops.|M
+M|The time complexity of binary search is|O(log n)|O(n)|O(n²)|O(1)|1|Halves each time.|M
+M|The time complexity of linear search is|O(n)|O(log n)|O(1)|O(n²)|1|Worst case.|M
+M|Merge sort uses the strategy of|divide and conquer|brute force|greedy|dynamic programming|1|O(n log n).|M
+M|The time complexity of merge sort is|O(n log n)|O(n²)|O(n)|O(1)|1|Efficient.|M
+M|Selection sort repeatedly|selects the smallest remaining element|swaps adjacent elements|divides the list|searches the list|1|O(n²).|M
+M|Insertion sort works like|sorting playing cards in the hand|splitting the deck|shuffling|dealing|1|Insert into sorted part.|M
+M|A hash table uses|a hash function to find the index|a stack|a queue|a tree|1|Fast lookup.|M
+M|A collision in hashing occurs when|two keys map to the same index|the table is empty|a key is missing|memory is full|1|Resolved by chaining.|H
+N|A stack is empty. Push 5, push 8, pop, push 3, pop. Find the value on top now.|5|Remaining stack: 5.|M|5
+N|A queue has 4, 7, 9 (front first). After one dequeue, find the front element.|7|4 leaves.|E|7
+N|Find the number of nodes in a full binary tree of height 3 (root at height 0).|15|2⁴ − 1.|H|2^4-1
+N|A binary search on 1024 sorted items needs at most how many comparisons (log₂1024 + 1)?|11|10 + 1.|M|10+1
+N|A binary tree has 7 nodes in a complete tree. Find the number of leaves.|4|Last level.|H|4
+N|Bubble sort of 6 items needs at most how many comparisons?|15|n(n − 1)/2.|M|6*5/2
+N|Find the 6th Fibonacci number with F1 = 1 and F2 = 1.|8|1, 1, 2, 3, 5, 8.|M|8
+N|A linked list has 5 nodes. How many pointers does a singly linked list have (one per node)?|5|One next pointer each.|M|5
+S|Distinguish between a stack and a queue.|A stack follows last-in first-out with push and pop at one end, while a queue follows first-in first-out with insertion at the rear and removal at the front.|Different access.|M
+S|Explain the advantages of a linked list over an array.|A linked list can grow and shrink dynamically and insertion or deletion does not require shifting elements, but access is sequential.|Memory used for pointers.|M
+S|Describe the three tree traversals.|Pre-order visits root, left, right; in-order visits left, root, right; post-order visits left, right, root.|In-order of BST is sorted.|M
+S|Describe how binary search works.|Compare the target with the middle element of a sorted list, and repeat on the left or right half until it is found or the list is empty.|O(log n).|M
+S|Explain recursion with an example.|Recursion is when a function calls itself with a smaller problem until a base case is reached, as in factorial n equals n times factorial of n minus 1.|Base case stops it.|M
+S|Explain bubble sort.|Adjacent items are compared and swapped if out of order, and passes are repeated until no swaps are needed.|Simple but slow.|M
+
+# 2 Database Management Systems
+M|A database is|an organised collection of related data|a spreadsheet only|a program|a network|1|Stored electronically.|E
+M|A DBMS is|software that manages databases|a hardware device|a network|an operating system|1|Database management system.|E
+M|Which of these is a DBMS?|MySQL|Notepad|Chrome|Paint|1|Relational.|E
+M|A table in a relational database is also called a|relation|file only|folder|program|1|Rows and columns.|E
+M|A row in a table is called a|record or tuple|field|key|index|1|One entity.|E
+M|A column in a table is called a|field or attribute|record|tuple|row|1|One property.|E
+M|A primary key|uniquely identifies each record|is repeated|can be null|is always text|1|No duplicates.|E
+M|A foreign key|refers to the primary key of another table|is the same as the primary key|is optional|is unique always|1|Links tables.|M
+M|A candidate key is|an attribute that could serve as a primary key|a foreign key|a null|an index|1|Unique.|M
+M|Data redundancy means|unnecessary duplication of data|loss of data|encryption|backup|1|Wastes space.|E
+M|Data integrity means|accuracy and consistency of data|speed of access|data size|encryption|1|Rules.|M
+M|Normalisation is the process of|reducing redundancy in tables|increasing redundancy|deleting tables|encrypting tables|1|1NF, 2NF, 3NF.|M
+M|A table is in first normal form if|all fields hold atomic values|it has foreign keys|it has no records|it is empty|1|No repeating groups.|M
+M|SQL stands for|Structured Query Language|Simple Query Language|Standard Question Language|System Query Logic|1|Database language.|E
+M|The SQL command to retrieve data is|SELECT|INSERT|UPDATE|DELETE|1|Query.|E
+M|The SQL command to add a new record is|INSERT|SELECT|DROP|ALTER|1|Insert into.|E
+M|The SQL command to modify existing records is|UPDATE|SELECT|INSERT|CREATE|1|Set values.|E
+M|The SQL command to remove records is|DELETE|DROP only|REMOVE|ERASE|1|Delete from.|E
+M|The SQL command to create a table is|CREATE TABLE|MAKE TABLE|NEW TABLE|BUILD TABLE|1|DDL.|E
+M|The SQL command to remove a table completely is|DROP TABLE|DELETE TABLE|REMOVE TABLE|CLEAR TABLE|1|DDL.|M
+M|The SQL clause used to filter rows is|WHERE|FROM|ORDER BY|GROUP BY|1|Condition.|E
+M|The SQL clause used to sort results is|ORDER BY|WHERE|FROM|HAVING|1|ASC or DESC.|E
+M|The SQL clause used to group rows is|GROUP BY|ORDER BY|WHERE|FROM|1|Aggregates.|M
+M|The SQL function to count rows is|COUNT|SUM|AVG|MAX|1|Aggregate.|E
+M|The SQL function to add up values is|SUM|COUNT|AVG|MIN|1|Aggregate.|E
+M|The SQL function to find the average is|AVG|SUM|COUNT|MAX|1|Aggregate.|E
+M|The SQL statement SELECT * FROM student; returns|all columns of all rows|only the first row|only one column|nothing|1|Wildcard.|E
+M|The SQL operator used to search a pattern is|LIKE|IN|BETWEEN|IS|1|Wildcards % and _.|M
+M|The SQL join that returns only matching rows is|INNER JOIN|LEFT JOIN|OUTER JOIN|CROSS JOIN|1|Matching keys.|M
+M|DDL stands for|Data Definition Language|Data Display Language|Digital Data Language|Data Design Logic|1|CREATE, ALTER, DROP.|M
+M|DML stands for|Data Manipulation Language|Data Management Logic|Digital Mark Language|Data Model Language|1|INSERT, UPDATE, DELETE.|M
+M|A one-to-many relationship is, for example,|one teacher and many students|one student and one roll number|many students and many teachers|one car and one engine|1|Common relationship.|M
+M|An ER diagram shows|entities and relationships|programs|networks|hardware|1|Entity-relationship.|M
+M|In an ER diagram, an entity is drawn as a|rectangle|diamond|oval|triangle|1|Chen notation.|H
+M|The ACID properties are for|transactions|networks|printers|monitors|1|Atomicity, consistency, isolation, durability.|H
+M|A DBA is|a database administrator|a data backup application|a digital bank account|a data buffer area|1|Manages the DBMS.|M
+M|A data warehouse is used for|storing large amounts of historical data for analysis|word processing|printing|games|1|Business intelligence.|M
+N|A table has 200 records and 8 fields. Find the number of data items.|1600|200 × 8.|E|200*8
+N|A table has 50 students. After inserting 12 and deleting 7, find the number of records.|55|50 + 12 − 7.|E|50+12-7
+N|Marks are 60, 70 and 80. Find the AVG.|70|Sum/3.|E|(60+70+80)/3
+N|Marks are 40, 55, 65 and 80. Find the SUM.|240|Add them.|E|40+55+65+80
+N|Marks are 40, 55, 65 and 80. Find the AVG.|60|240/4.|E|(40+55+65+80)/4
+N|One table has 5 rows and another has 4 rows. How many rows are produced by a cross join?|20|5 × 4.|M|5*4
+N|A database stores 10 000 records of 250 bytes each. Find the size in KB (1 KB = 1000 bytes).|2500|2 500 000/1000.|M|10000*250/1000
+N|How many bits are needed to store a field with up to 1000 different values (round up log₂ 1000)?|10|2¹⁰ = 1024.|H|Math.ceil(Math.log(1000)/Math.log(2))
+S|Distinguish between a primary key and a foreign key.|A primary key uniquely identifies a record in its own table, while a foreign key is a field that refers to the primary key of another table to link them.|Referential integrity.|M
+S|Explain the advantages of a DBMS over file processing.|A DBMS reduces redundancy, keeps data consistent, allows sharing, provides security and backup, and offers a query language.|Improves integrity.|M
+S|Write an SQL query to list students with marks above 80.|SELECT * FROM student WHERE marks > 80;|Uses WHERE.|M
+S|Explain normalisation and why it is needed.|It organises tables to remove redundancy and avoid update, insertion and deletion anomalies by splitting data into related tables.|1NF, 2NF and 3NF.|M
+S|Distinguish between DDL and DML with examples.|DDL defines structure, such as CREATE and DROP, while DML works with data, such as INSERT, UPDATE and DELETE.|SELECT is a query.|M
+S|Describe the three types of relationships between tables.|One-to-one, one-to-many and many-to-many, for example one person with one passport, one teacher with many students, and many students with many courses.|Shown in ER diagrams.|M
+
+# 3 Functions, Structures and Pointers in C
+M|A function in C is|a block of code that performs a specific task|a variable|a header file|a comment|1|Reusable.|E
+M|The advantage of functions is|code reuse and easier debugging|slower code|larger code|no benefit|1|Modular.|E
+M|A function prototype is|a declaration of the function's name, return type and parameters|the function body|a loop|a variable|1|Before main.|M
+M|The return type of a function that returns nothing is|void|int|null|empty|1|No value.|E
+M|The keyword used to return a value from a function is|return|back|send|output|1|Ends the function.|E
+M|Parameters used in the function definition are called|formal parameters|actual parameters|global variables|constants|1|Receive values.|M
+M|Values passed when calling a function are called|actual arguments|formal parameters|local variables|constants|1|Sent values.|M
+M|A variable declared inside a function is|local|global|static only|external|1|Scope limited.|E
+M|A variable declared outside all functions is|global|local|register|automatic|1|Accessible everywhere.|E
+M|Call by value passes|a copy of the argument|the address of the argument|the variable itself|nothing|1|Original unchanged.|M
+M|Call by reference passes|the address of the argument|a copy of the argument|nothing|a constant|1|Original can change.|M
+M|Recursion in C is a function that|calls itself|calls main|returns void|has no body|1|Needs base case.|M
+M|The standard function to find square root is|sqrt|root|squareroot|sqr|1|math.h.|E
+M|The header file containing sqrt and pow is|math.h|stdio.h|string.h|stdlib.h|1|Mathematical functions.|E
+M|The function pow(2, 3) returns|8|6|9|5|1|2³.|E
+M|A structure in C is|a user-defined type grouping different data types|an array of one type|a loop|a function|1|struct keyword.|E
+M|The keyword to define a structure is|struct|structure|record|class|1|C.|E
+M|The operator used to access a member of a structure variable is|. (dot)|->  only|#|@|1|s.name.|M
+M|The operator used to access a member through a pointer is|->|.|#|@|1|p->name.|M
+M|An array of structures is useful for|storing many records|storing one value|loops only|printing|1|Student records.|M
+M|A union differs from a structure in that|all members share the same memory|members use separate memory|it has no members|it cannot be defined|1|Memory efficient.|H
+M|A pointer variable is declared using|*|&|#|@|1|int *p;|E
+M|The dereference operator is|*|&|#|@|1|Value at address.|M
+M|The address-of operator is|&|*|#|@|1|Address.|M
+M|If p points to x, then *p gives|the value of x|the address of x|the address of p|nothing|1|Indirection.|M
+M|The name of an array is a pointer to|its first element|its last element|its size|nothing|1|Base address.|M
+M|The size of a pointer on a 64-bit system is|8 bytes|4 bytes|2 bytes|1 byte|1|Address width.|H
+M|The function to allocate memory dynamically in C is|malloc|new|alloc|create|1|stdlib.h.|M
+M|The function to release dynamically allocated memory is|free|delete|release|remove|1|Prevents leaks.|M
+M|A string in C is|an array of characters ending with a null character|a single character|a number|a pointer only|1|\0.|E
+M|The function to copy a string is|strcpy|copy|strcopy|cpystr|1|string.h.|M
+M|The function to compare two strings is|strcmp|compare|strcomp|cmpstr|1|Returns 0 if equal.|M
+M|The function to join two strings is|strcat|join|strjoin|concat|1|Concatenate.|M
+M|The function to open a file in read mode uses the mode|"r"|"w"|"a"|"x"|1|fopen.|M
+M|The mode "w" in fopen|creates or overwrites a file for writing|reads a file|appends to a file|deletes a file|1|Be careful.|M
+M|The mode "a" in fopen|appends to the end of a file|overwrites the file|reads only|deletes the file|1|Add data.|M
+M|The function to close a file is|fclose|close|end|shut|1|Releases the file.|M
+N|Find the value returned by pow(2, 5).|32|2⁵.|E|2^5
+N|Find the value returned by sqrt(144).|12|√144.|E|Math.sqrt(144)
+N|A function sum(a, b) returns a + b. Find sum(7, 5).|12|7 + 5.|E|7+5
+N|A recursive function f(n) = n * f(n−1) with f(0) = 1. Find f(4).|24|4 × 3 × 2 × 1.|M|4*3*2*1
+N|An int takes 4 bytes. Find the bytes taken by an array int a[20].|80|20 × 4.|E|20*4
+N|A structure has an int (4 bytes), a float (4 bytes) and a char (1 byte) with no padding. Find its size in bytes.|9|4 + 4 + 1.|M|4+4+1
+N|A union has an int (4 bytes), a float (4 bytes) and a char (1 byte). Find its size in bytes.|4|Largest member.|H|4
+N|A string "Hello" is stored in C. Find the number of bytes needed including the null character.|6|5 + 1.|M|5+1
+S|Distinguish between call by value and call by reference.|In call by value a copy of the argument is passed so the original is unchanged, while in call by reference the address is passed so the function can change the original.|Pointers give reference.|M
+S|Distinguish between local and global variables.|A local variable is declared inside a function and is available only there, while a global variable is declared outside functions and can be used anywhere in the program.|Scope.|M
+S|Explain what a structure is and give an example.|A structure groups variables of different types under one name, for example struct student with name, roll number and marks.|Accessed with the dot operator.|M
+S|Explain what a pointer is and how it is used.|A pointer is a variable that stores the memory address of another variable, declared with * and used to access or change that variable indirectly.|Used in dynamic memory.|M
+S|Describe how to write to a text file in C.|Open the file with fopen in "w" mode, write using fprintf or fputs, and close it with fclose.|Check for NULL.|M
+S|Distinguish between a structure and a union.|In a structure each member has its own memory, whereas in a union all members share the same memory so only one can be used at a time.|Union is smaller.|M
+
+# 4 Object-Oriented Programming
+M|Object-oriented programming is based on|objects|only functions|only loops|only goto|1|Data and methods.|E
+M|A class is|a blueprint for objects|an object|a variable|a loop|1|Template.|E
+M|An object is|an instance of a class|a class|a function|a variable type|1|Real entity.|E
+M|Encapsulation means|bundling data and methods together and hiding details|inheriting from a class|using many forms|ignoring details|1|Data hiding.|E
+M|Inheritance allows|a class to acquire properties of another class|a class to hide data|many classes to merge|objects to die|1|Reuse.|E
+M|Polymorphism means|many forms|one form|no form|hiding|1|Same name, different behaviour.|E
+M|Abstraction means|showing essential features and hiding details|hiding everything|showing everything|ignoring features|1|Simplification.|M
+M|A constructor is|a special method that initialises an object|a destructor|a loop|a variable|1|Same name as the class.|M
+M|A destructor is called when|an object is destroyed|an object is created|a program starts|a loop starts|1|Cleanup.|M
+M|The base class is also called the|parent class|child class|derived class|sub class|1|Super class.|E
+M|The derived class is also called the|child class|parent class|base class|root class|1|Sub class.|E
+M|The access specifier that allows access only inside the class is|private|public|protected|global|1|Data hiding.|E
+M|The access specifier that allows access from anywhere is|public|private|protected|local|1|Open.|E
+M|The access specifier that allows access in the class and derived classes is|protected|private|public|local|1|Inheritance.|M
+M|Method overloading means|methods with the same name but different parameters|methods with different names|one method only|no methods|1|Compile-time polymorphism.|M
+M|Method overriding means|a derived class redefines a base class method|two methods with different names|a new class|deleting methods|1|Run-time polymorphism.|M
+M|C++ is an extension of|C|Java|Python|Pascal|1|Bjarne Stroustrup.|E
+M|In C++ the keyword to define a class is|class|struct only|object|define|1|class Student { }.|E
+M|The C++ statement to display output is|cout|printf only|display|print|1|iostream.|E
+M|The C++ statement to read input is|cin|scanf only|input|read|1|iostream.|E
+M|Java is mainly|an object-oriented language|a machine language|a markup language|a database|1|Write once, run anywhere.|E
+M|Java programs are run on the|Java Virtual Machine|C compiler|assembler|browser only|1|JVM.|M
+M|Multiple inheritance means|a class derives from more than one class|a class has many objects|a class has many methods|a class is deleted|1|Supported in C++.|M
+M|A static method belongs to|the class|each object|the main only|no one|1|Called without an object.|M
+M|The keyword this refers to|the current object|the class|the base class|the main method|1|Self reference.|M
+M|An abstract class|cannot be instantiated|has no methods|is always public|has no members|1|Template for subclasses.|H
+M|An interface specifies|methods that a class must implement|data only|objects|variables|1|Contract.|H
+M|The advantages of OOP include|reusability and easier maintenance|slower development|more bugs|less structure|1|Modular.|E
+M|Which of these is an OOP language?|C++|Assembly|Machine code|HTML|1|Supports classes.|E
+M|Which language was designed from the start around classes and objects?|Java|C|COBOL only|Assembly|1|Pure objects.|E
+M|An instance variable belongs to|each object|the class only|the compiler|the OS|1|Per object.|M
+M|A constructor has|no return type|a void return type|an int return type|any return type|1|Special.|M
+M|Operator overloading allows|operators to work with user-defined types|new operators to be invented|operators to be removed|only arithmetic|1|In C++.|H
+N|A class Rectangle has length 5 and width 4. Find the area.|20|5 × 4.|E|5*4
+N|A class Circle has radius 7. Find the area using 22/7 × r².|154|22/7 × 49.|M|22/7*7*7
+N|A class Student is instantiated 6 times. Find the number of objects.|6|One per instantiation.|E|6
+N|A class has 3 private data members of 4 bytes each. Find the object size in bytes.|12|3 × 4.|M|3*4
+N|A base class has 5 methods and a derived class adds 3. Find the number of methods available in the derived class.|8|Inherited plus own.|M|5+3
+N|A loop creates 10 objects each holding 8 bytes. Find the total memory in bytes.|80|10 × 8.|E|10*8
+N|A class with an area method receives side 6 for a square. Find the area.|36|6².|E|6*6
+N|A bank account balance of 5000 earns 10% interest via a method. Find the interest.|500|0.1 × 5000.|E|0.1*5000
+S|Define class and object with an example.|A class is a blueprint that defines data and methods, and an object is an instance of it, for example the class Car and the object myCar.|Class versus instance.|M
+S|Explain encapsulation and why it is useful.|Encapsulation bundles data and methods in a class and hides the data using private access, which protects it from accidental change.|Public methods give access.|M
+S|Explain inheritance with an example.|A derived class gets the members of a base class, for example Student and Teacher inheriting from Person, which avoids repeating code.|Promotes reuse.|M
+S|Distinguish between overloading and overriding.|Overloading uses the same method name with different parameters in one class, while overriding redefines a base class method in a derived class.|Compile versus run time.|M
+S|Explain polymorphism with an example.|Polymorphism lets the same method name behave differently, for example an area method that computes differently for a circle and a rectangle.|Many forms.|M
+S|State the advantages of object-oriented programming.|It gives reusability through inheritance, data security through encapsulation, easier maintenance through modularity, and models real-world entities.|Large projects.|M

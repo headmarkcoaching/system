@@ -1,0 +1,215 @@
+@level 1st Year
+@subject Computer Science
+
+# 1 Introduction to Computing and Information Technology
+M|Data is|raw facts and figures|processed information|a program|a computer|1|Information is processed data.|E
+M|Information is|processed data that is meaningful|raw facts|a computer|a program|1|Output of processing.|E
+M|The four stages of the information processing cycle are|input, processing, output and storage|input, output, print and scan|storage, boot, run and stop|copy, cut, paste and save|1|IPOS cycle.|E
+M|The first generation of computers used|vacuum tubes|transistors|integrated circuits|microprocessors|1|ENIAC era.|E
+M|The second generation of computers used|transistors|vacuum tubes|integrated circuits|microprocessors|1|Smaller and faster.|E
+M|The third generation of computers used|integrated circuits|vacuum tubes|transistors only|artificial intelligence|1|Late 1960s.|M
+M|The fourth generation of computers used|microprocessors|vacuum tubes|transistors|punch cards|1|Intel 4004.|M
+M|The fifth generation of computers is associated with|artificial intelligence|vacuum tubes|transistors|punch cards|1|Intelligent systems.|M
+M|The first mechanical calculator was invented by|Blaise Pascal|Charles Babbage|Alan Turing|John von Neumann|1|Pascaline, 1642.|M
+M|The father of the modern computer is considered to be|Charles Babbage|Blaise Pascal|Bill Gates|Steve Jobs|1|Analytical Engine.|M
+M|A supercomputer is used for|complex scientific calculations|word processing only|games only|printing|1|Weather forecasting.|E
+M|A mainframe computer is used by|large organisations to process bulk data|a single student|only hobbyists|only gamers|1|Banks and airlines.|E
+M|A microcomputer is also called a|personal computer|supercomputer|mainframe|minicomputer|1|Desktop or laptop.|E
+M|An embedded computer is found in|a washing machine|a mainframe|a supercomputer|a server farm|1|Built into devices.|M
+M|One byte equals|8 bits|4 bits|16 bits|10 bits|1|A byte stores one character.|E
+M|One kilobyte equals|1024 bytes|1000 bits|100 bytes|8 bits|1|2¹⁰ bytes.|E
+M|One megabyte equals|1024 kilobytes|1000 bytes|100 kilobytes|8 kilobytes|1|2²⁰ bytes.|E
+M|One gigabyte equals|1024 megabytes|1000 bytes|100 megabytes|8 megabytes|1|2³⁰ bytes.|E
+M|The smallest unit of data is the|bit|byte|nibble|word|1|Binary digit.|E
+M|A nibble is|4 bits|8 bits|2 bits|16 bits|1|Half a byte.|E
+M|Information technology (IT) is the|use of computers to create, store and communicate information|study of electricity|study of plants|use of calculators only|1|Broad field.|E
+M|A computer accepts input, processes it and|produces output|erases it|prints only|destroys it|1|Basic definition.|E
+M|The main advantage of computers over humans is|speed and accuracy|emotions|creativity|intuition|1|Repetitive tasks.|E
+M|ICT stands for|Information and Communication Technology|Internet and Computer Technology|Information and Computer Tools|Internal Computing Technology|1|Includes telecoms.|E
+M|E-commerce means|buying and selling over the internet|printing documents|storing files|writing programs|1|Online shopping.|E
+M|E-learning means|learning using electronic technology|learning in classrooms only|learning from books|learning by games only|1|Online education.|E
+M|A computer used in hospitals to scan the body is an application of|medical imaging|word processing|gaming|accounting|1|CT and MRI.|M
+M|A human who uses a computer is called a|user|programmer only|hacker|server|1|End user.|E
+M|The term "hardware" refers to|the physical parts of a computer|programs|data|the internet|1|Tangible.|E
+M|The term "software" refers to|programs and data|physical parts|cables|monitors|1|Intangible.|E
+M|A programmable electronic device that processes data is a|computer|calculator only|typewriter|abacus|1|Stored-program.|E
+M|The abacus is an example of a|manual calculating device|digital computer|supercomputer|microprocessor|1|Ancient device.|M
+M|Alan Turing is known for|the Turing machine|inventing the transistor|building the first PC|developing Windows|1|Theory of computation.|M
+M|The stored program concept was proposed by|John von Neumann|Charles Babbage|Blaise Pascal|Ada Lovelace|1|Von Neumann architecture.|M
+M|Ada Lovelace is considered the first|programmer|hardware engineer|network engineer|database administrator|1|Analytical Engine notes.|M
+M|A digital computer works on|discrete binary values|continuous signals only|light only|sound only|1|0s and 1s.|E
+M|An analog computer works on|continuous physical quantities|binary digits only|text only|images only|1|Voltage or pressure.|M
+M|A hybrid computer combines|analog and digital features|two printers|two monitors|only software|1|ICU monitors.|M
+N|Convert 3 KB to bytes.|3072|3 × 1024.|E|3*1024
+N|Convert 2 MB to KB.|2048|2 × 1024.|E|2*1024
+N|How many bits are there in 5 bytes?|40|5 × 8.|E|5*8
+N|How many bytes are there in 2 GB in units of MB? (give MB)|2048|2 × 1024.|E|2*1024
+N|A file is 4096 bytes. Find its size in KB.|4|4096/1024.|E|4096/1024
+N|How many nibbles are there in 6 bytes?|12|6 × 2.|E|6*2
+N|A hard disk holds 500 GB. Find its capacity in MB.|512000|500 × 1024.|M|500*1024
+N|A video file is 3 GB. How many KB is it in units of 10⁶ KB? (3 × 1024 × 1024 / 10⁶ to 3 d.p.)|3.146|3 × 1 048 576.|H|3*1024*1024/1e6
+S|Define data and information with an example.|Data is raw unprocessed facts such as marks, while information is processed data that is meaningful, such as the class average.|Processing turns data into information.|M
+S|Describe the main characteristics of the five generations of computers.|First generation used vacuum tubes, second used transistors, third used integrated circuits, fourth used microprocessors, and fifth is based on artificial intelligence.|Each was smaller and faster.|M
+S|Distinguish between a supercomputer and a mainframe.|A supercomputer is built for extremely fast complex calculations such as weather forecasting, while a mainframe handles large volumes of data and many users, as in banks.|Different purposes.|M
+S|Name four fields where computers are used and give one use in each.|Education for e-learning, medicine for imaging, business for accounting and banking for ATMs.|Many more.|M
+S|Describe the information processing cycle.|Data is input, then processed by the CPU, then output as information, and finally stored for later use.|IPOS.|M
+S|Define bit, byte, kilobyte and megabyte.|A bit is a binary digit, a byte is 8 bits, a kilobyte is 1024 bytes and a megabyte is 1024 kilobytes.|Powers of two.|M
+
+# 2 Number Systems and Codes
+M|The base of the binary number system is|2|8|10|16|1|Digits 0 and 1.|E
+M|The base of the octal number system is|8|2|10|16|1|Digits 0 to 7.|E
+M|The base of the decimal number system is|10|2|8|16|1|Digits 0 to 9.|E
+M|The base of the hexadecimal number system is|16|2|8|10|1|Digits 0–9 and A–F.|E
+M|The decimal value of hexadecimal digit B is|11|10|12|13|1|A = 10, B = 11.|E
+M|The decimal value of hexadecimal digit F is|15|14|16|13|1|Highest digit.|E
+M|The binary number 1010 equals decimal|10|12|8|5|1|8 + 2.|E
+M|The binary number 1111 equals decimal|15|16|14|13|1|8 + 4 + 2 + 1.|E
+M|The binary number 10000 equals decimal|16|8|32|10|1|2⁴.|E
+M|The decimal number 8 in binary is|1000|0111|1100|1010|1|2³.|E
+M|The decimal number 13 in binary is|1101|1011|1110|1001|1|8 + 4 + 1.|E
+M|The octal number 17 equals decimal|15|17|7|8|1|8 + 7.|M
+M|The hexadecimal number 1F equals decimal|31|15|32|16|1|16 + 15.|M
+M|The binary number 111 in octal is|7|6|5|8|1|Group of three bits.|M
+M|The binary number 1111 in hexadecimal is|F|E|A|1F|1|Group of four bits.|M
+M|To convert binary to octal, group the bits in|threes|twos|fours|fives|1|From the right.|M
+M|To convert binary to hexadecimal, group the bits in|fours|twos|threes|fives|1|From the right.|M
+M|The method used to convert decimal to binary is|repeated division by 2|repeated multiplication by 10|addition|subtraction only|1|Read remainders upward.|M
+M|The 1's complement of 1010 is|0101|1010|1111|0000|1|Flip each bit.|M
+M|The 2's complement of 0101 is|1011|1010|0101|1111|1|Add 1 to the 1's complement.|M
+M|Subtraction in computers is done by adding the|2's complement|1's complement only|sign bit|carry|1|Simplifies hardware.|M
+M|The binary addition 1 + 1 gives|10|11|2|0 with no carry|1|Sum 0, carry 1.|E
+M|The binary addition 1 + 1 + 1 gives|11|10|111|3|1|Sum 1, carry 1.|M
+M|ASCII is a code that uses|7 bits to represent a character|16 bits|32 bits|1 bit|1|128 characters.|M
+M|Extended ASCII uses|8 bits|7 bits|16 bits|4 bits|1|256 characters.|M
+M|Unicode is used to|represent characters of many languages|only English|only numbers|only symbols|1|Including Urdu.|M
+M|The ASCII code of 'A' is|65|97|48|32|1|'a' is 97.|M
+M|Which decimal ASCII code represents the lowercase letter a?|97|65|48|122|1|Lowercase.|M
+M|The ASCII code of the digit '0' is|48|0|65|32|1|Character, not number.|M
+M|BCD stands for|Binary Coded Decimal|Binary Code Digit|Basic Coded Decimal|Binary Counted Digit|1|4 bits per digit.|M
+M|The BCD code of decimal 9 is|1001|1010|0111|1111|1|Four bits.|M
+M|The EBCDIC code uses|8 bits|7 bits|16 bits|4 bits|1|IBM mainframes.|M
+M|The Gray code differs from the previous number in|one bit|two bits|all bits|no bits|1|Reduces errors.|H
+M|The sign bit of a negative number in sign-magnitude form is|1|0|2|A|1|The leftmost bit.|M
+M|The range of an unsigned 8-bit number is|0 to 255|0 to 256|−128 to 127|1 to 255|1|2⁸ − 1.|M
+M|The range of a signed 8-bit number in 2's complement is|−128 to 127|0 to 255|−127 to 127|−255 to 255|1|Asymmetric.|H
+M|The octal digit 8 is|invalid in octal|valid in octal|binary|a hex digit only|1|Octal digits 0–7.|M
+M|The maximum value of a 4-bit unsigned binary number is|15|16|8|4|1|2⁴ − 1.|E
+N|Convert binary 1011 to decimal.|11|8 + 2 + 1.|E|1*8+0*4+1*2+1
+N|Convert binary 11001 to decimal.|25|16 + 8 + 1.|E|16+8+1
+N|Convert decimal 45 to binary and give the number of 1 bits.|4|101101.|M|4
+N|Convert octal 345 to decimal.|229|3 × 64 + 4 × 8 + 5.|M|3*64+4*8+5
+N|Convert hexadecimal 2A to decimal.|42|2 × 16 + 10.|M|2*16+10
+N|Convert hexadecimal FF to decimal.|255|15 × 16 + 15.|M|15*16+15
+N|Find the largest number that can be stored in 10 bits.|1023|2¹⁰ − 1.|M|2^10-1
+N|Find the number of different values that can be stored in 6 bits.|64|2⁶.|E|2^6
+S|Convert decimal 25 to binary, showing the method.|Divide repeatedly by 2: remainders 1, 0, 0, 1, 1, read upward gives 11001.|16 + 8 + 1 = 25.|M
+S|Explain how to convert a binary number to hexadecimal.|Group the bits in fours from the right, padding with zeros, and replace each group with its hexadecimal digit.|1111 0000 = F0.|M
+S|Find the 2's complement of 0110 and explain its use.|The 1's complement is 1001 and adding 1 gives 1010. It is used to represent negative numbers and to subtract by addition.|Simplifies the ALU.|M
+S|Distinguish between ASCII and Unicode.|ASCII uses 7 or 8 bits and covers English characters, while Unicode uses more bits and covers characters of many languages.|Unicode includes ASCII.|M
+S|Perform the binary addition 1011 + 0110.|1011 + 0110 = 10001, which is 11 + 6 = 17 in decimal.|Carry through the bits.|M
+S|Explain why computers use the binary system.|Electronic circuits have two stable states, on and off, which map to 1 and 0, making circuits simple, reliable and cheap.|Easy to implement.|M
+
+# 3 Digital Logic and Boolean Algebra
+M|A logic gate is an electronic circuit that|performs a logical operation on binary inputs|stores data permanently|displays images|prints text|1|Basic building block.|E
+M|The output of an AND gate is 1 only when|all inputs are 1|any input is 1|all inputs are 0|inputs differ|1|Product.|E
+M|The output of an OR gate is 1 when|at least one input is 1|all inputs are 0|no input is 1|inputs are equal|1|Sum.|E
+M|A NOT gate|inverts its input|adds inputs|multiplies inputs|has two inputs|1|Inverter.|E
+M|The output of a NAND gate is 0 only when|all inputs are 1|any input is 1|all inputs are 0|inputs differ|1|Complement of AND.|M
+M|The output of a NOR gate is 1 only when|all inputs are 0|any input is 0|all inputs are 1|inputs differ|1|Complement of OR.|M
+M|The output of an XOR gate is 1 when|inputs are different|inputs are the same|all inputs are 1|all inputs are 0|1|Exclusive OR.|M
+M|The output of an XNOR gate is 1 when|inputs are the same|inputs differ|any input is 0|all inputs are 0|1|Equivalence.|M
+M|Gates called universal gates are|NAND and NOR|AND and OR|XOR and NOT|NOT and XNOR|1|Any circuit can be built.|M
+M|The Boolean expression for an AND gate is|A·B|A+B|A′|A⊕B|1|Product.|E
+M|The Boolean expression for an OR gate is|A+B|A·B|A′|A⊕B|1|Sum.|E
+M|The Boolean expression for a NOT gate is|A′|A·B|A+B|A⊕B|1|Complement.|E
+M|A + 0 equals|A|0|1|A′|1|Identity law.|M
+M|A + 1 equals|1|A|0|A′|1|Null law.|M
+M|A · 0 equals|0|A|1|A′|1|Null law.|M
+M|A · 1 equals|A|0|1|A′|1|Identity law.|M
+M|A + A equals|A|2A|1|0|1|Idempotent law.|M
+M|A · A′ equals|0|1|A|A′|1|Complement law.|M
+M|A + A′ equals|1|0|A|A′|1|Complement law.|M
+M|De Morgan's first theorem states that (A·B)′ equals|A′ + B′|A′ · B′|A + B|A · B|1|Break the line, change the sign.|M
+M|De Morgan's second theorem states that (A+B)′ equals|A′ · B′|A′ + B′|A · B|A + B|1|Complement of a sum.|M
+M|The absorption law A + A·B equals|A|B|A·B|A+B|1|Absorption.|M
+M|A truth table with n inputs has|2ⁿ rows|n rows|2n rows|n² rows|1|All combinations.|E
+M|A half adder adds|two bits|three bits|four bits|eight bits|1|Sum and carry.|M
+M|The sum output of a half adder is the|XOR of the inputs|AND of the inputs|OR of the inputs|NOT of an input|1|A⊕B.|M
+M|The carry output of a half adder is the|AND of the inputs|XOR of the inputs|OR of the inputs|NOT of an input|1|A·B.|M
+M|A full adder adds|three bits including a carry in|two bits only|four bits|one bit|1|Sum and carry out.|M
+M|A full adder can be built from|two half adders and an OR gate|three AND gates|one NOT gate|two flip-flops|1|Standard design.|H
+M|A flip-flop is a|basic memory element storing one bit|logic gate|adder|decoder|1|Bistable.|M
+M|A multiplexer|selects one of many inputs for output|adds bits|stores data|inverts data|1|Data selector.|M
+M|A decoder|converts n inputs into up to 2ⁿ outputs|adds bits|stores data|inverts data|1|Select lines.|M
+M|A Karnaugh map is used to|simplify Boolean expressions|store data|print results|encrypt data|1|Graphical method.|M
+M|Combinational circuits have outputs that depend on|current inputs only|past inputs|clock only|memory only|1|No memory.|M
+M|Sequential circuits have outputs that depend on|current inputs and past states|current inputs only|power only|nothing|1|Have memory.|M
+M|The number of combinations of three inputs is|8|6|3|9|1|2³.|E
+N|How many rows does the truth table of a 4-input circuit have?|16|2⁴.|E|2^4
+N|How many rows does the truth table of a 5-input circuit have?|32|2⁵.|E|2^5
+N|Evaluate A·B + C when A = 1, B = 1, C = 0 (answer 0 or 1).|1|1·1 + 0 = 1.|E|1
+N|Evaluate (A+B)′ when A = 0, B = 0 (answer 0 or 1).|1|Complement of 0.|M|1
+N|A half adder adds 1 and 1. Find the decimal value of the sum bit and carry bit together (carry is 2s place).|2|10 in binary.|M|2
+N|A full adder adds 1, 1 and 1. Find the decimal total.|3|Sum 1 carry 1.|M|3
+N|How many full adders are needed to add two 8-bit numbers?|8|One per bit.|M|8
+N|A decoder has 3 inputs. Find the number of outputs.|8|2³.|M|2^3
+S|Draw the truth table description of the AND gate.|The output is 1 only when both inputs are 1, so rows 00, 01, 10 give 0 and row 11 gives 1.|Four rows.|M
+S|State De Morgan's theorems.|The complement of a product equals the sum of complements, (A·B)′ = A′ + B′, and the complement of a sum equals the product of complements, (A+B)′ = A′·B′.|Used to simplify circuits.|M
+S|Why are NAND and NOR called universal gates?|Any other gate or logic circuit can be built using only NAND gates or only NOR gates.|Cost advantage.|M
+S|Simplify A + A·B using Boolean laws.|A + A·B = A(1 + B) = A·1 = A by the absorption law.|Factor out A.|M
+S|Describe the working of a half adder.|It adds two bits and produces a sum equal to A XOR B and a carry equal to A AND B.|Cannot take a carry in.|M
+S|Distinguish between combinational and sequential circuits.|The output of a combinational circuit depends only on the present inputs, while a sequential circuit also depends on previous states and has memory.|Flip-flops are sequential.|M
+
+# 4 Computer Organisation and Architecture
+M|The brain of the computer is the|CPU|monitor|keyboard|mouse|1|Central processing unit.|E
+M|The CPU consists of|the ALU and the control unit|the monitor and the keyboard|the RAM and the ROM|the printer and the scanner|1|Plus registers.|E
+M|The ALU performs|arithmetic and logic operations|printing|storage|input|1|Add, compare.|E
+M|The control unit|directs the operation of the computer|performs addition|stores programs|prints data|1|Fetch and decode.|E
+M|Registers are|small fast storage locations in the CPU|large disks|printers|buses|1|Temporary data.|E
+M|The program counter holds|the address of the next instruction|the result of the operation|the data to be output|the user's name|1|PC register.|M
+M|The instruction register holds|the current instruction|the next address|the output|the carry|1|IR.|M
+M|The accumulator is used to|store intermediate arithmetic results|print results|store programs|hold addresses only|1|ALU register.|M
+M|The machine cycle consists of|fetch, decode, execute and store|input, output, print and scan|read, write, copy and paste|boot, run, stop and restart|1|Instruction cycle.|M
+M|RAM is|volatile memory|non-volatile memory|read-only memory|permanent memory|1|Loses data when off.|E
+M|ROM is|non-volatile memory|volatile memory|temporary memory|cache|1|Keeps data when off.|E
+M|The BIOS is stored in|ROM|RAM|hard disk|cache|1|Boot-up.|M
+M|Cache memory is|very fast memory between the CPU and RAM|a slow disk|a printer buffer|a display|1|Speeds access.|M
+M|The fastest memory in a computer is|the registers|the hard disk|the RAM|the flash drive|1|Inside the CPU.|M
+M|The memory hierarchy from fastest to slowest is|registers, cache, RAM, disk|disk, RAM, cache, registers|RAM, registers, disk, cache|cache, disk, registers, RAM|1|Cost per byte falls.|M
+M|DRAM must be|refreshed periodically|never refreshed|read-only|erased|1|Uses capacitors.|H
+M|SRAM is faster than DRAM and is used for|cache memory|main memory|hard disks|CDs|1|Uses flip-flops.|H
+M|EPROM is erased using|ultraviolet light|electricity only|heat|water|1|Erasable PROM.|H
+M|The bus that carries memory addresses is the|address bus|data bus|control bus|power bus|1|Unidirectional.|M
+M|The bus that carries data is the|data bus|address bus|control bus|power bus|1|Bidirectional.|M
+M|The bus that carries control signals is the|control bus|address bus|data bus|sound bus|1|Read/write signals.|M
+M|The clock speed of a CPU is measured in|hertz|bytes|pixels|watts|1|GHz.|E
+M|A computer with a 3 GHz clock performs|3 billion cycles per second|3 million cycles per second|3 thousand cycles per second|30 cycles per second|1|1 GHz = 10⁹ Hz.|M
+M|An input device is|a keyboard|a monitor|a printer|a speaker|1|Sends data in.|E
+M|An output device is|a monitor|a keyboard|a mouse|a scanner|1|Sends data out.|E
+M|A device that is both input and output is|a touch screen|a printer|a mouse|a speaker|1|I/O.|M
+M|A laser printer is a|non-impact printer|dot matrix impact printer|daisy-wheel printer|plotter|1|Uses toner.|M
+M|The resolution of a monitor is measured in|pixels|bytes|hertz|watts|1|Width × height.|E
+M|A hard disk stores data on|magnetic platters|optical discs|flash chips|paper|1|Spinning disks.|E
+M|An SSD stores data using|flash memory|magnetic platters|laser discs|paper|1|No moving parts.|M
+M|The storage capacity of a CD is about|700 MB|4.7 GB|25 GB|1 TB|1|Optical disc.|M
+M|The storage capacity of a single-layer DVD is about|4.7 GB|700 MB|25 GB|1 TB|1|Optical disc.|M
+M|The von Neumann architecture stores|program and data in the same memory|data only|programs only|nothing|1|Stored-program concept.|M
+M|The motherboard|connects all the components of a computer|prints documents|stores files|is a software|1|Main circuit board.|E
+M|A port is a|connection point for peripheral devices|storage|virus|memory|1|USB, HDMI.|E
+M|An interrupt is a|signal that makes the CPU pause its current task|virus|program|fault only|1|I/O handling.|M
+M|Pipelining improves performance by|overlapping instruction stages|slowing the clock|adding memory|removing the ALU|1|Parallelism.|H
+M|The word length of a CPU is|the number of bits processed at one time|the clock speed|the number of cores|the cache size|1|8, 16, 32, 64 bits.|M
+N|A CPU runs at 2.5 GHz. Find the number of cycles per second in billions.|2.5|1 GHz = 10⁹ cycles per second.|E|2.5
+N|A CPU at 2 GHz takes 4 cycles per instruction. Find the instructions per second in millions.|500|2000/4.|M|2000/4
+N|A clock cycle at 4 GHz lasts how many nanoseconds?|0.25|1/4 ns.|M|1/4
+N|A memory has a 16-bit address. Find the number of addressable locations.|65536|2¹⁶.|M|2^16
+N|A memory has 10 address lines. Find the number of locations.|1024|2¹⁰.|E|2^10
+N|A memory has 4096 locations of 8 bits. Find its size in KB.|4|4096 bytes.|M|4096*8/8/1024
+N|A monitor has a resolution of 1024 × 768 pixels. Find the total number of pixels.|786432|1024 × 768.|M|1024*768
+N|A hard disk of 1 TB is divided into files of 250 GB. Find the number of such files (1 TB = 1000 GB).|4|1000/250.|M|1000/250
+S|Describe the functions of the control unit and the ALU.|The control unit fetches and decodes instructions and directs other parts, while the ALU performs arithmetic operations and logical comparisons.|Together with registers they form the CPU.|M
+S|Distinguish between RAM and ROM.|RAM is volatile read-write memory used for running programs, while ROM is non-volatile and stores permanent instructions such as the BIOS.|Contents lost versus kept.|M
+S|Describe the machine cycle.|The CPU fetches an instruction from memory, decodes it, executes it and stores the result, then repeats.|Controlled by the clock.|M
+S|Explain the purpose of cache memory.|Cache is a small very fast memory that holds frequently used data so the CPU spends less time waiting for slower RAM.|Improves speed.|M
+S|Name the three buses and state the purpose of each.|The address bus carries memory addresses, the data bus carries data, and the control bus carries control and timing signals.|They link CPU, memory and I/O.|M
+S|Distinguish between a hard disk and an SSD.|A hard disk stores data on spinning magnetic platters and is cheaper, while an SSD uses flash memory with no moving parts and is faster and more durable.|SSD costs more per GB.|M

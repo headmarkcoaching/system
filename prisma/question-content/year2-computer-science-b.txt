@@ -1,0 +1,216 @@
+@level 2nd Year
+@subject Computer Science
+
+# 5 Web Technologies: HTML, CSS and JavaScript
+M|HTML stands for|HyperText Markup Language|High Text Machine Language|Hyper Transfer Markup Logic|HyperText Making Language|1|Structure of web pages.|E
+M|HTML is a|markup language|programming language|database|operating system|1|Uses tags.|E
+M|An HTML element usually consists of|an opening tag, content and a closing tag|only content|only a closing tag|only attributes|1|Paired tags.|E
+M|The tag for the largest heading is|<h1>|<h6>|<head>|<title>|1|h1 to h6.|E
+M|The tag for a paragraph is|<p>|<para>|<pg>|<text>|1|Block element.|E
+M|The tag for a hyperlink is|<a>|<link>|<href>|<url>|1|Anchor.|E
+M|The attribute that gives the destination of a link is|href|src|alt|id|1|Hypertext reference.|E
+M|The tag to display an image is|<img>|<image>|<pic>|<src>|1|Self-closing.|E
+M|The attribute of <img> that gives the image file is|src|href|alt|name|1|Source.|E
+M|The alt attribute of an image gives|alternative text|the size|the border|the link|1|Accessibility.|M
+M|The tag for an ordered list is|<ol>|<ul>|<li>|<dl>|1|Numbered.|E
+M|The tag for an unordered list is|<ul>|<ol>|<li>|<dl>|1|Bullets.|E
+M|The tag for a list item is|<li>|<ul>|<ol>|<item>|1|Inside lists.|E
+M|The tag for a table is|<table>|<tab>|<tr>|<td>|1|Rows and cells.|E
+M|The tag for a table row is|<tr>|<td>|<th>|<table>|1|Row.|E
+M|The tag for a table data cell is|<td>|<tr>|<th>|<table>|1|Cell.|E
+M|The tag for a table header cell is|<th>|<td>|<tr>|<head>|1|Bold and centred.|E
+M|The tag that holds metadata and the title is|<head>|<body>|<footer>|<main>|1|Not displayed.|E
+M|The tag containing the visible content is|<body>|<head>|<html>|<title>|1|Page content.|E
+M|The tag for a form is|<form>|<input>|<field>|<submit>|1|User input.|E
+M|The tag for a text box is|<input type="text">|<text>|<box>|<edit>|1|Form control.|E
+M|CSS stands for|Cascading Style Sheets|Computer Style Sheets|Creative Style System|Cascade Style Syntax|1|Styling.|E
+M|CSS is used to|style the appearance of HTML|store data|run programs|connect to databases|1|Colours, layout.|E
+M|The CSS property to change the text colour is|color|font-color|text|fg|1|color: red;|E
+M|The CSS property to change the background colour is|background-color|bgcolor only|back-color|color-back|1|Style.|E
+M|The CSS property to change the font size is|font-size|text-size|size|font-height|1|px, em.|E
+M|A CSS rule consists of|a selector and declarations|only a tag|only a value|only a comment|1|selector { property: value; }|M
+M|The CSS selector for an id is written with|#|.|*|@|1|#header.|M
+M|The CSS selector for a class is written with|.|#|*|@|1|.menu.|M
+M|CSS can be applied as|inline, internal and external|only inline|only external|only internal|1|Three ways.|M
+M|The tag used to link an external stylesheet is|<link>|<style>|<css>|<script>|1|In the head.|M
+M|JavaScript is a|scripting language for web pages|markup language|database|style language|1|Runs in the browser.|E
+M|The tag used to include JavaScript is|<script>|<js>|<javascript>|<code>|1|Script element.|E
+M|The JavaScript keyword to declare a variable is|let|var only|dim|int|1|let or const.|M
+M|The JavaScript function to display an alert box is|alert()|msg()|show()|popup()|1|Dialog.|E
+M|The JavaScript method to write to the console is|console.log()|print()|echo()|display()|1|Debugging.|M
+M|The DOM stands for|Document Object Model|Data Object Model|Document Order Mode|Digital Object Method|1|Tree of elements.|M
+M|HTTP status code 404 means|page not found|success|server error|forbidden|1|Client error.|M
+M|HTTP status code 200 means|OK|not found|server error|moved|1|Success.|M
+M|A web browser is|software that displays web pages|a search engine|a web server|a protocol|1|Chrome, Firefox.|E
+M|A web server|stores and delivers web pages|displays web pages|prints pages|is a browser|1|Apache.|E
+M|A URL is|the address of a web resource|a program|a protocol|a browser|1|Uniform Resource Locator.|E
+N|A table has 4 rows and 3 columns. Find the number of td cells.|12|4 × 3.|E|4*3
+N|An ordered list has 7 items. Find the number of li tags.|7|One per item.|E|7
+N|A page has a 800 px wide image shown at 50%. Find the displayed width in px.|400|50% of 800.|E|800*0.5
+N|A colour is rgb(255, 0, 0). Find the sum of the three values.|255|255 + 0 + 0.|E|255+0+0
+N|A page weighs 2 MB and a user downloads it at 4 Mbps. Find the time in seconds.|4|2 × 8 / 4.|M|2*8/4
+N|A hex colour #FF0000 has red channel FF. Find its decimal value.|255|F = 15 so 15 × 16 + 15.|M|15*16+15
+N|The h1 tag size is 32 px and h3 is 18.72 px. Find their difference to one decimal place.|13.3|32 − 18.72.|M|32-18.72
+N|A website has 5 pages and each links to every other page. Find the number of links in total.|20|5 × 4.|M|5*4
+S|Write the HTML structure of a basic web page.|It starts with the html tag containing a head with a title and a body with the page content such as headings and paragraphs.|doctype first.|M
+S|Distinguish between inline, internal and external CSS.|Inline CSS is written in an element's style attribute, internal CSS is inside a style tag in the head, and external CSS is in a separate .css file linked to the page.|External is best for many pages.|M
+S|Explain the role of HTML, CSS and JavaScript in a web page.|HTML gives the structure, CSS the appearance, and JavaScript the behaviour and interaction.|Three layers.|M
+S|Write HTML to create a link to a page.|Use the anchor tag with the href attribute, for example <a href="page.html">Click</a>.|The text is clickable.|M
+S|Describe how to create a table in HTML.|Use the table tag with tr for each row and th or td for header and data cells inside each row.|Borders by CSS.|M
+S|Explain what happens when you type a URL in a browser.|The browser asks DNS for the IP address, sends an HTTP request to the web server, receives the HTML page and displays it.|Client-server.|M
+
+# 6 Software Engineering
+M|Software engineering is the|systematic approach to developing software|use of hardware|study of networks|repair of computers|1|Engineering principles.|E
+M|SDLC stands for|Software Development Life Cycle|System Design Life Chain|Software Design Language Code|Standard Development Life Cycle|1|Phases of building software.|E
+M|The first phase of the SDLC is|requirements analysis|testing|maintenance|deployment|1|Understand the need.|E
+M|The phase in which the structure of the software is planned is|design|coding|testing|maintenance|1|Architecture.|E
+M|The phase in which the program is written is|implementation or coding|analysis|maintenance|planning|1|Programming.|E
+M|The phase in which errors are found is|testing|design|analysis|coding|1|Verification.|E
+M|The phase after deployment is|maintenance|analysis|design|testing|1|Updates and fixes.|E
+M|The waterfall model is|a linear sequential model|an iterative model only|a random model|a parallel model only|1|Phase after phase.|M
+M|The main disadvantage of the waterfall model is|it is difficult to change requirements|it is too fast|it has no phases|it needs no documents|1|Rigid.|M
+M|The agile approach focuses on|iterative development and customer feedback|long documents|no testing|a single release|1|Sprints.|M
+M|The prototype model builds|a working sample for feedback|the final product immediately|only documents|nothing|1|Early model.|M
+M|In the spiral model, the emphasis is on|risk analysis|no planning|only coding|only testing|1|Repeated cycles.|H
+M|A requirement specification document is called|SRS|SDD|STD|SQA|1|Software Requirements Specification.|M
+M|A functional requirement describes|what the system should do|how fast it must be|its colour|its price|1|Features.|M
+M|A non-functional requirement describes|qualities such as performance and security|features only|code only|users only|1|Quality attributes.|M
+M|Data flow diagrams show|the movement of data through a system|hardware connections|network cables|program code|1|DFD.|M
+M|A flowchart is a|diagram of the steps of an algorithm|database|network|program|1|Symbols.|E
+M|UML stands for|Unified Modeling Language|Universal Machine Language|Unified Making Logic|User Model Language|1|Diagrams for design.|M
+M|A use case diagram shows|how users interact with a system|database tables|network layout|machine code|1|Actors and use cases.|M
+M|Black-box testing tests the software|without knowing the internal code|using the internal code|only the hardware|only the network|1|Inputs and outputs.|M
+M|White-box testing tests the software|using knowledge of the internal code|without code|only the interface|only the user|1|Paths.|M
+M|Unit testing tests|individual modules|the entire system|only the user interface|only the database|1|Smallest parts.|M
+M|Integration testing tests|combined modules working together|single statements|hardware|nothing|1|Interfaces.|M
+M|System testing tests|the complete system|a single unit|only code|only documents|1|End to end.|M
+M|Acceptance testing is done by|the user or client|only programmers|only testers|the compiler|1|Final approval.|M
+M|Alpha testing is done|within the development organisation|by the public|by customers at home|never|1|Internal.|M
+M|Beta testing is done|by a selected group of external users|only by developers|by no one|by the compiler|1|Real-world feedback.|M
+M|Software maintenance includes|correcting errors and adding features|only coding|only design|only analysis|1|After release.|M
+M|A bug is|an error in a program|a feature|a user|a computer|1|Defect.|E
+M|Documentation of software helps in|understanding and maintaining it|slowing it|deleting it|nothing|1|Manuals.|E
+M|A software license gives|permission to use software under conditions|ownership of the code|free hardware|a virus|1|EULA.|M
+M|Open source software|has source code available to everyone|has hidden source code|is always illegal|costs money always|1|Linux.|E
+M|Proprietary software|is owned by a company and restricted|is free to modify|has public code|is never sold|1|Windows.|E
+M|Freeware is software that|is free to use but not to modify|is open source|costs money|has no license|1|Skype was freeware.|M
+M|Shareware is software that|can be tried for free before buying|is always free|is open source|is illegal|1|Trial period.|M
+M|Version control systems such as Git are used to|track changes in source code|design hardware|play music|send emails|1|History.|M
+M|A CASE tool is|a tool that supports software development|a computer case|a type of cable|a monitor|1|Computer-aided software engineering.|M
+N|A project of 120 tasks is 25% complete. Find the number of tasks completed.|30|0.25 × 120.|E|0.25*120
+N|A team of 5 finishes a job in 12 days. Find the days needed for 10 with the same productivity.|6|60/10.|M|5*12/10
+N|A program has 4000 lines with 2 bugs per 1000 lines. Find the number of bugs.|8|4 × 2.|E|4000/1000*2
+N|A test suite has 250 tests and 235 pass. Find the pass percentage.|94|235/250.|M|235/250*100
+N|A project takes 6 months for design, 3 for coding and 3 for testing. Find the total months.|12|Sum.|E|6+3+3
+N|A software costs 40 000 rupees to build and 25% more to maintain. Find the maintenance cost.|10000|0.25 × 40 000.|M|0.25*40000
+N|A team writes 50 lines of code per day. Find the lines in 20 working days.|1000|50 × 20.|E|50*20
+N|A bug fix takes 3 hours and 8 bugs are fixed. Find the total hours.|24|3 × 8.|E|3*8
+S|Describe the phases of the SDLC.|Requirements analysis, design, implementation, testing, deployment and maintenance.|Each produces documents.|M
+S|Distinguish between the waterfall and agile models.|The waterfall model completes each phase in order and is rigid, while the agile model delivers in short iterations with continuous customer feedback.|Agile adapts to change.|M
+S|Distinguish between black-box and white-box testing.|Black-box testing checks inputs and outputs without seeing the code, while white-box testing uses knowledge of the internal code and paths.|Both are needed.|M
+S|Explain the different levels of software testing.|Unit testing checks single modules, integration testing checks modules together, system testing checks the whole system, and acceptance testing is done by the user.|From small to large.|M
+S|Distinguish between open source and proprietary software.|Open source software has publicly available code that can be modified, while proprietary software has hidden code and restricted use.|Linux versus Windows.|M
+S|Why is software documentation important?|It explains how the software works and how to use it, helps developers maintain it and trains users.|Reduces future cost.|M
+
+# 7 Information Security and Cryptography
+M|Information security aims to protect|confidentiality, integrity and availability|only hardware|only software|only networks|1|CIA triad.|E
+M|Confidentiality means|only authorised people can access information|data is always available|data is unchanged|data is deleted|1|Secrecy.|E
+M|Integrity means|data is accurate and not altered|data is secret|data is available|data is large|1|Unchanged.|E
+M|Availability means|information is accessible when needed|data is secret|data is accurate|data is old|1|Uptime.|E
+M|Malware is|malicious software|an antivirus|an operating system|a backup|1|Virus, worm, trojan.|E
+M|A virus|attaches itself to files and spreads|is always harmless|is a hardware|is a browser|1|Needs a host.|E
+M|A worm|spreads over networks without a host file|needs a host file|is hardware|is an antivirus|1|Self-replicating.|M
+M|A Trojan horse|appears useful but contains malicious code|spreads by itself|is an antivirus|is a firewall|1|Disguised.|M
+M|Ransomware|encrypts files and demands payment|is an antivirus|is a firewall|is a backup|1|Extortion.|M
+M|Spyware|secretly collects information about a user|protects a user|is a firewall|is a browser|1|Privacy risk.|M
+M|Phishing is|tricking users into revealing personal information|a type of fishing|a firewall|an antivirus|1|Fake emails and sites.|E
+M|A denial-of-service (DoS) attack|makes a service unavailable|steals passwords|encrypts files|installs updates|1|Overloads a server.|M
+M|Social engineering attacks target|human behaviour|only hardware|only software|only networks|1|Manipulation.|M
+M|A strong password should contain|a mix of letters, numbers and symbols|only your name|only numbers|your birth date|1|Length and complexity.|E
+M|Two-factor authentication uses|two different proofs of identity|two passwords|two computers|two networks|1|Password and code.|M
+M|A firewall is used to|filter network traffic|speed up the Internet|store files|print documents|1|Hardware or software.|E
+M|Antivirus software|detects and removes malware|creates viruses|speeds up the CPU|stores files|1|Needs updates.|E
+M|Cryptography is the science of|secret writing|networking|programming|hardware|1|Encryption.|E
+M|Encryption converts|plaintext into ciphertext|ciphertext into plaintext|files to folders|text to images|1|Scrambling.|E
+M|Decryption converts|ciphertext into plaintext|plaintext into ciphertext|text to images|files to folders|1|Unscrambling.|E
+M|In the Caesar cipher each letter is|shifted by a fixed number of positions|replaced by a random symbol|deleted|duplicated|1|Julius Caesar.|M
+M|A Caesar cipher with shift 3 changes A to|D|C|B|Z|1|A→D.|M
+M|Symmetric key encryption uses|the same key for encryption and decryption|two different keys|no keys|public keys only|1|AES.|M
+M|Asymmetric key encryption uses|a public key and a private key|one shared key|no keys|a password only|1|RSA.|M
+M|AES is an example of|symmetric encryption|asymmetric encryption|hashing|steganography|1|Block cipher.|M
+M|RSA is an example of|asymmetric encryption|symmetric encryption|hashing|compression|1|Public key.|M
+M|A digital signature is used to|verify the sender and integrity|compress files|speed up the network|store passwords|1|Authentication.|M
+M|A hash function produces|a fixed-size digest of data|a copy of the data|an image|a key pair|1|One-way.|M
+M|HTTPS uses|SSL or TLS encryption|no encryption|only a password|only a firewall|1|Secure web.|M
+M|A digital certificate is issued by|a certificate authority|a browser|a firewall|an ISP only|1|Verifies identity.|H
+M|A VPN|creates an encrypted tunnel over a public network|speeds up the CPU|removes viruses|prints documents|1|Virtual private network.|M
+M|Steganography is|hiding a message inside another file|encrypting a message|deleting a message|copying a message|1|Hidden data.|H
+M|Backups protect against|data loss|viruses always|slow networks|bad design|1|Copy of data.|E
+M|The Pakistani law against cybercrime is the|Prevention of Electronic Crimes Act 2016|Telegraph Act|Companies Act|Evidence Act|1|PECA.|M
+M|Hacking means|gaining unauthorised access to a system|writing programs|repairing computers|installing software|1|Illegal if unauthorised.|E
+M|A white-hat hacker|tests security with permission|attacks for profit|steals data|spreads viruses|1|Ethical hacker.|M
+N|A Caesar cipher uses shift 3. Find the position (A = 1) of the encrypted letter for H (8).|11|8 + 3.|E|8+3
+N|A Caesar cipher uses shift 5. Find the position (A = 1) of the encrypted letter for V (22), wrapping around 26.|1|22 + 5 − 26.|M|22+5-26
+N|A password has 8 characters chosen from 26 lowercase letters. Find the number of possible passwords in billions to one decimal place.|208.8|26⁸ ≈ 2.088 × 10¹¹.|H|26^8/1e9
+N|A password has 4 digits. Find the number of possible PINs.|10000|10⁴.|E|10^4
+N|A key has 128 bits. Find the number of key bits in bytes.|16|128/8.|E|128/8
+N|A hash digest is 256 bits. Find the length in bytes.|32|256/8.|E|256/8
+N|An attacker tries 1000 passwords per second. Find the time in seconds to try 10 000 PINs.|10|10 000/1000.|M|10000/1000
+N|A file of 12 MB is encrypted at 3 MB per second. Find the time in seconds.|4|12/3.|E|12/3
+S|Explain the CIA triad.|Confidentiality keeps data secret from unauthorised users, integrity keeps it accurate and unchanged, and availability keeps it accessible when needed.|Core of security.|M
+S|Distinguish between a virus, a worm and a Trojan.|A virus attaches to files and needs a host, a worm spreads by itself over networks, and a Trojan pretends to be useful software but contains harmful code.|Types of malware.|M
+S|Distinguish between symmetric and asymmetric encryption.|Symmetric encryption uses one shared key, while asymmetric encryption uses a public key to encrypt and a private key to decrypt.|Public keys can be shared.|M
+S|Explain phishing and how to avoid it.|Phishing uses fake emails or sites to steal information, and it is avoided by not clicking unknown links, checking addresses and never sharing passwords.|Social engineering.|M
+S|Describe how a digital signature works.|The sender hashes the message and encrypts the hash with a private key, and the receiver decrypts it with the public key to check the sender and that the message is unchanged.|Authentication.|M
+S|State five good security practices for users.|Use strong unique passwords, enable two-factor authentication, keep software updated, use antivirus and a firewall, and back up data regularly.|Common sense.|M
+
+# 8 Artificial Intelligence and Emerging Technologies
+M|Artificial intelligence is|the ability of machines to perform tasks that need human intelligence|a type of hardware|an operating system|a network|1|Learning, reasoning.|E
+M|The term "artificial intelligence" was coined in|1956|1990|1900|2010|1|Dartmouth conference.|M
+M|Machine learning is a branch of AI in which|computers learn from data|computers are programmed line by line only|computers are switched off|users type commands|1|Training.|E
+M|In supervised learning the data is|labelled|unlabelled|random|empty|1|Input and output given.|M
+M|In unsupervised learning the data is|unlabelled|labelled|empty|encrypted|1|Finds patterns.|M
+M|Clustering is an example of|unsupervised learning|supervised learning|reinforcement learning|rule-based systems|1|Groups data.|M
+M|Classification is an example of|supervised learning|unsupervised learning|no learning|hardware|1|Predict classes.|M
+M|Reinforcement learning uses|rewards and penalties|labels only|clusters|no feedback|1|Agent and environment.|M
+M|A neural network is inspired by|the human brain|a calculator|a printer|a server|1|Neurons.|E
+M|Deep learning uses|neural networks with many layers|a single layer|no layers|only rules|1|Hidden layers.|M
+M|Natural language processing deals with|understanding human language|network cables|disk drives|printers|1|Chatbots.|E
+M|Computer vision allows computers to|understand images and videos|print documents|store files|play music|1|Face recognition.|E
+M|An expert system|uses knowledge to solve problems in a field|is a hardware|is a network|is a printer|1|Medical diagnosis.|M
+M|A robot is|a programmable machine that performs tasks automatically|a printer|a network|a database|1|Sensors and actuators.|E
+M|The Turing test checks if a machine|can behave like a human in conversation|can calculate fast|can print|can store data|1|Alan Turing.|M
+M|Big data refers to|extremely large and complex data sets|small files|a single file|an application|1|Volume, velocity, variety.|E
+M|The three Vs of big data are|volume, velocity and variety|virus, voltage and value|video, voice and vector|view, vote and version|1|Characteristics.|M
+M|The Internet of Things connects|everyday devices to the Internet|only computers|only phones|only servers|1|Smart devices.|E
+M|Cloud computing provides|computing resources over the Internet|only local storage|only printers|only keyboards|1|Pay as you use.|E
+M|An example of cloud storage is|Google Drive|Notepad|Paint|Calculator|1|Online storage.|E
+M|SaaS stands for|Software as a Service|System as a Server|Software and a Server|Storage as a Service|1|Cloud model.|M
+M|Blockchain is|a distributed ledger of linked blocks|a type of cable|an operating system|a browser|1|Bitcoin.|M
+M|Bitcoin is a|cryptocurrency|bank|browser|printer|1|Digital currency.|E
+M|Virtual reality|creates an immersive simulated environment|adds notes to the real world|is a network|is a database|1|Headset.|E
+M|Augmented reality|overlays digital content on the real world|is an operating system|is a protocol|is a printer|1|Pokémon Go.|M
+M|3D printing creates objects by|adding material layer by layer|cutting material|melting machines|drawing only|1|Additive manufacturing.|M
+M|5G is the fifth generation of|mobile network technology|computer language|operating system|database|1|Faster speeds.|E
+M|A drone is|an unmanned aerial vehicle|a program|a database|a network|1|Remote controlled.|E
+M|Biometric authentication uses|physical features such as fingerprints|passwords only|PINs only|cards only|1|Unique to a person.|E
+M|A concern about AI is|bias and job loss|faster computing|cheaper printers|better monitors|1|Ethics.|M
+M|A chatbot is a program that|simulates conversation with users|prints documents|stores files|sends cables|1|Customer service.|E
+M|Quantum computers use|qubits|only bits|transistors only|vacuum tubes|1|Superposition.|H
+M|A qubit can be|0, 1 or both at once|only 0|only 1|only 2|1|Superposition.|H
+M|Edge computing processes data|near where it is generated|only in distant data centres|never|only on paper|1|Lower latency.|H
+M|Smart cities use|sensors and data to manage services|only paper records|no technology|only cars|1|IoT.|M
+N|A neural network has 3 layers with 4, 5 and 2 neurons. Find the total neurons.|11|4 + 5 + 2.|E|4+5+2
+N|A dataset has 1000 samples with 80% used for training. Find the number of test samples.|200|20% of 1000.|E|1000*0.2
+N|A model gets 90 of 100 predictions correct. Find the accuracy percentage.|90|90/100.|E|90/100*100
+N|A model predicts 45 of 60 test items correctly. Find the accuracy percentage.|75|45/60.|E|45/60*100
+N|A sensor sends 5 readings per second. Find the readings in one hour.|18000|5 × 3600.|E|5*3600
+N|10 smart devices each send 2 MB per day. Find the data per day in MB.|20|10 × 2.|E|10*2
+N|A qubit register of 3 qubits can represent how many states at once?|8|2³.|M|2^3
+N|A 4G speed of 50 Mbps is increased 10 times in 5G. Find the 5G speed in Mbps.|500|50 × 10.|E|50*10
+S|Define artificial intelligence and give two applications.|Artificial intelligence is the ability of machines to perform tasks needing human intelligence, such as speech recognition and medical diagnosis.|Also self-driving cars.|M
+S|Distinguish between supervised and unsupervised learning.|Supervised learning trains on labelled data to predict outputs, while unsupervised learning finds patterns in unlabelled data.|Classification versus clustering.|M
+S|Explain what the Internet of Things is with an example.|It is a network of everyday devices fitted with sensors and connected to the Internet, such as a smart thermostat that is controlled from a phone.|Data from devices.|M
+S|Explain cloud computing and its advantages.|Cloud computing provides storage and computing power over the Internet, with advantages of low cost, easy scaling and access from anywhere.|Pay as you use.|M
+S|Distinguish between virtual reality and augmented reality.|Virtual reality replaces the real world with a simulated one, while augmented reality adds digital information to the real world view.|Headset versus phone.|M
+S|Discuss two ethical concerns about artificial intelligence.|AI can be biased if trained on biased data, and automation may cause job losses, so it needs fair design and regulation.|Also privacy.|M

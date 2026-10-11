@@ -1,0 +1,158 @@
+@level 1st Year
+@subject Chemistry
+
+# 1 Basic Concepts
+M|The relative atomic mass of an element is defined with reference to|one twelfth of the mass of a carbon-12 atom|the mass of a hydrogen atom|the mass of an oxygen atom|the mass of an electron|1|The carbon-12 scale.|E
+M|One mole of a substance contains|6.022 × 10²³ particles|6.022 × 10²² particles|6.022 × 10²⁴ particles|10²³ particles|1|Avogadro's number.|E
+M|Avogadro's number is|6.022 × 10²³ mol⁻¹|6.022 × 10⁻²³ mol⁻¹|3 × 10⁸ mol⁻¹|1.6 × 10⁻¹⁹ mol⁻¹|1|It is the number of particles per mole.|E
+M|The molar volume of an ideal gas at STP is|22.4 dm³|24 dm³|11.2 dm³|44.8 dm³|1|At 273 K and 1 atm.|E
+M|The number of moles of a substance is|mass/molar mass|molar mass/mass|mass × molar mass|mass + molar mass|1|n = m/M.|E
+M|The empirical formula of a compound shows|the simplest whole number ratio of atoms|the actual number of atoms|the structure|the mass only|1|For example CH₂O.|M
+M|The molecular formula is a|whole number multiple of the empirical formula|fraction of the empirical formula|unrelated to it|always equal to it|1|n times the empirical formula.|M
+M|The limiting reagent is the reactant that|is completely used up first|is in excess|is a catalyst|is a product|1|It decides the amount of product.|M
+M|The percentage yield is|(actual yield/theoretical yield) × 100|(theoretical/actual) × 100|actual × theoretical|actual − theoretical|1|A measure of efficiency.|M
+M|The theoretical yield of a reaction is calculated from|the balanced equation and the limiting reagent|experiments only|the excess reagent|the catalyst|1|The maximum possible amount.|M
+M|An ion is an atom or group of atoms with|a net electric charge|no charge|only neutrons|a negative mass|1|It has lost or gained electrons.|E
+M|A cation is a|positively charged ion|negatively charged ion|neutral atom|neutron|1|It has lost electrons.|E
+M|An anion is a|negatively charged ion|positively charged ion|neutral atom|proton|1|It has gained electrons.|E
+M|The relative molecular mass of H₂O is|18|16|2|10|1|2 + 16.|E
+M|The mass of 1 mole of carbon-12 atoms is|12 g|1 g|6 g|24 g|1|The definition of the mole.|E
+M|A mass spectrometer is used to determine|the relative atomic masses of isotopes and their abundances|the temperature|the pressure|the colour|1|It separates ions by m/z.|M
+M|The relative atomic mass of chlorine is 35.5 because|it is a weighted average of its isotopes|it has 35.5 protons|it has half neutrons|it is a molecule|1|Chlorine-35 and chlorine-37.|M
+M|Isotopes of an element have the same|number of protons|number of neutrons|mass number|density|1|Atomic number is the same.|M
+M|Avogadro's law states that equal volumes of all gases at the same temperature and pressure contain|equal numbers of molecules|equal masses|equal numbers of atoms of each type|equal densities|1|At the same T and P.|M
+M|A hydrated salt contains|water of crystallisation|no water|only water|oxygen only|1|CuSO₄·5H₂O is an example.|M
+M|The water of crystallisation in CuSO₄·5H₂O is|5 moles of water per mole of salt|5 g|5 atoms of oxygen|1 mole|1|Five molecules.|M
+M|The mole ratio in a balanced equation is given by the|coefficients|subscripts|colours|states|1|They show the proportions.|E
+M|The unit of molar mass is|g mol⁻¹|g|mol|g mol|1|Mass per mole.|E
+M|The molecular formula of benzene is|C₆H₆|C₆H₁₂|C₂H₂|C₆H₁₄|1|Its empirical formula is CH.|M
+M|The molecular formula of glucose is|C₆H₁₂O₆|CH₂O|C₁₂H₂₂O₁₁|C₆H₆|1|Its empirical formula is CH₂O.|M
+M|The gram atomic mass of an element contains|one mole of atoms|one atom|one molecule|one ion|1|6.022 × 10²³ atoms.|M
+M|The number of atoms in 1 mole of O₂ molecules is|2 × 6.022 × 10²³|6.022 × 10²³|3 × 6.022 × 10²³|4 × 6.022 × 10²³|1|Each molecule has two atoms.|M
+M|A solution of known concentration is called a|standard solution|saturated solution|supersaturated solution|buffer|1|It is used in titrations.|M
+M|The unit of concentration molarity is|mol dm⁻³|g dm⁻³|mol kg⁻¹|g mol⁻¹|1|Moles per litre of solution.|E
+N|Find the molar mass of H₂SO₄ in g/mol. (H = 1, S = 32, O = 16)|98|2 + 32 + 64.|E|2+32+64
+N|Find the number of moles in 36 g of water (M = 18 g/mol).|2|36/18.|E|36/18
+N|Find the mass in g of 0.25 mol of NaCl (M = 58.5 g/mol), to two decimals.|14.63|0.25 × 58.5.|M|0.25*58.5
+N|Find the number of molecules in 0.5 mol, in units of 10²³. N_A = 6.022 × 10²³.|3.011|0.5 × 6.022.|M|0.5*6.022
+N|Find the volume in dm³ of 2 mol of a gas at STP.|44.8|2 × 22.4.|E|2*22.4
+N|Find the number of moles in 11.2 dm³ of a gas at STP.|0.5|11.2/22.4.|E|11.2/22.4
+N|Find the percentage of carbon in CO₂. (C = 12, O = 16) to one decimal.|27.3|12/44 × 100.|M|12/44*100
+N|A compound has 40% C, 6.7% H and 53.3% O. Find the mole ratio of C to H (to the nearest whole number of H per C).|2|C: 3.33, H: 6.7 → H/C = 2.|H|6.7/1/(40/12)
+N|The empirical formula of a compound is CH₂ and its molar mass is 42 g/mol. Find the number of carbon atoms in its molecular formula. (CH₂ = 14)|3|42/14 = 3.|M|42/14
+N|N₂ + 3H₂ → 2NH₃. Find the moles of NH₃ formed from 6 mol of H₂.|4|6 × 2/3.|M|6*2/3
+N|Find the mass in g of CO₂ (44 g/mol) formed when 12 g of carbon burns completely. C + O₂ → CO₂|44|12 g is 1 mol.|M|12/12*44
+N|Find the percentage yield if 45 g is obtained against a theoretical 50 g.|90|45/50 × 100.|E|45/50*100
+N|2Mg + O₂ → 2MgO. Find the mass in g of MgO (40 g/mol) from 12 g of Mg (24 g/mol).|20|0.5 mol.|M|12/24*40
+N|Find the mass in g of oxygen needed to burn 1 mol of CH₄. CH₄ + 2O₂ → CO₂ + 2H₂O|64|2 × 32.|M|2*32
+N|Find the number of moles of water of crystallisation in CuSO₄·5H₂O per mole of salt.|5|By the formula.|E|5
+N|Find the molarity of a solution of 4 g NaOH (M = 40) in 500 cm³.|0.2|0.1 mol/0.5 L.|M|4/40/0.5
+S|Define the mole and Avogadro's number.|The mole is the amount of substance containing as many particles as there are atoms in 12 g of carbon-12. Avogadro's number is 6.022 × 10²³ per mole.|It links mass and number of particles.|M
+S|Distinguish between empirical and molecular formulae.|The empirical formula gives the simplest whole-number ratio of atoms, whereas the molecular formula gives the actual number of atoms in a molecule.|For benzene they are CH and C₆H₆.|M
+S|What is a limiting reagent?|The reactant that is completely consumed first and so limits the amount of product formed.|The other reactants are in excess.|M
+S|Define percentage yield.|(Actual yield/theoretical yield) × 100.|It shows the efficiency of the reaction.|E
+S|State Avogadro's law.|Equal volumes of all gases at the same temperature and pressure contain the same number of molecules.|One mole occupies 22.4 dm³ at STP.|M
+S|How is the relative atomic mass of an element found with a mass spectrometer?|The spectrometer gives the masses and relative abundances of the isotopes, and the relative atomic mass is their weighted average.|For chlorine it is 35.5.|M
+
+# 2 Experimental Techniques in Chemistry
+M|Crystallisation is used to purify|a solid dissolved in a solvent|a gas|a liquid mixture|a metal only|1|The solid crystallises on cooling.|E
+M|In crystallisation, the solution is first|saturated by heating|cooled|filtered cold|frozen|1|It is evaporated to saturation.|M
+M|Sublimation is used to purify|a solid that changes directly to a vapour on heating|a liquid|a metal|a salt|1|For example iodine or camphor.|M
+M|Simple distillation is used to separate|a liquid from a dissolved solid|two liquids with similar boiling points|two solids|gases|1|The liquid boils and condenses.|M
+M|Fractional distillation is used to separate|miscible liquids with different boiling points|insoluble solids|gases from solids|metals|1|It uses a fractionating column.|M
+M|Solvent extraction is based on|the different solubility of a solute in two immiscible solvents|boiling points|melting points|density|1|The partition law.|M
+M|The distribution (partition) coefficient is|the ratio of concentrations of a solute in two immiscible solvents|the product of concentrations|the difference of concentrations|the sum of concentrations|1|K = C₁/C₂.|M
+M|Chromatography separates substances based on|differences in their distribution between a mobile and a stationary phase|colour only|mass only|density only|1|The substances move at different rates.|M
+M|In paper chromatography the stationary phase is|water held in the paper|the solvent|air|the sample|1|Cellulose holds water.|M
+M|The Rf value is|distance moved by the solute/distance moved by the solvent|distance moved by the solvent/distance moved by the solute|solute × solvent|solute − solvent|1|It is always less than 1.|M
+M|The Rf value of a substance is always|less than 1|greater than 1|equal to 1|zero|1|The solute cannot move faster than the solvent.|M
+M|Filtration is used to separate|an insoluble solid from a liquid|two liquids|two gases|two solids|1|The filtrate passes through.|E
+M|The liquid that passes through the filter paper is called the|filtrate|residue|precipitate|distillate|1|The solid left is the residue.|E
+M|The solid left on the filter paper is the|residue|filtrate|distillate|solvent|1|It is the insoluble substance.|E
+M|A separating funnel is used to separate|immiscible liquids|solids|gases|miscible liquids|1|The denser liquid is run off first.|M
+M|Column chromatography uses|a column packed with a stationary phase|a filter paper|a funnel|a flask|1|The sample passes through.|M
+M|Gas chromatography is used to separate|volatile mixtures|metals|large solids|crystals|1|A carrier gas is the mobile phase.|M
+M|A pure substance has a|sharp melting point|range of melting points|no melting point|variable boiling point|1|Impurities lower and widen the melting point.|M
+M|The best way to separate a mixture of salt and sand is by|dissolving, filtering and evaporating|distillation|chromatography|sublimation|1|Salt dissolves and sand does not.|M
+M|The best way to obtain pure water from sea water is|distillation|filtration|crystallisation|chromatography|1|The water evaporates and condenses.|E
+M|The best way to separate the pigments in ink is|chromatography|filtration|distillation|sublimation|1|They move at different speeds.|E
+M|In fractional distillation of crude oil, the fraction with the lowest boiling point comes off at the|top of the column|bottom of the column|middle only|never|1|It rises highest.|M
+M|A suitable solvent for recrystallisation should|dissolve the solute when hot and not when cold|dissolve the solute at all temperatures|never dissolve the solute|boil at a very low temperature|1|So crystals form on cooling.|M
+M|Washing the crystals with a little cold solvent removes|surface impurities|the crystals|the solvent|the filter paper|1|Without dissolving the crystals.|M
+M|The mother liquor is the|solution left after crystals separate|the crystals|the filter paper|the solvent only|1|It contains impurities.|M
+M|Decantation is used to separate|a liquid from a settled solid|two gases|two liquids|dissolved solids|1|Pour off the liquid.|E
+M|Centrifugation separates|suspended particles by spinning|dissolved salts|gases|metals|1|The denser particles settle.|M
+M|Electrophoresis separates|charged particles in an electric field|neutral molecules|gases|metals|1|Used for proteins and DNA.|M
+N|A solute moves 3.0 cm while the solvent front moves 6.0 cm. Find the Rf value.|0.5|3/6.|E|3/6
+N|A spot moves 2.4 cm and the solvent front 8.0 cm. Find the Rf value.|0.3|2.4/8.|E|2.4/8
+N|The Rf value is 0.6 and the solvent front is at 10 cm. Find the distance in cm moved by the solute.|6|0.6 × 10.|E|0.6*10
+N|The partition coefficient of a solute between ether and water is 5. Find its concentration in ether if the concentration in water is 0.2 M.|1|5 × 0.2.|M|5*0.2
+N|A solute has a partition coefficient K = 10 between ether and water. 100 mL of water contains 1 g of it and is shaken once with 50 mL of ether. Using fraction extracted = K·V(ether)/(K·V(ether) + V(water)), find the mass in g extracted, to two decimals.|0.83|500/(500 + 100) = 0.83 of 1 g.|H|10*50/(10*50+100)
+N|Find the percentage recovery when 4.5 g of crystals are obtained from 5.0 g.|90|4.5/5.0 × 100.|E|4.5/5*100
+N|A mixture is 60 percent salt by mass. Find the mass in g of salt in 250 g of the mixture.|150|250 × 0.6.|E|250*0.6
+N|After distillation 80 mL of distillate is obtained from 100 mL of solution. Find the percentage of liquid collected.|80|80/100.|E|80/100*100
+N|A mixture contains 30 mL of ethanol and 70 mL of water. Find the percentage of ethanol by volume.|30|30/(30 + 70) × 100.|E|30/(30+70)*100
+N|A chromatogram shows Rf values 0.25 and 0.75 for two spots. Find the difference in Rf.|0.5|0.75 − 0.25.|E|0.75-0.25
+N|A sample of 20 g contains 5 percent impurity. Find the mass in g of the impurity.|1|20 × 0.05.|E|20*0.05
+N|The boiling points of two liquids are 78 °C and 100 °C. Find the difference in °C.|22|100 − 78.|E|100-78
+N|A sublimable solid of 10 g loses 2 g as vapour. Find the percentage recovered as vapour.|20|2/10.|E|2/10*100
+N|A 100 mL solution is extracted with 3 portions of 20 mL ether. Find the total volume of ether in mL.|60|3 × 20.|E|3*20
+N|After filtration, the residue weighs 8 g from 40 g of mixture. Find the percentage of insoluble matter.|20|8/40.|E|8/40*100
+S|Describe the process of crystallisation.|Dissolve the impure solid in a hot solvent to make a saturated solution, filter hot to remove insoluble impurities, cool to let crystals form, then filter and wash the crystals.|It purifies solids.|M
+S|Define the Rf value in chromatography.|The ratio of the distance moved by the solute to the distance moved by the solvent front.|It is always less than 1.|M
+S|State the principle of solvent extraction.|A solute dissolved in one solvent can be extracted with a second immiscible solvent in which it is more soluble, in the ratio given by the distribution coefficient.|Several small extractions are better than one large one.|M
+S|Distinguish between simple and fractional distillation.|Simple distillation separates a liquid from a dissolved solid or liquids with widely different boiling points. Fractional distillation uses a fractionating column to separate liquids with close boiling points.|Crude oil is separated by fractional distillation.|M
+S|Give two applications of chromatography.|It is used to separate and identify pigments in dyes and the components of drugs and food additives.|It is also used in forensic work.|E
+S|What is sublimation? Give an example of a substance purified by it.|The direct change of a solid into vapour on heating without melting. Iodine or ammonium chloride can be purified by sublimation.|The vapour condenses back into a solid.|M
+
+# 3 Gases
+M|Boyle's law states that at constant temperature the volume of a fixed mass of gas is|inversely proportional to its pressure|directly proportional to its pressure|independent of its pressure|proportional to its temperature|1|PV = constant.|E
+M|Charles' law states that at constant pressure the volume of a fixed mass of gas is|directly proportional to its absolute temperature|inversely proportional to its absolute temperature|independent of temperature|proportional to pressure|1|V/T = constant.|E
+M|Gay-Lussac's law states that at constant volume the pressure of a fixed mass of gas is|directly proportional to its absolute temperature|inversely proportional to temperature|independent of temperature|proportional to volume|1|P/T = constant.|M
+M|The absolute zero of temperature is|−273.15 °C|0 °C|273.15 °C|−100 °C|1|0 K.|E
+M|The general gas equation is|PV = nRT|PV = nT|P = nRTV|V = nRTP|1|For n moles of an ideal gas.|E
+M|The value of R in L atm mol⁻¹ K⁻¹ is|0.0821|8.314|1.987|62.4|1|Other units give other values.|M
+M|The value of R in J mol⁻¹ K⁻¹ is|8.314|0.0821|1.987|62.4|1|Used with SI units.|M
+M|Dalton's law of partial pressures states that the total pressure of a mixture of gases is|the sum of the partial pressures|the product of the partial pressures|the difference of the pressures|zero|1|P = P₁ + P₂ + ...|E
+M|The partial pressure of a gas in a mixture is|mole fraction × total pressure|total pressure/mole fraction|mole fraction + total pressure|mole fraction only|1|Pᵢ = xᵢ P.|M
+M|Graham's law of diffusion states that the rate of diffusion of a gas is|inversely proportional to the square root of its molar mass|proportional to its molar mass|independent of molar mass|proportional to the square of molar mass|1|Light gases diffuse faster.|M
+M|The kinetic molecular theory assumes that the gas molecules|are in random motion and have negligible volume|attract each other strongly|have large volumes|are at rest|1|For ideal gases.|M
+M|The average kinetic energy of gas molecules is proportional to|the absolute temperature|the pressure|the volume|the mass|1|KE = (3/2)kT.|M
+M|The root mean square speed of gas molecules is|√(3RT/M)|√(RT/M)|3RT/M|√(2RT/M)|1|M is the molar mass.|M
+M|A real gas behaves ideally at|high temperature and low pressure|low temperature and high pressure|low temperature and low pressure|high pressure|1|Intermolecular forces are negligible.|M
+M|Real gases deviate from ideal behaviour because of|intermolecular forces and the finite volume of molecules|temperature only|colour|mass|1|Corrected by van der Waals.|M
+M|The van der Waals equation corrects the pressure and the|volume|temperature|mass|moles|1|(P + an²/V²)(V − nb) = nRT.|H
+M|The critical temperature is|the highest temperature at which a gas can be liquefied by pressure|the lowest temperature of the gas|the boiling point|the melting point|1|Above it no liquid forms.|M
+M|The compressibility factor Z of an ideal gas is|1|0|greater than 1|less than 1|1|Z = PV/nRT.|M
+M|The temperature at which a real gas obeys Boyle's law over a range of pressure is called the|Boyle temperature|critical temperature|boiling point|inversion temperature|1|Z ≈ 1.|H
+M|Liquefaction of gases is favoured by|high pressure and low temperature|low pressure and high temperature|high temperature only|low pressure only|1|Molecules are brought together.|M
+M|The Joule-Thomson effect is the|cooling of a real gas on expansion through a valve|heating of a gas on compression|diffusion of gases|effusion|1|Used in liquefaction.|H
+M|Effusion is the|escape of a gas through a small hole|mixing of gases|dissolving of a gas|condensation|1|It follows Graham's law.|M
+M|At the same temperature, the gas with the greatest average speed is the one with|the smallest molar mass|the largest molar mass|the highest pressure|the largest volume|1|v ∝ 1/√M.|M
+M|The density of an ideal gas is|PM/RT|RT/PM|PV/RT|P/RT|1|d = m/V = PM/RT.|H
+M|At constant temperature, doubling the pressure of a gas|halves its volume|doubles its volume|quadruples its volume|has no effect|1|Boyle's law.|E
+M|The number of molecules in 1 dm³ of any gas at STP is|2.69 × 10²²|6.022 × 10²³|2.69 × 10²⁵|1|1|6.022 × 10²³/22.4.|H
+M|Gases are easily compressed because|there is much space between molecules|molecules are large|they are heavy|they attract strongly|1|The molecules are far apart.|E
+M|Diffusion is faster for|lighter gases|heavier gases|liquids|solids|1|Graham's law.|E
+M|Plasma is called the fourth state of matter because it|consists of ions and electrons|is a solid|is a liquid|is a gas of neutral atoms|1|At very high temperatures.|M
+N|A gas has a volume of 4 dm³ at 2 atm. Find the volume in dm³ at 8 atm and constant temperature.|1|P₁V₁/P₂.|E|2*4/8
+N|A gas has a volume of 5 dm³ at 300 K. Find the volume in dm³ at 600 K and constant pressure.|10|V₂ = V₁T₂/T₁.|E|5*600/300
+N|A gas at 1 atm and 273 K is heated at constant volume to 546 K. Find the pressure in atm.|2|P ∝ T.|E|1*546/273
+N|Find the pressure in atm of 1 mol of an ideal gas in 22.4 dm³ at 273 K. R = 0.0821, to two decimals.|1|nRT/V.|M|1*0.0821*273/22.4
+N|Find the volume in dm³ of 2 mol of an ideal gas at 300 K and 1 atm. R = 0.0821, to one decimal.|49.3|nRT/P.|M|2*0.0821*300/1
+N|Find the number of moles of a gas occupying 10 dm³ at 2 atm and 300 K. R = 0.0821, to two decimals.|0.81|PV/RT.|M|2*10/(0.0821*300)
+N|A mixture contains 2 mol of N₂ and 3 mol of O₂ at a total pressure of 5 atm. Find the partial pressure of N₂ in atm.|2|(2/5) × 5.|M|2/5*5
+N|The partial pressures of two gases are 0.3 atm and 0.5 atm. Find the total pressure in atm.|0.8|Sum.|E|0.3+0.5
+N|Find the ratio of the rates of diffusion of H₂ (M = 2) and O₂ (M = 32).|4|√(32/2).|M|Math.sqrt(32/2)
+N|Find the rms speed in m/s of N₂ (M = 0.028 kg/mol) at 300 K. R = 8.314, to the nearest m/s.|517|√(3RT/M).|H|Math.sqrt(3*8.314*300/0.028)
+N|Find the density in g/dm³ of CO₂ (M = 44) at STP, to two decimals.|1.96|44/22.4.|M|44/22.4
+N|Find the temperature in kelvin equal to 25 °C.|298|25 + 273.|E|25+273
+N|A gas occupies 2 dm³ at 1 atm and 300 K. Find its volume in dm³ at 2 atm and 600 K.|2|P₁V₁T₂/(T₁P₂).|M|1*2*600/(300*2)
+N|A gas of 10 g occupies 5.6 dm³ at STP. Find its molar mass in g/mol.|40|10/(5.6/22.4).|H|10/(5.6/22.4)
+N|A gas effuses through a hole in 20 s while the same volume of oxygen takes 40 s. Find the ratio of the molar mass of the gas to that of oxygen.|0.25|Rate ∝ 1/√M, so M ratio = (20/40)².|H|(20/40)*(20/40)
+S|State Boyle's law and Charles' law.|Boyle's law: at constant temperature, PV is constant. Charles' law: at constant pressure, V/T is constant, with T in kelvin.|Together they give the gas equation.|M
+S|State Dalton's law of partial pressures.|The total pressure of a mixture of non-reacting gases is the sum of the partial pressures that each gas would exert alone in the same volume.|Pᵢ = xᵢP.|M
+S|State Graham's law of diffusion.|At constant temperature and pressure, the rate of diffusion of a gas is inversely proportional to the square root of its molar mass.|Lighter gases diffuse faster.|M
+S|State the postulates of the kinetic molecular theory.|Gases consist of tiny molecules in random motion with negligible volume, no attractive forces, elastic collisions, and an average kinetic energy proportional to absolute temperature.|They explain the gas laws.|M
+S|Why do real gases deviate from ideal behaviour?|Real molecules have a finite volume and attract each other, especially at high pressure and low temperature.|Van der Waals corrected the equation for these effects.|M
+S|Define the critical temperature of a gas.|The highest temperature above which a gas cannot be liquefied however high the pressure.|At that temperature the critical pressure is needed.|M

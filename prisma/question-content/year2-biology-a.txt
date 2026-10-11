@@ -1,0 +1,155 @@
+@level 2nd Year
+@subject Biology
+
+# 1 Gaseous Exchange
+M|Gaseous exchange is the|exchange of O₂ and CO₂ between an organism and its environment|digestion|excretion|circulation|1|By diffusion.|E
+M|A good respiratory surface is|thin, moist and has a large surface area|thick and dry|small|impermeable|1|Efficient diffusion.|E
+M|In humans gaseous exchange occurs in the|alveoli|bronchi|trachea|nose|1|Thin walls.|E
+M|The trachea is kept open by|C-shaped rings of cartilage|bone|muscle|water|1|Prevents collapse.|E
+M|The cells that secrete mucus in the airways are|goblet cells|ciliated cells|alveolar cells|red cells|1|Trap dust.|M
+M|The ciliated epithelium of the trachea|moves mucus upward|secretes mucus|absorbs oxygen|stores air|1|Cleans the airway.|M
+M|The alveolar wall is one cell thick and made of|squamous epithelium|columnar epithelium|cuboidal epithelium|bone|1|Short diffusion path.|M
+M|Surfactant in the alveoli|reduces surface tension|increases surface tension|absorbs oxygen|makes mucus|1|Prevents collapse.|M
+M|The total surface area of the alveoli is about|70 m²|7 m²|700 m²|0.7 m²|1|Like a tennis court.|M
+M|During inspiration the diaphragm|contracts and flattens|relaxes and domes|stays still|moves up|1|Increases volume.|M
+M|During inspiration the external intercostal muscles|contract|relax|stay the same|are absent|1|Ribs move up and out.|M
+M|During inspiration the pressure in the lungs|falls below atmospheric pressure|rises above atmospheric|stays the same|is zero|1|Air flows in.|M
+M|Breathing out at rest is|a passive process|an active process|forced|impossible|1|Elastic recoil.|M
+M|The tidal volume at rest is about|500 cm³|5000 cm³|50 cm³|1500 cm³|1|Normal breath.|M
+M|The vital capacity of the lungs is|the maximum volume exhaled after a maximum inhalation|the volume of a normal breath|the residual volume|the dead space|1|About 4–5 dm³.|M
+M|The residual volume is|the air left in the lungs after maximum expiration|the tidal volume|the vital capacity|the dead space|1|About 1.2 dm³.|M
+M|Oxygen is carried in the blood mainly by|haemoglobin|plasma|platelets|white cells|1|As oxyhaemoglobin.|M
+M|One haemoglobin molecule can carry|four oxygen molecules|one oxygen molecule|two oxygen molecules|eight oxygen molecules|1|Four haem groups.|M
+M|The oxygen dissociation curve of haemoglobin is|sigmoid (S-shaped)|a straight line|hyperbolic|flat|1|Cooperative binding.|M
+M|The Bohr effect is the|shift of the curve to the right at high CO₂|shift to the left|increase in affinity|no change|1|Haemoglobin releases more oxygen.|H
+M|Fetal haemoglobin has|a higher affinity for oxygen than adult haemoglobin|a lower affinity|the same affinity|no affinity|1|Curve to the left.|H
+M|Myoglobin has|a higher affinity for oxygen than haemoglobin|a lower affinity|the same affinity|no oxygen|1|Stores oxygen in muscle.|H
+M|Most carbon dioxide is transported as|hydrogencarbonate ions in the plasma|carbaminohaemoglobin|dissolved CO₂|carbon monoxide|1|About 85%.|M
+M|The enzyme in red blood cells that converts CO₂ and water to carbonic acid is|carbonic anhydrase|catalase|amylase|lipase|1|Speeds the reaction.|M
+M|The chloride shift is the|movement of Cl⁻ into red cells as HCO₃⁻ leaves|movement of Na⁺|movement of oxygen|movement of CO₂|1|Maintains electrical balance.|H
+M|The respiratory centre is in the|medulla oblongata|cerebrum|cerebellum|hypothalamus|1|Controls breathing rate.|M
+M|Breathing rate is increased mainly by a rise in blood|CO₂ concentration|oxygen concentration|glucose|pH above 7.4|1|Detected by chemoreceptors.|M
+M|Fish exchange gases using|gills|lungs|tracheae|skin only|1|Counter-current flow.|M
+M|Counter-current flow in fish gills|maintains a concentration gradient along the whole lamella|reduces uptake|stops exchange|wastes energy|1|Blood and water flow oppositely.|M
+M|Insects exchange gases through|tracheae and spiracles|lungs|gills|skin only|1|Air tubes.|M
+M|Gaseous exchange in plants occurs through the|stomata and lenticels|roots only|flowers only|seeds only|1|By diffusion.|M
+M|Asthma is a condition in which|the bronchioles constrict|the alveoli break|the trachea is blocked|lungs are infected|1|Allergic reaction.|M
+M|Emphysema is caused by|breakdown of alveolar walls|constricted bronchioles|a virus|a fungus|1|Smoking.|M
+M|Tuberculosis is caused by|Mycobacterium tuberculosis|a virus|a fungus|a protozoan|1|Lungs.|M
+M|Lung cancer is strongly associated with|smoking|exercise|vitamin C|clean air|1|Tar.|E
+N|A person breathes 15 times per minute with a tidal volume of 500 cm³. Find the minute volume in dm³.|7.5|7500/1000.|M|15*500/1000
+N|The vital capacity is 4.5 dm³ and the residual volume 1.2 dm³. Find the total lung capacity in dm³.|5.7|Sum.|M|4.5+1.2
+N|Haemoglobin is 98% saturated and 1 g carries 1.34 cm³ O₂. Find the O₂ in cm³ carried by 15 g of Hb at 100% saturation.|20.1|15 × 1.34.|M|15*1.34
+N|Inhaled air has 21% O₂ and exhaled air 16% O₂. Find the percentage absorbed.|5|21 − 16.|E|21-16
+N|Find the number of oxygen molecules carried by 100 Hb molecules fully saturated.|400|4 × 100.|M|4*100
+N|A person uses 250 cm³ of O₂ per minute. Find the volume in dm³ used in 1 hour.|15|250 × 60/1000.|M|250*60/1000
+N|The partial pressure of oxygen in the alveoli is 13.3 kPa and in the blood 5.3 kPa. Find the difference.|8|13.3 − 5.3.|M|13.3-5.3
+N|A fish gill filament is 5 mm and has 20 lamellae per mm. Find the number of lamellae per filament.|100|5 × 20.|M|5*20
+S|Describe the structure of the human gas exchange system.|Air passes through the nose, pharynx, larynx, trachea, bronchi and bronchioles to alveoli, which have thin walls, a rich capillary network and moist surfaces.|The trachea has cartilage rings.|M
+S|Describe the mechanism of ventilation.|In inspiration the diaphragm and external intercostals contract, the volume of the thorax increases, the pressure falls and air enters. In expiration the muscles relax, the volume decreases, the pressure rises and air leaves.|At rest expiration is passive.|M
+S|Explain how oxygen is transported in the blood.|Oxygen combines with haemoglobin in red cells to form oxyhaemoglobin in the lungs and is released in tissues where the partial pressure is low, with a sigmoid dissociation curve.|The Bohr effect increases release.|M
+S|Explain how carbon dioxide is transported.|About 85% is carried as hydrogencarbonate in plasma formed by carbonic anhydrase, some as carbaminohaemoglobin and a little dissolved in plasma.|The chloride shift balances charge.|M
+S|Describe how gases are exchanged in fish gills.|Water flows over gill lamellae in the opposite direction to the blood (counter-current), so the oxygen gradient is maintained over the whole length for efficient uptake.|The thin lamellae give a large surface.|M
+S|State two harmful effects of smoking on the respiratory system.|It destroys cilia and causes mucus to build up, leading to bronchitis, and damages alveoli causing emphysema and lung cancer.|Carbon monoxide reduces oxygen carriage.|M
+
+# 2 Transport
+M|The transport system in mammals is a|double circulation|single circulation|open circulation|no circulation|1|Pulmonary and systemic.|M
+M|The heart of a mammal has|four chambers|two chambers|three chambers|five chambers|1|Two atria and two ventricles.|E
+M|The valve between the right atrium and right ventricle is the|tricuspid valve|bicuspid valve|semilunar valve|aortic valve|1|Three flaps.|M
+M|The valve between the left atrium and left ventricle is the|bicuspid (mitral) valve|tricuspid valve|aortic valve|pulmonary valve|1|Two flaps.|M
+M|The wall of the left ventricle is thicker than the right because it|pumps blood to the whole body|pumps blood to the lungs|receives blood|stores blood|1|Higher pressure.|M
+M|The cardiac cycle consists of|systole and diastole|inspiration and expiration|contraction only|relaxation only|1|Contraction and relaxation.|M
+M|The natural pacemaker of the heart is the|sinoatrial node|atrioventricular node|bundle of His|Purkinje fibres|1|Initiates the beat.|M
+M|The heart beat is myogenic, which means it|originates in the heart muscle itself|is controlled by the brain|is controlled by hormones only|has no origin|1|Autorhythmic.|M
+M|The heart rate is increased by|the sympathetic nerve|the vagus nerve|acetylcholine|sleep|1|Noradrenaline.|M
+M|The vagus nerve|slows the heart rate|speeds the heart rate|stops breathing|has no effect|1|Parasympathetic.|M
+M|Arteries have|thick muscular elastic walls|thin walls|valves|wide lumen|1|Carry blood under pressure.|M
+M|Veins have|valves and thin walls|thick walls|narrow lumen|no valves|1|Prevent backflow.|M
+M|Capillaries have walls that are|one cell thick|thick|muscular|valved|1|Exchange.|E
+M|The blood plasma is about|90% water|50% water|70% protein|10% water|1|Carries solutes.|M
+M|Red blood cells have no nucleus so that they|can carry more haemoglobin|can divide|live longer|are larger|1|Biconcave discs.|M
+M|White blood cells are involved in|defence|oxygen transport|clotting only|digestion|1|Phagocytes, lymphocytes.|E
+M|Platelets are involved in|blood clotting|oxygen transport|defence|digestion|1|Fragments of megakaryocytes.|E
+M|The blood clotting enzyme that converts fibrinogen to fibrin is|thrombin|plasmin|heparin|amylase|1|Forms a mesh.|M
+M|ABO blood groups are determined by|antigens on red blood cells|plasma proteins|platelets|white cells|1|A, B, AB, O.|M
+M|The universal donor is blood group|O negative|AB positive|A|B|1|No antigens.|M
+M|The universal recipient is blood group|AB positive|O negative|A|B|1|No antibodies.|M
+M|The Rhesus factor is|an antigen on red cells|an antibody|an enzyme|a hormone|1|Rh positive or negative.|M
+M|Tissue fluid is formed by|filtration of plasma through capillary walls|osmosis only|cell secretion|digestion|1|Hydrostatic pressure.|M
+M|Excess tissue fluid is returned to the blood by the|lymphatic system|nervous system|kidneys|liver|1|Lymph vessels.|M
+M|Water moves up the xylem by|transpiration pull and cohesion|active transport|pushing only|phloem pressure|1|Cohesion-tension theory.|M
+M|Root pressure is caused by|active secretion of ions into the xylem|transpiration|capillary action only|gravity|1|Water follows by osmosis.|M
+M|The apoplast pathway is|through cell walls and spaces|through cytoplasm|through vacuoles|through plasmodesmata|1|Blocked by the Casparian strip.|H
+M|The symplast pathway is|through the cytoplasm via plasmodesmata|through cell walls|through vacuoles only|through air spaces|1|Cell to cell.|H
+M|Transpiration is the|loss of water vapour from plants|uptake of water|absorption of minerals|opening of stomata|1|Mostly through stomata.|E
+M|The rate of transpiration is increased by|high temperature and wind|high humidity|darkness|low temperature|1|Greater evaporation.|M
+M|Translocation is the|transport of organic solutes in phloem|transport of water in xylem|loss of water|uptake of ions|1|Source to sink.|M
+M|The mass flow hypothesis explains|translocation in the phloem|water uptake|transpiration|root pressure|1|Pressure gradient.|M
+M|Sieve tube elements are|living cells without a nucleus|dead cells|xylem vessels|guard cells|1|Companion cells support.|M
+M|Xylem vessels are|dead hollow tubes with lignin|living cells|sieve tubes|companion cells|1|Provide support.|M
+M|Atherosclerosis is|deposition of fatty plaque in arteries|swelling of veins|loss of red cells|clotting in veins|1|Cholesterol.|M
+M|A heart attack is caused by|blockage of a coronary artery|infection|loss of blood|anaemia|1|Myocardial infarction.|M
+N|A heart beats 72 times per minute with a stroke volume of 70 cm³. Find the cardiac output in dm³ per minute.|5.04|72 × 70/1000.|M|72*70/1000
+N|Find the heart rate in beats per minute if one cardiac cycle lasts 0.8 s.|75|60/0.8.|M|60/0.8
+N|Find the number of beats in 1 hour at 70 beats per minute.|4200|70 × 60.|E|70*60
+N|A leaf loses 3 g of water in 2 hours. Find the rate in g per hour.|1.5|3/2.|E|3/2
+N|A potometer bubble moves 24 mm in 6 minutes. Find the rate in mm per minute.|4|24/6.|E|24/6
+N|A person has 5 dm³ of blood and 45% is cells. Find the plasma volume in dm³.|2.75|5 × 0.55.|M|5*0.55
+N|A red blood cell is 7 μm across. Find the number lined up to make 1 mm.|143|1000/7.|M|1000/7
+N|Blood flows at 5 dm³ per minute. Find the volume in dm³ in 1 day.|7200|5 × 1440.|M|5*1440
+S|Describe the cardiac cycle.|In atrial systole the atria contract and push blood into the ventricles, in ventricular systole the ventricles contract and the semilunar valves open, and in diastole the whole heart relaxes and fills.|The AV valves close during ventricular systole.|M
+S|Compare the structure of arteries, veins and capillaries.|Arteries have thick elastic walls, veins have thin walls and valves, and capillaries have walls one cell thick for exchange.|Each suits its function.|M
+S|Explain how water moves from the soil to the leaf.|It enters root hairs by osmosis, crosses the cortex by apoplast and symplast pathways, enters the xylem and is pulled up by transpiration pull and cohesion.|The Casparian strip directs water through the symplast.|M
+S|Describe the mass flow hypothesis.|Sucrose is actively loaded into sieve tubes at the source, lowering water potential so water enters by osmosis, creating a hydrostatic pressure that pushes the contents to the sink where the sucrose is removed.|It explains translocation.|M
+S|Describe the control of the heart rate.|The sinoatrial node sets the rhythm, the sympathetic nerve increases the rate and the vagus nerve decreases it, with adrenaline also increasing it.|The medulla controls it.|M
+S|Explain blood clotting.|Damaged tissue and platelets release thromboplastin, which converts prothrombin to thrombin using calcium ions, and thrombin converts fibrinogen to insoluble fibrin that forms a clot.|It stops blood loss.|H
+
+# 3 Homeostasis
+M|Homeostasis is the|maintenance of a constant internal environment|growth|digestion|reproduction|1|Within limits.|E
+M|The control of homeostasis is by|negative feedback|positive feedback only|mutation|chance|1|Reverses changes.|M
+M|A negative feedback system has|a receptor, a control centre and an effector|only a receptor|only an effector|no parts|1|Corrective.|M
+M|The main excretory organ in mammals is the|kidney|liver|lung|skin|1|Removes urea.|E
+M|The functional unit of the kidney is the|nephron|neuron|alveolus|villus|1|About a million.|E
+M|The Bowman's capsule surrounds the|glomerulus|loop of Henle|collecting duct|ureter|1|Filtration.|M
+M|Ultrafiltration occurs in the|glomerulus|proximal tubule|loop of Henle|collecting duct|1|High pressure.|M
+M|Selective reabsorption of glucose occurs in the|proximal convoluted tubule|loop of Henle|collecting duct|bladder|1|All glucose.|M
+M|The loop of Henle creates|a concentration gradient in the medulla|filtration|secretion of urea|glucose uptake|1|Counter-current multiplier.|M
+M|ADH acts on the|collecting duct|glomerulus|proximal tubule|loop of Henle|1|Increases water permeability.|M
+M|ADH is secreted by the|posterior pituitary|anterior pituitary|adrenal gland|thyroid|1|Made in the hypothalamus.|M
+M|When the blood is too concentrated, ADH secretion|increases|decreases|stops|is unchanged|1|More water reabsorbed.|M
+M|The hormone aldosterone causes|reabsorption of sodium|excretion of sodium|production of urine|filtration|1|From the adrenal cortex.|M
+M|Urea is formed in the|liver|kidney|bladder|pancreas|1|From ammonia.|M
+M|The process of converting excess amino acids to urea begins with|deamination|transamination|decarboxylation|oxidation|1|Removal of amino group.|M
+M|The normal composition of urine includes|water, urea and salts|glucose|proteins|red cells|1|Abnormal if glucose.|M
+M|Glucose in the urine may indicate|diabetes mellitus|anaemia|goitre|rickets|1|Blood glucose too high.|M
+M|Protein in the urine may indicate|kidney damage|diabetes|anaemia|scurvy|1|Filter leak.|M
+M|Kidney failure can be treated by|dialysis or transplant|antibiotics|vitamins|rest|1|Replace function.|M
+M|In haemodialysis the dialysis fluid has the same concentration as the blood for|glucose and ions|urea|toxins|waste|1|To prevent loss.|H
+M|Thermoregulation is controlled by the|hypothalamus|medulla|cerebellum|pituitary|1|Thermostat.|M
+M|When body temperature rises, the body responds by|sweating and vasodilation|shivering|vasoconstriction|raising hair|1|Heat loss.|M
+M|When body temperature falls, the body responds by|shivering and vasoconstriction|sweating|vasodilation|no change|1|Heat gain.|M
+M|Endotherms|maintain a constant body temperature|have a variable body temperature|have no control|are cold-blooded|1|Birds and mammals.|M
+M|Ectotherms|depend on external sources of heat|generate heat|are mammals|are birds|1|Reptiles.|M
+M|Blood glucose is lowered by|insulin|glucagon|adrenaline|thyroxine|1|From beta cells.|M
+M|Blood glucose is raised by|glucagon|insulin|ADH|aldosterone|1|From alpha cells.|M
+M|Insulin is secreted by the|beta cells of the islets of Langerhans|alpha cells|liver|kidney|1|Pancreas.|M
+M|Type 1 diabetes is caused by|lack of insulin production|insulin resistance|lack of glucagon|excess insulin|1|Autoimmune.|M
+M|Type 2 diabetes is caused by|insulin resistance of cells|lack of insulin|lack of glucagon|excess glucagon|1|Obesity.|M
+M|The osmoregulation of plants is controlled by|the guard cells and the roots|the kidney|the liver|the heart|1|Stomata.|M
+M|Excretory products of plants include|oxygen, carbon dioxide, tannins and resins|urea|uric acid|ammonia|1|Stored in vacuoles.|M
+M|Freshwater fish excrete|large amounts of dilute urine|small amounts of concentrated urine|no urine|uric acid|1|Water enters by osmosis.|M
+M|Birds and reptiles excrete nitrogen as|uric acid|urea|ammonia|creatinine|1|Saves water.|M
+N|The glomerular filtration rate is 125 cm³ per minute. Find the volume filtered per day in dm³.|180|125 × 1440/1000.|H|125*1440/1000
+N|A person produces 1.5 dm³ of urine per day. Find the volume in cm³ per hour.|62.5|1500/24.|M|1500/24
+N|Normal blood glucose is 90 mg per 100 cm³. Find the glucose in mg in 5 dm³ of blood (5000 cm³).|4500|90 × 50.|M|90*50
+N|Body temperature is 37 °C. Find it in kelvin.|310|37 + 273.|E|37+273
+N|A person loses 800 cm³ of water per day through sweat and 1500 cm³ in urine. Find the total.|2300|Sum.|E|800+1500
+N|Out of 180 dm³ filtered, 178.5 dm³ is reabsorbed. Find the percentage reabsorbed.|99.2|178.5/180.|H|178.5/180*100
+N|A dialysis session lasts 4 hours three times a week. Find the hours per week.|12|4 × 3.|E|4*3
+N|The urea concentration in urine is 2% and the volume is 1.5 dm³ (1500 g). Find the mass of urea in g.|30|1500 × 0.02.|M|1500*0.02
+S|Define homeostasis and negative feedback.|Homeostasis is the maintenance of a constant internal environment. Negative feedback is a mechanism by which a change is detected and reversed.|It involves receptor and effector.|M
+S|Describe the structure and function of a nephron.|The nephron has a Bowman's capsule with a glomerulus for filtration, a proximal tubule for reabsorption, a loop of Henle for concentration, a distal tubule and a collecting duct.|It forms urine.|M
+S|Describe the role of ADH in osmoregulation.|When the blood is too concentrated, osmoreceptors in the hypothalamus cause the posterior pituitary to release ADH, which makes the collecting duct more permeable to water so more is reabsorbed and urine is concentrated.|The reverse occurs when dilute.|M
+S|Describe the control of blood glucose.|When glucose is high, beta cells release insulin, which causes uptake and glycogen storage. When low, alpha cells release glucagon, which causes glycogen breakdown.|Negative feedback.|M
+S|Describe how the body regulates temperature in a hot environment.|The hypothalamus detects the rise, causing vasodilation of skin arterioles, sweating and flattened hairs, which increase heat loss.|The reverse happens in cold.|M
+S|Explain how dialysis helps in kidney failure.|Blood is passed along a partially permeable membrane with dialysis fluid on the other side so that urea and excess ions diffuse out while useful substances are kept.|It is done several times a week.|M

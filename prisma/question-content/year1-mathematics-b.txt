@@ -1,0 +1,160 @@
+@level 1st Year
+@subject Mathematics
+
+# 4 Quadratic Equations
+M|The standard form of a quadratic equation in x is|ax² + bx + c = 0 with a ≠ 0|ax + b = 0|ax³ + bx² + c = 0|ax² + bx = c only with a = 0|1|The coefficient of x² must not be zero.|E
+M|The quadratic formula gives the roots as|(−b ± √(b² − 4ac))/2a|(b ± √(b² − 4ac))/2a|(−b ± √(b² + 4ac))/2a|(−b ± √(b² − 4ac))/a|1|This is the standard formula.|E
+M|The discriminant of ax² + bx + c = 0 is|b² − 4ac|b² + 4ac|4ac − b²|b/2a|1|It decides the nature of the roots.|E
+M|If the discriminant is positive, the roots are|real and distinct|real and equal|complex conjugates|undefined|1|The square root of D is real and non-zero.|E
+M|If the discriminant is zero, the roots are|real and equal|real and distinct|complex|imaginary|1|There is one repeated root.|E
+M|If the discriminant is negative (for real coefficients), the roots are|complex conjugates|real and equal|real and distinct|rational|1|Non-real roots occur in conjugate pairs.|M
+M|For real rational coefficients, the roots are rational when the discriminant is|a perfect square|negative|zero only|a prime|1|The square root of D is then rational.|M
+M|The sum of the roots of ax² + bx + c = 0 is|−b/a|b/a|c/a|−c/a|1|S = α + β = −b/a.|E
+M|The product of the roots of ax² + bx + c = 0 is|c/a|−c/a|b/a|−b/a|1|P = αβ = c/a.|E
+M|The quadratic equation whose roots are α and β is|x² − (α + β)x + αβ = 0|x² + (α + β)x + αβ = 0|x² − (α + β)x − αβ = 0|x² − αβx + (α + β) = 0|1|From the sum and product of roots.|M
+M|For roots α and β, the value of α² + β² is|(α + β)² − 2αβ|(α + β)² + 2αβ|(α − β)²|α² − β²|1|Expand (α + β)² and subtract 2αβ.|M
+M|For roots α and β, the value of α³ + β³ is|(α + β)³ − 3αβ(α + β)|(α + β)³ + 3αβ(α + β)|(α + β)³ − αβ|(α − β)³|1|From the cube of a sum.|M
+M|For roots α and β, (α − β)² equals|(α + β)² − 4αβ|(α + β)² + 4αβ|α² + β²|α² − β²|1|(α − β)² = D/a².|M
+M|If the roots of ax² + bx + c = 0 are reciprocals of each other, then|a = c|a = b|b = c|b = 0|1|The product c/a = 1.|M
+M|If the roots are equal in magnitude and opposite in sign, then|b = 0|c = 0|a = 0|a = c|1|The sum −b/a = 0.|M
+M|If one root of ax² + bx + c = 0 is zero, then|c = 0|b = 0|a = 0|a = c|1|The product c/a = 0.|M
+M|The factor theorem states that x − a is a factor of f(x) if and only if|f(a) = 0|f(0) = a|f(−a) = 0|f(a) = a|1|The polynomial vanishes at x = a.|M
+M|The remainder theorem states that when f(x) is divided by x − a, the remainder is|f(a)|f(0)|f(−a)|a|1|The remainder equals the value at a.|M
+M|Synthetic division is a short method of dividing a polynomial by|a linear factor of the form x − a|any quadratic|a constant only|a polynomial of higher degree|1|It uses only the coefficients.|M
+M|The cube roots of unity are|1, ω, ω²|1, −1, i|1, i, −i|0, 1, 2|1|ω = (−1 + i√3)/2.|M
+M|The sum of the three cube roots of unity is|0|1|−1|3|1|1 + ω + ω² = 0.|M
+M|The value of ω³ is|1|ω|ω²|0|1|ω is a cube root of unity.|M
+M|The reciprocal of ω is|ω²|ω|1|−ω|1|ω × ω² = ω³ = 1.|M
+M|The value of 1 + ω² is|−ω|ω|1|0|1|Since 1 + ω + ω² = 0.|M
+M|When solving a radical equation by squaring, we must|check the roots in the original equation|never check|ignore extraneous roots|reject all roots|1|Squaring can introduce extraneous roots.|M
+M|The equation x⁴ − 5x² + 4 = 0 is reducible to a quadratic by the substitution|y = x²|y = x|y = x³|y = 1/x|1|It becomes y² − 5y + 4 = 0.|M
+M|The roots of x⁴ − 5x² + 4 = 0 are|±1 and ±2|1 and 4|±1 only|±2 only|1|y = 1 or 4, so x = ±1 or ±2.|M
+M|The roots of x² + x + 1 = 0 are|ω and ω²|1 and −1|i and −i|1 and ω|1|They are the non-real cube roots of unity.|M
+M|If the coefficients are real and one root is 2 + 3i, then another root is|2 − 3i|−2 − 3i|−2 + 3i|3 + 2i|1|Complex roots occur in conjugate pairs.|M
+M|A simultaneous system x + y = 5 and xy = 6 has the solutions|(2, 3) and (3, 2)|(1, 4) and (4, 1)|(5, 0) and (0, 5)|(6, 1) and (1, 6)|1|x and y are the roots of t² − 5t + 6 = 0.|M
+M|The equation √(x + 6) = x has the solution(s)|x = 3 only|x = 3 and x = −2|x = −2 only|no solution|1|x = −2 is extraneous.|H
+N|Find the discriminant of 2x² − 3x − 2 = 0.|25|(−3)² − 4(2)(−2) = 9 + 16 = 25.|M|9+16
+N|Find the larger root of 2x² − 3x − 2 = 0.|2|x = (3 ± 5)/4, so the roots are 2 and −1/2.|M|(3+Math.sqrt(25))/4
+N|Find the sum of the roots of 3x² − 5x + 2 = 0 as a decimal to two places.|1.67|−b/a = 5/3 = 1.67.|M|5/3
+N|Find the product of the roots of 3x² − 5x + 2 = 0 as a decimal to two places.|0.67|c/a = 2/3 = 0.67.|M|2/3
+N|If α and β are the roots of x² − 5x + 6 = 0, find α² + β².|13|α² + β² = 25 − 12 = 13.|M|25-12
+N|If α and β are the roots of x² − 5x + 6 = 0, find α³ + β³.|35|125 − 3 × 6 × 5 = 35.|H|125-3*6*5
+N|Find the positive value of k for which x² − kx + 9 = 0 has equal roots.|6|k² − 36 = 0.|M|Math.sqrt(36)
+N|Find the remainder when x³ − 2x² + x − 1 is divided by x − 2.|1|f(2) = 8 − 8 + 2 − 1 = 1.|M|8-8+2-1
+N|Find k so that x − 1 is a factor of x³ + kx − 3.|2|f(1) = 1 + k − 3 = 0.|M|3-1
+N|Find the real part of ω¹⁰⁰.|-0.5|ω¹⁰⁰ = ω (since 100 = 3 × 33 + 1), whose real part is −1/2.|H|-1/2
+N|Find the value of (1 + ω)(1 + ω²).|1|The product is 1 + ω + ω² + ω³ = 0 + 1 = 1.|H|1-1+1
+N|Find the larger positive root of x⁴ − 5x² + 4 = 0.|2|x² = 1 or 4.|M|Math.sqrt(4)
+N|Solve √(x + 6) = x and find the valid root.|3|x² − x − 6 = 0 gives 3 or −2, and −2 is rejected.|M|3
+N|The roots of 2x² − 7x + 3 = 0 are α and β. Find α + β as a decimal.|3.5|−b/a = 7/2.|M|7/2
+S|State the nature of the roots according to the discriminant.|If D > 0 the roots are real and distinct, if D = 0 real and equal, and if D < 0 complex conjugates.|For rational coefficients, a perfect square D gives rational roots.|M
+S|State the relations between the roots and coefficients.|α + β = −b/a and αβ = c/a.|They are used to form new equations.|M
+S|Form the quadratic equation whose roots are 2 and −3.|x² + x − 6 = 0|Sum = −1 and product = −6.|M
+S|State the factor theorem and the remainder theorem.|If f(x) is divided by x − a the remainder is f(a). In particular x − a is a factor if and only if f(a) = 0.|They are used to find roots of polynomials.|M
+S|State the properties of the cube roots of unity.|1 + ω + ω² = 0, ω³ = 1 and the roots are 1, ω and ω² = ω̄.|The three roots add up to zero.|M
+S|Why must the roots of a radical equation be checked?|Squaring can introduce extraneous roots that do not satisfy the original equation.|Substituting the roots back finds them.|M
+
+# 5 Partial Fractions
+M|A rational fraction P(x)/Q(x) is proper if|the degree of P is less than the degree of Q|the degree of P is greater than that of Q|P and Q are equal|P is a constant only|1|Otherwise it is improper.|E
+M|An improper fraction should first be|divided to give a polynomial plus a proper fraction|differentiated|ignored|multiplied by Q|1|Only a proper fraction can be resolved.|M
+M|For distinct linear factors (x − a)(x − b), the partial fractions have the form|A/(x − a) + B/(x − b)|A/((x − a)(x − b))|(Ax + B)/(x − a)|A + B|1|One term per linear factor.|M
+M|For a repeated linear factor (x − a)², the partial fractions contain|A/(x − a) + B/(x − a)²|A/(x − a)² only|A/(x − a)|(Ax + B)/(x − a)²|1|One term for each power.|M
+M|For an irreducible quadratic factor x² + 1, the term is|(Ax + B)/(x² + 1)|A/(x² + 1)|A/(x + 1)|Ax + B|1|The numerator is linear.|M
+M|1/((x − 1)(x − 2)) equals|1/(x − 2) − 1/(x − 1)|1/(x − 1) − 1/(x − 2)|1/(x − 1) + 1/(x − 2)|2/(x − 1)(x − 2)|1|((x − 1) − (x − 2)) = 1.|M
+M|The 'cover-up' method finds A in A/(x − a) + ... by|putting x = a in the rest of the fraction|differentiating|adding|setting A = 0|1|It multiplies by (x − a) and sets x = a.|M
+M|The number of unknown constants in A/(x − 1) + B/(x − 1)² + (Cx + D)/(x² + 1) is|4|2|3|5|1|They are A, B, C and D.|M
+M|(x² + 1)/(x − 1) is|an improper fraction|a proper fraction|a mixed fraction only|undefined|1|The numerator has a higher degree.|E
+M|Partial fractions are used in|integration of rational functions|measuring angles|drawing graphs only|matrices|1|They simplify integrals.|M
+M|The partial fraction form of (3x + 1)/((x − 1)(x + 2)) is|A/(x − 1) + B/(x + 2)|A/((x − 1)(x + 2))|(Ax + B)/(x − 1)|A + Bx|1|Distinct linear factors.|M
+M|The partial fraction form of 1/(x²(x + 1)) is|A/x + B/x² + C/(x + 1)|A/x² + B/(x + 1)|A/x + B/(x + 1)|(Ax + B)/x²|1|The repeated factor x² gives two terms.|M
+M|The partial fraction form of x/((x² + 1)(x − 1)) is|(Ax + B)/(x² + 1) + C/(x − 1)|A/(x² + 1) + B/(x − 1)|A/(x + 1) + B/(x − 1)|(Ax + B)/(x − 1)|1|The quadratic factor takes a linear numerator.|M
+M|1/(x² − 1) equals|1/2 [1/(x − 1) − 1/(x + 1)]|1/(x − 1) − 1/(x + 1)|1/2 [1/(x − 1) + 1/(x + 1)]|1/(x − 1) + 1/(x + 1)|1|The cover-up gives A = 1/2 and B = −1/2.|M
+M|x/(x² − 1) equals|1/2 [1/(x − 1) + 1/(x + 1)]|1/2 [1/(x − 1) − 1/(x + 1)]|1/(x − 1) + 1/(x + 1)|1/(x − 1) − 1/(x + 1)|1|A = 1/2 and B = 1/2.|M
+M|The identity used to find constants holds|for all values of x|only for x = 0|only at roots|only for integers|1|It is an identity in x.|M
+M|Resolving (x² + 3x + 1)/(x + 1) first gives|x + 2 − 1/(x + 1)|x + 1 + 2/(x + 1)|x + 2 + 1/(x + 1)|x + 3|1|Division gives quotient x + 2 and remainder −1.|H
+M|(2x + 3)/((x + 1)(x + 2)) equals|1/(x + 1) + 1/(x + 2)|2/(x + 1) + 1/(x + 2)|1/(x + 1) − 1/(x + 2)|3/(x + 1)(x + 2)|1|A = 1 at x = −1 and B = 1 at x = −2.|H
+M|(x + 7)/((x − 1)(x + 3)) equals|2/(x − 1) − 1/(x + 3)|1/(x − 1) + 1/(x + 3)|2/(x − 1) + 1/(x + 3)|1/(x − 1) − 2/(x + 3)|1|A = 8/4 = 2 and B = 4/(−4) = −1.|H
+M|A partial fraction decomposition is unique|for a given proper fraction|only for improper fractions|never|only if all roots are equal|1|The constants are uniquely determined.|M
+M|A fraction whose denominator has a repeated linear factor (x − 2)³ has how many partial-fraction terms for that factor?|3|1|2|4|1|One for each power 1, 2 and 3.|H
+M|The denominator of a proper fraction with real coefficients can always be factored into|linear and irreducible quadratic factors|only linear factors|only quadratics|primes only|1|Over the reals.|H
+M|If P(x)/Q(x) is improper, after division the remainder has degree|less than the degree of Q|equal to the degree of Q|greater than that of Q|always zero|1|By the division algorithm.|M
+N|Resolve 1/((x − 1)(x − 2)) = A/(x − 1) + B/(x − 2). Find A.|-1|A = 1/(1 − 2) = −1.|M|1/(1-2)
+N|Resolve 1/((x − 1)(x − 2)) = A/(x − 1) + B/(x − 2). Find B.|1|B = 1/(2 − 1) = 1.|M|1/(2-1)
+N|Resolve (3x + 5)/((x + 1)(x + 2)) = A/(x + 1) + B/(x + 2). Find A.|2|A = (−3 + 5)/(−1 + 2) = 2.|M|(3*(-1)+5)/(-1+2)
+N|Resolve (3x + 5)/((x + 1)(x + 2)) = A/(x + 1) + B/(x + 2). Find B.|1|B = (−6 + 5)/(−2 + 1) = 1.|M|(3*(-2)+5)/(-2+1)
+N|Resolve (x + 7)/((x − 1)(x + 3)) = A/(x − 1) + B/(x + 3). Find A.|2|A = 8/4 = 2.|M|(1+7)/(1+3)
+N|Resolve (x + 7)/((x − 1)(x + 3)) = A/(x − 1) + B/(x + 3). Find B.|-1|B = 4/(−4) = −1.|M|(-3+7)/(-3-1)
+N|Resolve 5/((x − 2)(x + 3)) = A/(x − 2) + B/(x + 3). Find A.|1|A = 5/5 = 1.|M|5/(2+3)
+N|Resolve 5/((x − 2)(x + 3)) = A/(x − 2) + B/(x + 3). Find B.|-1|B = 5/(−3 − 2) = −1.|M|5/(-3-2)
+N|Resolve 1/(x(x + 1)(x + 2)) and find the coefficient of 1/x.|0.5|A = 1/((0 + 1)(0 + 2)) = 1/2.|H|1/(1*2)
+N|Find the quotient's constant term when (x² + 3x + 1)/(x + 1) is divided: x² + 3x + 1 = (x + 1)(x + 2) − 1. Give the constant term of the quotient.|2|The quotient is x + 2.|H|2
+N|Resolve (x + 1)/(x²(x − 1)) and find C in A/x + B/x² + C/(x − 1).|2|C = (1 + 1)/1² = 2.|H|(1+1)/(1*1)
+N|Resolve (x + 1)/(x²(x − 1)) and find B in A/x + B/x² + C/(x − 1).|-1|B = (0 + 1)/(0 − 1) = −1.|H|(0+1)/(0-1)
+S|Define proper and improper rational fractions.|A rational fraction P(x)/Q(x) is proper if the degree of P is less than that of Q, and improper otherwise.|An improper fraction is first divided.|E
+S|Resolve 1/(x² − 1) into partial fractions.|1/2 [1/(x − 1) − 1/(x + 1)]|Set 1/(x² − 1) = A/(x − 1) + B/(x + 1) so A = 1/2 and B = −1/2.|M
+S|State the form of partial fractions for (x + 1)/((x − 1)²(x + 2)).|A/(x − 1) + B/(x − 1)² + C/(x + 2)|The repeated factor gives two terms.|M
+S|What is done first if the fraction is improper?|Divide the numerator by the denominator to obtain a polynomial quotient and a proper fraction.|Then resolve the proper fraction.|M
+S|State the cover-up rule for finding a constant.|To find A in A/(x − a), cover the factor x − a in the denominator and put x = a in the rest of the fraction.|It works for distinct linear factors.|M
+S|Resolve (3x + 5)/((x + 1)(x + 2)) into partial fractions.|2/(x + 1) + 1/(x + 2)|A = 2 and B = 1 by the cover-up rule.|M
+
+M|The fraction (x³ + 1)/(x² − 1) is|an improper fraction|a proper fraction|a mixed number only|undefined|1|The numerator has degree 3 and the denominator has degree 2.|M
+M|Resolving 1/((x + 1)(x + 2)) gives|1/(x + 1) − 1/(x + 2)|1/(x + 1) + 1/(x + 2)|2/(x + 1) − 1/(x + 2)|1/(x + 2) − 1/(x + 1)|1|A = 1 and B = −1.|M
+M|The partial fraction form of 1/((x − 1)(x² + 4)) is|A/(x − 1) + (Bx + C)/(x² + 4)|A/(x − 1) + B/(x² + 4)|(Ax + B)/(x − 1) + C/(x² + 4)|A/(x − 1) + B/(x + 2) + C/(x − 2)|1|The quadratic factor takes a linear numerator.|M
+M|If a fraction has denominator (x − 1)(x − 2)(x − 3), the number of constants to find is|3|2|4|6|1|One for each distinct linear factor.|E
+M|The constant A in 2/((x − 1)(x + 1)) = A/(x − 1) + B/(x + 1) is|1|2|−1|1/2|1|A = 2/(1 + 1) = 1.|M
+M|The constant B in 2/((x − 1)(x + 1)) = A/(x − 1) + B/(x + 1) is|−1|1|2|−2|1|B = 2/(−1 − 1) = −1.|M
+N|Resolve 1/((x + 1)(x + 3)) = A/(x + 1) + B/(x + 3). Find A.|0.5|A = 1/(−1 + 3) = 1/2.|M|1/(-1+3)
+N|Resolve 1/((x + 1)(x + 3)) = A/(x + 1) + B/(x + 3). Find B.|-0.5|B = 1/(−3 + 1) = −1/2.|M|1/(-3+1)
+N|Resolve (4x + 1)/((x − 1)(x + 2)) = A/(x − 1) + B/(x + 2). Find A.|1.67|A = 5/3 = 1.67.|H|5/3
+
+# 6 Sequences and Series
+M|A sequence is|an ordered list of numbers following a rule|a sum of numbers|an unordered set|a function of two variables|1|It is a function defined on the natural numbers.|E
+M|An arithmetic progression (AP) has|a constant difference between consecutive terms|a constant ratio|alternating signs|no pattern|1|The common difference d.|E
+M|The nth term of an AP is|a + (n − 1)d|a + nd|a r^(n−1)|a + d/n|1|Start from a and add d (n − 1) times.|E
+M|The sum of the first n terms of an AP is|n/2 [2a + (n − 1)d]|n[a + (n − 1)d]|a(rⁿ − 1)/(r − 1)|n(a + d)|1|Also n(a + l)/2.|M
+M|The arithmetic mean of two numbers a and b is|(a + b)/2|√(ab)|2ab/(a + b)|a + b|1|It is the middle term of an AP.|E
+M|A geometric progression (GP) has|a constant ratio between consecutive terms|a constant difference|alternating signs only|no pattern|1|The common ratio r.|E
+M|The nth term of a GP is|a r^(n−1)|a + (n − 1)r|a rⁿ|a + nr|1|Multiply by r (n − 1) times.|E
+M|The sum of the first n terms of a GP with r ≠ 1 is|a(rⁿ − 1)/(r − 1)|n/2 [2a + (n − 1)d]|a/(1 − r)|n a|1|Equivalently a(1 − rⁿ)/(1 − r).|M
+M|The sum to infinity of a GP with ∣r∣ < 1 is|a/(1 − r)|a/(r − 1)|a(1 − r)|a r|1|The series converges.|M
+M|The geometric mean of two positive numbers a and b is|√(ab)|(a + b)/2|2ab/(a + b)|ab|1|It is the middle term of a GP.|M
+M|A harmonic progression (HP) is a sequence whose|reciprocals form an AP|terms form an AP|terms form a GP|terms are all equal|1|1/a₁, 1/a₂, ... are in AP.|M
+M|The harmonic mean of two numbers a and b is|2ab/(a + b)|(a + b)/2|√(ab)|a + b|1|It is the reciprocal of the AM of reciprocals.|M
+M|For two positive numbers, the relation between AM, GM and HM is|G² = A × H|A = G × H|G = A + H|A² = G × H|1|AH = (a + b)/2 × 2ab/(a + b) = ab = G².|H
+M|For positive unequal numbers, the correct order is|A > G > H|H > G > A|G > A > H|A > H > G|1|AM ≥ GM ≥ HM.|M
+M|The sum 1 + 2 + 3 + ... + n is|n(n + 1)/2|n(n + 1)(2n + 1)/6|[n(n + 1)/2]²|n²|1|The sum of the first n natural numbers.|M
+M|The sum 1² + 2² + ... + n² is|n(n + 1)(2n + 1)/6|n(n + 1)/2|[n(n + 1)/2]²|n³|1|The sum of squares.|M
+M|The sum 1³ + 2³ + ... + n³ is|[n(n + 1)/2]²|n(n + 1)/2|n(n + 1)(2n + 1)/6|n⁴|1|The sum of cubes equals the square of the sum of the integers.|M
+M|The common difference of the AP 5, 8, 11, 14, ... is|3|5|2|−3|1|8 − 5 = 3.|E
+M|The common ratio of the GP 2, 6, 18, ... is|3|4|2|6|1|6 ÷ 2 = 3.|E
+M|A GP has a sum to infinity only if|∣r∣ < 1|r > 1|r = 1|r = 0|1|Otherwise it diverges.|M
+M|The recurring decimal 0.777... can be written as a GP sum with a = 0.7 and r =|0.1|0.7|7|1|1|Each term is one tenth of the previous.|H
+M|Three numbers a, b, c are in AP if|2b = a + c|b² = ac|b = a + c|2/b = 1/a + 1/c|1|b is the mean of a and c.|M
+M|Three numbers a, b, c are in GP if|b² = ac|2b = a + c|b = ac|1/b = 1/a + 1/c|1|b is the geometric mean of a and c.|M
+M|Three numbers a, b, c are in HP if|2/b = 1/a + 1/c|2b = a + c|b² = ac|b = a + c|1|Reciprocals are in AP.|M
+M|The number of arithmetic means between a and b is|n for n inserted terms|always 1|always 2|zero|1|The AP has n + 2 terms.|M
+M|The sum of an AP of n terms with first term a and last term l is|n(a + l)/2|n(a − l)/2|n a l|(a + l)/n|1|Average of the first and last times n.|M
+M|A series is|the sum of the terms of a sequence|a list of numbers|a product|an equation|1|It is the indicated sum.|E
+M|The sequence 1, −1, 1, −1, ... is|a GP with r = −1|an AP|an HP|not a sequence|1|The ratio is −1.|M
+M|If the sum of the first n terms of a series is n², the nth term is|2n − 1|2n + 1|n|n²|1|aₙ = Sₙ − Sₙ₋₁ = n² − (n − 1)².|H
+M|The nth term of an HP whose reciprocals have first term 1/a and difference d is|1/(1/a + (n − 1)d)|a + (n − 1)d|a r^(n−1)|1/(a + nd)|1|Invert the AP term.|H
+N|Find the 10th term of the AP 3, 7, 11, ...|39|a₁₀ = 3 + 9 × 4 = 39.|E|3+9*4
+N|Find the sum of the first 20 terms of the AP 2, 5, 8, ...|610|S₂₀ = 10[4 + 19 × 3] = 610.|M|10*(4+19*3)
+N|Find the 8th term of the GP 2, 4, 8, ...|256|a₈ = 2 × 2⁷ = 256.|E|2*2^7
+N|Find the sum of the first 6 terms of the GP 1, 2, 4, ...|63|(2⁶ − 1)/(2 − 1) = 63.|M|(2^6-1)/(2-1)
+N|Find the sum to infinity of the GP 8, 4, 2, ...|16|a/(1 − r) = 8/(1/2) = 16.|M|8/(1-0.5)
+N|Find the arithmetic mean of 7 and 15.|11|(7 + 15)/2 = 11.|E|(7+15)/2
+N|Find the geometric mean of 4 and 9.|6|√36 = 6.|M|Math.sqrt(4*9)
+N|Find the harmonic mean of 3 and 6.|4|2 × 3 × 6/(3 + 6) = 36/9 = 4.|M|2*3*6/(3+6)
+N|Find 1 + 2 + 3 + ... + 50.|1275|50 × 51/2 = 1275.|M|50*51/2
+N|Find 1² + 2² + ... + 10².|385|10 × 11 × 21/6 = 385.|M|10*11*21/6
+N|Find 1³ + 2³ + ... + 10³.|3025|(10 × 11/2)² = 55² = 3025.|M|55*55
+N|The first term of an AP is 5 and the 10th term is 32. Find the common difference.|3|d = (32 − 5)/9 = 3.|M|(32-5)/9
+N|Express 0.666... as a fraction, giving the value as a decimal to two places.|0.67|It is 2/3.|M|2/3
+N|Find the number of terms in the AP 4, 7, 10, ..., 100.|33|n = (100 − 4)/3 + 1 = 33.|M|(100-4)/3+1
+S|Define an AP and a GP.|An AP has a constant difference between consecutive terms, and a GP has a constant ratio.|Examples are 2, 5, 8 and 2, 6, 18.|E
+S|Write the formulae for the nth term and sum of n terms of an AP.|aₙ = a + (n − 1)d and Sₙ = n/2 [2a + (n − 1)d].|d is the common difference.|M
+S|Write the formula for the sum of an infinite GP and the condition for it.|S = a/(1 − r), provided ∣r∣ < 1.|Otherwise the series diverges.|M
+S|Define the arithmetic, geometric and harmonic means of a and b.|A = (a + b)/2, G = √(ab) and H = 2ab/(a + b).|They satisfy A ≥ G ≥ H and G² = AH.|M
+S|Find the sum of the first 15 natural numbers.|120|n(n + 1)/2 = 15 × 16/2 = 120.|M
+S|Write the sums of the squares and the cubes of the first n natural numbers.|n(n + 1)(2n + 1)/6 and [n(n + 1)/2]².|They are used to sum other series.|M

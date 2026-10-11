@@ -1,0 +1,157 @@
+@level 1st Year
+@subject Chemistry
+
+# 7 Thermochemistry
+M|Thermochemistry is the study of|heat changes accompanying chemical reactions|the speed of reactions|electricity from reactions|atomic structure|1|It deals with enthalpy changes.|E
+M|An exothermic reaction is one that|releases heat to the surroundings|absorbs heat|has ΔH positive|needs a catalyst|1|ΔH is negative.|E
+M|An endothermic reaction is one that|absorbs heat from the surroundings|releases heat|has ΔH negative|is always fast|1|ΔH is positive.|E
+M|The enthalpy change ΔH of an exothermic reaction is|negative|positive|zero|infinite|1|The products have less enthalpy.|E
+M|The enthalpy change ΔH of an endothermic reaction is|positive|negative|zero|infinite|1|The products have more enthalpy.|E
+M|The first law of thermodynamics states that|energy can neither be created nor destroyed|entropy always increases|heat flows from hot to cold only|work is always done|1|Conservation of energy.|E
+M|The mathematical form of the first law is|ΔU = q + w|ΔU = q − w only|q = ΔU|w = ΔU|1|With sign conventions.|M
+M|At constant pressure the heat absorbed equals|the change in enthalpy|the change in internal energy|the work|zero|1|q_p = ΔH.|M
+M|The relation between ΔH and ΔU is|ΔH = ΔU + Δn RT|ΔH = ΔU − Δn RT only|ΔH = ΔU|ΔH = ΔU/RT|1|Δn is the change in moles of gas.|H
+M|Hess's law states that the enthalpy change of a reaction is|independent of the route taken|dependent on the route|always zero|always negative|1|It follows from H being a state function.|M
+M|The standard enthalpy of formation is the enthalpy change when|one mole of a compound is formed from its elements in their standard states|one mole burns|one mole dissolves|one mole of gas expands|1|ΔHf°.|M
+M|The standard enthalpy of formation of an element in its standard state is|zero|one|negative|positive|1|By definition.|M
+M|The standard enthalpy of combustion is the enthalpy change when|one mole of a substance burns completely in oxygen|one mole is formed|one mole dissolves|one mole freezes|1|It is always negative.|M
+M|The enthalpy of neutralisation of a strong acid with a strong base is about|−57 kJ per mole of water|+57 kJ|−100 kJ|0 kJ|1|H⁺ + OH⁻ → H₂O.|M
+M|The enthalpy of solution is the enthalpy change when|one mole of a solute dissolves in a solvent|a gas is liquefied|a solid melts|a liquid freezes|1|It may be positive or negative.|M
+M|The lattice enthalpy is the enthalpy change when|one mole of an ionic solid is formed from its gaseous ions|an ionic solid dissolves|a gas condenses|atoms react|1|It is exothermic.|M
+M|The Born-Haber cycle is used to calculate|lattice enthalpy|bond length|pH|entropy|1|By Hess's law.|M
+M|Bond energy is the energy|required to break one mole of a bond in gaseous molecules|released on dissolving|of an atom|of a nucleus|1|Always positive.|M
+M|The enthalpy change of a reaction in terms of bond energies is|bonds broken − bonds formed|bonds formed − bonds broken|bonds broken + bonds formed|zero|1|Energy in minus energy out.|M
+M|The specific heat capacity of water is about|4.18 J g⁻¹ K⁻¹|418 J g⁻¹ K⁻¹|0.418 J g⁻¹ K⁻¹|1 J g⁻¹ K⁻¹|1|Used in calorimetry.|M
+M|A calorimeter is used to measure|heat changes|pH|mass|volume|1|q = mcΔT.|E
+M|A state function is a quantity that depends only on|the initial and final states|the path|time|the method|1|H, U, S and G are state functions.|M
+M|Which of the following is not a state function?|heat|enthalpy|internal energy|entropy|1|Heat and work depend on the path.|M
+M|Entropy is a measure of|disorder|order|energy|temperature|1|S increases with disorder.|M
+M|The entropy of a gas compared with a liquid is|greater|smaller|equal|zero|1|Gas molecules are more disordered.|M
+M|The second law of thermodynamics states that the entropy of the universe|increases in a spontaneous process|decreases|is constant|is zero|1|ΔS_universe > 0.|M
+M|The Gibbs free energy change is|ΔG = ΔH − TΔS|ΔG = ΔH + TΔS|ΔG = TΔS − ΔH|ΔG = ΔH/TΔS|1|ΔG < 0 for spontaneous change.|H
+M|A reaction is spontaneous if ΔG is|negative|positive|zero|infinite|1|At constant T and P.|M
+M|An exothermic reaction with an increase in entropy is|always spontaneous|never spontaneous|spontaneous at low T only|spontaneous at high T only|1|ΔG is always negative.|H
+M|Dissolving ammonium nitrate in water makes the solution|cooler|hotter|unchanged|boil|1|The process is endothermic.|M
+N|Find the heat in J absorbed by 100 g of water heated by 10 K. c = 4.18 J g⁻¹ K⁻¹.|4180|100 × 4.18 × 10.|E|100*4.18*10
+N|Find the temperature rise in K when 8360 J heats 200 g of water. c = 4.18.|10|8360/(200 × 4.18).|M|8360/(200*4.18)
+N|Calculate ΔH° in kJ for CH₄ + 2O₂ → CO₂ + 2H₂O(l). ΔHf°: CH₄ = −74.8, CO₂ = −393.5, H₂O(l) = −285.8, to one decimal.|-890.3|−393.5 + 2(−285.8) − (−74.8).|H|-393.5+2*(-285.8)-(-74.8)
+N|Calculate ΔH° in kJ for N₂ + 3H₂ → 2NH₃ if ΔHf°(NH₃) = −46 kJ/mol.|-92|2 × (−46).|M|2*(-46)
+N|Using bond energies in kJ/mol, H–H = 436 and Cl–Cl = 243 and H–Cl = 431. Find ΔH in kJ for H₂ + Cl₂ → 2HCl.|-183|(436 + 243) − 2(431).|H|436+243-2*431
+N|The combustion of 1 mol of ethanol releases 1367 kJ. Find the heat in kJ released by 23 g of ethanol (46 g/mol), to one decimal.|683.5|0.5 × 1367.|M|23/46*1367
+N|Find the heat in kJ released when 0.2 mol of H⁺ neutralises 0.2 mol OH⁻. ΔH = −57.3 kJ/mol, to two decimals.|11.46|0.2 × 57.3.|M|0.2*57.3
+N|Find ΔH in kJ for A → B (ΔH = +20) followed by B → C (ΔH = −50). Overall A → C.|-30|20 − 50.|M|20-50
+N|Find ΔU in kJ if q = +50 kJ and w = −20 kJ done on the surroundings (ΔU = q + w).|30|50 − 20.|M|50-20
+N|Find ΔG in kJ at 300 K for ΔH = −50 kJ and ΔS = −0.1 kJ/K.|-20|−50 − 300(−0.1).|H|-50-300*(-0.1)
+N|Find ΔH in kJ for the reaction in which 2 mol of H₂ is formed from the reverse of 2H₂ + O₂ → 2H₂O (ΔH = −572 kJ), per equation written in reverse.|572|The sign reverses.|M|572
+N|Find the heat in kJ needed to melt 2 mol of ice, ΔH_fus = 6.01 kJ/mol.|12.02|2 × 6.01.|M|2*6.01
+N|Find the temperature in K at which ΔG = 0 for ΔH = 30 kJ and ΔS = 0.1 kJ/K.|300|T = ΔH/ΔS.|H|30/0.1
+N|Find ΔH − ΔU in J for 1 mol of an ideal gas formed at 300 K. R = 8.314, to the nearest J.|2494|Δn RT.|H|1*8.314*300
+N|A fuel releases 40 kJ per gram. Find the heat in MJ from 2.5 kg.|100|2500 × 40/1000.|M|2500*40/1000
+S|State Hess's law of constant heat summation.|The enthalpy change of a reaction is the same whether it takes place in one step or several steps, because it depends only on the initial and final states.|It follows from enthalpy being a state function.|M
+S|Define standard enthalpy of formation and of combustion.|The standard enthalpy of formation is the enthalpy change when one mole of a compound is formed from its elements in their standard states. The standard enthalpy of combustion is the enthalpy change when one mole of a substance is completely burnt in oxygen.|Both are measured at 298 K and 1 atm.|M
+S|Distinguish between exothermic and endothermic reactions.|An exothermic reaction releases heat and has a negative ΔH, while an endothermic reaction absorbs heat and has a positive ΔH.|Combustion is exothermic.|E
+S|State the first law of thermodynamics.|Energy can neither be created nor destroyed, so the change in internal energy of a system equals the heat absorbed plus the work done on it, ΔU = q + w.|It is the law of conservation of energy.|M
+S|Explain how a Born-Haber cycle is used.|It uses Hess's law with the enthalpies of formation, atomisation, ionisation and electron affinity to calculate the lattice enthalpy of an ionic compound that cannot be measured directly.|It is a closed energy cycle.|H
+S|What is a state function? Give two examples.|A property that depends only on the state of the system and not on the path, such as enthalpy and internal energy.|Heat and work are not state functions.|M
+
+# 8 Chemical Equilibrium
+M|A reversible reaction is one in which|the products can react to form the reactants|the reaction goes to completion|only the reactants exist|no change occurs|1|It is shown by ⇌.|E
+M|Chemical equilibrium is reached when|the rates of the forward and backward reactions are equal|the reaction stops|the concentrations are equal|all reactants are used|1|It is dynamic.|E
+M|At equilibrium the concentrations of reactants and products|remain constant|become zero|are equal|increase|1|No net change.|E
+M|The law of mass action states that the rate of a reaction is proportional to|the product of the active masses (concentrations) of the reactants|the temperature|the volume|the pressure only|1|Guldberg and Waage.|M
+M|For aA + bB ⇌ cC + dD the equilibrium constant Kc is|[C]ᶜ[D]ᵈ/[A]ᵃ[B]ᵇ|[A]ᵃ[B]ᵇ/[C]ᶜ[D]ᵈ|[C][D]/[A][B]|[A] + [B]|1|Products over reactants.|M
+M|The equilibrium constant depends on|temperature only|concentration|pressure|catalyst|1|It is constant at a given T.|M
+M|A large Kc indicates that at equilibrium|products predominate|reactants predominate|there is no reaction|the reaction is slow|1|The reaction is nearly complete.|M
+M|A small Kc indicates that at equilibrium|reactants predominate|products predominate|there is no equilibrium|the reaction is fast|1|Little product forms.|M
+M|The relation between Kp and Kc is|Kp = Kc (RT)^Δn|Kp = Kc/(RT)|Kp = Kc + RT|Kp = Kc|1|Δn = moles of gaseous products − reactants.|M
+M|For the reaction H₂ + I₂ ⇌ 2HI, Kp equals|Kc|Kc(RT)|Kc/RT|Kc²|1|Δn = 0.|M
+M|The reaction quotient Q is compared with K. If Q < K the reaction proceeds|forward|backward|not at all|to equilibrium already|1|More products form.|M
+M|If Q > K the reaction proceeds|backward|forward|not at all|to completion|1|Products decrease.|M
+M|Le Chatelier's principle states that if a system at equilibrium is disturbed,|it shifts to oppose the disturbance|it stops|nothing changes|it moves to completion|1|It restores balance.|M
+M|Adding a reactant to a system at equilibrium shifts it|towards the products|towards the reactants|nowhere|upward|1|To use up the added reactant.|M
+M|Removing a product shifts the equilibrium|towards the products|towards the reactants|nowhere|upward|1|To replace it.|M
+M|Increasing the pressure shifts a gaseous equilibrium towards|the side with fewer moles of gas|the side with more moles of gas|neither|the reactants always|1|To reduce the pressure.|M
+M|Increasing the temperature shifts an equilibrium in the|endothermic direction|exothermic direction|neither direction|reverse of the catalyst|1|To absorb the heat.|M
+M|A catalyst|speeds up the approach to equilibrium without changing K|changes the value of K|shifts the equilibrium|stops the reaction|1|It lowers the activation energy both ways.|M
+M|In the Haber process, the yield of ammonia is increased by|high pressure and a moderate temperature|low pressure|very high temperature|no catalyst|1|The forward reaction is exothermic with fewer moles.|M
+M|The catalyst used in the Haber process is|iron|platinum|nickel|vanadium oxide|1|Finely divided iron.|M
+M|The catalyst used in the Contact process is|vanadium(V) oxide|iron|platinum|nickel|1|V₂O₅.|M
+M|The common ion effect is the|suppression of ionisation of a weak electrolyte by a common ion|increase in ionisation|neutralisation|precipitation of a salt only|1|It lowers the solubility.|M
+M|The ionic product of water Kw at 25 °C is|1 × 10⁻¹⁴|1 × 10⁻⁷|1 × 10¹⁴|1|1|[H⁺][OH⁻].|M
+M|The pH of a solution is defined as|−log[H⁺]|log[H⁺]|[H⁺]|1/[H⁺]|1|pH + pOH = 14.|E
+M|A buffer solution is one that|resists changes in pH on adding small amounts of acid or base|has pH 7|has no ions|is neutral always|1|A weak acid and its salt.|M
+M|The solubility product Ksp of a sparingly soluble salt AB is|[A⁺][B⁻]|[A⁺]/[B⁻]|[A⁺] + [B⁻]|[A⁺]²|1|At saturation.|M
+M|A precipitate forms if the ionic product is|greater than Ksp|less than Ksp|equal to zero|equal to Kw|1|The solution is supersaturated.|M
+M|The acid dissociation constant Ka of a weak acid HA is|[H⁺][A⁻]/[HA]|[HA]/[H⁺][A⁻]|[H⁺] + [A⁻]|[A⁻]|1|A measure of acid strength.|M
+N|Find Kc for N₂ + 3H₂ ⇌ 2NH₃ if [N₂] = 0.1, [H₂] = 0.2 and [NH₃] = 0.2 mol/dm³.|50|0.04/(0.1 × 0.008).|M|0.2*0.2/(0.1*0.2*0.2*0.2)
+N|Find Kp in atm⁻² for N₂ + 3H₂ ⇌ 2NH₃ at 500 K if Kc = 50 (R = 0.0821), to four decimals.|0.0297|Kc(RT)⁻².|H|50*Math.pow(0.0821*500,-2)
+N|Find Kc for A + B ⇌ C + D if [A] = 1, [B] = 4, [C] = 2 and [D] = 2.|1|4/4.|E|2*2/(1*4)
+N|H₂ + I₂ ⇌ 2HI with Kc = 50. Starting with 1 mol each in 1 dm³, find the equilibrium concentration of HI in mol/dm³, to two decimals.|1.56|2x/(1 − x) = √50.|H|2*7.0710678/(2+7.0710678)
+N|Find the pH of a solution with [H⁺] = 1 × 10⁻³ mol/dm³.|3|−log 10⁻³.|E|-Math.log10(1e-3)
+N|Find the pH of 0.01 M NaOH at 25 °C.|12|pOH = 2.|M|14+Math.log10(0.01)
+N|Find [H⁺] in mol/dm³ of a solution of pH 5.|0.00001|10⁻⁵.|E|1e-5
+N|Find the Ksp of AgCl if its solubility is 1.3 × 10⁻⁵ M, in units of 10⁻¹⁰.|1.69|(1.3 × 10⁻⁵)².|H|1.3e-5*1.3e-5/1e-10
+N|Find the pH of a solution of a weak acid HA with Ka = 1 × 10⁻⁵ and concentration 0.1 M. [H⁺] = √(Ka C).|3|√10⁻⁶ = 10⁻³.|H|-Math.log10(Math.sqrt(1e-5*0.1))
+N|Find the percentage dissociation of 0.1 M acid with [H⁺] = 0.001 M.|1|0.001/0.1.|M|0.001/0.1*100
+N|Find the Kc for the reverse reaction if Kc for the forward reaction is 4.|0.25|1/4.|M|1/4
+N|Find Kw at 25 °C given [H⁺] = [OH⁻] = 10⁻⁷, in units of 10⁻¹⁴.|1|10⁻⁷ × 10⁻⁷.|M|1e-7*1e-7/1e-14
+N|Find the pOH of a solution of pH 9.|5|14 − 9.|E|14-9
+N|Find Δn for the reaction N₂O₄ ⇌ 2NO₂.|1|2 − 1.|M|2-1
+N|Find the value of Q if [C] = 1, [D] = 2 and [A] = [B] = 1 for A + B ⇌ C + D.|2|[C][D]/[A][B].|M|1*2/(1*1)
+S|Define chemical equilibrium and the equilibrium constant.|Chemical equilibrium is the state in which the forward and backward reaction rates are equal. The equilibrium constant is the ratio of product concentrations to reactant concentrations, each raised to the power of its coefficient.|It depends only on temperature.|M
+S|State Le Chatelier's principle and apply it to the Haber process.|If a system at equilibrium is disturbed, it shifts to oppose the disturbance. High pressure favours NH₃ because there are fewer gas moles, and a moderate temperature gives a reasonable rate.|A catalyst speeds up the rate.|M
+S|Derive the relation between Kp and Kc.|Using P = CRT for each gas in Kp = Pproducts/Preactants gives Kp = Kc (RT)^Δn, where Δn is the change in moles of gas.|For Δn = 0, Kp = Kc.|H
+S|What is a buffer solution? Give an example.|A solution that resists changes in pH when small amounts of acid or base are added, such as acetic acid with sodium acetate.|It has a weak acid and its salt.|M
+S|Define the solubility product.|The product of the concentrations of the ions of a sparingly soluble salt in its saturated solution, each raised to the power of its coefficient.|A precipitate forms when the ionic product exceeds it.|M
+S|Explain the common ion effect.|The ionisation of a weak electrolyte is suppressed by adding a common ion, and the solubility of a sparingly soluble salt is reduced.|It follows from Le Chatelier's principle.|M
+
+# 9 Solutions
+M|A solution is a|homogeneous mixture of two or more substances|heterogeneous mixture|pure substance|compound|1|Uniform composition.|E
+M|Molarity is defined as|moles of solute per dm³ of solution|moles of solute per kg of solvent|mass of solute per dm³|moles per mole|1|Unit mol dm⁻³.|E
+M|Molality is defined as|moles of solute per kg of solvent|moles per dm³ of solution|mass of solute per kg|moles of solvent per kg|1|It does not depend on temperature.|M
+M|The mole fraction of a component is|its moles/total moles|its mass/total mass|its moles/volume|its volume/total|1|The sum of mole fractions is 1.|M
+M|Raoult's law states that the vapour pressure of a solvent in a solution is|proportional to its mole fraction|independent of its mole fraction|inversely proportional to mole fraction|zero|1|P = x P°.|M
+M|An ideal solution obeys|Raoult's law at all concentrations|Henry's law only|Boyle's law|Charles' law|1|Intermolecular forces are alike.|M
+M|Colligative properties depend on|the number of solute particles|the nature of the solute|the colour|the mass of solute only|1|Not on identity.|M
+M|Which of the following is a colligative property?|Elevation of boiling point|Colour|Density|Viscosity|1|Others are elevation, depression of freezing point, osmotic pressure, lowering of vapour pressure.|M
+M|The depression of freezing point is given by|ΔT_f = K_f m|ΔT_f = K_f/m|ΔT_f = m/K_f|ΔT_f = K_f + m|1|m is molality.|M
+M|The elevation of boiling point is given by|ΔT_b = K_b m|ΔT_b = K_b/m|ΔT_b = m/K_b|ΔT_b = K_b + m|1|m is molality.|M
+M|The osmotic pressure of a solution is given by|π = MRT|π = M/RT|π = RT/M|π = M R/T|1|The van't Hoff equation.|M
+M|Osmosis is the passage of solvent through|a semipermeable membrane from dilute to concentrated solution|any membrane in both directions equally|a solid|a gas|1|It continues until equilibrium.|M
+M|Isotonic solutions have|the same osmotic pressure|different osmotic pressures|no solute|zero pressure|1|No net osmosis occurs between them.|M
+M|Reverse osmosis is used for|desalination of sea water|making alloys|heating|cooling|1|Pressure greater than π is applied.|M
+M|The van't Hoff factor i for NaCl (complete dissociation) is about|2|1|3|0.5|1|It gives two ions.|M
+M|The van't Hoff factor for glucose is|1|2|3|0|1|It does not dissociate.|M
+M|The molal elevation constant of water K_b is|0.52 K kg mol⁻¹|1.86 K kg mol⁻¹|5.12 K kg mol⁻¹|0.1 K kg mol⁻¹|1|Used in ΔT_b.|M
+M|The molal depression constant of water K_f is|1.86 K kg mol⁻¹|0.52 K kg mol⁻¹|5.12 K kg mol⁻¹|3.9 K kg mol⁻¹|1|Used in ΔT_f.|M
+M|Salt is spread on icy roads because it|lowers the freezing point of water|raises the freezing point|colours the ice|heats the ice|1|A colligative effect.|E
+M|Antifreeze is added to car radiators to|lower the freezing point of the coolant|raise the boiling point only|colour it|clean it|1|Ethylene glycol is used.|E
+M|Henry's law states that the solubility of a gas in a liquid is|proportional to its partial pressure|inversely proportional to pressure|independent of pressure|zero|1|At constant temperature.|M
+M|The solubility of gases in water with a rise in temperature|decreases|increases|stays the same|doubles|1|Warm water holds less gas.|M
+M|A saturated solution is one that|contains the maximum solute at a given temperature|can dissolve more solute|has no solute|is dilute|1|At equilibrium with excess solute.|E
+M|A solution that shows positive deviation from Raoult's law has|weaker solute-solvent attractions than solute-solute and solvent-solvent|stronger attractions|no attractions|equal attractions|1|Its vapour pressure is higher than expected.|H
+M|An azeotrope is a mixture that|boils at a constant temperature as a single substance|boils over a range|never boils|freezes first|1|It cannot be separated by simple distillation.|H
+M|Ethanol and water form an azeotrope containing about|95.6 percent ethanol|50 percent ethanol|10 percent ethanol|100 percent ethanol|1|At the minimum boiling point.|H
+M|The lowering of vapour pressure is proportional to|the mole fraction of the solute|the volume|the temperature only|the colour|1|ΔP = x₂P°.|M
+M|Percent by mass of a solute is|(mass of solute/mass of solution) × 100|(mass of solvent/mass of solution) × 100|volume × 100|moles × 100|1|Also called w/w.|E
+N|Find the molarity of a solution of 5.85 g NaCl (58.5 g/mol) in 500 cm³.|0.2|0.1 mol/0.5 dm³.|M|5.85/58.5/0.5
+N|Find the molality of a solution of 9 g glucose (180 g/mol) in 250 g of water.|0.2|0.05 mol/0.25 kg.|M|9/180/0.25
+N|Find the mole fraction of ethanol in a mixture of 2 mol ethanol and 3 mol water.|0.4|2/5.|E|2/5
+N|Find the vapour pressure in mmHg of a solvent (P° = 100 mmHg) with mole fraction 0.8 in a solution.|80|0.8 × 100.|M|0.8*100
+N|Find the elevation of boiling point in K of a 0.5 m aqueous solution. K_b = 0.52.|0.26|0.52 × 0.5.|M|0.52*0.5
+N|Find the depression of freezing point in K of a 0.5 m aqueous solution. K_f = 1.86.|0.93|1.86 × 0.5.|M|1.86*0.5
+N|Find the osmotic pressure in atm of a 0.1 M solution at 300 K. R = 0.0821, to two decimals.|2.46|MRT.|M|0.1*0.0821*300
+N|A solution of 3 g of a non-electrolyte in 100 g of water freezes 0.93 K below water. Find its molar mass in g/mol. K_f = 1.86.|60|M = K_f × w/(ΔT × W).|H|1.86*3*1000/(0.93*100)
+N|A solution of 6 g urea (60 g/mol) in 500 g of water. Find its molality.|0.2|0.1 mol/0.5 kg.|M|6/60/0.5
+N|Find ΔT_f in K for 0.1 m NaCl (i = 2). K_f = 1.86, to three decimals.|0.372|i K_f m.|H|2*1.86*0.1
+N|Find the percentage by mass of a solution of 10 g salt in 90 g of water.|10|10/100.|E|10/100*100
+N|Find the mass in g of NaOH (40 g/mol) needed for 500 cm³ of 0.1 M solution.|2|0.05 × 40.|M|0.5*0.1*40
+N|Find the number of moles of solute in 250 cm³ of 0.4 M solution.|0.1|0.25 × 0.4.|E|0.25*0.4
+N|Find the dilution volume in cm³ to make 0.1 M from 20 cm³ of 1 M solution.|200|M₁V₁/M₂.|M|1*20/0.1
+N|Find the mole fraction of the solute if the solvent has mole fraction 0.95.|0.05|1 − 0.95.|E|1-0.95
+S|Define molarity, molality and mole fraction.|Molarity is moles of solute per dm³ of solution, molality is moles of solute per kg of solvent, and mole fraction is the moles of a component divided by the total moles.|Molality is independent of temperature.|M
+S|State Raoult's law.|The partial vapour pressure of a component in a solution equals the product of its mole fraction and its vapour pressure when pure.|For an ideal solution.|M
+S|Name the four colligative properties.|Lowering of vapour pressure, elevation of boiling point, depression of freezing point and osmotic pressure.|They depend on the number of particles.|M
+S|State Henry's law.|At constant temperature the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid.|It explains why carbonated drinks fizz.|M
+S|Explain osmosis and osmotic pressure.|Osmosis is the flow of solvent through a semipermeable membrane from a dilute to a concentrated solution. The osmotic pressure is the pressure that must be applied to stop it, π = MRT.|Reverse osmosis uses a pressure greater than π.|M
+S|What is the van't Hoff factor?|The ratio of the observed colligative property to that calculated for a non-dissociating solute, which equals the number of particles per formula unit, for example 2 for NaCl.|It is 1 for glucose.|H

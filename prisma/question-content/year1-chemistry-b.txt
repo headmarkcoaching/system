@@ -1,0 +1,165 @@
+@level 1st Year
+@subject Chemistry
+
+# 4 Liquids
+M|The forces of attraction between molecules are called|intermolecular forces|intramolecular forces|nuclear forces|gravitational forces|1|They are weaker than chemical bonds.|E
+M|The weakest intermolecular forces are|London dispersion forces|hydrogen bonds|ion-dipole forces|covalent bonds|1|They arise from temporary dipoles.|M
+M|Dipole-dipole forces occur between|polar molecules|non-polar molecules|ions only|atoms of noble gases|1|Positive end attracts negative end.|M
+M|Hydrogen bonding occurs when hydrogen is bonded to|F, O or N|C only|Na|He|1|Highly electronegative small atoms.|M
+M|The unusually high boiling point of water is due to|hydrogen bonding|ionic bonding|metallic bonding|covalent bonds only|1|Strong intermolecular attraction.|E
+M|Evaporation is the process in which|molecules escape from the surface of a liquid|a liquid boils at its boiling point only|a solid melts|a gas condenses|1|It occurs at all temperatures.|E
+M|Evaporation causes|cooling|heating|no change|melting|1|The fastest molecules escape.|E
+M|The vapour pressure of a liquid is the pressure exerted by its vapour|in equilibrium with the liquid|at any pressure|when it boils only|in a vacuum only|1|At a given temperature.|M
+M|The vapour pressure of a liquid|increases with temperature|decreases with temperature|is constant|is zero|1|More molecules escape.|M
+M|A liquid boils when its vapour pressure becomes equal to|the external pressure|zero|the atmospheric pressure at 0 °C|one atmosphere always|1|At that temperature.|M
+M|The normal boiling point is the temperature at which the vapour pressure equals|760 torr (1 atm)|1 torr|0 torr|100 atm|1|At standard pressure.|M
+M|At high altitude water boils at a temperature|lower than 100 °C|higher than 100 °C|equal to 100 °C|of 0 °C|1|The atmospheric pressure is lower.|M
+M|The molar heat of vaporisation is the heat required to|vaporise one mole of a liquid at its boiling point|melt a solid|heat a liquid by 1 K|cool a gas|1|ΔH_vap.|M
+M|The molar heat of vaporisation of a liquid with strong intermolecular forces is|large|small|zero|negative|1|More energy is needed.|M
+M|Viscosity is the|resistance of a liquid to flow|ability to evaporate|density|surface area|1|Honey is viscous.|E
+M|The viscosity of a liquid with a rise in temperature|decreases|increases|stays constant|becomes infinite|1|Molecules move faster.|M
+M|Surface tension is the|energy required to increase the surface area of a liquid|force of gravity|pressure|viscosity|1|It makes drops spherical.|M
+M|The surface tension of a liquid with a rise in temperature|decreases|increases|stays the same|doubles|1|Weaker intermolecular forces.|M
+M|Capillary action occurs because of|adhesion and cohesion|gravity|pressure|viscosity|1|Liquids rise in narrow tubes.|M
+M|The shape of the meniscus of water in glass is|concave|convex|flat|spherical|1|Adhesion exceeds cohesion.|M
+M|The shape of the meniscus of mercury in glass is|convex|concave|flat|conical|1|Cohesion exceeds adhesion.|M
+M|A liquid crystal is a substance that|flows like a liquid but has ordered molecules|is a solid|is a gas|is a metal|1|Used in displays.|M
+M|Liquid crystals are used in|LCD displays|batteries|engines|wires|1|Their orientation changes with voltage.|M
+M|The boiling point of a liquid increases with|stronger intermolecular forces|weaker intermolecular forces|lower molar mass always|lower pressure|1|More energy is needed.|M
+M|Among H₂O, H₂S, H₂Se and H₂Te the highest boiling point is that of|H₂O|H₂S|H₂Se|H₂Te|1|Because of hydrogen bonding.|M
+M|The density of ice is less than that of water because|hydrogen bonds form an open lattice|ice is cold|water is heavy|ice has fewer molecules|1|Ice floats.|M
+M|Ethanol has a higher boiling point than dimethyl ether because|ethanol forms hydrogen bonds|ethanol is heavier|ethanol is a gas|ether is a metal|1|Same molar mass, different forces.|M
+M|The Clausius-Clapeyron equation relates the vapour pressure to|the temperature and heat of vaporisation|volume|density|mass|1|ln P = −ΔH/RT + C.|H
+M|Dynamic equilibrium between a liquid and its vapour means|the rates of evaporation and condensation are equal|nothing happens|evaporation stops|condensation stops|1|In a closed container.|M
+M|Hexane has a higher boiling point than pentane because of|stronger London forces|hydrogen bonds|ionic forces|covalent bonds|1|Larger molecules are more polarisable.|M
+N|Find the heat in kJ needed to vaporise 2 mol of water at 100 °C. ΔH_vap = 40.7 kJ/mol.|81.4|2 × 40.7.|M|2*40.7
+N|Find the heat in kJ needed to vaporise 36 g of water (18 g/mol). ΔH_vap = 40.7 kJ/mol.|81.4|2 mol.|M|36/18*40.7
+N|Find the number of moles in 90 g of water.|5|90/18.|E|90/18
+N|Find the heat in kJ released when 0.5 mol of steam condenses. ΔH_vap = 40.7 kJ/mol, to two decimals.|20.35|0.5 × 40.7.|M|0.5*40.7
+N|The vapour pressure of a liquid is 300 torr at 70 °C. Find it in atm to three decimals.|0.395|300/760.|M|300/760
+N|A liquid boils at 100 °C and its vapour pressure is 760 torr. Find the vapour pressure in kPa to one decimal. 760 torr = 101.3 kPa.|101.3|By definition.|E|101.3
+N|The surface tension of water is 0.072 N/m. Find the force in mN acting on a 5 cm line on the surface, to one decimal.|3.6|0.072 × 0.05.|M|0.072*0.05*1000
+N|Find the density in g/cm³ of a liquid of mass 54 g and volume 60 cm³.|0.9|54/60.|E|54/60
+N|A drop of water has a volume of 0.05 cm³. Find the number of drops in 10 cm³.|200|10/0.05.|E|10/0.05
+N|The time of flow of water through a viscometer is 20 s and of a liquid is 50 s. If their densities are equal, find η_liquid/η_water.|2.5|50/20.|M|50/20
+N|Find the molar mass in g/mol of a liquid that has a density of 0.8 g/cm³ and one mole occupies 75 cm³.|60|0.8 × 75.|M|0.8*75
+N|Find the temperature in kelvin equal to the boiling point 78 °C of ethanol.|351|78 + 273.|E|78+273
+N|Find the number of moles in 4.6 g of ethanol (C₂H₅OH = 46).|0.1|4.6/46.|E|4.6/46
+N|Find the energy in kJ to vaporise 4.6 g of ethanol (46 g/mol) with ΔH_vap = 38.6 kJ/mol, to two decimals.|3.86|0.1 × 38.6.|M|4.6/46*38.6
+N|A liquid has a vapour pressure of 100 torr at 40 °C and 200 torr at 60 °C. Find the ratio of the two pressures.|2|200/100.|E|200/100
+N|Find the volume in cm³ of 100 g of a liquid with density 1.25 g/cm³.|80|100/1.25.|M|100/1.25
+S|Name the intermolecular forces and arrange them in order of strength.|London dispersion forces are the weakest, then dipole-dipole forces, then hydrogen bonds, which are the strongest of the three.|Ion-dipole forces are stronger still.|M
+S|Define vapour pressure and boiling point.|The vapour pressure is the pressure of the vapour in equilibrium with its liquid at a given temperature. The boiling point is the temperature at which the vapour pressure equals the external pressure.|It rises with temperature.|M
+S|Why does water have an abnormally high boiling point?|Its molecules are held together by strong hydrogen bonds, so more energy is needed to separate them.|The H–O bond is highly polar.|M
+S|Define surface tension and viscosity.|Surface tension is the energy needed to increase the surface area of a liquid by unit area. Viscosity is the resistance of a liquid to flow.|Both decrease with temperature.|M
+S|What are liquid crystals? Give one use.|Substances that flow like liquids but have molecules arranged in an ordered way like crystals. They are used in LCD displays.|Their order responds to electric fields.|M
+S|Explain why ice floats on water.|In ice the molecules are held in an open hexagonal lattice by hydrogen bonds, so ice is less dense than liquid water.|The density of water is greatest at 4 °C.|M
+
+# 5 Atomic Structure
+M|The electron was discovered by|J. J. Thomson|Rutherford|Chadwick|Bohr|1|Using cathode rays.|E
+M|The nucleus was discovered by|Rutherford|Thomson|Bohr|Dalton|1|In the gold foil experiment.|E
+M|The neutron was discovered by|Chadwick|Rutherford|Thomson|Millikan|1|In 1932.|E
+M|The charge of an electron was determined by|Millikan|Thomson|Rutherford|Chadwick|1|The oil drop experiment.|E
+M|The atomic number Z of an atom is the number of|protons|neutrons|nucleons|electrons plus protons|1|It defines the element.|E
+M|The mass number A is the number of|protons plus neutrons|protons|neutrons|electrons|1|The nucleon number.|E
+M|Bohr's model explained successfully the spectrum of|hydrogen|helium|all atoms|molecules|1|It fails for many-electron atoms.|M
+M|The energy of the nth level of hydrogen is|−13.6/n² eV|13.6/n² eV|−13.6 n² eV|−13.6/n eV|1|The ground state is −13.6 eV.|M
+M|The principal quantum number n determines|the energy and size of the orbital|the shape|the orientation|the spin|1|n = 1, 2, 3, ...|M
+M|The azimuthal quantum number l determines|the shape of the orbital|the size|the orientation|the spin|1|l = 0 to n − 1.|M
+M|The magnetic quantum number m determines|the orientation of the orbital|the shape|the size|the energy only|1|m = −l to +l.|M
+M|The spin quantum number s can have the values|+½ or −½|0 or 1|1 or 2|−1, 0, +1|1|Two spin states.|M
+M|For l = 0 the subshell is called|s|p|d|f|1|It is spherical.|E
+M|For l = 1 the subshell is called|p|s|d|f|1|It is dumb-bell shaped.|E
+M|The number of orbitals in a p subshell is|3|1|5|7|1|2l + 1.|M
+M|The number of orbitals in a d subshell is|5|3|7|1|1|2l + 1 = 5.|M
+M|The maximum number of electrons in the nth shell is|2n²|n²|2n|n|1|The 2n² rule.|M
+M|The maximum number of electrons in a subshell with azimuthal quantum number l is|2(2l + 1)|2l + 1|l + 1|2l|1|Two per orbital.|M
+M|The Pauli exclusion principle states that no two electrons in an atom can have|the same set of four quantum numbers|different spins|the same energy|the same charge|1|An orbital holds at most two electrons.|M
+M|Hund's rule states that electrons fill degenerate orbitals|singly before pairing|in pairs first|randomly|only in s orbitals|1|With parallel spins.|M
+M|The Aufbau principle says that electrons fill orbitals in|order of increasing energy|any order|order of decreasing energy|alphabetical order|1|Lowest energy first.|M
+M|The electronic configuration of oxygen (Z = 8) is|1s² 2s² 2p⁴|1s² 2s² 2p⁶|1s² 2s² 2p²|1s² 2s¹ 2p⁵|1|Eight electrons.|M
+M|The electronic configuration of Na (Z = 11) is|1s² 2s² 2p⁶ 3s¹|1s² 2s² 2p⁶ 3s²|1s² 2s² 2p⁵ 3s²|1s² 2s² 3s⁷|1|One valence electron.|M
+M|The electronic configuration of Cr (Z = 24) is|[Ar] 3d⁵ 4s¹|[Ar] 3d⁴ 4s²|[Ar] 3d⁶|[Ar] 4s² 4p⁴|1|A half-filled d subshell is stable.|H
+M|The electronic configuration of Cu (Z = 29) is|[Ar] 3d¹⁰ 4s¹|[Ar] 3d⁹ 4s²|[Ar] 3d¹¹|[Ar] 4s² 4p⁹|1|A filled d subshell is stable.|H
+M|The shape of an s orbital is|spherical|dumb-bell|double dumb-bell|linear|1|Non-directional.|E
+M|The shape of a p orbital is|dumb-bell|spherical|cloverleaf only|circular|1|Directional.|E
+M|The de Broglie wavelength of a particle is|h/mv|mv/h|hmv|h v/m|1|Matter has wave properties.|M
+M|The Heisenberg uncertainty principle states that|Δx Δp ≥ h/4π|Δx Δp = 0|Δx = Δp|Δx Δp ≤ h/4π|1|We cannot know position and momentum exactly.|M
+M|An orbital is|a region of space where the probability of finding an electron is high|a fixed circular path|a shell|a nucleus|1|Defined by the wave function.|M
+M|A node in an orbital is a region where the probability of finding the electron is|zero|maximum|one|constant|1|The wave function is zero.|H
+M|The number of radial nodes in a 3s orbital is|2|0|1|3|1|n − l − 1 = 2.|H
+N|Find the number of orbitals in the third shell (n = 3).|9|n² = 9.|M|9
+N|Find the maximum number of electrons in the n = 3 shell.|18|2n² = 18.|M|2*3*3
+N|Find the number of electrons in an Fe²⁺ ion. (Z = 26)|24|26 − 2.|M|26-2
+N|Find the number of neutrons in ²³⁸U. (Z = 92)|146|238 − 92.|E|238-92
+N|Find the wavelength in nm of a photon with energy 2.48 eV. Use hc = 1240 eV nm.|500|1240/2.48.|M|1240/2.48
+N|Find the energy in eV emitted when an electron in hydrogen falls from n = 3 to n = 2, to two decimals.|1.89|13.6(1/4 − 1/9).|M|13.6*(1/4-1/9)
+N|Find the wavelength in nm of the photon emitted in the n = 3 to n = 2 transition. Use hc = 1240 eV nm, to the nearest nm.|656|1240/1.889.|H|1240/(13.6*(1/4-1/9))
+N|Find the de Broglie wavelength in pm of an electron moving at 10⁶ m/s. h = 6.626 × 10⁻³⁴, m = 9.11 × 10⁻³¹, to the nearest pm.|727|h/mv.|H|6.626e-34/(9.11e-31*1e6)*1e12
+N|The radius of the first Bohr orbit of hydrogen is a₀ = 52.9 pm. Find the radius in pm of the n = 3 orbit.|476.1|n² a₀ = 9 × 52.9.|M|9*52.9
+N|Find the total number of electrons in the 3d subshell when completely filled.|10|5 orbitals × 2.|M|10
+N|Find the number of unpaired electrons in a Cr atom (3d⁵ 4s¹).|6|Five in d and one in s.|H|6
+N|Find the number of subshells in the n = 4 shell.|4|n subshells.|M|4
+N|Find the number of orbitals in the 4f subshell.|7|2l + 1 with l = 3.|M|2*3+1
+N|Find the frequency in 10¹⁴ Hz of light with wavelength 600 nm. c = 3 × 10⁸ m/s.|5|c/λ.|M|3e8/600e-9/1e14
+N|Find the number of electrons that can have n = 2 and l = 1.|6|3 orbitals × 2.|M|3*2
+S|State the four quantum numbers and their significance.|n gives the size and energy, l the shape, m the orientation and s the spin of an electron in an atom.|They define an orbital and the electron.|M
+S|State the Pauli exclusion principle, the Aufbau principle and Hund's rule.|Pauli: no two electrons have all four quantum numbers equal. Aufbau: electrons fill the lowest energy orbitals first. Hund: degenerate orbitals are singly occupied before pairing.|They give the electronic configuration.|M
+S|Write the electronic configuration of Fe and Fe³⁺.|Fe: [Ar] 3d⁶ 4s². Fe³⁺: [Ar] 3d⁵.|The 4s electrons are lost first.|M
+S|State the de Broglie relation and the Heisenberg uncertainty principle.|λ = h/mv, and Δx Δp ≥ h/4π.|They are the basis of quantum mechanics.|M
+S|What is the difference between an orbit and an orbital?|An orbit is a definite circular path in Bohr's model, while an orbital is a region of space where the probability of finding an electron is high.|Orbitals come from quantum mechanics.|M
+S|State two drawbacks of Bohr's model.|It cannot explain the spectra of atoms with more than one electron, and it violates the uncertainty principle by giving definite orbits.|It also cannot explain fine structure.|M
+
+# 6 Chemical Bonding
+M|An ionic bond is formed by|transfer of electrons|sharing of electrons|sharing of protons|none|1|Between a metal and a non-metal.|E
+M|A covalent bond is formed by|sharing of electrons|transfer of electrons|transfer of protons|none|1|Between non-metals.|E
+M|A coordinate covalent bond is formed when|both bonding electrons come from one atom|electrons are transferred|no electrons are shared|protons are shared|1|For example NH₄⁺.|M
+M|A metallic bond is the attraction between|metal ions and a sea of delocalised electrons|two non-metals|two anions|nuclei|1|Explains conductivity.|M
+M|The octet rule states that atoms tend to have|eight electrons in the valence shell|two electrons|ten electrons|no electrons|1|Stable configuration.|E
+M|The shape of CH₄ is|tetrahedral|planar|linear|pyramidal|1|Bond angle 109.5°.|M
+M|The shape of NH₃ is|trigonal pyramidal|tetrahedral|linear|bent|1|One lone pair.|M
+M|The shape of H₂O is|bent (V-shaped)|linear|tetrahedral|trigonal|1|Two lone pairs.|M
+M|The shape of CO₂ is|linear|bent|tetrahedral|pyramidal|1|Two double bonds.|M
+M|The shape of BF₃ is|trigonal planar|pyramidal|tetrahedral|linear|1|No lone pairs.|M
+M|The bond angle in water is about|104.5°|109.5°|120°|180°|1|Lone pairs compress it.|M
+M|The bond angle in ammonia is about|107°|109.5°|120°|104.5°|1|One lone pair.|M
+M|The VSEPR theory predicts molecular shapes from|repulsion between electron pairs|nuclear charge|atomic mass|colour|1|Pairs arrange to minimise repulsion.|M
+M|The hybridisation of carbon in CH₄ is|sp³|sp²|sp|dsp²|1|Four sigma bonds.|M
+M|The hybridisation of carbon in ethene (C₂H₄) is|sp²|sp³|sp|dsp²|1|One double bond.|M
+M|The hybridisation of carbon in ethyne (C₂H₂) is|sp|sp²|sp³|d²sp³|1|One triple bond.|M
+M|A sigma bond is formed by|head-on overlap of orbitals|sideways overlap|electron transfer|ionisation|1|It can rotate freely.|M
+M|A pi bond is formed by|sideways overlap of p orbitals|head-on overlap|electron transfer|ionisation|1|It restricts rotation.|M
+M|A double bond consists of|one sigma and one pi bond|two sigma bonds|two pi bonds|one pi bond|1|A triple bond has one sigma and two pi.|M
+M|The polarity of a bond depends on|the difference in electronegativity|the atomic mass|the colour|the pressure|1|Greater difference gives more polarity.|M
+M|The dipole moment of a molecule is|charge × distance between charges|charge/distance|charge + distance|distance|1|μ = q d.|M
+M|CO₂ is non-polar because|its dipoles cancel|it has no bonds|it is heavy|it is ionic|1|The molecule is linear.|M
+M|The molecule with a zero dipole moment is|BF₃|NH₃|H₂O|HCl|1|Symmetrical.|M
+M|Bond order in molecular orbital theory is|½(bonding electrons − antibonding electrons)|bonding electrons + antibonding|bonding/antibonding|antibonding − bonding|1|The number of bonds.|H
+M|The bond order of O₂ is|2|1|3|0|1|It has two unpaired electrons.|H
+M|The bond order of N₂ is|3|2|1|0|1|A triple bond.|H
+M|The molecule O₂ is paramagnetic because|it has unpaired electrons|it has no electrons|it is heavy|it is ionic|1|Explained by molecular orbital theory.|H
+M|Hydrogen bonding is strongest in|HF|HCl|HBr|HI|1|F is the most electronegative.|M
+M|The compound with the highest melting point is|NaCl|CH₄|Cl₂|HCl|1|Ionic compounds have strong lattices.|M
+M|The bond energy is|the energy needed to break one mole of bonds|the energy of an atom|the energy of a molecule|zero|1|A measure of strength.|M
+N|Find the bond order of N₂ with 10 bonding electrons and 4 antibonding electrons.|3|½(10 − 4).|M|(10-4)/2
+N|Find the bond order of O₂ with 10 bonding and 6 antibonding electrons.|2|½(10 − 6).|M|(10-6)/2
+N|Find the bond order of the He₂ molecule with 2 bonding and 2 antibonding electrons.|0|½(2 − 2).|M|(2-2)/2
+N|Find the dipole moment in debye (1 D = 3.34 × 10⁻³⁰ C m) of a molecule with charges ±1.6 × 10⁻¹⁹ C separated by 10⁻¹⁰ m, to two decimals.|4.79|1.6 × 10⁻²⁹/3.34 × 10⁻³⁰.|H|1.6e-19*1e-10/3.34e-30
+N|The H–Cl bond has a dipole moment of 1.08 D and a bond length of 127 pm. Find the percentage ionic character with μ_ionic = e × d = 6.1 D, to one decimal.|17.7|1.08/6.1 × 100.|H|1.08/6.1*100
+N|Find the number of sigma bonds in ethene (C₂H₄).|5|4 C–H and 1 C–C.|M|5
+N|Find the number of pi bonds in ethyne (C₂H₂).|2|A triple bond has two.|M|2
+N|Find the number of lone pairs on the central atom of H₂O.|2|Oxygen has two lone pairs.|M|2
+N|Find the number of valence electrons in an ammonium ion NH₄⁺.|8|5 + 4 − 1.|M|5+4-1
+N|Find the total number of valence electrons in CO₂.|16|4 + 12.|M|4+2*6
+N|Find the number of electrons transferred in the formation of MgCl₂ from Mg.|2|Mg → Mg²⁺ + 2e⁻.|M|2
+N|Find the formal charge on N in NH₄⁺ (5 valence electrons, 0 non-bonding, 8 bonding electrons).|1|5 − 0 − 8/2.|H|5-0-8/2
+N|Find the electronegativity difference between Na (0.9) and Cl (3.0).|2.1|3.0 − 0.9.|E|3.0-0.9
+N|Find the number of unpaired electrons in O₂ according to MO theory.|2|It is paramagnetic.|H|2
+N|The O–H bond length is 96 pm. Find it in nm.|0.096|96/1000.|E|96/1000
+N|Find the number of sigma bonds in CH₄.|4|Four C–H bonds.|E|4
+S|Distinguish between ionic and covalent bonds.|An ionic bond forms by transfer of electrons from a metal to a non-metal, giving ions held by electrostatic attraction. A covalent bond forms by sharing electrons between non-metal atoms.|Properties differ.|M
+S|State the postulates of the VSEPR theory.|Electron pairs around the central atom repel each other and arrange themselves as far apart as possible, with lone pairs repelling more than bonding pairs, which determines the shape of the molecule.|It predicts bond angles.|M
+S|Explain sp³, sp² and sp hybridisation with examples.|Mixing one s and three p orbitals gives four sp³ orbitals as in CH₄. One s and two p give three sp² orbitals as in C₂H₄. One s and one p give two sp orbitals as in C₂H₂.|They are tetrahedral, trigonal planar and linear.|M
+S|Distinguish between sigma and pi bonds.|A sigma bond is formed by head-on overlap of orbitals and allows rotation. A pi bond is formed by sideways overlap of p orbitals and restricts rotation.|A double bond has one of each.|M
+S|Explain why CO₂ is non-polar while H₂O is polar.|CO₂ is linear, so the two bond dipoles cancel, while H₂O is bent, so its dipoles do not cancel.|The shape decides polarity.|M
+S|Define the bond order and give the value for O₂.|Bond order is half the difference between the numbers of bonding and antibonding electrons. For O₂ it is 2.|The molecule is paramagnetic.|H

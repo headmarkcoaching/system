@@ -1,0 +1,158 @@
+@level 1st Year
+@subject Biology
+
+# 10 Kingdom Animalia
+M|Animals are|multicellular heterotrophic eukaryotes without cell walls|autotrophs|unicellular|prokaryotes|1|Ingestive nutrition.|E
+M|The simplest animals are the|sponges (Porifera)|worms|insects|mammals|1|No true tissues.|E
+M|Sponges feed by|filtering water through pores|photosynthesis|absorption|hunting|1|Choanocytes.|M
+M|The phylum Cnidaria includes|jellyfish and Hydra|sponges|worms|insects|1|Stinging cells.|M
+M|Cnidarians have|radial symmetry and two tissue layers|bilateral symmetry|no symmetry|three layers|1|Diploblastic.|M
+M|Cnidocytes (stinging cells) are used for|defence and capturing prey|digestion|reproduction|respiration|1|Contain nematocysts.|M
+M|Flatworms (Platyhelminthes) are|acoelomate, bilaterally symmetrical animals|segmented|radially symmetrical|coelomate|1|Flat bodies.|M
+M|Examples of parasitic flatworms are|tapeworm and liver fluke|earthworm|leech|roundworm|1|Platyhelminthes.|E
+M|Roundworms (Nematoda) have|a pseudocoelom and a complete digestive tract|a true coelom|no gut|segments|1|Unsegmented.|M
+M|Ascaris is a|roundworm|flatworm|annelid|arthropod|1|Parasite of humans.|E
+M|Annelids are|segmented worms|flatworms|roundworms|molluscs|1|Earthworms, leeches.|E
+M|The earthworm moves with the help of|setae and muscles|legs|cilia|flagella|1|Bristles.|M
+M|Annelids have a|true coelom|pseudocoelom|no body cavity|no gut|1|Coelomate.|M
+M|The largest phylum of animals is|Arthropoda|Mollusca|Chordata|Annelida|1|Insects.|E
+M|Arthropods have|jointed appendages and an exoskeleton of chitin|a backbone|a shell|no appendages|1|Segmented.|E
+M|The body of an insect is divided into|head, thorax and abdomen|head and trunk|cephalothorax and abdomen|no regions|1|Three regions.|E
+M|Insects have|three pairs of legs|four pairs|two pairs|no legs|1|Six legs.|E
+M|Spiders have|four pairs of legs|three pairs|five pairs|two pairs|1|Arachnids.|E
+M|Crustaceans such as prawns have|two pairs of antennae|no antennae|one pair of antennae|three pairs|1|Aquatic arthropods.|M
+M|The exoskeleton of arthropods must be shed by|moulting (ecdysis)|breathing|digestion|reproduction|1|To allow growth.|M
+M|Insects breathe by|tracheae and spiracles|lungs|gills|skin only|1|Air tubes.|M
+M|Molluscs have|a soft body usually with a shell|an exoskeleton of chitin|a backbone|jointed legs|1|Snails, mussels, squids.|E
+M|The muscular organ used for movement in molluscs is the|foot|tentacle|setae|spine|1|Ventral.|M
+M|Echinoderms have|radial symmetry as adults and tube feet|bilateral symmetry|no skeleton|jointed legs|1|Starfish.|M
+M|Chordates have at some stage|a notochord, dorsal nerve cord and pharyngeal slits|an exoskeleton|jointed legs|a shell|1|Defining features.|M
+M|Vertebrates have|a backbone|no backbone|a shell|an exoskeleton only|1|Fish to mammals.|E
+M|Fishes breathe by|gills|lungs|skin only|tracheae|1|Gas exchange.|E
+M|Amphibians include|frogs and toads|snakes|lizards|birds|1|Moist skin.|E
+M|Reptiles have|dry scaly skin and lay shelled eggs|moist skin|feathers|fur|1|Snakes, lizards.|E
+M|Birds have|feathers and a four-chambered heart|fur|three-chambered hearts|scales|1|Warm-blooded.|E
+M|Mammals have|hair and mammary glands|feathers|scales|gills|1|Suckle young.|E
+M|The class of mammals that lay eggs is|monotremes|marsupials|placentals|primates|1|Platypus.|M
+M|Marsupials carry their young in a|pouch|nest|shell|burrow only|1|Kangaroo.|M
+M|Animals that maintain a constant body temperature are called|endotherms|ectotherms|poikilotherms|cold-blooded|1|Birds and mammals.|M
+M|Animals with a body cavity completely lined with mesoderm are|coelomates|acoelomates|pseudocoelomates|diploblasts|1|True coelom.|H
+M|Protostomes and deuterostomes differ in the|fate of the blastopore|number of legs|colour|size|1|Mouth first or anus first.|H
+M|Metamorphosis is the|change of form from larva to adult|growth|reproduction|digestion|1|Insects, amphibians.|M
+N|An insect has 3 pairs of legs. Find the total number of legs.|6|3 × 2.|E|3*2
+N|A spider has 4 pairs of legs. Find the total.|8|4 × 2.|E|4*2
+N|A colony has 1000 aphids and the population doubles every 5 days. Find the number after 20 days.|16000|1000 × 2⁴.|M|1000*2^4
+N|A queen termite lays 30 000 eggs a day. Find the number in 10 days.|300000|30 000 × 10.|E|30000*10
+N|A frog lays 3000 eggs and 2% survive to adults. Find the number surviving.|60|3000 × 0.02.|M|3000*0.02
+N|The heart rate of a mouse is 600 beats/min. Find the number in 1 hour.|36000|600 × 60.|E|600*60
+N|A starfish has 5 arms each with 200 tube feet. Find the total number of tube feet.|1000|5 × 200.|E|5*200
+N|An earthworm has 100 segments. Find the number of segments after it is cut into 2 equal pieces each.|50|100/2.|E|100/2
+S|Describe the main features of the phylum Arthropoda.|Arthropods have a segmented body, jointed appendages, a chitinous exoskeleton, an open circulatory system and an ecdysis for growth.|It is the largest phylum.|M
+S|Distinguish between the classes of vertebrates.|Fishes have gills and scales, amphibians have moist skin and metamorphosis, reptiles have dry scaly skin, birds have feathers and mammals have hair and mammary glands.|The last two are endothermic.|M
+S|Describe the features of the phylum Cnidaria.|Cnidarians are aquatic, radially symmetrical, diploblastic animals with a gastrovascular cavity and stinging cells (cnidocytes).|Jellyfish and Hydra.|M
+S|Distinguish between acoelomates, pseudocoelomates and coelomates.|Acoelomates have no body cavity, pseudocoelomates have a cavity not fully lined with mesoderm, and coelomates have a true coelom lined with mesoderm.|Examples: flatworm, roundworm, earthworm.|M
+S|State the characteristics of chordates.|A notochord, a hollow dorsal nerve cord, pharyngeal gill slits and a post-anal tail at some stage of life.|Vertebrates are chordates.|M
+S|What is metamorphosis? Give an example.|A change in body form from larva to adult, as in the butterfly (egg, larva, pupa, adult) or the frog (tadpole to frog).|It may be complete or incomplete.|M
+
+# 11 Bioenergetics
+M|Bioenergetics is the study of|energy transformations in living things|nutrition only|digestion|heredity|1|ATP, photosynthesis and respiration.|E
+M|ATP stands for|adenosine triphosphate|adenine triphosphate|amino triphosphate|aspartate triphosphate|1|Energy currency.|E
+M|ATP is made of|adenine, ribose and three phosphate groups|glucose and phosphate|amino acids|fatty acids|1|Nucleotide.|M
+M|The energy of ATP is stored in|the high-energy phosphate bonds|the base|the sugar|the water|1|Hydrolysis releases it.|M
+M|Photosynthesis takes place in the|chloroplasts|mitochondria|nucleus|ribosomes|1|Contain chlorophyll.|E
+M|The overall equation of photosynthesis is|6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂|C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O|CO₂ → C|6O₂ → 6CO₂|1|With light.|M
+M|The light-dependent reactions occur in the|thylakoid membranes (grana)|stroma|cytoplasm|nucleus|1|Produce ATP, NADPH.|M
+M|The light-independent reactions (Calvin cycle) occur in the|stroma|grana|mitochondria|nucleus|1|Fix CO₂.|M
+M|The oxygen released in photosynthesis comes from|water|carbon dioxide|glucose|chlorophyll|1|Photolysis.|M
+M|Photolysis is the|splitting of water by light|splitting of CO₂|fixation of CO₂|formation of glucose|1|In photosystem II.|M
+M|The enzyme that fixes CO₂ in the Calvin cycle is|RuBisCO|catalase|amylase|ATPase|1|Ribulose bisphosphate carboxylase.|M
+M|CO₂ is fixed to|ribulose bisphosphate (RuBP)|glucose|NADP|ATP|1|Forms two GP.|M
+M|The first stable product of the Calvin cycle is|glycerate-3-phosphate (GP)|glucose|RuBP|triose phosphate|1|A three-carbon compound.|M
+M|NADPH is used in the Calvin cycle as|a reducing agent|an oxidising agent|an enzyme|a pigment|1|Reduces GP to TP.|M
+M|The main photosynthetic pigment is|chlorophyll a|carotene|xanthophyll|anthocyanin|1|Absorbs red and blue.|M
+M|Chlorophyll absorbs mainly|red and blue light|green light|yellow light|infrared|1|Reflects green.|E
+M|A limiting factor of photosynthesis could be|light, CO₂ or temperature|only light|only water|only soil|1|The factor in shortest supply.|M
+M|The compensation point is when|photosynthesis equals respiration|photosynthesis stops|respiration stops|the plant dies|1|No net gas exchange.|M
+M|C4 plants such as maize|fix CO₂ first into a four-carbon compound|do not fix CO₂|fix CO₂ in the dark only|use no RuBisCO|1|Reduce photorespiration.|H
+M|Cellular respiration is the|oxidation of food to release energy|making of food|taking in of oxygen only|digestion|1|Occurs in all cells.|E
+M|The equation of aerobic respiration is|C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy|6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂|C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂|CO₂ + H₂O → H₂CO₃|1|About 38 ATP.|M
+M|Glycolysis occurs in the|cytoplasm|mitochondria|nucleus|chloroplast|1|Splits glucose.|M
+M|The net yield of ATP from glycolysis is|2|4|36|38|1|2 used, 4 made.|M
+M|The end product of glycolysis is|pyruvate|lactate|ethanol|acetyl CoA|1|Two molecules.|M
+M|The link reaction converts pyruvate to|acetyl CoA|citrate|lactate|glucose|1|Releases CO₂.|M
+M|The Krebs cycle takes place in the|mitochondrial matrix|cytoplasm|cristae|nucleus|1|Releases CO₂.|M
+M|The electron transport chain is located on the|inner mitochondrial membrane|outer membrane|matrix|cytoplasm|1|Oxidative phosphorylation.|M
+M|The final electron acceptor in aerobic respiration is|oxygen|NAD|CO₂|water|1|Forms water.|M
+M|Anaerobic respiration in yeast produces|ethanol and CO₂|lactic acid|water and CO₂|oxygen|1|Fermentation.|M
+M|Anaerobic respiration in muscle produces|lactic acid|ethanol|CO₂|water|1|Oxygen debt.|M
+M|The respiratory quotient (RQ) is|volume of CO₂ produced/volume of O₂ used|volume of O₂/CO₂|CO₂ + O₂|CO₂ − O₂|1|RQ.|H
+M|The RQ for carbohydrate respiration is|1.0|0.7|0.8|0.5|1|Equal volumes.|H
+M|The RQ for fat respiration is about|0.7|1.0|1.3|0.3|1|Needs more oxygen.|H
+M|NAD is a|coenzyme that carries hydrogen|an enzyme|a pigment|a protein|1|NAD to NADH.|M
+N|Find the net ATP from glycolysis if 4 are made and 2 are used.|2|4 − 2.|E|4-2
+N|Find the number of ATP from complete aerobic respiration of 5 glucose molecules at 38 ATP each.|190|5 × 38.|E|5*38
+N|Find the ratio of ATP from aerobic to anaerobic respiration per glucose (38:2).|19|38/2.|M|38/2
+N|Find the RQ if 6 volumes of CO₂ are produced when 6 volumes of O₂ are used.|1|6/6.|M|6/6
+N|Find the RQ if 7 volumes of CO₂ are produced for 10 volumes of O₂.|0.7|7/10.|M|7/10
+N|Find the moles of CO₂ needed to produce 1 mol of glucose by photosynthesis.|6|From the equation.|M|6
+N|Find the mass in g of glucose (180 g/mol) formed from 6 mol of CO₂.|180|1 mol.|M|6/6*180
+N|A leaf produces 4 mL of O₂ in 20 minutes. Find the rate in mL per hour.|12|4/20 × 60.|M|4/20*60
+S|Describe the light-dependent reactions of photosynthesis.|Light is absorbed by chlorophyll in the thylakoids, water is split (photolysis) releasing electrons, protons and oxygen, and ATP and NADPH are made.|They occur in the grana.|M
+S|Describe the Calvin cycle.|CO₂ is fixed by RuBisCO to RuBP to give GP, which is reduced using ATP and NADPH to triose phosphate, some of which makes glucose and the rest regenerates RuBP.|It occurs in the stroma.|M
+S|Outline the stages of aerobic respiration.|Glycolysis in the cytoplasm, the link reaction and the Krebs cycle in the mitochondrial matrix, and oxidative phosphorylation on the inner membrane.|About 38 ATP are formed.|M
+S|Compare aerobic and anaerobic respiration.|Aerobic respiration needs oxygen, gives CO₂ and water and about 38 ATP, while anaerobic respiration gives ethanol and CO₂ or lactic acid and only 2 ATP.|Both start with glycolysis.|M
+S|State the factors that affect the rate of photosynthesis.|Light intensity, CO₂ concentration and temperature, and the one in shortest supply is the limiting factor.|Water and chlorophyll also matter.|M
+S|What is ATP and why is it called the energy currency?|ATP is a nucleotide whose hydrolysis to ADP and phosphate releases energy for cell activities, and it is regenerated by respiration.|It is used by all cells.|M
+
+# 12 Nutrition
+M|Nutrition is the|process of obtaining and using food|digestion only|respiration|excretion|1|Includes ingestion and assimilation.|E
+M|Autotrophs are organisms that|make their own food|eat others|are parasites|are fungi|1|Plants.|E
+M|Heterotrophs are organisms that|obtain food from others|make food|photosynthesise|are plants|1|Animals.|E
+M|Holozoic nutrition involves|ingestion, digestion, absorption and egestion|absorption only|photosynthesis|chemosynthesis|1|Animals.|M
+M|Saprotrophic nutrition is by|absorbing nutrients from dead matter|ingesting prey|photosynthesis|parasitism|1|Fungi and bacteria.|M
+M|The six classes of nutrients are|carbohydrates, proteins, lipids, vitamins, minerals and water|only three|sugar and salt|oxygen and nitrogen|1|Plus fibre.|E
+M|The main function of carbohydrates is|to provide energy|building muscles|storing genes|transporting oxygen|1|17 kJ/g.|E
+M|The main function of proteins is|growth and repair|insulation only|storage only|energy only|1|Amino acids.|E
+M|Essential amino acids are those that|cannot be made by the body|are made by the body|are not needed|are lipids|1|Must be in the diet.|M
+M|The energy value of fat is about|37 kJ/g|17 kJ/g|4 kJ/g|1 kJ/g|1|Highest.|M
+M|The vitamin whose deficiency causes night blindness is|vitamin A|vitamin C|vitamin D|vitamin K|1|Retinol.|M
+M|The vitamin whose deficiency causes scurvy is|vitamin C|vitamin A|vitamin D|vitamin B₁₂|1|Ascorbic acid.|M
+M|The vitamin whose deficiency causes rickets is|vitamin D|vitamin C|vitamin A|vitamin K|1|Calciferol.|M
+M|The vitamin whose deficiency causes beriberi is|vitamin B₁|vitamin C|vitamin D|vitamin A|1|Thiamine.|M
+M|The vitamin needed for blood clotting is|vitamin K|vitamin C|vitamin D|vitamin E|1|Phylloquinone.|M
+M|Iron deficiency causes|anaemia|goitre|rickets|scurvy|1|Lack of haemoglobin.|M
+M|Iodine deficiency causes|goitre|anaemia|rickets|beriberi|1|Thyroid enlargement.|M
+M|The digestion of starch begins in the|mouth|stomach|duodenum|ileum|1|Salivary amylase.|E
+M|The digestion of proteins begins in the|stomach|mouth|duodenum|ileum|1|Pepsin.|E
+M|Pepsin works best at|pH 2|pH 7|pH 9|pH 12|1|Acidic.|M
+M|The function of hydrochloric acid in the stomach is to|kill bacteria and activate pepsinogen|digest fat|digest starch|absorb water|1|Low pH.|M
+M|The enzyme that digests fats is|lipase|amylase|pepsin|trypsin|1|From the pancreas.|M
+M|Bile is secreted by the|liver|stomach|pancreas|gall bladder|1|Stored in the gall bladder.|M
+M|Bile helps in the|emulsification of fats|digestion of proteins|digestion of starch|absorption of water|1|Increases surface area.|M
+M|The main site of absorption of digested food is the|small intestine (ileum)|stomach|colon|oesophagus|1|Villi.|E
+M|The villi increase the|surface area for absorption|motility|secretion|storage|1|Microvilli too.|M
+M|Water is mainly absorbed in the|large intestine|stomach|mouth|duodenum|1|Colon.|M
+M|Fatty acids and glycerol are absorbed into the|lacteals (lymph)|capillaries|stomach|liver directly|1|Villus lacteal.|M
+M|Amino acids and glucose are absorbed into the|blood capillaries|lacteals|lymph only|bile|1|Hepatic portal vein.|M
+M|The liver stores|glycogen|starch|cellulose|chitin|1|Also vitamins.|M
+M|A balanced diet contains|all nutrients in the correct proportions|only protein|only carbohydrates|only fat|1|Plus water and fibre.|E
+M|Kwashiorkor is caused by|protein deficiency|vitamin deficiency|iron deficiency|iodine deficiency|1|Swollen abdomen.|M
+M|Marasmus is caused by|deficiency of both energy and protein|only iron|only vitamins|only calcium|1|Severe wasting.|M
+M|Obesity is defined by a body mass index above|30|18|25|40|1|BMI = mass/height².|M
+M|Plants need nitrogen to make|amino acids and proteins|only sugars|only water|starch|1|Also chlorophyll indirectly.|M
+M|Magnesium is needed by plants to make|chlorophyll|cellulose|starch|proteins|1|Centre of chlorophyll.|M
+M|Deficiency of nitrate in plants causes|yellowing of leaves (chlorosis)|red leaves|large leaves|many flowers|1|Poor growth.|M
+N|Find the BMI of a person of mass 70 kg and height 1.75 m, to one decimal.|22.9|70/1.75².|M|70/(1.75*1.75)
+N|Find the energy in kJ of a meal with 50 g carbohydrate (17 kJ/g), 20 g protein (17 kJ/g) and 10 g fat (37 kJ/g).|1560|850 + 340 + 370.|M|50*17+20*17+10*37
+N|Find the percentage of energy from fat in a 1560 kJ meal containing 10 g of fat at 37 kJ/g, to one decimal.|23.7|370/1560.|H|370/1560*100
+N|A person needs 10 000 kJ per day. Find the number of days a stock of 70 000 kJ lasts.|7|70 000/10 000.|E|70000/10000
+N|Find the mass in g of protein needed per day for a person of 60 kg at 0.8 g/kg.|48|60 × 0.8.|M|60*0.8
+N|A person's BMR is 7000 kJ/day. Find it per hour to the nearest kJ.|292|7000/24.|M|7000/24
+N|The villi increase the surface area 10 times from 4 m² of the gut. Find the area in m².|40|4 × 10.|M|4*10
+N|The stomach secretes 2 L of gastric juice per day. Find the volume in mL per hour to the nearest mL.|83|2000/24.|M|2000/24
+S|Distinguish between autotrophic and heterotrophic nutrition.|Autotrophs make organic food from inorganic substances by photosynthesis or chemosynthesis, while heterotrophs obtain organic food from other organisms.|Plants and animals respectively.|E
+S|Describe the digestion of protein in the human gut.|Pepsin in the stomach breaks proteins into peptides, and trypsin and peptidases in the small intestine complete the digestion to amino acids.|Absorbed into the blood.|M
+S|Describe the role of the liver in digestion and metabolism.|It secretes bile for emulsifying fats, stores glycogen and vitamins, forms urea and detoxifies harmful substances.|The bile is stored in the gall bladder.|M
+S|State two deficiency diseases for each of vitamins and minerals.|Scurvy (vitamin C) and rickets (vitamin D), anaemia (iron) and goitre (iodine).|Balanced diet prevents them.|M
+S|Explain how the ileum is adapted for absorption.|It is long, has villi and microvilli to give a large surface area, a thin epithelium, a rich blood supply and a lacteal for fats.|Absorbs digested food.|M
+S|Name the mineral nutrients needed by plants and give one function of each.|Nitrogen for proteins, magnesium for chlorophyll and phosphorus for ATP and nucleic acids.|They are taken up as ions.|M

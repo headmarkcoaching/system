@@ -1,0 +1,157 @@
+@level 2nd Year
+@subject Biology
+
+# 7 Growth and Development
+M|Growth is defined as|a permanent increase in size and dry mass|reproduction|movement|respiration|1|Irreversible.|E
+M|Development is the|series of changes from zygote to adult|growth only|reproduction|repair|1|Includes differentiation.|E
+M|Differentiation is the process by which|cells become specialised|cells divide|cells die|cells fuse|1|Different gene expression.|M
+M|Stem cells are|undifferentiated cells that can divide and differentiate|specialised cells|dead cells|red blood cells|1|Self-renewing.|M
+M|Totipotent cells can develop into|any cell type including the embryo|only blood cells|only nerve cells|only muscle|1|Zygote.|H
+M|Embryonic development begins with|cleavage of the zygote|gastrulation|neurulation|organogenesis|1|Rapid cell divisions.|M
+M|The stage with a hollow ball of cells is the|blastula|gastrula|morula|neurula|1|Blastocoel.|M
+M|Gastrulation forms the|three germ layers|blastula|notochord only|heart only|1|Ectoderm, mesoderm, endoderm.|M
+M|The ectoderm forms the|nervous system and skin|muscles and bones|gut lining|blood|1|Outer layer.|M
+M|The mesoderm forms the|muscles, bones and blood|nervous system|gut lining|skin epidermis|1|Middle layer.|M
+M|The endoderm forms the|lining of the gut and lungs|muscles|nervous system|skin|1|Inner layer.|M
+M|Metamorphosis in insects is controlled by|ecdysone and juvenile hormone|insulin|thyroxine|oestrogen|1|Hormones.|M
+M|Complete metamorphosis has the stages|egg, larva, pupa, adult|egg, nymph, adult|egg, adult|larva, adult|1|Butterfly.|M
+M|Incomplete metamorphosis has the stages|egg, nymph, adult|egg, larva, pupa, adult|egg, pupa, adult|egg, adult|1|Grasshopper.|M
+M|Metamorphosis in amphibians is controlled by|thyroxine|insulin|oestrogen|ADH|1|Tadpole to frog.|M
+M|The growth curve of an organism is typically|sigmoid|linear|exponential only|a straight line|1|Slow, rapid, slow.|M
+M|The growth of a plant takes place at the|meristems|epidermis|xylem|phloem|1|Apical and lateral.|M
+M|Primary growth increases the|length of the plant|girth|number of flowers|root hairs only|1|Apical meristems.|M
+M|Secondary growth increases the|girth of the stem and root|length|height|number of leaves|1|Vascular cambium.|M
+M|Annual rings are formed by the activity of the|vascular cambium|cork cambium|epidermis|cortex|1|Seasonal.|M
+M|Auxins stimulate|cell elongation|cell division only|leaf fall|fruit ripening|1|Phototropism.|M
+M|Gibberellins stimulate|stem elongation and seed germination|root growth only|stomatal closure|leaf fall|1|Dwarfism cured.|M
+M|Cytokinins stimulate|cell division|cell elongation|ripening|dormancy|1|Delay senescence.|M
+M|Abscisic acid causes|stomatal closure and dormancy|cell elongation|germination|cell division|1|Stress hormone.|M
+M|Ethene causes|fruit ripening and leaf abscission|elongation|germination|cell division|1|Gaseous.|M
+M|Apical dominance is caused by|auxin from the apical bud|cytokinin|ethene|gibberellin|1|Inhibits lateral buds.|M
+M|Phototropism is growth in response to|light|gravity|water|touch|1|Shoots positive.|E
+M|Geotropism is growth in response to|gravity|light|water|touch|1|Roots positive.|E
+M|Photoperiodism is the response to|day length|temperature|water|gravity|1|Flowering.|M
+M|Short day plants flower when|the night is long enough|the day is long|temperature is high|water is plentiful|1|Chrysanthemum.|M
+M|Vernalisation is the|requirement of cold to induce flowering|requirement of light|water requirement|heat requirement|1|Winter wheat.|M
+M|Senescence is|the ageing process|growth|germination|flowering|1|Programmed.|M
+M|Apoptosis is|programmed cell death|cell growth|cell division|mutation|1|Shapes tissues.|M
+M|Regeneration in Hydra occurs from|stem cells|a single organ|blood|nerves|1|Whole body regrown.|M
+M|The germination of a seed begins with|imbibition of water|photosynthesis|flowering|pollination|1|Swelling.|M
+M|Epigeal germination is when|cotyledons emerge above the ground|cotyledons stay below ground|no cotyledons|roots only emerge|1|Bean.|H
+M|Hypogeal germination is when|cotyledons stay below ground|cotyledons emerge|no roots|no shoot|1|Pea, maize.|H
+N|A seedling grows from 2 cm to 14 cm in 6 days. Find the average growth rate in cm per day.|2|12/6.|E|(14-2)/6
+N|A plant is 20 cm and grows 15% in a week. Find the new height in cm.|23|20 × 1.15.|M|20*1.15
+N|A tree has 25 annual rings. Find its age in years.|25|One ring per year.|E|25
+N|The dry mass of a seedling increases from 0.4 g to 1.0 g. Find the percentage increase.|150|0.6/0.4.|M|(1.0-0.4)/0.4*100
+N|A stem cell divides every 12 hours. Find the number of cells after 3 days from 1 cell.|64|6 divisions.|M|2^6
+N|A zygote has 46 chromosomes. Find the number in a cell at the 8-cell stage.|46|Mitosis keeps number.|M|46
+N|A leaf grows 0.5 mm per day. Find its growth in cm in 30 days.|1.5|15 mm.|M|0.5*30/10
+N|A tadpole's tail shortens from 20 mm to 5 mm. Find the percentage reduction.|75|15/20.|M|(20-5)/20*100
+S|Distinguish between growth and development.|Growth is a permanent increase in size or dry mass, while development is the series of changes in form and specialisation from zygote to adult.|Differentiation is part of development.|M
+S|Describe the three germ layers and the tissues they form.|The ectoderm forms the nervous system and skin, the mesoderm forms muscle, bone and blood, and the endoderm forms the lining of the gut and organs.|Formed in gastrulation.|M
+S|Compare complete and incomplete metamorphosis.|Complete metamorphosis has egg, larva, pupa and adult stages, while incomplete metamorphosis has egg, nymph and adult stages.|Hormones control it.|M
+S|State the effects of plant growth substances.|Auxins cause elongation and tropisms, gibberellins promote stem growth, cytokinins promote cell division, ABA causes dormancy and stomatal closure, and ethene causes ripening.|They interact.|M
+S|Explain apical dominance.|Auxin produced by the apical bud inhibits the growth of lateral buds, so removing the apex causes bushy growth.|Cytokinins counter it.|M
+S|Define photoperiodism and vernalisation.|Photoperiodism is a response to day length, such as flowering, and vernalisation is the need for a cold period to induce flowering.|They control flowering time.|M
+
+# 8 Chromosomes and DNA
+M|DNA is the genetic material in|most organisms|only viruses|only bacteria|only plants|1|Some viruses have RNA.|E
+M|The experiment by Griffith demonstrated|transformation|replication|translation|transcription|1|Genetic material transfers.|M
+M|Hershey and Chase showed that the genetic material is|DNA|protein|RNA|lipid|1|Using bacteriophage.|M
+M|The double helix structure of DNA was proposed by|Watson and Crick|Mendel|Griffith|Meselson|1|1953.|E
+M|The monomers of DNA are|nucleotides|amino acids|glucose|fatty acids|1|Sugar, phosphate, base.|E
+M|The sugar in DNA is|deoxyribose|ribose|glucose|fructose|1|Without 2′ OH.|M
+M|The purines are|adenine and guanine|cytosine and thymine|adenine and thymine|guanine and cytosine|1|Double rings.|M
+M|The pyrimidines are|cytosine and thymine (uracil in RNA)|adenine and guanine|adenine and cytosine|none|1|Single rings.|M
+M|Adenine pairs with thymine by|two hydrogen bonds|three hydrogen bonds|one hydrogen bond|ionic bonds|1|A=T.|M
+M|Guanine pairs with cytosine by|three hydrogen bonds|two hydrogen bonds|one hydrogen bond|ionic bonds|1|G≡C.|M
+M|Chargaff's rule states that|A = T and G = C|A = G|T = C|A = C|1|In double-stranded DNA.|M
+M|The two strands of DNA are|antiparallel|parallel|identical|crossed|1|5′ to 3′ and 3′ to 5′.|M
+M|DNA replication is|semi-conservative|conservative|dispersive|random|1|Meselson and Stahl.|M
+M|The enzyme that unwinds DNA is|helicase|ligase|polymerase|primase|1|Breaks hydrogen bonds.|M
+M|The enzyme that joins nucleotides during replication is|DNA polymerase|helicase|ligase|RNA polymerase|1|5′ to 3′.|M
+M|The enzyme that joins Okazaki fragments is|DNA ligase|helicase|polymerase|primase|1|Lagging strand.|M
+M|The leading strand is synthesised|continuously|in fragments|backwards only|never|1|Toward the fork.|M
+M|The lagging strand is synthesised|in Okazaki fragments|continuously|never|as RNA|1|Away from the fork.|M
+M|Transcription is the synthesis of|mRNA from a DNA template|protein|DNA|tRNA from protein|1|In the nucleus.|M
+M|The enzyme for transcription is|RNA polymerase|DNA polymerase|helicase|ligase|1|Binds to the promoter.|M
+M|Translation is the synthesis of|a polypeptide from mRNA|DNA|RNA from DNA|lipids|1|At ribosomes.|M
+M|A codon is|three bases on mRNA coding for an amino acid|one base|two bases|a protein|1|Triplet code.|M
+M|An anticodon is found on|tRNA|mRNA|rRNA|DNA|1|Complementary to codon.|M
+M|The start codon is|AUG|UAA|UAG|UGA|1|Codes for methionine.|M
+M|The stop codons are|UAA, UAG and UGA|AUG|GGG|CCC|1|No amino acid.|M
+M|The genetic code is described as degenerate because|several codons code for one amino acid|each codon has two meanings|it is incomplete|it has no stop|1|Redundant.|M
+M|The genetic code is universal, which means|the same codons code for the same amino acids in nearly all organisms|each organism has its own code|it differs in mitochondria|it is random|1|Common ancestry.|M
+M|mRNA is processed in eukaryotes by|splicing out introns|adding introns|removing exons|nothing|1|Exons remain.|M
+M|The one gene one polypeptide hypothesis says that|a gene codes for a polypeptide|a gene codes for a cell|a gene codes for an organ|a gene codes for a species|1|Refined from one gene one enzyme.|M
+M|A mutation is|a change in the DNA sequence|a change in the protein only|a change in the RNA only|a change in cell number|1|Heritable if germline.|M
+M|A point mutation substituting one base is|a substitution|a deletion|an insertion|a translocation|1|May be silent.|M
+M|A frameshift mutation is caused by|insertion or deletion of bases|substitution|inversion|duplication of whole genome|1|Alters reading frame.|M
+M|Sickle cell anaemia is caused by|a point mutation in the β-globin gene|a deletion|an extra chromosome|a virus|1|Glutamic acid to valine.|M
+M|Chromosomes are made of|DNA and histone proteins|DNA only|RNA only|lipids|1|Chromatin.|M
+M|A nucleosome consists of|DNA wrapped around histones|a ribosome|a nucleolus|RNA|1|Beads on a string.|M
+M|The centromere is the region where|spindle fibres attach|DNA replicates|genes are made|ribosomes form|1|Joins chromatids.|M
+M|The human diploid number is|46|23|44|48|1|23 pairs.|E
+N|A DNA molecule has 30% adenine. Find the percentage of cytosine.|20|G + C = 40%.|M|(100-60)/2
+N|A DNA molecule has 1000 base pairs. Find the number of hydrogen bonds if 400 pairs are G–C (3) and 600 are A–T (2).|2400|1200 + 1200.|H|400*3+600*2
+N|The mRNA has 300 nucleotides coding for a protein. Find the number of amino acids (ignore stop codon).|100|300/3.|M|300/3
+N|A gene has 1500 nucleotides in its coding strand. Find the number of codons.|500|1500/3.|M|1500/3
+N|A DNA replicates 3 times. Find the number of DNA molecules formed from one.|8|2³.|M|2^3
+N|A bacterial chromosome has 4.6 million base pairs and is replicated at 1000 bases per second per fork with 2 forks. Find the time in seconds.|2300|4.6e6/2000.|H|4.6e6/(1000*2)
+N|The human genome has 3 × 10⁹ base pairs. Find the length in m at 0.34 nm per base pair.|1.02|3e9 × 0.34e-9.|H|3e9*0.34e-9
+N|A protein of 200 amino acids needs how many nucleotides in the coding region?|600|200 × 3.|M|200*3
+S|Describe the structure of DNA.|DNA is a double helix of two antiparallel polynucleotide chains held by hydrogen bonds between complementary bases, A with T and G with C, with a sugar-phosphate backbone.|Discovered by Watson and Crick.|M
+S|Describe semi-conservative replication.|The strands separate and each acts as a template for a new strand made by DNA polymerase, so each daughter molecule has one old and one new strand.|Shown by Meselson and Stahl.|M
+S|Outline transcription and translation.|Transcription makes mRNA from a DNA template in the nucleus. In translation, ribosomes read the mRNA codons and tRNAs bring amino acids to build a polypeptide.|The code is triplet.|M
+S|State the properties of the genetic code.|It is a triplet code, degenerate, non-overlapping, universal and has start and stop codons.|Codons are on mRNA.|M
+S|Distinguish between substitution and frameshift mutations.|A substitution changes one base and may affect one amino acid, while a frameshift from an insertion or deletion alters the reading frame of all later codons.|Frameshift is often more serious.|M
+S|Describe the structure of a chromosome.|A chromosome is a DNA molecule wound round histone proteins to form nucleosomes and chromatin, with two chromatids joined at a centromere before division.|Telomeres protect ends.|M
+
+# 9 Cell Cycle
+M|The cell cycle consists of|interphase and the mitotic phase|only mitosis|only interphase|only cytokinesis|1|G1, S, G2, M.|E
+M|DNA replication occurs in the|S phase|G1 phase|G2 phase|M phase|1|Synthesis.|M
+M|The longest phase of the cell cycle is|interphase|prophase|metaphase|telophase|1|Growth.|M
+M|The G1 phase is the|first growth phase|DNA synthesis phase|second growth phase|mitosis|1|Cell grows.|M
+M|The G2 phase is|preparation for mitosis|DNA synthesis|first gap|cytokinesis|1|Checks DNA.|M
+M|A cell that has left the cycle and does not divide is in|G0|S|G2|M|1|Quiescent.|M
+M|The stages of mitosis in order are|prophase, metaphase, anaphase, telophase|metaphase, prophase, telophase, anaphase|anaphase, telophase, prophase, metaphase|telophase, anaphase, metaphase, prophase|1|PMAT.|E
+M|In prophase the chromosomes|condense and the nuclear envelope breaks down|align at the equator|separate|decondense|1|Spindle forms.|M
+M|In metaphase the chromosomes|align on the equator|separate|decondense|replicate|1|Attach to spindle.|M
+M|In anaphase the sister chromatids|separate and move to the poles|align|replicate|condense|1|Centromeres split.|M
+M|In telophase the|nuclear envelopes reform|chromosomes condense|chromatids separate|cells replicate DNA|1|Chromosomes decondense.|M
+M|Cytokinesis in animal cells occurs by|a cleavage furrow|a cell plate|a spindle|budding|1|Actin ring.|M
+M|Cytokinesis in plant cells occurs by|a cell plate|a cleavage furrow|a spindle|budding|1|From Golgi vesicles.|M
+M|The structure formed from microtubules during mitosis is the|spindle|nucleolus|ribosome|Golgi|1|Moves chromosomes.|M
+M|Centrioles are involved in|spindle formation in animal cells|DNA replication|photosynthesis|respiration|1|Microtubule organising.|M
+M|Mitosis produces|two genetically identical diploid cells|four haploid cells|two haploid cells|one cell|1|Clones.|M
+M|Mitosis is used for|growth, repair and asexual reproduction|gamete formation|variation|evolution|1|Maintains number.|E
+M|Meiosis produces|four genetically different haploid cells|two identical cells|two diploid cells|one cell|1|Gametes.|E
+M|Meiosis involves|two nuclear divisions|one division|three divisions|no division|1|Meiosis I and II.|M
+M|Crossing over occurs in|prophase I|metaphase II|anaphase II|telophase II|1|Between homologous chromosomes.|M
+M|Chiasmata are|points of crossing over|centromeres|spindle fibres|nucleoli|1|Visible in prophase I.|M
+M|Independent assortment occurs in|metaphase I|prophase II|telophase II|interphase|1|Random orientation of bivalents.|M
+M|In anaphase I of meiosis|homologous chromosomes separate|sister chromatids separate|DNA replicates|nuclei fuse|1|Reduction division.|M
+M|In anaphase II of meiosis|sister chromatids separate|homologues separate|crossing over occurs|DNA replicates|1|Like mitosis.|M
+M|Non-disjunction results in|abnormal chromosome numbers|normal gametes|crossing over|replication|1|Down syndrome.|M
+M|Down syndrome is caused by|trisomy 21|monosomy X|an extra Y|triploidy|1|47 chromosomes.|M
+M|Turner syndrome is|monosomy X (45, XO)|trisomy 21|XXY|XYY|1|Females.|M
+M|Klinefelter syndrome is|XXY|XO|XYY|trisomy 21|1|Males.|M
+M|Cancer arises from|uncontrolled cell division|cell death|meiosis|fertilisation|1|Loss of regulation.|M
+M|Proto-oncogenes are|genes that stimulate normal cell division|tumour suppressors|viruses|enzymes|1|Mutated to oncogenes.|H
+M|The p53 gene is a|tumour suppressor gene|oncogene|virus|enzyme|1|Guardian of the genome.|H
+M|Cyclins control|progress through the cell cycle|DNA replication only|transcription only|translation|1|With CDKs.|H
+M|Checkpoints in the cell cycle|check for DNA damage before progressing|stop cycle forever|speed the cycle|start apoptosis always|1|G1, G2, M.|M
+N|A cell cycle lasts 24 hours and mitosis takes 1 hour. Find the percentage in interphase.|95.8|23/24.|M|23/24*100
+N|A human cell has 46 chromosomes. Find the number in a cell at the end of meiosis I.|23|Haploid number of chromosomes.|M|46/2
+N|A cell with 2n = 8 undergoes mitosis. Find the number of chromatids at prophase.|16|8 × 2.|M|8*2
+N|A cell with 2n = 8 undergoes meiosis. Find the number of possible chromosome combinations in gametes by independent assortment (2ⁿ).|16|2⁴.|H|2^4
+N|A cell divides every 20 minutes. Find the number of cells after 2 hours from 1.|64|2⁶.|M|2^6
+N|The number of cells in a culture increases from 1000 to 8000. Find the number of divisions.|3|8 = 2³.|M|3
+N|A diploid human cell has 6.4 × 10⁹ base pairs. Find the number of base pairs in 10 such cells, in units of 10¹⁰.|6.4|6.4 × 10⁹ × 10.|H|6.4e9*10/1e10
+N|The mitotic index is the percentage of cells in mitosis. 15 of 300 cells are dividing. Find it.|5|15/300.|M|15/300*100
+S|Describe the stages of mitosis.|In prophase the chromosomes condense, in metaphase they align on the equator, in anaphase the sister chromatids separate and in telophase the nuclei reform, followed by cytokinesis.|The spindle moves the chromosomes.|M
+S|Compare mitosis and meiosis.|Mitosis gives two identical diploid cells for growth and repair, while meiosis gives four genetically different haploid cells for gametes, with crossing over and independent assortment.|One versus two divisions.|M
+S|Explain how meiosis produces genetic variation.|Crossing over exchanges segments between homologous chromosomes, and independent assortment orients them randomly, giving new combinations of alleles.|Random fertilisation adds more.|M
+S|What is non-disjunction? Give an example.|The failure of chromosomes to separate in meiosis, giving gametes with an extra or missing chromosome, as in Down syndrome (trisomy 21).|Increases with maternal age.|M
+S|Explain the role of checkpoints in the cell cycle.|They monitor for DNA damage and proper chromosome attachment, halting the cycle until repairs are made, and failure may lead to cancer.|p53 is involved.|M
+S|State the differences in cytokinesis in plant and animal cells.|In animal cells a cleavage furrow pinches the cell into two, while in plant cells a cell plate forms from Golgi vesicles and develops into a new wall.|Plant cells have walls.|M

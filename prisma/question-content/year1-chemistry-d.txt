@@ -1,0 +1,108 @@
+@level 1st Year
+@subject Chemistry
+
+# 10 Electrochemistry
+M|Oxidation is the|loss of electrons|gain of electrons|gain of protons|loss of neutrons|1|OIL RIG.|E
+M|Reduction is the|gain of electrons|loss of electrons|loss of protons|gain of neutrons|1|OIL RIG.|E
+M|The oxidation number of hydrogen in most compounds is|+1|−1|0|+2|1|Except in metal hydrides.|E
+M|The oxidation number of oxygen in most compounds is|−2|+2|−1|0|1|Except in peroxides.|E
+M|The oxidation number of an element in its free state is|0|1|−1|+1|1|By definition.|E
+M|The oxidation number of Mn in KMnO₄ is|+7|+2|+4|+6|1|1 + Mn − 8 = 0.|M
+M|The oxidation number of Cr in K₂Cr₂O₇ is|+6|+3|+7|+2|1|2 + 2Cr − 14 = 0.|M
+M|An oxidising agent is a substance that|accepts electrons|donates electrons|loses protons|gains neutrons|1|It is itself reduced.|M
+M|A reducing agent is a substance that|donates electrons|accepts electrons|gains protons|loses neutrons|1|It is itself oxidised.|M
+M|In a galvanic cell, oxidation occurs at the|anode|cathode|salt bridge|electrolyte|1|It is the negative electrode.|M
+M|In a galvanic cell, reduction occurs at the|cathode|anode|salt bridge|wire|1|It is the positive electrode.|M
+M|The function of the salt bridge is to|complete the circuit and maintain electrical neutrality|produce electrons|stop the reaction|heat the cell|1|Ions migrate through it.|M
+M|The standard hydrogen electrode has a potential of|0.00 V|1.00 V|−1.00 V|0.34 V|1|By convention.|M
+M|The e.m.f. of a cell is|E°cathode − E°anode|E°anode − E°cathode|E°cathode + E°anode|E°cathode × E°anode|1|Reduction potentials.|M
+M|A positive standard cell potential means the reaction is|spontaneous|non-spontaneous|at equilibrium|impossible|1|ΔG° is negative.|M
+M|The relation between ΔG° and E°cell is|ΔG° = −nFE°|ΔG° = nFE°|ΔG° = −E°/nF|ΔG° = nF/E°|1|F is the Faraday constant.|H
+M|The value of the Faraday constant is about|96 500 C mol⁻¹|9650 C mol⁻¹|965 000 C mol⁻¹|1.6 × 10⁻¹⁹ C mol⁻¹|1|The charge of one mole of electrons.|M
+M|The Nernst equation at 25 °C is|E = E° − (0.0592/n) log Q|E = E° + 0.0592 n log Q|E = E° − 0.0592 n|E = E°/Q|1|It relates E to concentration.|H
+M|Faraday's first law states that the mass deposited is proportional to|the quantity of charge passed|the voltage|the time squared|the resistance|1|m ∝ Q.|M
+M|Faraday's second law states that for the same charge, masses deposited are proportional to|equivalent masses|atomic numbers|densities|volumes|1|m ∝ E.|M
+M|Electrolysis of molten NaCl gives at the cathode|sodium|chlorine|hydrogen|oxygen|1|Na⁺ + e⁻ → Na.|M
+M|Electrolysis of molten NaCl gives at the anode|chlorine|sodium|oxygen|hydrogen|1|2Cl⁻ → Cl₂ + 2e⁻.|M
+M|Electrolysis of aqueous NaCl (brine) gives at the cathode|hydrogen|sodium|chlorine|oxygen|1|Water is reduced in preference to Na⁺.|M
+M|Electroplating is the|deposition of a metal layer on an object by electrolysis|painting|polishing|melting|1|The object is the cathode.|E
+M|In electroplating, the object to be plated is the|cathode|anode|salt bridge|electrolyte|1|Metal ions are reduced onto it.|M
+M|The lead-acid battery is|a secondary (rechargeable) cell|a primary cell|a fuel cell|a solar cell|1|Used in cars.|M
+M|A dry cell (Leclanché) is|a primary cell|a secondary cell|a fuel cell|a solar cell|1|It cannot be recharged easily.|M
+M|A fuel cell converts|chemical energy of a fuel directly into electrical energy|heat into light|light into electricity|mechanical energy to electricity|1|Hydrogen-oxygen fuel cell.|M
+M|Rusting of iron is an example of|corrosion|electroplating|electrolysis|neutralisation|1|Oxidation in air and water.|E
+M|Galvanising protects iron by coating it with|zinc|copper|tin|nickel|1|Zinc is more reactive and protects sacrificially.|M
+M|The metal with the most negative standard reduction potential is the|strongest reducing agent|strongest oxidising agent|least reactive|noble|1|It is easily oxidised.|M
+N|Find the oxidation number of S in H₂SO₄.|6|2 + S − 8 = 0.|M|8-2
+N|Find the oxidation number of N in HNO₃.|5|1 + N − 6 = 0.|M|6-1
+N|Find the standard e.m.f. in V of the Daniell cell. E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V.|1.1|0.34 − (−0.76).|M|0.34-(-0.76)
+N|Find the charge in C passed by 2 A in 10 minutes.|1200|It = 2 × 600.|E|2*600
+N|Find the mass in g of Cu (63.5 g/mol) deposited by 9650 C (Cu²⁺ + 2e⁻ → Cu), to three decimals.|3.175|63.5 × 9650/(2 × 96500).|H|63.5*9650/(2*96500)
+N|Find the mass in g of Ag (108 g/mol) deposited by 9650 C (Ag⁺ + e⁻ → Ag).|10.8|108 × 9650/96500.|M|108*9650/96500
+N|Find the time in s needed to deposit 0.635 g of Cu with a current of 1 A (2 e⁻ per Cu, M = 63.5).|1930|Q = 0.01 × 2 × 96500.|H|0.635/63.5*2*96500
+N|Find the number of faradays needed to deposit 1 mol of Al from Al³⁺.|3|3 e⁻ per atom.|M|3
+N|Find ΔG° in kJ for a cell with E° = 1.10 V and n = 2. F = 96 500 C/mol.|-212.3|−2 × 96500 × 1.1/1000.|H|-2*96500*1.1/1000
+N|Find the volume in dm³ of H₂ at STP liberated by 9650 C at the cathode (2H⁺ + 2e⁻ → H₂), to two decimals.|1.12|0.05 mol × 22.4.|H|9650/(2*96500)*22.4
+N|Find the e.m.f. in V at 25 °C of a cell with E° = 1.10 V and Q = 100 using E = E° − (0.0592/2) log Q, to three decimals.|1.041|1.1 − 0.0296 × 2.|H|1.1-0.0592/2*Math.log10(100)
+N|Find the number of electrons transferred in Zn + Cu²⁺ → Zn²⁺ + Cu.|2|Zn → Zn²⁺ + 2e⁻.|M|2
+N|Find E° in V for a cell with cathode +0.80 V and anode +0.34 V.|0.46|0.80 − 0.34.|M|0.80-0.34
+N|Find the mass in g of Na (23 g/mol) liberated by 1 faraday.|23|One mole of electrons.|M|23
+N|The current in electrolysis is 5 A for 1930 s. Find the charge in C.|9650|5 × 1930.|E|5*1930
+S|Define oxidation and reduction in terms of electron transfer and oxidation numbers.|Oxidation is the loss of electrons and an increase in oxidation number. Reduction is the gain of electrons and a decrease in oxidation number.|They occur together.|M
+S|Describe the construction of a Daniell cell.|A zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution are joined by a salt bridge and an external wire. Zinc is oxidised at the anode and Cu²⁺ is reduced at the cathode, giving about 1.1 V.|Electrons flow from Zn to Cu.|M
+S|State Faraday's laws of electrolysis.|The mass of a substance liberated is proportional to the quantity of charge passed, and for the same charge the masses are proportional to the equivalent masses.|96 500 C liberate one equivalent.|M
+S|What is electroplating?|The coating of an object with a thin layer of a metal by electrolysis, with the object as the cathode and the plating metal as the anode.|It protects and decorates.|M
+S|What is a fuel cell?|A cell in which the chemical energy of a fuel such as hydrogen is converted directly into electrical energy by reaction with oxygen.|It produces water and is efficient.|M
+S|Explain how corrosion of iron occurs.|Iron is oxidised to Fe²⁺ at anodic areas while oxygen is reduced at cathodic areas in the presence of water, forming hydrated iron(III) oxide (rust).|It is prevented by painting or galvanising.|M
+
+# 11 Reaction Kinetics
+M|The rate of a reaction is the|change in concentration per unit time|total concentration|temperature|volume|1|Rate = Δ[C]/Δt.|E
+M|The unit of the rate of a reaction is|mol dm⁻³ s⁻¹|mol dm⁻³|s⁻¹|mol|1|Concentration per time.|E
+M|The rate law expresses the rate in terms of|concentrations of reactants raised to powers|temperature|catalyst|volume|1|Rate = k[A]ᵐ[B]ⁿ.|M
+M|The order of a reaction is|the sum of the powers of the concentration terms in the rate law|the number of molecules in the equation|the molecularity|the number of steps|1|Found by experiment.|M
+M|The unit of the rate constant of a first order reaction is|s⁻¹|mol dm⁻³ s⁻¹|dm³ mol⁻¹ s⁻¹|mol s|1|k = rate/[A].|M
+M|The unit of the rate constant of a second order reaction is|dm³ mol⁻¹ s⁻¹|s⁻¹|mol dm⁻³ s⁻¹|mol s|1|k = rate/[A]².|M
+M|The unit of the rate constant of a zero order reaction is|mol dm⁻³ s⁻¹|s⁻¹|dm³ mol⁻¹ s⁻¹|mol s|1|k = rate.|M
+M|The half-life of a first order reaction is|0.693/k|k/0.693|0.693 k|1/k|1|Independent of concentration.|M
+M|The half-life of a first order reaction|does not depend on the initial concentration|is proportional to the initial concentration|is inversely proportional to it|is zero|1|T½ = 0.693/k.|M
+M|The molecularity of a reaction is|the number of molecules taking part in an elementary step|its order|its rate|its temperature|1|It is a whole number.|M
+M|The rate-determining step is the|slowest step|fastest step|first step always|last step always|1|It controls the overall rate.|M
+M|According to the collision theory, a reaction occurs when molecules|collide with sufficient energy and proper orientation|collide|are close|are heated only|1|Effective collisions.|M
+M|The activation energy is the|minimum energy needed for a reaction to occur|energy released|enthalpy change|heat of reaction|1|Energy barrier.|M
+M|The Arrhenius equation is|k = A e^(−Ea/RT)|k = A Ea/RT|k = A + e^(Ea/RT)|k = RT/A Ea|1|A is the frequency factor.|H
+M|A catalyst increases the rate by|lowering the activation energy|raising the activation energy|increasing the temperature|changing ΔH|1|It provides an alternative path.|M
+M|A catalyst|is not consumed in the reaction|is consumed|changes ΔH|shifts the equilibrium|1|It is regenerated.|M
+M|An increase in temperature increases the rate because|more molecules have energy greater than the activation energy|the activation energy decreases|the concentration changes|the catalyst changes|1|Maxwell-Boltzmann distribution.|M
+M|The rate of a reaction usually doubles for a rise of about|10 K|1 K|100 K|50 K|1|A rule of thumb.|M
+M|Increasing the concentration of reactants increases the rate because|collisions become more frequent|activation energy decreases|temperature rises|the catalyst forms|1|More collisions per second.|M
+M|A heterogeneous catalyst is in|a different phase from the reactants|the same phase|the gas phase only|the liquid phase only|1|Iron in the Haber process.|M
+M|A homogeneous catalyst is in|the same phase as the reactants|a different phase|a solid phase only|no phase|1|Acid in esterification.|M
+M|Enzymes are|biological catalysts|inorganic catalysts|inhibitors|reactants|1|They are specific.|M
+M|An inhibitor|decreases the rate of a reaction|increases the rate|has no effect|is a reactant|1|It raises the energy barrier.|M
+M|A reaction that is first order with respect to A and second order with respect to B has overall order|3|2|1|5|1|1 + 2.|M
+M|If the concentration of a first order reactant is doubled, the rate|doubles|quadruples|halves|is unchanged|1|Rate ∝ [A].|M
+M|If the concentration of a second order reactant is doubled, the rate|quadruples|doubles|halves|is unchanged|1|Rate ∝ [A]².|M
+M|In a zero order reaction the rate|is independent of the concentration|doubles with concentration|halves|quadruples|1|Rate = k.|M
+M|The slope of a ln[A] versus time plot for a first order reaction is|−k|k|1/k|zero|1|ln[A] = ln[A]₀ − kt.|H
+M|The integrated rate equation of a first order reaction is|ln([A]₀/[A]) = kt|[A] = [A]₀ − kt|1/[A] = 1/[A]₀ + kt|[A] = kt|1|It gives concentration versus time.|H
+N|The rate law is rate = k[A]²[B]. Find the overall order.|3|2 + 1.|E|2+1
+N|The rate is 0.02 mol dm⁻³ s⁻¹ when [A] = 0.1 mol dm⁻³ for a first order reaction. Find k in s⁻¹.|0.2|0.02/0.1.|M|0.02/0.1
+N|Find the half-life in s of a first order reaction with k = 0.0693 s⁻¹.|10|0.693/0.0693.|M|0.693/0.0693
+N|Find the rate constant in min⁻¹ of a first order reaction with half-life 20 min, to four decimals.|0.0347|0.693/20.|M|0.693/20
+N|A first order reaction has a half-life of 10 min. Find the fraction remaining after 30 min.|0.125|(1/2)³.|M|1/8
+N|The rate doubles when [A] is doubled and quadruples when [B] is doubled. Find the overall order.|3|1 + 2.|H|3
+N|The rate of a reaction is 0.5 mol dm⁻³ s⁻¹ when both [A] and [B] are 1 M for rate = k[A][B]. Find k in dm³ mol⁻¹ s⁻¹.|0.5|0.5/(1 × 1).|M|0.5/(1*1)
+N|Find the time in s for a first order reaction with k = 0.02 s⁻¹ to reduce concentration to half, to one decimal.|34.7|0.693/0.02.|M|0.693/0.02
+N|Starting with [A]₀ = 1.0 M and k = 0.1 min⁻¹ for a first order reaction, find [A] after 10 min, to three decimals.|0.368|e⁻¹.|H|Math.exp(-1)
+N|Find the activation energy in kJ/mol from Ea/R = 12 000 K with R = 8.314, to one decimal.|99.8|12 000 × 8.314/1000.|H|12000*8.314/1000
+N|The rate of a reaction increases from 2 to 16 mol dm⁻³ s⁻¹ when the temperature is raised by 30 K. Find the factor by which it increases.|8|16/2.|M|16/2
+N|By how many times does the rate of a reaction increase when the temperature is raised by 30 K if it doubles every 10 K?|8|2³.|M|2*2*2
+N|The initial concentration is 0.8 M. After 2 half-lives for a first order reaction, find the concentration in M.|0.2|0.8/4.|M|0.8/4
+N|For a zero order reaction with k = 0.01 M/s, find the time in s for the concentration to fall from 0.5 M to 0.3 M.|20|Δc/k.|M|(0.5-0.3)/0.01
+N|For a second order reaction with k = 0.1 dm³ mol⁻¹ s⁻¹ and [A] = 0.5 M, find the rate in mol dm⁻³ s⁻¹.|0.025|k[A]².|M|0.1*0.5*0.5
+S|Define the rate of reaction and the rate law.|The rate is the change in concentration of a reactant or product per unit time. The rate law expresses the rate as k times the concentrations of reactants raised to powers determined by experiment.|The sum of the powers is the order.|M
+S|Distinguish between order and molecularity.|Order is the sum of the exponents of concentrations in the rate law and is found experimentally, while molecularity is the number of molecules taking part in an elementary step and is always a whole number.|Order can be zero or fractional.|M
+S|State the collision theory of reaction rates.|A reaction occurs when molecules collide with sufficient energy (at least the activation energy) and with the proper orientation.|Temperature affects the fraction of effective collisions.|M
+S|Explain how a catalyst increases the rate of reaction.|A catalyst provides an alternative reaction path with a lower activation energy, so more molecules have enough energy to react, and it is not consumed.|It does not change ΔH or K.|M
+S|State the Arrhenius equation and its meaning.|k = A e^(−Ea/RT), where A is the frequency factor and Ea is the activation energy. It shows that k increases with temperature.|The slope of ln k against 1/T is −Ea/R.|H
+S|What is the half-life of a first order reaction?|The time in which the concentration falls to half its initial value, T½ = 0.693/k, which is independent of concentration.|Radioactive decay is first order.|M

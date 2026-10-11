@@ -1,0 +1,158 @@
+@level 2nd Year
+@subject Chemistry
+
+# 1 Periodic Classification and Periodicity
+M|The modern periodic law states that the properties of elements are a periodic function of their|atomic numbers|atomic masses|densities|colours|1|Moseley's contribution.|E
+M|Elements in the same group have the same|number of valence electrons|number of shells|atomic number|mass number|1|They show similar properties.|E
+M|The number of periods in the modern periodic table is|7|8|6|9|1|Seven horizontal rows.|E
+M|The number of groups in the modern periodic table is|18|8|16|10|1|Groups 1 to 18.|E
+M|The s-block elements are those in|groups 1 and 2|groups 13 to 18|groups 3 to 12|the f block|1|Valence electrons in s orbitals.|E
+M|The d-block elements are also called|transition elements|alkali metals|halogens|noble gases|1|Groups 3 to 12.|E
+M|The f-block elements include|lanthanides and actinides|alkali metals|halogens|noble gases|1|Placed at the bottom.|E
+M|The atomic radius of elements across a period from left to right|decreases|increases|stays the same|doubles|1|The nuclear charge increases.|M
+M|The atomic radius of elements down a group|increases|decreases|stays the same|becomes zero|1|More shells are added.|M
+M|The ionisation energy is the energy required to|remove an electron from a gaseous atom|add an electron|break a bond|vaporise a solid|1|First ionisation energy removes the first electron.|M
+M|The ionisation energy across a period generally|increases|decreases|remains constant|becomes zero|1|Smaller radius and larger nuclear charge.|M
+M|The ionisation energy down a group|decreases|increases|remains constant|doubles|1|The outer electron is farther away.|M
+M|The first ionisation energy of Be is greater than that of B because|Be has a filled 2s subshell|Be is bigger|B is a metal|B has more protons|1|A filled subshell is stable.|H
+M|The first ionisation energy of N is greater than that of O because|N has a half-filled p subshell|N is bigger|O is a metal|N has fewer protons|1|Half-filled stability.|H
+M|Electron affinity is the energy change when|a gaseous atom gains an electron|an atom loses an electron|a bond breaks|a solid melts|1|Usually exothermic.|M
+M|The element with the highest electron affinity (most negative) in the periodic table is|chlorine|fluorine|oxygen|sulphur|1|Fluorine is smaller with electron repulsion.|H
+M|Electronegativity is the tendency of an atom to|attract the shared electrons in a bond|lose electrons|gain protons|form ions|1|Pauling scale.|M
+M|The most electronegative element is|fluorine|oxygen|chlorine|nitrogen|1|4.0 on the Pauling scale.|M
+M|Electronegativity across a period|increases|decreases|stays the same|is zero|1|Atoms attract electrons more strongly.|M
+M|Metallic character across a period|decreases|increases|stays the same|doubles|1|Elements become non-metallic.|M
+M|Metallic character down a group|increases|decreases|stays the same|is zero|1|Easier to lose electrons.|M
+M|The oxides of metals are generally|basic|acidic|neutral|amphoteric always|1|Na₂O gives NaOH.|M
+M|The oxides of non-metals are generally|acidic|basic|neutral|amphoteric always|1|SO₂ gives H₂SO₃.|M
+M|An amphoteric oxide is one that|reacts with both acids and bases|reacts with acids only|reacts with bases only|does not react|1|Al₂O₃ is an example.|M
+M|The diagonal relationship exists between|Li and Mg|Na and K|Be and Ca|F and Cl|1|They have similar properties.|M
+M|An isoelectronic species has|the same number of electrons|the same number of protons|the same mass|the same charge|1|For example Na⁺ and Ne.|M
+M|Among Na⁺, Mg²⁺ and Al³⁺ the smallest ion is|Al³⁺|Na⁺|Mg²⁺|they are equal|1|Greater nuclear charge for the same electrons.|M
+M|Among the species O²⁻, F⁻ and Na⁺ the largest radius is that of|O²⁻|F⁻|Na⁺|all are equal|1|Fewer protons for the same electrons.|M
+M|The period number of an element equals|the number of occupied shells|the number of valence electrons|its atomic number|its mass number|1|The principal quantum number of the outer shell.|M
+M|The shielding effect of inner electrons|reduces the effective nuclear charge on valence electrons|increases it|has no effect|doubles it|1|It makes outer electrons easier to remove.|M
+N|Find the number of elements in the second period.|8|Li to Ne.|E|8
+N|Find the number of elements in the fourth period.|18|K to Kr.|M|18
+N|Find the atomic number of the element below chlorine in group 17 (bromine).|35|17 + 18.|M|17+18
+N|Find the group number of an element with configuration [Ne] 3s² 3p⁵.|17|2 + 5 + 10.|M|2+5+10
+N|Find the number of valence electrons in an element of group 15.|5|Group 15 has 5.|E|5
+N|Find the number of electrons in Mg²⁺ (Z = 12).|10|12 − 2.|E|12-2
+N|Find the number of protons in S²⁻ (Z = 16).|16|Ions keep Z.|E|16
+N|Find the electronegativity difference between H (2.1) and F (4.0).|1.9|4.0 − 2.1.|E|4.0-2.1
+N|Find the number of electrons in Cl⁻ (Z = 17).|18|17 + 1.|E|17+1
+N|If the first IE of Na is 496 kJ/mol, find the energy in kJ to ionise 2 mol of Na.|992|2 × 496.|M|2*496
+N|Find the total energy in kJ to remove two electrons from one mole of Mg if IE₁ = 738 and IE₂ = 1451.|2189|738 + 1451.|M|738+1451
+N|Find the number of orbitals in the 3p subshell.|3|2l + 1.|E|3
+N|Find the number of elements in the d block of the fourth period.|10|Sc to Zn.|M|10
+N|Find the atomic number of the first noble gas of the third period (argon).|18|2 + 8 + 8.|M|2+8+8
+N|Find the effective nuclear charge Z_eff = Z − S for the valence electron of Na (Z = 11, S = 10).|1|11 − 10.|M|11-10
+S|State the modern periodic law.|The physical and chemical properties of elements are periodic functions of their atomic numbers.|Elements with similar properties recur at regular intervals.|M
+S|Define ionisation energy and state its trends.|The minimum energy required to remove an electron from a gaseous atom. It generally increases across a period and decreases down a group.|Exceptions occur for filled and half-filled subshells.|M
+S|Define electronegativity and state its trends.|The tendency of an atom to attract the shared pair of electrons. It increases across a period and decreases down a group.|Fluorine is the most electronegative.|M
+S|Explain the diagonal relationship with an example.|Certain pairs of elements diagonally adjacent in the table, such as Li and Mg, have similar properties because of similar charge/size ratios.|Be and Al are another pair.|M
+S|Explain why the atomic radius decreases across a period.|The nuclear charge increases while electrons are added to the same shell, so the attraction on the outer electrons increases and the atom shrinks.|Shielding stays nearly constant.|M
+
+# 2 s-Block Elements
+M|The elements of group 1 are called|alkali metals|alkaline earth metals|halogens|noble gases|1|Li, Na, K, Rb, Cs and Fr.|E
+M|The elements of group 2 are called|alkaline earth metals|alkali metals|halogens|transition metals|1|Be, Mg, Ca, Sr, Ba and Ra.|E
+M|The general outer electronic configuration of alkali metals is|ns¹|ns²|ns² np¹|ns² np⁵|1|One valence electron.|E
+M|The general outer electronic configuration of alkaline earth metals is|ns²|ns¹|ns² np²|ns² np⁶|1|Two valence electrons.|E
+M|Alkali metals are stored under|kerosene or oil|water|air|alcohol|1|They react with water and air.|E
+M|The most reactive alkali metal is|caesium (francium)|lithium|sodium|potassium|1|Reactivity increases down the group.|M
+M|The alkali metal that is the lightest is|lithium|sodium|potassium|caesium|1|Density of lithium is lowest.|E
+M|Sodium reacts with water to produce|sodium hydroxide and hydrogen|sodium oxide and oxygen|sodium chloride|sodium carbonate|1|2Na + 2H₂O → 2NaOH + H₂.|M
+M|The flame test colour of sodium is|golden yellow|crimson red|lilac|brick red|1|Used to identify sodium.|M
+M|The flame test colour of potassium is|lilac|golden yellow|crimson|green|1|Seen through cobalt glass.|M
+M|The flame test colour of lithium is|crimson red|golden yellow|lilac|apple green|1|Characteristic.|M
+M|The flame test colour of calcium is|brick red|golden yellow|lilac|apple green|1|Characteristic.|M
+M|The flame test colour of barium is|apple green|golden yellow|crimson|brick red|1|Characteristic.|M
+M|Alkali metals form|ionic compounds with +1 oxidation state|covalent compounds only|compounds with +2 state|no compounds|1|They lose one electron.|M
+M|Lithium differs from other alkali metals in that|its carbonate decomposes on heating|it is the heaviest|it does not form oxide|it is a gas|1|Li₂CO₃ → Li₂O + CO₂.|H
+M|The thermal stability of the carbonates of group 2 as we go down the group|increases|decreases|stays the same|becomes zero|1|Larger cations polarise less.|H
+M|The solubility of the hydroxides of group 2 as we go down the group|increases|decreases|stays the same|is zero|1|Mg(OH)₂ is least soluble.|H
+M|The solubility of the sulphates of group 2 as we go down the group|decreases|increases|stays the same|is infinite|1|BaSO₄ is least soluble.|H
+M|Milk of magnesia is|Mg(OH)₂|MgO|MgCl₂|MgSO₄|1|An antacid.|M
+M|Quicklime is|CaO|Ca(OH)₂|CaCO₃|CaSO₄|1|Prepared by heating limestone.|M
+M|Slaked lime is|Ca(OH)₂|CaO|CaCO₃|CaCl₂|1|Quicklime plus water.|M
+M|Limestone is|CaCO₃|CaO|Ca(OH)₂|CaSO₄|1|The raw material for cement and lime.|M
+M|Plaster of Paris is|CaSO₄·½H₂O|CaSO₄·2H₂O|CaSO₄|CaCO₃|1|Used for casts.|M
+M|Gypsum is|CaSO₄·2H₂O|CaSO₄·½H₂O|CaCO₃|CaO|1|Added to cement.|M
+M|The Solvay process is used to make|sodium carbonate|sodium hydroxide|calcium oxide|ammonia|1|From brine, ammonia and CO₂.|M
+M|Caustic soda is|NaOH|Na₂CO₃|NaHCO₃|NaCl|1|Made by electrolysis of brine.|M
+M|Washing soda is|Na₂CO₃·10H₂O|NaHCO₃|NaOH|NaCl|1|Used for softening water.|M
+M|Baking soda is|NaHCO₃|Na₂CO₃|NaOH|NaCl|1|Used in baking.|M
+M|Magnesium burns in air with a|bright white flame|yellow flame|green flame|no flame|1|Forming MgO.|M
+M|Beryllium differs from other group 2 elements because its compounds are|largely covalent|ionic|alkaline|explosive|1|High polarising power.|H
+N|Find the molar mass of Na₂CO₃ in g/mol. (Na = 23, C = 12, O = 16)|106|46 + 12 + 48.|M|46+12+48
+N|Find the molar mass of CaCO₃ in g/mol. (Ca = 40, C = 12, O = 16)|100|40 + 12 + 48.|M|40+12+48
+N|Find the mass in g of CaO (56 g/mol) obtained by heating 200 g of CaCO₃ (100 g/mol).|112|2 mol × 56.|M|200/100*56
+N|Find the volume in dm³ of CO₂ at STP from the decomposition of 100 g of CaCO₃.|22.4|1 mol.|M|100/100*22.4
+N|Find the mass in g of NaOH (40 g/mol) from 23 g of Na reacting with excess water.|40|1 mol.|M|23/23*40
+N|Find the volume in dm³ of H₂ at STP from 23 g of Na and excess water.|11.2|0.5 mol.|M|23/23/2*22.4
+N|Find the molar mass of CaSO₄·2H₂O in g/mol. (Ca = 40, S = 32, O = 16, H₂O = 18)|172|136 + 36.|M|40+32+64+36
+N|Find the number of water molecules per formula unit of plaster of Paris, CaSO₄·½H₂O.|0.5|Half.|M|0.5
+N|Find the molar mass of Na₂CO₃·10H₂O in g/mol.|286|106 + 180.|M|106+10*18
+N|Find the mass in g of NaCl (58.5 g/mol) in 1 dm³ of 0.5 M solution.|29.25|0.5 × 58.5.|E|0.5*58.5
+N|Find the percentage of calcium in CaCO₃.|40|40/100.|E|40/100*100
+N|Find the number of moles of OH⁻ in 0.5 mol of Ca(OH)₂.|1|Two per formula unit.|M|0.5*2
+N|Find the oxidation number of Ca in CaCl₂.|2|Group 2.|E|2
+N|Find the mass in g of MgO (40 g/mol) from 24 g of Mg burning in oxygen.|40|24 g is 1 mol.|M|24/24*40
+N|Find the number of electrons in K⁺ (Z = 19).|18|19 − 1.|E|19-1
+S|Compare the reactivity of the alkali metals.|Reactivity increases down the group from lithium to caesium, because the ionisation energy decreases and the outer electron is lost more easily.|They react with water to give hydrogen and a hydroxide.|M
+S|State the flame test colours of Li, Na, K, Ca and Ba.|Lithium crimson red, sodium golden yellow, potassium lilac, calcium brick red and barium apple green.|They are used to identify the ions.|M
+S|Describe the Solvay process.|Brine is saturated with ammonia and carbon dioxide to give sodium hydrogencarbonate, which is heated to give sodium carbonate. Ammonia is recovered.|Limestone supplies CO₂.|H
+S|Explain the diagonal relationship between Li and Mg.|Li and Mg have similar charge/size ratios, so their carbonates decompose on heating, their hydroxides are weakly soluble and they form nitrides.|They differ from their group members.|H
+S|Name three compounds of calcium and give a use of each.|Quicklime CaO for making cement and steel, slaked lime Ca(OH)₂ for treating soil, and gypsum CaSO₄·2H₂O for plaster.|Limestone is the raw material.|M
+
+# 3 p-Block Elements
+M|The p-block elements are those in groups|13 to 18|1 and 2|3 to 12|the f block|1|The last electron enters a p orbital.|E
+M|The outer electronic configuration of group 13 elements is|ns² np¹|ns² np²|ns² np³|ns² np⁶|1|Three valence electrons.|E
+M|The most abundant metal in the Earth's crust is|aluminium|iron|copper|sodium|1|Aluminium.|E
+M|Aluminium is extracted from|bauxite|haematite|galena|cinnabar|1|Al₂O₃·2H₂O.|M
+M|Aluminium is extracted by|electrolysis of molten alumina in cryolite|reduction with carbon|reduction with hydrogen|heating alone|1|The Hall-Héroult process.|M
+M|The function of cryolite in aluminium extraction is to|lower the melting point of alumina|raise the melting point|act as an electrode|act as a reducing agent|1|Na₃AlF₆.|M
+M|Aluminium oxide is|amphoteric|acidic|basic|neutral|1|It reacts with acids and bases.|M
+M|The allotropes of carbon include|diamond, graphite and fullerene|only diamond|only coal|only soot|1|Different arrangements of atoms.|E
+M|Diamond is very hard because|each carbon is bonded to four others in a tetrahedral network|it has layers|it has free electrons|it is ionic|1|Strong covalent network.|M
+M|Graphite conducts electricity because|it has delocalised electrons between layers|it is ionic|it is metallic|it has ions|1|Each carbon uses three bonds.|M
+M|Silicon is used in|semiconductor devices|jewellery|matches|fertilisers|1|Computer chips.|M
+M|Silica is|SiO₂|SiO|SiH₄|Si₂O|1|Sand and quartz.|M
+M|Glass is made by fusing sand with|sodium carbonate and limestone|iron and carbon|salt and water|clay|1|Soda-lime glass.|M
+M|Carbon monoxide is|poisonous|harmless|non-toxic|a metal|1|It binds to haemoglobin.|M
+M|Lead is used in|storage batteries|jewellery|plastics|textiles|1|Lead-acid battery.|M
+M|The outer electronic configuration of group 15 elements is|ns² np³|ns² np²|ns² np⁴|ns² np⁵|1|Five valence electrons.|E
+M|Nitrogen is obtained industrially by|fractional distillation of liquid air|electrolysis|mining|reduction|1|Air is 78% N₂.|M
+M|The Haber process makes|ammonia|nitric acid|sulphuric acid|ethanol|1|N₂ + 3H₂ ⇌ 2NH₃.|M
+M|Nitric acid is manufactured by the|Ostwald process|Haber process|Contact process|Solvay process|1|Oxidation of ammonia.|M
+M|The catalyst in the Ostwald process is|platinum|iron|vanadium oxide|nickel|1|Pt-Rh gauze.|M
+M|Phosphorus exists as|white and red allotropes|only white|only red|a gas|1|White is reactive.|M
+M|White phosphorus is stored under|water|air|oil|alcohol|1|It catches fire in air.|M
+M|The outer electronic configuration of group 16 elements is|ns² np⁴|ns² np³|ns² np⁵|ns² np⁶|1|Six valence electrons.|E
+M|Oxygen is obtained industrially by|fractional distillation of liquid air|electrolysis of salt|heating limestone|mining|1|Boiling points differ.|M
+M|Ozone is an allotrope of oxygen with the formula|O₃|O₂|O|O₄|1|It absorbs UV.|E
+M|Sulphuric acid is manufactured by the|Contact process|Haber process|Ostwald process|Solvay process|1|SO₂ is oxidised to SO₃.|M
+M|The catalyst in the Contact process is|vanadium(V) oxide|iron|platinum|nickel|1|V₂O₅.|M
+M|Concentrated sulphuric acid acts as|a dehydrating agent|a reducing agent only|a base|a catalyst only|1|It removes water from sugar.|M
+M|Sulphur dioxide is a|reducing agent and bleaching agent|strong base|metal|noble gas|1|Used to bleach.|M
+M|Acid rain is caused mainly by|SO₂ and NO₂|CO₂|O₂|N₂|1|They form H₂SO₄ and HNO₃.|M
+N|Find the molar mass of Al₂O₃ in g/mol. (Al = 27, O = 16)|102|54 + 48.|M|54+48
+N|Find the mass in g of Al obtained from 102 g of Al₂O₃.|54|2 mol Al.|M|102/102*2*27
+N|Find the charge in C needed to deposit 1 mol of Al (3 e⁻ per atom). F = 96 500.|289500|3 × 96 500.|M|3*96500
+N|Find the volume in dm³ of NH₃ at STP from 1 mol of N₂ (N₂ + 3H₂ → 2NH₃).|44.8|2 mol × 22.4.|M|2*22.4
+N|Find the mass in g of NH₃ (17 g/mol) from 14 g of N₂.|17|0.5 mol N₂ gives 1 mol NH₃.|M|14/28*2*17
+N|Find the molar mass of H₂SO₄ in g/mol.|98|2 + 32 + 64.|E|2+32+64
+N|Find the mass in g of H₂SO₄ from 64 g of SO₂ (64 g/mol) via 1:1 conversion.|98|1 mol.|M|64/64*98
+N|Find the oxidation number of N in HNO₃.|5|1 + N − 6 = 0.|M|6-1
+N|Find the oxidation number of P in H₃PO₄.|5|3 + P − 8 = 0.|M|8-3
+N|Find the oxidation number of S in SO₃.|6|S − 6 = 0.|M|6
+N|In diamond each carbon atom is bonded to 4 others and each bond is shared by 2 atoms. Find the number of C–C bonds per carbon atom.|2|4/2.|H|4/2
+N|Find the percentage of oxygen in SO₂ (S = 32, O = 16).|50|32/64.|M|32/64*100
+N|Find the number of moles of O₂ needed to oxidise 4 mol of SO₂ to SO₃.|2|2SO₂ + O₂ → 2SO₃.|M|4/2
+N|Find the mass in g of the oxygen in 98 g of H₂SO₄.|64|4 × 16.|M|4*16
+N|Find the mass in g of aluminium in 51 g of Al₂O₃ (102 g/mol, Al = 27).|27|0.5 mol of Al₂O₃ has 1 mol Al.|M|51/102*2*27
+S|Describe the extraction of aluminium.|Pure alumina from bauxite is dissolved in molten cryolite and electrolysed using carbon electrodes. Aluminium is formed at the cathode and oxygen reacts with the anode.|Cryolite lowers the melting point.|M
+S|Compare diamond and graphite.|Diamond has a tetrahedral network, is very hard and does not conduct, while graphite has layers, is soft and conducts electricity due to delocalised electrons.|They are allotropes of carbon.|M
+S|Describe the manufacture of ammonia by the Haber process.|Nitrogen and hydrogen react at about 450 °C and 200 atm over an iron catalyst, N₂ + 3H₂ ⇌ 2NH₃, and ammonia is liquefied and removed.|The reaction is exothermic.|M
+S|Describe the Contact process for sulphuric acid.|SO₂ is oxidised to SO₃ with a V₂O₅ catalyst at about 450 °C. SO₃ is absorbed in concentrated sulphuric acid to give oleum, which is diluted to give H₂SO₄.|Water is not added directly.|H
+S|State three properties of concentrated sulphuric acid.|It is a strong acid, a powerful dehydrating agent and an oxidising agent.|It chars sugar.|M

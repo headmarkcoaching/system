@@ -1,0 +1,164 @@
+@level 1st Year
+@subject Mathematics
+
+# 1 Number Systems
+M|The set of natural numbers is|{1, 2, 3, ...}|{0, 1, 2, ...}|{..., −1, 0, 1, ...}|{p/q : q ≠ 0}|1|Natural numbers are the counting numbers.|E
+M|The set of integers is|{..., −2, −1, 0, 1, 2, ...}|{1, 2, 3, ...}|{0, 1, 2, ...}|the set of all fractions|1|It contains the negative integers, zero and the positive integers.|E
+M|A rational number is a number that can be written as|p/q with p and q integers and q not zero|a non-terminating non-recurring decimal|√p with p prime|an imaginary number|1|Examples are 3/4 and −2.|E
+M|Which of the following is an irrational number?|√3|0.75|−4|22/7|1|√3 cannot be written as a ratio of integers.|E
+M|The decimal expansion of an irrational number is|non-terminating and non-recurring|terminating|recurring|always finite|1|It never ends and never repeats.|E
+M|The decimal 0.2323... (23 repeating) is|a rational number|an irrational number|an integer|a complex number|1|Recurring decimals are rational: 23/99.|M
+M|The set of real numbers consists of|rational and irrational numbers|only integers|only fractions|only natural numbers|1|Real numbers = rational ∪ irrational.|E
+M|The property a + b = b + a for real numbers is the|commutative property of addition|associative property of addition|distributive property|identity property|1|The order of addition does not matter.|E
+M|The property a(b + c) = ab + ac is the|distributive property|commutative property|associative property|inverse property|1|Multiplication distributes over addition.|E
+M|The additive inverse of the real number a is|−a|1/a|a|0|1|a + (−a) = 0.|E
+M|The multiplicative inverse of a non-zero real number a is|1/a|−a|a|0|1|a × (1/a) = 1.|E
+M|The real number with no multiplicative inverse is|0|1|−1|2|1|Division by zero is not defined.|E
+M|The trichotomy property states that for real numbers a and b, exactly one of the following holds:|a < b, a = b or a > b|a < b only|a = b only|a > b only|1|Any two reals are comparable.|M
+M|If a > b and b > c, then a > c. This is the|transitive property|symmetric property|reflexive property|trichotomy|1|The order relation is transitive.|M
+M|The absolute value of a real number x is|its distance from zero|always negative|equal to x always|its reciprocal|1|∣x∣ is non-negative.|M
+M|If ∣x∣ < a with a > 0, then|−a < x < a|x > a or x < −a|x < a only|x = a|1|x lies within a units of 0.|M
+M|If ∣x∣ > a with a > 0, then|x > a or x < −a|−a < x < a|x = a|x < a|1|x lies more than a units from 0.|M
+M|The imaginary unit i satisfies|i² = −1|i = −1|i² = 1|i = 1|1|By definition i² = −1.|E
+M|The value of i³ is|−i|i|1|−1|1|i³ = i² × i = −i.|M
+M|The value of i⁴ is|1|−1|i|−i|1|i⁴ = (i²)² = 1.|M
+M|The conjugate of the complex number a + bi is|a − bi|−a + bi|−a − bi|b + ai|1|Only the sign of the imaginary part changes.|E
+M|The product of a complex number z and its conjugate z̄ is|∣z∣²|z²|0|2z|1|(a + bi)(a − bi) = a² + b².|M
+M|The modulus of the complex number a + bi is|√(a² + b²)|a² + b²|a + b|√(a + b)|1|It is the distance of the point (a, b) from the origin.|M
+M|Two complex numbers a + bi and c + di are equal if and only if|a = c and b = d|a = d and b = c|a + b = c + d|a = b|1|The real and imaginary parts must match.|M
+M|The sum of a complex number and its conjugate is|a real number|an imaginary number|zero always|a complex number with imaginary part|1|z + z̄ = 2a.|M
+M|The difference of a complex number and its conjugate is|purely imaginary|real|always zero|always 1|1|z − z̄ = 2bi.|H
+M|The complex number 3 − 4i lies in the|fourth quadrant|first quadrant|second quadrant|third quadrant|1|Its real part is positive and its imaginary part is negative.|M
+M|The square root of −9 is|3i or −3i|3 or −3|9i|−9i|1|√(−9) = ±3i.|M
+M|The multiplicative inverse of the complex number i is|−i|i|1|−1|1|1/i = −i because i × (−i) = 1.|H
+M|The cube roots of unity are|1, ω, ω²|1, −1, i|1, i, −i|0, 1, −1|1|ω and ω² are the complex roots of x³ = 1.|M
+M|The sum 1 + ω + ω² equals|0|1|−1|3|1|The cube roots of unity add up to zero.|M
+M|The value of ω³ is|1|ω|ω²|0|1|ω is a cube root of unity.|M
+M|If z = x + iy, then the real part of z is|x|y|iy|x + y|1|Re(z) = x.|E
+M|A surd is|an irrational root of a rational number|a rational number|an integer|a decimal|1|√2 is a surd.|M
+M|The conjugate surd of 3 + √5 is|3 − √5|−3 + √5|−3 − √5|√5 − 3 only|1|It is used to rationalise denominators.|M
+M|Every real number is also a|complex number|natural number|integer|surd|1|A real number a is a + 0i.|E
+M|The set of integers is closed under|addition, subtraction and multiplication|division|square root|reciprocal|1|But not under division.|M
+N|Find the modulus of the complex number 3 + 4i.|5|√(9 + 16) = 5.|E|Math.sqrt(9+16)
+N|Find the value of (2 + 3i)(2 − 3i).|13|It equals 4 + 9 = 13.|E|4+9
+N|Find the real part of (1 + i)².|0|(1 + i)² = 1 + 2i − 1 = 2i, so the real part is 0.|M|1-1
+N|Find the imaginary part of (1 + i)².|2|(1 + i)² = 2i.|M|2
+N|Find the value of i⁵⁰ (give the real number).|-1|i⁵⁰ = (i⁴)¹² × i² = −1.|M|-1
+N|Find ∣1 + i∣ correct to two decimal places.|1.41|√(1 + 1) = √2 = 1.41.|M|Math.sqrt(2)
+N|Find the real part of (3 + 2i)/(1 − i).|0.5|(3 + 2i)(1 + i)/2 = (1 + 5i)/2, so the real part is 1/2.|H|1/2
+N|Find the imaginary part of (3 + 2i)/(1 − i).|2.5|(3 + 2i)(1 + i)/2 = (1 + 5i)/2, so the imaginary part is 5/2.|H|5/2
+N|Find ∣3 − 4i∣².|25|∣z∣² = 9 + 16 = 25.|M|9+16
+N|Find the value of 1 + ω + ω².|0|The sum of the three cube roots of unity is zero.|M|1-1
+S|Define a rational and an irrational number.|A rational number can be written as p/q with p, q integers and q ≠ 0. An irrational number cannot be so written.|√2 is irrational.|E
+S|State the field properties of real numbers under addition.|Closure, commutativity, associativity, existence of an additive identity 0 and of an additive inverse −a for each a.|These make the reals a field with multiplication.|M
+S|Define the modulus and conjugate of a complex number.|For z = a + bi, the conjugate is a − bi and the modulus is √(a² + b²).|z z̄ = ∣z∣².|M
+S|Find the multiplicative inverse of 3 + 4i.|(3 − 4i)/25|1/(3 + 4i) = (3 − 4i)/((3 + 4i)(3 − 4i)) = (3 − 4i)/25.|M
+S|Solve x² + 9 = 0 in complex numbers.|x = 3i or x = −3i|x² = −9, so x = ±3i.|M
+S|State the properties of the cube roots of unity.|Their sum is zero, their product is 1, and ω³ = 1 with ω² = ω̄.|The three roots are 1, ω and ω².|M
+
+# 2 Sets, Functions and Groups
+M|The union of A and B is the set of elements that belong to|A or B or both|both A and B only|A only|neither A nor B|1|A ∪ B contains every element of either set.|E
+M|The intersection of A and B is the set of elements that belong to|both A and B|A or B|A only|B only|1|A ∩ B contains only the common elements.|E
+M|De Morgan's law states that (A ∪ B)′ equals|A′ ∩ B′|A′ ∪ B′|A ∩ B|A ∪ B|1|The complement of a union is the intersection of complements.|M
+M|De Morgan's law states that (A ∩ B)′ equals|A′ ∪ B′|A′ ∩ B′|A ∪ B|A ∩ B|1|The complement of an intersection is the union of complements.|M
+M|For finite sets, n(A ∪ B) equals|n(A) + n(B) − n(A ∩ B)|n(A) + n(B)|n(A) × n(B)|n(A) − n(B)|1|The overlap is counted twice, so subtract it once.|M
+M|The number of subsets of a set with n elements is|2ⁿ|n²|2n|n!|1|Each element is in or out.|M
+M|The power set of {1, 2} has|4 elements|2 elements|3 elements|8 elements|1|The subsets are ∅, {1}, {2}, {1, 2}.|E
+M|The Cartesian product A × B is the set of|ordered pairs (a, b)|common elements|elements of A only|unordered pairs|1|a ∈ A and b ∈ B.|E
+M|If n(A) = m and n(B) = k, then n(A × B) equals|mk|m + k|m − k|m/k|1|Each element of A pairs with each of B.|E
+M|A relation from A to B is|any subset of A × B|any element of A|a function always|the empty set only|1|It is a set of ordered pairs.|M
+M|The domain of a relation is the set of its|first elements|second elements|all elements|common elements|1|The first coordinates of the ordered pairs.|E
+M|The range of a relation is the set of its|second elements|first elements|all elements|common elements|1|The second coordinates of the ordered pairs.|E
+M|A function from A to B is a relation in which|each element of A has exactly one image in B|each element of A has two images|some elements of A have no image|the range is A|1|No domain element may have two images.|M
+M|A function f is one-to-one (injective) if|f(a) = f(b) implies a = b|f(a) = f(b) for all a, b|its range is B|its domain is B|1|Different inputs give different outputs.|M
+M|A function f: A → B is onto (surjective) if|its range equals B|it is one-to-one|its domain is B|every element of A has two images|1|Every element of B is an image.|M
+M|A function that is both one-to-one and onto is called|bijective|injective only|surjective only|constant|1|It has an inverse.|M
+M|The inverse of a function exists if the function is|bijective|constant|many-to-one|not onto|1|Only bijections can be reversed.|M
+M|For f(x) = 2x + 3, the inverse function f⁻¹(x) is|(x − 3)/2|(x + 3)/2|2x − 3|1/(2x + 3)|1|Solve y = 2x + 3 for x.|M
+M|The composite function (f ∘ g)(x) means|f(g(x))|g(f(x))|f(x)g(x)|f(x) + g(x)|1|Apply g first, then f.|M
+M|If f(x) = x² and g(x) = x + 1, then (f ∘ g)(x) is|(x + 1)²|x² + 1|x² + x|x + 1|1|f(g(x)) = (x + 1)².|M
+M|If f(x) = x² and g(x) = x + 1, then (g ∘ f)(x) is|x² + 1|(x + 1)²|x²(x + 1)|x + 1|1|g(f(x)) = x² + 1.|M
+M|In general, f ∘ g and g ∘ f|are not equal|are always equal|are always inverses|are both constant|1|Composition is not commutative.|M
+M|A binary operation on a set S is a rule that|assigns to each pair of elements of S an element of S|assigns two elements to one element|has no result|applies to one element only|1|It must be closed in S.|M
+M|A group is a set with a binary operation that satisfies|closure, associativity, an identity and inverses|closure only|commutativity only|associativity only|1|These are the four group axioms.|M
+M|A group in which the operation is commutative is called|an abelian group|a cyclic group only|a finite group|a trivial group|1|Named after Abel.|M
+M|The set of integers under addition is|a group|not a group|a group under multiplication|a finite group|1|The identity is 0 and the inverse of a is −a.|M
+M|The set of integers under multiplication is not a group because|most elements have no multiplicative inverse in the set|it is not closed|it has no identity|it is not associative|1|2 has no integer inverse.|H
+M|The identity element of the group (Z, +) is|0|1|−1|there is none|1|a + 0 = a.|M
+M|The inverse of the element a in the group (Z, +) is|−a|1/a|a|0|1|a + (−a) = 0.|M
+M|The number of elements in a finite group is called its|order|degree|index|rank|1|It is written ∣G∣.|M
+M|A set is called a proper subset of A if it is|a subset of A that is not equal to A|equal to A|the empty set only|a superset of A|1|A ⊂ B with A ≠ B.|M
+M|Disjoint sets A and B satisfy|A ∩ B = ∅|A ∪ B = ∅|A = B|A ⊂ B|1|They have no common element.|E
+M|The empty set is|a subset of every set|a subset of no set|equal to {0}|not a set|1|It has no element that could fail to belong.|M
+M|The notation f: A → B tells us that|f maps the elements of A into B|f maps B into A|f is a set|A equals B|1|A is the domain and B the co-domain.|E
+M|The range of f(x) = x² on the real numbers is|[0, ∞)|(−∞, ∞)|(0, ∞)|(−∞, 0]|1|The square is never negative.|M
+N|If n(A) = 20, n(B) = 15 and n(A ∩ B) = 5, find n(A ∪ B).|30|20 + 15 − 5 = 30.|E|20+15-5
+N|A set has 5 elements. Find the number of its subsets.|32|2⁵ = 32.|E|2^5
+N|A set has 4 elements. Find the number of its proper subsets.|15|2⁴ − 1 = 15.|M|2^4-1
+N|If n(A) = 6 and n(B) = 4, find n(A × B).|24|6 × 4 = 24.|E|6*4
+N|If f(x) = 3x − 2, find f(5).|13|3(5) − 2 = 13.|E|3*5-2
+N|If f(x) = x² + 1 and g(x) = 2x, find (f ∘ g)(3).|37|g(3) = 6 and f(6) = 37.|M|6*6+1
+N|If f(x) = 2x + 3, find f⁻¹(7).|2|f⁻¹(x) = (x − 3)/2, so f⁻¹(7) = 2.|M|(7-3)/2
+N|If f(x) = x² − 4x + 5, find f(3).|2|9 − 12 + 5 = 2.|M|9-12+5
+N|In a class of 50 students, 30 take Maths and 25 take Physics, and each takes at least one. Find the number taking both.|5|n(M ∩ P) = 30 + 25 − 50 = 5.|M|30+25-50
+N|The number of elements in the group of integers modulo 7 under addition is|7|It has the residues 0, 1, 2, 3, 4, 5, 6.|M|7
+S|State De Morgan's laws.|(A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′.|They hold for any sets within a universal set.|M
+S|Define a function and its domain and range.|A function from A to B assigns to each element of A exactly one element of B. The domain is A and the range is the set of images.|The range is a subset of the co-domain.|E
+S|Define a one-to-one and an onto function.|A one-to-one function maps different elements to different images. An onto function has every element of the co-domain as an image.|A bijection is both.|M
+S|Find the inverse of f(x) = (x + 1)/2.|f⁻¹(x) = 2x − 1|Solve y = (x + 1)/2 for x: x = 2y − 1.|M
+S|State the axioms of a group.|Closure, associativity, existence of an identity element, and existence of an inverse for every element.|If the operation is also commutative the group is abelian.|M
+S|Show that (Z, +) is a group.|The sum of integers is an integer (closure), addition is associative, 0 is the identity and −a is the inverse of a.|It is an abelian group.|M
+
+# 3 Matrices and Determinants
+M|A matrix with m rows and n columns has order|m × n|n × m|m + n|mn|1|Order is rows × columns.|E
+M|A square matrix is one in which|the number of rows equals the number of columns|all elements are equal|all elements are zero|there is only one row|1|Its order is n × n.|E
+M|A matrix with all off-diagonal elements zero is|a diagonal matrix|a null matrix|a row matrix|a skew matrix|1|Only the main diagonal may be non-zero.|E
+M|The identity matrix of order n has|1s on the main diagonal and 0s elsewhere|all elements 1|all elements 0|1s everywhere|1|It is denoted by I.|E
+M|For matrices A and B, the product AB is defined if|the number of columns of A equals the number of rows of B|A and B have the same order|A is square|B is square|1|Row-by-column multiplication needs matching sizes.|M
+M|If A is of order m × n and B is of order n × p, then AB has order|m × p|n × n|m × n|p × m|1|The outer dimensions.|M
+M|Matrix multiplication is|not commutative in general|always commutative|only for diagonal matrices|undefined|1|AB ≠ BA in general.|M
+M|The transpose of the product (AB)ᵗ equals|BᵗAᵗ|AᵗBᵗ|AB|BA|1|The order reverses.|M
+M|A matrix A is symmetric if|Aᵗ = A|Aᵗ = −A|A = 0|A² = A|1|It equals its transpose.|M
+M|A matrix A is skew-symmetric if|Aᵗ = −A|Aᵗ = A|A = I|A² = A|1|Its transpose is its negative.|M
+M|The diagonal elements of a skew-symmetric matrix are|all zero|all one|all equal|arbitrary|1|a_ii = −a_ii forces a_ii = 0.|H
+M|The determinant of a 2 × 2 matrix with rows (a, b) and (c, d) is|ad − bc|ad + bc|ac − bd|ab − cd|1|The product of the main diagonal minus the other.|E
+M|A square matrix is singular if|its determinant is zero|its determinant is 1|it is symmetric|it is diagonal|1|A singular matrix has no inverse.|E
+M|A square matrix is non-singular if|its determinant is not zero|it has a zero row only|it is a null matrix|it is a column matrix|1|It has an inverse.|E
+M|The determinant of the identity matrix is|1|0|−1|n|1|det I = 1.|M
+M|If two rows of a determinant are identical, its value is|0|1|−1|the row sum|1|Identical rows make the determinant vanish.|M
+M|Interchanging two rows of a determinant|changes its sign|doubles it|leaves it unchanged|makes it zero|1|The determinant changes sign.|M
+M|Multiplying one row of a determinant by a constant k|multiplies the determinant by k|leaves it unchanged|squares it|makes it zero|1|A common factor can be taken out of a row.|M
+M|For square matrices A and B of the same order, det(AB) equals|det A × det B|det A + det B|det A − det B|det A ÷ det B|1|The determinant of a product is the product of determinants.|M
+M|For an n × n matrix A and a scalar k, det(kA) equals|kⁿ det A|k det A|k + det A|n k det A|1|Each of the n rows is multiplied by k.|H
+M|The adjoint of a square matrix A is|the transpose of the matrix of cofactors|the inverse of A|the determinant of A|the transpose of A|1|adj A = (cofactor matrix)ᵗ.|M
+M|The inverse of a non-singular matrix A is|adj A / det A|det A / adj A|adj A × det A|Aᵗ|1|A⁻¹ = (1/∣A∣) adj A.|M
+M|If A is non-singular, then A A⁻¹ equals|I|0|A|A⁻¹|1|The product is the identity.|E
+M|(AB)⁻¹ equals|B⁻¹A⁻¹|A⁻¹B⁻¹|AB|BA|1|The order reverses.|M
+M|A system of linear equations AX = B has a unique solution if|A is non-singular|A is singular|B = 0 only|A is a row matrix|1|X = A⁻¹B.|M
+M|A homogeneous system AX = 0 always has|the trivial solution X = 0|no solution|only non-trivial solutions|infinite solutions only|1|X = 0 satisfies it.|M
+M|Cramer's rule is used to|solve a system of linear equations using determinants|find the inverse of a matrix only|find the rank only|multiply matrices|1|x = Δx/Δ and so on.|M
+M|An elementary row operation is|interchanging two rows|multiplying a row by zero|dividing by zero|deleting a row|1|Other operations are scaling and adding a multiple of a row.|M
+M|A matrix is in echelon form if|each non-zero row has more leading zeros than the one above|all elements are 1|it is diagonal|it is symmetric|1|The leading entries move to the right as we go down.|H
+M|The rank of a matrix is|the number of non-zero rows in its echelon form|its determinant|its order|the sum of its entries|1|It is the maximum number of independent rows.|H
+M|If A = [[1, 2], [3, 4]], then det A is|−2|2|10|−10|1|1 × 4 − 2 × 3 = −2.|E
+M|The cofactor of the element a_ij is|(−1)^(i + j) times the minor of a_ij|the minor of a_ij|the element itself|the transpose|1|Cofactor = (−1)^(i+j) M_ij.|M
+M|The minor of an element is|the determinant left after deleting its row and column|the element itself|its cofactor|its adjoint|1|The (n − 1) × (n − 1) determinant.|M
+M|For a 3 × 3 matrix, the determinant can be expanded along|any row or column|only the first row|only the diagonal|only the last column|1|The result is the same.|M
+M|A null matrix has|all elements zero|determinant 1|all elements 1|no rows|1|It is the additive identity.|E
+M|If A is a 3 × 3 matrix with det A = 2, then det(Aᵗ) is|2|−2|0|1/2|1|The determinant is unchanged by transposing.|M
+N|Find the determinant of the matrix with rows (2, 3) and (4, 5).|-2|2 × 5 − 3 × 4 = −2.|E|2*5-3*4
+N|Find the determinant of the matrix with rows (1, 2, 3), (0, 1, 4) and (5, 6, 0).|1|Expanding gives 1(0 − 24) − 2(0 − 20) + 3(0 − 5) = −24 + 40 − 15 = 1.|H|1*(0-24)-2*(0-20)+3*(0-5)
+N|Find the determinant of the matrix with rows (2, 0, 0), (0, 3, 0) and (0, 0, 4).|24|The determinant of a diagonal matrix is the product 2 × 3 × 4.|M|2*3*4
+N|If A has determinant 5 and B has determinant 3 and both are 3 × 3, find det(AB).|15|5 × 3 = 15.|M|5*3
+N|If A is a 3 × 3 matrix with det A = 2, find det(2A).|16|2³ × 2 = 16.|H|2*2*2*2
+N|Find x if the matrix with rows (x, 2) and (3, 4) is singular.|1.5|4x − 6 = 0, so x = 1.5.|M|6/4
+N|Find the (1, 1) entry of AB when A has rows (1, 2) and (3, 4) and B has rows (5, 6) and (7, 8).|19|1 × 5 + 2 × 7 = 19.|M|1*5+2*7
+N|Find the (2, 2) entry of AB for the same A and B.|50|3 × 6 + 4 × 8 = 50.|M|3*6+4*8
+N|Find det A⁻¹ if det A = 4.|0.25|det A⁻¹ = 1/det A = 1/4.|M|1/4
+N|Solve x + y = 5, x − y = 1 by Cramer's rule. Find y.|2|Δ = −2, Δy = 1 × 1 − 5 × 1 = −4, so y = 2.|M|(-4)/(-2)
+S|Define a symmetric and a skew-symmetric matrix.|A square matrix A is symmetric if Aᵗ = A and skew-symmetric if Aᵗ = −A.|The diagonal of a skew-symmetric matrix is zero.|M
+S|State two properties of determinants.|Interchanging two rows changes the sign of the determinant, and if two rows are identical the determinant is zero.|Also, det(AB) = det A × det B.|M
+S|Find the inverse of the matrix with rows (2, 1) and (5, 3).|The matrix with rows (3, −1) and (−5, 2).|det = 6 − 5 = 1, adjoint has rows (3, −1) and (−5, 2).|M
+S|Define singular and non-singular matrices.|A square matrix is singular if its determinant is zero and non-singular if it is not zero. Only a non-singular matrix has an inverse.|A singular matrix has no inverse.|E
+S|What is the rank of a matrix?|The number of non-zero rows in its row echelon form, which is the maximum number of linearly independent rows.|The rank decides whether a system has a solution.|H
+S|State when a system AX = B has a unique solution.|When A is a square non-singular matrix, so that X = A⁻¹B.|Cramer's rule gives the same solution.|M

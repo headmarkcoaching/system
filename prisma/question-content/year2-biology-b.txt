@@ -1,0 +1,160 @@
+@level 2nd Year
+@subject Biology
+
+# 4 Support and Movement
+M|The human skeleton has|206 bones in an adult|300 bones in an adult|150 bones|100 bones|1|Babies have more.|E
+M|The axial skeleton includes|skull, vertebral column and rib cage|limbs|pectoral girdle|pelvic girdle|1|The central axis.|E
+M|The appendicular skeleton includes|limbs and girdles|skull|vertebral column|ribs|1|Appendages.|E
+M|The vertebral column has|33 vertebrae|24 vertebrae|7 vertebrae|12 vertebrae|1|7 cervical, 12 thoracic, 5 lumbar, 5 sacral, 4 coccygeal.|M
+M|The atlas vertebra supports the|skull|ribs|pelvis|arm|1|First cervical.|M
+M|Bone is made of|collagen and calcium phosphate|only collagen|only calcium|keratin|1|Hard and flexible.|M
+M|Cartilage is found in the|ear, nose and joints|skull only|spinal cord|kidney|1|Flexible.|E
+M|The cells that build bone are|osteoblasts|osteoclasts|chondrocytes|fibroblasts|1|Secrete matrix.|M
+M|The cells that break down bone are|osteoclasts|osteoblasts|osteocytes|chondrocytes|1|Resorption.|M
+M|Ligaments connect|bone to bone|muscle to bone|muscle to muscle|bone to skin|1|Stabilise joints.|E
+M|Tendons connect|muscle to bone|bone to bone|muscle to muscle|nerve to bone|1|Transmit force.|E
+M|The shoulder joint is a|ball and socket joint|hinge joint|pivot joint|gliding joint|1|Wide movement.|E
+M|The elbow joint is a|hinge joint|ball and socket|pivot joint|gliding joint|1|One plane.|E
+M|The joint between the atlas and axis is a|pivot joint|hinge joint|ball and socket|fixed joint|1|Head rotation.|M
+M|Synovial fluid|lubricates joints|digests cartilage|stores calcium|makes blood|1|Reduces friction.|M
+M|Skeletal muscle is|striated and voluntary|smooth and involuntary|striated and involuntary|smooth and voluntary|1|Attached to bones.|M
+M|Smooth muscle is found in the|walls of the gut and blood vessels|biceps|heart|tongue|1|Involuntary.|M
+M|Cardiac muscle is|striated, branched and involuntary|smooth|voluntary|non-striated|1|Intercalated discs.|M
+M|The functional unit of a muscle fibre is the|sarcomere|myofibril|sarcolemma|myoglobin|1|Between Z lines.|M
+M|The thick filament is made of|myosin|actin|tropomyosin|troponin|1|Has heads.|M
+M|The thin filament is made of|actin|myosin|titin|collagen|1|With tropomyosin.|M
+M|According to the sliding filament theory, during contraction|actin filaments slide over myosin filaments|myosin shortens|actin shortens|the filaments break|1|The sarcomere shortens.|M
+M|The energy for muscle contraction is provided by|ATP|glucose directly|water|oxygen|1|Hydrolysed by myosin heads.|M
+M|Calcium ions in muscle contraction bind to|troponin|myosin|actin|ATP|1|Moves tropomyosin.|H
+M|Rigor mortis occurs because|no ATP is available to detach myosin|muscles are too active|calcium is absent|actin is destroyed|1|After death.|H
+M|Antagonistic muscles|work in opposite pairs|work together|are the same|are bones|1|Biceps and triceps.|M
+M|The H zone of a sarcomere|decreases in length during contraction|increases|stays the same|disappears|1|Gap between actin.|H
+M|Creatine phosphate provides|a quick supply of ATP|oxygen|glucose|fat|1|Muscle store.|H
+M|Muscle fatigue is due to|lactic acid and depletion of ATP|too much oxygen|excess water|lack of calcium only|1|Anaerobic respiration.|M
+M|Osteoporosis is caused by|loss of bone density|excess calcium|infection|vitamin C|1|Often in elderly.|M
+M|Arthritis is|inflammation of joints|a bone fracture|muscle tear|a bone tumour|1|Pain and stiffness.|M
+M|Rickets is caused by|vitamin D deficiency|vitamin C|iron deficiency|iodine|1|Soft bones.|M
+M|The skeleton of an earthworm is a|hydrostatic skeleton|endoskeleton|exoskeleton|no skeleton|1|Coelomic fluid.|M
+M|Insects have an|exoskeleton of chitin|endoskeleton|hydrostatic only|no skeleton|1|Must moult.|M
+M|Plants are supported by|turgor and sclerenchyma and xylem|bones|exoskeleton|shells|1|Water pressure.|M
+M|Wilting occurs when cells lose|turgor|oxygen|nutrients|chlorophyll|1|Water loss.|M
+M|Collenchyma tissue provides|flexible support in growing parts|waterproofing|transport|storage|1|Unevenly thickened.|M
+N|Find the number of bones in the two arms and two legs if each arm and leg has 30.|120|4 × 30.|E|4*30
+N|A sarcomere is 2.5 μm in a relaxed muscle and 2.0 μm when contracted. Find the percentage shortening.|20|0.5/2.5.|M|0.5/2.5*100
+N|A myofibril has 1000 sarcomeres of 2.5 μm each. Find its length in mm.|2.5|1000 × 2.5 μm.|M|1000*2.5/1000
+N|A muscle contracts 20% from 10 cm. Find the new length in cm.|8|10 × 0.8.|E|10*0.8
+N|A bone loses 1% of its mass per year from 800 g. Find the loss in g after 10 years (linear).|80|1% of 800 × 10.|M|8*10
+N|The vertebral column has 7 cervical, 12 thoracic and 5 lumbar vertebrae. Find the total of these.|24|7 + 12 + 5.|E|7+12+5
+N|A muscle exerts 100 N at a distance 4 cm from the joint. Find the torque in N m.|4|100 × 0.04.|M|100*0.04
+N|A lever arm: load 50 N at 30 cm and effort at 5 cm. Find the effort in N.|300|50 × 30/5.|M|50*30/5
+S|Distinguish between the axial and appendicular skeletons.|The axial skeleton consists of the skull, vertebral column and ribs, while the appendicular skeleton consists of the limbs and the pectoral and pelvic girdles.|Together 206 bones.|M
+S|Describe the sliding filament theory of muscle contraction.|Myosin heads attach to actin, pull the actin filaments over the myosin using energy from ATP, which shortens the sarcomere without changing filament length.|Calcium triggers it.|M
+S|Compare skeletal, smooth and cardiac muscle.|Skeletal muscle is striated and voluntary, smooth muscle is non-striated and involuntary, and cardiac muscle is striated, branched and involuntary.|They differ in location.|M
+S|Describe the structure and function of a synovial joint.|The bone ends are covered with cartilage, enclosed in a capsule with synovial fluid, and held by ligaments, allowing smooth movement.|Examples: hip and knee.|M
+S|Explain how plants are supported.|By turgor pressure of cells, strengthening tissue such as collenchyma and sclerenchyma, and woody xylem.|They wilt without water.|M
+S|State two skeletal disorders and their causes.|Osteoporosis is due to loss of bone density, and rickets is due to a deficiency of vitamin D.|Arthritis is joint inflammation.|M
+
+# 5 Coordination and Control
+M|Coordination in animals is by|the nervous and endocrine systems|only the nervous system|only hormones|bones|1|Two systems.|E
+M|The basic unit of the nervous system is the|neuron|nephron|alveolus|villus|1|Nerve cell.|E
+M|The part of a neuron that receives impulses is the|dendrite|axon|synapse|myelin|1|Towards the cell body.|E
+M|The part of a neuron that carries impulses away from the cell body is the|axon|dendrite|nucleus|node|1|Long fibre.|E
+M|The myelin sheath|speeds up impulse conduction|slows conduction|stores ions|makes neurotransmitters|1|Saltatory conduction.|M
+M|The gaps in the myelin sheath are called|nodes of Ranvier|synapses|dendrites|axon terminals|1|Where the impulse jumps.|M
+M|The resting potential of a neuron is about|−70 mV|+40 mV|0 mV|−7 mV|1|Inside negative.|M
+M|The resting potential is maintained by the|sodium-potassium pump|diffusion of oxygen|osmosis|facilitated diffusion|1|3 Na⁺ out, 2 K⁺ in.|M
+M|During depolarisation|sodium ions enter the neuron|potassium ions enter|sodium ions leave|chloride enters|1|Voltage-gated Na⁺ channels.|M
+M|During repolarisation|potassium ions leave the neuron|sodium ions enter|potassium enters|calcium enters|1|Voltage-gated K⁺ channels.|M
+M|An action potential obeys the|all-or-none law|graded law|inverse law|none|1|Fixed amplitude.|M
+M|The refractory period ensures that impulses|travel in one direction|travel backwards|are bigger|are slower|1|Channels cannot reopen.|M
+M|A synapse is the junction between|two neurons|a neuron and a bone|two bones|two muscles|1|Neurotransmitter transmits.|M
+M|The common neurotransmitter at neuromuscular junctions is|acetylcholine|dopamine|serotonin|insulin|1|Released from vesicles.|M
+M|The enzyme that breaks down acetylcholine is|acetylcholinesterase|amylase|lipase|protease|1|Terminates the signal.|M
+M|The reflex arc includes|receptor, sensory neuron, relay neuron, motor neuron, effector|only a receptor|only an effector|brain only|1|A fast response.|M
+M|The central nervous system consists of|the brain and spinal cord|nerves|ganglia|receptors|1|Integration.|E
+M|The part of the brain that controls balance and coordination is the|cerebellum|cerebrum|medulla|hypothalamus|1|Back of brain.|M
+M|The part of the brain that controls heart rate and breathing is the|medulla oblongata|cerebrum|cerebellum|pituitary|1|Autonomic centres.|M
+M|The hypothalamus controls|temperature and water balance|vision|hearing|balance|1|Links nerves and hormones.|M
+M|The sympathetic nervous system|prepares the body for fight or flight|slows heart rate|promotes digestion|constricts the pupil|1|Noradrenaline.|M
+M|The parasympathetic nervous system|promotes rest and digestion|prepares for fight or flight|increases heart rate|dilates pupils|1|Acetylcholine.|M
+M|The light-sensitive layer of the eye is the|retina|cornea|iris|lens|1|Rods and cones.|E
+M|Rods are responsible for|vision in dim light|colour vision|accommodation|focusing|1|Rhodopsin.|M
+M|Cones are responsible for|colour vision in bright light|night vision|hearing|balance|1|Three types.|M
+M|The fovea is the region with|a high density of cones|only rods|no cells|the blind spot|1|Sharpest vision.|M
+M|The blind spot is where|the optic nerve leaves the retina|cones are densest|rods are densest|the lens is|1|No photoreceptors.|M
+M|Accommodation is the|adjustment of the lens to focus near and distant objects|opening of the pupil|rotation of the eye|movement of the eyelid|1|Ciliary muscles.|M
+M|Myopia is corrected by|a concave lens|a convex lens|a plane lens|a prism|1|Short sight.|M
+M|The organ of hearing is the|cochlea|semicircular canals|eustachian tube|pinna|1|Contains the organ of Corti.|M
+M|The organ of balance includes the|semicircular canals|cochlea|eardrum|ossicles|1|Detects rotation.|M
+M|Endocrine glands secrete|hormones into the blood|enzymes into ducts|sweat|mucus|1|Ductless.|E
+M|The master endocrine gland is the|pituitary|thyroid|adrenal|pancreas|1|Controlled by the hypothalamus.|M
+M|Thyroxine regulates|metabolic rate|blood glucose|water balance|calcium only|1|Contains iodine.|M
+M|Adrenaline is released by the|adrenal medulla|adrenal cortex|pituitary|thyroid|1|Fight or flight.|M
+M|Plant growth substances include|auxins, gibberellins and cytokinins|insulin|thyroxine|adrenaline|1|Hormones of plants.|M
+M|Auxin causes|cell elongation|cell division only|leaf fall|fruit ripening|1|Phototropism.|M
+M|Ethene (ethylene) causes|fruit ripening|cell elongation|stem growth|seed germination|1|Gaseous hormone.|M
+N|A nerve impulse travels at 100 m/s along a nerve of 1.2 m. Find the time in ms.|12|1.2/100.|M|1.2/100*1000
+N|The resting potential is −70 mV and the threshold is −55 mV. Find the depolarisation needed in mV.|15|−55 − (−70).|M|-55+70
+N|The Na⁺/K⁺ pump moves 3 Na⁺ out and 2 K⁺ in. Find the net charge removed per cycle.|1|3 − 2.|M|3-2
+N|A neuron fires 50 impulses per second. Find the number in 1 minute.|3000|50 × 60.|E|50*60
+N|The eye has 120 million rods and 6 million cones. Find the ratio of rods to cones.|20|120/6.|M|120/6
+N|The reaction time of a reflex is 0.05 s and a voluntary response 0.25 s. Find the difference.|0.2|0.25 − 0.05.|E|0.25-0.05
+N|A myelinated axon conducts at 120 m/s and unmyelinated at 1 m/s. Find the ratio.|120|120/1.|M|120/1
+N|A hormone is secreted at 2 μg per hour. Find the amount in μg per day.|48|2 × 24.|E|2*24
+S|Describe the structure of a motor neuron.|It has a cell body with dendrites, a long axon covered by a myelin sheath with nodes of Ranvier, and axon terminals at the end.|It carries impulses to effectors.|M
+S|Explain how a nerve impulse is transmitted along an axon.|A stimulus causes Na⁺ channels to open, so Na⁺ enters and depolarises the membrane, then K⁺ leaves to repolarise it, and the local currents trigger the next section.|It is an action potential.|M
+S|Describe synaptic transmission.|An impulse opens calcium channels, vesicles release acetylcholine, which diffuses across the cleft and binds receptors on the postsynaptic membrane, causing depolarisation.|It is broken down by an enzyme.|M
+S|Distinguish between the sympathetic and parasympathetic systems.|The sympathetic system prepares the body for activity by increasing heart rate, while the parasympathetic system promotes rest and digestion by lowering it.|They are antagonistic.|M
+S|Describe the functions of rods and cones.|Rods contain rhodopsin and work in dim light for black-and-white vision, while cones work in bright light and give colour vision and acuity.|Cones are concentrated in the fovea.|M
+S|State the effects of auxin and gibberellin in plants.|Auxin causes cell elongation and phototropism, and gibberellins promote stem elongation and seed germination.|They are plant hormones.|M
+
+# 6 Reproduction
+M|Asexual reproduction involves|one parent and produces identical offspring|two parents|gametes|variation|1|Clones.|E
+M|Binary fission occurs in|bacteria and Amoeba|humans|flowering plants|birds|1|Cell splits.|E
+M|Budding occurs in|yeast and Hydra|Amoeba|humans|frogs|1|Outgrowth.|E
+M|Vegetative propagation occurs in|potato and strawberry|humans|birds|insects|1|Tubers, runners.|E
+M|Sexual reproduction involves|fusion of gametes|one parent|spores only|budding|1|Produces variation.|E
+M|The male gamete in humans is the|sperm|ovum|zygote|polar body|1|Haploid.|E
+M|Sperm are produced in the|seminiferous tubules of the testes|epididymis|prostate|vas deferens|1|Spermatogenesis.|M
+M|Sperm are stored in the|epididymis|prostate|seminal vesicle|urethra|1|They mature there.|M
+M|Testosterone is secreted by the|Leydig cells|Sertoli cells|prostate|epididymis|1|Interstitial cells.|M
+M|The Sertoli cells|nourish developing sperm|secrete testosterone|make semen|store sperm|1|Nurse cells.|M
+M|The acrosome of a sperm contains|enzymes for penetrating the egg|mitochondria|nucleus|flagellum|1|Hydrolytic.|M
+M|Eggs are produced in the|ovaries|oviducts|uterus|vagina|1|Oogenesis.|E
+M|Fertilisation normally occurs in the|oviduct (fallopian tube)|uterus|vagina|ovary|1|Upper third.|M
+M|The structure that nourishes the foetus is the|placenta|ovary|oviduct|vagina|1|Exchanges materials.|M
+M|The hormone that stimulates ovulation is|LH|FSH|oestrogen|progesterone|1|Surge at mid-cycle.|M
+M|The hormone that stimulates follicle growth is|FSH|LH|progesterone|prolactin|1|From the anterior pituitary.|M
+M|Progesterone maintains|the uterine lining|the follicle|the testis|menstruation|1|From the corpus luteum.|M
+M|The corpus luteum develops from|the ruptured follicle|the oviduct|the uterus|the placenta|1|After ovulation.|M
+M|The length of the average menstrual cycle is|28 days|14 days|40 days|7 days|1|Ovulation on day 14.|E
+M|The hormone detected in pregnancy tests is|hCG|LH|FSH|oestrogen|1|From the placenta.|M
+M|Human gestation lasts about|40 weeks|28 weeks|52 weeks|20 weeks|1|Nine months.|E
+M|The hormone that causes uterine contractions during birth is|oxytocin|prolactin|progesterone|FSH|1|From the posterior pituitary.|M
+M|The hormone that stimulates milk production is|prolactin|oxytocin|progesterone|FSH|1|From the anterior pituitary.|M
+M|The male part of a flower is the|stamen|carpel|petal|sepal|1|Anther and filament.|E
+M|The female part of a flower is the|carpel|stamen|petal|sepal|1|Stigma, style, ovary.|E
+M|Pollen grains are produced in the|anther|stigma|ovary|style|1|By meiosis.|E
+M|Pollination is the transfer of pollen from|anther to stigma|stigma to anther|ovary to anther|style to ovary|1|By wind or insects.|E
+M|Insect-pollinated flowers usually have|brightly coloured petals and nectar|small green petals|feathery stigmas|no scent|1|Attractive.|M
+M|Wind-pollinated flowers usually have|feathery stigmas and light pollen|bright petals|nectar|strong scent|1|Large quantities.|M
+M|Double fertilisation produces|a zygote and the endosperm|two zygotes|two embryos|a seed only|1|Unique to angiosperms.|M
+M|The endosperm is|triploid|haploid|diploid|tetraploid|1|3n.|M
+M|After fertilisation the ovule becomes the|seed|fruit|flower|style|1|Contains the embryo.|E
+M|After fertilisation the ovary becomes the|fruit|seed|style|stigma|1|Protects seeds.|E
+M|Seed germination requires|water, oxygen and a suitable temperature|light only|soil only|fertiliser only|1|Not light for most.|M
+M|The first root to emerge in germination is the|radicle|plumule|cotyledon|coleoptile|1|Anchors the seedling.|M
+N|A human ovum is 0.1 mm in diameter. Find its diameter in μm.|100|0.1 × 1000.|E|0.1*1000
+N|Ovulation occurs 14 days before menstruation in a 28-day cycle. Find the day of ovulation.|14|28 − 14.|M|28-14
+N|A man produces 200 million sperm per ejaculation. Find the number in units of 10⁶ in 5 ejaculations.|1000|200 × 5.|M|200*5
+N|A seed batch of 200 has 85% germination. Find the number that germinate.|170|200 × 0.85.|E|200*0.85
+N|A flower has 5 anthers each with 10 000 pollen grains. Find the total number of pollen grains.|50000|5 × 10 000.|E|5*10000
+N|The pregnancy lasts 40 weeks. Find it in days.|280|40 × 7.|E|40*7
+N|A pea plant cell has 14 chromosomes. Find the number in the endosperm cell (3n).|21|3 × 7.|M|3*7
+N|A zygote divides every day. Find the number of cells after 6 divisions starting from 1.|64|2⁶.|M|2^6
+S|Describe the structure of a human sperm.|A sperm has a head containing the nucleus and an acrosome, a middle piece with many mitochondria and a tail (flagellum) for movement.|Haploid.|M
+S|Describe the menstrual cycle and its hormonal control.|FSH stimulates follicle growth and oestrogen secretion, a surge of LH causes ovulation, the corpus luteum secretes progesterone to maintain the uterine lining, and if there is no fertilisation the hormones fall and menstruation occurs.|About 28 days.|M
+S|Describe the process of fertilisation and implantation.|A sperm penetrates the ovum in the oviduct using acrosomal enzymes, the nuclei fuse to form a zygote, which divides to form a blastocyst and implants in the uterine wall.|Hormones maintain it.|M
+S|Describe double fertilisation in flowering plants.|One male gamete fuses with the egg to form a diploid zygote and another fuses with the two polar nuclei to form the triploid endosperm.|Occurs in the embryo sac.|M
+S|Compare wind and insect pollination.|Wind-pollinated flowers have small petals, feathery stigmas and light abundant pollen, while insect-pollinated flowers have bright petals, scent, nectar and sticky pollen.|Both transfer pollen.|M
+S|State the conditions needed for seed germination.|Water, oxygen and a suitable temperature, and a viable seed.|Light is not essential.|E

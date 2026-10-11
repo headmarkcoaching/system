@@ -1,0 +1,163 @@
+@level 2nd Year
+@subject Physics
+
+# 4 Electromagnetic Induction
+M|Electromagnetic induction is the production of|an e.m.f. by a changing magnetic flux|a magnetic field by a charge|heat by current|light by a lamp|1|Discovered by Faraday.|E
+M|Magnetic flux through an area A in a field B is|Φ = B A cos θ|Φ = B/A|Φ = B + A|Φ = B A sin θ|1|θ is the angle between B and the normal.|M
+M|The SI unit of magnetic flux is the|weber|tesla|henry|volt|1|One tesla square metre.|E
+M|Faraday's law states that the induced e.m.f. is equal to|the negative rate of change of magnetic flux linkage|the magnetic flux|the flux density|the current|1|ε = −N dΦ/dt.|M
+M|Lenz's law states that the direction of the induced current is such that it|opposes the change producing it|helps the change|is always clockwise|is zero|1|A consequence of conservation of energy.|M
+M|The negative sign in Faraday's law represents|Lenz's law|Ohm's law|Ampere's law|Gauss's law|1|The opposition to flux change.|M
+M|The motional e.m.f. in a conductor of length L moving at velocity v perpendicular to a field B is|B L v|B L/v|B v/L|L v/B|1|ε = BLv.|M
+M|The e.m.f. induced in a coil rotating in a uniform field is|sinusoidal|constant|zero|increasing linearly|1|ε = ε₀ sin ωt.|M
+M|The peak e.m.f. of a coil of N turns and area A rotating at angular speed ω in a field B is|N B A ω|N B A/ω|B A ω/N|N B ω|1|ε₀ = NBAω.|M
+M|Self-induction is the production of an e.m.f. in a coil due to|a change of current in the same coil|a change of current in another coil|a magnet|a battery only|1|ε = −L dI/dt.|M
+M|The SI unit of inductance is the|henry|farad|weber|ohm|1|One volt second per ampere.|E
+M|The energy stored in an inductor L carrying current I is|½ L I²|L I²|½ L I|L I|1|U = ½LI².|M
+M|The inductance of a solenoid of N turns, area A and length l is|μ₀ N² A/l|μ₀ N A/l|μ₀ N l/A|μ₀ N²l/A|1|From flux linkage.|H
+M|Mutual induction is the production of an e.m.f. in a coil due to|a change of current in a neighbouring coil|a change of current in the same coil|resistance|capacitance|1|ε₂ = −M dI₁/dt.|M
+M|A transformer works on the principle of|mutual induction|self induction|the Hall effect|electrolysis|1|It needs AC.|M
+M|For an ideal transformer the voltage ratio is|V_s/V_p = N_s/N_p|V_s/V_p = N_p/N_s|V_s V_p = N_s N_p|V_s = V_p|1|The turns ratio.|M
+M|A step-up transformer has|more turns on the secondary|fewer turns on the secondary|equal turns|no core|1|It increases voltage.|M
+M|Eddy currents are|circulating currents induced in a conductor by a changing flux|currents in wires|currents in a vacuum|direct currents|1|They cause heating.|M
+M|Eddy currents in a transformer core are reduced by|using laminated cores|using a solid core|using a larger core|using a copper core|1|Laminations raise the resistance.|M
+M|A generator converts|mechanical energy into electrical energy|electrical energy into mechanical energy|heat into light|light into heat|1|By electromagnetic induction.|E
+M|A motor converts|electrical energy into mechanical energy|mechanical energy into electrical energy|heat into sound|sound into heat|1|By the force on a current.|E
+M|The back e.m.f. of a motor|opposes the applied voltage|helps the applied voltage|is zero|is infinite|1|It limits the current.|M
+M|The back e.m.f. of a motor is greatest when|the motor runs at full speed|the motor starts|the motor is at rest|the motor is stalled|1|ε ∝ ω.|M
+M|The current at the instant of starting a motor is|large|small|zero|constant|1|There is no back e.m.f.|M
+M|The mutual inductance of two coils depends on|their geometry and the medium|the current|the voltage|time|1|M = Φ₂/I₁.|M
+M|Electromagnetic damping is used in|moving coil galvanometers and brakes|bulbs|wires|wells|1|Eddy currents oppose motion.|M
+M|The e.m.f. induced when a magnet is pushed into a coil depends on|the rate of change of flux|the colour of the magnet|the diameter of the wire only|the length of the wire only|1|Faster motion gives larger e.m.f.|M
+M|An induction cooker heats a pan by|eddy currents|conduction from a flame|radiation|friction|1|A changing field induces currents.|M
+M|The e.m.f. induced in a straight conductor moving parallel to the field is|zero|maximum|infinite|equal to BLv|1|No flux is cut.|M
+M|The S.I. unit of mutual inductance is the|henry|farad|tesla|weber|1|Same as self inductance.|M
+M|Magnetic flux density is also called|the B-field|the E-field|the H-field only|the charge density|1|Measured in tesla.|M
+N|A coil of 100 turns experiences a flux change of 0.02 Wb in 0.1 s. Find the induced e.m.f. in V.|20|NΔΦ/Δt.|M|100*0.02/0.1
+N|A conductor of length 0.5 m moves at 4 m/s perpendicular to a 0.2 T field. Find the induced e.m.f. in V.|0.4|BLv.|M|0.2*0.5*4
+N|A coil of 50 turns has area 0.01 m² in a field of 0.4 T. Find the flux linkage in Wb.|0.2|NBA.|M|50*0.4*0.01
+N|A coil of 200 turns and area 0.05 m² rotates at 100 rad/s in a field of 0.5 T. Find the peak e.m.f. in V.|500|NBAω.|M|200*0.5*0.05*100
+N|A 2 H inductor carries 3 A. Find the stored energy in J.|9|½ × 2 × 9.|M|0.5*2*9
+N|The current in a 0.5 H coil changes by 4 A in 0.1 s. Find the e.m.f. magnitude in V.|20|L ΔI/Δt.|M|0.5*4/0.1
+N|A transformer has 200 primary and 1000 secondary turns and 20 V input. Find the secondary voltage in V.|100|20 × 1000/200.|M|20*1000/200
+N|An ideal transformer steps 240 V down to 12 V. Find the turns ratio N_p/N_s.|20|240/12.|M|240/12
+N|An ideal transformer has 100 W input at 200 V. Find the primary current in A.|0.5|P/V.|M|100/200
+N|A solenoid has 1000 turns, length 0.5 m and area 4 × 10⁻⁴ m². Find its inductance in mH. μ₀ = 4π × 10⁻⁷, to one decimal.|1.0|μ₀N²A/l.|H|4*3.14159265e-7*1000000*4e-4/0.5*1000
+N|The back e.m.f. of a motor is 200 V on a 220 V supply with armature resistance 2 Ω. Find the current in A.|10|(220 − 200)/2.|H|(220-200)/2
+N|A motor of armature resistance 2 Ω on 220 V starts from rest. Find the starting current in A.|110|V/R.|M|220/2
+N|The flux through a coil falls from 0.5 Wb to 0 in 0.25 s with 40 turns. Find the induced e.m.f. in V.|80|40 × 0.5/0.25.|M|40*0.5/0.25
+N|A rod of 1 m moves at 10 m/s through a 0.1 T field. Find the e.m.f. in V.|1|BLv.|E|0.1*1*10
+N|Find the mutual induction in H if the e.m.f. is 6 V when the current changes at 3 A/s.|2|ε/(dI/dt).|M|6/3
+S|State Faraday's laws of electromagnetic induction.|Whenever the magnetic flux linked with a circuit changes, an e.m.f. is induced, and its magnitude is proportional to the rate of change of flux linkage.|ε = −N dΦ/dt.|M
+S|State Lenz's law and explain how it follows from conservation of energy.|The induced current flows so as to oppose the change that produces it. If it assisted the change, energy would be created from nothing.|It gives the minus sign.|M
+S|Define self-inductance and give its unit.|The e.m.f. induced in a coil by a change of current in itself, ε = −L dI/dt. The unit is the henry.|It depends on the geometry.|M
+S|Explain how a transformer works.|An alternating current in the primary produces a changing flux in the iron core, which induces an e.m.f. in the secondary in the ratio of the turns.|It works only with AC.|M
+S|What are eddy currents and how are they reduced?|Currents induced in the bulk of a conductor by a changing flux, which waste energy as heat. They are reduced by laminating the core.|They are useful in induction heating.|M
+
+# 5 Alternating Current
+M|An alternating current is one that|changes its direction periodically|flows in one direction only|is constant|has no frequency|1|It varies sinusoidally.|E
+M|The instantaneous value of an alternating voltage is|V = V₀ sin ωt|V = V₀|V = V₀ ω|V = V₀ t|1|V₀ is the peak value.|E
+M|The rms value of an alternating current is related to its peak value by|I_rms = I₀/√2|I_rms = I₀ √2|I_rms = I₀/2|I_rms = 2I₀|1|About 0.707 I₀.|M
+M|The average value of a sinusoidal current over a complete cycle is|zero|I₀|I₀/√2|2I₀/π|1|The positive and negative parts cancel.|M
+M|The frequency of the mains supply in Pakistan is|50 Hz|60 Hz|100 Hz|25 Hz|1|220 V at 50 Hz.|E
+M|The peak value of a 220 V rms supply is about|311 V|220 V|156 V|440 V|1|220 × √2.|M
+M|The reactance of an inductor L at angular frequency ω is|ω L|1/ω L|L/ω|ω/L|1|X_L = ωL.|M
+M|The reactance of a capacitor C at angular frequency ω is|1/ω C|ω C|C/ω|ω/C|1|X_C = 1/ωC.|M
+M|The reactance of an inductor to direct current is|zero|infinite|1 Ω|L|1|ω = 0.|M
+M|The reactance of a capacitor to direct current is|infinite|zero|1 Ω|C|1|It blocks DC.|M
+M|In a purely resistive AC circuit, the voltage and current are|in phase|90° out of phase|180° out of phase|45° out of phase|1|V = IR at all times.|M
+M|In a purely inductive AC circuit, the current|lags the voltage by 90°|leads the voltage by 90°|is in phase|leads by 180°|1|ELI the ICE man.|M
+M|In a purely capacitive AC circuit, the current|leads the voltage by 90°|lags the voltage by 90°|is in phase|lags by 180°|1|ELI the ICE man.|M
+M|The impedance of a series RLC circuit is|√(R² + (X_L − X_C)²)|R + X_L + X_C|R + X_L − X_C|√(R² + X_L² + X_C²)|1|The vector sum.|M
+M|The SI unit of impedance is the|ohm|henry|farad|siemens|1|Like resistance.|E
+M|The resonant frequency of a series LC circuit is|1/(2π√(LC))|2π√(LC)|√(LC)/2π|1/(√(LC))|1|When X_L = X_C.|M
+M|At resonance in a series RLC circuit, the impedance is|minimum, equal to R|maximum|infinite|zero|1|Z = R.|M
+M|At resonance in a series RLC circuit, the current is|maximum|minimum|zero|infinite always|1|I = V/R.|M
+M|The power factor of an AC circuit is|cos φ|sin φ|tan φ|1|1|φ is the phase angle.|M
+M|The average power in an AC circuit is|V_rms I_rms cos φ|V_rms I_rms|V₀ I₀|V I sin φ|1|P = VI cos φ.|M
+M|The power dissipated in a purely inductive or capacitive circuit is|zero|maximum|VI|infinite|1|cos 90° = 0.|M
+M|A choke is|an inductor used to reduce AC without much power loss|a capacitor|a resistor|a battery|1|It has high inductance.|M
+M|A capacitor can be used to|block DC and allow AC|block AC|amplify DC|rectify AC|1|X_C is infinite for DC.|M
+M|An AC generator is also called an|alternator|dynamo only|rectifier|transformer|1|It produces AC.|E
+M|The quality factor Q of a series resonant circuit is|ω₀L/R|R/ω₀L|ω₀ R L|L R/ω₀|1|It measures sharpness of resonance.|H
+M|The time period of an AC of frequency 50 Hz is|0.02 s|0.5 s|0.2 s|0.05 s|1|1/f.|E
+M|A rectifier is used to|convert AC into DC|convert DC into AC|raise voltage|lower voltage|1|Using diodes.|M
+M|The phase angle in a series RLC circuit is given by|tan φ = (X_L − X_C)/R|tan φ = R/(X_L − X_C)|tan φ = X_L X_C|tan φ = Z/R|1|The angle between V and I.|H
+M|A radio is tuned to a station by varying|the capacitance to change the resonant frequency|the resistance|the transformer ratio|the battery|1|Resonance selects the frequency.|M
+N|Find the rms value in A of an AC with peak value 10 A, to two decimal places.|7.07|10/√2.|E|10/Math.sqrt(2)
+N|Find the peak voltage in V of a 220 V rms supply, to the nearest volt.|311|220√2.|M|220*Math.sqrt(2)
+N|Find the reactance in Ω of a 0.1 H inductor at 50 Hz, to one decimal place.|31.4|2π × 50 × 0.1.|M|2*3.14159265*50*0.1
+N|Find the reactance in Ω of a 100 μF capacitor at 50 Hz, to one decimal place.|31.8|1/(2π × 50 × 10⁻⁴).|M|1/(2*3.14159265*50*100e-6)
+N|A series circuit has R = 30 Ω and X_L = 40 Ω. Find the impedance in Ω.|50|√(900 + 1600).|M|Math.sqrt(900+1600)
+N|A 100 V rms source drives a circuit of impedance 50 Ω. Find the rms current in A.|2|V/Z.|M|100/50
+N|Find the resonant frequency in Hz of a circuit with L = 1 H and C = 1 μF, to one decimal place.|159.2|1/(2π√(1 × 10⁻⁶)).|H|1/(2*3.14159265*Math.sqrt(1e-6))
+N|A circuit has R = 30 Ω and Z = 50 Ω. Find the power factor.|0.6|R/Z.|M|30/50
+N|A circuit draws 2 A at 100 V with a power factor of 0.6. Find the average power in W.|120|VI cos φ.|M|100*2*0.6
+N|An AC supply has a frequency of 50 Hz. Find the angular frequency in rad/s to the nearest whole number.|314|2π × 50.|M|2*3.14159265*50
+N|A 2 kW heater is connected to a 220 V rms supply. Find the rms current in A, to one decimal place.|9.1|P/V.|M|2000/220
+N|A series LCR circuit has R = 10 Ω, X_L = 25 Ω and X_C = 25 Ω. Find the impedance in Ω.|10|At resonance Z = R.|M|10
+N|A 20 V peak AC is applied to a 10 Ω resistor. Find the average power in W.|20|(V₀²/2)/R.|H|20*20/2/10
+N|An AC has a peak of 5 A. Find its peak-to-peak value in A.|10|2 × 5.|E|2*5
+N|An inductor of 0.2 H carries an rms current of 2 A at 50 Hz. Find the rms voltage in V, to the nearest volt.|126|I × 2πfL.|H|2*2*3.14159265*50*0.2
+S|Define the rms value of an alternating current.|The value of the steady direct current that produces the same heating effect in a resistor as the alternating current, I_rms = I₀/√2.|About 0.707 times the peak value.|M
+S|Define reactance and impedance.|Reactance is the opposition of an inductor or capacitor to AC, X_L = ωL and X_C = 1/ωC. Impedance is the total opposition of the circuit, Z = √(R² + (X_L − X_C)²).|Both are measured in ohms.|M
+S|State the condition for resonance in a series RLC circuit.|X_L = X_C, so ω₀ = 1/√(LC). The impedance is minimum (Z = R) and the current is maximum.|The current and voltage are in phase.|M
+S|What is meant by the power factor?|The cosine of the phase angle between the voltage and current, cos φ = R/Z, so that the average power is VI cos φ.|It is 1 for a pure resistor.|M
+S|State how AC is converted into DC.|By using diodes in a rectifier circuit, with a capacitor to smooth the output.|A bridge rectifier uses four diodes.|M
+
+# 6 Physics of Solids
+M|Solids can be classified as|crystalline, amorphous and polymeric|only crystalline|only amorphous|only metals|1|By the arrangement of atoms.|E
+M|A crystalline solid has|a regular repeating arrangement of atoms|no arrangement|random arrangement|only one atom|1|It has a sharp melting point.|E
+M|An amorphous solid has|no long-range order|a perfect crystal lattice|a sharp melting point|a regular shape|1|Glass is an example.|E
+M|A single crystal is|a solid with an unbroken lattice|a mixture|a liquid|a powder|1|The lattice is continuous.|M
+M|A polycrystalline solid consists of|many small crystals|one crystal|no crystals|only atoms|1|Most metals.|M
+M|Stress is defined as|force per unit area|extension per unit length|force|energy|1|σ = F/A.|E
+M|Strain is defined as|extension per unit original length|force per unit area|energy|force|1|ε = ΔL/L.|E
+M|The unit of strain is|none (dimensionless)|N/m²|N|m|1|A ratio.|E
+M|Hooke's law states that within the elastic limit|stress is proportional to strain|stress is constant|strain is constant|stress is inversely proportional to strain|1|σ = Eε.|M
+M|Young's modulus is the ratio of|tensile stress to tensile strain|strain to stress|force to area|force to length|1|Y = σ/ε.|M
+M|The SI unit of Young's modulus is|N m⁻²|N|m|J|1|Pascal.|M
+M|The bulk modulus is the ratio of|volume stress to volume strain|tensile stress to strain|shear stress to strain|pressure to length|1|K = −ΔP/(ΔV/V).|M
+M|The shear modulus is the ratio of|shear stress to shear strain|tensile stress to strain|pressure to volume|force to area|1|G = τ/γ.|M
+M|The elastic limit is|the maximum stress up to which the body returns to its original shape|the breaking point|the yield point of all materials|zero stress|1|Beyond it deformation is permanent.|M
+M|The yield point is where|the material begins to deform plastically|it breaks|it recovers|stress is zero|1|A sudden increase in strain.|M
+M|The breaking stress is|the stress at which the material fractures|the elastic limit|the shear modulus|zero|1|The maximum stress sustained.|M
+M|A ductile material is one that|can be drawn into wires|breaks easily|is hard and brittle|has no plastic region|1|Copper is ductile.|M
+M|A brittle material|breaks with little plastic deformation|can be drawn into wires|has a large plastic region|has zero strength|1|Glass is brittle.|M
+M|The strain energy stored in a stretched wire per unit volume is|½ × stress × strain|stress × strain|stress/strain|½ stress|1|U = ½σε.|M
+M|The area under a stress-strain curve represents|energy per unit volume|force|strain|stress|1|Work done per unit volume.|M
+M|Hysteresis is the|lag in strain when stress is removed|resistance|capacitance|inductance|1|The loading and unloading curves differ.|M
+M|According to the band theory, the valence band in a conductor|overlaps the conduction band|is far from the conduction band|is empty|is full with a large gap|1|Electrons move freely.|M
+M|An insulator has a|large energy gap|zero gap|overlapping bands|small gap|1|About 5 eV or more.|M
+M|A semiconductor has a|small energy gap|large gap|zero gap|no valence band|1|About 1 eV.|M
+M|The energy gap of silicon is about|1.1 eV|5 eV|0 eV|10 eV|1|At room temperature.|M
+M|The resistance of a semiconductor with temperature|decreases|increases|is constant|is zero|1|More carriers.|M
+M|An intrinsic semiconductor is|a pure semiconductor|doped|a metal|an insulator|1|Silicon or germanium.|M
+M|An n-type semiconductor is formed by doping with|pentavalent impurities|trivalent impurities|water|metals|1|Donors give extra electrons.|M
+M|A p-type semiconductor is formed by doping with|trivalent impurities|pentavalent impurities|water|noble gases|1|Acceptors create holes.|M
+M|The majority charge carriers in a p-type semiconductor are|holes|electrons|protons|neutrons|1|Created by acceptors.|M
+M|Superconductivity is the phenomenon in which|resistance becomes zero below a critical temperature|resistance becomes infinite|current is zero|voltage is zero|1|Observed in some metals.|M
+M|The Meissner effect is the|expulsion of magnetic field from a superconductor|attraction of a magnet|heating of a conductor|reflection of light|1|It causes magnetic levitation.|H
+M|Ferromagnetic materials have|permanent magnetic domains|no magnetic effect|negative permeability|zero permeability|1|Iron, cobalt and nickel.|M
+M|The Curie temperature is the temperature above which a ferromagnet becomes|paramagnetic|diamagnetic|an insulator|a superconductor|1|It loses spontaneous magnetisation.|H
+M|Soft magnetic materials have|low retentivity and low coercivity|high retentivity|high coercivity|no permeability|1|Used in transformer cores.|M
+M|Hard magnetic materials are used for|permanent magnets|transformer cores|capacitors|wires|1|High retentivity.|M
+N|A wire of area 1 mm² carries a tension of 100 N. Find the stress in MPa.|100|F/A = 100/10⁻⁶ Pa.|M|100/1e-6/1e6
+N|A wire of length 2 m is extended by 1 mm. Find the strain.|0.0005|0.001/2.|M|0.001/2
+N|A steel wire of area 2 mm² and length 2 m extends 1 mm under 200 N. Find Young's modulus in GPa.|200|σ/ε = (200/2 × 10⁻⁶)/(0.0005).|M|(200/2e-6)/(0.001/2)/1e9
+N|A wire has Young's modulus 2 × 10¹¹ Pa and strain 0.001. Find the stress in MPa.|200|Eε.|M|2e11*0.001/1e6
+N|Find the elastic energy in J stored per m³ at a stress of 2 × 10⁸ Pa and strain 10⁻³.|100000|½σε.|M|0.5*2e8*1e-3
+N|Find the energy in J stored in a wire of volume 10⁻⁶ m³ at stress 2 × 10⁸ Pa and strain 10⁻³.|0.1|½σεV.|H|0.5*2e8*1e-3*1e-6
+N|A force of 500 N is applied to a face of area 0.01 m² of a cube, shear strain 0.001. Find the shear modulus in MPa.|50|(500/0.01)/0.001.|H|500/0.01/0.001/1e6
+N|A pressure increase of 10⁷ Pa reduces the volume of 1 m³ by 10⁻⁴ m³. Find the bulk modulus in GPa.|100|10⁷/10⁻⁴.|H|1e7/1e-4/1e9
+N|Find the wavelength in μm of photons with energy equal to the 1.1 eV gap of silicon. Use hc = 1240 eV nm, to two decimal places.|1.13|1240/1.1 nm.|H|1240/1.1/1000
+N|A wire breaks at a stress of 4 × 10⁸ Pa. Find the maximum load in kN for a wire of area 1 mm².|0.4|4 × 10⁸ × 10⁻⁶ N.|M|4e8*1e-6/1000
+N|Two wires are of the same material and length, and the radius of B is twice that of A. Find the ratio of the extensions for the same load (A/B).|4|Extension ∝ 1/r².|H|4
+N|A wire extends by 2 mm under a load of 10 N. Find the extension in mm under 25 N within the limit.|5|Proportional.|M|2*25/10
+N|Find the ratio of the elastic energy stored to the work done in extending a wire elastically. Give the value.|1|They are equal.|M|1
+N|The breaking strain of a wire of length 2 m is 0.002. Find the extension in mm at breaking.|4|0.002 × 2000 mm.|M|0.002*2000
+S|State Hooke's law and define Young's modulus.|Within the elastic limit, stress is proportional to strain. Young's modulus is the ratio of tensile stress to tensile strain, Y = σ/ε.|Its unit is the pascal.|M
+S|Distinguish between conductors, semiconductors and insulators using band theory.|In a conductor the valence and conduction bands overlap, in a semiconductor there is a small energy gap, and in an insulator the gap is large.|Temperature affects semiconductors most.|M
+S|What is superconductivity?|The phenomenon in which certain materials lose all electrical resistance below a critical temperature.|They also expel magnetic fields (Meissner effect).|M
+S|Distinguish between n-type and p-type semiconductors.|An n-type semiconductor is doped with pentavalent atoms and has electrons as majority carriers. A p-type is doped with trivalent atoms and has holes as majority carriers.|Both remain electrically neutral.|M
+S|Explain the stress-strain curve of a ductile material.|It is linear up to the proportional limit, then enters the elastic region to the elastic limit, then yields and shows plastic deformation until the breaking point.|The area under the curve is the energy per unit volume.|M

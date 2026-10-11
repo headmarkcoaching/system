@@ -1,0 +1,156 @@
+@level 1st Year
+@subject Biology
+
+# 4 The Cell
+M|The cell theory states that|all living things are made of cells|only animals have cells|cells arise spontaneously|viruses are cells|1|Schleiden, Schwann and Virchow.|E
+M|Virchow's contribution to cell theory was that|all cells arise from pre-existing cells|all organisms are cells|cells have nuclei|cells have walls|1|Omnis cellula e cellula.|M
+M|The resolving power of a microscope is|its ability to distinguish two close points as separate|its magnification|its length|its colour|1|Depends on wavelength.|M
+M|The resolving power of the electron microscope is greater than that of the light microscope because|electrons have a much shorter wavelength|it is bigger|it uses lenses of glass|it uses light|1|About 0.2 nm.|M
+M|The transmission electron microscope (TEM) is used to see|the internal structure of cells|surfaces only|living cells|colours|1|Thin sections.|M
+M|The scanning electron microscope (SEM) is used to see|the surface of specimens in 3D|internal structure|living cells|DNA only|1|Surface topography.|M
+M|Prokaryotic cells have|no true nucleus|a true nucleus|membrane-bound organelles|chloroplasts|1|DNA in a nucleoid.|E
+M|Eukaryotic cells have|a true nucleus and membrane-bound organelles|no nucleus|no organelles|only ribosomes|1|Plants, animals, fungi and protists.|E
+M|Ribosomes of prokaryotes are of size|70S|80S|50S|40S|1|Eukaryotes have 80S.|M
+M|The cell wall of bacteria is made of|peptidoglycan|cellulose|chitin|lignin|1|Murein.|M
+M|The cell wall of plants is made of|cellulose|peptidoglycan|chitin|protein|1|Provides support.|E
+M|The cell wall of fungi is made of|chitin|cellulose|peptidoglycan|lipid|1|A nitrogenous polysaccharide.|M
+M|The fluid mosaic model describes the structure of|the cell membrane|the nucleus|the cell wall|DNA|1|Singer and Nicolson.|M
+M|The cell membrane is composed mainly of|phospholipids and proteins|carbohydrates only|nucleic acids|cellulose|1|A bilayer.|M
+M|In the phospholipid bilayer the hydrophilic heads face|the aqueous surroundings|each other|the centre|nothing|1|Tails face inwards.|M
+M|Cholesterol in the membrane|regulates its fluidity|forms channels|is a carbohydrate|stores energy|1|Stabilises it.|M
+M|The nucleus contains|DNA|ribosomes only|enzymes only|lipids only|1|Chromatin.|E
+M|The nucleolus is the site of|ribosome synthesis|DNA replication|protein synthesis|respiration|1|rRNA made there.|M
+M|The nuclear envelope has|pores|no pores|no membranes|a cell wall|1|For transport.|M
+M|The rough endoplasmic reticulum is covered with|ribosomes|lysosomes|mitochondria|chloroplasts|1|Protein synthesis.|M
+M|The smooth endoplasmic reticulum is involved in|lipid synthesis and detoxification|protein synthesis|photosynthesis|respiration|1|No ribosomes.|M
+M|The Golgi apparatus|modifies, sorts and packages proteins|makes ATP|stores genes|digests food|1|Secretion.|M
+M|Lysosomes contain|digestive enzymes|DNA|chlorophyll|ribosomes|1|Autolysis.|M
+M|Mitochondria are the site of|aerobic respiration|photosynthesis|protein synthesis|DNA replication only|1|ATP production.|M
+M|Mitochondria have|a double membrane with cristae|a single membrane|no membrane|a cell wall|1|Folds increase surface area.|M
+M|Chloroplasts are the site of|photosynthesis|respiration|digestion|excretion|1|Contain chlorophyll.|M
+M|Chloroplasts contain|grana and stroma|cristae|nucleoli|lysosomes|1|Thylakoids.|M
+M|Mitochondria and chloroplasts contain|their own DNA and 70S ribosomes|no DNA|80S ribosomes only|no ribosomes|1|Endosymbiotic theory.|H
+M|The cytoskeleton is made of|microtubules, microfilaments and intermediate filaments|only microtubules|cellulose|phospholipids|1|Maintains cell shape.|M
+M|Centrioles are involved in|spindle formation during cell division|photosynthesis|respiration|protein synthesis|1|Animal cells.|M
+M|The large central vacuole of plant cells is surrounded by|the tonoplast|the cell wall|the nuclear envelope|the cristae|1|It stores cell sap.|M
+M|Diffusion is the movement of molecules|from high to low concentration|from low to high concentration|only through membranes|only in liquids|1|Passive.|E
+M|Osmosis is the movement of water|across a partially permeable membrane from high to low water potential|from low to high water potential|against a gradient only|through a cell wall only|1|Passive.|M
+M|A plant cell in a hypotonic solution becomes|turgid|plasmolysed|flaccid|dead|1|Water enters.|M
+M|A plant cell in a hypertonic solution undergoes|plasmolysis|turgor|bursting|division|1|Water leaves.|M
+M|Active transport requires|ATP|no energy|a gradient only|water|1|Against the gradient.|M
+M|Facilitated diffusion uses|carrier or channel proteins|ATP|a vesicle|a cell wall|1|Down a gradient.|M
+M|Endocytosis is the|bulk uptake of material by vesicles|diffusion of water|release of enzymes|digestion|1|Phagocytosis and pinocytosis.|M
+N|A cell image measures 20 mm and the actual cell is 0.04 mm. Find the magnification.|500|20/0.04.|M|20/0.04
+N|A cell is 50 μm long. Find its length in mm.|0.05|50/1000.|E|50/1000
+N|The magnification is 400 and the image is 8 mm. Find the actual size in μm.|20|8/400 mm = 0.02 mm.|M|8/400*1000
+N|An eyepiece of ×10 and an objective of ×40 are used. Find the total magnification.|400|10 × 40.|E|10*40
+N|A plant cell has a water potential of −0.6 MPa and a solute potential of −1.0 MPa. Find the pressure potential in MPa using ψ = ψs + ψp.|0.4|−0.6 − (−1.0).|H|-0.6-(-1.0)
+N|A cell has 150 mitochondria. After division each daughter cell receives half. Find the number per daughter cell.|75|150/2.|E|150/2
+N|The surface area to volume ratio of a cube of side 2 cm is found. Find it.|3|24/8.|M|6*4/8
+N|A membrane is 7 nm thick. Find its thickness in micrometres.|0.007|7/1000.|M|7/1000
+S|State the cell theory.|All living things are made of cells, the cell is the basic unit of structure and function, and all cells arise from pre-existing cells.|Viruses are an exception.|M
+S|Describe the fluid mosaic model of the cell membrane.|The membrane is a bilayer of phospholipids in which proteins, cholesterol and glycoproteins float, allowing movement within the layer.|Proteins form channels and receptors.|M
+S|Distinguish between prokaryotic and eukaryotic cells.|Prokaryotic cells have no nucleus or membrane-bound organelles and have 70S ribosomes, while eukaryotic cells have a nucleus, membrane-bound organelles and 80S ribosomes.|Bacteria are prokaryotes.|M
+S|Compare the structures and functions of mitochondria and chloroplasts.|Both have double membranes and DNA. Mitochondria have cristae and release energy by respiration, while chloroplasts have grana and trap light for photosynthesis.|They are semi-autonomous.|M
+S|Distinguish between diffusion, osmosis and active transport.|Diffusion is movement down a concentration gradient, osmosis is the diffusion of water across a partially permeable membrane, and active transport moves substances against a gradient using ATP.|Only the last needs energy.|M
+S|Describe the functions of the Golgi apparatus and lysosomes.|The Golgi apparatus modifies, sorts and packages proteins for secretion, and lysosomes contain hydrolytic enzymes that digest worn-out organelles and engulfed material.|Lysosomes arise from the Golgi.|M
+
+# 5 Variety of Life
+M|Taxonomy is the science of|classification and naming of organisms|digestion|cell structure|inheritance|1|Includes nomenclature.|E
+M|Binomial nomenclature was introduced by|Carolus Linnaeus|Charles Darwin|Aristotle|Mendel|1|Genus and species.|E
+M|In binomial nomenclature the first word is the|genus|species|family|order|1|It begins with a capital letter.|E
+M|The scientific name of man is|Homo sapiens|Homo erectus|Pan troglodytes|Panthera leo|1|Genus Homo.|E
+M|The correct sequence of taxa from largest to smallest is|kingdom, phylum, class, order, family, genus, species|species, genus, family, order, class, phylum, kingdom|kingdom, class, phylum, order|phylum, kingdom, class, order|1|Eight with domain.|M
+M|The basic unit of classification is the|species|genus|family|kingdom|1|Interbreeding group.|E
+M|A species is a group of organisms that|can interbreed and produce fertile offspring|look similar only|live in one place|have the same colour|1|Biological species concept.|M
+M|The five-kingdom system was proposed by|Whittaker|Linnaeus|Haeckel|Woese|1|In 1969.|M
+M|The five kingdoms are|Prokaryotae, Protoctista, Fungi, Plantae and Animalia|Plants, animals, fungi, viruses, bacteria|Archaea, Bacteria, Fungi, Plants, Animals|Monera, Algae, Fungi, Plants, Animals|1|Margulis and Schwartz version.|M
+M|The three-domain system includes the domains|Bacteria, Archaea and Eukarya|Plants, Animals and Fungi|Prokaryotes and Eukaryotes only|Viruses, Bacteria and Eukarya|1|Proposed by Carl Woese.|H
+M|Archaea are found in|extreme environments|only soil|only water|only the air|1|Thermophiles, halophiles.|M
+M|Viruses are not included in the five kingdoms because|they are acellular|they are large|they are plants|they are animals|1|Not living outside a host.|M
+M|A virus consists of|nucleic acid in a protein coat (capsid)|a nucleus and cytoplasm|a cell wall only|a membrane only|1|DNA or RNA.|M
+M|A bacteriophage is a virus that infects|bacteria|plants|animals|fungi|1|Phage.|M
+M|HIV is a|retrovirus|bacterium|fungus|protozoan|1|RNA virus with reverse transcriptase.|M
+M|Viral diseases include|polio and influenza|malaria|cholera|tuberculosis|1|Polio and flu are viral.|E
+M|Antibiotics are not effective against|viruses|bacteria|fungi only|protozoa|1|They target bacterial structures.|E
+M|A dichotomous key is used to|identify organisms|measure organisms|kill organisms|name viruses|1|A series of two choices.|M
+M|Biodiversity is|the variety of life at all levels|a single species|only animals|only plants|1|Genetic, species and ecosystem diversity.|E
+M|The region with the highest biodiversity is|tropical rainforest|desert|tundra|ocean floor|1|Many niches.|M
+M|A threat to biodiversity is|habitat destruction|planting trees|national parks|breeding programmes|1|Deforestation.|E
+M|The IUCN Red List records|threatened species|all plants|all animals|rocks|1|Conservation status.|M
+M|A species that is at risk of extinction is called|endangered|common|abundant|extinct|1|Needs protection.|E
+M|In situ conservation is|conservation in the natural habitat|conservation in zoos|seed banks|gene banks|1|National parks.|M
+M|Ex situ conservation is|conservation outside the natural habitat|conservation in wild|national parks|reserves|1|Zoos and botanical gardens.|M
+M|The Indus river dolphin is|an endangered mammal of Pakistan|a fish|a reptile|a bird|1|Bhulan.|M
+M|The snow leopard is found in the|mountains of northern Pakistan|deserts|rivers|mangroves|1|Endangered.|M
+M|The markhor is the national animal of|Pakistan|India|Iran|China|1|A wild goat.|E
+M|The monera kingdom includes|bacteria|algae|fungi|mosses|1|Prokaryotes.|M
+M|Homology refers to|similarity due to common ancestry|similar function only|similar colour|similar size|1|Homologous structures.|M
+M|Analogous structures|have similar functions but different origins|have common origins|are the same|have no function|1|Wings of birds and insects.|M
+M|Convergent evolution produces|analogous structures|homologous structures|vestigial organs|fossils|1|Similar environments.|H
+M|DNA sequencing is used in classification to|compare evolutionary relationships|measure size|name species|find colour|1|Molecular phylogenetics.|H
+N|The Linnaean hierarchy has kingdom, phylum, class, order, family, genus and species. Find the number of ranks.|7|Seven.|E|7
+N|A forest has 20 species of trees and 10 of birds. Find the number of species of both.|30|20 + 10.|E|20+10
+N|A forest has 50 individuals of species A and 150 of species B. Find the percentage of A.|25|50/200.|M|50/200*100
+N|Find the Simpson index D = Σn(n − 1)/N(N − 1) for two species with 3 and 2 individuals, to two decimals.|0.4|(6 + 2)/20.|H|(3*2+2*1)/(5*4)
+N|A population of 1000 endangered animals declines by 20% each year. Find the number after 1 year.|800|1000 × 0.8.|M|1000*0.8
+N|A sample has 12 species with 100 individuals in total. Find the average individuals per species to one decimal.|8.3|100/12.|M|100/12
+N|Find the number of kingdoms in the five-kingdom system.|5|Five.|E|5
+N|Find the number of domains in the three-domain system.|3|Three.|E|3
+S|State the hierarchy of classification.|Domain, kingdom, phylum, class, order, family, genus and species.|Each is a taxon.|M
+S|What is binomial nomenclature?|A system of naming organisms with two Latin names, the genus and the species, for example Homo sapiens.|Introduced by Linnaeus.|E
+S|Describe the structure of a virus.|A virus has a nucleic acid (DNA or RNA) core enclosed in a protein coat called the capsid, and some have an outer envelope.|It reproduces only in a host cell.|M
+S|State the five kingdoms and one example of each.|Prokaryotae (bacteria), Protoctista (Amoeba), Fungi (yeast), Plantae (moss) and Animalia (man).|Viruses are not included.|M
+S|State three methods of conserving biodiversity.|Protected areas and national parks, captive breeding and seed banks, and laws against hunting and habitat destruction.|In situ and ex situ conservation.|M
+S|Distinguish between homologous and analogous structures.|Homologous structures have the same basic plan from a common ancestor, such as limbs, whereas analogous structures have similar functions but different origins, such as bird and insect wings.|Convergent evolution.|M
+
+# 6 Kingdom Prokaryotae
+M|Prokaryotes are organisms whose cells|lack a true nucleus|have a nucleus|have chloroplasts|have mitochondria|1|DNA lies in the nucleoid.|E
+M|Bacteria are classified in the kingdom|Prokaryotae|Protoctista|Fungi|Plantae|1|Along with cyanobacteria.|E
+M|The genetic material of a bacterium is|a single circular DNA molecule|linear chromosomes|RNA only|protein|1|In the nucleoid.|M
+M|Small circular DNA molecules in bacteria are called|plasmids|nucleosomes|chromatin|centromeres|1|Carry extra genes.|M
+M|Bacteria reproduce asexually by|binary fission|mitosis|meiosis|budding only|1|The cell splits.|E
+M|Genetic recombination in bacteria occurs by|conjugation, transformation and transduction|mitosis|meiosis|budding|1|Horizontal gene transfer.|M
+M|Conjugation involves|transfer of DNA through a pilus|DNA uptake from the environment|transfer by a virus|cell fusion|1|Between two bacteria.|M
+M|Transformation is the|uptake of free DNA from the surroundings|transfer by a virus|transfer through a pilus|cell division|1|Griffith's experiment.|M
+M|Transduction is the transfer of DNA by|a bacteriophage|a pilus|plasmids only|water|1|Viral vector.|M
+M|Bacteria are classified by shape as cocci, bacilli and|spirilla|vibrio|alga|fungi|1|Also vibrios.|E
+M|A spherical bacterium is called a|coccus|bacillus|spirillum|vibrio|1|Plural cocci.|E
+M|A rod-shaped bacterium is called a|bacillus|coccus|spirillum|vibrio|1|Plural bacilli.|E
+M|A spiral bacterium is called a|spirillum|coccus|bacillus|vibrio|1|Plural spirilla.|E
+M|Gram-positive bacteria have|a thick peptidoglycan wall|a thin wall|no wall|a cellulose wall|1|Stain purple.|M
+M|Gram-negative bacteria have|a thin peptidoglycan layer and an outer membrane|a thick wall|no wall|a chitin wall|1|Stain pink.|M
+M|The flagellum of a bacterium is used for|movement|reproduction|feeding|respiration|1|Rotates like a propeller.|M
+M|The capsule of a bacterium provides|protection|movement|reproduction|energy|1|Slime layer.|M
+M|An endospore is|a resistant resting structure|a reproductive spore|a gamete|a toxin|1|Survives harsh conditions.|M
+M|Autotrophic bacteria include|cyanobacteria|Escherichia coli|Salmonella|Vibrio cholerae|1|Photosynthesise.|M
+M|Cyanobacteria are important because they|fix nitrogen and photosynthesise|cause cholera|make antibiotics|are fungi|1|Nostoc, Anabaena.|M
+M|Nitrogen-fixing bacteria such as Rhizobium live in|root nodules of legumes|leaves|stems|flowers|1|Symbiotic.|M
+M|Nitrifying bacteria convert|ammonium to nitrate|nitrate to nitrogen gas|nitrogen to ammonia|ammonia to urea|1|Nitrosomonas and Nitrobacter.|M
+M|Denitrifying bacteria convert|nitrate to nitrogen gas|ammonia to nitrate|nitrogen gas to ammonia|nitrite to nitrate|1|Pseudomonas.|M
+M|Decomposer bacteria|recycle nutrients|photosynthesise|make food|cause no effect|1|Saprotrophs.|M
+M|Escherichia coli is found in|the human intestine|soil only|water only|air only|1|Normal flora.|M
+M|The bacterium causing tuberculosis is|Mycobacterium tuberculosis|Vibrio cholerae|Salmonella typhi|Streptococcus|1|Lungs.|M
+M|Cholera is caused by|Vibrio cholerae|Salmonella|Escherichia coli|Clostridium|1|Waterborne.|M
+M|Typhoid is caused by|Salmonella typhi|Vibrio|Mycobacterium|Bacillus|1|Contaminated food and water.|M
+M|Tetanus is caused by|Clostridium tetani|Vibrio|Salmonella|Bacillus anthracis|1|Anaerobic spore-former.|M
+M|Penicillin acts by|preventing the formation of bacterial cell walls|stopping protein synthesis in viruses|killing fungi|blocking DNA in viruses|1|Inhibits peptidoglycan synthesis.|M
+M|Antibiotic resistance arises because of|mutations and selection|vaccination|good hygiene|sterilisation|1|Overuse of antibiotics.|M
+M|Pasteurisation of milk kills|harmful bacteria|all organisms|fungi only|viruses only|1|Heating.|E
+M|Bacteria are used in the production of|yoghurt and cheese|bread only|wine only|plastic|1|Lactobacillus.|M
+M|Genetically engineered bacteria produce|human insulin|penicillin only|vitamin C|antibodies only|1|Recombinant DNA.|M
+M|Bacteria differ from viruses in that bacteria|are cellular and can reproduce independently|are acellular|need a host to reproduce|have no DNA|1|Viruses are not cells.|M
+N|A bacterium divides every 20 minutes. Find the number of cells after 2 hours starting from 1 cell.|64|2⁶.|M|2^6
+N|A bacterial culture starts with 500 cells and doubles every hour. Find the number after 4 hours.|8000|500 × 2⁴.|M|500*2^4
+N|Find the generation time in minutes if a bacterium divides 3 times in 90 minutes.|30|90/3.|M|90/3
+N|A culture has 10⁶ cells per mL. Find the number in 5 mL.|5000000|10⁶ × 5.|E|1e6*5
+N|A bacterium has a diameter of 2 μm. Find the diameter in mm.|0.002|2/1000.|E|2/1000
+N|An antibiotic kills 90% of bacteria each hour. Starting with 10⁶, find the number after 2 hours.|10000|10⁶ × 0.1 × 0.1.|H|1e6*0.1*0.1
+N|A colony counts 150 colonies from 0.1 mL diluted 1000 times. Find the cells per mL in the original in units of 10⁶.|1.5|150/0.1 × 1000.|H|150/0.1*1000/1e6
+N|A plate has 240 colonies from 1 mL of a 10⁻⁴ dilution. Find the original count per mL in units of 10⁶.|2.4|240 × 10⁴.|H|240*1e4/1e6
+S|Describe the structure of a bacterial cell.|A bacterium has a cell wall of peptidoglycan, a cell membrane, cytoplasm with 70S ribosomes, a nucleoid of circular DNA, sometimes plasmids, a capsule, flagella and pili.|There are no membrane-bound organelles.|M
+S|Describe how bacteria reproduce and exchange genes.|They reproduce asexually by binary fission and exchange genes by conjugation, transformation and transduction.|This spreads antibiotic resistance.|M
+S|Explain the importance of nitrogen-fixing bacteria.|They convert atmospheric nitrogen into ammonia, which makes soil fertile and supplies nitrogen to plants, as Rhizobium does in legume root nodules.|Cyanobacteria also fix nitrogen.|M
+S|State the beneficial and harmful roles of bacteria.|Bacteria decompose waste, fix nitrogen, make yoghurt and antibiotics, but some cause diseases such as cholera and tuberculosis.|Both are important.|M
+S|Explain how antibiotics work and why resistance develops.|Antibiotics such as penicillin stop bacterial cell wall synthesis. Resistance develops by mutation and selection when antibiotics are overused.|Resistant bacteria survive.|M
+S|Differentiate between Gram-positive and Gram-negative bacteria.|Gram-positive bacteria have a thick peptidoglycan wall and stain purple, while Gram-negative bacteria have a thin wall with an outer membrane and stain pink.|It affects antibiotic sensitivity.|M

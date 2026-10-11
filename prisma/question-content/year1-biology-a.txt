@@ -1,0 +1,158 @@
+@level 1st Year
+@subject Biology
+
+# 1 Introduction to Biology
+M|Biology is the scientific study of|living organisms|rocks|stars|chemicals only|1|From bios (life) and logos (study).|E
+M|The study of the structure of cells is called|cytology|histology|ecology|taxonomy|1|Cell biology.|E
+M|The study of tissues is called|histology|cytology|ecology|genetics|1|Tissue biology.|E
+M|The study of heredity and variation is called|genetics|ecology|taxonomy|anatomy|1|Mendel is the father of genetics.|E
+M|The study of the relationships between organisms and their environment is called|ecology|ethology|embryology|physiology|1|Ecosystems and populations.|E
+M|The study of the classification of organisms is called|taxonomy|ecology|morphology|palaeontology|1|Naming and grouping.|E
+M|The study of fossils is called|palaeontology|ecology|embryology|cytology|1|Ancient life.|E
+M|The study of the functions of living organisms is called|physiology|anatomy|morphology|histology|1|How the body works.|E
+M|The study of the structure of organisms is called|anatomy|physiology|ecology|genetics|1|Body structure.|E
+M|The use of living organisms to produce useful products is called|biotechnology|ecology|taxonomy|embryology|1|Genetic engineering.|E
+M|The correct order of biological organisation from smallest to largest is|molecule, organelle, cell, tissue, organ, organ system, organism|cell, molecule, tissue, organ|organ, tissue, cell, organelle|organism, organ, cell, tissue|1|Increasing complexity.|M
+M|A group of organisms of the same species in an area is a|population|community|ecosystem|biosphere|1|Population level.|M
+M|The living community together with its environment is an|ecosystem|organ|population|species|1|Includes abiotic factors.|M
+M|The part of the Earth inhabited by living organisms is the|biosphere|lithosphere|atmosphere|hydrosphere|1|The global ecosystem.|M
+M|The scientific method begins with|an observation or a problem|a conclusion|a theory|a law|1|Followed by a hypothesis.|M
+M|A hypothesis is|a testable explanation for an observation|a proven law|a theory|a conclusion|1|It can be tested by experiment.|M
+M|The independent variable is|the factor the experimenter changes|the factor measured|a constant|the control|1|The cause.|M
+M|The dependent variable is|the factor that is measured in response|the factor changed|a constant|the hypothesis|1|The effect.|M
+M|A control experiment is used to|provide a comparison|change the variable|prove the hypothesis|waste time|1|It lacks the treatment.|M
+M|A scientific theory is|a well-tested explanation supported by much evidence|a guess|an opinion|a proven fact only|1|Such as cell theory.|M
+M|The father of modern medicine and author of the Canon of Medicine was|Ibn Sina|Ibn Rushd|Al-Khwarizmi|Al-Biruni|1|Avicenna.|M
+M|The Muslim scientist who described pulmonary circulation was|Ibn al-Nafis|Al-Razi|Jabir|Al-Jahiz|1|Before Harvey.|H
+M|The Muslim scientist who wrote Kitab al-Hayawan on animals was|Al-Jahiz|Ibn Sina|Al-Razi|Ibn Haytham|1|He described food chains and adaptation.|H
+M|Al-Razi (Rhazes) is known for|distinguishing smallpox from measles|inventing the microscope|classification of plants|discovering penicillin|1|A great physician.|M
+M|Charles Darwin proposed|evolution by natural selection|the cell theory|the germ theory|the laws of inheritance|1|On the Origin of Species.|E
+M|Gregor Mendel is known for|the laws of inheritance|the cell theory|evolution|vaccination|1|Experiments on pea plants.|E
+M|Louis Pasteur disproved|spontaneous generation|natural selection|inheritance|photosynthesis|1|Swan-neck flask experiment.|M
+M|Robert Hooke first observed|cork cells and named them cells|bacteria|protozoa|viruses|1|In 1665.|M
+M|Antonie van Leeuwenhoek was the first to observe|living microorganisms|dead cells only|DNA|chromosomes|1|Using simple microscopes.|M
+M|Alexander Fleming discovered|penicillin|insulin|DNA|vitamin C|1|In 1928.|M
+M|Characteristics of living things include|nutrition, respiration, growth and reproduction|only movement|only growth|only colour|1|MRS GREN.|E
+M|Metabolism is the|sum of chemical reactions in an organism|growth only|reproduction|movement|1|Anabolism and catabolism.|M
+M|Homeostasis is the|maintenance of a constant internal environment|growth|reproduction|digestion|1|For example temperature.|M
+M|A career in biology includes|medicine, agriculture and biotechnology|only teaching|only sports|only painting|1|Many fields.|E
+M|The smallest unit of life is the|cell|tissue|organ|organism|1|Cell theory.|E
+M|Life processes are carried out by|living cells|only organs|only tissues|only genes|1|The basic unit.|E
+M|Emergent properties are those that|arise at higher levels of organisation|exist in molecules only|are absent in organisms|are always the same|1|The whole is more than the sum of its parts.|H
+N|A student counts 50 seeds and 42 germinate. Find the percentage germination.|84|42/50 × 100.|E|42/50*100
+N|A plant grows from 12 cm to 18 cm. Find the percentage increase.|50|6/12 × 100.|M|(18-12)/12*100
+N|The mean of the readings 5, 7, 6, 8 and 9 is found. Find it.|7|35/5.|E|(5+7+6+8+9)/5
+N|A control has a mean mass of 10 g and a treatment has 13 g. Find the percentage increase.|30|3/10.|M|(13-10)/10*100
+N|Find the number of levels of organisation from cell to organism: cell, tissue, organ, organ system and organism.|5|Five.|E|5
+N|A culture has 100 bacteria that double every 30 min. Find the number after 2 hours.|1600|100 × 2⁴.|M|100*2^4
+N|A survey finds 24 species in a total of 120 organisms. Find the species percentage.|20|24/120.|E|24/120*100
+N|Find the range of the data 3, 9, 4, 12 and 7.|9|12 − 3.|E|12-3
+S|Define biology and name four of its branches.|The scientific study of living organisms. Branches include zoology, botany, microbiology, ecology, genetics and physiology.|It is divided by organism and level.|E
+S|State the steps of the scientific method.|Observation, formulating a problem, making a hypothesis, deduction, experiments with controls, recording and analysing data, and drawing a conclusion.|The hypothesis is modified if rejected.|M
+S|Distinguish between a hypothesis, a theory and a law.|A hypothesis is a testable explanation. A theory is a well-supported explanation based on much evidence. A law describes a regular pattern in nature.|Theories explain laws.|M
+S|List the levels of organisation in biology.|Molecules, organelles, cells, tissues, organs, organ systems, organisms, populations, communities, ecosystems and the biosphere.|Each level has emergent properties.|M
+S|Name two contributions of Muslim scientists to biology.|Ibn Sina wrote the Canon of Medicine, and Ibn al-Nafis described the pulmonary circulation of blood.|Al-Jahiz wrote on animals.|M
+S|State the characteristics of living organisms.|They show nutrition, respiration, excretion, growth, reproduction, movement, sensitivity and metabolism.|They are made of cells.|E
+
+# 2 Biological Molecules
+M|The most abundant compound in living cells is|water|protein|carbohydrate|lipid|1|About 70–90%.|E
+M|Water is a good solvent because it is|polar|non-polar|ionic|a gas|1|Dissolves ions and polar molecules.|M
+M|The bond between water molecules is a|hydrogen bond|ionic bond|covalent bond|peptide bond|1|Gives cohesion.|M
+M|Water has a high specific heat capacity, which|helps to stabilise temperature|raises temperature|has no effect|lowers density|1|Absorbs heat with little change.|M
+M|Cohesion of water molecules is important in|transport in the xylem|digestion|photosynthesis only|respiration only|1|Water columns.|M
+M|Carbohydrates contain|carbon, hydrogen and oxygen|carbon and nitrogen|nitrogen only|sodium|1|Cₙ(H₂O)ₙ.|E
+M|Glucose is a|monosaccharide|disaccharide|polysaccharide|protein|1|Simple sugar.|E
+M|Sucrose is formed by glucose and|fructose|galactose|glucose|ribose|1|Disaccharide.|M
+M|Lactose is formed by glucose and|galactose|fructose|glucose|maltose|1|Milk sugar.|M
+M|Maltose is formed by|two glucose molecules|glucose and fructose|glucose and galactose|two fructose molecules|1|Malt sugar.|M
+M|The bond between monosaccharides is a|glycosidic bond|peptide bond|ester bond|hydrogen bond|1|Condensation.|M
+M|Starch consists of|amylose and amylopectin|only cellulose|only glycogen|only chitin|1|Plant storage.|M
+M|Glycogen is the storage polysaccharide in|animals|plants|bacteria only|viruses|1|Liver and muscle.|M
+M|Cellulose is made of|β-glucose units|α-glucose units|fructose|galactose|1|Plant cell walls.|M
+M|Chitin is found in|fungal cell walls and insect exoskeletons|plant walls|bacterial walls|animal cells|1|Nitrogen-containing polysaccharide.|M
+M|The test for reducing sugars is|Benedict's test|iodine test|biuret test|emulsion test|1|Brick red precipitate.|M
+M|The test for starch is|iodine solution|Benedict's solution|biuret reagent|ethanol|1|Blue-black.|E
+M|The test for proteins is|biuret test|Benedict's test|iodine test|emulsion test|1|Violet colour.|M
+M|The test for lipids is|emulsion test with ethanol|iodine test|Benedict's test|biuret|1|Cloudy emulsion.|M
+M|Lipids are made of|glycerol and fatty acids|amino acids|glucose|nucleotides|1|Ester bonds.|M
+M|A triglyceride has|three fatty acids and one glycerol|one fatty acid and three glycerols|three amino acids|two glycerols|1|Esterification.|M
+M|Unsaturated fatty acids have|one or more C=C double bonds|only single bonds|no carbon|no hydrogen|1|Liquid oils.|M
+M|Phospholipids form the|cell membrane bilayer|cell wall|nucleus|cytoplasm|1|Hydrophilic head, hydrophobic tail.|M
+M|Cholesterol is a|steroid lipid in membranes|carbohydrate|protein|nucleic acid|1|Regulates fluidity.|M
+M|Proteins are polymers of|amino acids|glucose|fatty acids|nucleotides|1|Twenty amino acids.|E
+M|The bond between amino acids is the|peptide bond|glycosidic bond|ester bond|hydrogen bond|1|CO–NH.|M
+M|The primary structure of a protein is|the sequence of amino acids|the helix|the folded shape|the multi-chain structure|1|The polypeptide chain.|M
+M|The secondary structure of a protein includes|α-helix and β-pleated sheet|only the sequence|the 3D shape|several chains|1|Hydrogen bonds.|M
+M|Haemoglobin has a|quaternary structure|only primary structure|no structure|only secondary structure|1|Four chains.|M
+M|Collagen is a|fibrous protein|globular protein|lipid|carbohydrate|1|Strength.|M
+M|Nucleic acids are polymers of|nucleotides|amino acids|glucose|fatty acids|1|DNA and RNA.|E
+M|A nucleotide consists of|a sugar, a phosphate and a base|a sugar and a fatty acid|an amino acid and a base|a phosphate only|1|Building block.|M
+M|The base found in RNA but not in DNA is|uracil|thymine|cytosine|adenine|1|Replaces thymine.|M
+M|In DNA, adenine pairs with|thymine|guanine|cytosine|uracil|1|Two hydrogen bonds.|M
+M|In DNA, guanine pairs with|cytosine|adenine|thymine|uracil|1|Three hydrogen bonds.|M
+M|ATP is|adenosine triphosphate|adenine triphosphate only|amino triphosphate|a protein|1|Energy currency.|M
+M|The element present in proteins but not in carbohydrates is|nitrogen|carbon|hydrogen|oxygen|1|Also sulphur in some.|M
+N|Find the number of peptide bonds in a polypeptide of 150 amino acids.|149|n − 1.|M|150-1
+N|A DNA sample has 20% thymine. Find the percentage of guanine.|30|A + T = 40%, G + C = 60%.|H|(100-40)/2
+N|A DNA molecule has 1000 base pairs. Find the total number of nucleotides.|2000|Two per pair.|M|1000*2
+N|Find the number of water molecules removed in forming a trisaccharide from three monosaccharides.|2|n − 1.|M|3-1
+N|A protein has a molecular mass of 66 000 Da and each amino acid averages 110 Da. Find the approximate number of amino acids.|600|66000/110.|M|66000/110
+N|A food sample of 10 g contains 4 g carbohydrate, 2 g protein and 1 g fat. Find the percentage of carbohydrate.|40|4/10.|E|4/10*100
+N|Find the energy in kJ of 10 g of fat at 37 kJ/g.|370|10 × 37.|E|10*37
+N|Find the energy in kJ from 20 g carbohydrate (17 kJ/g) and 5 g fat (37 kJ/g).|525|340 + 185.|M|20*17+5*37
+S|Describe the properties of water that make it important to life.|It is a good solvent, has a high specific heat capacity, high latent heat of vaporisation, cohesion and adhesion, and a maximum density at 4 °C, all due to hydrogen bonding.|Ice floats.|M
+S|Distinguish between mono-, di- and polysaccharides.|Monosaccharides are single sugar units such as glucose, disaccharides have two joined by a glycosidic bond such as sucrose, and polysaccharides have many such as starch.|They are carbohydrates.|M
+S|Describe the structure of a triglyceride.|One glycerol molecule joined by ester bonds to three fatty acid molecules.|It is formed by condensation.|M
+S|Explain the four levels of protein structure.|Primary: amino acid sequence. Secondary: α-helices and β-sheets. Tertiary: the 3D folding of one chain. Quaternary: the arrangement of several chains.|Haemoglobin has all four.|M
+S|Compare DNA and RNA.|DNA is a double-stranded helix with deoxyribose and the base thymine, while RNA is single-stranded with ribose and uracil.|DNA stores information; RNA makes proteins.|M
+S|Describe the tests for reducing sugars and starch.|Heating with Benedict's solution gives a brick red precipitate for reducing sugars, and iodine solution turns blue-black with starch.|They are food tests.|E
+
+# 3 Enzymes
+M|Enzymes are|biological catalysts, mostly proteins|carbohydrates|lipids|nucleic acids only|1|Speed up reactions.|E
+M|A catalyst|speeds up a reaction without being used up|slows a reaction|is consumed|is a reactant|1|Lowers activation energy.|E
+M|The substance upon which an enzyme acts is the|substrate|product|inhibitor|cofactor|1|Binds to the active site.|E
+M|The region of an enzyme where the substrate binds is the|active site|allosteric site|nucleus|membrane|1|Specific shape.|E
+M|The lock and key model says that the substrate|fits the active site exactly|changes the enzyme shape|is destroyed|has no shape|1|Fischer's model.|M
+M|The induced fit model says that the active site|changes shape slightly to fit the substrate|is rigid|is destroyed|has no shape|1|Koshland's model.|M
+M|Enzymes lower the|activation energy|temperature|pH|substrate concentration|1|The energy barrier.|M
+M|Enzymes are specific because|the active site has a particular shape|they are heavy|they are small|they are acidic|1|Fits one substrate.|M
+M|The optimum temperature for most human enzymes is about|37 °C|0 °C|100 °C|60 °C|1|Body temperature.|E
+M|Above the optimum temperature enzymes are|denatured|more active|activated|made|1|The shape changes.|M
+M|At low temperatures enzymes are|inactive but not denatured|denatured|destroyed|more active|1|Slow molecular motion.|M
+M|The optimum pH of pepsin is about|2|7|9|12|1|Stomach acid.|M
+M|The optimum pH of trypsin is about|8|2|5|12|1|Small intestine.|M
+M|The optimum pH of salivary amylase is about|7|2|9|12|1|Mouth.|M
+M|The rate of an enzyme reaction increases with substrate concentration until|the enzyme becomes saturated|the enzyme is destroyed|the pH changes|it reaches zero|1|All active sites are occupied.|M
+M|A competitive inhibitor|competes with the substrate for the active site|binds elsewhere|increases the rate|is a substrate|1|Its effect is reversed by more substrate.|M
+M|A non-competitive inhibitor|binds to a site other than the active site|binds to the active site|increases Vmax|is a substrate|1|Changes the enzyme shape.|M
+M|An allosteric enzyme is regulated by|a molecule binding at a site other than the active site|the substrate only|temperature only|pH only|1|Allosteric regulation.|H
+M|End-product inhibition is an example of|negative feedback|positive feedback|mutation|denaturation|1|The product inhibits an early enzyme.|H
+M|A cofactor is|a non-protein component needed by an enzyme|a protein|a substrate|a product|1|Metal ions.|M
+M|A coenzyme is|an organic cofactor, often derived from vitamins|an inorganic ion|a substrate|a protein|1|NAD, FAD.|M
+M|The Michaelis constant Km is|the substrate concentration at half Vmax|the maximum rate|the enzyme concentration|the temperature|1|A measure of affinity.|H
+M|A low Km indicates|a high affinity of the enzyme for its substrate|a low affinity|no affinity|a denatured enzyme|1|Reaches Vmax at low [S].|H
+M|The enzyme catalase breaks down|hydrogen peroxide|starch|protein|fat|1|Into water and oxygen.|M
+M|The enzyme amylase digests|starch|protein|fat|cellulose|1|To maltose.|E
+M|The enzyme lipase digests|fats|proteins|starch|sucrose|1|To fatty acids and glycerol.|E
+M|The enzyme protease digests|proteins|fats|starch|lactose|1|To amino acids.|E
+M|The enzyme lactase digests|lactose|sucrose|maltose|starch|1|Lactose intolerance.|M
+M|Immobilised enzymes are used in industry because they|can be reused and separated easily|are cheaper to make|are unstable|are denatured|1|Fixed on a support.|M
+M|Enzymes are used in biological washing powders to|remove protein and fat stains|add colour|add scent|make bubbles|1|Proteases and lipases.|M
+M|Rennin is used in|cheese making|bread making|brewing|soap making|1|Clots milk.|M
+M|Most enzymes have names ending in|-ase|-ose|-ine|-ate|1|Convention.|E
+M|The Enzyme Commission classifies enzymes into|six main classes|two classes|three classes|ten classes|1|Oxidoreductases, transferases, hydrolases, lyases, isomerases, ligases.|H
+M|A hydrolase catalyses|the breakdown of a substance using water|oxidation|joining of molecules|isomerisation|1|For example lipase.|H
+N|An enzyme releases 30 cm³ of oxygen in 5 minutes. Find the rate in cm³ per minute.|6|30/5.|E|30/5
+N|The rate of an enzyme reaction is 4 units at 20 °C and 8 units at 30 °C. Find Q₁₀.|2|8/4.|M|8/4
+N|The rate is 2 units at 20 °C. Assuming Q₁₀ = 2, find the rate at 40 °C.|8|2 × 2 × 2.|M|2*2*2
+N|Vmax is 100 units. Find the reaction rate at [S] = Km, using v = Vmax[S]/(Km + [S]).|50|Half Vmax.|H|100*1/(1+1)
+N|Find the reaction rate in units at [S] = 3Km if Vmax = 100.|75|100 × 3/4.|H|100*3/(1+3)
+N|An enzyme converts 1000 substrate molecules per second. Find the number converted in 1 minute.|60000|1000 × 60.|M|1000*60
+N|A solution has 5 g of enzyme in 100 mL. Find the concentration in g/L.|50|5/0.1.|M|5/0.1
+N|Find the percentage of activity left at an inhibitor concentration that reduces the rate from 80 to 20 units.|25|20/80.|M|20/80*100
+S|Define an enzyme and explain how it works.|An enzyme is a biological catalyst, a globular protein that lowers the activation energy by binding the substrate at its active site to form an enzyme-substrate complex, which releases the products.|It is unchanged.|M
+S|Describe the lock and key and induced fit models.|In the lock and key model the substrate fits the rigid active site exactly. In the induced fit model the active site changes shape slightly as the substrate binds.|Induced fit explains broader specificity.|M
+S|Explain the effect of temperature and pH on enzyme activity.|Activity increases with temperature to an optimum then falls as the enzyme denatures. Each enzyme has an optimum pH, and extremes of pH change the shape of the active site.|Denaturation is irreversible.|M
+S|Distinguish between competitive and non-competitive inhibition.|A competitive inhibitor binds to the active site and competes with the substrate, so more substrate overcomes it. A non-competitive inhibitor binds elsewhere and changes the active site, so more substrate does not help.|Vmax falls only in non-competitive.|M
+S|What is a cofactor? Give two types.|A non-protein component needed for enzyme activity. Inorganic ions such as Mg²⁺ and organic coenzymes such as NAD are examples.|Coenzymes come from vitamins.|M
+S|State three industrial uses of enzymes.|Proteases and lipases are used in detergents, rennin in cheese making, and amylases in brewing and baking.|Immobilised enzymes can be reused.|M

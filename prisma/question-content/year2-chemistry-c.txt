@@ -1,0 +1,156 @@
+@level 2nd Year
+@subject Chemistry
+
+# 7 Aliphatic Hydrocarbons
+M|The general formula of alkanes is|CₙH₂ₙ₊₂|CₙH₂ₙ|CₙH₂ₙ₋₂|CₙHₙ|1|Saturated hydrocarbons.|E
+M|The general formula of alkenes is|CₙH₂ₙ|CₙH₂ₙ₊₂|CₙH₂ₙ₋₂|CₙHₙ|1|One double bond.|E
+M|The general formula of alkynes is|CₙH₂ₙ₋₂|CₙH₂ₙ|CₙH₂ₙ₊₂|CₙH₂ₙ₊₁|1|One triple bond.|E
+M|The characteristic reaction of alkanes is|substitution|addition|elimination only|polymerisation|1|Free radical mechanism.|M
+M|The characteristic reaction of alkenes is|addition|substitution|neutralisation|condensation|1|Electrophilic addition.|M
+M|The reaction of methane with chlorine in sunlight is|free radical substitution|electrophilic addition|nucleophilic substitution|elimination|1|Initiation, propagation, termination.|M
+M|Alkanes are prepared by|hydrogenation of alkenes|dehydration|hydrolysis|oxidation|1|Ni catalyst.|M
+M|The Wurtz reaction is used to prepare|higher alkanes from alkyl halides|alkenes|alkynes|alcohols|1|2RX + 2Na → R–R + 2NaX.|M
+M|Ethene can be prepared by|dehydration of ethanol with conc. H₂SO₄|hydrogenation of ethane|oxidation of ethanol|hydrolysis|1|Heated at 170 °C.|M
+M|Markovnikov's rule states that in the addition of HX to an unsymmetrical alkene, the hydrogen adds to|the carbon with more hydrogen atoms|the carbon with fewer hydrogen atoms|either carbon equally|neither|1|The rich get richer.|M
+M|The addition of HBr to propene gives mainly|2-bromopropane|1-bromopropane|propane|propyne|1|Markovnikov addition.|M
+M|The addition of water to ethene (hydration) gives|ethanol|ethane|ethanal|ethanoic acid|1|Acid catalyst.|M
+M|Bromine water is decolourised by|alkenes|alkanes|benzene|water|1|Addition across C=C.|E
+M|Baeyer's reagent is|cold dilute alkaline KMnO₄|conc. H₂SO₄|bromine in CCl₄|HCl|1|Test for unsaturation.|M
+M|Ozonolysis of an alkene gives|aldehydes or ketones|alkanes|alcohols|acids only|1|Cleavage at C=C.|H
+M|Polyethene is a polymer of|ethene|ethane|ethyne|propene|1|Addition polymerisation.|M
+M|Polypropene is made from|propene|propane|propyne|butene|1|Addition polymerisation.|M
+M|Ethyne can be prepared from|calcium carbide and water|ethanol|methane|ethene only|1|CaC₂ + 2H₂O → C₂H₂ + Ca(OH)₂.|M
+M|The acidic hydrogen in alkynes is present in|terminal alkynes (R–C≡C–H)|internal alkynes|alkanes|alkenes|1|They react with sodium.|M
+M|The reaction of ethyne with ammoniacal silver nitrate gives|a white precipitate (silver acetylide)|no reaction|a gas|a blue solution|1|Test for terminal alkynes.|M
+M|The hybridisation of the carbon atoms in ethyne is|sp|sp²|sp³|dsp²|1|Linear.|M
+M|The C–C bond length is shortest in|ethyne|ethene|ethane|methane|1|Triple bond.|M
+M|The most acidic hydrocarbon among ethane, ethene and ethyne is|ethyne|ethene|ethane|methane|1|sp carbon is more electronegative.|H
+M|Complete combustion of an alkane gives|CO₂ and H₂O|CO and H₂|C and H₂O|CH₃OH|1|In excess oxygen.|E
+M|Cracking is the process of|breaking large alkanes into smaller alkanes and alkenes|joining small molecules|burning|hydrogenation|1|Used in petroleum refining.|M
+M|The product of the hydrogenation of ethene is|ethane|ethanol|ethyne|propane|1|Ni catalyst.|M
+M|The product of the complete hydrogenation of ethyne is|ethane|ethene|ethanol|methane|1|Two moles of H₂.|M
+M|Cyclohexane is|a saturated alicyclic hydrocarbon|an aromatic hydrocarbon|an alkene|an alkyne|1|C₆H₁₂.|M
+M|The octane number of iso-octane is|100|0|50|200|1|The reference fuel.|M
+M|Natural gas consists mainly of|methane|ethane|propane|butane|1|About 90 percent.|E
+M|The reaction CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br is|electrophilic addition|nucleophilic substitution|elimination|free radical substitution|1|Bromonium ion intermediate.|M
+N|Find the molar mass of ethene in g/mol.|28|24 + 4.|E|24+4
+N|Find the mass in g of CO₂ from the complete combustion of 16 g of CH₄.|44|1 mol.|M|16/16*44
+N|Find the volume in dm³ of CO₂ at STP from 1 mol of C₂H₆ burnt completely.|44.8|2 mol.|M|2*22.4
+N|Find the moles of O₂ needed to burn 1 mol of ethene (C₂H₄ + 3O₂ → 2CO₂ + 2H₂O).|3|By the equation.|M|3
+N|Find the mass in g of ethanol (46 g/mol) obtained from 28 g of ethene by hydration.|46|1 mol.|M|28/28*46
+N|Find the molar mass of ethyne in g/mol.|26|24 + 2.|E|24+2
+N|Find the volume in dm³ of C₂H₂ at STP from 64 g of CaC₂ (64 g/mol).|22.4|1 mol.|M|64/64*22.4
+N|Find the number of H atoms in an alkyne with 6 carbon atoms.|10|2n − 2.|M|2*6-2
+N|Find the percentage of carbon in ethene.|85.7|24/28.|M|24/28*100
+N|Find the number of moles of Br₂ that react with 1 mol of ethyne.|2|Two π bonds.|M|2
+N|Find the number of moles of H₂ needed to convert 1 mol of propyne to propane.|2|Two moles.|M|2
+N|Find the number of structural isomers of butene (C₄H₈), alkenes only.|3|The structural isomers are but-1-ene, but-2-ene and 2-methylpropene.|H|3
+N|Find the molar mass of polyethene unit repeated 500 times (C₂H₄ = 28).|14000|500 × 28.|M|500*28
+N|Find the mass in g of CO₂ (44) from the combustion of 30 g of ethane (30 g/mol).|88|2 mol.|M|30/30*2*44
+N|Find the mass in g of water from burning 2 g of H₂ completely (H₂O = 18).|18|1 mol.|M|2/2*18
+S|State Markovnikov's rule with an example.|In the addition of HX to an unsymmetrical alkene, the hydrogen adds to the carbon that already has more hydrogens. HBr adds to propene to give 2-bromopropane.|It is explained by carbocation stability.|M
+S|Describe the mechanism of free radical substitution of methane with chlorine.|Initiation: Cl₂ splits to Cl· by light. Propagation: Cl· + CH₄ → CH₃· + HCl and CH₃· + Cl₂ → CH₃Cl + Cl·. Termination: two radicals combine.|It is a chain reaction.|M
+S|How are alkenes distinguished from alkanes?|By the decolourisation of bromine water and of cold dilute alkaline KMnO₄ (Baeyer's reagent), which alkanes do not show.|Alkenes show addition.|M
+S|What is polymerisation? Give an example.|The joining of many small molecules (monomers) to form a large molecule. Ethene polymerises to polyethene.|It is addition polymerisation.|M
+S|Compare the acidity of ethane, ethene and ethyne.|Ethyne is the most acidic because its sp carbon is the most electronegative, so its terminal hydrogen can be lost as H⁺ and replaced by metals.|The order is ethyne > ethene > ethane.|H
+
+# 8 Aromatic Hydrocarbons
+M|The molecular formula of benzene is|C₆H₆|C₆H₁₂|C₆H₁₀|C₆H₁₄|1|Highly unsaturated.|E
+M|Benzene was first isolated by|Faraday|Kekulé|Dalton|Bohr|1|In 1825.|M
+M|The structure of benzene was proposed by|Kekulé|Faraday|Mendeleev|Bohr|1|Alternating double bonds in a ring.|M
+M|All the carbon-carbon bond lengths in benzene are|equal|alternately long and short|all single|all double|1|Due to resonance.|M
+M|The C–C–C bond angle in benzene is|120°|109.5°|180°|90°|1|sp² carbons.|M
+M|The hybridisation of carbon in benzene is|sp²|sp³|sp|dsp²|1|Planar hexagon.|M
+M|Benzene is stabilised by|resonance (delocalisation of π electrons)|hydrogen bonding|ionic bonding|metallic bonding|1|Resonance energy about 150 kJ/mol.|M
+M|The characteristic reaction of benzene is|electrophilic substitution|electrophilic addition|nucleophilic addition|elimination|1|The aromatic ring is retained.|M
+M|The nitration of benzene is carried out using|a mixture of conc. HNO₃ and conc. H₂SO₄|dilute HNO₃|HCl|NaOH|1|The electrophile is NO₂⁺.|M
+M|The electrophile in nitration is|NO₂⁺|NO₃⁻|NO⁺|HNO₃|1|From the nitrating mixture.|M
+M|Nitration of benzene gives|nitrobenzene|aniline|phenol|toluene|1|C₆H₅NO₂.|M
+M|The halogenation of benzene needs|a Lewis acid catalyst such as FeBr₃|UV light only|NaOH|water|1|Generates Br⁺.|M
+M|Friedel-Crafts alkylation uses|alkyl halide and AlCl₃|alcohol and NaOH|acid and base|water and alkali|1|Forms an alkylbenzene.|M
+M|Friedel-Crafts acylation uses|acyl chloride and AlCl₃|alcohol|water|ether|1|Forms an aryl ketone.|M
+M|Sulphonation of benzene uses|conc. H₂SO₄ or oleum|dilute H₂SO₄|HCl|NaOH|1|Gives benzenesulphonic acid.|M
+M|An activating group (ortho-para directing) is|−OH|−NO₂|−COOH|−CHO|1|It donates electrons to the ring.|M
+M|A deactivating, meta-directing group is|−NO₂|−OH|−CH₃|−NH₂|1|It withdraws electrons.|M
+M|The product of nitration of nitrobenzene is mainly|m-dinitrobenzene|o-dinitrobenzene|p-dinitrobenzene|trinitrobenzene|1|−NO₂ is meta-directing.|M
+M|The product of bromination of toluene is mainly|o- and p-bromotoluene|m-bromotoluene|benzyl bromide|bromobenzene|1|−CH₃ is ortho-para directing.|M
+M|Toluene is|methylbenzene|ethylbenzene|phenol|aniline|1|C₆H₅CH₃.|E
+M|The oxidation of toluene with KMnO₄ gives|benzoic acid|benzene|phenol|benzaldehyde only|1|Side chain oxidation.|M
+M|Benzene does not decolourise bromine water because|its π electrons are delocalised and stable|it is a gas|it is polar|it has no electrons|1|Resistant to addition.|M
+M|The addition of hydrogen to benzene gives|cyclohexane|hexane|hexene|toluene|1|Ni catalyst, high temperature.|M
+M|Naphthalene is|an aromatic hydrocarbon with two fused rings|a gas|an alkane|an alcohol|1|C₁₀H₈.|M
+M|Hückel's rule states that a planar ring is aromatic if it has|(4n + 2) π electrons|4n π electrons|2n π electrons|n π electrons|1|Benzene has 6.|H
+M|The number of π electrons in benzene is|6|3|4|2|1|Three double bonds.|M
+M|The number of π electrons in naphthalene is|10|6|8|12|1|4n + 2 with n = 2.|H
+M|The preparation of benzene from ethyne involves|trimerisation through a red-hot tube|oxidation|hydrolysis|reduction|1|3C₂H₂ → C₆H₆.|M
+M|Benzene is a|carcinogen|food additive|vitamin|fertiliser|1|It is toxic.|M
+N|Find the molar mass of benzene in g/mol.|78|72 + 6.|E|72+6
+N|Find the molar mass of nitrobenzene (C₆H₅NO₂) in g/mol.|123|72 + 5 + 14 + 32.|M|72+5+14+32
+N|Find the mass in g of nitrobenzene from 78 g of benzene (1:1).|123|1 mol.|M|78/78*123
+N|Find the percentage yield if 100 g of nitrobenzene is obtained from 78 g of benzene (theoretical 123 g), to one decimal.|81.3|100/123.|H|100/123*100
+N|Find the number of sigma bonds in benzene.|12|6 C–C + 6 C–H.|M|6+6
+N|Find the number of pi bonds in benzene.|3|Three delocalised pairs.|M|3
+N|Find the percentage of carbon in benzene.|92.3|72/78.|M|72/78*100
+N|Find the number of moles of H₂ needed to convert 1 mol benzene to cyclohexane.|3|Three double bonds.|M|3
+N|Find the molar mass of toluene (C₇H₈) in g/mol.|92|84 + 8.|E|84+8
+N|Find the number of π electrons in anthracene (three fused rings, 14 π electrons)—give the n in 4n + 2.|3|4n + 2 = 14.|H|(14-2)/4
+N|Find the number of monosubstituted products of benzene.|1|All H are equivalent.|M|1
+N|Find the number of disubstituted isomers of benzene (ortho, meta, para).|3|Three.|M|3
+N|Find the mass in g of benzene (78) from 3 mol of ethyne (26 g/mol) by trimerisation.|78|1 mol.|M|3/3*78
+N|Find the carbon to hydrogen ratio of benzene (C per H).|1|C₆H₆.|M|6/6
+N|Find the resonance energy in kJ/mol if the heat of hydrogenation of three isolated double bonds is 360 and benzene's is 208.|152|360 − 208.|M|360-208
+S|Describe the structure of benzene.|Benzene is a planar regular hexagon of six sp² carbons, each bonded to one hydrogen, with six delocalised π electrons above and below the ring and all C–C bonds of equal length.|It is a resonance hybrid.|M
+S|Explain why benzene undergoes substitution rather than addition.|The delocalised π system gives extra stability (resonance energy), which would be lost on addition, so the ring is kept.|Substitution preserves aromaticity.|M
+S|Write the equation for the nitration of benzene.|C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O in the presence of conc. H₂SO₄.|The electrophile is NO₂⁺.|M
+S|Explain ortho-para and meta directing groups with examples.|Electron-donating groups such as −OH and −CH₃ direct incoming groups to the ortho and para positions. Electron-withdrawing groups such as −NO₂ direct to the meta position.|They activate or deactivate the ring.|M
+S|State Hückel's rule.|A planar cyclic conjugated molecule is aromatic if it has (4n + 2) π electrons, where n is a whole number.|Benzene has 6 π electrons.|H
+
+# 9 Alkyl Halides
+M|Alkyl halides have the general formula|R–X|R–OH|R–COOH|R–NH₂|1|X is a halogen.|E
+M|The C–X bond in alkyl halides is|polar|non-polar|ionic|metallic|1|Halogen is more electronegative.|M
+M|CH₃Br is called|bromomethane|methyl bromine|bromoethane|methane bromide|1|IUPAC name.|E
+M|Alkyl halides are classified as primary, secondary or tertiary according to|the carbon bearing the halogen|the halogen|the chain length|the colour|1|By the number of alkyl groups attached.|M
+M|Alkyl halides can be prepared from alcohols using|SOCl₂, PCl₅ or HX|NaOH|H₂|KMnO₄|1|Replacement of −OH.|M
+M|The reaction of ethanol with SOCl₂ gives|chloroethane|ethene|ethanal|ethane|1|By-products are SO₂ and HCl.|M
+M|The nucleophilic substitution reaction SN2 is|a one-step bimolecular reaction|a two-step reaction|a radical reaction|an elimination|1|Rate = k[RX][Nu].|M
+M|The nucleophilic substitution reaction SN1 is|a two-step unimolecular reaction|a one-step reaction|a concerted reaction|a radical reaction|1|Rate = k[RX].|M
+M|SN2 reactions are fastest for|primary alkyl halides|tertiary alkyl halides|secondary alkyl halides|aryl halides|1|Less steric hindrance.|M
+M|SN1 reactions are fastest for|tertiary alkyl halides|primary alkyl halides|methyl halides|vinyl halides|1|Stable carbocation.|M
+M|SN2 reactions proceed with|inversion of configuration|retention|racemisation|no change|1|Backside attack.|M
+M|SN1 reactions proceed with|racemisation|inversion only|retention only|no change|1|The planar carbocation is attacked from both sides.|M
+M|A good leaving group is|I⁻|F⁻|OH⁻|NH₂⁻|1|The weakest base.|M
+M|The reactivity of alkyl halides in substitution follows the order|RI > RBr > RCl > RF|RF > RCl > RBr > RI|RCl > RI > RBr|RBr > RF > RI|1|C–I is the weakest.|M
+M|The reaction of RX with aqueous KOH gives|an alcohol|an alkene|an acid|an aldehyde|1|Substitution.|M
+M|The reaction of RX with alcoholic KOH gives|an alkene|an alcohol|an acid|an aldehyde|1|Elimination (dehydrohalogenation).|M
+M|The reaction of RX with KCN gives|a nitrile|an amine|an acid|an alcohol|1|Chain lengthening.|M
+M|The reaction of RX with NH₃ gives|an amine|an alcohol|an acid|an ester|1|Substitution.|M
+M|The reaction of RX with magnesium in dry ether gives|a Grignard reagent|an alkene|an alcohol|an acid|1|RMgX.|M
+M|A Grignard reagent reacts with CO₂ followed by acid to give|a carboxylic acid|an alcohol|an aldehyde|a ketone|1|RMgX + CO₂ → RCOOH.|H
+M|A Grignard reagent reacts with formaldehyde to give|a primary alcohol|a secondary alcohol|a tertiary alcohol|an acid|1|After hydrolysis.|H
+M|An elimination reaction of alkyl halides is described by|Saytzeff's rule|Markovnikov's rule|Hund's rule|Pauli's rule|1|More substituted alkene is the major product.|H
+M|The solvent for Grignard reagents must be|dry ether|water|ethanol|acetic acid|1|They react with protic compounds.|M
+M|Chloroform is|CHCl₃|CCl₄|CH₂Cl₂|CH₃Cl|1|An anaesthetic formerly.|M
+M|Carbon tetrachloride is|CCl₄|CHCl₃|CH₂Cl₂|C₂Cl₆|1|A solvent.|M
+M|Freons are|chlorofluorocarbons|bromides|iodides|ethers|1|Used as refrigerants.|M
+M|Freons damage the|ozone layer|water cycle|soil|oceans|1|They release chlorine atoms.|M
+M|The aryl halides are less reactive in nucleophilic substitution than alkyl halides because|the C–X bond has partial double bond character|they are gases|they are ionic|they are metals|1|Resonance.|H
+N|Find the molar mass of CH₃Cl in g/mol. (Cl = 35.5)|50.5|12 + 3 + 35.5.|E|12+3+35.5
+N|Find the molar mass of C₂H₅Br in g/mol. (Br = 80)|109|24 + 5 + 80.|M|24+5+80
+N|Find the molar mass of CHCl₃ in g/mol.|119.5|12 + 1 + 106.5.|M|12+1+3*35.5
+N|Find the molar mass of CCl₄ in g/mol.|154|12 + 142.|M|12+4*35.5
+N|Find the mass in g of C₂H₅Cl (64.5 g/mol) from 46 g of C₂H₅OH (46 g/mol) with 100% yield.|64.5|1 mol.|M|46/46*64.5
+N|Find the percentage of chlorine in CH₃Cl, to one decimal.|70.3|35.5/50.5.|M|35.5/50.5*100
+N|Find the number of moles of AgBr from 1 mol of C₂H₅Br with AgNO₃ (alcoholic) after hydrolysis.|1|One bromide per molecule.|M|1
+N|Find the percentage yield if 8 g of C₂H₅Br is obtained from a theoretical 10 g.|80|8/10.|E|8/10*100
+N|Find the number of primary hydrogens in CH₃CH₂CH₃ attached to terminal carbons.|6|Two CH₃ groups.|M|6
+N|Find the number of structural isomers of C₄H₉Br.|4|n-butyl, sec-butyl, isobutyl and tert-butyl.|H|4
+N|Find the number of moles of Mg needed for 1 mol of RMgX.|1|R–X + Mg → RMgX.|M|1
+N|Find the number of chiral carbons in CH₃CHBrCH₂CH₃.|1|The carbon with Br.|M|1
+N|Find the mass in g of RMgBr (CH₃MgBr = 119 g/mol) from 95 g of CH₃Br (95 g/mol).|119|1 mol.|M|95/95*119
+N|Find the number of C–Cl bonds in CCl₄.|4|Tetrahalomethane.|E|4
+N|Find the oxidation state of carbon in CH₃Cl.|-2|C + 3 − 1 = 0 gives −2.|H|-3+1
+S|Explain the SN2 mechanism with an example.|A nucleophile attacks the carbon from the side opposite the leaving group in a single step through a transition state, with inversion of configuration. OH⁻ + CH₃Br → CH₃OH + Br⁻.|Rate = k[RX][Nu].|M
+S|Explain the SN1 mechanism.|The alkyl halide first ionises slowly to a carbocation, which is then attacked by the nucleophile, giving racemisation. Tertiary halides react this way.|Rate = k[RX].|M
+S|Distinguish between substitution and elimination reactions of alkyl halides.|With aqueous KOH an alkyl halide gives an alcohol by substitution, while with alcoholic KOH it gives an alkene by elimination (loss of HX).|Saytzeff's rule predicts the major alkene.|M
+S|What is a Grignard reagent and how is it prepared?|An organomagnesium halide, RMgX, prepared by reacting an alkyl halide with magnesium in dry ether.|It is a strong nucleophile.|M
+S|Why are freons harmful?|They are very stable and rise to the stratosphere where UV light releases chlorine atoms that destroy the ozone layer.|They are being replaced.|M

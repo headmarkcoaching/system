@@ -1,0 +1,109 @@
+@level 1st Year
+@subject Physics
+
+# 10 Optical Instruments
+M|The lens formula for a thin lens is|1/f = 1/p + 1/q|f = p + q|f = p q|1/f = p + q|1|p is the object distance and q the image distance.|E
+M|The magnification produced by a thin lens is|q/p|p/q|f/p|p f|1|m = image distance/object distance.|M
+M|The power of a lens in dioptres is|1/f (f in metres)|f (in metres)|f²|2f|1|P = 1/f.|M
+M|A convex lens has|a positive focal length|a negative focal length|zero focal length|an infinite focal length|1|It converges rays.|M
+M|A concave lens has|a negative focal length|a positive focal length|zero focal length|an infinite focal length|1|It diverges rays.|M
+M|The image formed by a concave lens is always|virtual, erect and diminished|real and inverted|real and magnified|virtual and magnified|1|For a real object.|M
+M|The lens maker's formula is|1/f = (n − 1)(1/R₁ − 1/R₂)|1/f = (n + 1)(1/R₁ + 1/R₂)|f = (n − 1)R|1/f = n(1/R₁ − 1/R₂)|1|For a thin lens in air.|H
+M|Two thin lenses in contact have a combined power equal to|P₁ + P₂|P₁ P₂|P₁ − P₂|P₁/P₂|1|Powers add.|M
+M|A simple microscope is|a single convex lens of short focal length|a pair of lenses|a concave mirror|a prism|1|A magnifying glass.|E
+M|The angular magnification of a simple microscope when the image is at the near point D is|1 + D/f|D/f|f/D|1 − D/f|1|With the image at 25 cm.|M
+M|The magnifying power of a simple microscope when the image is at infinity is|D/f|1 + D/f|f/D|D f|1|The eye is relaxed.|M
+M|The compound microscope consists of|two convex lenses of short focal length|two concave lenses|one convex and one concave mirror|a prism|1|The objective and the eyepiece.|M
+M|The objective of a compound microscope has|a very short focal length|a long focal length|an infinite focal length|a negative focal length|1|It forms a magnified real image.|M
+M|The magnifying power of a compound microscope is approximately|(L/f₀)(D/fₑ)|f₀/fₑ|D/f|L/D|1|With L the tube length.|H
+M|The astronomical telescope has|an objective of long focal length and an eyepiece of short focal length|two short focal lengths|two concave lenses|two plane mirrors|1|It views distant objects.|M
+M|The magnifying power of an astronomical telescope in normal adjustment is|f₀/fₑ|fₑ/f₀|f₀ fₑ|f₀ + fₑ|1|The ratio of the focal lengths.|M
+M|The length of an astronomical telescope in normal adjustment is|f₀ + fₑ|f₀ − fₑ|f₀ fₑ|f₀/fₑ|1|The lenses are separated by the sum.|M
+M|A reflecting telescope uses a|concave mirror as its objective|convex lens as its objective|prism|plane mirror only|1|It avoids chromatic aberration.|M
+M|The least distance of distinct vision (near point) for a normal eye is|25 cm|10 cm|1 m|infinity|1|About 25 cm.|E
+M|The far point of a normal eye is at|infinity|25 cm|1 m|10 m|1|The eye relaxes.|M
+M|Short sight (myopia) is corrected by|a concave lens|a convex lens|a plane mirror|a prism|1|It diverges the rays.|M
+M|Long sight (hypermetropia) is corrected by|a convex lens|a concave lens|a plane mirror|a prism|1|It converges the rays.|M
+M|Astigmatism is corrected by|a cylindrical lens|a convex lens|a concave lens|a prism|1|The cornea is not spherical.|M
+M|The power of accommodation is the ability of the eye to|change the focal length of its lens|see in the dark|move the eyeball|change the pupil|1|The ciliary muscles change the lens shape.|M
+M|The defect of a lens in which different colours are focused at different points is|chromatic aberration|spherical aberration|astigmatism|coma|1|Because n varies with wavelength.|M
+M|The critical angle C for light going from a medium of refractive index n into air satisfies|sin C = 1/n|sin C = n|cos C = 1/n|tan C = n|1|Total internal reflection beyond C.|M
+M|Total internal reflection occurs when light goes from|a denser to a rarer medium at an angle greater than the critical angle|a rarer to a denser medium|air to glass|any medium to any medium|1|The ray is totally reflected.|M
+M|An optical fibre works on the principle of|total internal reflection|diffraction|polarisation|interference|1|Light is trapped in the core.|M
+M|The angle of deviation by a thin prism of angle A and refractive index n is|(n − 1)A|(n + 1)A|nA|A/n|1|For small angles.|H
+M|The minimum deviation of a prism occurs when the ray passes|symmetrically through the prism|along the base|along the normal|parallel to the base only|1|The angles of incidence and emergence are equal.|H
+M|The resolving power of a telescope is increased by|increasing the diameter of the objective|decreasing it|increasing the focal length only|using a smaller lens|1|Resolution ∝ D/λ.|M
+M|An endoscope uses|optical fibres|a prism only|a concave mirror|polarisers|1|It views the inside of the body.|M
+N|An object is placed 30 cm from a convex lens of focal length 10 cm. Find the image distance in cm.|15|1/q = 1/10 − 1/30.|M|1/(1/10-1/30)
+N|An object is placed 30 cm from a convex lens of focal length 10 cm. Find the magnification.|0.5|q/p = 15/30.|M|15/30
+N|Find the power in dioptres of a lens of focal length 25 cm.|4|1/0.25.|E|1/0.25
+N|Two lenses of powers +3 D and +2 D are in contact. Find the combined focal length in cm.|20|1/5 m.|M|100/5
+N|A simple microscope has a lens of focal length 5 cm. Find its magnification when the image is at the near point (25 cm).|6|1 + 25/5.|M|1+25/5
+N|A telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Find its magnifying power in normal adjustment.|20|f₀/fₑ.|M|100/5
+N|A telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Find its length in cm in normal adjustment.|105|f₀ + fₑ.|M|100+5
+N|The refractive index of glass is 1.5. Find the critical angle in degrees to one decimal place.|41.8|sin C = 1/1.5.|M|Math.asin(1/1.5)*180/3.14159265
+N|A thin prism of angle 6° has refractive index 1.5. Find the angle of deviation in degrees.|3|(1.5 − 1) × 6.|M|0.5*6
+N|A myopic person has a far point of 50 cm. Find the power in dioptres of the lens needed to see distant objects.|-2|f = −50 cm, P = −1/0.5.|H|-1/0.5
+N|A long-sighted person has a near point of 100 cm. Find the power in dioptres of the lens needed to read at 25 cm.|3|1/0.25 − 1/1.|H|1/0.25-1/1
+N|A compound microscope has f₀ = 1 cm, fₑ = 5 cm, tube length L = 20 cm and D = 25 cm. Find the approximate magnification (L/f₀)(D/fₑ).|100|20 × 5.|H|20*5
+N|A lens of focal length +10 cm forms a real image at 20 cm. Find the object distance in cm.|20|1/p = 1/10 − 1/20.|M|1/(1/10-1/20)
+N|A lens has radii 20 cm and −20 cm and refractive index 1.5. Find its focal length in cm.|20|1/f = 0.5 × (1/20 + 1/20).|H|1/(0.5*(1/20+1/20))
+N|Find the speed of light in glass of refractive index 1.5 in units of 10⁸ m/s.|2|3 × 10⁸/1.5.|M|3/1.5
+S|State the lens formula and the formula for magnification.|1/f = 1/p + 1/q and m = q/p.|p and q are object and image distances.|M
+S|Describe the construction of a compound microscope.|It has two convex lenses of short focal length: an objective, which forms a real magnified image of the object, and an eyepiece, which acts as a magnifier of that image.|The final image is virtual and inverted.|M
+S|Describe an astronomical telescope and its magnifying power.|It has an objective of long focal length and an eyepiece of short focal length. The magnifying power in normal adjustment is f₀/fₑ.|Its length is f₀ + fₑ.|M
+S|Explain how short sight and long sight are corrected.|Short sight is corrected with a concave lens that diverges the rays, and long sight with a convex lens that converges them.|The lens shifts the image onto the retina.|M
+S|Explain how an optical fibre works.|Light enters the fibre and undergoes repeated total internal reflections at the boundary between the core and the cladding, so it travels along the fibre with little loss.|It is used in communication and medicine.|M
+
+# 11 Heat and Thermodynamics
+M|Temperature is a measure of|the average kinetic energy of the molecules|heat content|mass|volume|1|It decides the direction of heat flow.|M
+M|The SI unit of temperature is the|kelvin|degree Celsius|degree Fahrenheit|calorie|1|Absolute scale.|E
+M|The relation between the kelvin and Celsius scales is|T = t + 273.15|T = t − 273.15|T = 273.15 t|T = t/273.15|1|0 °C = 273.15 K.|E
+M|Heat is|energy transferred due to a temperature difference|a property of a body|temperature|a force|1|It flows from hot to cold.|M
+M|The coefficient of linear expansion α is defined by|ΔL = α L ΔT|ΔL = L/ΔT|ΔL = α/L|ΔL = ΔT/α|1|The fractional change in length per degree.|M
+M|The relation between the coefficients of linear (α) and volume (γ) expansion for a solid is|γ = 3α|γ = α|γ = 2α|γ = α/3|1|Volume has three dimensions.|M
+M|The specific heat capacity of a substance is|the heat needed to raise 1 kg by 1 K|the heat needed to raise the temperature by 1 K|the total heat of the body|its temperature|1|c = Q/(mΔT).|M
+M|The SI unit of specific heat capacity is|J kg⁻¹ K⁻¹|J K⁻¹|J kg⁻¹|W|1|Joule per kilogram kelvin.|M
+M|The heat required to change the state of a mass m is|Q = m L|Q = m c ΔT|Q = L/m|Q = m/L|1|L is the latent heat.|M
+M|Latent heat is the heat required to change the state of unit mass|without a change in temperature|with a change in temperature|of any gas|of a liquid only|1|At the melting or boiling point.|M
+M|The ideal gas equation is|P V = n R T|P V = n T|P = n R T V|V = n R T P|1|For n moles.|E
+M|The value of the universal gas constant R is about|8.31 J mol⁻¹ K⁻¹|0.0821 J mol⁻¹ K⁻¹|83.1 J mol⁻¹ K⁻¹|1 J mol⁻¹ K⁻¹|1|R = 8.31.|M
+M|Boyle's law states that at constant temperature|P V is constant|P/V is constant|V/T is constant|P/T is constant|1|Pressure is inversely proportional to volume.|E
+M|Charles' law states that at constant pressure|V/T is constant|P V is constant|P/T is constant|V T is constant|1|Volume is proportional to temperature.|E
+M|According to the kinetic theory, the pressure of an ideal gas is|P = ⅓ ρ ⟨v²⟩|P = ρ ⟨v²⟩|P = ½ ρ ⟨v²⟩|P = ρ v|1|ρ is the density.|M
+M|The average translational kinetic energy of a gas molecule is|3/2 k T|k T|1/2 k T|3 k T|1|k is the Boltzmann constant.|M
+M|The rms speed of gas molecules is|√(3 R T/M)|√(R T/M)|3 R T/M|√(3 M/R T)|1|M is the molar mass.|M
+M|The rms speed of gas molecules is proportional to|√T|T|1/T|T²|1|Faster at higher temperature.|M
+M|The first law of thermodynamics is|ΔU = Q − W|ΔU = Q + W only|Q = ΔU + W + T|W = ΔU − Q|1|Conservation of energy.|M
+M|In an isothermal process the temperature|remains constant|rises|falls|becomes zero|1|ΔU = 0 for an ideal gas.|M
+M|In an adiabatic process there is|no heat exchange|no work|no change in pressure|constant temperature|1|Q = 0.|M
+M|For an adiabatic process the relation is|P V^γ = constant|P V = constant|P/V = constant|V/T = constant|1|γ = Cp/Cv.|H
+M|The relation between the molar heat capacities of an ideal gas is|Cp − Cv = R|Cp + Cv = R|Cp Cv = R|Cp/Cv = R|1|Mayer's relation.|M
+M|The work done by a gas expanding at constant pressure is|P ΔV|P/ΔV|ΔV/P|P + ΔV|1|W = PΔV.|M
+M|The efficiency of a heat engine is|W/Q_in|Q_in/W|W Q_in|Q_out/W|1|Work output over heat input.|M
+M|The efficiency of a Carnot engine working between T₁ (hot) and T₂ (cold) is|1 − T₂/T₁|1 − T₁/T₂|T₂/T₁|T₁/T₂|1|It is the maximum efficiency.|M
+M|The second law of thermodynamics says that heat cannot flow spontaneously from|a cold body to a hot body|a hot body to a cold body|the Sun to the Earth|a gas to a liquid|1|Clausius statement.|M
+M|The entropy of an isolated system|never decreases|always decreases|is zero|is constant always|1|It tends to increase.|H
+M|A refrigerator is a heat engine working|in reverse|very efficiently|without work|at constant temperature|1|It transfers heat from cold to hot.|M
+M|Absolute zero is|0 K|0 °C|273 K|100 K|1|−273.15 °C.|E
+M|The specific heat capacity of water is about|4200 J kg⁻¹ K⁻¹|420 J kg⁻¹ K⁻¹|42 000 J kg⁻¹ K⁻¹|4.2 J kg⁻¹ K⁻¹|1|It is high.|M
+N|A rod of 2 m has α = 1.2 × 10⁻⁵ K⁻¹. Find its increase in length in mm when heated by 50 K.|1.2|2 × 1.2 × 10⁻⁵ × 50 = 1.2 × 10⁻³ m.|M|2*1.2e-5*50*1000
+N|Find the heat in kJ needed to raise 2 kg of water by 30 K. Take c = 4200 J kg⁻¹ K⁻¹.|252|2 × 4200 × 30.|E|2*4200*30/1000
+N|Find the heat in kJ needed to melt 0.5 kg of ice. Take L = 336 kJ/kg.|168|0.5 × 336.|E|0.5*336
+N|Find the pressure in kPa of 1 mol of an ideal gas at 273 K in 22.4 L, to the nearest kPa. Take R = 8.31.|101|nRT/V.|M|8.31*273/0.0224/1000
+N|Find the rms speed in m/s of oxygen (M = 0.032 kg/mol) at 300 K, to the nearest m/s. R = 8.31.|483|√(3 × 8.31 × 300/0.032).|H|Math.sqrt(3*8.31*300/0.032)
+N|Find the average kinetic energy in units of 10⁻²¹ J of a gas molecule at 300 K. k = 1.38 × 10⁻²³ J/K.|6.21|1.5 × 1.38 × 10⁻²³ × 300.|H|1.5*1.38e-23*300/1e-21
+N|A gas absorbs 500 J of heat and does 200 J of work. Find the change in internal energy in J.|300|ΔU = Q − W.|M|500-200
+N|A gas expands from 2 L to 5 L at a constant pressure of 100 kPa. Find the work done in J.|300|P ΔV = 10⁵ × 3 × 10⁻³.|M|100000*0.003
+N|A Carnot engine works between 600 K and 300 K. Find its efficiency in percent.|50|1 − 300/600.|M|(1-300/600)*100
+N|An engine takes 1000 J and rejects 700 J. Find its efficiency in percent.|30|(1000 − 700)/1000.|M|(1000-700)/1000*100
+N|For a monatomic ideal gas Cv = 3R/2. Find Cv in J mol⁻¹ K⁻¹ for R = 8.31, to two decimal places.|12.47|1.5 × 8.31.|M|1.5*8.31
+N|Find Cp in J mol⁻¹ K⁻¹ for a monatomic gas, using Cp = Cv + R with R = 8.31, to one decimal.|20.8|12.47 + 8.31.|M|1.5*8.31+8.31
+N|A gas at 300 K and 1 atm is heated at constant volume to 600 K. Find the final pressure in atm.|2|P ∝ T.|M|1*600/300
+N|A sample of 2 kg of copper (c = 390 J kg⁻¹ K⁻¹) cools by 50 K. Find the heat released in kJ.|39|2 × 390 × 50.|M|2*390*50/1000
+N|Find 27 °C in kelvin.|300|27 + 273.|E|27+273
+S|State the first law of thermodynamics.|The heat supplied to a system equals the increase in its internal energy plus the work done by the system, Q = ΔU + W.|It is a form of the conservation of energy.|M
+S|State the second law of thermodynamics (Kelvin-Planck statement).|It is impossible to construct a heat engine that takes heat from a single reservoir and converts it completely into work.|Clausius: heat cannot flow by itself from cold to hot.|M
+S|Distinguish between isothermal and adiabatic processes.|In an isothermal process the temperature is constant, while in an adiabatic process no heat enters or leaves the system.|P V = constant versus P V^γ = constant.|M
+S|State the assumptions of the kinetic theory of gases.|A gas consists of many identical molecules in random motion, with negligible volume, no forces except during elastic collisions, and collisions with the walls that produce pressure.|They lead to P = ⅓ρ⟨v²⟩.|M
+S|Define the Carnot engine's efficiency.|η = 1 − T₂/T₁, where T₁ and T₂ are the absolute temperatures of the hot and cold reservoirs.|It is the maximum possible efficiency.|M

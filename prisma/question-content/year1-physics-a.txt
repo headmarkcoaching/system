@@ -1,0 +1,160 @@
+@level 1st Year
+@subject Physics
+
+# 1 Measurements
+M|The SI base unit of length is the|metre|centimetre|kilometre|foot|1|The metre is the SI unit of length.|E
+M|The SI base unit of mass is the|kilogram|gram|tonne|newton|1|The kilogram is the SI unit of mass.|E
+M|The SI base unit of time is the|second|minute|hour|day|1|The second is the SI unit of time.|E
+M|The SI base unit of electric current is the|ampere|volt|coulomb|ohm|1|The ampere is a base unit.|E
+M|The SI base unit of thermodynamic temperature is the|kelvin|degree Celsius|degree Fahrenheit|calorie|1|The kelvin is a base unit.|E
+M|The SI base unit of luminous intensity is the|candela|lumen|lux|watt|1|The candela is a base unit.|M
+M|The SI base unit of the amount of substance is the|mole|gram|litre|kilogram|1|The mole counts particles.|M
+M|The SI unit of force, the newton, in terms of base units is|kg m s⁻²|kg m s⁻¹|kg m² s⁻²|kg s⁻²|1|F = ma.|M
+M|The dimensions of velocity are|[L T⁻¹]|[L T⁻²]|[M L T⁻¹]|[L² T⁻¹]|1|Length per time.|M
+M|The dimensions of acceleration are|[L T⁻²]|[L T⁻¹]|[M L T⁻²]|[L² T⁻²]|1|Velocity per time.|M
+M|The dimensions of force are|[M L T⁻²]|[M L T⁻¹]|[M L² T⁻²]|[L T⁻²]|1|From F = ma.|M
+M|The dimensions of work or energy are|[M L² T⁻²]|[M L T⁻²]|[M L T⁻¹]|[M L² T⁻³]|1|Force times distance.|M
+M|The dimensions of power are|[M L² T⁻³]|[M L² T⁻²]|[M L T⁻³]|[M L T⁻²]|1|Energy per time.|H
+M|The dimensions of pressure are|[M L⁻¹ T⁻²]|[M L T⁻²]|[M L² T⁻²]|[M L⁻² T⁻²]|1|Force per area.|H
+M|The dimensions of momentum are|[M L T⁻¹]|[M L T⁻²]|[M L² T⁻¹]|[L T⁻¹]|1|Mass times velocity.|M
+M|A physical quantity with no dimensions is|strain|force|work|pressure|1|It is a ratio of two like quantities.|M
+M|The principle of homogeneity says that|every term of a correct equation has the same dimensions|every term has the same value|dimensions are always zero|only forces have dimensions|1|Used to check equations.|M
+M|Dimensional analysis can be used to|check the correctness of an equation|find numerical constants exactly|prove an equation is always right|find signs of terms|1|It cannot give dimensionless constants.|M
+M|The number of significant figures in 0.0230 is|3|2|4|5|1|The digits 2, 3 and the trailing 0.|M
+M|The number of significant figures in 4.500 is|4|2|3|5|1|All four digits are significant.|M
+M|Round 3.14159 to three significant figures:|3.14|3.15|3.142|3.1|1|The fourth digit is 1.|E
+M|The difference between a measured value and the true value is the|absolute error|relative error|percentage error|mean|1|It is the magnitude of the error.|M
+M|The relative error is the|absolute error divided by the measured value|absolute error multiplied by value|value divided by error|absolute error|1|It has no unit.|M
+M|When two quantities are added or subtracted, their absolute errors|add|multiply|subtract|cancel|1|The absolute errors are added.|M
+M|When two quantities are multiplied or divided, their relative errors|add|multiply|subtract|cancel|1|The percentage errors are added.|M
+M|If Q = A²B, the percentage error in Q equals|2(%A) + (%B)|(%A) + (%B)|(%A)(%B)|(%A) + 2(%B)|1|The power multiplies the error.|H
+M|Accuracy refers to|how close a measurement is to the true value|how close repeated measurements are to each other|the number of digits|the unit used|1|Precision is closeness of repeats.|M
+M|Precision refers to|how close repeated measurements are to each other|the true value|the unit|the range of an instrument|1|It shows reproducibility.|M
+M|A systematic error|affects all readings in the same way|is random|can be reduced by averaging|is always zero|1|For example a zero error.|M
+M|A random error|varies in an unpredictable way|is always positive|is a zero error|is the same for all readings|1|It can be reduced by averaging.|M
+M|The least count of a vernier calliper is|1 main scale division − 1 vernier scale division|the length of the vernier scale|1 mm always|the number of divisions|1|It is the smallest measurable length.|M
+M|The least count of a screw gauge is|pitch/number of circular scale divisions|pitch × divisions|pitch + divisions|divisions/pitch|1|The smallest reading.|M
+M|The prefix giga stands for|10⁹|10⁶|10³|10¹²|1|1 GHz = 10⁹ Hz.|E
+M|The prefix micro stands for|10⁻⁶|10⁻³|10⁻⁹|10⁶|1|1 μm = 10⁻⁶ m.|E
+N|Convert 72 km/h to m/s.|20|72 × 1000/3600 = 20.|E|72*1000/3600
+N|Find the number of significant figures in 0.003050.|4|The digits 3, 0, 5 and 0.|M|4
+N|The length 2.5 m is measured with an error of 0.05 m. Find the percentage error.|2|0.05/2.5 × 100 = 2.|M|0.05/2.5*100
+N|A rod has a length of 50.0 ± 0.5 cm and another of 30.0 ± 0.3 cm. Find the absolute error in the sum of their lengths in cm.|0.8|0.5 + 0.3 = 0.8.|M|0.5+0.3
+N|A length of 10 cm has 1 percent error and a width of 5 cm has 2 percent error. Find the percentage error in the area.|3|1 + 2 = 3.|M|1+2
+N|The radius of a sphere has 2 percent error. Find the percentage error in its volume.|6|Volume varies as r³, so 3 × 2 = 6.|M|3*2
+N|A pendulum's length is 1.00 m with 1 percent error and its period 2.00 s with 1 percent error. Find the percentage error in g = 4π²l/T².|3|1 + 2 × 1 = 3.|H|1+2*1
+N|A vernier calliper has 10 divisions equal to 9 main scale divisions of 1 mm each. Find the least count in mm.|0.1|1 − 0.9 = 0.1.|M|1-0.9
+N|A screw gauge has a pitch of 0.5 mm and 50 circular divisions. Find the least count in mm.|0.01|0.5/50 = 0.01.|M|0.5/50
+N|A mass of 2.5 kg is measured as 2.6 kg. Find the percentage error to one decimal place.|4|0.1/2.5 × 100 = 4.|M|0.1/2.5*100
+N|Express 3.5 × 10⁻³ m in micrometres.|3500|3.5 × 10⁻³ × 10⁶ = 3500.|M|3.5e-3*1e6
+N|The mean of readings 2.2, 2.4 and 2.3 is found. Find the mean.|2.3|6.9/3 = 2.3.|E|(2.2+2.4+2.3)/3
+N|Find the time period in seconds of a pendulum if 20 oscillations take 36.0 s.|1.8|36/20 = 1.8.|E|36/20
+N|Find g in m/s² from g = 4π²l/T² for l = 1.00 m and T = 2.01 s, to two decimal places.|9.77|4π² × 1/4.0401 = 9.77.|H|4*3.14159265*3.14159265*1/(2.01*2.01)
+S|State the SI base units for the seven base quantities.|Metre, kilogram, second, ampere, kelvin, mole and candela.|They measure length, mass, time, current, temperature, amount and luminous intensity.|E
+S|State the principle of homogeneity of dimensions.|In a physically correct equation, the dimensions of every term on both sides are the same.|It is used to check equations.|M
+S|Distinguish between accuracy and precision.|Accuracy is closeness to the true value. Precision is closeness of repeated measurements to one another.|A measurement can be precise but not accurate.|M
+S|State how errors combine in sums and products.|Absolute errors add when quantities are added or subtracted, and relative or percentage errors add when they are multiplied or divided.|Powers multiply the percentage error.|M
+S|Distinguish between systematic and random errors.|A systematic error shifts all readings the same way, for example a zero error. A random error varies unpredictably and can be reduced by averaging.|Systematic errors can be corrected.|M
+
+# 2 Vectors and Equilibrium
+M|A vector quantity has|magnitude and direction|magnitude only|direction only|neither|1|Examples are force and displacement.|E
+M|A scalar quantity has|magnitude only|magnitude and direction|direction only|neither|1|Examples are mass and time.|E
+M|Which of these is a vector?|Velocity|Speed|Mass|Time|1|Velocity has a direction.|E
+M|Which of these is a scalar?|Temperature|Force|Torque|Displacement|1|It has no direction.|E
+M|The resultant of two vectors is found by|the head-to-tail rule|dividing them|multiplying magnitudes|subtracting masses|1|Or the parallelogram law.|M
+M|The magnitude of the resultant of two vectors of magnitudes A and B at an angle θ is|√(A² + B² + 2AB cos θ)|A + B|A − B|√(A² + B²)|1|The law of cosines for vectors.|M
+M|The maximum magnitude of the resultant of two vectors A and B is|A + B|A − B|√(A² + B²)|AB|1|When they are parallel.|M
+M|The minimum magnitude of the resultant of two vectors A and B is|∣A − B∣|A + B|0 always|AB|1|When they are antiparallel.|M
+M|The x-component of a vector F making an angle θ with the x-axis is|F cos θ|F sin θ|F tan θ|F/θ|1|Adjacent over hypotenuse.|E
+M|The y-component of a vector F making an angle θ with the x-axis is|F sin θ|F cos θ|F tan θ|F θ|1|Opposite over hypotenuse.|E
+M|The magnitude of a vector with components Fx and Fy is|√(Fx² + Fy²)|Fx + Fy|Fx Fy|Fx − Fy|1|By Pythagoras.|E
+M|The direction of a vector with components Fx and Fy is given by|tan θ = Fy/Fx|tan θ = Fx/Fy|sin θ = Fy Fx|cos θ = Fy|1|The angle with the x-axis.|M
+M|The scalar (dot) product A · B equals|AB cos θ|AB sin θ|A + B|A/B|1|It is a scalar.|M
+M|The vector (cross) product A × B has magnitude|AB sin θ|AB cos θ|A + B|A/B|1|It is perpendicular to both.|M
+M|The dot product of two perpendicular vectors is|zero|AB|one|infinite|1|cos 90° = 0.|M
+M|The cross product of two parallel vectors is|zero|AB|one|infinite|1|sin 0° = 0.|M
+M|The work done by a force is the|dot product of force and displacement|cross product of force and displacement|sum of force and displacement|ratio of force and displacement|1|W = F · d.|M
+M|The torque of a force about a point is the|cross product of position vector and force|dot product of force and distance|force divided by distance|force plus distance|1|τ = r × F.|M
+M|The SI unit of torque is|N m|N|J/s|N/m|1|Force times perpendicular distance.|E
+M|A body is in translational equilibrium if|the net force on it is zero|its torque is zero|it is at rest only|it has no weight|1|ΣF = 0.|M
+M|A body is in rotational equilibrium if|the net torque on it is zero|the net force is zero only|it is at rest only|it is light|1|Στ = 0.|M
+M|The two conditions for complete equilibrium are|ΣF = 0 and Στ = 0|ΣF = 0 only|Στ = 0 only|ΣF = W|1|Both must hold.|M
+M|The centre of gravity of a uniform rod is at its|midpoint|end|quarter|outside|1|By symmetry.|E
+M|A couple consists of|two equal and opposite parallel forces|two equal forces in one line|a single force|two perpendicular forces|1|It produces rotation only.|M
+M|The moment of a couple is|force × perpendicular distance between the forces|sum of the forces|difference of the forces|zero|1|τ = F d.|M
+M|The unit vectors along the x, y and z axes are|i, j and k|a, b and c|x, y and z|p, q and r|1|Each has magnitude 1.|E
+M|A vector A = 3i + 4j has magnitude|5|7|25|1|1|√(9 + 16).|E
+M|A unit vector in the direction of A is|A/∣A∣|A∣A∣|∣A∣|A + ∣A∣|1|Divide by the magnitude.|M
+M|i · j equals|0|1|k|−1|1|They are perpendicular.|E
+M|i × j equals|k|−k|j|0|1|By the right-hand rule.|E
+N|Find the magnitude of the resultant of two perpendicular forces of 6 N and 8 N.|10|√(36 + 64) = 10.|E|Math.sqrt(36+64)
+N|Find the resultant of two forces 5 N and 12 N acting at right angles.|13|√(25 + 144) = 13.|E|Math.sqrt(25+144)
+N|Find the resultant of two forces 10 N each acting at 60° to each other, to two decimal places.|17.32|√(100 + 100 + 2 × 100 × 0.5) = √300.|M|Math.sqrt(100+100+2*100*0.5)
+N|Find the horizontal component in N of a 100 N force at 30° to the horizontal, to two decimal places.|86.6|100 cos 30° = 86.60.|M|100*Math.cos(30*3.14159265/180)
+N|Find the vertical component in N of a 100 N force at 30° to the horizontal.|50|100 sin 30° = 50.|M|100*Math.sin(30*3.14159265/180)
+N|Find A · B for A = 2i + 3j and B = 4i − j.|5|8 − 3 = 5.|M|2*4+3*(-1)
+N|Find the angle in degrees between A = i and B = j.|90|Their dot product is zero.|E|90
+N|Find the magnitude of A × B for A = 3 units along x and B = 4 units along y.|12|AB sin 90° = 12.|M|3*4
+N|Find the torque in N m of a 20 N force applied at 0.5 m perpendicular to a wrench.|10|τ = 20 × 0.5.|E|20*0.5
+N|A uniform 4 m beam of weight 100 N is supported at the middle. A 50 N weight is 1 m to the left. Find the distance in m of a 100 N weight on the right that balances it.|0.5|50 × 1 = 100 × d.|M|50*1/100
+N|A 10 kg lamp hangs from two equal cables each at 30° to the horizontal. Take g = 9.8. Find the tension in N in each cable.|98|2T sin 30° = 98.|H|98/(2*Math.sin(30*3.14159265/180))
+N|Find the work done in J by a force of 10 N moving a body 5 m at 60° to the force, to one decimal.|25|10 × 5 × cos 60° = 25.|M|10*5*Math.cos(60*3.14159265/180)
+N|Find the unit vector's x-component of 3i + 4j as a decimal.|0.6|3/5.|M|3/5
+N|Find the magnitude of the vector 2i + 3j + 6k.|7|√(4 + 9 + 36) = 7.|M|Math.sqrt(4+9+36)
+S|Define a scalar and a vector with two examples each.|A scalar has magnitude only, such as mass and time. A vector has magnitude and direction, such as force and velocity.|Vectors add by the head-to-tail rule.|E
+S|State the conditions for equilibrium of a rigid body.|The vector sum of the forces acting on it is zero, and the vector sum of the torques about any point is zero.|ΣF = 0 and Στ = 0.|M
+S|Define the dot product and the cross product.|A · B = AB cos θ, a scalar. A × B has magnitude AB sin θ and a direction perpendicular to both.|Work uses the dot product and torque the cross product.|M
+S|Define torque and state its unit.|The turning effect of a force, τ = r × F, with magnitude F r sin θ. Its unit is the newton metre.|It is a vector.|E
+S|How is a vector resolved into components?|By taking its projections along two perpendicular axes: Fx = F cos θ and Fy = F sin θ.|The components give the magnitude and direction.|M
+
+# 3 Motion and Force
+M|Displacement is the|change of position in a given direction|total path length|distance only|speed|1|It is a vector.|E
+M|Velocity is the rate of change of|displacement|distance|speed|acceleration|1|v = ds/dt.|E
+M|Acceleration is the rate of change of|velocity|displacement|distance|force|1|a = dv/dt.|E
+M|The slope of a displacement-time graph gives|velocity|acceleration|distance|force|1|Rate of change of position.|E
+M|The slope of a velocity-time graph gives|acceleration|displacement|force|speed|1|Rate of change of velocity.|E
+M|The area under a velocity-time graph gives|displacement|acceleration|force|power|1|The integral of v dt.|M
+M|The equation v = u + at holds for|constant acceleration|variable acceleration|zero velocity only|circular motion only|1|Uniformly accelerated motion.|M
+M|The equation s = ut + ½at² gives|the displacement|the velocity|the force|the time only|1|For constant acceleration.|M
+M|The equation v² = u² + 2as relates|velocity and displacement|time and velocity|force and mass|energy and power|1|Eliminating time.|M
+M|The time of flight of a projectile launched at speed u at angle θ is|2u sin θ/g|u sin θ/g|2u cos θ/g|u cos θ/2g|1|From vertical motion.|M
+M|The maximum height of a projectile is|u² sin²θ/2g|u² sin 2θ/g|u sin θ/g|u² cos²θ/2g|1|From v² = u² − 2gh.|M
+M|The horizontal range of a projectile is|u² sin 2θ/g|u² sin²θ/2g|2u sin θ/g|u² cos θ/g|1|R = u cos θ × T.|M
+M|The range of a projectile is maximum for an angle of|45°|30°|60°|90°|1|sin 2θ = 1.|M
+M|For the same speed, two projectiles have equal range if their angles of projection are|complementary|equal and opposite|60° and 30° only|any|1|sin 2θ = sin(180° − 2θ).|H
+M|At the highest point of a projectile's flight, its velocity is|horizontal|zero|vertical|equal to the initial velocity|1|The vertical component is zero.|M
+M|The horizontal component of a projectile's velocity (no air resistance)|stays constant|increases|decreases|is zero|1|No horizontal force acts.|M
+M|Newton's first law says a body continues in its state of rest or uniform motion unless|an unbalanced force acts|it is heavy|it is hot|it is far away|1|The law of inertia.|E
+M|Newton's second law states that|F = ma|F = mv|F = m/a|F = a/m|1|Net force equals mass times acceleration.|E
+M|Newton's third law states that|every action has an equal and opposite reaction|F = ma|energy is conserved|momentum is zero|1|The forces act on different bodies.|E
+M|Linear momentum is|mass times velocity|mass times acceleration|force times time squared|mass divided by velocity|1|p = mv.|E
+M|Impulse equals|the change in momentum|the change in velocity|force divided by time|mass times acceleration|1|J = F Δt = Δp.|M
+M|The law of conservation of linear momentum applies when|no external force acts on the system|a net force acts|energy is lost only|the masses are equal|1|Momentum is conserved in isolated systems.|M
+M|In a perfectly inelastic collision|the bodies stick together|kinetic energy is conserved|momentum is not conserved|the bodies bounce back|1|Maximum loss of kinetic energy.|M
+M|In an elastic collision|both momentum and kinetic energy are conserved|only momentum is conserved|only energy is conserved|neither is conserved|1|By definition.|M
+M|The force of limiting friction is|μ R|R/μ|μ/R|m g|1|F = μR.|M
+M|The coefficient of friction μ is|F/R|R/F|F R|F + R|1|It has no unit.|M
+M|The acceleration of a body sliding down a smooth plane inclined at θ is|g sin θ|g cos θ|g tan θ|g|1|The component of weight along the plane.|M
+M|The acceleration of a body sliding down a rough plane (coefficient μ) is|g(sin θ − μ cos θ)|g(sin θ + μ cos θ)|g sin θ|μ g cos θ|1|Friction opposes the motion.|H
+M|The angle of repose is the angle of an incline at which a body|just begins to slide|stops sliding|falls|rolls|1|tan θ = μ.|H
+M|Free fall means the only force acting on a body is|gravity|friction|tension|thrust|1|Air resistance is neglected.|E
+M|A rocket moves forward because of|conservation of momentum (Newton's third law)|buoyancy|friction|air pressure on the nose|1|Exhaust gases are pushed backward.|M
+N|A car accelerates from 10 m/s to 30 m/s in 5 s. Find its acceleration in m/s².|4|(30 − 10)/5 = 4.|E|(30-10)/5
+N|A car starts from rest with acceleration 2 m/s². Find the distance in m covered in 10 s.|100|½ × 2 × 100 = 100.|E|0.5*2*100
+N|A stone is thrown at 20 m/s at 30° to the horizontal. Taking g = 9.8 m/s², find the range in m, to two decimal places.|35.35|R = 400 sin 60°/9.8.|M|20*20*Math.sin(60*3.14159265/180)/9.8
+N|A stone is thrown at 20 m/s at 30° to the horizontal. Taking g = 9.8 m/s², find the maximum height in m, to two decimal places.|5.1|H = 400 × 0.25/19.6.|M|400*0.25/(2*9.8)
+N|A stone is thrown at 20 m/s at 30° to the horizontal. Taking g = 9.8 m/s², find the time of flight in s, to two decimal places.|2.04|2 × 20 × 0.5/9.8.|M|2*20*0.5/9.8
+N|A 2 kg body moving at 6 m/s collides inelastically with a 4 kg body at rest. Find their common velocity in m/s.|2|2 × 6 = 6v.|M|2*6/(2+4)
+N|A 2 kg body moving at 6 m/s collides elastically head-on with a 4 kg body at rest. Find the velocity in m/s of the 4 kg body after collision.|4|v₂ = 2m₁u/(m₁ + m₂) = 24/6.|H|2*2*6/(2+4)
+N|Find the impulse in N s of a 50 N force acting for 0.2 s.|10|50 × 0.2.|E|50*0.2
+N|A 1000 kg car has a momentum of 20 000 kg m/s. Find its speed in m/s.|20|p/m.|E|20000/1000
+N|A body of mass 10 kg rests on a table with μ = 0.2. Taking g = 9.8, find the friction force in N.|19.6|μ m g = 0.2 × 10 × 9.8.|M|0.2*10*9.8
+N|A body slides down a smooth plane inclined at 30°. Taking g = 9.8, find its acceleration in m/s².|4.9|g sin 30°.|M|9.8*0.5
+N|Find the angle of repose in degrees to the nearest degree if μ = 1.|45|tan θ = 1.|M|45
+N|A force of 20 N acts on a 5 kg body for 3 s from rest. Find its final velocity in m/s.|12|a = 4, v = 12.|M|20/5*3
+N|A ball of mass 0.2 kg hits a wall at 10 m/s and rebounds at 10 m/s. Find the change in momentum in kg m/s.|4|0.2 × (10 + 10).|H|0.2*(10+10)
+S|State Newton's three laws of motion.|First: a body stays at rest or in uniform motion unless a net force acts. Second: F = ma. Third: every action has an equal and opposite reaction.|They apply in inertial frames.|M
+S|State the law of conservation of linear momentum.|The total linear momentum of an isolated system is constant.|It follows from Newton's laws.|M
+S|Distinguish between elastic and inelastic collisions.|In an elastic collision both momentum and kinetic energy are conserved. In an inelastic collision momentum is conserved but kinetic energy is not.|Perfectly inelastic: the bodies stick together.|M
+S|Derive the range formula of a projectile.|The time of flight is T = 2u sin θ/g and the horizontal speed is u cos θ, so R = u² sin 2θ/g.|It is maximum at 45°.|H
+S|Define the coefficient of friction.|The ratio of the limiting friction force to the normal reaction, μ = F/R.|It depends on the surfaces.|E

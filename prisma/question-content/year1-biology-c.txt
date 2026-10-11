@@ -1,0 +1,155 @@
+@level 1st Year
+@subject Biology
+
+# 7 Kingdom Protoctista
+M|Protoctists are|eukaryotic organisms that are not plants, animals or fungi|prokaryotes|multicellular only|viruses|1|Mostly unicellular.|E
+M|Protozoa are|animal-like unicellular protists|plant-like protists|fungus-like protists|bacteria|1|Heterotrophs.|E
+M|Algae are|plant-like protists that photosynthesise|animal-like protists|fungus-like protists|viruses|1|Contain chlorophyll.|E
+M|Amoeba moves by|pseudopodia|cilia|flagella|a tail|1|Cytoplasmic extensions.|E
+M|Paramecium moves by|cilia|flagella|pseudopodia|a tail|1|Hair-like structures.|E
+M|Euglena moves by|a flagellum|cilia|pseudopodia|legs|1|Also photosynthesises.|M
+M|Euglena is both|autotrophic and heterotrophic|only autotrophic|only heterotrophic|a fungus|1|Mixotrophic.|M
+M|Amoeba feeds by|phagocytosis|photosynthesis|absorption only|filtering|1|Engulfs particles.|M
+M|The contractile vacuole of freshwater protozoa is used for|osmoregulation|digestion|reproduction|movement|1|Expels excess water.|M
+M|Amoeba reproduces asexually by|binary fission|budding|spores|conjugation|1|The nucleus divides by mitosis.|M
+M|Paramecium reproduces sexually by|conjugation|binary fission only|budding|spore formation|1|Exchange of micronuclei.|M
+M|The causative agent of malaria is|Plasmodium|Entamoeba|Trypanosoma|Giardia|1|A protozoan.|E
+M|Malaria is transmitted by the|female Anopheles mosquito|Aedes mosquito|housefly|tsetse fly|1|Carries the parasite.|E
+M|The malarial parasite reproduces asexually in the human|liver and red blood cells|lungs|brain only|stomach|1|Schizogony.|M
+M|The malarial parasite reproduces sexually in the|mosquito|human liver|human blood|human lung|1|Sporogony.|M
+M|The symptoms of malaria include|cycles of fever and chills|rash only|cough only|paralysis|1|Release of merozoites.|M
+M|Amoebic dysentery is caused by|Entamoeba histolytica|Plasmodium|Giardia|Trypanosoma|1|Spreads via contaminated water.|M
+M|Sleeping sickness is caused by|Trypanosoma|Plasmodium|Entamoeba|Leishmania|1|Carried by the tsetse fly.|M
+M|Leishmaniasis is spread by|sandflies|mosquitoes|ticks|lice|1|Leishmania.|M
+M|Diatoms are algae with cell walls of|silica|cellulose|chitin|peptidoglycan|1|Frustules.|M
+M|Spirogyra is a|green alga with spiral chloroplasts|brown alga|red alga|protozoan|1|Filamentous.|M
+M|Brown algae include|kelp|Spirogyra|Chlamydomonas|diatoms|1|Seaweeds.|M
+M|Red algae contain the pigment|phycoerythrin|chlorophyll b|fucoxanthin|xanthophyll|1|Reds.|H
+M|Algal blooms are caused by|excess nutrients (eutrophication)|lack of nutrients|cold|drought|1|Nitrates and phosphates.|M
+M|Algae are important because they|produce much of the world's oxygen|cause all diseases|are fungi|are bacteria|1|Phytoplankton.|M
+M|Agar is obtained from|red algae|brown algae|green algae|diatoms|1|Used in culture media.|M
+M|Slime moulds are|fungus-like protists|plant-like protists|animal-like protists|bacteria|1|Feed like amoebae.|M
+M|Plasmodial slime moulds are|multinucleate masses|single cells with walls|multicellular tissues|bacterial colonies|1|Coenocytic.|H
+M|Chlamydomonas is a|unicellular green alga with two flagella|multicellular alga|fungus|bacterium|1|Photosynthetic.|M
+M|Volvox is a|colonial green alga|bacterium|fungus|protozoan|1|Spherical colonies.|M
+M|A pellicle is|a flexible layer under the cell membrane of some protists|a cell wall|a flagellum|a nucleus|1|Maintains shape.|M
+M|An eyespot in Euglena detects|light|food|heat|sound|1|Stigma.|M
+M|Giardia causes|diarrhoea|malaria|fever|rash|1|A flagellated protozoan.|M
+M|Control of malaria includes|draining stagnant water and using nets|vaccination against the virus only|boiling air|antibiotics only|1|Prevent mosquito breeding.|M
+M|The first line of treatment of malaria has been|quinine and its derivatives|penicillin|aspirin|insulin|1|Chloroquine, artemisinin.|M
+M|Protoctists differ from bacteria in having|a true nucleus and organelles|no nucleus|a cell wall of peptidoglycan|70S ribosomes only|1|Eukaryotic.|M
+N|A culture of Amoeba doubles every 24 hours. Find the number after 5 days from 1.|32|2⁵.|M|2^5
+N|An algal bloom doubles every day. Starting with 100 cells find the number after 7 days.|12800|100 × 2⁷.|M|100*2^7
+N|A Paramecium is 200 μm long. Find its length in mm.|0.2|200/1000.|E|200/1000
+N|An Amoeba image is 30 mm at ×300. Find the actual size in μm.|100|30/300 mm = 0.1 mm.|M|30/300*1000
+N|A mosquito bites 5 people per night and 10% become infected. Find the number infected from 200 bites.|20|200 × 0.1.|M|200*0.1
+N|A malarial patient's blood has 10 000 parasites per μL. Find the number in 5 mL (5000 μL).|50000000|10 000 × 5000.|M|10000*5000
+N|The fever recurs every 48 hours. Find the number of fever episodes in 12 days.|6|288/48.|M|12*24/48
+N|A diatom is 50 μm. Find the number laid end to end to make 1 cm.|200|10 000 μm/50.|M|10000/50
+S|Describe the characteristics of the kingdom Protoctista.|Protoctists are eukaryotic, mostly unicellular, and include algae, protozoa and slime moulds, living in water or moist places.|They are very diverse.|M
+S|Describe the life cycle of Plasmodium.|The sporozoites enter the human blood from a mosquito bite, develop in liver and red blood cells, and gametocytes taken up by a mosquito fuse and develop into sporozoites.|It needs two hosts.|M
+S|State how malaria can be controlled.|By destroying breeding places of mosquitoes, using nets and repellents, spraying insecticides and treating patients with antimalarial drugs.|Early diagnosis helps.|M
+S|Describe feeding and movement in Amoeba.|Amoeba moves by pseudopodia and feeds by phagocytosis, enclosing food in a food vacuole where it is digested.|It lives in freshwater.|M
+S|Explain the role of the contractile vacuole.|It collects and expels excess water that enters the freshwater protozoan by osmosis, which prevents bursting.|It is osmoregulation.|M
+S|State two ecological roles of algae.|They produce oxygen and are the base of aquatic food chains as phytoplankton.|Some also cause blooms.|M
+
+# 8 Kingdom Fungi
+M|Fungi are|eukaryotic heterotrophs with chitin cell walls|prokaryotes|autotrophs|plants|1|Absorptive nutrition.|E
+M|The body of a fungus is made of thread-like|hyphae|roots|stems|leaves|1|Forming a mycelium.|E
+M|A mass of hyphae is called a|mycelium|sporangium|conidium|fruiting body|1|Fungal body.|E
+M|Hyphae without cross walls are called|aseptate (coenocytic)|septate|branched|rhizoids|1|Multinucleate.|M
+M|The cell wall of fungi is made of|chitin|cellulose|peptidoglycan|lignin|1|A polysaccharide.|M
+M|Fungi store food as|glycogen|starch|cellulose|lipids only|1|Like animals.|M
+M|Fungi obtain food by|absorption after external digestion|photosynthesis|ingestion|chemosynthesis|1|Secrete enzymes.|E
+M|Saprophytic fungi feed on|dead organic matter|living hosts|sunlight|inorganic matter|1|Decomposers.|M
+M|Parasitic fungi obtain food from|a living host|dead matter|sunlight|soil minerals|1|Cause diseases.|M
+M|Mycorrhiza is a|symbiotic association between fungi and plant roots|disease|alga|virus|1|Improves absorption.|M
+M|Lichens are|symbiotic associations of fungi and algae|diseases|viruses|bacteria|1|Pollution indicators.|M
+M|Fungi reproduce asexually by|spores|seeds|fruits|flowers|1|Conidia and sporangiospores.|M
+M|Rhizopus (bread mould) belongs to the|Zygomycota|Ascomycota|Basidiomycota|Deuteromycota|1|Forms zygospores.|M
+M|The sexual spores of Rhizopus are|zygospores|ascospores|basidiospores|conidia|1|Thick-walled.|M
+M|Yeast belongs to the|Ascomycota|Zygomycota|Basidiomycota|Oomycota|1|Saccharomyces.|M
+M|Yeast reproduces asexually by|budding|binary fission|spores only|conjugation|1|A bud forms.|E
+M|Penicillium belongs to the|Ascomycota (and Deuteromycota)|Zygomycota|Basidiomycota|Oomycota|1|Source of penicillin.|M
+M|Mushrooms belong to the|Basidiomycota|Ascomycota|Zygomycota|Oomycota|1|Club fungi.|M
+M|The reproductive structure of a mushroom is the|basidium|ascus|sporangium|conidium|1|Bears basidiospores.|M
+M|Yeast is used in|bread making and brewing|plastic making|cement|paper|1|Fermentation.|E
+M|Yeast makes bread rise by producing|carbon dioxide|oxygen|nitrogen|hydrogen|1|Anaerobic respiration.|E
+M|Penicillin was discovered from|Penicillium notatum|Aspergillus|Rhizopus|Saccharomyces|1|By Fleming.|M
+M|Citric acid is produced commercially using|Aspergillus niger|Penicillium|Saccharomyces|Rhizopus|1|Fermentation.|M
+M|Ringworm is caused by|a fungus|a bacterium|a worm|a virus|1|A dermatophyte.|M
+M|Athlete's foot is caused by|a fungus|a bacterium|a virus|a protozoan|1|Tinea pedis.|M
+M|Aflatoxin is a toxin produced by|Aspergillus flavus|Penicillium|yeast|Rhizopus|1|Carcinogenic.|M
+M|Fungal diseases of plants include|rust and smut|blight caused by viruses|wilt by bacteria only|crown gall|1|Cause crop losses.|M
+M|The blue veins in blue cheese are caused by the fungus|Penicillium roqueforti|Rhizopus|Saccharomyces|Agaricus|1|It grows in the cheese.|M
+M|Fungi differ from plants in that they|lack chlorophyll and have chitin walls|have chlorophyll|have cellulose walls|make food|1|Heterotrophic.|M
+M|Fungi differ from animals in that they|have cell walls and absorb food|ingest food|have no walls|move|1|Absorptive.|M
+M|Spores are dispersed mainly by|wind|bees only|fish|birds only|1|Light and numerous.|M
+M|Mycorrhizae help plants by|increasing absorption of water and minerals|photosynthesising|fixing nitrogen only|producing seeds|1|Hyphae extend the root surface.|M
+M|The fruiting body of a mushroom is made of|tightly packed hyphae|cells with chloroplasts|roots|leaves|1|Spore-bearing.|M
+M|Antifungal drugs are needed because antibiotics|do not act on fungi|act on fungi|act on viruses|are poisonous|1|Fungi are eukaryotes.|M
+N|A yeast population doubles every 90 minutes. Find the number after 6 hours from 1 cell.|16|4 doublings.|M|2^4
+N|A mushroom releases 10⁹ spores. If 0.001% germinate, find the number that germinate.|10000|10⁹ × 10⁻⁵.|H|1e9*1e-5
+N|A fungal hypha grows 2 mm per hour. Find the length in cm after 24 hours.|4.8|48 mm.|M|2*24/10
+N|A yeast cell is 6 μm. Find the number laid end to end to make 1 mm.|167|1000/6.|M|1000/6
+N|A bread sample has 50 mold colonies per gram. Find the number in 200 g.|10000|50 × 200.|E|50*200
+N|A fungal culture has a dry mass of 2 g after 4 days and 8 g after 6 days. Find the percentage increase.|300|6/2 × 100.|M|(8-2)/2*100
+N|Find the volume in mL of CO₂ produced by yeast at 5 mL per minute in 30 minutes.|150|5 × 30.|E|5*30
+N|A mycelium of 3 cm doubles its length each day. Find the length in cm after 4 days.|48|3 × 2⁴.|M|3*2^4
+S|Describe the structure of a fungal mycelium.|A mycelium is a network of branching hyphae, which may be septate or aseptate, and has cell walls of chitin.|Hyphae absorb food.|M
+S|Describe the nutrition of fungi.|Fungi are heterotrophs that secrete digestive enzymes onto the food and absorb the soluble products, as saprophytes, parasites or symbionts.|They store glycogen.|M
+S|Describe reproduction in Rhizopus.|Asexually by sporangiospores formed in sporangia, and sexually by conjugation of hyphae of different mating types forming a zygospore.|It is a bread mould.|M
+S|State two useful and two harmful roles of fungi.|They are used to make bread, alcohol and penicillin, and they decompose waste, but some cause diseases such as ringworm and spoil food.|Both are important.|M
+S|What are lichens and mycorrhizae?|Lichens are symbiotic associations between a fungus and an alga or cyanobacterium, and mycorrhizae are associations between fungi and plant roots.|Both are mutualistic.|M
+S|Distinguish between fungi and plants.|Fungi have chitin cell walls, are heterotrophic and store glycogen, while plants have cellulose walls, are autotrophic and store starch.|Fungi lack chlorophyll.|M
+
+# 9 Kingdom Plantae
+M|Plants are|multicellular eukaryotes that photosynthesise|prokaryotes|heterotrophs|unicellular|1|With cellulose walls.|E
+M|The plant cell wall is made of|cellulose|chitin|peptidoglycan|protein|1|Provides support.|E
+M|Plants store food as|starch|glycogen|chitin|cellulose|1|Amylose and amylopectin.|E
+M|The bryophytes include|mosses and liverworts|ferns|conifers|flowering plants|1|Non-vascular plants.|E
+M|Bryophytes lack|vascular tissue|chlorophyll|a cell wall|cells|1|No xylem or phloem.|M
+M|The dominant generation in bryophytes is the|gametophyte|sporophyte|zygote|embryo|1|Haploid.|M
+M|The dominant generation in ferns is the|sporophyte|gametophyte|zygote|spore|1|Diploid.|M
+M|Ferns reproduce by|spores|seeds|fruits|flowers|1|Produced in sori.|E
+M|Ferns belong to the|pteridophytes|bryophytes|gymnosperms|angiosperms|1|Vascular seedless plants.|M
+M|The reproductive structures of ferns on the underside of fronds are the|sori|cones|flowers|fruits|1|Clusters of sporangia.|M
+M|Gymnosperms are plants that|have naked seeds|have fruits|have flowers|have no seeds|1|In cones.|E
+M|Conifers such as pine bear|cones|flowers|fruits|spores only|1|Male and female cones.|E
+M|Angiosperms are plants that|produce flowers and fruits|produce cones|reproduce by spores|are non-vascular|1|Enclosed seeds.|E
+M|Angiosperms are divided into|monocotyledons and dicotyledons|bryophytes and ferns|conifers and cycads|algae and fungi|1|By seed leaves.|M
+M|Monocotyledons have|one cotyledon and parallel venation|two cotyledons|net venation|a tap root|1|Grasses.|M
+M|Dicotyledons have|two cotyledons and net venation|one cotyledon|parallel venation|fibrous roots|1|Beans.|M
+M|The alternation of generations in plants involves|haploid gametophyte and diploid sporophyte|only diploid|only haploid|only spores|1|Sporophyte and gametophyte.|M
+M|Xylem transports|water and minerals|food|hormones|gases|1|From roots upward.|E
+M|Phloem transports|manufactured food|water|minerals only|gases|1|Translocation.|E
+M|The female gametophyte in flowering plants is the|embryo sac|pollen grain|ovule|seed|1|Within the ovule.|M
+M|The male gametophyte in flowering plants is the|pollen grain|embryo sac|anther|stigma|1|Contains the male gametes.|M
+M|Double fertilisation occurs in|angiosperms|gymnosperms|ferns|mosses|1|Forms embryo and endosperm.|M
+M|The endosperm is|triploid (3n)|haploid|diploid|tetraploid|1|From fusion with two polar nuclei.|H
+M|A seed develops from the|ovule|ovary|anther|stigma|1|After fertilisation.|E
+M|A fruit develops from the|ovary|ovule|stigma|style|1|Protects the seeds.|E
+M|Stomata are found mainly on the|lower epidermis of leaves|roots|petals|seeds|1|Gas exchange.|E
+M|Guard cells control|the opening of stomata|root growth|flowering|pollination|1|By turgor.|E
+M|The palisade mesophyll contains|many chloroplasts|few chloroplasts|no chloroplasts|stomata|1|Main photosynthetic tissue.|M
+M|Meristematic tissue is responsible for|growth|storage|support only|transport|1|Dividing cells.|M
+M|Secondary growth increases the|girth of stems and roots|length|number of leaves|flower size|1|Vascular cambium.|M
+M|Annual rings in wood are formed by the|vascular cambium|cork cambium|epidermis|cortex|1|Seasonal growth.|M
+M|Pollination by insects is called|entomophily|anemophily|hydrophily|zoophily only|1|Attracted by nectar.|M
+M|Pollination by wind is called|anemophily|entomophily|hydrophily|ornithophily|1|Light pollen.|M
+M|The transfer of pollen to the stigma of the same flower is|self-pollination|cross-pollination|fertilisation|germination|1|Autogamy.|M
+M|Seed dispersal by wind is shown by|dandelion and maple|coconut|burdock|pea|1|Parachutes and wings.|M
+N|A pea plant cell has 14 chromosomes (2n). Find the number in a pollen grain nucleus.|7|n = 7.|M|14/2
+N|A plant cell is 3n in the endosperm if n = 7. Find the number of chromosomes.|21|3 × 7.|M|3*7
+N|A tree trunk has 40 annual rings. Find its age in years.|40|One ring per year.|E|40
+N|A leaf has 300 stomata per mm². Find the number on a leaf of area 25 cm² (2500 mm²), in units of 10⁵.|7.5|300 × 2500.|M|300*2500/1e5
+N|A seed germinates 85 out of 100. Find the percentage.|85|85/100.|E|85/100*100
+N|A fern frond has 20 sori each with 50 sporangia, each producing 64 spores. Find the number of spores.|64000|20 × 50 × 64.|M|20*50*64
+N|A plant grows 2 cm per day. Find the height in cm after 3 weeks.|42|2 × 21.|E|2*21
+N|A leaf blade measures 5 cm × 8 cm. Estimate the area in cm² as 2/3 of the rectangle, to one decimal.|26.7|40 × 2/3.|M|40*2/3
+S|Distinguish between bryophytes, pteridophytes, gymnosperms and angiosperms.|Bryophytes are non-vascular, ferns are vascular seedless plants, gymnosperms have naked seeds in cones, and angiosperms have flowers and enclosed seeds.|They show increasing complexity.|M
+S|Describe the alternation of generations in plants.|A diploid sporophyte produces haploid spores by meiosis, which grow into haploid gametophytes that produce gametes. Fertilisation forms a zygote that grows into a sporophyte.|The dominant generation varies.|M
+S|Distinguish between monocotyledons and dicotyledons.|Monocots have one cotyledon, parallel veins and fibrous roots, while dicots have two cotyledons, net veins and a tap root.|Examples are wheat and bean.|M
+S|Describe double fertilisation in angiosperms.|One male gamete fuses with the egg to form the diploid zygote, and the other fuses with the two polar nuclei to form the triploid endosperm.|It is unique to angiosperms.|M
+S|State the functions of xylem and phloem.|Xylem conducts water and minerals upward and gives support, and phloem translocates organic food from leaves to other parts.|Both are vascular tissue.|M
+S|Name three ways in which seeds are dispersed with examples.|By wind, as in dandelion, by animals, as in burdock, and by water, as in coconut.|Explosion is another method.|E

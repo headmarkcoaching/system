@@ -1,0 +1,166 @@
+@level 2nd Year
+@subject Mathematics
+
+# 1 Functions and Limits
+M|A function f from A to B assigns to each element of A|exactly one element of B|at least two elements of B|no element of B|all elements of B|1|The rule must be single-valued.|E
+M|The domain of f(x) = 1/x is|all real numbers except 0|all real numbers|x > 0 only|x ≥ 0|1|Division by zero is undefined.|E
+M|The domain of f(x) = √x is|x ≥ 0|all real numbers|x > 0 only|x ≤ 0|1|The square root of a negative number is not real.|E
+M|The domain of f(x) = ln x is|x > 0|x ≥ 0|all real numbers|x < 0|1|The logarithm is defined for positive numbers.|E
+M|The range of f(x) = x² is|[0, ∞)|(−∞, ∞)|(0, ∞)|(−∞, 0]|1|Squares are non-negative.|E
+M|A function f is even if|f(−x) = f(x)|f(−x) = −f(x)|f(x) = 0|f(x + p) = f(x)|1|Its graph is symmetric about the y-axis.|M
+M|A function f is odd if|f(−x) = −f(x)|f(−x) = f(x)|f(x) = x²|f(0) = 1|1|Its graph is symmetric about the origin.|M
+M|The function f(x) = x³ is|odd|even|neither even nor odd|constant|1|(−x)³ = −x³.|M
+M|The function f(x) = x² is|even|odd|neither|constant|1|(−x)² = x².|M
+M|The composite function (f ∘ g)(x) is|f(g(x))|g(f(x))|f(x)g(x)|f(x) + g(x)|1|Apply g first.|M
+M|The inverse of the exponential function aˣ is|logₐ x|1/aˣ|a⁻ˣ|xᵃ|1|They undo each other.|M
+M|The limit lim(x→a) f(x) = L means that|f(x) gets arbitrarily close to L as x gets close to a|f(a) = L|f(x) = L for all x|x = L|1|The value at a itself is not required.|M
+M|The limit of a constant c as x → a is|c|0|a|1|1|A constant does not change.|E
+M|lim(x→a) [f(x) + g(x)] equals|lim f(x) + lim g(x)|lim f(x) × lim g(x)|lim f(x) − lim g(x)|0|1|The sum law of limits.|M
+M|lim(x→a) [f(x) g(x)] equals|lim f(x) × lim g(x)|lim f(x) + lim g(x)|lim f(x)/lim g(x)|0|1|The product law of limits.|M
+M|lim(x→0) sin x/x equals|1|0|∞|−1|1|A standard limit with x in radians.|M
+M|lim(x→0) (1 − cos x)/x² equals|1/2|1|0|2|1|From 1 − cos x = 2 sin²(x/2).|H
+M|lim(x→∞) (1 + 1/x)ˣ equals|e|1|0|∞|1|The definition of the number e.|M
+M|lim(x→0) (eˣ − 1)/x equals|1|0|e|∞|1|The derivative of eˣ at 0.|M
+M|lim(x→0) (aˣ − 1)/x equals|ln a|a|1|0|1|It is the derivative of aˣ at 0.|H
+M|lim(x→0) tan x/x equals|1|0|∞|−1|1|Since tan x/x = (sin x/x)(1/cos x).|M
+M|The limit lim(x→2) (x² − 4)/(x − 2) equals|4|0|2|undefined|1|Cancel x − 2 to get x + 2.|M
+M|A function f is continuous at x = a if|lim(x→a) f(x) = f(a)|f(a) is undefined|the limit does not exist|f(a) = 0|1|The limit must exist and equal the value.|M
+M|The left-hand limit of f at a is the limit as|x approaches a from below|x approaches a from above|x → ∞|x → 0|1|It is written x → a⁻.|M
+M|A limit exists at a if and only if|the left and right limits are equal|f(a) exists|f is differentiable|f is even|1|Both one-sided limits must agree.|M
+M|The function f(x) = ∣x∣/x has at x = 0|no limit|limit 1|limit −1|limit 0|1|The one-sided limits are −1 and 1.|H
+M|lim(x→∞) 1/x equals|0|1|∞|−1|1|The reciprocal tends to zero.|E
+M|lim(x→∞) (3x² + 1)/(x² + 2) equals|3|1|0|∞|1|Divide by x²: the ratio of leading coefficients.|M
+M|The limit lim(x→0) sin 3x/x equals|3|1|0|1/3|1|sin 3x/x = 3 (sin 3x/3x).|M
+M|The function f(x) = 1/x is discontinuous at|x = 0|x = 1|x = −1|no point|1|It is undefined at 0.|E
+M|A polynomial function is|continuous everywhere|discontinuous everywhere|continuous only at 0|undefined at 0|1|Polynomials have no breaks.|M
+M|The function f(x) = ∣x∣ is|continuous everywhere|discontinuous at 0|not defined at 0|constant|1|It has a corner but no break at 0.|M
+M|A horizontal asymptote of y = 2x/(x + 1) is|y = 2|y = 0|y = 1|x = −1|1|The limit as x → ∞ is 2.|H
+M|A vertical asymptote of y = 1/(x − 3) is|x = 3|x = 0|y = 3|y = 0|1|The function is undefined at 3.|M
+N|Find lim(x→2) (x² − 4)/(x − 2).|4|It equals lim (x + 2) = 4.|E|2+2
+N|Find lim(x→0) (x² + 3x)/x.|3|Cancel x to get x + 3, which tends to 3.|E|0+3
+N|Find lim(x→0) sin 3x/x.|3|It equals 3 × 1.|M|3*1
+N|Find lim(x→0) (1 − cos x)/x².|0.5|The limit is 1/2.|H|1/2
+N|Find lim(x→∞) (3x² + 1)/(x² + 2).|3|The ratio of leading coefficients is 3.|M|3/1
+N|Find lim(x→3) (x² − 9)/(x − 3).|6|It equals lim (x + 3) = 6.|E|3+3
+N|Find lim(x→1) (x³ − 1)/(x − 1).|3|It equals lim (x² + x + 1) = 3.|M|1+1+1
+N|Find lim(x→0) (√(1 + x) − 1)/x.|0.5|Rationalising gives 1/(√(1 + x) + 1) → 1/2.|H|1/2
+N|Find lim(x→0) (e^(2x) − 1)/x.|2|It equals 2 × 1.|M|2
+N|Find lim(x→0) tan 2x/x.|2|It equals 2.|M|2
+N|Find lim(x→∞) (2x + 1)/(x − 3).|2|The ratio of leading coefficients is 2.|M|2/1
+N|Evaluate (1 + 1/1000)^1000 to three decimal places.|2.717|It approximates e = 2.718.|H|Math.pow(1.001,1000)
+N|Find lim(x→0) (sin 5x)/(sin 2x).|2.5|It equals 5/2.|H|5/2
+N|Find the value of f(2) for f(x) = 3x² − 2x + 1.|9|3(4) − 4 + 1 = 9.|E|3*4-4+1
+S|Define the limit of a function.|lim(x→a) f(x) = L if f(x) can be made as close to L as we please by taking x sufficiently close to a, but x ≠ a.|The value f(a) is not needed.|M
+S|State the sum, product and quotient laws of limits.|The limit of a sum or product is the sum or product of the limits, and the limit of a quotient is the quotient of the limits provided the denominator's limit is not zero.|They hold when the limits exist.|M
+S|State the conditions for a function to be continuous at a point.|f(a) is defined, lim(x→a) f(x) exists, and the limit equals f(a).|All three are needed.|M
+S|Evaluate lim(x→0) sin x/x and say why it is important.|It equals 1, and it is used to find derivatives of trigonometric functions.|x is in radians.|M
+S|Define even and odd functions with an example of each.|f is even if f(−x) = f(x), such as x². f is odd if f(−x) = −f(x), such as x³.|The graphs are symmetric about the y-axis and the origin.|M
+S|What is an asymptote? Give an example.|A line which a curve approaches ever more closely at infinity or near a point of discontinuity. The line x = 0 is a vertical asymptote of y = 1/x.|The x-axis is a horizontal asymptote.|M
+
+# 2 Differentiation
+M|The derivative of f(x) at x is defined as|lim(h→0) [f(x + h) − f(x)]/h|lim(h→0) f(h)|f(x)/x|lim(x→0) f(x)|1|The limit of the difference quotient.|E
+M|The derivative of a constant is|0|1|the constant|undefined|1|A constant has no rate of change.|E
+M|The derivative of xⁿ is|n xⁿ⁻¹|xⁿ⁺¹/(n + 1)|n xⁿ|xⁿ⁻¹|1|The power rule.|E
+M|The derivative of x³ is|3x²|x²|3x|x⁴/4|1|By the power rule.|E
+M|The derivative of eˣ is|eˣ|x eˣ⁻¹|1/x|e|1|It is its own derivative.|E
+M|The derivative of ln x is|1/x|x|eˣ|ln x|1|For x > 0.|E
+M|The derivative of sin x is|cos x|−cos x|sin x|−sin x|1|A standard derivative.|E
+M|The derivative of cos x is|−sin x|sin x|cos x|−cos x|1|A standard derivative.|E
+M|The derivative of tan x is|sec²x|sec x tan x|−cosec²x|cos²x|1|A standard derivative.|M
+M|The derivative of cot x is|−cosec²x|cosec²x|−sec²x|sec²x|1|A standard derivative.|M
+M|The derivative of sec x is|sec x tan x|−sec x tan x|sec²x|cosec x cot x|1|A standard derivative.|M
+M|The derivative of cosec x is|−cosec x cot x|cosec x cot x|−sec x tan x|cosec²x|1|A standard derivative.|M
+M|The derivative of aˣ is|aˣ ln a|aˣ|x aˣ⁻¹|ln a|1|For a > 0.|M
+M|The derivative of logₐ x is|1/(x ln a)|1/x|ln a|x ln a|1|For x > 0.|M
+M|The derivative of sin⁻¹x is|1/√(1 − x²)|−1/√(1 − x²)|1/(1 + x²)|1/x|1|For ∣x∣ < 1.|M
+M|The derivative of cos⁻¹x is|−1/√(1 − x²)|1/√(1 − x²)|−1/(1 + x²)|1/(1 + x²)|1|For ∣x∣ < 1.|M
+M|The derivative of tan⁻¹x is|1/(1 + x²)|−1/(1 + x²)|1/√(1 − x²)|1/x|1|For all real x.|M
+M|The sum rule states that d/dx [f + g] equals|f′ + g′|f′g′|f′ − g′|f g′|1|Derivatives add.|E
+M|The product rule states that d/dx [f g] equals|f′g + f g′|f′g′|f′g − f g′|f g|1|The derivative of a product.|M
+M|The quotient rule states that d/dx [f/g] equals|(f′g − f g′)/g²|(f g′ − f′g)/g²|f′/g′|(f′g + f g′)/g²|1|The derivative of a quotient.|M
+M|The chain rule states that d/dx f(g(x)) equals|f′(g(x)) g′(x)|f′(x) g′(x)|f(g′(x))|f′(g′(x))|1|Differentiate the outer then the inner.|M
+M|The derivative of (3x + 1)⁵ is|15(3x + 1)⁴|5(3x + 1)⁴|3(3x + 1)⁴|(3x + 1)⁶|1|Chain rule: 5(3x + 1)⁴ × 3.|M
+M|The derivative of e^(2x) is|2 e^(2x)|e^(2x)|2x e^(2x)|e^(2x)/2|1|Chain rule.|M
+M|The derivative of sin 3x is|3 cos 3x|cos 3x|−3 cos 3x|3 sin 3x|1|Chain rule.|M
+M|The derivative of ln(2x) is|1/x|2/x|1/(2x)|2x|1|d/dx [ln 2 + ln x] = 1/x.|M
+M|The derivative of x eˣ is|eˣ(1 + x)|eˣ|x eˣ|eˣ(1 − x)|1|Product rule.|M
+M|The derivative of x² sin x is|2x sin x + x² cos x|2x cos x|x² cos x|2x sin x − x² cos x|1|Product rule.|M
+M|If y = f(x) is given implicitly, dy/dx is found by|differentiating both sides with respect to x|solving for y first only|integrating|setting y = 0|1|Treat y as a function of x.|M
+M|Logarithmic differentiation is useful for functions like|xˣ|x²|sin x|x + 1|1|Take logarithms first.|H
+M|For parametric equations x = f(t), y = g(t), dy/dx equals|(dy/dt)/(dx/dt)|(dx/dt)/(dy/dt)|dy/dt × dx/dt|dy/dt − dx/dt|1|The chain rule.|M
+M|The derivative of √x is|1/(2√x)|2√x|1/√x|√x/2|1|x^(1/2) differentiates to (1/2)x^(−1/2).|M
+M|The derivative of 1/x is|−1/x²|1/x²|ln x|−1/x|1|x⁻¹ differentiates to −x⁻².|M
+N|Find the derivative of x³ at x = 2.|12|3x² = 12 at x = 2.|E|3*4
+N|Find the derivative of sin x at x = 0.|1|cos 0 = 1.|E|Math.cos(0)
+N|Find the derivative of e^(2x) at x = 0.|2|2 e⁰ = 2.|M|2*Math.exp(0)
+N|Find the derivative of ln x at x = 2.|0.5|1/x = 1/2.|E|1/2
+N|Find the derivative of x² + 3x at x = 1.|5|2x + 3 = 5.|E|2*1+3
+N|Find the derivative of x² sin x at x = 0.|0|2x sin x + x² cos x = 0 at x = 0.|M|0
+N|Find the derivative of (x² + 1)³ at x = 1.|24|3(x² + 1)² × 2x = 3 × 4 × 2 = 24.|M|3*4*2
+N|Find the derivative of x/(x + 1) at x = 1 as a decimal.|0.25|The derivative is 1/(x + 1)² = 1/4.|H|1/4
+N|Find dy/dx for y = tan x at x = 0.|1|sec²0 = 1.|M|1
+N|Find the derivative of √x at x = 4.|0.25|1/(2√4) = 1/4.|M|1/(2*2)
+N|Find the slope of the tangent to y = x² − 4x + 1 at x = 3.|2|y′ = 2x − 4 = 2.|M|2*3-4
+N|Find the derivative of 5ˣ at x = 0, correct to three places.|1.609|5⁰ ln 5 = 1.609.|H|Math.log(5)
+N|Find the derivative of tan⁻¹x at x = 1.|0.5|1/(1 + 1) = 1/2.|M|1/2
+N|Find dy/dx at (1, 1) on the curve x² + y² = 2.|-1|2x + 2y y′ = 0 gives y′ = −x/y = −1.|H|-1/1
+S|State the derivatives of sin x, cos x and tan x.|d/dx sin x = cos x, d/dx cos x = −sin x and d/dx tan x = sec²x.|They are used with the chain rule.|E
+S|State the product rule and the quotient rule.|(fg)′ = f′g + fg′ and (f/g)′ = (f′g − fg′)/g².|The quotient rule needs g ≠ 0.|M
+S|State the chain rule.|If y = f(u) and u = g(x), then dy/dx = (dy/du)(du/dx).|It differentiates composite functions.|M
+S|Differentiate y = x² e^x.|dy/dx = e^x (x² + 2x)|By the product rule.|M
+S|Find dy/dx if x² + y² = 25.|dy/dx = −x/y|Differentiate implicitly: 2x + 2y y′ = 0.|M
+S|Define the derivative of a function from first principles.|f′(x) = lim(h→0) [f(x + h) − f(x)]/h, if the limit exists.|It is the slope of the tangent.|M
+
+# 3 Higher Order Derivatives and Applications of Derivatives
+M|The second derivative of f(x) is|the derivative of f′(x)|f′(x)²|f(x)/x|the integral of f(x)|1|It is written f″(x).|E
+M|The second derivative of x³ is|6x|3x²|6|x⁴/4|1|d/dx (3x²) = 6x.|E
+M|The second derivative of sin x is|−sin x|cos x|sin x|−cos x|1|d/dx (cos x).|M
+M|The second derivative of eˣ is|eˣ|2eˣ|x eˣ|1|1|eˣ is its own derivative.|M
+M|If f′(x) > 0 on an interval, then f is|increasing|decreasing|constant|discontinuous|1|The slope is positive.|M
+M|If f′(x) < 0 on an interval, then f is|decreasing|increasing|constant|undefined|1|The slope is negative.|M
+M|A critical point of f is a point where|f′(x) = 0 or f′ does not exist|f(x) = 0|f″(x) = 0|f is continuous|1|Possible maxima or minima.|M
+M|The first derivative test says f has a local maximum at c if f′ changes|from positive to negative at c|from negative to positive|sign nowhere|twice|1|The function stops rising and starts falling.|M
+M|The second derivative test says f has a local minimum at c if f′(c) = 0 and|f″(c) > 0|f″(c) < 0|f″(c) = 0|f(c) = 0|1|The graph is concave up.|M
+M|The second derivative test says f has a local maximum at c if f′(c) = 0 and|f″(c) < 0|f″(c) > 0|f″(c) = 0|f(c) = 0|1|The graph is concave down.|M
+M|A point where concavity changes is called|a point of inflexion|a minimum|a maximum|an asymptote|1|Here f″ changes sign.|M
+M|The slope of the tangent to y = f(x) at x = a is|f′(a)|f(a)|f″(a)|a|1|The derivative is the slope.|E
+M|The slope of the normal at x = a is|−1/f′(a)|f′(a)|−f′(a)|1/f(a)|1|It is perpendicular to the tangent.|M
+M|The equation of the tangent at (a, f(a)) is|y − f(a) = f′(a)(x − a)|y = f′(a)x|y − a = f′(a)(x − f(a))|y = f(a)|1|The point-slope form.|M
+M|If s(t) is the position, the velocity is|ds/dt|d²s/dt²|∫s dt|s/t|1|The rate of change of position.|E
+M|If s(t) is the position, the acceleration is|d²s/dt²|ds/dt|∫s dt|s/t²|1|The second derivative.|E
+M|The Maclaurin series of eˣ is|1 + x + x²/2! + x³/3! + ...|1 − x + x²/2! − ...|x + x²/2 + x³/3|1 + x + x² + ...|1|The expansion about 0.|M
+M|The Maclaurin series of sin x is|x − x³/3! + x⁵/5! − ...|1 − x²/2! + x⁴/4! − ...|x + x³/3! + x⁵/5!|x − x²/2 + x³/3|1|Only odd powers appear.|M
+M|The Maclaurin series of cos x is|1 − x²/2! + x⁴/4! − ...|x − x³/3! + ...|1 + x²/2! + ...|1 − x + x²|1|Only even powers appear.|M
+M|Taylor's theorem expands f(x) about x = a in powers of|(x − a)|x|(x + a)|a|1|f(a) + f′(a)(x − a) + ...|H
+M|A rectangle of fixed perimeter has maximum area when it is|a square|very long and thin|a triangle|a circle|1|With sides equal.|M
+M|The rate of change of the area of a circle with respect to its radius is|2πr|πr²|πr|2π|1|d/dr (πr²).|M
+M|A function has a maximum value at a critical point where|the function changes from increasing to decreasing|f″ is zero|it is discontinuous|f′ is positive|1|It reaches a peak.|M
+M|The absolute maximum of a continuous function on [a, b] occurs at|a critical point or an end point|only at critical points|only at end points|the midpoint|1|Compare all candidates.|M
+M|The function f(x) = x² has a minimum at|x = 0|x = 1|x = −1|no point|1|f′(x) = 2x = 0.|E
+M|The function f(x) = x³ has at x = 0|a point of inflexion|a minimum|a maximum|a discontinuity|1|f′(0) = 0 but f″ changes sign.|H
+M|The curve y = x² is concave|up|down|neither|straight|1|y″ = 2 > 0.|M
+M|If f(x) = 0 has a root near a, Newton's method gives the next estimate|a − f(a)/f′(a)|a + f(a)/f′(a)|a − f′(a)/f(a)|f(a)|1|The tangent crosses the axis.|H
+M|L'Hôpital's rule applies to limits of the form|0/0 or ∞/∞|1/1|0 × 1|1/0|1|Take the derivatives of numerator and denominator.|H
+M|If a particle's velocity is zero, then|it is momentarily at rest|its acceleration is zero|its position is zero|it has stopped forever|1|It may change direction.|M
+M|The volume of a cube of side x changes at the rate 3x² with respect to|x|time always|area|mass|1|d/dx (x³).|M
+M|Differentials give the approximation f(x + h) ≈|f(x) + h f′(x)|f(x) − h f′(x)|h f′(x)|f(x)h|1|A linear approximation.|M
+N|Find the second derivative of x⁴ at x = 1.|12|f″ = 12x² = 12.|M|12*1
+N|Find the second derivative of sin x at x = π/2.|-1|f″ = −sin x = −1 at π/2.|M|-Math.sin(3.14159265/2)
+N|Find the critical point of f(x) = x² − 4x + 7.|2|f′ = 2x − 4 = 0.|E|4/2
+N|Find the minimum value of f(x) = x² − 4x + 7.|3|f(2) = 4 − 8 + 7 = 3.|M|4-8+7
+N|Find the maximum value of f(x) = −x² + 6x.|9|f′ = 0 at x = 3 and f(3) = 9.|M|-9+18
+N|Find the slope of the tangent to y = x³ at x = 2.|12|y′ = 3x² = 12.|E|3*4
+N|Find the slope of the normal to y = x² at x = 1.|-0.5|The tangent slope is 2, so the normal slope is −1/2.|M|-1/2
+N|A particle's position is s = t³ − 6t². Find its velocity at t = 2.|-12|v = 3t² − 12t = 12 − 24 = −12.|M|3*4-12*2
+N|A particle's position is s = t³ − 6t². Find its acceleration at t = 2.|0|a = 6t − 12 = 0.|M|6*2-12
+N|The side of a square increases at 2 cm/s. Find the rate of change of its area in cm²/s when the side is 5 cm.|20|dA/dt = 2x dx/dt = 2 × 5 × 2 = 20.|H|2*5*2
+N|Find the area in square units of the largest rectangle with perimeter 20.|25|A square of side 5 has area 25.|M|5*5
+N|Find the value of the first three terms of eˣ at x = 1 as a decimal.|2.5|1 + 1 + 1/2 = 2.5.|M|1+1+1/2
+N|Use f(x + h) ≈ f(x) + h f′(x) to estimate √4.04 as a decimal to three places.|2.01|f = √x at 4: 2 + 0.04/4 = 2.01.|H|2+0.04/4
+N|Find the inflexion point's x-coordinate of y = x³ − 3x² + 2.|1|y″ = 6x − 6 = 0.|H|6/6
+S|State the first and second derivative tests for maxima and minima.|At a critical point, f is a maximum if f′ changes from positive to negative (or f″ < 0) and a minimum if f′ changes from negative to positive (or f″ > 0).|Both use the sign of the derivatives.|M
+S|Find the equation of the tangent to y = x² at (1, 1).|y = 2x − 1|The slope is 2, so y − 1 = 2(x − 1).|M
+S|Write the Maclaurin series of eˣ.|eˣ = 1 + x + x²/2! + x³/3! + ...|It converges for all real x.|M
+S|Find the dimensions of the rectangle of maximum area with perimeter 40.|A square of side 10.|With sides x and 20 − x, the area x(20 − x) is greatest at x = 10.|M
+S|Define the velocity and acceleration of a particle in terms of derivatives.|If s is the position, the velocity is v = ds/dt and the acceleration is a = dv/dt = d²s/dt².|They are rates of change.|E
+S|What is a point of inflexion?|A point on a curve where the concavity changes, which means f″ changes sign.|For example the origin on y = x³.|M

@@ -1,0 +1,108 @@
+@level 2nd Year
+@subject Biology
+
+# 13 Ecosystem
+M|An ecosystem consists of|living organisms and their physical environment|only plants|only animals|only soil|1|Biotic plus abiotic.|E
+M|Abiotic factors include|temperature, light and soil|plants|animals|bacteria|1|Non-living.|E
+M|Biotic factors include|predators and competitors|temperature|rainfall|soil pH|1|Living.|E
+M|A habitat is|the place where an organism lives|the role of an organism|a community|a population|1|Address.|E
+M|A niche is|the role of an organism in its ecosystem|its habitat only|its population|its size|1|Profession.|M
+M|A population is|all individuals of one species in an area|all species in an area|all animals|all plants|1|One species.|E
+M|A community is|all the populations in an area|one species|abiotic factors|one habitat|1|Many species.|E
+M|Producers are|autotrophs|herbivores|decomposers|carnivores|1|Photosynthesis.|E
+M|Primary consumers are|herbivores|carnivores|decomposers|producers|1|Eat plants.|E
+M|Decomposers include|bacteria and fungi|herbivores|green plants|carnivores|1|Recycle nutrients.|E
+M|A food chain shows|the transfer of energy through feeding|a habitat|a population|a niche|1|Arrows show direction.|E
+M|A food web is|interconnected food chains|a single chain|a pyramid|a niche|1|More realistic.|M
+M|Energy transfer between trophic levels is about|10%|50%|90%|1%|1|The ten per cent rule.|M
+M|The main source of energy for ecosystems is|the Sun|the soil|water|wind|1|Light.|E
+M|A pyramid of energy is always|upright|inverted|irregular|absent|1|Energy is lost.|M
+M|A pyramid of numbers can be inverted when|one large producer supports many consumers|producers are small|energy is high|decomposers are few|1|A tree and insects.|H
+M|Biomass is the|dry mass of living material|number of organisms|energy only|water content|1|Measured in g/m².|M
+M|The carbon cycle involves|photosynthesis, respiration and combustion|nitrogen fixation|evaporation|erosion|1|Carbon is recycled.|M
+M|Carbon dioxide is removed from the atmosphere by|photosynthesis|respiration|combustion|decay|1|Plants.|E
+M|Nitrogen fixation is carried out by|Rhizobium|Nitrosomonas only|yeast|algae|1|Root nodules.|M
+M|The conversion of ammonia to nitrite is|nitrification|denitrification|nitrogen fixation|ammonification|1|Nitrosomonas.|M
+M|Denitrification converts nitrates to|nitrogen gas|ammonia|proteins|nitrites|1|Pseudomonas.|M
+M|Ammonification is the|breakdown of organic nitrogen to ammonia|fixation|nitrification|absorption|1|By decomposers.|M
+M|The water cycle includes|evaporation, condensation and precipitation|photosynthesis|fixation|respiration|1|Hydrological.|E
+M|Symbiosis includes|mutualism, commensalism and parasitism|only predation|only competition|only decomposition|1|Close relationships.|M
+M|Mutualism is shown by|lichens|tapeworm in the gut|lions and zebras|weeds|1|Both benefit.|M
+M|Parasitism is when|one organism benefits at the expense of another|both benefit|neither benefits|neither is harmed|1|Tapeworm.|M
+M|Commensalism is when|one benefits and the other is unaffected|both benefit|one is harmed|both are harmed|1|Epiphytes.|M
+M|Competition occurs when|organisms use the same limited resource|they help each other|they ignore each other|they share all|1|Intraspecific or interspecific.|M
+M|The carrying capacity is|the maximum population an environment can support|the birth rate|the death rate|the size at birth|1|Limited resources.|M
+M|The S-shaped growth curve shows|logistic growth|exponential growth|decline|extinction|1|Levels at carrying capacity.|M
+M|The J-shaped growth curve shows|exponential growth|logistic growth|stable population|decline|1|Unlimited resources.|M
+M|Ecological succession is the|gradual change in the community over time|sudden extinction|migration|growth of a plant|1|Primary and secondary.|M
+M|The first organisms to colonise bare rock are called|pioneer species|climax species|decomposers|predators|1|Lichens.|M
+M|The final stable community is the|climax community|pioneer community|seral stage|invasive|1|Equilibrium.|M
+M|A biome is|a large region with a characteristic climate and community|a food chain|a niche|a population|1|Desert, forest.|M
+M|Pakistan's mangroves are found in the|Indus delta|Thar desert|Himalayas|Potohar|1|Coastal ecosystem.|M
+M|Lincoln index is used to estimate|population size|biodiversity|age|biomass|1|Mark and recapture.|H
+M|Mark-recapture estimate N =|(M × n)/m|M + n + m|M × m/n|(M + n)/m|1|M marked, n second sample, m recaptured.|H
+N|A producer has 10 000 kJ. Find the energy at the secondary consumer level using the 10% rule.|100|10 000 × 0.1 × 0.1.|M|10000*0.1*0.1
+N|A grass fixes 5000 kJ. Find the energy reaching the tertiary consumer (10% each).|5|5000 × 0.001.|M|5000*0.1*0.1*0.1
+N|In a mark-recapture, 40 are marked, then 30 are caught of which 10 are marked. Find the population size.|120|(40 × 30)/10.|M|40*30/10
+N|Mark-recapture: 50 marked, 40 caught, 8 marked. Find the population size.|250|(50 × 40)/8.|M|50*40/8
+N|A population of 200 has 30 births and 10 deaths. Find the percentage growth.|10|20/200.|M|(30-10)/200*100
+N|A population has 500 individuals and a growth rate of 4%. Find the population after one year.|520|500 × 1.04.|M|500*1.04
+N|A quadrat of 0.25 m² contains 12 plants. Find the density per m².|48|12/0.25.|M|12/0.25
+N|There are 480 plants in a 100 m² field. Find the density per m².|4.8|480/100.|E|480/100
+S|Explain the 10% rule for energy transfer.|Only about 10% of the energy at one trophic level passes to the next because the rest is lost as heat in respiration, in waste and in uneaten parts.|So chains are short.|M
+S|Describe the nitrogen cycle briefly.|Nitrogen is fixed by bacteria, converted to nitrates by nitrification and taken up by plants, passed along food chains, returned by decomposers as ammonia, and released to the air by denitrification.|Bacteria are essential.|M
+S|Distinguish between mutualism, commensalism and parasitism.|In mutualism both benefit, in commensalism one benefits and the other is unaffected, and in parasitism one benefits and the other is harmed.|Examples: lichen, epiphyte, tapeworm.|M
+S|Describe ecological succession.|It is the gradual replacement of communities, starting with pioneer species on bare ground and ending in a stable climax community.|Soil builds up.|M
+S|Distinguish between a habitat and a niche.|A habitat is the place where an organism lives, while a niche is its role, including feeding, behaviour and interactions.|Address versus profession.|M
+S|Describe how the size of a population can be estimated by capture-recapture.|Animals are captured, marked and released, a second sample is taken, and the population is calculated from the number marked in the first sample times the second sample size divided by the number recaptured.|Assumes no migration.|M
+
+# 14 Man and his Environment
+M|Pollution is|the addition of harmful substances to the environment|a natural cycle|a food chain|growth|1|Air, water, soil.|E
+M|The main cause of acid rain is|sulphur dioxide and nitrogen oxides|carbon dioxide|oxygen|methane|1|From burning fossil fuels.|E
+M|The greenhouse gas that contributes most to global warming from human activity is|carbon dioxide|oxygen|nitrogen|argon|1|Also methane.|E
+M|Methane is released by|livestock and rice fields|green plants|oxygen|rainfall|1|Anaerobic.|M
+M|The ozone layer protects us from|ultraviolet radiation|infrared|visible light|sound|1|In the stratosphere.|E
+M|Ozone depletion is caused by|CFCs|oxygen|nitrogen|carbon dioxide|1|Chlorofluorocarbons.|M
+M|Eutrophication is caused by|excess nutrients in water|lack of oxygen on land|acid rain|drought|1|Fertilisers.|M
+M|Eutrophication leads to|oxygen depletion in water|more oxygen|clean water|more fish|1|Algal bloom and decay.|M
+M|Biological oxygen demand (BOD) measures|the oxygen used by microbes in water|oxygen in air|carbon dioxide|nitrogen|1|High BOD means pollution.|M
+M|Deforestation causes|soil erosion and loss of biodiversity|more rain|more oxygen|more habitats|1|Also flooding.|E
+M|Afforestation means|planting trees on land that had none|cutting trees|burning trees|selling wood|1|Helps climate.|E
+M|Global warming leads to|rising sea levels|cooling|more ice|stable weather|1|Melting glaciers.|E
+M|Biodiversity is|the variety of life in an area|number of plants|number of animals|size of an ecosystem|1|Genes, species, ecosystems.|E
+M|An endangered species is one that is|at risk of extinction|abundant|extinct|invasive|1|IUCN red list.|E
+M|The snow leopard of Pakistan is found in the|northern mountains|Thar desert|Indus delta|Potohar|1|Endangered big cat.|M
+M|Conservation in situ means|protecting species in their natural habitat|in zoos|in seed banks|in laboratories|1|National parks.|M
+M|Conservation ex situ means|protecting species outside their natural habitat|in the wild|in forests|in oceans|1|Zoos.|M
+M|A national park is an example of|in situ conservation|ex situ conservation|pollution|a zoo|1|Protected area.|M
+M|Sustainable development means|meeting needs without harming future generations|using all resources now|stopping all growth|building factories|1|Brundtland.|M
+M|Renewable resources include|solar energy|coal|oil|natural gas|1|Replenished.|E
+M|Non-renewable resources include|fossil fuels|wind|solar|water|1|Finite.|E
+M|Sewage treatment uses|bacteria to break down organic matter|chemicals only|boiling|freezing|1|Activated sludge.|M
+M|Recycling helps to|conserve resources and reduce waste|increase waste|increase pollution|waste energy|1|Paper, glass, metal.|E
+M|Noise is measured in|decibels|joules|hertz|watts|1|dB.|M
+M|The Montreal Protocol aims to|reduce CFCs|reduce carbon dioxide|clean rivers|stop deforestation|1|Ozone.|M
+M|The Kyoto Protocol aims to|reduce greenhouse gas emissions|protect the ozone|clean water|save whales|1|Climate.|M
+M|Smog is formed by|pollutants and sunlight|only rain|only wind|only fog|1|Photochemical.|M
+M|Bioaccumulation is|the build-up of toxins in an organism|decomposition|growth|photosynthesis|1|DDT in food chains.|M
+M|DDT is a|pesticide|fertiliser|antibiotic|hormone|1|Harmful in food chains.|E
+M|Biological control uses|natural predators to control pests|chemicals|fire|machines|1|Ladybirds on aphids.|M
+M|The greenhouse effect is|the trapping of heat by atmospheric gases|the cooling of the Earth|ozone depletion|acid rain|1|Natural and enhanced.|M
+M|Overpopulation leads to|pressure on resources|more resources|less pollution|fewer cities|1|Food, water, land.|E
+M|Water-borne diseases include|cholera and typhoid|malaria|dengue|measles|1|Contaminated water.|M
+M|Dengue is spread by|Aedes mosquito|Anopheles mosquito|housefly|tsetse|1|Standing water.|M
+M|Malaria is spread by|Anopheles mosquito|Aedes mosquito|housefly|rat|1|Plasmodium.|M
+N|The ozone layer absorbs 99% of UV. Find the percentage of UV reaching the Earth.|1|100 − 99.|E|100-99
+N|A forest loses 2% of its area per year. Find the area left from 1000 hectares after one year.|980|1000 × 0.98.|M|1000*0.98
+N|A forest of 500 hectares is cleared at 25 hectares per year. Find the years to lose 200 hectares.|8|200/25.|M|200/25
+N|The carbon dioxide level rises from 280 to 420 ppm. Find the percentage increase.|50|140/280.|M|(420-280)/280*100
+N|A factory emits 5 tonnes of SO₂ per day. Find the emission in a 30-day month.|150|5 × 30.|E|5*30
+N|A tree absorbs 22 kg of CO₂ a year. Find the amount absorbed by 1000 trees in 5 years in tonnes.|110|22 × 1000 × 5 / 1000.|M|22*1000*5/1000
+N|The BOD of a river is 6 mg/L. Find the total oxygen used in 500 L in mg.|3000|6 × 500.|M|6*500
+N|A town recycles 40% of its 250 tonnes of waste. Find the tonnes recycled.|100|0.4 × 250.|E|0.4*250
+S|Explain how the greenhouse effect leads to global warming.|Gases such as carbon dioxide and methane trap heat radiated from the Earth, and human activity increases their levels, raising the average temperature.|Fossil fuels are the main source.|M
+S|Describe the causes and effects of eutrophication.|Fertilisers and sewage add nutrients, algae grow rapidly, die and are decomposed by bacteria which use up oxygen, so fish and other organisms die.|Reduce by controlling runoff.|M
+S|State two causes and two effects of deforestation.|It is caused by logging and clearing land for farming, and it leads to soil erosion and loss of habitat and biodiversity.|Also raises carbon dioxide.|M
+S|Distinguish between in situ and ex situ conservation.|In situ conservation protects species in their natural habitat, as in national parks, while ex situ conservation protects them elsewhere, as in zoos and seed banks.|Both are used together.|M
+S|Describe the causes and effects of acid rain.|Sulphur dioxide and nitrogen oxides from burning fossil fuels dissolve in rain, which damages forests, acidifies lakes and corrodes buildings.|Reduce emissions.|M
+S|Explain what is meant by sustainable development.|It means using resources to meet present needs without harming the ability of future generations to meet theirs, for example through renewable energy and recycling.|Balances growth and environment.|M

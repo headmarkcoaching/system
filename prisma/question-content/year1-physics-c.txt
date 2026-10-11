@@ -1,0 +1,153 @@
+@level 1st Year
+@subject Physics
+
+# 7 Oscillations
+M|Simple harmonic motion (SHM) is a motion in which the acceleration is|proportional to the displacement and directed towards the mean position|constant|proportional to the velocity|zero|1|a = −ω²x.|E
+M|The restoring force on a body in SHM is|proportional to the displacement|constant|proportional to the square of displacement|independent of position|1|F = −kx.|E
+M|The time period of a mass m on a spring of force constant k is|2π√(m/k)|2π√(k/m)|2π m/k|π√(m/k)|1|T = 2π√(m/k).|M
+M|The time period of a simple pendulum of length L is|2π√(L/g)|2π√(g/L)|2π L/g|π√(L/g)|1|For small angles.|M
+M|The time period of a simple pendulum depends on|its length and g|its mass|the amplitude|the material of the bob|1|It is independent of mass and (for small angles) amplitude.|M
+M|The frequency of SHM equals|1/T|T|2π/T|T/2π|1|f = 1/T.|E
+M|The angular frequency ω of SHM is related to f by|ω = 2πf|ω = f/2π|ω = πf|ω = f²|1|ω = 2π/T.|E
+M|The displacement of a particle in SHM starting from the mean position is|x = x₀ sin ωt|x = x₀ cos ωt|x = x₀ t|x = x₀ ω|1|At t = 0, x = 0.|M
+M|The velocity of a particle in SHM at displacement x is|ω√(x₀² − x²)|ω x|x₀ ω|ω²x|1|From energy conservation.|M
+M|The maximum velocity of a particle in SHM is|ω x₀|ω² x₀|x₀/ω|x₀|1|At the mean position.|M
+M|The maximum acceleration of a particle in SHM is|ω² x₀|ω x₀|x₀/ω|ω/x₀|1|At the extreme positions.|M
+M|At the mean position of SHM, the speed is|maximum|zero|half the maximum|infinite|1|All the energy is kinetic.|M
+M|At the extreme position of SHM, the acceleration is|maximum|zero|half the maximum|constant|1|The restoring force is largest.|M
+M|The total energy of a particle in SHM is|½ k x₀²|k x₀|½ k x₀|k x₀²|1|It is constant.|M
+M|The potential energy of a particle in SHM at displacement x is|½ k x²|k x²|½ m v²|k x|1|The energy stored in the spring.|M
+M|The kinetic energy of a particle in SHM at displacement x is|½ k (x₀² − x²)|½ k x²|k x₀²|zero|1|Total minus potential.|H
+M|The phase difference between displacement and velocity in SHM is|π/2|π|0|2π|1|The velocity leads displacement by 90°.|H
+M|The phase difference between displacement and acceleration in SHM is|π|π/2|0|2π|1|They are in opposite directions.|H
+M|The time period of a spring-mass system on the Moon compared with the Earth is|the same|greater|smaller|zero|1|T does not depend on g.|M
+M|The time period of a simple pendulum on the Moon compared with the Earth is|greater|the same|smaller|zero|1|g is less on the Moon.|M
+M|A pendulum with period 2 s is called a|seconds pendulum|spring pendulum|torsional pendulum|ballistic pendulum|1|Its period is 2 s.|M
+M|The length of a seconds pendulum is about|1 m|10 m|0.1 m|0.01 m|1|L = gT²/4π² ≈ 0.99 m.|M
+M|In damped oscillations the amplitude|decreases with time|increases|is constant|is infinite|1|Energy is lost to friction.|M
+M|Forced oscillations occur when a body is|driven by an external periodic force|left alone|damped|at rest|1|They occur at the driving frequency.|M
+M|Resonance occurs when the driving frequency equals|the natural frequency of the system|zero|twice the natural frequency|infinity|1|The amplitude becomes maximum.|M
+M|An example of resonance is|a swing pushed at its natural frequency|a ball rolling|a falling stone|a stationary car|1|The amplitude grows.|M
+M|When two springs of constant k are joined in parallel, the effective constant is|2k|k/2|k|4k|1|They add.|H
+M|When two springs of constant k are joined in series, the effective constant is|k/2|2k|k|4k|1|Reciprocals add.|H
+M|The period of SHM is independent of|the amplitude|the mass|the force constant|the length of a pendulum|1|It is isochronous for small amplitudes.|M
+M|A body in SHM has the same speed at|equal displacements on either side of the mean position|all positions|only the mean position|only the extremes|1|By symmetry.|M
+N|Find the time period in s of a 0.5 kg mass on a spring of constant 200 N/m, to three decimal places.|0.314|2π√(0.5/200).|M|2*3.14159265*Math.sqrt(0.5/200)
+N|Find the time period in s of a simple pendulum of length 1 m with g = 9.8, to two decimal places.|2.01|2π√(1/9.8).|M|2*3.14159265*Math.sqrt(1/9.8)
+N|Find the frequency in Hz of an oscillation with a period of 0.25 s.|4|1/0.25.|E|1/0.25
+N|Find the angular frequency in rad/s of an oscillation with frequency 5 Hz, to two decimal places.|31.42|2π × 5.|E|2*3.14159265*5
+N|A particle in SHM has amplitude 0.1 m and ω = 10 rad/s. Find its maximum speed in m/s.|1|ωx₀ = 1.|E|10*0.1
+N|A particle in SHM has amplitude 0.1 m and ω = 10 rad/s. Find its maximum acceleration in m/s².|10|ω²x₀ = 100 × 0.1.|M|100*0.1
+N|A particle in SHM has amplitude 0.1 m and ω = 10 rad/s. Find its speed in m/s at a displacement of 0.06 m.|0.8|10√(0.01 − 0.0036) = 10 × 0.08.|H|10*Math.sqrt(0.01-0.0036)
+N|A spring of constant 100 N/m is stretched 0.2 m. Find its stored energy in J.|2|½ × 100 × 0.04.|M|0.5*100*0.04
+N|A mass of 2 kg oscillates with amplitude 0.05 m and ω = 4 rad/s. Find the total energy in J.|0.04|½ m ω² x₀² = ½ × 2 × 16 × 0.0025.|H|0.5*2*16*0.0025
+N|Find the length in m of a pendulum with a period of 2 s and g = 9.8, to two decimal places.|0.99|L = gT²/4π².|M|9.8*4/(4*3.14159265*3.14159265)
+N|A pendulum has a period of 2 s on Earth. Find the period in s when its length is made four times as long.|4|T ∝ √L.|M|2*2
+N|Two identical springs, each with k = 100 N/m, are connected in parallel. Find the effective spring constant in N/m.|200|k₁ + k₂.|M|100+100
+N|Two identical springs, each with k = 100 N/m, are connected in series. Find the effective spring constant in N/m.|50|k/2.|M|100/2
+N|A particle in SHM completes 30 oscillations in 15 s. Find its period in s.|0.5|15/30.|E|15/30
+S|Define simple harmonic motion and give two examples.|Motion in which the acceleration is proportional to the displacement from the mean position and directed towards it. A mass on a spring and a simple pendulum are examples.|a = −ω²x.|M
+S|Derive the time period of a mass-spring system.|The restoring force F = −kx gives a = −(k/m)x, so ω² = k/m and T = 2π√(m/k).|It is independent of amplitude.|M
+S|State the conditions for a simple pendulum to be in SHM.|The amplitude must be small, so that sin θ ≈ θ, and the string must be light and inextensible.|The period is 2π√(L/g).|M
+S|What is resonance? Give an example.|The large amplitude produced when the frequency of a driving force equals the natural frequency of the system, for example a child's swing pushed at the right rate.|It can also be harmful, as in bridges.|M
+S|Distinguish between free, damped and forced oscillations.|Free oscillations are at the natural frequency with constant amplitude, damped oscillations lose amplitude due to friction, and forced oscillations are driven by an external periodic force.|Resonance is a special case of forced oscillation.|M
+
+# 8 Waves
+M|A wave transfers|energy without transferring matter|matter|mass|charge only|1|The medium oscillates about a mean position.|E
+M|In a transverse wave the particles of the medium vibrate|perpendicular to the direction of propagation|parallel to the direction of propagation|in circles|not at all|1|Light is transverse.|E
+M|In a longitudinal wave the particles vibrate|parallel to the direction of propagation|perpendicular to it|in circles|not at all|1|Sound in air is longitudinal.|E
+M|The relation between wave speed, frequency and wavelength is|v = f λ|v = f/λ|v = λ/f|v = f + λ|1|The wave equation.|E
+M|The speed of a transverse wave on a stretched string is|√(T/μ)|√(μ/T)|T/μ|T μ|1|T is tension and μ is mass per unit length.|M
+M|The speed of sound in a gas is|√(γ P/ρ)|√(P/ρ)|γ P/ρ|√(ρ/P)|1|The Newton-Laplace formula.|M
+M|The speed of sound in air at 0 °C is about|332 m/s|332 km/s|3 × 10⁸ m/s|33 m/s|1|It rises with temperature.|E
+M|The speed of sound in air increases with temperature because|the molecules move faster|the air becomes denser|the pressure falls|the humidity falls|1|v ∝ √T.|M
+M|The principle of superposition states that the resultant displacement is|the vector sum of the individual displacements|the product|the difference only|always zero|1|It applies to linear waves.|M
+M|Constructive interference occurs when the waves are|in phase|out of phase by π|of different speeds|of different media|1|The amplitudes add.|M
+M|Destructive interference occurs when the waves are|out of phase by π|in phase|equal in frequency only|in different media|1|The amplitudes subtract.|M
+M|Stationary (standing) waves are formed by|the superposition of two identical waves travelling in opposite directions|a single wave|two waves in the same direction|waves of different speeds|1|They have nodes and antinodes.|M
+M|In a stationary wave the points of zero amplitude are called|nodes|antinodes|crests|troughs|1|They are fixed.|E
+M|In a stationary wave the points of maximum amplitude are called|antinodes|nodes|crests|compressions|1|Midway between nodes.|E
+M|The distance between two consecutive nodes in a stationary wave is|λ/2|λ|λ/4|2λ|1|Half a wavelength.|M
+M|The fundamental frequency of a string of length L fixed at both ends is|v/2L|v/L|v/4L|2v/L|1|The first harmonic.|M
+M|The frequencies of a string fixed at both ends are|n v/2L|(2n − 1)v/4L|n v/4L|v/nL|1|All harmonics are present.|M
+M|The fundamental frequency of an open pipe of length L is|v/2L|v/4L|v/L|2v/L|1|Antinodes at both ends.|M
+M|The fundamental frequency of a closed pipe of length L is|v/4L|v/2L|v/L|2v/L|1|A node at the closed end.|M
+M|A closed pipe produces|only odd harmonics|only even harmonics|all harmonics|no harmonics|1|Frequencies are (2n − 1)v/4L.|M
+M|Beats are produced by the superposition of two waves of|slightly different frequencies|equal frequencies|very different frequencies|equal amplitudes only|1|The loudness varies periodically.|M
+M|The number of beats per second equals|∣f₁ − f₂∣|f₁ + f₂|f₁ f₂|f₁/f₂|1|The difference of frequencies.|M
+M|The Doppler effect is the change in the observed frequency due to|relative motion between the source and the observer|temperature|pressure|density|1|It occurs for all waves.|M
+M|When a source of sound approaches an observer, the observed frequency|increases|decreases|stays the same|becomes zero|1|The wavefronts are compressed.|M
+M|The intensity of a wave is|the energy passing per unit area per unit time|the amplitude|the frequency|the wavelength|1|I = P/A.|M
+M|The intensity of a wave is proportional to|the square of its amplitude|its amplitude|its wavelength|its speed only|1|I ∝ A².|M
+M|The sound intensity level in decibels is|10 log(I/I₀)|log(I/I₀)|I/I₀|10 I/I₀|1|β = 10 log₁₀(I/I₀).|H
+M|The speed of sound is greatest in|solids|liquids|gases|a vacuum|1|The medium is stiffest.|E
+M|Sound cannot travel through|a vacuum|water|steel|air|1|It needs a medium.|E
+N|A wave has frequency 50 Hz and wavelength 6.8 m. Find its speed in m/s.|340|fλ.|E|50*6.8
+N|A string has tension 100 N and mass per unit length 0.01 kg/m. Find the speed of a wave on it in m/s.|100|√(100/0.01).|M|Math.sqrt(100/0.01)
+N|Find the speed of sound in m/s in air with γ = 1.4, P = 1.01 × 10⁵ Pa and ρ = 1.29 kg/m³, to the nearest m/s.|331|√(1.4 × 1.01 × 10⁵/1.29).|M|Math.sqrt(1.4*1.01e5/1.29)
+N|Find the fundamental frequency in Hz of a string 0.5 m long if the wave speed is 200 m/s.|200|v/2L.|M|200/(2*0.5)
+N|Find the fundamental frequency in Hz of an open pipe 0.5 m long. Take v = 340 m/s.|340|v/2L.|M|340/(2*0.5)
+N|Find the fundamental frequency in Hz of a closed pipe 0.5 m long. Take v = 340 m/s.|170|v/4L.|M|340/(4*0.5)
+N|Two tuning forks of 256 Hz and 260 Hz are sounded together. Find the beat frequency in Hz.|4|260 − 256.|E|260-256
+N|A source of frequency 500 Hz moves towards a stationary observer at 20 m/s. Take v = 340 m/s. Find the observed frequency in Hz to the nearest Hz.|531|f′ = 500 × 340/(340 − 20).|H|500*340/(340-20)
+N|A source of frequency 500 Hz moves away from a stationary observer at 20 m/s. Take v = 340 m/s. Find the observed frequency in Hz to the nearest Hz.|472|f′ = 500 × 340/360.|H|500*340/(340+20)
+N|Find the intensity level in dB of a sound with an intensity 100 times the reference intensity.|20|10 log 100.|H|10*Math.log10(100)
+N|The distance between two successive nodes is 0.4 m. Find the wavelength in m.|0.8|λ = 2 × 0.4.|M|2*0.4
+N|The speed of a wave is 12 m/s and its frequency is 3 Hz. Find the wavelength in m.|4|v/f.|E|12/3
+N|If the amplitude of a wave doubles, by what factor does its intensity increase?|4|I ∝ A².|M|2*2
+N|Find the time in s for sound to travel 1.7 km in air at 340 m/s.|5|1700/340.|E|1700/340
+S|State the principle of superposition of waves.|When two or more waves meet at a point, the resultant displacement is the algebraic or vector sum of the displacements due to the individual waves.|It leads to interference.|M
+S|Distinguish between nodes and antinodes.|Nodes are points of zero amplitude in a stationary wave and antinodes are points of maximum amplitude, with a node-to-node distance of λ/2.|Antinodes lie midway between nodes.|M
+S|What are beats? How is the beat frequency found?|The periodic variation in loudness when two waves of slightly different frequencies are heard together. The beat frequency is the difference of the two frequencies.|They are useful for tuning instruments.|M
+S|State the Doppler effect.|The apparent change in the frequency of a wave due to relative motion between the source and the observer.|The frequency rises as they approach.|M
+S|Derive the fundamental frequency of a string fixed at both ends.|The string vibrates with a node at each end, so L = λ/2 and f = v/λ = v/2L.|Higher harmonics are n v/2L.|M
+
+# 9 Physical Optics
+M|The wave theory of light was first proposed by|Huygens|Newton|Maxwell|Hertz|1|He proposed that light is a wave.|M
+M|Huygens' principle says that every point on a wavefront acts as|a source of secondary wavelets|a particle|a mirror|a lens|1|The new wavefront is their envelope.|M
+M|Light waves are|electromagnetic waves|sound waves|mechanical waves|longitudinal waves|1|They need no medium.|E
+M|The speed of light in vacuum is about|3 × 10⁸ m/s|3 × 10⁶ m/s|340 m/s|3 × 10¹⁰ m/s|1|c = 3 × 10⁸ m/s.|E
+M|The visible spectrum has wavelengths from about|400 nm to 700 nm|4 nm to 7 nm|4 μm to 7 μm|1 mm to 7 mm|1|Violet to red.|M
+M|Two sources are coherent if they have|a constant phase difference and the same frequency|different frequencies|random phases|different speeds|1|Needed for stable interference.|M
+M|In Young's double slit experiment with slit separation s and screen distance D, the fringe width is|λD/s|sD/λ|λs/D|λ/(Ds)|1|β = λD/s.|M
+M|In Young's experiment, bright fringes occur when the path difference is|nλ|(n + ½)λ|λ/2|zero only|1|Constructive interference.|M
+M|In Young's experiment, dark fringes occur when the path difference is|(n + ½)λ|nλ|λ|2λ|1|Destructive interference.|M
+M|If the slit separation d is decreased in Young's experiment, the fringe width|increases|decreases|stays the same|becomes zero|1|β ∝ 1/d.|M
+M|If red light is replaced by blue light in Young's experiment, the fringe width|decreases|increases|stays the same|becomes zero|1|β ∝ λ and blue has a shorter wavelength.|M
+M|Interference of light in thin films explains|the colours of soap bubbles|rainbows only|the reflection of mirrors|shadows|1|Reflections from both surfaces interfere.|M
+M|Newton's rings are formed by|interference in the air film between a lens and a plate|diffraction at a slit|polarisation|refraction|1|Concentric bright and dark rings.|M
+M|The Michelson interferometer is used to measure|wavelengths and small distances|temperature|mass|current|1|It uses interference.|M
+M|Diffraction is the|bending of waves around obstacles or through openings|reflection of waves|refraction of waves|absorption of waves|1|It is most pronounced when the size is comparable to λ.|E
+M|For single slit diffraction, minima occur when|a sin θ = nλ|d sin θ = nλ|a cos θ = nλ|a tan θ = λ|1|a is the slit width.|H
+M|For a diffraction grating, principal maxima occur when|d sin θ = nλ|d cos θ = nλ|d tan θ = nλ|d = nλ|1|d is the grating spacing.|M
+M|The grating element d of a grating with N lines per metre is|1/N|N|N²|1/N²|1|The spacing between lines.|M
+M|Polarisation shows that light is a|transverse wave|longitudinal wave|particle only|sound wave|1|Only transverse waves can be polarised.|M
+M|Polaroid sheets are used to|produce plane polarised light|produce sound|bend light|amplify light|1|They transmit vibrations in one plane.|M
+M|Malus' law states that the intensity of light transmitted by an analyser is|I₀ cos²θ|I₀ sin²θ|I₀ cos θ|I₀/θ|1|θ is the angle between the polariser and the analyser.|M
+M|Brewster's law states that the reflected light is completely polarised when tan θ_B equals|the refractive index n|1/n|sin n|cos n|1|θ_B is the polarising angle.|H
+M|Unpolarised light passing through a polariser has its intensity|halved|doubled|unchanged|zero|1|I = I₀/2.|M
+M|Light from the Sun is|unpolarised|plane polarised|circularly polarised only|monochromatic|1|The vibrations are in all planes.|M
+M|Polarised sunglasses reduce|glare|brightness of all light|the speed of light|colours|1|They block horizontally polarised reflected light.|M
+M|A monochromatic light has|a single wavelength|many wavelengths|no wavelength|no frequency|1|Such as sodium light.|E
+M|White light passed through a prism produces a spectrum because|different colours have different refractive indices|it is polarised|it is coherent|it is monochromatic|1|This is dispersion.|M
+M|The path difference for a dark fringe at the first minimum is|λ/2|λ|2λ|0|1|(n + ½)λ with n = 0.|M
+M|The central fringe in Young's experiment is|bright|dark|coloured always|absent|1|The path difference is zero.|M
+N|In Young's experiment, λ = 600 nm, d = 0.5 mm and D = 1 m. Find the fringe width in mm.|1.2|λD/d = 600 × 10⁻⁹/0.5 × 10⁻³.|M|600e-9*1/0.5e-3*1000
+N|In Young's experiment, d = 1 mm, D = 2 m and the fringe width is 1 mm. Find the wavelength in nm.|500|λ = βd/D.|M|1e-3*1e-3/2*1e9
+N|A grating has 5000 lines per cm. Find the grating element d in μm.|2|d = 1/5000 cm = 2 × 10⁻⁴ cm.|M|1/5000*10000
+N|A grating has d = 2 μm. Light of wavelength 500 nm is used. Find sin θ for the first order maximum.|0.25|sin θ = λ/d.|M|500e-9/2e-6
+N|A grating has d = 2 μm. Light of wavelength 500 nm is used. Find the angle in degrees of the first maximum to one decimal.|14.5|sin⁻¹ 0.25.|H|Math.asin(0.25)*180/3.14159265
+N|The intensity of polarised light is 100 W/m². After passing through an analyser at 60° it becomes what in W/m²?|25|100 cos² 60°.|M|100*0.25
+N|The refractive index of glass is 1.5. Find the Brewster angle in degrees to one decimal place.|56.3|tan θ = 1.5.|H|Math.atan(1.5)*180/3.14159265
+N|Unpolarised light of intensity 80 W/m² passes through a polariser. Find the transmitted intensity in W/m².|40|Half.|M|80/2
+N|Light of wavelength 589 nm has a frequency of what, in units of 10¹⁴ Hz, to two decimal places?|5.09|c/λ.|H|3e8/589e-9/1e14
+N|Find the path difference in nm for the third bright fringe if λ = 500 nm.|1500|nλ.|M|3*500
+N|Find the path difference in nm for the first dark fringe if λ = 600 nm.|300|λ/2.|M|600/2
+N|The fringe width is 2 mm for λ = 500 nm. Find the fringe width in mm for λ = 600 nm with everything else unchanged.|2.4|β ∝ λ.|M|2*600/500
+N|The fringe width is 2 mm. If D is doubled, find the new fringe width in mm.|4|β ∝ D.|M|2*2
+N|In a thin film experiment, find the minimum film thickness in nm for constructive reflection of 600 nm light with n = 1.5 at normal incidence (t = λ/4n).|100|600/(4 × 1.5).|H|600/(4*1.5)
+S|State Huygens' principle.|Every point on a wavefront acts as a source of secondary spherical wavelets, and the new wavefront is the envelope of these wavelets.|It explains reflection and refraction.|M
+S|State the conditions for sustained interference of light.|The sources must be coherent, of the same frequency, and have a constant phase difference, with nearly equal amplitudes.|Young used two slits lit by one source.|M
+S|Derive the fringe width in Young's double slit experiment.|The path difference at a point y from the centre is yd/D. For bright fringes yd/D = nλ, so the separation of successive fringes is β = λD/d.|D is the screen distance.|H
+S|State Malus' law.|The intensity of plane polarised light transmitted through an analyser is I = I₀ cos²θ, where θ is the angle between the transmission axes.|It shows that light is a transverse wave.|M
+S|Explain diffraction of light.|The bending and spreading of light waves when they pass the edge of an obstacle or through a narrow slit, which produces a pattern of bright and dark fringes.|It is most marked when the opening is comparable to the wavelength.|M

@@ -1,0 +1,158 @@
+@level 2nd Year
+@subject Mathematics
+
+# 4 Integration
+M|Integration is the reverse process of|differentiation|multiplication|addition|limits|1|The integral is the antiderivative.|E
+M|∫xⁿ dx (n ≠ −1) equals|xⁿ⁺¹/(n + 1) + c|n xⁿ⁻¹ + c|xⁿ/n + c|xⁿ⁺¹ + c|1|The power rule for integrals.|E
+M|∫1/x dx equals|ln ∣x∣ + c|1/x² + c|x + c|eˣ + c|1|The case n = −1.|E
+M|∫eˣ dx equals|eˣ + c|eˣ⁺¹ + c|x eˣ + c|ln x + c|1|It is its own integral.|E
+M|∫aˣ dx equals|aˣ/ln a + c|aˣ ln a + c|aˣ + c|x aˣ⁻¹ + c|1|For a > 0, a ≠ 1.|M
+M|∫sin x dx equals|−cos x + c|cos x + c|sin x + c|−sin x + c|1|The derivative of −cos x is sin x.|E
+M|∫cos x dx equals|sin x + c|−sin x + c|cos x + c|−cos x + c|1|The derivative of sin x is cos x.|E
+M|∫sec²x dx equals|tan x + c|sec x + c|−cot x + c|sec x tan x + c|1|The derivative of tan x is sec²x.|M
+M|∫cosec²x dx equals|−cot x + c|cot x + c|tan x + c|−tan x + c|1|The derivative of −cot x is cosec²x.|M
+M|∫1/(1 + x²) dx equals|tan⁻¹x + c|sin⁻¹x + c|ln(1 + x²) + c|1/x + c|1|A standard integral.|M
+M|∫1/√(1 − x²) dx equals|sin⁻¹x + c|cos⁻¹x + c|tan⁻¹x + c|ln x + c|1|A standard integral.|M
+M|The constant c in an indefinite integral is called|the constant of integration|the limit|the slope|the area|1|It is arbitrary.|E
+M|∫k f(x) dx equals|k ∫f(x) dx|∫f(x) dx + k|k + ∫f(x) dx|f(x) dx/k|1|A constant factor can be taken out.|E
+M|∫[f(x) + g(x)] dx equals|∫f dx + ∫g dx|∫f dx × ∫g dx|∫f dx − ∫g dx|f + g|1|The integral of a sum is the sum of integrals.|E
+M|∫f′(x)/f(x) dx equals|ln ∣f(x)∣ + c|f(x) + c|1/f(x) + c|f′(x) ln x|1|The logarithmic form.|M
+M|Integration by parts uses the formula|∫u dv = uv − ∫v du|∫u dv = uv + ∫v du|∫u dv = u ∫v|∫u dv = u′v′|1|From the product rule.|M
+M|∫x eˣ dx equals|(x − 1)eˣ + c|x eˣ + c|(x + 1)eˣ + c|eˣ/x + c|1|By parts with u = x.|H
+M|∫ln x dx equals|x ln x − x + c|1/x + c|x ln x + c|ln x²/2 + c|1|By parts with u = ln x and dv = dx.|H
+M|The substitution u = x² can be used for|∫2x eˣ² dx|∫eˣ dx|∫1/x dx|∫sin x dx|1|Then du = 2x dx.|M
+M|∫(2x + 3)⁵ dx equals|(2x + 3)⁶/12 + c|(2x + 3)⁶/6 + c|5(2x + 3)⁴ + c|(2x + 3)⁶ + c|1|Substitute u = 2x + 3 and du = 2 dx.|M
+M|∫e^(2x) dx equals|e^(2x)/2 + c|2 e^(2x) + c|e^(2x) + c|e^(x²) + c|1|Substitute u = 2x.|M
+M|∫sin 3x dx equals|−(cos 3x)/3 + c|(cos 3x)/3 + c|−3 cos 3x + c|3 cos 3x + c|1|Substitute u = 3x.|M
+M|The definite integral ∫ₐᵇ f(x) dx equals|F(b) − F(a)|F(a) − F(b)|F(b) + F(a)|F(b)F(a)|1|The Fundamental Theorem of Calculus.|M
+M|∫ₐᵃ f(x) dx equals|0|f(a)|a|1|1|The interval has zero width.|M
+M|∫ₐᵇ f(x) dx equals|−∫ᵦᵃ f(x) dx|∫ᵦᵃ f(x) dx|0|f(b) − f(a)|1|Reversing the limits changes the sign.|M
+M|The area under the curve y = f(x) from x = a to x = b (with f ≥ 0) is|∫ₐᵇ f(x) dx|f(b) − f(a)|f(a)(b − a)|∫ f′(x) dx|1|The definite integral.|M
+M|For an odd function f, ∫₋ₐᵃ f(x) dx equals|0|2 ∫₀ᵃ f(x) dx|a|f(a)|1|The areas cancel.|H
+M|For an even function f, ∫₋ₐᵃ f(x) dx equals|2 ∫₀ᵃ f(x) dx|0|∫₀ᵃ f(x) dx|−∫₀ᵃ f(x) dx|1|The areas add.|H
+M|∫ sin²x dx equals|x/2 − (sin 2x)/4 + c|x/2 + (sin 2x)/4 + c|sin³x/3 + c|−cos²x/2 + c|1|Use sin²x = (1 − cos 2x)/2.|H
+M|The area between two curves y = f(x) and y = g(x) with f ≥ g from a to b is|∫ₐᵇ [f(x) − g(x)] dx|∫ₐᵇ [f(x) + g(x)] dx|∫ₐᵇ f(x)g(x) dx|f(b) − g(a)|1|Top minus bottom.|M
+M|∫ 1/(x − 1) dx equals|ln ∣x − 1∣ + c|1/(x − 1)² + c|(x − 1)² + c|ln x + c|1|A logarithmic integral.|M
+M|The integral of a rational function is found by|partial fractions|differentiating|setting x = 0|squaring|1|It splits into simple integrals.|M
+M|If dy/dx = 2x and y = 3 when x = 0, then y equals|x² + 3|x²|2x + 3|x² − 3|1|Integrate and use the condition.|M
+N|Evaluate ∫₀² x² dx as a decimal to three places.|2.667|[x³/3] from 0 to 2 = 8/3.|M|8/3
+N|Evaluate ∫₀^π sin x dx.|2|[−cos x] = 1 + 1 = 2.|M|1+1
+N|Evaluate ∫₁^e 1/x dx.|1|[ln x] = 1 − 0 = 1.|M|1-0
+N|Evaluate ∫₀¹ eˣ dx as a decimal to three places.|1.718|e − 1 = 1.718.|M|Math.exp(1)-1
+N|Evaluate ∫₀¹ (3x² + 2x) dx.|2|[x³ + x²] = 1 + 1 = 2.|E|1+1
+N|Evaluate ∫₁³ 2x dx.|8|[x²] = 9 − 1 = 8.|E|9-1
+N|Evaluate ∫₀^(π/2) cos x dx.|1|[sin x] = 1.|M|1
+N|Find the area in square units under y = x² from x = 0 to x = 3.|9|[x³/3] = 27/3 = 9.|M|27/3
+N|Find the area in square units under y = 4 − x² from x = −2 to x = 2 as a decimal to two places.|10.67|[4x − x³/3] = 16 − 16/3 = 32/3.|H|32/3
+N|Evaluate ∫₀² (x + 1) dx.|4|[x²/2 + x] = 2 + 2 = 4.|E|2+2
+N|Evaluate ∫₁² 1/x² dx.|0.5|[−1/x] = −1/2 + 1.|M|-1/2+1
+N|Evaluate ∫₀¹ 1/(1 + x²) dx as a decimal to three places.|0.785|tan⁻¹ 1 = π/4.|M|3.14159265/4
+N|Evaluate ∫₀² 3 dx.|6|3 × 2 = 6.|E|3*2
+N|Evaluate ∫₀^(π/2) sin x dx.|1|[−cos x] = 0 + 1 = 1.|M|0+1
+S|State the Fundamental Theorem of Calculus.|If F′(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) − F(a).|It links integration and differentiation.|M
+S|State the formula for integration by parts.|∫u dv = uv − ∫v du.|It follows from the product rule.|M
+S|Evaluate ∫(3x² + 2x + 1) dx.|x³ + x² + x + c|Integrate term by term with the power rule.|E
+S|State three properties of definite integrals.|∫ₐᵃ f = 0, ∫ₐᵇ f = −∫ᵦᵃ f, and ∫ₐᵇ f = ∫ₐᶜ f + ∫ᶜᵇ f.|They are used to simplify integrals.|M
+S|Find the area between y = x and y = x² from x = 0 to x = 1.|1/6|∫(x − x²) dx = 1/2 − 1/3 = 1/6.|H
+S|Evaluate ∫ x eˣ dx by parts.|(x − 1)eˣ + c|Take u = x and dv = eˣ dx.|H
+
+# 5 Introduction to Analytic Geometry
+M|The distance between points (x₁, y₁) and (x₂, y₂) is|√((x₂ − x₁)² + (y₂ − y₁)²)|(x₂ − x₁) + (y₂ − y₁)|(x₂ − x₁)(y₂ − y₁)|x₂ + y₂|1|The distance formula.|E
+M|The mid-point of the segment joining (x₁, y₁) and (x₂, y₂) is|((x₁ + x₂)/2, (y₁ + y₂)/2)|(x₁ − x₂, y₁ − y₂)|(x₁x₂, y₁y₂)|((x₁ − x₂)/2, (y₁ − y₂)/2)|1|The average of the coordinates.|E
+M|The slope of the line through (x₁, y₁) and (x₂, y₂) is|(y₂ − y₁)/(x₂ − x₁)|(x₂ − x₁)/(y₂ − y₁)|y₂ − y₁|x₂/y₂|1|Rise over run.|E
+M|The slope-intercept form of a line is|y = mx + c|y − y₁ = m(x − x₁)|x/a + y/b = 1|ax + by + c = 0|1|m is the slope and c the y-intercept.|E
+M|The point-slope form of a line is|y − y₁ = m(x − x₁)|y = mx + c|x/a + y/b = 1|ax + by = c|1|It uses a point and the slope.|E
+M|The intercept form of a line is|x/a + y/b = 1|y = mx + c|y − y₁ = m(x − x₁)|ax + by = 0|1|The intercepts are a and b.|M
+M|The slope of the line ax + by + c = 0 is|−a/b|a/b|−b/a|b/a|1|Solve for y.|M
+M|Two lines are parallel if|their slopes are equal|the product of their slopes is −1|their slopes are opposite|they meet at one point|1|m₁ = m₂.|E
+M|Two lines are perpendicular if|m₁ m₂ = −1|m₁ = m₂|m₁ + m₂ = 0|m₁ = 1/m₂|1|The product of slopes is −1.|E
+M|The angle θ between two lines with slopes m₁ and m₂ satisfies tan θ =|∣(m₁ − m₂)/(1 + m₁m₂)∣|(m₁ + m₂)/(1 − m₁m₂)|m₁m₂|m₁ − m₂|1|The angle formula.|M
+M|The perpendicular distance from (x₁, y₁) to ax + by + c = 0 is|∣ax₁ + by₁ + c∣/√(a² + b²)|(ax₁ + by₁ + c)/(a² + b²)|∣ax₁ + by₁∣|√(ax₁ + by₁ + c)|1|The distance formula for a line.|M
+M|The slope of a horizontal line is|0|1|undefined|−1|1|It does not rise.|E
+M|The slope of a vertical line is|undefined|0|1|∞ as a number|1|The run is zero.|E
+M|The equation of the x-axis is|y = 0|x = 0|y = x|x + y = 0|1|Every point has y = 0.|E
+M|The equation of the line parallel to the y-axis through (3, 5) is|x = 3|y = 5|y = 3|x = 5|1|It is vertical.|E
+M|The equation of the line through the origin with slope 2 is|y = 2x|y = x + 2|y = x/2|x = 2y + 1|1|c = 0.|E
+M|The area of a triangle with vertices (x₁, y₁), (x₂, y₂) and (x₃, y₃) is|½ ∣x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)∣|∣x₁y₁ + x₂y₂ + x₃y₃∣|(x₁ + x₂ + x₃)/3|x₁x₂x₃|1|The determinant formula.|M
+M|Three points are collinear if the area of the triangle they form is|zero|one|negative|infinite|1|They lie on a line.|M
+M|The coordinates of the point dividing the segment joining (x₁, y₁) and (x₂, y₂) internally in the ratio m : n are|((mx₂ + nx₁)/(m + n), (my₂ + ny₁)/(m + n))|((mx₁ + nx₂)/(m + n), (my₁ + ny₂)/(m + n))|((x₁ + x₂)/2, (y₁ + y₂)/2)|(mx₂ − nx₁, my₂ − ny₁)|1|The section formula.|M
+M|The centroid of a triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃) is|((x₁ + x₂ + x₃)/3, (y₁ + y₂ + y₃)/3)|((x₁ + x₂)/2, (y₁ + y₂)/2)|(x₁x₂x₃, y₁y₂y₃)|(x₁ + x₂ + x₃, y₁ + y₂ + y₃)|1|The mean of the vertices.|M
+M|The point of intersection of two lines is found by|solving their equations simultaneously|adding the slopes|multiplying the slopes|equating the intercepts|1|The common solution.|M
+M|The lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are parallel if|a₁/a₂ = b₁/b₂|a₁a₂ + b₁b₂ = 0|a₁ = a₂ only|c₁ = c₂|1|Equal slopes.|M
+M|The lines a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0 are perpendicular if|a₁a₂ + b₁b₂ = 0|a₁/a₂ = b₁/b₂|a₁b₂ = a₂b₁|c₁c₂ = 0|1|The slopes multiply to −1.|M
+M|The inclination of a line is|the angle it makes with the positive x-axis|its slope|its length|its y-intercept|1|The slope is the tangent of the inclination.|M
+M|The slope of a line with inclination 45° is|1|0|√3|undefined|1|tan 45° = 1.|E
+M|The equation of a family of lines through the intersection of L₁ = 0 and L₂ = 0 is|L₁ + kL₂ = 0|L₁L₂ = 0|L₁ − L₂ = 1|kL₁ = L₂|1|A pencil of lines.|H
+M|Three lines are concurrent if|they pass through one point|they are parallel|they are perpendicular|they have equal slopes|1|They share a common point.|M
+M|The lines y = 2x + 1 and y = 2x − 3 are|parallel|perpendicular|coincident|intersecting at the origin|1|The slopes are equal.|E
+M|The lines y = 2x and y = −x/2 are|perpendicular|parallel|coincident|equal|1|2 × (−1/2) = −1.|M
+M|The distance of the origin from the line x + y = 2 is|√2|2|1|2√2|1|∣−2∣/√2 = √2.|H
+N|Find the distance between (1, 2) and (4, 6).|5|√(9 + 16) = 5.|E|Math.sqrt(9+16)
+N|Find the slope of the line through (1, 2) and (3, 8).|3|(8 − 2)/(3 − 1) = 3.|E|(8-2)/(3-1)
+N|Find the slope of the line 2x + 3y = 6 as a decimal to two places.|-0.67|The slope is −2/3.|M|-2/3
+N|Find the x-intercept of 2x + 3y = 6.|3|Put y = 0: x = 3.|E|6/2
+N|Find the y-intercept of 2x + 3y = 6.|2|Put x = 0: y = 2.|E|6/3
+N|Find the distance from (3, 4) to the line 3x + 4y − 5 = 0.|4|∣9 + 16 − 5∣/5 = 4.|M|Math.abs(9+16-5)/Math.sqrt(9+16)
+N|Find the area of the triangle with vertices (0, 0), (4, 0) and (0, 3).|6|½ × 4 × 3 = 6.|M|0.5*4*3
+N|Find the angle in degrees between the lines with slopes 1 and 0.|45|tan θ = 1.|M|45
+N|Find the mid-point x-coordinate of (2, 3) and (8, 7).|5|(2 + 8)/2 = 5.|E|(2+8)/2
+N|Find the point that divides (1, 2) and (7, 8) in the ratio 1 : 2, giving the x-coordinate.|3|(1 × 7 + 2 × 1)/3 = 3.|H|(1*7+2*1)/3
+N|Find the centroid's x-coordinate for vertices (0, 0), (6, 0) and (0, 6).|2|(0 + 6 + 0)/3 = 2.|M|(0+6+0)/3
+N|Find the slope of a line perpendicular to a line with slope 2, as a decimal.|-0.5|−1/2.|M|-1/2
+N|Find k so that the lines y = 3x + 1 and y = kx − 2 are parallel.|3|The slopes must be equal.|E|3
+N|Find the value of c so that the line y = 2x + c passes through (1, 5).|3|5 = 2 + c.|M|5-2
+S|State the distance formula and the mid-point formula.|d = √((x₂ − x₁)² + (y₂ − y₁)²) and the mid-point is ((x₁ + x₂)/2, (y₁ + y₂)/2).|They are used in coordinate geometry.|E
+S|State the conditions for two lines to be parallel and perpendicular.|They are parallel if m₁ = m₂ and perpendicular if m₁m₂ = −1.|The slopes are used.|E
+S|Write the equation of the line through (2, 3) with slope 4.|y − 3 = 4(x − 2), that is y = 4x − 5.|Point-slope form.|M
+S|State the formula for the distance of a point from a line.|The distance of (x₁, y₁) from ax + by + c = 0 is ∣ax₁ + by₁ + c∣/√(a² + b²).|It is the perpendicular distance.|M
+S|State the formula for the area of a triangle in coordinates.|Area = ½ ∣x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)∣.|Zero area means the points are collinear.|M
+S|Find the angle between the lines y = x and y = 0.|45°|tan θ = ∣(1 − 0)/(1 + 0)∣ = 1.|M
+
+# 6 Linear Inequalities and Linear Programming
+M|A linear inequality in two variables has the form|ax + by + c < 0 (or ≤, >, ≥)|ax² + by + c = 0|ax + b = 0|xy = c|1|The boundary is a straight line.|E
+M|The graph of the boundary line of ax + by + c ≤ 0 is drawn|solid, because the points on it are included|dashed, because they are not included|as a curve|as a point|1|With ≤ or ≥ the line is included.|M
+M|The graph of the boundary line of ax + by + c < 0 is drawn|dashed|solid|as a curve|as a point|1|With < or > the line is not included.|M
+M|The solution of an inequality in two variables is represented by|a half-plane|a point|a curve|a line|1|The region on one side of the line.|M
+M|To decide which side of the line to shade, we use|a test point such as the origin|the slope only|the intercept only|the colour|1|Substitute it in the inequality.|M
+M|The region satisfying all constraints of a linear programming problem is called|the feasible region|the infeasible region|the objective|the optimum|1|It is the common region of all half-planes.|M
+M|A feasible solution is a point which|satisfies all the constraints|satisfies only one constraint|lies outside the region|has the largest value|1|It lies in the feasible region.|M
+M|The function to be maximised or minimised is called|the objective function|the constraint|the feasible region|the vertex|1|For example z = 3x + 2y.|M
+M|The constraints x ≥ 0 and y ≥ 0 are called|non-negativity constraints|objective functions|vertices|optimal solutions|1|They restrict the region to the first quadrant.|M
+M|A convex region is one in which|the line segment between any two points of the region lies in it|any two points lie outside|there are no vertices|it is a circle only|1|It has no indentations.|M
+M|The corner points of the feasible region are called|vertices|constraints|intercepts|slopes|1|They are intersections of boundary lines.|M
+M|The optimal value of a linear objective function occurs at|a vertex of the feasible region|the centre of the region|any interior point|the origin always|1|The corner point theorem.|M
+M|If the feasible region is bounded, the objective function|attains both a maximum and a minimum|has no maximum|has no minimum|is constant|1|On a closed bounded region.|H
+M|The first step in solving a linear programming problem is to|write the constraints and the objective function|find the maximum|draw the answer|shade the origin|1|Formulate the problem.|M
+M|The point (1, 1) satisfies the inequality x + y < 3 because|1 + 1 = 2 < 3|1 + 1 = 3|1 + 1 > 3|1 < 3 only|1|Substitute the values.|E
+M|The point (2, 2) does not satisfy the inequality x + y < 3 because|2 + 2 = 4, which is not less than 3|2 + 2 = 3|2 + 2 < 3|2 < 3|1|Check by substitution.|E
+M|The boundary line of x + y ≤ 4 meets the axes at|(4, 0) and (0, 4)|(2, 0) and (0, 2)|(1, 0) and (0, 1)|(0, 0) only|1|Put y = 0 and x = 0.|E
+M|The region x ≥ 0, y ≥ 0, x + y ≤ 4 is a|triangle|square|circle|line|1|With vertices (0, 0), (4, 0) and (0, 4).|M
+M|The system x + y ≤ 4 and x + y ≥ 6 has|no solution|one solution|a bounded region|a triangle region|1|The conditions contradict each other.|H
+M|An unbounded feasible region|extends indefinitely in some direction|has no vertices at all|is always empty|is always a triangle|1|It may have no maximum.|H
+M|In a maximisation problem, the objective function z = ax + by is evaluated at|each vertex of the feasible region|the origin only|any one point|the centre|1|Compare the values.|M
+M|A linear programming problem has|a linear objective function and linear constraints|a quadratic objective function|non-linear constraints|no constraints|1|All expressions are linear.|E
+M|The point of intersection of x + y = 4 and x − y = 2 is|(3, 1)|(1, 3)|(2, 2)|(4, 0)|1|Add the equations: 2x = 6.|M
+M|The solution set of the inequality 2x + 3 > 7 on the number line is|x > 2|x < 2|x > 5|x < 5|1|2x > 4.|E
+M|If a constraint is x ≤ 5, the boundary line is|a vertical line x = 5|a horizontal line y = 5|a line through the origin|a curve|1|It is parallel to the y-axis.|E
+M|A redundant constraint is one that|does not change the feasible region|gives the maximum|makes the region empty|is the objective|1|It lies outside the other constraints.|H
+M|The shaded region of y ≥ x is|above the line y = x|below the line y = x|on the x-axis|a point|1|The points with y at least x.|M
+N|Find the vertices of the region x ≥ 0, y ≥ 0, x + y ≤ 4. Give the area in square units.|8|The triangle has base 4 and height 4: ½ × 4 × 4 = 8.|M|0.5*4*4
+N|Find the value of z = 3x + 2y at the point (4, 0).|12|3 × 4 + 0 = 12.|E|3*4+2*0
+N|Find the value of z = 3x + 2y at the point (0, 4).|8|0 + 2 × 4 = 8.|E|3*0+2*4
+N|Find the value of z = 3x + 2y at the point (2, 2).|10|6 + 4 = 10.|E|3*2+2*2
+N|Find the maximum of z = 3x + 2y over the vertices (0, 0), (4, 0), (2, 2) and (0, 4).|12|The values are 0, 12, 10 and 8.|M|12
+N|Find the minimum of z = x + y over the vertices (1, 2), (3, 1) and (2, 4).|3|The values are 3, 4 and 6.|M|1+2
+N|Find the intersection of x + y = 5 and x − y = 1 and give the x-coordinate.|3|Add: 2x = 6.|M|6/2
+N|Find the intersection of x + y = 5 and x − y = 1 and give the y-coordinate.|2|y = 5 − 3 = 2.|M|5-3
+N|A factory makes tables (x) and chairs (y) with profit 50x + 30y. At (4, 6) the profit is|380|50 × 4 + 30 × 6 = 380.|M|50*4+30*6
+N|Find the maximum of 2x + 5y at the vertices (0, 0), (6, 0), (3, 4) and (0, 5).|26|The values are 0, 12, 26 and 25.|M|2*3+5*4
+N|Find the number of vertices of the feasible region of x ≥ 0, y ≥ 0, x + y ≤ 4 and x ≤ 3.|4|The vertices are (0, 0), (3, 0), (3, 1) and (0, 4).|H|4
+N|Find the area in square units of the region x ≥ 0, y ≥ 0, x ≤ 2 and y ≤ 3.|6|It is a rectangle 2 by 3.|M|2*3
+N|Find the value of y at which 2x + y = 8 meets the y-axis.|8|Put x = 0.|E|8
+N|Find the x-intercept of the line 3x + 4y = 12.|4|Put y = 0.|E|12/3
+S|Define a feasible region and an objective function.|The feasible region is the set of points satisfying all the constraints. The objective function is the linear function to be maximised or minimised.|The optimum occurs at a vertex.|M
+S|State the corner point theorem for linear programming.|If the feasible region is bounded, the objective function attains its maximum and minimum at vertices of the region.|It reduces the work to checking vertices.|M
+S|Describe how to graph the inequality 2x + y ≤ 6.|Draw the line 2x + y = 6 as a solid line and shade the side that contains the origin, because 0 ≤ 6 is true.|The test point decides the side.|M
+S|Write the constraints of a problem: a shop sells x notebooks and y pens, with at most 20 items in total and at least 5 pens.|x + y ≤ 20, y ≥ 5, x ≥ 0 and y ≥ 0.|Constraints are inequalities.|M
+S|What is meant by a convex region?|A region such that the line segment joining any two of its points lies completely in it.|Feasible regions of linear programmes are convex.|M
+S|State the steps in solving a linear programming problem.|Formulate the constraints and objective function, graph the feasible region, find its vertices, and evaluate the objective function at each vertex to choose the optimum.|The graphical method.|M

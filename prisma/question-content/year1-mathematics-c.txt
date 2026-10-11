@@ -1,0 +1,160 @@
+@level 1st Year
+@subject Mathematics
+
+# 7 Permutation, Combination and Probability
+M|The factorial n! is defined as|n(n − 1)(n − 2) ... 3 × 2 × 1|n + (n − 1) + ... + 1|n²|n(n + 1)/2|1|It is the product of the first n natural numbers.|E
+M|The value of 0! is|1|0|undefined|−1|1|By definition 0! = 1.|E
+M|The fundamental principle of counting says that if one task can be done in m ways and another in n ways, the two together can be done in|m × n ways|m + n ways|m − n ways|m/n ways|1|The multiplication principle.|E
+M|The number of permutations of n different things taken r at a time is|n!/(n − r)!|n!/r!|n!/(r!(n − r)!)|nʳ|1|nPr = n!/(n − r)!.|M
+M|The number of combinations of n things taken r at a time is|n!/(r!(n − r)!)|n!/(n − r)!|nʳ|n!/r!|1|nCr = n!/(r!(n − r)!).|M
+M|The relation between nPr and nCr is|nPr = r! × nCr|nPr = nCr/r!|nPr = nCr + r|nPr = nCr|1|Permutations count the orderings too.|M
+M|nCr equals|nC(n − r)|nCr + 1|n × r|(n − 1)Cr|1|Choosing r is the same as leaving n − r.|M
+M|The Pascal identity is|nCr + nC(r − 1) = (n + 1)Cr|nCr − nC(r − 1) = (n + 1)Cr|nCr × nC(r − 1) = (n + 1)Cr|nCr = nPr|1|It builds Pascal's triangle.|H
+M|The number of circular arrangements of n different objects is|(n − 1)!|n!|n|n/2|1|Rotations of the same arrangement are the same.|M
+M|The number of permutations of n things of which p are alike of one kind and q alike of another is|n!/(p! q!)|n!/(p + q)!|n!|p! q!|1|Divide by the repeated arrangements.|M
+M|The number of permutations of n different things taken all at a time is|n!|n|nⁿ|2ⁿ|1|nPn = n!.|E
+M|The number of ways of choosing 2 things from 5 different things is|10|20|5|25|1|5C2 = 10.|E
+M|The probability of an event A is|n(A)/n(S) for equally likely outcomes|n(S)/n(A)|n(A) + n(S)|1 − n(A)|1|The ratio of favourable to total outcomes.|E
+M|The probability of a certain event is|1|0|1/2|undefined|1|It always occurs.|E
+M|The probability of an impossible event is|0|1|1/2|−1|1|It never occurs.|E
+M|The probability of the complement of A is|1 − P(A)|P(A) − 1|P(A)|0|1|P(A′) = 1 − P(A).|E
+M|Two events are mutually exclusive if|they cannot occur together|they always occur together|one of them is certain|one of them is impossible|1|P(A ∩ B) = 0.|M
+M|For mutually exclusive events A and B, P(A ∪ B) equals|P(A) + P(B)|P(A)P(B)|P(A) − P(B)|P(A)/P(B)|1|The addition rule.|M
+M|For any two events A and B, P(A ∪ B) equals|P(A) + P(B) − P(A ∩ B)|P(A) + P(B)|P(A)P(B)|P(A) − P(B)|1|The general addition law.|M
+M|Two events A and B are independent if|P(A ∩ B) = P(A)P(B)|P(A ∩ B) = 0|P(A) = P(B)|P(A ∪ B) = 1|1|The occurrence of one does not affect the other.|M
+M|The conditional probability P(A∣B) is|P(A ∩ B)/P(B)|P(A)P(B)|P(A) + P(B)|P(B)/P(A)|1|Given that B has occurred.|H
+M|The sample space for tossing a coin twice has|4 outcomes|2 outcomes|3 outcomes|8 outcomes|1|HH, HT, TH, TT.|E
+M|The sample space for throwing a die has|6 outcomes|2 outcomes|12 outcomes|36 outcomes|1|The numbers 1 to 6.|E
+M|The sample space for throwing two dice has|36 outcomes|12 outcomes|6 outcomes|18 outcomes|1|6 × 6 = 36.|E
+M|The number of cards in a standard pack is|52|48|56|36|1|Four suits of 13 cards.|E
+M|The number of aces in a standard pack is|4|13|1|2|1|One in each suit.|E
+M|The probability of drawing a heart from a standard pack is|1/4|1/13|1/2|1/52|1|13 of the 52 cards.|M
+M|The odds in favour of an event A with probability P are|P : (1 − P)|(1 − P) : P|P : 1|1 : P|1|Favourable to unfavourable.|H
+M|The number of diagonals of an n-sided polygon is|nC2 − n|nC2|n(n + 1)/2|n²|1|Pairs of vertices minus the sides.|H
+M|The value of nC0 is|1|0|n|n!|1|There is exactly one way to choose nothing.|M
+M|The value of nCn is|1|n|0|n!|1|There is one way to choose everything.|M
+N|Find the value of 5!.|120|5 × 4 × 3 × 2 × 1 = 120.|E|5*4*3*2*1
+N|Find the value of 6P2.|30|6 × 5 = 30.|E|6*5
+N|Find the value of 8C3.|56|8 × 7 × 6/(3 × 2 × 1) = 56.|M|8*7*6/6
+N|Find the value of 10C2.|45|10 × 9/2 = 45.|E|10*9/2
+N|Find the number of arrangements of the letters of the word LEVEL.|30|5!/(2! 2!) = 30.|M|120/4
+N|In how many ways can 5 persons sit round a circular table?|24|(5 − 1)! = 24.|M|4*3*2*1
+N|A committee of 3 is chosen from 7 persons. Find the number of ways.|35|7C3 = 35.|M|7*6*5/6
+N|Two dice are thrown. Find the probability that the sum is 7, to two decimal places.|0.17|6 outcomes of 36 give 7: 1/6 = 0.17.|M|6/36
+N|One card is drawn from a pack. Find the probability that it is an ace, to three decimal places.|0.077|4/52 = 0.077.|M|4/52
+N|A fair coin is tossed three times. Find the probability of three heads.|0.125|(1/2)³ = 1/8.|M|1/8
+N|Two dice are thrown. Find the probability that both show even numbers.|0.25|(3/6) × (3/6) = 1/4.|M|9/36
+N|The probability of rain is 0.3. Find the probability of no rain.|0.7|1 − 0.3 = 0.7.|E|1-0.3
+N|Find the value of 7P3.|210|7 × 6 × 5 = 210.|M|7*6*5
+N|Find the number of ways of arranging 4 different books on a shelf.|24|4! = 24.|E|4*3*2*1
+S|State the fundamental principle of counting.|If a task can be done in m ways and a second task in n ways, then both can be done in m × n ways.|It extends to more tasks.|E
+S|Distinguish between a permutation and a combination.|A permutation counts arrangements in which order matters. A combination counts selections in which order does not matter.|nPr = r! × nCr.|M
+S|Define mutually exclusive and independent events.|Mutually exclusive events cannot occur together. Independent events do not affect each other's probability, so P(A ∩ B) = P(A)P(B).|They are different ideas.|M
+S|State the addition law of probability.|P(A ∪ B) = P(A) + P(B) − P(A ∩ B).|For mutually exclusive events the last term is zero.|M
+S|Find the number of arrangements of the letters of the word MATH.|24|4! = 24, as all letters are different.|M
+S|Define probability of an event.|For a finite sample space with equally likely outcomes, the probability of an event A is n(A)/n(S).|It lies between 0 and 1.|E
+
+# 8 Mathematical Induction and Binomial Theorem
+M|The principle of mathematical induction is used to prove statements about|all natural numbers|only even numbers|only prime numbers|real numbers|1|It proves P(n) for every n.|E
+M|The first step of induction is the|basis step: show the statement true for n = 1|inductive step|conclusion|assumption for n = k + 1|1|The statement must hold for the first value.|E
+M|In the inductive step, we assume the statement is true for|n = k and prove it for n = k + 1|n = 1 only|n = k + 1 only|all n|1|The inductive hypothesis.|M
+M|The statement 1 + 2 + ... + n = n(n + 1)/2 can be proved by|mathematical induction|differentiation|integration|geometry only|1|It holds for all n ≥ 1.|M
+M|The binomial theorem gives the expansion of|(a + b)ⁿ|a × b|a/b|aⁿ + bⁿ|1|For positive integer n.|E
+M|The expansion of (a + b)ⁿ has|n + 1 terms|n terms|n − 1 terms|2n terms|1|The powers of b go from 0 to n.|E
+M|The general term (the (r + 1)th term) of (a + b)ⁿ is|nCr a^(n − r) b^r|nCr aʳ b^(n − r)|nPr a^(n − r) b^r|nCr a^r b^r|1|T(r + 1).|M
+M|The binomial coefficients nC0, nC1, ..., nCn are|symmetric about the middle|always increasing|always decreasing|all equal|1|nCr = nC(n − r).|M
+M|The sum of the binomial coefficients of (1 + x)ⁿ is|2ⁿ|n²|n|2n|1|Put x = 1.|M
+M|The sum of coefficients with alternating signs in (1 − x)ⁿ at x = 1 is|0|1|2ⁿ|n|1|(1 − 1)ⁿ = 0.|M
+M|Pascal's triangle gives|the binomial coefficients|the prime numbers|the squares|the factorials only|1|Each entry is the sum of the two above.|E
+M|The middle term of (a + b)ⁿ when n is even is the|(n/2 + 1)th term|(n/2)th term|nth term|(n + 1)th term|1|There is a single middle term.|M
+M|When n is odd, (a + b)ⁿ has|two middle terms|one middle term|no middle term|three middle terms|1|The ((n + 1)/2)th and ((n + 3)/2)th terms.|M
+M|The coefficient of x² in the expansion of (1 + x)ⁿ is|nC2|n|n²|2n|1|From the general term.|M
+M|The binomial theorem for a negative or fractional index n gives an|infinite series valid for ∣x∣ < 1|finite series for any x|series only for integers|series that never converges|1|(1 + x)ⁿ = 1 + nx + n(n − 1)x²/2! + ...|M
+M|For ∣x∣ < 1, (1 + x)⁻¹ is|1 − x + x² − x³ + ...|1 + x + x² + ...|1 − 2x + 3x²|1 + x|1|A geometric series.|M
+M|For small x, (1 + x)ⁿ is approximately|1 + nx|1 + x|nx|1|1|The first two terms.|M
+M|For ∣x∣ < 1, (1 − x)⁻¹ is|1 + x + x² + ...|1 − x + x² − ...|1 + 2x + 3x² + ...|1 − x|1|A geometric series.|M
+M|The expansion of √(1 + x) = (1 + x)^(1/2) begins|1 + x/2 − x²/8 + ...|1 + x + x²|1 − x/2|1 + 2x|1|n = 1/2 gives the coefficients 1/2 and (1/2)(−1/2)/2 = −1/8.|H
+M|In (1 + x)ⁿ, the term independent of x is|1|n|0|nCn|1|The first term.|E
+M|The statement 'n² + n is divisible by 2 for all n' can be proved by|induction|only by examples|geometry|trigonometry|1|n(n + 1) is always even.|M
+M|Induction proves a statement|for all natural numbers n ≥ the starting value|only for n = 1|only for even n|only for large n|1|Both steps are needed.|M
+M|The number of terms in the expansion of (x + y)⁸ is|9|8|7|16|1|n + 1 = 9.|E
+M|The greatest coefficient in the expansion of (1 + x)⁶ is|20|15|6|1|1|6C3 = 20.|M
+M|The coefficient of the last term in (a + b)ⁿ is|1|n|nC2|n!|1|It is nCn.|E
+M|(a − b)ⁿ has terms with signs|alternating|all positive|all negative|random|1|The odd powers of b carry a minus.|M
+M|The binomial theorem is valid for (a + b)ⁿ with n|a positive integer|any real number without conditions|a complex number only|zero only|1|For other n the series form applies.|M
+M|The value of (1.01)¹⁰ is approximately|1.105|1.1|1.2|1.01|1|1 + 0.1 + 0.0045 + ...|H
+M|In the expansion of (x + 1/x)ⁿ, the general term is|nCr x^(n − 2r)|nCr x^(n − r)|nCr x^(2r − n)|nCr xʳ|1|a = x and b = 1/x.|H
+N|Find the coefficient of x² in the expansion of (1 + x)⁵.|10|5C2 = 10.|M|5*4/2
+N|Find the 4th term of (x + 2)⁶ as a coefficient of x³.|160|T₄ = 6C3 x³ 2³ = 20 × 8 = 160x³.|H|20*8
+N|Find the sum of the binomial coefficients of (1 + x)⁷.|128|2⁷ = 128.|M|2^7
+N|Find the number of terms in the expansion of (a + b)¹².|13|n + 1 = 13.|E|12+1
+N|Find the middle term's binomial coefficient in (1 + x)⁶.|20|6C3 = 20.|M|6*5*4/6
+N|Use (1 + x)ⁿ ≈ 1 + nx + n(n − 1)x²/2 to evaluate (1.02)⁵ to three decimal places.|1.104|1 + 5(0.02) + 10(0.0004) = 1.104.|H|1+5*0.02+10*0.0004
+N|Find the coefficient of x³ in (1 + 2x)⁵.|80|5C3 × 2³ = 10 × 8 = 80.|H|10*8
+N|Find the value of 6C2 + 6C3.|35|It equals 7C3 = 35.|M|15+20
+N|Find the constant term in the expansion of (x + 1/x)⁴.|6|The middle term is 4C2 = 6.|H|4*3/2
+N|Find the coefficient of x² in (1 − x)⁻¹ = 1 + x + x² + ...|1|All the coefficients equal 1.|M|1
+N|Find the coefficient of x² in the series for (1 + x)^(1/2) as a decimal.|-0.125|(1/2)(−1/2)/2 = −1/8.|H|-1/8
+N|Find the sum of the coefficients in the expansion of (2 + 3x)⁴.|625|Put x = 1: 5⁴ = 625.|M|5^4
+N|Find the number of terms in (a + b + c)² after simplification, counting each distinct monomial.|6|The monomials are a², b², c², ab, bc, ca.|H|6
+S|State the principle of mathematical induction.|If a statement is true for n = 1 and its truth for n = k implies its truth for n = k + 1, then it is true for all natural numbers n.|Both steps are needed.|M
+S|State the binomial theorem for a positive integer n.|(a + b)ⁿ = Σ nCr a^(n − r) b^r for r from 0 to n.|The expansion has n + 1 terms.|M
+S|Write the general term of (a + b)ⁿ.|T(r + 1) = nCr a^(n − r) b^r|It is used to find a particular term.|M
+S|Expand (1 + x)⁴.|1 + 4x + 6x² + 4x³ + x⁴|The coefficients are 1, 4, 6, 4, 1.|M
+S|For what values of x is the series of (1 + x)ⁿ valid when n is not a positive integer?|For ∣x∣ < 1.|Then the series converges.|M
+S|Prove by induction that 1 + 2 + ... + n = n(n + 1)/2.|True for n = 1. If true for k, then adding k + 1 gives k(k + 1)/2 + (k + 1) = (k + 1)(k + 2)/2, which is the formula for k + 1.|Hence true for all n.|H
+
+# 9 Fundamentals of Trigonometry
+M|The radian measure of a straight angle is|π|2π|π/2|1|1|180° = π radians.|E
+M|The radian measure of a right angle is|π/2|π|2π|π/4|1|90° = π/2.|E
+M|To convert degrees to radians, multiply by|π/180|180/π|π|180|1|θ rad = θ° × π/180.|E
+M|To convert radians to degrees, multiply by|180/π|π/180|π|180|1|θ° = θ rad × 180/π.|E
+M|One radian is approximately|57.3°|180°|3.14°|1°|1|180/π ≈ 57.3.|M
+M|The length of a circular arc of radius r subtending an angle θ radians is|rθ|r/θ|r²θ|θ/r|1|s = rθ.|M
+M|The area of a sector of radius r and angle θ radians is|½ r²θ|rθ|r²θ|πr²|1|A = ½ r²θ.|M
+M|In a right triangle, sin θ equals|opposite/hypotenuse|adjacent/hypotenuse|opposite/adjacent|hypotenuse/opposite|1|Sine is opposite over hypotenuse.|E
+M|In a right triangle, cos θ equals|adjacent/hypotenuse|opposite/hypotenuse|opposite/adjacent|adjacent/opposite|1|Cosine is adjacent over hypotenuse.|E
+M|tan θ equals|sin θ/cos θ|cos θ/sin θ|sin θ cos θ|1/sin θ|1|Tangent is sine over cosine.|E
+M|sec θ equals|1/cos θ|1/sin θ|1/tan θ|cos θ|1|Secant is the reciprocal of cosine.|E
+M|cosec θ equals|1/sin θ|1/cos θ|1/tan θ|sin θ|1|Cosecant is the reciprocal of sine.|E
+M|The identity sin²θ + cos²θ equals|1|0|2|tan²θ|1|The basic Pythagorean identity.|E
+M|1 + tan²θ equals|sec²θ|cosec²θ|cot²θ|1|1|Divide the basic identity by cos²θ.|M
+M|1 + cot²θ equals|cosec²θ|sec²θ|tan²θ|1|1|Divide the basic identity by sin²θ.|M
+M|In the first quadrant, the trigonometric ratios are|all positive|only sine positive|only tangent positive|all negative|1|ASTC: all positive.|E
+M|In the second quadrant, the only positive ratio (with its reciprocal) is|sine|cosine|tangent|none|1|ASTC: sine is positive.|M
+M|In the third quadrant, the only positive ratio (with its reciprocal) is|tangent|sine|cosine|none|1|ASTC: tangent is positive.|M
+M|In the fourth quadrant, the only positive ratio (with its reciprocal) is|cosine|sine|tangent|none|1|ASTC: cosine is positive.|M
+M|The value of sin 30° is|1/2|√3/2|1/√2|1|1|From the 30-60-90 triangle.|E
+M|The value of cos 60° is|1/2|√3/2|1/√2|0|1|From the 30-60-90 triangle.|E
+M|The value of tan 45° is|1|0|√3|1/√3|1|The legs are equal.|E
+M|sin(180° − θ) equals|sin θ|−sin θ|cos θ|−cos θ|1|Sine is positive in the second quadrant.|M
+M|cos(180° − θ) equals|−cos θ|cos θ|sin θ|−sin θ|1|Cosine is negative in the second quadrant.|M
+M|sin(90° − θ) equals|cos θ|sin θ|−cos θ|tan θ|1|A complementary angle identity.|M
+M|sin(−θ) equals|−sin θ|sin θ|cos θ|−cos θ|1|Sine is an odd function.|M
+M|cos(−θ) equals|cos θ|−cos θ|sin θ|−sin θ|1|Cosine is an even function.|M
+M|The angle 135° in radians is|3π/4|2π/3|π/3|5π/6|1|135 × π/180 = 3π/4.|M
+M|The angle π/6 in degrees is|30°|60°|45°|90°|1|180/6 = 30.|E
+M|An angle of 2π radians is|a complete revolution|a right angle|a straight angle|zero|1|360°.|E
+M|The reference angle of 150° is|30°|60°|150°|45°|1|180° − 150° = 30°.|M
+M|The value of sin 90° is|1|0|−1|undefined|1|It is the maximum value of sine.|E
+M|The value of tan 90° is|undefined|0|1|∞ as a number|1|cos 90° = 0 makes tan undefined.|M
+N|Convert 60° to radians, as a decimal to three places.|1.047|60 × π/180 = π/3 = 1.047.|M|60*3.14159265/180
+N|Convert 2 radians to degrees, to two decimal places.|114.59|2 × 180/π = 114.59.|M|2*180/3.14159265
+N|An arc of a circle of radius 5 cm subtends 1.2 radians at the centre. Find its length in cm.|6|s = rθ = 5 × 1.2 = 6.|E|5*1.2
+N|Find the area in cm² of a sector of radius 10 cm and angle 0.5 radians.|25|A = ½ r²θ = ½ × 100 × 0.5 = 25.|M|0.5*100*0.5
+N|Find sin 30° as a decimal.|0.5|sin 30° = 1/2.|E|Math.sin(30*3.14159265/180)
+N|Find cos 60° as a decimal.|0.5|cos 60° = 1/2.|E|Math.cos(60*3.14159265/180)
+N|Find tan 45°.|1|The opposite and adjacent sides are equal.|E|Math.tan(45*3.14159265/180)
+N|Find sin 150° as a decimal.|0.5|sin 150° = sin 30° = 0.5.|M|Math.sin(150*3.14159265/180)
+N|Find cos 120° as a decimal.|-0.5|cos 120° = −cos 60° = −0.5.|M|Math.cos(120*3.14159265/180)
+N|Find tan 225°.|1|tan 225° = tan 45° = 1, since tangent is positive in the third quadrant.|H|Math.tan(225*3.14159265/180)
+N|If sin θ = 3/5 and θ is acute, find cos θ.|0.8|cos θ = √(1 − 9/25) = 4/5.|M|Math.sqrt(1-9/25)
+N|If sin θ = 3/5 and θ is acute, find tan θ as a decimal to two places.|0.75|tan θ = 3/4.|M|3/4
+N|The angle 75° is converted to radians. Find 75 × π/180 as a decimal to three places.|1.309|75π/180 = 5π/12 = 1.309.|M|75*3.14159265/180
+N|A wheel of radius 14 cm turns through 2 radians. Find the arc length in cm.|28|s = rθ = 14 × 2 = 28.|E|14*2
+S|Define a radian.|The angle subtended at the centre of a circle by an arc equal in length to the radius.|π radians equal 180°.|E
+S|State the formulae for the arc length and sector area.|s = rθ and A = ½ r²θ, with θ in radians.|θ must be in radians.|M
+S|State the three Pythagorean identities.|sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ and 1 + cot²θ = cosec²θ.|They follow from Pythagoras' theorem.|M
+S|State the signs of the trigonometric ratios in the four quadrants.|All are positive in the first quadrant, sine in the second, tangent in the third and cosine in the fourth.|Remember ASTC.|M
+S|Write sin(−θ), cos(−θ) and tan(−θ).|−sin θ, cos θ and −tan θ.|Sine and tangent are odd and cosine is even.|M
+S|Find the exact values of sin, cos and tan of 45°.|sin 45° = 1/√2, cos 45° = 1/√2 and tan 45° = 1.|The legs of the right isosceles triangle are equal.|M

@@ -1,0 +1,217 @@
+@level 1st Year
+@subject Mathematics
+
+# 10 Trigonometric Identities
+M|The formula for sin(α + β) is|sin α cos β + cos α sin β|sin α cos β − cos α sin β|cos α cos β − sin α sin β|sin α sin β + cos α cos β|1|The addition formula for sine.|E
+M|The formula for sin(α − β) is|sin α cos β − cos α sin β|sin α cos β + cos α sin β|cos α cos β + sin α sin β|sin α sin β − cos α cos β|1|The subtraction formula for sine.|E
+M|The formula for cos(α + β) is|cos α cos β − sin α sin β|cos α cos β + sin α sin β|sin α cos β + cos α sin β|sin α sin β − cos α cos β|1|The addition formula for cosine.|E
+M|The formula for cos(α − β) is|cos α cos β + sin α sin β|cos α cos β − sin α sin β|sin α cos β − cos α sin β|sin α sin β|1|The subtraction formula for cosine.|E
+M|The formula for tan(α + β) is|(tan α + tan β)/(1 − tan α tan β)|(tan α − tan β)/(1 + tan α tan β)|(tan α + tan β)/(1 + tan α tan β)|tan α tan β|1|The addition formula for tangent.|M
+M|The formula for tan(α − β) is|(tan α − tan β)/(1 + tan α tan β)|(tan α + tan β)/(1 − tan α tan β)|(tan α − tan β)/(1 − tan α tan β)|tan α − tan β|1|The subtraction formula for tangent.|M
+M|The double angle formula for sine is|sin 2α = 2 sin α cos α|sin 2α = 2 sin α|sin 2α = sin²α − cos²α|sin 2α = 1 − 2 sin²α|1|From sin(α + α).|E
+M|The double angle formula cos 2α equals|cos²α − sin²α|2 sin α cos α|cos²α + sin²α|1 + 2 sin²α|1|From cos(α + α).|E
+M|cos 2α is also equal to|2 cos²α − 1|2 sin²α − 1|1 + 2 cos²α|cos²α + sin²α|1|Using sin²α = 1 − cos²α.|M
+M|Another form of cos 2α is|1 − 2 sin²α|2 sin²α − 1|1 + 2 sin²α|2 sin α cos α|1|Using cos²α = 1 − sin²α.|M
+M|The double angle formula for tangent is|tan 2α = 2 tan α/(1 − tan²α)|tan 2α = 2 tan α|tan 2α = 2 tan α/(1 + tan²α)|tan 2α = tan α/(1 − tan²α)|1|From tan(α + α).|M
+M|sin²(α/2) equals|(1 − cos α)/2|(1 + cos α)/2|(1 − sin α)/2|1 − cos α|1|A half angle formula.|M
+M|cos²(α/2) equals|(1 + cos α)/2|(1 − cos α)/2|(1 + sin α)/2|1 + cos α|1|A half angle formula.|M
+M|The triple angle formula for sine is|sin 3α = 3 sin α − 4 sin³α|sin 3α = 4 sin³α − 3 sin α|sin 3α = 3 sin α|sin 3α = sin³α|1|From sin(2α + α).|H
+M|The triple angle formula for cosine is|cos 3α = 4 cos³α − 3 cos α|cos 3α = 3 cos α − 4 cos³α|cos 3α = 3 cos α|cos 3α = cos³α|1|From cos(2α + α).|H
+M|The product-to-sum formula 2 sin α cos β equals|sin(α + β) + sin(α − β)|sin(α + β) − sin(α − β)|cos(α + β) + cos(α − β)|cos(α − β) − cos(α + β)|1|From adding the two sine formulae.|M
+M|The product-to-sum formula 2 cos α cos β equals|cos(α + β) + cos(α − β)|cos(α − β) − cos(α + β)|sin(α + β) + sin(α − β)|cos(α + β) − cos(α − β)|1|From adding the cosine formulae.|M
+M|The product-to-sum formula 2 sin α sin β equals|cos(α − β) − cos(α + β)|cos(α + β) − cos(α − β)|sin(α + β) + sin(α − β)|cos(α + β) + cos(α − β)|1|From subtracting the cosine formulae.|M
+M|The sum-to-product formula sin A + sin B equals|2 sin((A + B)/2) cos((A − B)/2)|2 cos((A + B)/2) sin((A − B)/2)|2 cos((A + B)/2) cos((A − B)/2)|2 sin((A + B)/2) sin((A − B)/2)|1|A standard sum formula.|H
+M|The sum-to-product formula cos A + cos B equals|2 cos((A + B)/2) cos((A − B)/2)|2 sin((A + B)/2) sin((A − B)/2)|2 sin((A + B)/2) cos((A − B)/2)|−2 sin((A + B)/2) sin((A − B)/2)|1|A standard sum formula.|H
+M|The value of sin 75° is|(√6 + √2)/4|(√6 − √2)/4|√3/2|1/2|1|sin(45° + 30°).|H
+M|The value of cos 75° is|(√6 − √2)/4|(√6 + √2)/4|1/2|√3/2|1|cos(45° + 30°).|H
+M|The value of tan 75° is|2 + √3|2 − √3|√3|1/√3|1|tan(45° + 30°).|H
+M|The identity (1 − cos 2α)/2 equals|sin²α|cos²α|tan²α|1|1|From the half angle formula.|M
+M|The identity sin 2α/(1 + cos 2α) equals|tan α|cot α|sin α|cos α|1|2 sin α cos α/(2 cos²α).|H
+M|The identity 1 + cos 2α equals|2 cos²α|2 sin²α|cos²α|sin²α|1|From cos 2α = 2 cos²α − 1.|M
+M|The identity 1 − cos 2α equals|2 sin²α|2 cos²α|sin²α|cos²α|1|From cos 2α = 1 − 2 sin²α.|M
+M|cos²α − sin²α equals|cos 2α|sin 2α|1|tan 2α|1|The double angle formula.|E
+M|sin α cos α equals|(sin 2α)/2|sin 2α|2 sin 2α|cos 2α/2|1|Half of the double angle.|M
+M|The value of sin 15° cos 15° is|1/4|1/2|√3/4|√3/2|1|(sin 30°)/2 = 1/4.|H
+M|The value of cos²15° − sin²15° is|√3/2|1/2|1|0|1|It equals cos 30°.|H
+M|The identity tan α + cot α equals|2/sin 2α|2 sin 2α|sin 2α|2 cos 2α|1|1/(sin α cos α) = 2/sin 2α.|H
+M|If α + β = 90°, then sin α equals|cos β|sin β|−cos β|tan β|1|Complementary angles.|M
+N|Find sin 75° as a decimal to four places.|0.9659|sin 75° = (√6 + √2)/4 = 0.9659.|M|Math.sin(75*3.14159265/180)
+N|Find cos 15° as a decimal to four places.|0.9659|cos 15° = cos(45° − 30°) = 0.9659.|M|Math.cos(15*3.14159265/180)
+N|Find tan 75° as a decimal to three places.|3.732|2 + √3 = 3.732.|M|2+Math.sqrt(3)
+N|If sin α = 3/5 with α acute, find sin 2α.|0.96|2 × (3/5)(4/5) = 24/25.|M|2*0.6*0.8
+N|If sin α = 3/5 with α acute, find cos 2α.|0.28|cos 2α = 1 − 2 × 9/25 = 7/25.|M|1-2*0.36
+N|If sin α = 3/5 with α acute, find tan 2α as a decimal to two places.|3.43|tan α = 3/4, so tan 2α = 2(3/4)/(1 − 9/16) = 24/7 = 3.43.|H|24/7
+N|Find sin 105° as a decimal to four places.|0.9659|sin 105° = sin 75°.|M|Math.sin(105*3.14159265/180)
+N|Find cos 75° as a decimal to four places.|0.2588|cos 75° = (√6 − √2)/4.|M|Math.cos(75*3.14159265/180)
+N|Find the value of cos 20° cos 10° − sin 20° sin 10° as a decimal to four places.|0.866|It equals cos 30° = 0.8660.|H|Math.cos(30*3.14159265/180)
+N|Find the value of sin 40° cos 20° + cos 40° sin 20° as a decimal to four places.|0.866|It equals sin 60° = 0.8660.|H|Math.sin(60*3.14159265/180)
+N|Find the value of 2 sin 15° cos 15°.|0.5|It equals sin 30°.|M|Math.sin(30*3.14159265/180)
+N|Find sin 3α for α = 10° using sin 3α = 3 sin α − 4 sin³α, giving sin 30° as a decimal.|0.5|sin 30° = 0.5.|H|Math.sin(30*3.14159265/180)
+N|Find tan(45° + 30°) × tan(45° − 30°).|1|The two are reciprocals.|H|(2+Math.sqrt(3))*(2-Math.sqrt(3))
+N|Find cos 2α if cos α = 1/2.|-0.5|cos 2α = 2 × 1/4 − 1 = −1/2.|M|2*0.25-1
+S|State the addition formulae for sine and cosine.|sin(α ± β) = sin α cos β ± cos α sin β and cos(α ± β) = cos α cos β ∓ sin α sin β.|They give all other formulae.|M
+S|State the three forms of cos 2α.|cos²α − sin²α, 2 cos²α − 1 and 1 − 2 sin²α.|They follow from sin²α + cos²α = 1.|M
+S|Prove that sin 2α = 2 sin α cos α.|Put β = α in sin(α + β) = sin α cos β + cos α sin β to get sin 2α = 2 sin α cos α.|It is a special case of the addition formula.|M
+S|Write the half angle formulae for sin²(α/2) and cos²(α/2).|sin²(α/2) = (1 − cos α)/2 and cos²(α/2) = (1 + cos α)/2.|They come from the double angle formula.|M
+S|Express 2 sin A cos B as a sum.|sin(A + B) + sin(A − B)|It is a product-to-sum formula.|M
+S|Find the exact value of sin 75°.|(√6 + √2)/4|sin(45° + 30°) = (√2/2)(√3/2) + (√2/2)(1/2).|H
+
+# 11 Trigonometric Functions and their Graphs
+M|The period of sin x is|2π|π|π/2|4π|1|The sine repeats every 2π.|E
+M|The period of cos x is|2π|π|π/2|4π|1|The cosine repeats every 2π.|E
+M|The period of tan x is|π|2π|π/2|4π|1|The tangent repeats every π.|E
+M|The period of cot x is|π|2π|π/2|4π|1|The cotangent repeats every π.|E
+M|The period of sec x is|2π|π|π/2|4π|1|It is the reciprocal of cosine.|M
+M|The period of cosec x is|2π|π|π/2|4π|1|It is the reciprocal of sine.|M
+M|The domain of sin x is|all real numbers|[−1, 1]|[0, π]|(−π/2, π/2)|1|Sine is defined for every real x.|E
+M|The range of sin x is|[−1, 1]|(−∞, ∞)|[0, 1]|(−1, 1)|1|The sine lies between −1 and 1.|E
+M|The range of cos x is|[−1, 1]|(−∞, ∞)|[0, 1]|(0, 1)|1|The cosine lies between −1 and 1.|E
+M|The range of tan x is|all real numbers|[−1, 1]|[0, ∞)|(−1, 1)|1|The tangent takes every real value.|M
+M|The domain of tan x is all real numbers except|x = (2n + 1)π/2|x = nπ|x = 2nπ|x = 0|1|Where cos x = 0.|M
+M|The graph of y = sin x passes through the origin and is|symmetric about the origin|symmetric about the y-axis|never negative|a straight line|1|Sine is an odd function.|M
+M|The graph of y = cos x is|symmetric about the y-axis|symmetric about the origin|never positive|a straight line|1|Cosine is an even function.|M
+M|The graph of y = cos x cuts the y-axis at|y = 1|y = 0|y = −1|y = 2|1|cos 0 = 1.|E
+M|The graph of y = tan x has vertical asymptotes at|x = π/2 + nπ|x = nπ|x = 2nπ|x = 0|1|Where the function is undefined.|M
+M|The maximum value of sin x is|1|0|π|2|1|At x = π/2.|E
+M|The minimum value of cos x is|−1|0|1|−π|1|At x = π.|E
+M|The amplitude of y = a sin x is|∣a∣|a²|2a|1/a|1|The height of the wave from the axis.|M
+M|The period of y = sin bx is|2π/∣b∣|2π b|∣b∣/2π|π/b|1|The wave is compressed by b.|M
+M|The period of y = tan bx is|π/∣b∣|2π/∣b∣|π b|∣b∣|1|Tangent has period π.|M
+M|The amplitude of y = 3 sin x is|3|1|6|π|1|It is the coefficient.|E
+M|The period of y = sin 2x is|π|2π|π/2|4π|1|2π/2 = π.|M
+M|The period of y = cos(x/2) is|4π|2π|π|π/2|1|2π ÷ (1/2) = 4π.|M
+M|The graph of y = sin(x − c) is the graph of y = sin x shifted|c units to the right|c units to the left|c units up|c units down|1|A horizontal translation.|M
+M|The graph of y = sin x + k is the graph of y = sin x shifted|k units up|k units to the right|k units to the left|k units down|1|A vertical translation.|M
+M|A function f is even if|f(−x) = f(x)|f(−x) = −f(x)|f(x) = 0|f(x + p) = f(x)|1|Its graph is symmetric about the y-axis.|M
+M|A function f is odd if|f(−x) = −f(x)|f(−x) = f(x)|f(x) = x|f(x) = 1|1|Its graph is symmetric about the origin.|M
+M|A function f is periodic with period p if|f(x + p) = f(x) for all x|f(x) = p|f(x) = 0|f(px) = x|1|The values repeat.|M
+M|The function cos x is|even|odd|neither even nor odd|constant|1|cos(−x) = cos x.|M
+M|The function tan x is|odd|even|neither|constant|1|tan(−x) = −tan x.|M
+M|The graph of y = sin x crosses the x-axis at|x = nπ|x = (2n + 1)π/2|x = 2nπ only|x = 0 only|1|sin x = 0 at multiples of π.|M
+M|The graph of y = cos x crosses the x-axis at|x = (2n + 1)π/2|x = nπ|x = 2nπ|x = π only|1|cos x = 0 at odd multiples of π/2.|M
+N|Find the period of y = sin 3x as a decimal to three places.|2.094|2π/3 = 2.094.|M|2*3.14159265/3
+N|Find the amplitude of y = 5 sin x.|5|The amplitude is 5.|E|5
+N|Find the period of y = tan 2x as a decimal to three places.|1.571|π/2 = 1.571.|M|3.14159265/2
+N|Find the maximum value of y = 3 sin x + 1.|4|3 + 1 = 4.|M|3+1
+N|Find the minimum value of y = 3 sin x + 1.|-2|−3 + 1 = −2.|M|-3+1
+N|Find the period of y = cos(x/3) as a multiple of π.|6|2π ÷ (1/3) = 6π.|M|2*3
+N|Find sin(π/2).|1|Sine at 90° is 1.|E|Math.sin(3.14159265/2)
+N|Find cos π.|-1|The cosine at 180° is −1.|E|Math.cos(3.14159265)
+N|Find the value of sin x at x = π/6, as a decimal.|0.5|sin 30° = 0.5.|E|Math.sin(3.14159265/6)
+N|Find the amplitude of y = −4 cos 2x.|4|∣−4∣ = 4.|M|4
+N|Find the period of y = 2 sin(πx) .|2|2π/π = 2.|M|2*3.14159265/3.14159265
+N|Find the number of complete cycles of y = sin x between 0 and 6π.|3|6π/2π = 3.|M|6/2
+N|Find the range length (max − min) of y = 2 cos x.|4|2 − (−2) = 4.|M|2-(-2)
+N|Find the value of tan(π/4).|1|tan 45° = 1.|E|Math.tan(3.14159265/4)
+S|State the period of each of the six trigonometric functions.|sin, cos, sec and cosec have period 2π, and tan and cot have period π.|The reciprocal functions share the period.|M
+S|State the domain and range of y = cos x.|The domain is all real numbers and the range is [−1, 1].|The graph is a wave.|E
+S|Define an even and an odd function and give a trigonometric example of each.|An even function satisfies f(−x) = f(x), as cos x does. An odd function satisfies f(−x) = −f(x), as sin x does.|Tangent is odd.|M
+S|Find the amplitude and period of y = 3 sin 2x.|Amplitude 3 and period π.|The period is 2π/2.|M
+S|Where does the graph of y = tan x have asymptotes?|At x = (2n + 1)π/2, where cos x = 0.|The function is undefined there.|M
+S|Describe the graph of y = sin(x − π/2).|It is the graph of sin x shifted π/2 units to the right, which is the graph of −cos x.|It is a horizontal translation.|H
+
+# 12 Application of Trigonometry
+M|The law of sines states that in a triangle ABC|a/sin A = b/sin B = c/sin C|a sin A = b sin B|a/cos A = b/cos B|a + b = c|1|The ratio of a side to the sine of the opposite angle is constant.|M
+M|The common value in the law of sines equals|2R, where R is the circumradius|R|the inradius|the area|1|a/sin A = 2R.|M
+M|The law of cosines states that c² equals|a² + b² − 2ab cos C|a² + b² + 2ab cos C|a² + b² − 2ab sin C|a² − b² − 2ab cos C|1|It generalises Pythagoras' theorem.|M
+M|For a right angle C, the law of cosines reduces to|c² = a² + b²|c² = a² − b²|c = a + b|c² = 2ab|1|Pythagoras' theorem.|E
+M|The area of a triangle with sides a, b and the included angle C is|½ ab sin C|ab sin C|½ ab cos C|½ a b|1|The sine area formula.|M
+M|Hero's formula for the area is|√(s(s − a)(s − b)(s − c))|s(s − a)(s − b)(s − c)|√(abc)|½ ab|1|With s = (a + b + c)/2.|M
+M|The circumradius R of triangle ABC equals|abc/(4Δ)|Δ/s|2Δ/abc|abc/Δ|1|Where Δ is the area.|H
+M|The inradius r of triangle ABC equals|Δ/s|2Δ/s|Δ s|s/Δ|1|Where s is the semi-perimeter.|H
+M|In a triangle, the sum of the three angles is|180°|90°|270°|360°|1|A + B + C = π.|E
+M|The cosine formula for angle A is|cos A = (b² + c² − a²)/2bc|cos A = (a² + b² − c²)/2ab|cos A = (a² − b² − c²)/2bc|cos A = (b² + c² + a²)/2bc|1|Rearranging the law of cosines.|M
+M|The angle of elevation is the angle measured|above the horizontal|below the horizontal|from the vertical|between two walls|1|From the line of sight up.|E
+M|The angle of depression is the angle measured|below the horizontal|above the horizontal|from the vertical|between two walls|1|From the horizontal down.|E
+M|If a man at distance d from the foot of a tower sees the top at an angle θ, the height is|d tan θ|d sin θ|d cos θ|d/tan θ|1|tan θ = height/d.|E
+M|To solve a triangle given two sides and the included angle, we use first|the law of cosines|the law of sines|Hero's formula|the half angle formula|1|It finds the third side.|M
+M|To solve a triangle given two angles and a side, we use|the law of sines|the law of cosines only|Hero's formula only|Pythagoras|1|The third angle is found from the sum.|M
+M|The ambiguous case occurs when we are given|two sides and an angle not included|three sides|three angles|two angles and a side|1|SSA can give 0, 1 or 2 triangles.|H
+M|The half angle formula for sin(A/2) is|√((s − b)(s − c)/bc)|√(s(s − a)/bc)|√((s − a)(s − b)/ab)|√(s/abc)|1|From the cosine formula.|H
+M|The projection formula states that a equals|b cos C + c cos B|b sin C + c sin B|b + c|bc|1|The projections of b and c on a.|H
+M|In a triangle with a = 7, b = 8 and c = 9, the largest angle is opposite to|c|a|b|none|1|The largest side faces the largest angle.|E
+M|The bearing of a point is measured|clockwise from north|anticlockwise from north|clockwise from east|anticlockwise from east|1|It gives the direction.|M
+M|The perimeter of a triangle equals|2s|s|s/2|4s|1|The semi-perimeter is half of it.|E
+M|The sine rule in terms of R states that a equals|2R sin A|R sin A|2R cos A|R cos A|1|From a/sin A = 2R.|M
+M|If the angles of a triangle are in the ratio 1 : 2 : 3, the sides are in the ratio|1 : √3 : 2|1 : 2 : 3|1 : 1 : 1|3 : 4 : 5|1|The angles are 30°, 60° and 90°.|H
+N|In triangle ABC, a = 10, A = 30° and B = 45°. Find b to two decimal places.|14.14|b = a sin B/sin A = 10 × 0.7071/0.5 = 14.14.|M|10*Math.sin(45*3.14159265/180)/Math.sin(30*3.14159265/180)
+N|In a triangle, a = 3, b = 4 and C = 90°. Find c.|5|c² = 9 + 16 = 25.|E|Math.sqrt(9+16)
+N|In a triangle, a = 5, b = 6 and C = 60°. Find c to two decimal places.|5.57|c² = 25 + 36 − 60 × 0.5 = 31.|H|Math.sqrt(25+36-2*5*6*0.5)
+N|Find the area of a triangle with a = 6, b = 8 and C = 30°.|12|½ × 6 × 8 × 0.5 = 12.|M|0.5*6*8*0.5
+N|Find the area of the triangle with sides 13, 14 and 15.|84|s = 21 and Δ = √(21 × 8 × 7 × 6) = 84.|M|Math.sqrt(21*8*7*6)
+N|Find the circumradius of the triangle 3, 4, 5.|2.5|R = abc/4Δ = 60/24 = 2.5.|M|3*4*5/(4*6)
+N|Find the inradius of the triangle 3, 4, 5.|1|r = Δ/s = 6/6 = 1.|M|6/6
+N|The angle of elevation of the top of a tower from a point 50 m away is 45°. Find the height of the tower in metres.|50|h = 50 tan 45° = 50.|E|50*Math.tan(45*3.14159265/180)
+N|A pole 10 m high casts a shadow of 10√3 m. Find the angle of elevation of the Sun in degrees.|30|tan θ = 10/(10√3) = 1/√3, so θ = 30°.|M|30
+N|In triangle ABC, a = 7, b = 8 and c = 9. Find cos A as a decimal to three places.|0.667|(64 + 81 − 49)/(2 × 8 × 9) = 96/144 = 0.667.|H|(64+81-49)/(2*8*9)
+N|A ladder 10 m long makes an angle of 60° with the ground. Find the height reached in metres, to two decimal places.|8.66|10 sin 60° = 8.66.|M|10*Math.sin(60*3.14159265/180)
+N|Two angles of a triangle are 40° and 70°. Find the third angle in degrees.|70|180 − 110 = 70.|E|180-40-70
+N|In a triangle, a = 6 and sin A = 0.5. Find the circumradius R.|6|R = a/(2 sin A) = 6/1 = 6.|M|6/(2*0.5)
+S|State the law of sines and the law of cosines.|a/sin A = b/sin B = c/sin C = 2R, and c² = a² + b² − 2ab cos C.|They hold in every triangle.|M
+S|State two formulae for the area of a triangle.|Δ = ½ ab sin C and Δ = √(s(s − a)(s − b)(s − c)).|Also Δ = rs.|M
+S|Define the angles of elevation and depression.|The angle of elevation is measured upward from the horizontal to the line of sight, and the angle of depression is measured downward from the horizontal.|They are equal for the same two points.|E
+S|State the formulae for the circumradius and the inradius.|R = abc/4Δ and r = Δ/s.|Here s is the semi-perimeter.|M
+S|Find the third side of a triangle with sides 3 and 4 and the included angle 90°.|5|By Pythagoras c² = 9 + 16 = 25.|E
+S|When does the ambiguous case arise in solving triangles?|When two sides and an angle opposite one of them are given (SSA), because there may be no triangle, one or two.|The sine rule gives sin of the angle.|H
+
+M|The area of a triangle in terms of its circumradius R is|abc/(4R)|abc R|R/abc|4R/abc|1|Since R = abc/4Δ.|H
+M|In triangle ABC, the sine rule gives sin A : sin B : sin C equal to|a : b : c|a² : b² : c²|1/a : 1/b : 1/c|the angles in degrees|1|The sides are proportional to the sines of the opposite angles.|M
+M|If the sides of a triangle are 5, 12 and 13, the triangle is|right-angled|acute|obtuse|equilateral|1|5² + 12² = 13².|M
+M|The semi-perimeter of a triangle with sides 7, 8 and 9 is|12|24|8|10|1|(7 + 8 + 9)/2 = 12.|E
+M|The cosine rule can be used to find an angle when|three sides are given|two angles are given|only one side is given|the area is given only|1|cos A = (b² + c² − a²)/2bc.|M
+M|The height of an object is found indirectly by measuring|an angle of elevation and a horizontal distance|only its weight|its colour|its temperature|1|h = d tan θ.|E
+M|A man standing 100 m from a tower observes the top at 30°. The height is about|57.7 m|173 m|86.6 m|50 m|1|100 tan 30° = 57.7.|M
+M|In any triangle, a = b cos C + c cos B is called the|projection formula|law of tangents|half angle formula|area formula|1|It expresses a side through projections.|H
+M|If A = 60° and a = 3√3 in a triangle, then 2R equals|6|3|√3|9|1|2R = a/sin A = 3√3/(√3/2) = 6.|H
+
+# 13 Inverse Trigonometric Functions and Trigonometric Equations
+M|The principal value range of sin⁻¹x is|[−π/2, π/2]|[0, π]|(−π/2, π/2)|[0, 2π]|1|The inverse sine is defined on [−1, 1].|M
+M|The principal value range of cos⁻¹x is|[0, π]|[−π/2, π/2]|(0, π)|[−π, π]|1|The inverse cosine is defined on [−1, 1].|M
+M|The principal value range of tan⁻¹x is|(−π/2, π/2)|[0, π]|[−π/2, π/2]|(0, π)|1|The inverse tangent is defined for all real x.|M
+M|The value of sin⁻¹(1/2) is|π/6|π/3|π/4|π/2|1|sin 30° = 1/2.|E
+M|The value of cos⁻¹(1/2) is|π/3|π/6|π/4|π/2|1|cos 60° = 1/2.|E
+M|The value of tan⁻¹(1) is|π/4|π/3|π/6|π/2|1|tan 45° = 1.|E
+M|The value of sin⁻¹(0) is|0|π/2|π|1|1|sin 0 = 0.|E
+M|The value of cos⁻¹(1) is|0|π/2|π|1|1|cos 0 = 1.|E
+M|The value of sin⁻¹(−1/2) is|−π/6|π/6|−π/3|5π/6|1|sin⁻¹ is an odd function.|M
+M|The value of cos⁻¹(−1/2) is|2π/3|π/3|−π/3|−2π/3|1|cos⁻¹(−x) = π − cos⁻¹x.|M
+M|sin⁻¹x + cos⁻¹x equals|π/2|π|0|1|1|They are complementary.|M
+M|sin⁻¹(−x) equals|−sin⁻¹x|sin⁻¹x|π − sin⁻¹x|cos⁻¹x|1|The inverse sine is odd.|M
+M|cos⁻¹(−x) equals|π − cos⁻¹x|−cos⁻¹x|cos⁻¹x|π/2 − cos⁻¹x|1|From the symmetry of cosine.|M
+M|tan⁻¹x + tan⁻¹y equals|tan⁻¹((x + y)/(1 − xy))|tan⁻¹(xy)|tan⁻¹(x + y)|tan⁻¹((x − y)/(1 + xy))|1|For xy < 1.|H
+M|The general solution of sin x = 0 is|x = nπ|x = (2n + 1)π/2|x = 2nπ|x = nπ/2|1|n is an integer.|M
+M|The general solution of cos x = 0 is|x = (2n + 1)π/2|x = nπ|x = 2nπ|x = nπ/2|1|n is an integer.|M
+M|The general solution of tan x = 0 is|x = nπ|x = (2n + 1)π/2|x = 2nπ|x = nπ/2|1|n is an integer.|M
+M|The general solution of sin x = sin α is|x = nπ + (−1)ⁿα|x = 2nπ ± α|x = nπ + α|x = nπ − α|1|The two families of solutions.|H
+M|The general solution of cos x = cos α is|x = 2nπ ± α|x = nπ + (−1)ⁿα|x = nπ + α|x = nπ ± α|1|The two families of solutions.|H
+M|The general solution of tan x = tan α is|x = nπ + α|x = 2nπ ± α|x = nπ + (−1)ⁿα|x = 2nπ + α|1|The tangent has period π.|H
+M|The solutions of sin x = 1/2 in [0, 2π] are|π/6 and 5π/6|π/6 and 7π/6|π/3 and 2π/3|π/6 and 11π/6|1|Sine is positive in the first and second quadrants.|M
+M|The solutions of cos x = 1/2 in [0, 2π] are|π/3 and 5π/3|π/6 and 11π/6|π/3 and 2π/3|π/6 and 5π/6|1|Cosine is positive in the first and fourth quadrants.|M
+M|The solution of tan x = 1 in [0, π] is|π/4|π/3|π/6|π/2|1|tan 45° = 1.|M
+M|The number of solutions of sin x = 1/2 in [0, 2π] is|2|1|3|4|1|There are two.|M
+M|The equation sin x = 2 has|no real solution|one solution|two solutions|infinitely many solutions|1|The sine cannot exceed 1.|M
+M|The equation 2 sin²x − sin x − 1 = 0 can be solved by treating it as a quadratic in|sin x|x|cos x|tan x|1|Put y = sin x.|M
+M|The identity cos(sin⁻¹x) equals|√(1 − x²)|x|1 − x²|√(1 + x²)|1|From sin²θ + cos²θ = 1.|H
+M|The domain of sin⁻¹x is|[−1, 1]|all real numbers|[0, π]|(−∞, 1]|1|The sine takes values in [−1, 1].|M
+M|The range of tan⁻¹x is|(−π/2, π/2)|[0, π]|all real numbers|[−1, 1]|1|The principal values.|M
+M|If sin x = −1/2 in [0, 2π], the solutions lie in quadrants|third and fourth|first and second|second and third|first and fourth|1|Sine is negative there.|H
+N|Find sin⁻¹(1/2) in degrees.|30|sin 30° = 1/2.|E|30
+N|Find cos⁻¹(1/2) in degrees.|60|cos 60° = 1/2.|E|60
+N|Find tan⁻¹(1) in degrees.|45|tan 45° = 1.|E|45
+N|Find cos⁻¹(−1/2) in degrees.|120|180° − 60° = 120°.|M|180-60
+N|Find sin⁻¹(−1/2) in degrees.|-30|The inverse sine is odd.|M|-30
+N|Find sin⁻¹(1) + cos⁻¹(1) in degrees.|90|90° + 0° = 90°.|M|90+0
+N|Find the number of solutions of 2 sin x = 1 in [0, 2π].|2|x = π/6 and 5π/6.|M|2
+N|Find the number of solutions of tan x = 1 in [0, 2π].|2|x = π/4 and 5π/4.|M|2
+N|Find the smallest positive solution, in degrees, of 2 cos x = 1.|60|cos x = 1/2.|M|60
+N|Find the largest solution, in degrees, of sin x = 1/2 in [0°, 360°].|150|The solutions are 30° and 150°.|M|180-30
+N|Find the number of solutions of cos x = 0 in [0, 2π].|2|x = π/2 and 3π/2.|M|2
+N|Find the number of solutions of sin 2x = 0 in [0, 2π] counting both ends.|5|2x = 0, π, 2π, 3π, 4π, so x = 0, π/2, π, 3π/2, 2π.|H|5
+N|Evaluate tan(tan⁻¹ 5).|5|tan(tan⁻¹x) = x.|M|5
+N|Evaluate sin(sin⁻¹ 0.3).|0.3|sin(sin⁻¹x) = x for x in [−1, 1].|M|0.3
+S|State the principal ranges of sin⁻¹x, cos⁻¹x and tan⁻¹x.|sin⁻¹x lies in [−π/2, π/2], cos⁻¹x in [0, π] and tan⁻¹x in (−π/2, π/2).|They make the inverse functions single-valued.|M
+S|Prove that sin⁻¹x + cos⁻¹x = π/2.|Let θ = sin⁻¹x so that x = sin θ = cos(π/2 − θ), hence cos⁻¹x = π/2 − θ and the sum is π/2.|For x in [−1, 1].|H
+S|Write the general solutions of sin x = 0, cos x = 0 and tan x = 0.|x = nπ, x = (2n + 1)π/2 and x = nπ, where n is an integer.|They are used to solve equations.|M
+S|Solve 2 sin x − 1 = 0 for x in [0, 2π].|x = π/6 and x = 5π/6|sin x = 1/2.|M
+S|Find the value of cos(sin⁻¹(3/5)).|4/5|If sin θ = 3/5, then cos θ = 4/5.|M
+S|Write the general solution of cos x = cos α.|x = 2nπ ± α, where n is an integer.|It gives both families of solutions.|M

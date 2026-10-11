@@ -1,0 +1,120 @@
+@level 2nd Year
+@subject Mathematics
+
+# 7 Conic Sections
+M|The conic sections are obtained by cutting a double cone with a plane. They are|circle, ellipse, parabola and hyperbola|circle, square, triangle and line|only the circle and the ellipse|only parabolas|1|Different cuts give different curves.|E
+M|The standard equation of a circle with centre (h, k) and radius r is|(x − h)² + (y − k)² = r²|(x + h)² + (y + k)² = r|x² + y² = r|(x − h) + (y − k) = r|1|Distance from the centre equals r.|E
+M|The circle x² + y² = 25 has radius|5|25|√5|10|1|r² = 25.|E
+M|The general equation of a circle is x² + y² + 2gx + 2fy + c = 0. Its centre is|(−g, −f)|(g, f)|(−f, −g)|(g, −f)|1|Complete the squares.|M
+M|The radius of x² + y² + 2gx + 2fy + c = 0 is|√(g² + f² − c)|√(g² + f² + c)|g² + f² − c|√(c − g² − f²)|1|From completing the squares.|M
+M|A circle passes through the origin if|c = 0|g = 0|f = 0|g = f|1|Put (0, 0) in the equation.|M
+M|The length of the tangent from the point (x₁, y₁) to the circle x² + y² + 2gx + 2fy + c = 0 is|√(x₁² + y₁² + 2gx₁ + 2fy₁ + c)|x₁² + y₁² + 2gx₁ + 2fy₁ + c|√(g² + f² − c)|∣x₁∣ + ∣y₁∣|1|The square root of the power of the point.|H
+M|A tangent to a circle is perpendicular to|the radius at the point of contact|the diameter at any point|the chord|the x-axis|1|A property of circles.|M
+M|A parabola is the locus of a point equidistant from|a fixed point (focus) and a fixed line (directrix)|two fixed points|two fixed lines|the origin|1|The focus-directrix property.|M
+M|The standard equation of a parabola with vertex at the origin and axis along the x-axis is|y² = 4ax|x² = 4ay|y = 4ax²|x² + y² = 4a|1|It opens to the right for a > 0.|M
+M|For y² = 4ax, the focus is|(a, 0)|(0, a)|(−a, 0)|(0, −a)|1|The point inside the curve.|M
+M|For y² = 4ax, the directrix is|x = −a|x = a|y = −a|y = a|1|A vertical line.|M
+M|The length of the latus rectum of y² = 4ax is|4a|2a|a|8a|1|The chord through the focus perpendicular to the axis.|M
+M|The parabola x² = 4ay has its axis along|the y-axis|the x-axis|the line y = x|none|1|It opens upward for a > 0.|M
+M|For x² = 4ay, the focus is|(0, a)|(a, 0)|(0, −a)|(−a, 0)|1|On the y-axis.|M
+M|The standard equation of an ellipse with centre at the origin is x²/a² + y²/b² = 1 with a > b. Its major axis lies along|the x-axis|the y-axis|the line y = x|neither|1|The larger denominator is under x².|M
+M|For the ellipse x²/a² + y²/b² = 1 (a > b), the length of the major axis is|2a|2b|a|a + b|1|The vertices are (±a, 0).|M
+M|For the ellipse x²/a² + y²/b² = 1 (a > b), the length of the minor axis is|2b|2a|b|a − b|1|The vertices are (0, ±b).|M
+M|The eccentricity of the ellipse x²/a² + y²/b² = 1 (a > b) is|√(1 − b²/a²)|√(1 + b²/a²)|b/a|a/b|1|e < 1.|M
+M|The foci of the ellipse x²/a² + y²/b² = 1 (a > b) are|(±ae, 0)|(0, ±ae)|(±a, 0)|(±b, 0)|1|On the major axis.|M
+M|The sum of the focal distances of any point on an ellipse equals|2a|a|2b|a + b|1|The major axis length.|M
+M|The standard equation of a hyperbola is|x²/a² − y²/b² = 1|x²/a² + y²/b² = 1|y² = 4ax|x² + y² = a²|1|With a minus sign.|M
+M|The eccentricity of the hyperbola x²/a² − y²/b² = 1 is|√(1 + b²/a²)|√(1 − b²/a²)|b/a|1|1|e > 1.|M
+M|The asymptotes of x²/a² − y²/b² = 1 are|y = ±(b/a)x|y = ±(a/b)x|y = ±x|x = ±a|1|The lines the branches approach.|M
+M|The foci of the hyperbola x²/a² − y²/b² = 1 are|(±ae, 0)|(0, ±ae)|(±a, 0)|(±b, 0)|1|On the transverse axis.|M
+M|A hyperbola with a = b is called|a rectangular hyperbola|an ellipse|a parabola|a circle|1|Its asymptotes are perpendicular.|M
+M|The eccentricity of a rectangular hyperbola is|√2|1|2|1/√2|1|e = √(1 + 1).|H
+M|The eccentricity of a parabola is|1|0|less than 1|greater than 1|1|By the focus-directrix definition.|M
+M|The eccentricity of a circle is|0|1|less than 0|greater than 1|1|The two foci coincide.|M
+M|The curve for which e < 1 is a(n)|ellipse|parabola|hyperbola|straight line|1|Eccentricity less than one.|M
+M|The curve for which e > 1 is a(n)|hyperbola|ellipse|parabola|circle|1|Eccentricity greater than one.|M
+M|The equation 9x² + 4y² = 36 represents|an ellipse|a hyperbola|a parabola|a circle|1|Divide by 36: x²/4 + y²/9 = 1.|M
+M|The equation x² − y² = 4 represents|a rectangular hyperbola|an ellipse|a parabola|a circle|1|Here a = b = 2.|M
+M|The equation x² + y² − 4x + 6y − 12 = 0 represents|a circle|an ellipse|a parabola|a hyperbola|1|The coefficients of x² and y² are equal.|M
+M|The equation y² = 8x represents|a parabola|a circle|an ellipse|a hyperbola|1|It has the form y² = 4ax with a = 2.|M
+M|In the equation y² = 4ax, the point (a, 2a) lies|on the parabola|inside the parabola|outside the parabola|on the directrix|1|It is an end of the latus rectum.|H
+M|A line meets a circle in at most|two points|one point|three points|four points|1|A line and a circle meet in 0, 1 or 2 points.|M
+M|A line which touches a circle at exactly one point is|a tangent|a secant|a chord|a diameter|1|It meets the circle once.|E
+N|Find the radius of the circle x² + y² = 49.|7|r² = 49.|E|Math.sqrt(49)
+N|Find the radius of the circle x² + y² − 6x + 8y = 0.|5|g = −3, f = 4, c = 0: r = √(9 + 16).|M|Math.sqrt(9+16)
+N|Find the x-coordinate of the centre of x² + y² − 6x + 8y = 0.|3|The centre is (3, −4).|M|3
+N|Find the focus x-coordinate of the parabola y² = 8x.|2|4a = 8 so a = 2.|M|8/4
+N|Find the length of the latus rectum of y² = 12x.|12|4a = 12.|M|12
+N|Find the equation's value a for the parabola x² = 16y, giving a.|4|4a = 16.|M|16/4
+N|Find the eccentricity of the ellipse x²/25 + y²/9 = 1.|0.8|e = √(1 − 9/25) = 4/5.|H|Math.sqrt(1-9/25)
+N|Find the distance between the foci of the ellipse x²/25 + y²/9 = 1.|8|2ae = 2 × 5 × 0.8 = 8.|H|2*5*0.8
+N|Find the eccentricity of the hyperbola x²/9 − y²/16 = 1 as a decimal.|1.667|e = √(1 + 16/9) = 5/3.|H|Math.sqrt(1+16/9)
+N|Find the slope of an asymptote of x²/9 − y²/16 = 1 as a decimal to two places.|1.33|b/a = 4/3.|M|4/3
+N|Find the length of the major axis of x²/16 + y²/9 = 1.|8|2a = 8.|M|2*4
+N|Find the length of the minor axis of x²/16 + y²/9 = 1.|6|2b = 6.|M|2*3
+N|Find the length of the tangent from (5, 0) to x² + y² = 9.|4|√(25 − 9) = 4.|H|Math.sqrt(25-9)
+N|Find c so that x² + y² + 4x − 2y + c = 0 passes through the origin.|0|Put (0, 0).|M|0
+S|Define a parabola.|The locus of a point that moves so that its distance from a fixed point (the focus) equals its distance from a fixed line (the directrix).|Its eccentricity is 1.|M
+S|Write the equation of a circle with centre (2, −3) and radius 5.|(x − 2)² + (y + 3)² = 25|From the standard form.|M
+S|State the equation of the ellipse and the meaning of a and b.|x²/a² + y²/b² = 1, where 2a is the length of the major axis and 2b of the minor axis.|For a > b.|M
+S|State the eccentricity of the four conics.|Circle 0, ellipse less than 1, parabola 1 and hyperbola greater than 1.|It classifies the conics.|M
+S|Find the focus and directrix of y² = 12x.|Focus (3, 0) and directrix x = −3.|4a = 12, so a = 3.|M
+S|State the equations of the asymptotes of x²/a² − y²/b² = 1.|y = ±(b/a)x|They are found by replacing 1 with 0.|M
+
+# 8 Vectors
+M|A vector is a quantity that has|magnitude and direction|magnitude only|direction only|neither|1|Like displacement or force.|E
+M|A scalar quantity has|magnitude only|magnitude and direction|direction only|no meaning|1|Like mass or time.|E
+M|The magnitude of the vector a = a₁i + a₂j + a₃k is|√(a₁² + a₂² + a₃²)|a₁ + a₂ + a₃|a₁² + a₂² + a₃²|a₁a₂a₃|1|The length of the vector.|E
+M|A unit vector has magnitude|1|0|2|any value|1|By definition.|E
+M|The unit vector in the direction of a is|a/∣a∣|∣a∣a|a∣a∣|a + ∣a∣|1|Divide by the magnitude.|M
+M|The unit vectors along the axes are|i, j and k|a, b and c|x, y and z|p, q and r|1|They have length 1.|E
+M|The zero vector has magnitude|0|1|undefined|∞|1|It has no direction.|E
+M|The position vector of the point P(x, y, z) is|xi + yj + zk|x + y + z|(x, y, z) only as a number|∣xi∣|1|From the origin to P.|M
+M|The vector from A to B equals|OB − OA|OA − OB|OA + OB|OA × OB|1|Final minus initial position vectors.|M
+M|Two vectors are equal if they have|the same magnitude and direction|the same magnitude only|the same direction only|the same starting point|1|Position does not matter.|M
+M|The sum of two vectors can be found by the|triangle law or parallelogram law|only subtraction|dot product|cross product|1|Geometrical addition.|M
+M|The dot product a · b is|a scalar|a vector|a matrix|undefined|1|The scalar product.|E
+M|The dot product of a and b equals|∣a∣∣b∣ cos θ|∣a∣∣b∣ sin θ|∣a∣ + ∣b∣|∣a∣/∣b∣|1|θ is the angle between them.|M
+M|The dot product in components is|a₁b₁ + a₂b₂ + a₃b₃|a₁b₂ − a₂b₁|a₁ + b₁|a₁b₁a₂b₂|1|Multiply corresponding components.|M
+M|i · i equals|1|0|i|−1|1|A unit vector dotted with itself.|E
+M|i · j equals|0|1|k|−1|1|The axes are perpendicular.|E
+M|Two non-zero vectors are perpendicular if|a · b = 0|a × b = 0|a = b|a = −b|1|cos 90° = 0.|M
+M|a · a equals|∣a∣²|∣a∣|0|a|1|The square of the magnitude.|M
+M|The cross product a × b is|a vector|a scalar|a number|undefined|1|The vector product.|E
+M|The magnitude of a × b equals|∣a∣∣b∣ sin θ|∣a∣∣b∣ cos θ|∣a∣ + ∣b∣|∣a∣∣b∣|1|θ is the angle between them.|M
+M|The direction of a × b is|perpendicular to both a and b|along a|along b|along a + b|1|By the right-hand rule.|M
+M|a × a equals|the zero vector|∣a∣²|1|a|1|sin 0 = 0.|M
+M|i × j equals|k|−k|j|i|1|By the right-hand rule.|E
+M|j × i equals|−k|k|0|i|1|The cross product is anti-commutative.|M
+M|Two non-zero vectors are parallel if|a × b = 0|a · b = 0|a + b = 0|a = 1|1|sin θ = 0.|M
+M|The area of the parallelogram with sides a and b is|∣a × b∣|a · b|∣a∣ + ∣b∣|∣a∣∣b∣|1|Base times height.|M
+M|The area of the triangle with sides a and b is|½ ∣a × b∣|∣a × b∣|a · b|½ a · b|1|Half the parallelogram.|M
+M|The scalar triple product a · (b × c) gives|the volume of a parallelepiped|an area|a vector|an angle|1|Up to sign.|H
+M|Three vectors are coplanar if their scalar triple product is|zero|one|negative|positive|1|The volume is zero.|H
+M|The work done by a force F through a displacement d is|F · d|F × d|∣F∣ + ∣d∣|F/d|1|A scalar.|M
+M|The moment of a force F about a point is r × F, which is|a vector|a scalar|a number|an angle|1|Torque.|M
+M|The projection of a on b is|(a · b)/∣b∣|(a · b)∣b∣|a × b|a/b|1|The scalar component along b.|H
+M|The direction cosines l, m and n of a vector satisfy|l² + m² + n² = 1|l + m + n = 1|lmn = 1|l² + m² = 1|1|The squares add up to 1.|M
+M|The direction cosines of the x-axis are|1, 0, 0|0, 1, 0|0, 0, 1|1, 1, 1|1|The angles are 0°, 90° and 90°.|M
+M|The vector 2i + 3j has magnitude|√13|13|5|√5|1|√(4 + 9).|E
+M|The vectors a and −a have|equal magnitudes and opposite directions|equal directions|different magnitudes|no relation|1|Negation reverses the direction.|E
+N|Find the magnitude of the vector 3i + 4j.|5|√(9 + 16) = 5.|E|Math.sqrt(9+16)
+N|Find the magnitude of the vector 2i + 3j + 6k.|7|√(4 + 9 + 36) = 7.|M|Math.sqrt(4+9+36)
+N|Find a · b for a = 2i + 3j + k and b = i − j + 4k.|3|2 − 3 + 4 = 3.|M|2*1+3*(-1)+1*4
+N|Find a · b for a = i + 2j + 3k and b = 4i − 5j + 6k.|12|4 − 10 + 18 = 12.|M|1*4+2*(-5)+3*6
+N|Find the x-component of a × b for a = i + 2j + 3k and b = 4i + 5j + 6k.|-3|a₂b₃ − a₃b₂ = 12 − 15 = −3.|H|2*6-3*5
+N|Find ∣a × b∣ for a = 2i and b = 3j.|6|2 × 3 × sin 90° = 6.|M|2*3
+N|Find the angle in degrees between a = i + j and b = i − j.|90|a · b = 1 − 1 = 0.|M|90
+N|Find the value of c so that 2i + 3j and i + cj are perpendicular.|-0.667|2 + 3c = 0, so c = −2/3.|H|-2/3
+N|Find the work done in joules by the force F = 3i + 4j through the displacement d = 2i + j.|10|F · d = 6 + 4 = 10.|M|3*2+4*1
+N|Find the area of the parallelogram with sides a = 3i and b = 4j.|12|∣a × b∣ = 12.|M|3*4
+N|Find the area of the triangle with sides a = 3i and b = 4j.|6|Half of 12.|M|3*4/2
+N|Find the projection of a = 3i + 4j on b = i, as a number.|3|a · b/∣b∣ = 3.|M|3/1
+N|Find the scalar triple product of i, j and k.|1|i · (j × k) = i · i = 1.|H|1
+N|Find the unit vector's x-component for 3i + 4j as a decimal.|0.6|3/5.|M|3/5
+S|Define the dot product and cross product of two vectors.|a · b = ∣a∣∣b∣ cos θ, a scalar. a × b is a vector of magnitude ∣a∣∣b∣ sin θ perpendicular to both a and b.|They have different uses.|M
+S|State the condition for two vectors to be perpendicular and parallel.|Perpendicular if a · b = 0 and parallel if a × b = 0.|For non-zero vectors.|M
+S|Find the unit vector in the direction of 3i + 4j.|(3i + 4j)/5|Divide by the magnitude 5.|M
+S|State the formula for the area of a triangle using vectors.|Area = ½ ∣a × b∣, where a and b are two sides.|For a parallelogram it is ∣a × b∣.|M
+S|What do the direction cosines of a vector satisfy?|l² + m² + n² = 1, where l, m, n are the cosines of the angles with the axes.|They give the direction.|M
+S|State the formula for work done as a dot product.|W = F · d = ∣F∣∣d∣ cos θ.|Work is a scalar.|E

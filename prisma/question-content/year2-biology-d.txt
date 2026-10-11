@@ -1,0 +1,153 @@
+@level 2nd Year
+@subject Biology
+
+# 10 Variation and Genetics
+M|Variation is the|differences between individuals of a species|similarity|growth|reproduction|1|Genetic and environmental.|E
+M|Continuous variation is shown by|height and mass|blood groups|tongue rolling|seed shape|1|Many genes, normal distribution.|M
+M|Discontinuous variation is shown by|blood groups|height|mass|skin colour|1|Distinct classes.|M
+M|Mendel worked with|pea plants|fruit flies|mice|bacteria|1|Pisum sativum.|E
+M|An allele is|one form of a gene|a chromosome|a protein|a cell|1|At the same locus.|E
+M|A dominant allele is expressed in|the heterozygote|only the homozygote|neither|both parents only|1|Masks recessive.|E
+M|A recessive allele is expressed only in|the homozygous state|the heterozygote|the dominant|neither|1|Two copies.|E
+M|The genotype is the|genetic make-up|appearance|environment|chromosome number|1|Alleles present.|E
+M|The phenotype is the|observable characteristics|genetic make-up|alleles only|DNA|1|Genotype plus environment.|E
+M|Mendel's first law is the law of|segregation|independent assortment|dominance only|linkage|1|Alleles separate in gametes.|M
+M|Mendel's second law is the law of|independent assortment|segregation|dominance|linkage|1|Genes assort independently.|M
+M|A monohybrid cross Tt × Tt gives a phenotypic ratio of|3 : 1|1 : 1|1 : 2 : 1|9 : 3 : 3 : 1|1|Three dominant to one recessive.|M
+M|A monohybrid cross Tt × Tt gives a genotypic ratio of|1 : 2 : 1|3 : 1|1 : 1|9 : 3 : 3 : 1|1|TT, Tt, tt.|M
+M|A test cross is a cross with|a homozygous recessive|a homozygous dominant|a heterozygote|any individual|1|To find the genotype.|M
+M|A dihybrid cross of two heterozygotes gives a ratio of|9 : 3 : 3 : 1|3 : 1|1 : 1 : 1 : 1|1 : 2 : 1|1|Independent assortment.|M
+M|Incomplete dominance gives a heterozygote with|an intermediate phenotype|the dominant phenotype|the recessive phenotype|a new gene|1|Pink flowers.|M
+M|Codominance is shown by|ABO blood group AB|height|skin colour|tongue rolling|1|Both alleles expressed.|M
+M|The ABO blood group is controlled by|three alleles Iᴬ, Iᴮ and i|two alleles|one allele|four alleles|1|Multiple alleles.|M
+M|The genotype of blood group O is|ii|IᴬIᴬ|IᴮIᴮ|IᴬIᴮ|1|Recessive.|M
+M|A person of blood group AB has genotype|IᴬIᴮ|ii|Iᴬi|Iᴮi|1|Codominant.|M
+M|The sex chromosomes of a human female are|XX|XY|XO|YY|1|Homogametic.|E
+M|The sex chromosomes of a human male are|XY|XX|XO|YY|1|Heterogametic.|E
+M|The sex of a child is determined by the|father's sperm|mother's egg|doctor|environment|1|X or Y sperm.|E
+M|Haemophilia is|an X-linked recessive disorder|an autosomal dominant disorder|a Y-linked disorder|caused by virus|1|Blood fails to clot.|M
+M|Colour blindness is|X-linked recessive|autosomal dominant|Y-linked|caused by diet|1|More common in males.|M
+M|A woman who is a carrier of haemophilia has genotype|XᴴXʰ|XʰXʰ|XᴴXᴴ|XʰY|1|One affected allele.|M
+M|Epistasis is when|one gene masks the expression of another|alleles are equal|genes are linked|chromosomes cross|1|Modified ratios.|H
+M|Linked genes are|on the same chromosome|on different chromosomes|alleles|sex genes only|1|Inherited together.|M
+M|Crossing over between linked genes produces|recombinants|no new combination|only parental types|mutations|1|Frequency shows distance.|M
+M|The Hardy-Weinberg equation is|p² + 2pq + q² = 1|p + q = 2|p² + q² = 2|pq = 1|1|For a population in equilibrium.|M
+M|In the Hardy-Weinberg equation, p + q equals|1|2|0|0.5|1|The allele frequencies.|M
+M|Down syndrome is caused by|trisomy 21|monosomy 21|an extra Y|an extra X|1|Non-disjunction.|M
+M|Phenylketonuria is an|autosomal recessive disorder|X-linked disorder|dominant disorder|Y-linked disorder|1|Lack of an enzyme.|M
+M|Sickle cell anaemia is caused by|a point mutation|a deletion of a chromosome|an extra chromosome|a virus|1|Haemoglobin S.|M
+M|Sickle cell trait gives protection against|malaria|cholera|tuberculosis|polio|1|Heterozygote advantage.|H
+M|A pedigree chart shows|the inheritance of a trait in a family|chromosome numbers|DNA|enzymes|1|Squares male, circles female.|M
+N|Tt × Tt gives 400 offspring. Find the expected number of dominant phenotype.|300|3/4 × 400.|M|400*3/4
+N|Tt × tt gives 200 offspring. Find the expected number of recessive phenotype.|100|1/2.|M|200/2
+N|A dihybrid cross of 160 offspring: find the expected number of double recessives (1/16).|10|160/16.|M|160/16
+N|The frequency of the recessive allele q is 0.2. Find the frequency of carriers 2pq.|0.32|2 × 0.8 × 0.2.|H|2*0.8*0.2
+N|The frequency of a recessive genotype q² is 0.04. Find q.|0.2|√0.04.|M|Math.sqrt(0.04)
+N|If q = 0.3 find p.|0.7|1 − q.|E|1-0.3
+N|In a population of 10 000, 1 in 100 is homozygous recessive. Find the number of homozygous recessive individuals.|100|10 000/100.|M|10000/100
+N|The probability that a child of two carriers of a recessive disease is affected is 1/4. Find the percentage.|25|1/4.|M|1/4*100
+S|State Mendel's laws.|The law of segregation says the two alleles of a gene separate into different gametes, and the law of independent assortment says alleles of different genes assort independently.|Linked genes are an exception.|M
+S|Define codominance and incomplete dominance with examples.|In codominance both alleles are fully expressed, as in blood group AB. In incomplete dominance the heterozygote is intermediate, as in pink snapdragons.|Different from dominance.|M
+S|Explain sex determination and sex linkage in humans.|Females are XX and males XY, so the father's sperm decides the sex. Sex-linked genes on the X chromosome, such as haemophilia, are more common in males.|Carrier mothers pass it on.|M
+S|State the Hardy-Weinberg principle.|In a large randomly mating population with no selection, mutation or migration, allele and genotype frequencies remain constant, with p² + 2pq + q² = 1.|Used to find carrier frequency.|M
+S|Distinguish between continuous and discontinuous variation.|Continuous variation shows a range of values such as height controlled by many genes and environment, while discontinuous variation shows distinct classes such as blood groups.|Normal distribution versus classes.|M
+S|Describe a test cross and its purpose.|An individual of unknown dominant phenotype is crossed with a homozygous recessive. If all offspring show the dominant trait it is homozygous, and if half show the recessive it is heterozygous.|It identifies the genotype.|M
+
+# 11 Biotechnology
+M|Biotechnology is|the use of living organisms to make useful products|only genetic engineering|only farming|only medicine|1|Traditional and modern.|E
+M|Genetic engineering is|the manipulation of genes in an organism|selective breeding|cloning only|farming|1|Recombinant DNA.|E
+M|Restriction enzymes|cut DNA at specific sequences|join DNA|copy DNA|make RNA|1|Molecular scissors.|M
+M|DNA ligase|joins DNA fragments|cuts DNA|copies DNA|unwinds DNA|1|Molecular glue.|M
+M|A vector used to carry genes into bacteria is a|plasmid|ribosome|nucleolus|enzyme|1|Small circular DNA.|M
+M|Sticky ends are|short single-stranded overhangs on cut DNA|blunt ends|proteins|plasmids|1|Allow annealing.|M
+M|A genetic marker such as an antibiotic resistance gene is used to|identify transformed cells|kill cells|cut DNA|copy DNA|1|Selection.|M
+M|The Polymerase Chain Reaction (PCR) is used to|amplify DNA|cut DNA|sequence proteins|make RNA|1|Millions of copies.|M
+M|The enzyme used in PCR is|Taq polymerase|DNA ligase|helicase|restriction enzyme|1|Heat stable.|M
+M|The three steps of PCR are|denaturation, annealing and extension|digestion, ligation and transformation|transcription, translation, replication|binding, cutting, joining|1|Cycled.|M
+M|Gel electrophoresis separates DNA fragments by|size|colour|sequence|source|1|Smaller move faster.|M
+M|DNA fingerprinting is used in|forensics and paternity testing|making insulin|making vaccines|cloning|1|Unique patterns.|M
+M|Human insulin is produced by|genetically engineered bacteria|animal pancreas only|chemical synthesis|plants|1|Recombinant DNA.|M
+M|Bt cotton is resistant to|insect pests|cold|drought|salt|1|Bacillus thuringiensis toxin.|M
+M|Golden rice contains|beta-carotene|vitamin C|vitamin D|iron|1|Prevents vitamin A deficiency.|M
+M|Tissue culture is used to|produce many identical plants from small pieces|mutate cells|extract DNA|graft|1|Micropropagation.|M
+M|A clone is|a genetically identical organism|a hybrid|a mutant|a vector|1|Dolly the sheep.|M
+M|Dolly the sheep was produced by|nuclear transfer|tissue culture|conjugation|grafting|1|From an adult cell.|M
+M|Monoclonal antibodies are produced by|hybridoma cells|bacteria|viruses|plants|1|Fused B cell and myeloma.|H
+M|Gene therapy is the|replacement of faulty genes with functional ones|use of antibiotics|use of vaccines|surgery|1|Treats genetic disease.|M
+M|Vaccines work by|stimulating an immune response|killing pathogens directly|replacing blood|supplying antibiotics|1|Memory cells.|M
+M|Penicillin is produced using|Penicillium in fermenters|bacteria|viruses|plants|1|Fermentation.|M
+M|A fermenter is used to|grow microorganisms on a large scale|kill bacteria|store food|extract DNA|1|Controlled conditions.|M
+M|Single-cell protein is obtained from|microorganisms|animals|plants|minerals|1|Mycoprotein.|M
+M|Biogas is mainly|methane|oxygen|nitrogen|hydrogen|1|Anaerobic digestion.|M
+M|Bioremediation uses|microorganisms to clean pollution|chemicals|heat|filters|1|Oil spills.|M
+M|Biofuels include|ethanol and biodiesel|petrol|coal|uranium|1|From crops.|M
+M|Transgenic organisms are|organisms containing genes from another species|natural hybrids|mutants|clones|1|Genetically modified.|M
+M|A concern about GM crops is|possible effects on the environment and health|higher yields|pest resistance|longer shelf life|1|Debated.|M
+M|Genetically modified organisms must be|tested for safety|released freely|ignored|destroyed|1|Regulated.|M
+M|Stem cells can be used to|repair damaged tissue|cause disease|digest food|make vitamins|1|Regenerative medicine.|M
+M|The Human Genome Project determined the|sequence of human DNA|number of species|structure of proteins|number of cells|1|About 3 billion base pairs.|M
+M|Bioinformatics is the use of|computers to analyse biological data|microscopes|enzymes|plants|1|Sequences.|M
+M|Pakistan's major biotechnology applications include|Bt cotton and tissue culture banana|nuclear power|steel|textile machinery|1|Agriculture.|M
+N|PCR doubles the DNA in each cycle. Find the copies after 10 cycles from 1 molecule.|1024|2¹⁰.|M|2^10
+N|PCR starts with 100 molecules. Find the number after 5 cycles.|3200|100 × 2⁵.|M|100*2^5
+N|A DNA fragment of 3000 bp is cut at a site 1000 bp from one end. Find the lengths of the two fragments (larger).|2000|3000 − 1000.|M|3000-1000
+N|A plasmid of 4000 bp is cut at two sites 1500 bp apart. Find the length of the larger fragment.|2500|4000 − 1500.|M|4000-1500
+N|A bacterial culture with 10⁶ cells per mL doubles every 30 minutes. Find the number per mL after 3 hours in units of 10⁶.|64|2⁶.|M|2^6
+N|A fermenter makes 5 g/L of product. Find the mass in kg from 10 000 L.|50|5 × 10 000/1000.|M|5*10000/1000
+N|A tissue culture makes 5 plantlets per explant per month. Find the number after 3 months from 1 explant.|125|5³.|H|5^3
+N|A forensic test matches 12 of 13 DNA loci. Find the percentage matched to one decimal.|92.3|12/13.|M|12/13*100
+S|Describe the steps in making a recombinant plasmid.|A gene is cut out using a restriction enzyme, the plasmid is cut with the same enzyme, and the gene is joined into the plasmid with DNA ligase, then the plasmid is put into bacteria.|Sticky ends anneal.|M
+S|Outline the polymerase chain reaction.|The DNA is heated to separate strands (denaturation), cooled for primers to bind (annealing), and heated slightly for Taq polymerase to extend new strands, and the cycle doubles the DNA each time.|Done in a thermal cycler.|M
+S|Describe how human insulin is produced by genetic engineering.|The human insulin gene is inserted into a bacterial plasmid, the bacteria are grown in a fermenter, and the insulin is extracted and purified.|It replaces animal insulin.|M
+S|State two advantages and two concerns of GM crops.|They can have higher yields and resist pests, but there are concerns about effects on biodiversity and on human health.|Labelling is debated.|M
+S|Describe how DNA fingerprinting is done.|DNA is extracted, cut with restriction enzymes, the fragments separated by gel electrophoresis, and the banding pattern compared, which is unique to each person.|Used in forensics.|M
+S|Explain what is meant by cloning.|The production of genetically identical organisms or cells, as in Dolly, made by transferring a somatic cell nucleus into an enucleated egg.|Tissue culture clones plants.|M
+
+# 12 Evolution
+M|Evolution is the|change in the inherited characteristics of populations over generations|growth of an organism|development of an embryo|learning|1|Descent with modification.|E
+M|The theory of evolution by natural selection was proposed by|Darwin and Wallace|Lamarck|Mendel|Pasteur|1|1858–59.|E
+M|Lamarck proposed that|acquired characteristics are inherited|natural selection|genes mutate|species do not change|1|Disproved.|M
+M|Natural selection acts on|variation within populations|acquired characteristics|only dominant genes|only mutations|1|Differential survival.|M
+M|The main steps of natural selection include|variation, overproduction, struggle for existence and survival of the fittest|only mutation|only migration|only chance|1|Darwin.|M
+M|Fitness in evolution is|the ability to survive and reproduce|physical strength|size|speed|1|Reproductive success.|M
+M|The source of new alleles is|mutation|natural selection|migration|drift|1|Random.|M
+M|Gene flow is the|movement of alleles between populations|mutation|selection|drift|1|Migration.|M
+M|Genetic drift is|random change in allele frequencies in small populations|selection|mutation|migration|1|Founder effect.|M
+M|The founder effect occurs when|a small group starts a new population|a population is huge|selection acts|mutations occur|1|Reduced diversity.|M
+M|The bottleneck effect occurs when|a population is drastically reduced|a population grows|migration occurs|selection stops|1|Loss of variation.|M
+M|Industrial melanism in peppered moths is an example of|natural selection|genetic drift|mutation only|migration|1|Dark moths survive in soot.|M
+M|Antibiotic resistance in bacteria is an example of|natural selection|use and disuse|drift|none|1|Resistant ones survive.|M
+M|Speciation is the|formation of new species|extinction|migration|mutation|1|Reproductive isolation.|M
+M|Allopatric speciation occurs when|populations are geographically separated|populations overlap|there is no isolation|mutations are absent|1|Barriers.|M
+M|Sympatric speciation occurs|without geographical separation|only on islands|only in water|never|1|Polyploidy in plants.|H
+M|Reproductive isolation prevents|gene flow between species|mutation|selection|growth|1|Behavioural, temporal, mechanical.|M
+M|Adaptive radiation is shown by|Darwin's finches|humans|bacteria|ferns|1|Different beak shapes.|M
+M|Homologous structures are|similar in structure due to common ancestry|similar in function only|unrelated|identical|1|Forelimbs of mammals.|M
+M|Analogous structures are|similar in function but different in origin|similar in origin|vestigial|identical|1|Wings of bats and insects.|M
+M|Vestigial organs are|reduced structures with no function|essential|growing|new|1|Appendix.|M
+M|Convergent evolution produces|analogous structures|homologous structures|vestigial organs|fossils|1|Similar environments.|M
+M|Fossils provide evidence for evolution because they|show past forms of life|are alive|are new|are rocks only|1|Transitional forms.|M
+M|Radiometric dating uses|half-lives of isotopes|colour|size|density|1|Carbon-14, uranium.|M
+M|The half-life of carbon-14 is about|5730 years|573 years|57 300 years|5.73 years|1|Used for recent fossils.|M
+M|Archaeopteryx is a transitional fossil between|reptiles and birds|fish and amphibians|apes and humans|dinosaurs and mammals|1|Feathers and teeth.|M
+M|Molecular evidence for evolution includes|similarities in DNA and protein sequences|colour of skin|size|number of limbs|1|Cytochrome c.|M
+M|The earliest hominid fossil Australopithecus was found in|Africa|America|Europe|Antarctica|1|Lucy.|M
+M|Modern humans are classified as|Homo sapiens|Homo erectus|Australopithecus|Pan|1|Our species.|E
+M|The Hardy-Weinberg principle describes a population that is|not evolving|evolving rapidly|going extinct|speciating|1|Equilibrium.|M
+M|Directional selection favours|one extreme phenotype|the intermediate|both extremes|none|1|Shifts the mean.|M
+M|Stabilising selection favours|the intermediate phenotype|one extreme|both extremes|none|1|Birth mass in humans.|M
+M|Disruptive selection favours|both extremes|the intermediate|one extreme|none|1|May lead to speciation.|M
+N|The half-life of C-14 is 5730 years. A fossil has 25% of the original C-14. Find its age in years.|11460|Two half-lives.|M|2*5730
+N|A fossil has 12.5% of the original C-14. Find the number of half-lives.|3|(1/2)³.|M|3
+N|If q² = 0.09, find q.|0.3|√0.09.|M|Math.sqrt(0.09)
+N|If p = 0.6, find the frequency of heterozygotes 2pq.|0.48|2 × 0.6 × 0.4.|H|2*0.6*0.4
+N|A population of 1000 has 160 homozygous recessives. Find q².|0.16|160/1000.|M|160/1000
+N|The frequency of a recessive allele is 0.1. Find the percentage of carriers.|18|2 × 0.9 × 0.1.|H|2*0.9*0.1*100
+N|A population of moths has 20% dark, which rises by 5% points each generation. Find the percentage after 6 generations.|50|20 + 30.|M|20+5*6
+N|A bacterial population has resistance frequency 0.01 and doubles each generation. Find it after 5 generations.|0.32|0.01 × 32.|M|0.01*2^5
+S|State Darwin's theory of natural selection.|Organisms produce more offspring than can survive, there is variation, individuals better adapted survive and reproduce more, and favourable traits are passed on.|Over time populations change.|M
+S|Describe two types of evidence for evolution.|Fossil evidence shows transitional forms such as Archaeopteryx, and comparative anatomy shows homologous structures such as the pentadactyl limb.|DNA similarities are also evidence.|M
+S|Distinguish between homologous and analogous structures.|Homologous structures have a common ancestry but may differ in function, while analogous structures have similar functions but different origins.|Convergent evolution.|M
+S|Explain how a new species may form by allopatric speciation.|A population is split by a barrier, selection and drift change the groups separately until they cannot interbreed.|Isolation then speciation.|M
+S|Describe industrial melanism in the peppered moth.|Before industrialisation light moths were camouflaged, but soot made trees dark so dark moths survived better and became common, showing selection.|Reversed after pollution fell.|M
+S|Distinguish between directional, stabilising and disruptive selection.|Directional selection favours one extreme, stabilising favours the average, and disruptive favours both extremes.|They change the distribution differently.|M

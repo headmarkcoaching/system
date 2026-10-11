@@ -1,0 +1,162 @@
+@level 2nd Year
+@subject Chemistry
+
+# 10 Alcohols, Phenols and Ethers
+M|The functional group of alcohols is|−OH attached to a saturated carbon|−OH attached to a benzene ring|−O−|−COOH|1|Hydroxyl group.|E
+M|The functional group of phenols is|−OH attached to a benzene ring|−OH attached to an alkyl group|−O−|−CHO|1|Aromatic hydroxyl.|E
+M|The functional group of ethers is|−O− between two carbon groups|−OH|−CO−|−COOH|1|R–O–R′.|E
+M|A primary alcohol has the −OH group on|a carbon bonded to one other carbon|a carbon bonded to two other carbons|a carbon bonded to three other carbons|a benzene ring|1|For example ethanol.|M
+M|A secondary alcohol has the −OH group on|a carbon bonded to two other carbons|a carbon bonded to one carbon|a carbon bonded to three carbons|a benzene ring|1|For example propan-2-ol.|M
+M|A tertiary alcohol has the −OH group on|a carbon bonded to three other carbons|a carbon bonded to one carbon|a carbon bonded to two carbons|a benzene ring|1|For example 2-methylpropan-2-ol.|M
+M|Alcohols have higher boiling points than alkanes of similar molar mass because of|hydrogen bonding|ionic bonding|metallic bonding|weak London forces|1|Strong intermolecular attraction.|M
+M|Lower alcohols are miscible with water because they|form hydrogen bonds with water|are ionic|are heavy|are gases|1|Short chain.|M
+M|Ethanol is prepared industrially by|fermentation of sugars or hydration of ethene|oxidation of ethane|reduction of ethanoic acid|hydrolysis of ether|1|Yeast and zymase.|M
+M|The enzyme in yeast that converts glucose to ethanol is|zymase|amylase|lipase|pepsin|1|Fermentation.|M
+M|Oxidation of a primary alcohol gives first|an aldehyde|a ketone|an acid|an alkene|1|Then further to a carboxylic acid.|M
+M|Oxidation of a secondary alcohol gives|a ketone|an aldehyde|an acid|an alkene|1|Using acidified K₂Cr₂O₇.|M
+M|A tertiary alcohol is|resistant to oxidation under mild conditions|easily oxidised to a ketone|oxidised to an aldehyde|oxidised to an acid|1|No α-hydrogen.|M
+M|The Lucas test distinguishes|primary, secondary and tertiary alcohols|aldehydes and ketones|acids and esters|alkenes and alkynes|1|ZnCl₂ with conc. HCl.|H
+M|The dehydration of ethanol with conc. H₂SO₄ at 170 °C gives|ethene|ethane|diethyl ether|ethanal|1|Elimination.|M
+M|The dehydration of ethanol with conc. H₂SO₄ at 140 °C gives|diethyl ether|ethene|ethanal|ethane|1|Intermolecular dehydration.|M
+M|The reaction of ethanol with sodium gives|sodium ethoxide and hydrogen|ethene|ethanal|sodium hydroxide|1|2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂.|M
+M|The reaction of an alcohol with a carboxylic acid in the presence of an acid catalyst is|esterification|hydrolysis|oxidation|reduction|1|Gives an ester and water.|M
+M|Methanol is poisonous because it|is oxidised to methanal and methanoic acid in the body|is a gas|is acidic|has no taste|1|Can cause blindness.|M
+M|Denatured spirit is|ethanol made unfit for drinking|pure water|methanol only|acetone|1|Mixed with methanol or pyridine.|M
+M|Phenol is more acidic than ethanol because|the phenoxide ion is stabilised by resonance|phenol is a gas|ethanol is ionic|phenol has more carbon|1|Delocalised negative charge.|M
+M|Phenol reacts with NaOH to give|sodium phenoxide|sodium carbonate|benzene|benzoic acid|1|It is acidic.|M
+M|Phenol does not react with|NaHCO₃|NaOH|Na|bromine water|1|It is weaker than carbonic acid.|M
+M|Phenol reacts with bromine water to give|2,4,6-tribromophenol (white precipitate)|bromobenzene|2-bromophenol only|no reaction|1|The ring is highly activated.|M
+M|The test for phenol is|violet colour with neutral FeCl₃|brown precipitate with iodine|silver mirror|brick red precipitate|1|Characteristic.|M
+M|Phenol is manufactured by the|cumene process|Solvay process|Haber process|Contact process|1|Also gives acetone.|M
+M|Ethers are|relatively unreactive|very reactive|acidic|basic|1|Used as solvents.|M
+M|Diethyl ether is used as|a solvent and anaesthetic|a fuel only|a fertiliser|a dye|1|C₂H₅OC₂H₅.|M
+M|Ethers can be prepared by|Williamson's synthesis|Wurtz reaction|Friedel-Crafts reaction|Cannizzaro reaction|1|RONa + R′X.|M
+M|Williamson's synthesis involves the reaction of|sodium alkoxide with an alkyl halide|alcohol with acid|alkene with water|ketone with HCN|1|SN2.|M
+M|Isomeric with ethanol is|dimethyl ether|ethanal|ethane|methanol|1|C₂H₆O.|M
+M|The boiling point of ethanol compared with dimethyl ether is|higher|lower|equal|zero|1|Hydrogen bonding.|M
+M|Glycol is|ethane-1,2-diol|ethanol|glycerol|phenol|1|Used as antifreeze.|M
+M|Glycerol is|propane-1,2,3-triol|ethane-1,2-diol|ethanol|phenol|1|Used in cosmetics.|M
+N|Find the molar mass of ethanol in g/mol.|46|24 + 6 + 16.|E|24+6+16
+N|Find the molar mass of phenol (C₆H₅OH) in g/mol.|94|72 + 6 + 16.|M|72+6+16
+N|Find the mass in g of ethanol from 180 g of glucose by fermentation, C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂ (100% yield).|92|2 mol × 46.|M|180/180*2*46
+N|Find the volume in dm³ of CO₂ at STP from 180 g of glucose by fermentation.|44.8|2 mol.|M|2*22.4
+N|Find the volume in dm³ of H₂ at STP from 23 g of ethanol (46 g/mol) with excess sodium.|5.6|0.25 mol.|H|23/46/2*22.4
+N|Find the mass in g of tribromophenol (C₆H₂Br₃OH = 331) from 94 g of phenol.|331|1 mol.|M|94/94*331
+N|Find the percentage of oxygen in ethanol.|34.8|16/46.|M|16/46*100
+N|Find the number of hydroxyl groups in glycerol.|3|Triol.|M|3
+N|Find the number of isomers of C₄H₁₀O that are alcohols.|4|Butan-1-ol, butan-2-ol, 2-methylpropan-1-ol and 2-methylpropan-2-ol.|H|4
+N|Find the molar mass of diethyl ether in g/mol.|74|48 + 10 + 16.|M|48+10+16
+N|Find the mass in g of ethyl ethanoate (88 g/mol) from 46 g ethanol (1:1 esterification, 100% yield).|88|1 mol.|M|46/46*88
+N|Find the percentage yield if 66 g of ethyl ethanoate is obtained from 88 g theoretical.|75|66/88.|M|66/88*100
+N|Find the number of moles of Na needed to react with 3 mol of glycerol (all OH groups).|9|3 per molecule.|H|3*3
+N|Find the number of carbon atoms in glycerol.|3|Propane-1,2,3-triol.|M|3
+N|Find the oxidation number of the carbon in the CH₂OH group of ethanol. The carbon has two C–H bonds (−1 each), one C–O bond (+1) and one C–C bond (0).|-1|−2 + 1 + 0 = −1.|H|-2+1+0
+S|Classify alcohols as primary, secondary and tertiary with examples.|In a primary alcohol the −OH carbon has one alkyl group (ethanol), in a secondary it has two (propan-2-ol) and in a tertiary it has three (2-methylpropan-2-ol).|Oxidation differs.|M
+S|Compare the acidity of ethanol and phenol.|Phenol is more acidic because its phenoxide ion is stabilised by delocalisation of the negative charge into the ring, so it reacts with NaOH while ethanol does not.|Both are weaker than carboxylic acids.|M
+S|State the products of oxidation of primary, secondary and tertiary alcohols.|A primary alcohol gives an aldehyde then a carboxylic acid, a secondary alcohol gives a ketone, and a tertiary alcohol is not oxidised easily.|With K₂Cr₂O₇/H⁺.|M
+S|Describe Williamson's synthesis of ethers.|A sodium alkoxide reacts with an alkyl halide by an SN2 reaction to give an ether, RONa + R′X → ROR′ + NaX.|Primary halides give the best yield.|M
+S|Give two tests that distinguish phenol from ethanol.|Phenol gives a violet colour with neutral ferric chloride and a white precipitate with bromine water, while ethanol gives neither.|Phenol also dissolves in NaOH.|M
+
+# 11 Aldehydes, Ketones and Carboxylic Acids
+M|The functional group of aldehydes is|−CHO|−CO−|−COOH|−OH|1|Formyl.|E
+M|The functional group of ketones is|−CO−|−CHO|−COOH|−OH|1|Carbonyl between two carbons.|E
+M|The functional group of carboxylic acids is|−COOH|−CHO|−CO−|−OH|1|Carboxyl.|E
+M|Aldehydes are prepared by|oxidation of primary alcohols|oxidation of secondary alcohols|reduction of acids|hydrolysis of ketones|1|Controlled oxidation.|M
+M|Ketones are prepared by|oxidation of secondary alcohols|oxidation of primary alcohols|hydrolysis of esters|reduction of acids|1|With K₂Cr₂O₇/H⁺.|M
+M|The carbonyl group undergoes|nucleophilic addition|electrophilic addition|free radical substitution|elimination only|1|The carbon is electron-poor.|M
+M|The reaction of aldehydes with HCN gives|cyanohydrins|nitriles|amines|acids|1|Nucleophilic addition.|M
+M|Aldehydes are oxidised easily because|they have a hydrogen on the carbonyl carbon|they are gases|they are acidic|they have no oxygen|1|Ketones are not.|M
+M|Tollens' reagent is|ammoniacal silver nitrate|Fehling's solution|acidified permanganate|bromine water|1|[Ag(NH₃)₂]⁺.|M
+M|Tollens' test gives with aldehydes|a silver mirror|a red precipitate|a blue solution|a yellow precipitate|1|Aldehyde is oxidised to acid.|M
+M|Fehling's solution gives with aliphatic aldehydes|a brick red precipitate|a silver mirror|a violet colour|no change|1|Cu₂O is formed.|M
+M|Ketones do not respond to|Tollens' and Fehling's tests|2,4-DNPH|NaHSO₃|HCN|1|They are not easily oxidised.|M
+M|2,4-Dinitrophenylhydrazine gives with aldehydes and ketones|an orange or yellow precipitate|no reaction|a silver mirror|a violet colour|1|The test for the carbonyl group.|M
+M|The iodoform test is given by|ethanal and methyl ketones|all aldehydes|all ketones|alkanes|1|Yellow precipitate of CHI₃.|M
+M|The Cannizzaro reaction is shown by|aldehydes with no α-hydrogen|aldehydes with α-hydrogen|ketones|alcohols|1|For example HCHO and benzaldehyde.|H
+M|The aldol condensation is shown by|aldehydes and ketones with α-hydrogen|benzaldehyde|methanal|ethers|1|Base-catalysed.|H
+M|Reduction of aldehydes gives|primary alcohols|secondary alcohols|ethers|acids|1|With LiAlH₄ or NaBH₄.|M
+M|Reduction of ketones gives|secondary alcohols|primary alcohols|aldehydes|acids|1|With NaBH₄.|M
+M|Formalin is a|40% solution of methanal in water|solution of ethanol|solution of acetone|solution of acetic acid|1|Preservative.|M
+M|Acetone is|propanone|ethanal|propanal|butanone|1|The simplest ketone.|E
+M|Vinegar contains|ethanoic acid|methanoic acid|citric acid|lactic acid|1|About 4–5 percent.|E
+M|Carboxylic acids have higher boiling points than alcohols because of|dimer formation through hydrogen bonds|ionic bonds|metallic bonds|London forces only|1|Strong H-bonding.|M
+M|Carboxylic acids are weak acids with pKa about|4–5|1|9|14|1|Ka about 10⁻⁵.|M
+M|The strongest acid among the following is|CCl₃COOH|CH₃COOH|CH₃CH₂COOH|C₆H₅OH|1|The inductive effect of Cl.|H
+M|The reaction of carboxylic acids with NaHCO₃ gives|CO₂ effervescence|H₂ gas|no reaction|a precipitate|1|Test for the carboxyl group.|M
+M|The esterification of ethanoic acid with ethanol gives|ethyl ethanoate|diethyl ether|ethanal|acetone|1|Acid catalysed.|M
+M|Esters are known for|fruity smells|foul smells|no smell|pungent smells|1|Used in perfumes.|M
+M|Hydrolysis of an ester with NaOH is called|saponification|esterification|hydrogenation|dehydration|1|Gives soap with fats.|M
+M|Formic acid is a strong reducing agent because it also has|an aldehyde group|a ketone group|no hydrogen|an ether group|1|HCOOH.|H
+M|Soaps are|sodium or potassium salts of long-chain fatty acids|esters|alcohols|amines|1|Made by saponification.|M
+N|Find the molar mass of ethanal in g/mol.|44|24 + 4 + 16.|E|24+4+16
+N|Find the molar mass of acetone in g/mol.|58|36 + 6 + 16.|E|36+6+16
+N|Find the molar mass of ethanoic acid in g/mol.|60|24 + 4 + 32.|E|24+4+32
+N|Find the molar mass of ethyl ethanoate in g/mol.|88|48 + 8 + 32.|M|48+8+32
+N|Find the mass in g of ethanoic acid from 46 g of ethanol by complete oxidation (1:1).|60|1 mol.|M|46/46*60
+N|Find the mass in g of silver deposited when 1 mol of RCHO reduces Tollens' reagent (2 Ag per aldehyde, Ag = 108).|216|2 × 108.|H|2*108
+N|Find the mass in g of Cu₂O (143 g/mol) from 1 mol of aldehyde with Fehling's solution.|143|1 mol.|H|143
+N|Find the percentage of oxygen in acetone to one decimal.|27.6|16/58.|M|16/58*100
+N|Find the volume in dm³ of CO₂ at STP from 60 g of CH₃COOH with NaHCO₃ (1:1).|22.4|1 mol.|M|60/60*22.4
+N|Find the mass in g of NaOH (40) needed to neutralise 6 g of acetic acid (60 g/mol).|4|0.1 mol.|M|6/60*40
+N|Find the pH of 0.1 M acetic acid (Ka = 1.8 × 10⁻⁵) using [H⁺] = √(KaC), to two decimals.|2.87|−log √1.8×10⁻⁶.|H|-Math.log10(Math.sqrt(1.8e-5*0.1))
+N|Find the number of isomers of C₄H₈O that are aldehydes or ketones.|3|Butanal, 2-methylpropanal and butanone.|H|3
+N|Find the number of carbon atoms in the longest chain of butanoic acid.|4|Four carbons.|E|4
+N|Find the percentage yield if 4.4 g of ethyl ethanoate is obtained from a theoretical 8.8 g.|50|4.4/8.8.|E|4.4/8.8*100
+N|Find the oxidation number of carbon in the −CHO group of ethanal.|1|H +1, O −2, bonded to C: +1.|H|1
+S|Distinguish between aldehydes and ketones using chemical tests.|Aldehydes reduce Tollens' reagent to a silver mirror and Fehling's solution to a red precipitate, while ketones do not.|Both give 2,4-DNPH precipitates.|M
+S|Explain the nucleophilic addition to the carbonyl group.|The carbonyl carbon is partially positive, so a nucleophile attacks it, the π bond breaks, and the oxygen takes the electrons, which are then protonated. HCN adds to give a cyanohydrin.|Aldehydes are more reactive than ketones.|M
+S|Write the equation for esterification.|RCOOH + R′OH ⇌ RCOOR′ + H₂O in the presence of an acid catalyst such as concentrated H₂SO₄.|It is reversible.|M
+S|Why is trichloroethanoic acid a stronger acid than ethanoic acid?|The three chlorine atoms withdraw electrons by the inductive effect, which stabilises the carboxylate ion and makes the acid easier to ionise.|CCl₃COOH has a much lower pKa.|H
+S|What is saponification?|The alkaline hydrolysis of fats or oils with NaOH to give soap (sodium salts of fatty acids) and glycerol.|It is the basis of soap making.|M
+
+# 12 Macromolecules and Environmental Chemistry
+M|A polymer is a|large molecule made of many repeating units|small molecule|metal|gas|1|Monomers join together.|E
+M|The small molecules that form a polymer are called|monomers|dimers|isomers|radicals|1|Building blocks.|E
+M|Polyethene is made by|addition polymerisation of ethene|condensation of ethanol|oxidation|hydrolysis|1|Free radical.|M
+M|Nylon-6,6 is made by|condensation polymerisation|addition polymerisation|oxidation|hydrogenation|1|A diamine and a diacid.|M
+M|In condensation polymerisation a small molecule such as water is|eliminated|added|unchanged|a catalyst|1|At each step.|M
+M|PVC is a polymer of|vinyl chloride|ethene|propene|styrene|1|Chloroethene.|M
+M|Teflon is a polymer of|tetrafluoroethene|ethene|propene|styrene|1|Non-stick.|M
+M|Bakelite is a|thermosetting plastic|thermoplastic|fibre|rubber|1|Phenol-formaldehyde.|M
+M|Natural rubber is a polymer of|isoprene|ethene|butadiene|styrene|1|2-methylbuta-1,3-diene.|M
+M|Proteins are polymers of|amino acids|glucose|fatty acids|nucleotides|1|Joined by peptide bonds.|M
+M|The bond between two amino acids is|a peptide bond|an ester bond|a glycosidic bond|an ionic bond|1|−CO−NH−.|M
+M|Carbohydrates have the general formula|Cₙ(H₂O)ₘ|CₙH₂ₙ|CₙH₂ₙ₊₂|CₙHₙ|1|Hydrates of carbon.|M
+M|Glucose is a|monosaccharide|disaccharide|polysaccharide|protein|1|Simple sugar.|E
+M|Sucrose is a|disaccharide of glucose and fructose|monosaccharide|polysaccharide|protein|1|Table sugar.|M
+M|Starch is a|polysaccharide of glucose|disaccharide|protein|fat|1|Storage in plants.|M
+M|Cellulose is a|polysaccharide of glucose with β-linkages|polysaccharide with α-linkages|protein|fat|1|Structural in plants.|M
+M|Glycogen is stored in|animal liver and muscles|plants|bacteria|viruses|1|Animal starch.|M
+M|Lipids are mainly|esters of glycerol and fatty acids|polysaccharides|proteins|nucleic acids|1|Fats and oils.|M
+M|DNA stands for|deoxyribonucleic acid|ribonucleic acid|dioxynucleic acid|dioxyribose acid|1|The genetic material.|E
+M|The sugar in DNA is|deoxyribose|ribose|glucose|fructose|1|RNA has ribose.|M
+M|The base pairs in DNA are|A–T and G–C|A–G and T–C|A–C and G–T|A–U and G–C|1|Hydrogen bonded.|M
+M|The ozone layer is destroyed by|CFCs|CO₂|O₂|N₂|1|Chlorine radicals.|M
+M|The greenhouse gas that is the main contributor to global warming is|CO₂|N₂|O₂|Ar|1|Along with methane.|M
+M|Acid rain is caused by|SO₂ and NO₂|CO₂ only|O₂|He|1|They form acids with water.|M
+M|Photochemical smog is caused by|nitrogen oxides and hydrocarbons in sunlight|only dust|only CO₂|only SO₂|1|Ozone and PAN.|M
+M|Eutrophication is caused by|excess nitrates and phosphates in water|too much oxygen|too little sun|too much salt|1|Algal bloom.|M
+M|BOD stands for|biochemical oxygen demand|basic oxygen demand|biological ozone depletion|boiling oxygen demand|1|A pollution measure.|M
+M|The permissible pH range of drinking water is|6.5 to 8.5|1 to 3|10 to 14|0 to 2|1|WHO guideline.|M
+M|The process of removing salt from sea water is|desalination|filtration|chlorination|fermentation|1|Reverse osmosis.|M
+M|Biodegradable pollutants are those that|are broken down by microorganisms|never decompose|are metals|are gases|1|Like sewage.|M
+N|Find the molar mass of the repeating unit of PVC (C₂H₃Cl, Cl = 35.5).|62.5|24 + 3 + 35.5.|M|24+3+35.5
+N|Find the molar mass of polyethene with 1000 repeating units (C₂H₄ = 28).|28000|1000 × 28.|M|1000*28
+N|Find the number of peptide bonds in a protein chain of 100 amino acids.|99|n − 1.|M|100-1
+N|Find the number of water molecules removed when 50 amino acids join in one chain.|49|n − 1.|M|50-1
+N|Find the molar mass of glucose in g/mol.|180|72 + 12 + 96.|M|72+12+96
+N|Find the molar mass of sucrose in g/mol.|342|144 + 22 + 176.|M|12*12+22+11*16
+N|Find the number of water molecules released when two glucose molecules join to form one maltose molecule.|1|One H₂O per glycosidic bond.|M|1
+N|Find the percentage of carbon in glucose.|40|72/180.|M|72/180*100
+N|Find the number of nucleotides in a DNA double helix with 1000 base pairs.|2000|2 per pair.|M|1000*2
+N|If adenine is 30% of the bases in DNA, find the percentage of guanine.|20|G + C = 40%.|H|(100-60)/2
+N|The BOD of a water sample is 5 mg/L. Find the oxygen in mg consumed by 10 litres.|50|5 × 10.|M|5*10
+N|The dissolved oxygen in water is 8 mg/L. Find it in mg for 5 litres.|40|8 × 5.|E|8*5
+N|Find the concentration in ppm of 2 mg of a pollutant in 1 litre (1 kg) of water.|2|mg/kg.|M|2
+N|Find the pH of rain water with [H⁺] = 10⁻⁵ M.|5|−log 10⁻⁵.|E|5
+N|Find the increase in [H⁺] when pH falls from 5.6 to 4.6.|10|One pH unit = factor 10.|H|10
+S|Distinguish between addition and condensation polymers with examples.|Addition polymers form by joining monomers with no loss of atoms, for example polyethene. Condensation polymers form with the elimination of a small molecule such as water, for example nylon-6,6.|Both give large molecules.|M
+S|Describe the structure of proteins.|Proteins are long chains of amino acids joined by peptide bonds (primary structure), folded into α-helices and β-sheets (secondary) and a three-dimensional shape (tertiary).|Enzymes are proteins.|M
+S|Distinguish between mono-, di- and polysaccharides.|Monosaccharides such as glucose are simple sugars, disaccharides such as sucrose have two units joined by a glycosidic bond, and polysaccharides such as starch have many units.|They are carbohydrates.|M
+S|Describe the structure of DNA.|DNA is a double helix of two polynucleotide strands, each nucleotide having deoxyribose, a phosphate and a base, with A pairing with T and G pairing with C by hydrogen bonds.|It carries genetic information.|M
+S|State three causes and effects of environmental pollution.|CFCs deplete ozone, burning fossil fuels increases CO₂ and causes global warming, and SO₂ and NO₂ cause acid rain.|They affect health and ecosystems.|M

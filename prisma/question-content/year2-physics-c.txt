@@ -1,0 +1,213 @@
+@level 2nd Year
+@subject Physics
+
+# 7 Electronics
+M|A p-n junction diode conducts when it is|forward biased|reverse biased|unbiased|heated only|1|The p side is connected to the positive terminal.|E
+M|The depletion region of a p-n junction contains|no free charge carriers|many free carriers|only holes|only electrons|1|It forms at the junction.|M
+M|The barrier potential of a silicon diode is about|0.7 V|0.3 V|5 V|12 V|1|Germanium is about 0.3 V.|M
+M|The barrier potential of a germanium diode is about|0.3 V|0.7 V|2 V|10 V|1|It is lower than silicon.|M
+M|The reverse current in a diode is|very small|very large|infinite|equal to the forward current|1|Caused by minority carriers.|M
+M|A rectifier converts|AC to DC|DC to AC|low voltage to high|heat to light|1|It uses diodes.|E
+M|A half-wave rectifier uses|one diode|two diodes|four diodes|no diode|1|It passes one half-cycle.|M
+M|A bridge rectifier uses|four diodes|one diode|two diodes|no diode|1|Full-wave rectification.|M
+M|The output frequency of a full-wave rectifier fed with 50 Hz is|100 Hz|50 Hz|25 Hz|200 Hz|1|Twice the input frequency.|M
+M|A capacitor is used in a rectifier circuit to|smooth the output|increase frequency|reduce voltage to zero|block DC|1|It reduces ripple.|M
+M|A Zener diode is used as a|voltage regulator|rectifier only|amplifier|oscillator|1|It operates in reverse breakdown.|M
+M|A light emitting diode (LED) emits light when|forward biased|reverse biased|heated|unbiased|1|Electron-hole recombination releases photons.|M
+M|A photodiode is used to|detect light|emit light|rectify|amplify|1|It operates in reverse bias.|M
+M|A transistor has|three terminals|two terminals|four terminals|one terminal|1|Emitter, base and collector.|E
+M|In an npn transistor the majority carriers in the emitter are|electrons|holes|protons|neutrons|1|It is heavily doped n-type.|M
+M|In a transistor the base is|thin and lightly doped|thick and heavily doped|a metal|an insulator|1|So that most carriers pass to the collector.|M
+M|The relation between the emitter, base and collector currents is|I_E = I_B + I_C|I_C = I_B + I_E|I_B = I_E + I_C|I_E = I_B I_C|1|Kirchhoff's current law.|M
+M|The current gain β of a transistor in the common-emitter mode is|I_C/I_B|I_B/I_C|I_C/I_E|I_E/I_C|1|Typically 50 to 200.|M
+M|The current gain α in the common-base mode is|I_C/I_E|I_E/I_C|I_B/I_E|I_C/I_B|1|It is slightly less than 1.|M
+M|The relation between α and β is|β = α/(1 − α)|β = α(1 − α)|β = 1/α|β = α + 1|1|From I_E = I_B + I_C.|H
+M|A transistor can work as an amplifier when it operates in the|active region|cut-off region|saturation region|breakdown region|1|The base-emitter is forward biased.|M
+M|A transistor works as a switch when it operates between|cut-off and saturation|active and breakdown|forward and reverse|ac and dc|1|Off and on states.|M
+M|An operational amplifier has|a very high input impedance and a very high gain|a low input impedance|a low gain|no feedback|1|An ideal op-amp has infinite gain.|M
+M|The gain of an inverting amplifier is|−R_f/R_in|R_f/R_in|1 + R_f/R_in|R_in/R_f|1|The negative sign shows inversion.|H
+M|The gain of a non-inverting amplifier is|1 + R_f/R_in|−R_f/R_in|R_f/R_in|R_in/R_f|1|The output is in phase.|H
+M|An AND gate gives output 1 only when|all inputs are 1|any input is 1|all inputs are 0|any input is 0|1|Both inputs must be high.|E
+M|An OR gate gives output 1 when|any input is 1|all inputs are 1|all inputs are 0|no input is 1|1|At least one high.|E
+M|A NOT gate|inverts the input|doubles the input|stores the input|ignores the input|1|1 becomes 0.|E
+M|A NAND gate is equivalent to|an AND gate followed by a NOT gate|an OR gate followed by NOT|two NOT gates|an AND gate only|1|The inverse of AND.|M
+M|A NOR gate is equivalent to|an OR gate followed by a NOT gate|an AND gate followed by NOT|two AND gates|an OR gate only|1|The inverse of OR.|M
+M|The NAND gate is called a universal gate because|any logic function can be built from it|it has many inputs|it is cheap|it is fast|1|Also the NOR gate.|M
+M|The truth table of an XOR gate gives output 1 when|the inputs differ|the inputs are equal|both are 1|both are 0|1|Exclusive OR.|M
+M|De Morgan's theorem states that NOT(A AND B) equals|(NOT A) OR (NOT B)|(NOT A) AND (NOT B)|A OR B|A AND B|1|A key logic identity.|H
+M|The binary number 1010 equals the decimal number|10|5|12|8|1|8 + 2.|M
+N|Find the output frequency in Hz of a full-wave rectifier fed with 50 Hz AC.|100|Twice 50.|E|2*50
+N|A transistor has I_C = 2 mA and I_B = 20 μA. Find the current gain β.|100|I_C/I_B.|M|2e-3/20e-6
+N|A transistor has I_B = 0.05 mA and I_C = 4.95 mA. Find the emitter current in mA.|5|I_B + I_C.|M|0.05+4.95
+N|Find α for a transistor with β = 99.|0.99|α = β/(1 + β).|H|99/100
+N|A silicon diode (0.7 V) is in series with a 5 V battery and a 430 Ω resistor. Find the current in mA.|10|(5 − 0.7)/430.|M|(5-0.7)/430*1000
+N|An inverting op-amp has R_f = 100 kΩ and R_in = 10 kΩ. Find its voltage gain.|-10|−R_f/R_in.|M|-100/10
+N|A non-inverting op-amp has R_f = 90 kΩ and R_in = 10 kΩ. Find its voltage gain.|10|1 + 9.|M|1+90/10
+N|Convert the binary number 1101 to decimal.|13|8 + 4 + 1.|M|8+4+1
+N|Convert the decimal number 25 to binary.|11001|16 + 8 + 1.|M|11001
+N|Find the number of rows in the truth table of a 3-input gate.|8|2³.|M|2^3
+N|The input to a transistor amplifier is 10 mV and the voltage gain is 50. Find the output voltage in mV.|500|10 × 50.|E|10*50
+N|The ripple frequency of a half-wave rectifier on 50 Hz mains is how many Hz?|50|Same as input.|M|50
+N|A Zener diode of 5.1 V is used with a supply of 12 V and a series resistor of 690 Ω. Find the current in mA.|10|(12 − 5.1)/690.|H|(12-5.1)/690*1000
+N|An LED drops 2 V and carries 20 mA from a 5 V supply. Find the series resistance in Ω.|150|(5 − 2)/0.02.|M|(5-2)/0.02
+N|The power gain of an amplifier with voltage gain 20 and current gain 50 is|1000|20 × 50.|M|20*50
+S|Explain the working of a p-n junction diode in forward and reverse bias.|In forward bias the depletion region narrows and a large current flows. In reverse bias it widens and only a tiny leakage current flows.|It is a rectifier.|M
+S|Explain how a bridge rectifier works.|Four diodes are arranged so that during each half-cycle two conduct, giving current through the load in the same direction. A capacitor smooths the output.|The output frequency is twice the input.|M
+S|Define the current gains α and β of a transistor.|α = I_C/I_E in the common-base configuration and β = I_C/I_B in the common-emitter configuration.|β = α/(1 − α).|M
+S|State the truth tables of AND, OR and NOT gates.|AND gives 1 only if both inputs are 1. OR gives 1 if at least one input is 1. NOT gives the opposite of its input.|NAND and NOR are their inverses.|E
+S|State the properties of an ideal operational amplifier.|Infinite voltage gain, infinite input impedance, zero output impedance and infinite bandwidth.|The inputs draw no current.|M
+
+# 8 Dawn of Modern Physics
+M|The photoelectric effect is the|emission of electrons from a metal surface when light falls on it|emission of light from a metal|absorption of electrons|reflection of light|1|Discovered by Hertz.|E
+M|According to Einstein's photoelectric equation, the maximum kinetic energy of the photoelectrons is|hf − φ|hf + φ|h/f|φ − hf|1|φ is the work function.|M
+M|The work function of a metal is|the minimum energy needed to remove an electron from it|the kinetic energy of an electron|the energy of a photon|the potential difference|1|The threshold energy.|M
+M|The threshold frequency is the|minimum frequency of light that can eject electrons|maximum frequency|any frequency|frequency of the electrons|1|f₀ = φ/h.|M
+M|Below the threshold frequency, photoelectrons are emitted|never, whatever the intensity|always|only at high intensity|only for a long time|1|A key failure of the wave theory.|M
+M|The energy of a photon is|E = hf|E = h/f|E = f/h|E = hf²|1|h is Planck's constant.|E
+M|The value of Planck's constant is about|6.63 × 10⁻³⁴ J s|6.63 × 10³⁴ J s|1.6 × 10⁻¹⁹ J s|3 × 10⁸ J s|1|A fundamental constant.|M
+M|The momentum of a photon of wavelength λ is|h/λ|hλ|λ/h|hf|1|p = h/λ.|M
+M|The de Broglie wavelength of a particle of momentum p is|h/p|h p|p/h|p²/h|1|Matter waves.|M
+M|The wave nature of electrons was demonstrated by|electron diffraction|the photoelectric effect|the Compton effect|X-ray emission|1|Davisson and Germer.|M
+M|The Compton effect shows that photons|have momentum|have no energy|are waves only|have mass at rest|1|X-rays scatter from electrons with change in wavelength.|M
+M|The Compton shift in wavelength is|(h/m c)(1 − cos θ)|h/m c|h cos θ|m c/h|1|Δλ = (h/mc)(1 − cos θ).|H
+M|The stopping potential in the photoelectric effect is the potential needed to|stop the most energetic photoelectrons|accelerate electrons|emit electrons|absorb photons|1|eV₀ = KE_max.|M
+M|The photoelectric current is proportional to|the intensity of the light (for f > f₀)|the frequency|the work function|the stopping potential|1|More photons eject more electrons.|M
+M|The kinetic energy of photoelectrons depends on|the frequency of the light|the intensity of the light|the time|the area|1|KE_max = hf − φ.|M
+M|Black body radiation was explained by Planck using|quantised energy|continuous energy|classical waves|electrons only|1|E = nhf.|M
+M|The Stefan-Boltzmann law states that the power radiated per unit area is proportional to|T⁴|T²|T|T³|1|P = σT⁴.|M
+M|Wien's displacement law states that λ_max T equals|a constant|zero|T|λ|1|2.9 × 10⁻³ m K.|M
+M|In special relativity, the speed of light in vacuum is|the same for all observers|different for moving observers|infinite|zero|1|Einstein's second postulate.|M
+M|Time dilation means that a moving clock|runs slower|runs faster|stops|runs at the same rate|1|t = t₀/√(1 − v²/c²).|M
+M|Length contraction means that a moving rod appears|shorter in the direction of motion|longer|unchanged|rotated|1|L = L₀√(1 − v²/c²).|M
+M|The relativistic mass of a body moving at speed v is|m₀/√(1 − v²/c²)|m₀√(1 − v²/c²)|m₀|m₀ v/c|1|It increases with speed.|M
+M|The mass-energy relation is|E = m c²|E = m c|E = m v²|E = ½ m v²|1|Einstein's equation.|E
+M|X-rays are|high-energy electromagnetic waves|electrons|alpha particles|sound waves|1|Short wavelengths.|E
+M|X-rays are produced when|fast electrons strike a metal target|light strikes a metal|current passes through water|a magnet moves|1|In an X-ray tube.|M
+M|The minimum wavelength of X-rays produced at an accelerating voltage V is|hc/eV|eV/hc|h/eV|hc V/e|1|Duane-Hunt law.|H
+M|The uncertainty principle states that|Δx Δp ≥ h/4π|Δx Δp = 0|Δx = Δp|Δx ≥ Δp|1|Heisenberg's principle.|H
+M|A pair production occurs when a photon|creates an electron and a positron|hits an atom|splits into two photons|is absorbed|1|It needs at least 1.02 MeV.|H
+M|The minimum energy of a photon to produce an electron-positron pair is|1.02 MeV|0.511 MeV|1 eV|100 MeV|1|2m₀c².|H
+M|The positron is the|antiparticle of the electron|neutral particle|heavy particle|photon|1|It has a positive charge.|M
+N|Find the energy in eV of a photon of wavelength 500 nm. Use hc = 1240 eV nm.|2.48|1240/500.|M|1240/500
+N|Find the maximum kinetic energy in eV of photoelectrons when light of 4 eV falls on a metal of work function 2.3 eV.|1.7|hf − φ.|M|4-2.3
+N|Find the threshold frequency in units of 10¹⁴ Hz for a work function of 2 eV. h = 4.14 × 10⁻¹⁵ eV s, to two decimal places.|4.83|φ/h.|H|2/4.14e-15/1e14
+N|Find the stopping potential in V for photoelectrons of maximum kinetic energy 1.5 eV.|1.5|eV₀ = KE.|M|1.5
+N|Find the de Broglie wavelength in nm of an electron accelerated through 100 V. Use λ = 1.226/√V nm.|0.123|1.226/10.|H|1.226/Math.sqrt(100)
+N|Find the momentum of a photon of 500 nm in units of 10⁻²⁷ kg m/s. h = 6.63 × 10⁻³⁴.|1.33|h/λ.|M|6.63e-34/500e-9/1e-27
+N|Find the energy in J of 1 MeV in units of 10⁻¹³ J.|1.6|1.6 × 10⁻¹⁹ × 10⁶.|M|1.6e-19*1e6/1e-13
+N|Find the minimum X-ray wavelength in pm for a tube voltage of 50 kV. Use λ = 1240/V nm with V in volts, to one decimal.|24.8|1240/50000 nm.|H|1240/50000*1000
+N|A clock moves at 0.6c. Find the time dilation factor 1/√(1 − v²/c²).|1.25|1/√0.64.|H|1/Math.sqrt(1-0.36)
+N|A rod of 1 m moves at 0.6c. Find its contracted length in m.|0.8|√(1 − 0.36).|H|Math.sqrt(1-0.36)
+N|Find the energy in MeV equivalent to 1 u (1.66 × 10⁻²⁷ kg). c = 3 × 10⁸ m/s, to the nearest MeV.|934|mc²/(1.6 × 10⁻¹³) = 933.75.|H|1.66e-27*9e16/1.6e-13
+N|Find the rest energy in MeV of an electron (9.1 × 10⁻³¹ kg), to three decimals.|0.512|mc²/(1.6 × 10⁻¹³).|H|9.1e-31*9e16/1.6e-13
+N|Find the frequency in 10¹⁴ Hz of light of wavelength 600 nm.|5|c/λ.|M|3e8/600e-9/1e14
+N|If the intensity of light is doubled and the frequency is unchanged, by what factor does the maximum kinetic energy change?|1|It does not change.|M|1
+S|State Einstein's photoelectric equation.|hf = φ + KE_max, where hf is the photon energy, φ the work function and KE_max the maximum kinetic energy of the emitted electrons.|It explains the threshold frequency.|M
+S|State two experimental facts of the photoelectric effect that the wave theory cannot explain.|There is a threshold frequency below which no emission occurs, and the kinetic energy of the electrons does not depend on the intensity of the light.|Emission is also instantaneous.|M
+S|State de Broglie's hypothesis.|A moving particle of momentum p has an associated wave of wavelength λ = h/p.|It was confirmed by electron diffraction.|M
+S|State the two postulates of special relativity.|The laws of physics are the same in all inertial frames, and the speed of light in vacuum is the same for all observers.|Time dilation and length contraction follow.|M
+S|Explain the Compton effect.|When X-rays scatter from electrons, the scattered X-rays have a longer wavelength, and the shift depends on the scattering angle, which shows that photons carry momentum.|Δλ = (h/mc)(1 − cos θ).|H
+
+# 9 Atomic Spectra
+M|Rutherford's model of the atom has a|small dense nucleus with electrons around it|uniform positive sphere|no nucleus|hollow sphere|1|From alpha scattering.|E
+M|The main weakness of Rutherford's model is that it|cannot explain the stability and line spectra of atoms|has no nucleus|has no electrons|uses no force|1|Accelerating electrons should radiate.|M
+M|Bohr's first postulate says that electrons move in|certain stable circular orbits without radiating|any orbits|straight lines|the nucleus|1|Stationary states.|M
+M|Bohr's quantisation condition for angular momentum is|m v r = n h/2π|m v r = n h|m v r = h/n|m v = n h|1|n is an integer.|M
+M|The energy of the nth orbit of the hydrogen atom is|−13.6/n² eV|13.6/n² eV|−13.6 n² eV|−13.6/n eV|1|The ground state is −13.6 eV.|M
+M|The ground state energy of the hydrogen atom is|−13.6 eV|13.6 eV|0 eV|−3.4 eV|1|The lowest energy.|E
+M|The ionisation energy of hydrogen is|13.6 eV|3.4 eV|1.51 eV|0 eV|1|From the ground state.|M
+M|The radius of the nth Bohr orbit is proportional to|n²|n|1/n|1/n²|1|rₙ = n² a₀.|M
+M|The Bohr radius a₀ is about|0.053 nm|0.53 nm|5.3 nm|0.0053 nm|1|The radius of the first orbit.|M
+M|When an electron jumps from a higher energy level to a lower one, the atom|emits a photon|absorbs a photon|emits an electron|absorbs a neutron|1|hf = E₂ − E₁.|M
+M|The Rydberg formula for hydrogen is|1/λ = R(1/n₁² − 1/n₂²)|1/λ = R(n₁² − n₂²)|λ = R/n²|1/λ = R/n²|1|R = 1.097 × 10⁷ m⁻¹.|M
+M|The Lyman series corresponds to transitions ending at|n = 1|n = 2|n = 3|n = 4|1|It lies in the ultraviolet.|M
+M|The Balmer series corresponds to transitions ending at|n = 2|n = 1|n = 3|n = 4|1|It lies in the visible region.|M
+M|The Paschen series lies in the|infrared|ultraviolet|visible|X-ray region|1|Ends at n = 3.|M
+M|An emission spectrum is produced by|a hot gas or excited atoms|white light through a gas|sunlight through a prism only|a cold solid|1|It has bright lines.|M
+M|An absorption spectrum is produced when|white light passes through a cooler gas|a gas is heated|a solid is heated|a liquid emits|1|It has dark lines.|M
+M|Fraunhofer lines in the solar spectrum are|absorption lines|emission lines|continuous|bands of colour|1|Caused by the Sun's atmosphere.|M
+M|A continuous spectrum is produced by|a hot solid|a hot gas|a cold gas|a vapour lamp|1|Incandescent bodies.|M
+M|A laser produces light that is|coherent and monochromatic|incoherent|white|diffuse|1|Light Amplification by Stimulated Emission of Radiation.|M
+M|Stimulated emission occurs when|a photon causes an excited atom to emit an identical photon|an atom absorbs a photon|an atom is ionised|an atom collides|1|The basis of lasers.|M
+M|A population inversion is needed for|laser action|absorption|thermal equilibrium|ionisation|1|More atoms in the excited state.|H
+M|The characteristic X-rays of an element are produced by|transitions of inner shell electrons|outer electrons|nuclear decay|heat|1|They identify the element.|M
+M|Moseley's law relates the frequency of characteristic X-rays to|the atomic number|the atomic mass|the temperature|the pressure|1|√f ∝ (Z − 1).|H
+M|The energy of an electron in a bound state is|negative|positive|zero|infinite|1|Relative to a free electron at rest.|M
+M|Excitation of an atom means|raising an electron to a higher energy level|removing an electron|adding a proton|splitting the nucleus|1|It needs energy.|E
+M|The first excitation energy of hydrogen is|10.2 eV|13.6 eV|3.4 eV|1.89 eV|1|−3.4 − (−13.6).|M
+M|The wavelength of the first Balmer line (H-alpha) is about|656 nm|121 nm|1875 nm|486 nm|1|Red.|H
+M|The Franck-Hertz experiment confirmed|the quantisation of atomic energy levels|the existence of the neutron|the nuclear force|the wave nature of light|1|Electrons lose energy in discrete amounts.|H
+M|The spectral lines of a gas can be used to|identify the elements in it|measure its mass|find its colour|find its weight|1|Each element has a unique spectrum.|M
+N|Find the energy in eV of the n = 2 level of hydrogen.|-3.4|−13.6/4.|M|-13.6/4
+N|Find the energy in eV of the n = 3 level of hydrogen, to two decimal places.|-1.51|−13.6/9.|M|-13.6/9
+N|Find the energy in eV emitted when an electron falls from n = 2 to n = 1 in hydrogen.|10.2|−3.4 − (−13.6).|M|-3.4+13.6
+N|Find the wavelength in nm of the photon emitted in the n = 2 to n = 1 transition. Use hc = 1240 eV nm, to one decimal.|121.6|1240/10.2.|H|1240/10.2
+N|Find the radius in nm of the n = 2 orbit of hydrogen. a₀ = 0.053 nm.|0.212|4 × 0.053.|M|4*0.053
+N|Find the wavelength in nm of the first Balmer line using the Rydberg formula, R = 1.097 × 10⁷ m⁻¹, to the nearest nm.|656|1/λ = R(1/4 − 1/9).|H|1/(1.097e7*(1/4-1/9))*1e9
+N|Find the shortest wavelength in nm of the Lyman series, to the nearest nm.|91|1/R.|H|1/1.097e7*1e9
+N|Find the energy in eV needed to ionise a hydrogen atom in the n = 2 state.|3.4|13.6/4.|M|13.6/4
+N|Find the energy in eV of a photon of wavelength 656 nm. Use hc = 1240 eV nm, to two decimal places.|1.89|1240/656.|M|1240/656
+N|Find the number of spectral lines when electrons fall from n = 4 to all lower levels.|6|4 × 3/2.|H|4*3/2
+N|The angular momentum of the electron in the second Bohr orbit is in units of h/2π.|2|nh/2π.|M|2
+N|Find the speed in 10⁶ m/s of the electron in the first Bohr orbit, v = 2.19 × 10⁶ m/s for n = 1. Give the speed in the n = 2 orbit.|1.095|v ∝ 1/n.|H|2.19/2
+N|Find the ionisation energy in J of hydrogen in units of 10⁻¹⁸ J. 1 eV = 1.6 × 10⁻¹⁹ J.|2.18|13.6 × 1.6 × 10⁻¹⁹.|M|13.6*1.6e-19/1e-18
+N|Find the frequency in 10¹⁵ Hz of a photon of energy 10.2 eV. h = 4.14 × 10⁻¹⁵ eV s, to two decimal places.|2.46|E/h.|H|10.2/4.14e-15/1e15
+N|Find the number of lines in the Balmer series that are visible if the first four lines are visible.|4|By given.|M|4
+S|State Bohr's postulates.|Electrons move in stable circular orbits without radiating, their angular momentum is quantised as mvr = nh/2π, and they radiate a photon of energy hf = E₂ − E₁ when they jump between orbits.|They explain the hydrogen spectrum.|M
+S|Explain the origin of the line spectrum of hydrogen.|An excited electron falling from a higher to a lower energy level emits a photon of energy equal to the difference between the levels, which gives a spectral line of a particular wavelength.|The lines are grouped in series.|M
+S|Name the series of the hydrogen spectrum and their regions.|Lyman (ultraviolet, n = 1), Balmer (visible, n = 2), Paschen (infrared, n = 3), and Brackett and Pfund (infrared).|Each ends at a fixed lower level.|M
+S|Explain stimulated emission and population inversion.|In stimulated emission an incoming photon causes an excited atom to emit an identical photon. A population inversion has more atoms in the excited state than in the lower state, which is needed for laser action.|Lasers give coherent light.|M
+S|What are characteristic X-rays?|X-rays of definite wavelengths emitted when an electron falls into a vacancy in an inner shell, and they depend on the atomic number of the target.|Moseley's law relates them to Z.|M
+
+# 10 Nuclear Physics
+M|The nucleus of an atom contains|protons and neutrons|electrons and protons|electrons only|neutrons and electrons|1|The nucleons.|E
+M|The mass number A of a nucleus is the number of|protons plus neutrons|protons|neutrons|electrons|1|Nucleon number.|E
+M|The atomic number Z is the number of|protons|neutrons|nucleons|electrons plus protons|1|It identifies the element.|E
+M|Isotopes have the same|atomic number but different mass numbers|mass number but different atomic numbers|neutrons|number of nucleons|1|They differ in neutrons.|M
+M|The radius of a nucleus of mass number A is approximately|r₀ A^(1/3)|r₀ A|r₀ A²|r₀/A|1|r₀ = 1.2 fm.|M
+M|The nuclear density is|about the same for all nuclei|greater for heavy nuclei|smaller for heavy nuclei|zero|1|About 10¹⁷ kg/m³.|M
+M|The atomic mass unit is defined as|1/12 of the mass of a carbon-12 atom|the mass of a proton|the mass of an electron|the mass of a neutron|1|1 u = 1.66 × 10⁻²⁷ kg.|M
+M|One atomic mass unit is equivalent to|931 MeV|9.31 MeV|93.1 MeV|0.931 MeV|1|E = mc².|M
+M|The mass defect of a nucleus is|the difference between the mass of its nucleons and the nucleus|the mass of the nucleus|the number of neutrons|the mass of the electrons|1|It becomes binding energy.|M
+M|The binding energy of a nucleus is|the energy needed to separate it into its nucleons|the energy of its electrons|its kinetic energy|its rest energy|1|BE = Δm c².|M
+M|The binding energy per nucleon is greatest for nuclei near|iron (A ≈ 56)|hydrogen|uranium|helium only|1|They are the most stable.|M
+M|Nuclear fission is the|splitting of a heavy nucleus into lighter nuclei|joining of light nuclei|decay of a neutron|emission of an alpha particle|1|It releases energy.|E
+M|Nuclear fusion is the|joining of light nuclei to form a heavier nucleus|splitting of a nucleus|decay of a nucleus|emission of a photon|1|It powers the Sun.|E
+M|A chain reaction occurs when|neutrons released by fission cause further fissions|neutrons are absorbed|nuclei are stable|electrons are emitted|1|A self-sustaining process.|M
+M|In a nuclear reactor, the moderator is used to|slow down neutrons|absorb neutrons|cool the core|produce neutrons|1|Graphite or heavy water.|M
+M|In a nuclear reactor, control rods are used to|absorb neutrons|slow down neutrons|cool the core|produce neutrons|1|Cadmium or boron.|M
+M|Radioactive decay is|a random process|a predictable process for one nucleus|dependent on temperature|dependent on pressure|1|Only probabilities can be given.|M
+M|The law of radioactive decay is|N = N₀ e^(−λt)|N = N₀ λ t|N = N₀/λ|N = λ/N₀|1|λ is the decay constant.|M
+M|The half-life T½ is related to the decay constant by|T½ = 0.693/λ|T½ = λ/0.693|T½ = 0.693 λ|T½ = 1/λ²|1|ln 2/λ.|M
+M|The activity of a radioactive source is|the number of decays per second|its mass|its energy|its half-life|1|A = λN.|M
+M|The SI unit of activity is the|becquerel|curie only|gray|sievert|1|One decay per second.|M
+M|An alpha particle is|a helium nucleus|an electron|a photon|a neutron|1|Two protons and two neutrons.|E
+M|A beta particle is|a fast electron|a helium nucleus|a photon|a proton|1|From a nuclear neutron decay.|E
+M|Gamma rays are|high energy electromagnetic radiation|charged particles|neutrons|electrons|1|They have no charge.|E
+M|In alpha decay, the mass number decreases by|4|2|1|0|1|The atomic number decreases by 2.|M
+M|In beta (minus) decay, the atomic number|increases by 1|decreases by 1|stays the same|decreases by 2|1|A neutron becomes a proton.|M
+M|The Geiger-Müller tube is used to|detect radiation|produce radiation|store energy|measure mass|1|It counts ionising particles.|M
+M|A radioisotope used in cancer treatment is|cobalt-60|carbon-12|oxygen-16|nitrogen-14|1|It emits gamma rays.|M
+M|Carbon-14 is used for|dating ancient objects|power generation|medical imaging|welding|1|Radiocarbon dating.|M
+M|The unit of absorbed dose is the|gray|sievert|becquerel|curie|1|One joule per kilogram.|M
+M|The Sun produces its energy by|nuclear fusion|nuclear fission|burning|chemical reactions|1|Hydrogen to helium.|E
+N|Find the number of neutrons in uranium-238 (Z = 92).|146|238 − 92.|E|238-92
+N|Find the radius in fm of a nucleus of A = 64 using r = 1.2 A^(1/3) fm.|4.8|1.2 × 4.|M|1.2*Math.pow(64,1/3)
+N|The mass defect of a nucleus is 0.03 u. Find the binding energy in MeV, to the nearest MeV.|28|0.03 × 931.|M|0.03*931
+N|The binding energy of helium-4 is 28.3 MeV. Find the binding energy per nucleon in MeV, to two decimals.|7.08|28.3/4.|M|28.3/4
+N|The half-life of a nucleus is 10 days. Find the decay constant in day⁻¹ to three decimals.|0.069|0.693/10.|M|0.693/10
+N|A sample has a half-life of 5 days. Find the fraction remaining after 15 days.|0.125|(1/2)³.|M|1/8
+N|A sample has 800 g and a half-life of 2 hours. Find the mass in g remaining after 6 hours.|100|800/8.|M|800/8
+N|A source has an activity of 3.7 × 10¹⁰ Bq. Find its activity in curie.|1|1 Ci = 3.7 × 10¹⁰ Bq.|M|3.7e10/3.7e10
+N|Find the energy in MeV released in the reaction in which 0.1 u of mass disappears.|93.1|0.1 × 931.|M|0.1*931
+N|Find the energy in J in 1 kg of mass. c = 3 × 10⁸ m/s. Give the answer in units of 10¹⁶ J.|9|mc².|M|9e16/1e16
+N|Uranium-238 emits an alpha particle. Find the mass number of the daughter.|234|238 − 4.|M|238-4
+N|Thorium-234 (Z = 90) emits a beta particle. Find the atomic number of the daughter.|91|Z + 1.|M|90+1
+N|The count rate of a source falls from 800 to 100 in 9 days. Find the half-life in days.|3|Three half-lives.|M|9/3
+N|The half-life of carbon-14 is 5730 years. If a sample has 25 percent of the original C-14, find its age in years.|11460|Two half-lives.|H|2*5730
+N|Find the number of nuclei in 12 g of carbon-12 in units of 10²³. N_A = 6.02 × 10²³.|6.02|One mole.|M|6.02
+S|Define binding energy and mass defect.|The mass defect is the difference between the total mass of the separate nucleons and the mass of the nucleus. The binding energy is the energy equivalent of this, Δm c².|It measures nuclear stability.|M
+S|State the law of radioactive decay.|The rate of decay of a radioactive substance is proportional to the number of undecayed nuclei, dN/dt = −λN, giving N = N₀ e^(−λt).|λ is the decay constant.|M
+S|Define half-life and relate it to the decay constant.|The time in which half the radioactive nuclei decay. T½ = 0.693/λ.|It is constant for a given isotope.|M
+S|Distinguish between nuclear fission and nuclear fusion.|Fission splits a heavy nucleus into lighter ones, while fusion joins light nuclei into a heavier nucleus. Both release energy because the binding energy per nucleon increases.|Fission powers reactors and fusion powers the Sun.|M
+S|Name the components of a nuclear reactor and their functions.|The fuel rods contain the fissile material, the moderator slows neutrons, the control rods absorb neutrons to regulate the reaction, and the coolant carries away heat.|The shielding protects from radiation.|M
