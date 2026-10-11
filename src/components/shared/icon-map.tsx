@@ -41,6 +41,8 @@ import {
   CreditCard,
   Plug,
   Mail,
+  MessageCircleQuestion,
+  MessageSquare,
   type LucideIcon,
 } from "lucide-react";
 import type { IconKey } from "@/lib/nav-config";
@@ -90,4 +92,6 @@ export const ICON_MAP: Record<IconKey, LucideIcon> = {
   paymentGateway: CreditCard,
   integrations: Plug,
   notesSubscription: Mail,
+  doubts: MessageCircleQuestion,
+  messages: MessageSquare,
 };

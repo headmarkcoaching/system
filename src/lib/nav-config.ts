@@ -48,7 +48,9 @@ export type IconKey =
   | "apiKeys"
   | "paymentGateway"
   | "integrations"
-  | "notesSubscription";
+  | "notesSubscription"
+  | "doubts"
+  | "messages";
 
 export interface NavItem {
   label: string;
@@ -74,6 +76,8 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
         { label: "My Batches", href: "/teacher/batches", icon: "batches" },
         { label: "Homework", href: "/teacher/homework", icon: "homework" },
         { label: "Timetable", href: "/teacher/timetable", icon: "timetable" },
+        { label: "Doubts", href: "/teacher/doubts", icon: "doubts" },
+        { label: "Messages", href: "/teacher/messages", icon: "messages" },
         { label: "Knowledge Base", href: "/knowledge-base", icon: "knowledgeBase" },
       ],
     },
@@ -94,6 +98,7 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
         { label: "Tests", href: "/student/tests", icon: "tests" },
         { label: "Exam Prep", href: "/student/exam-prep", icon: "examPrep" },
         { label: "Recordings", href: "/student/recordings", icon: "recordings" },
+        { label: "Ask a Doubt", href: "/student/doubts", icon: "doubts" },
         { label: "Study Material", href: "/student/study-material", icon: "material" },
         { label: "Attendance", href: "/student/attendance", icon: "attendance" },
         { label: "Learning Path", href: "/student/learning-path", icon: "learningPath" },
@@ -101,7 +106,10 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
     },
     {
       title: "Help",
-      items: [{ label: "Support", href: "/support", icon: "support" }],
+      items: [
+        { label: "Message a Teacher", href: "/student/messages", icon: "messages" },
+        { label: "Support", href: "/support", icon: "support" },
+      ],
     },
   ],
   PARENT: [
@@ -114,7 +122,10 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
     },
     {
       title: "Help",
-      items: [{ label: "Support", href: "/support", icon: "support" }],
+      items: [
+        { label: "Message a Teacher", href: "/parent/messages", icon: "messages" },
+        { label: "Support", href: "/support", icon: "support" },
+      ],
     },
   ],
   COUNSELOR: [
@@ -211,6 +222,7 @@ function adminNav(): NavSection[] {
       title: "Support",
       items: [
         { label: "Support Tickets", href: "/admin/support", icon: "support" },
+        { label: "Doubts and Messages", href: "/admin/doubts", icon: "doubts" },
       ],
     },
     {

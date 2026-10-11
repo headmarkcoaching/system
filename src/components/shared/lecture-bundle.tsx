@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FileText, PenLine, ClipboardCheck, X } from "lucide-react";
+import { FileText, PenLine, ClipboardCheck, MessageCircleQuestion, X } from "lucide-react";
 import type { LectureBundle } from "@/lib/lecture-bundle";
 
 function BundleLink({ href, icon: Icon, label, count }: { href: string; icon: typeof FileText; label: string; count: number }) {
@@ -17,16 +17,27 @@ function BundleLink({ href, icon: Icon, label, count }: { href: string; icon: ty
 
 /** Notes, practice and tests that belong to one lecture's chapter, linked into the same
  * subject pages the student already uses, pre-filtered to that chapter. */
-export function LectureBundleLinks({ subjectId, bundle }: { subjectId: string; bundle: LectureBundle }) {
-  const q = `?chapter=${encodeURIComponent(bundle.chapter)}`;
+export function LectureBundleLinks({ subjectId, bundle, askHref }: { subjectId: string; bundle: LectureBundle | null; askHref?: string }) {
+  const q = bundle ? `?chapter=${encodeURIComponent(bundle.chapter)}` : "";
   return (
     <div className="flex flex-wrap items-center gap-2 border-t border-dashed border-border pt-2">
-      <span className="text-xs text-muted-foreground">
-        Chapter: <span className="font-medium text-foreground">{bundle.chapter}</span>
-      </span>
-      {bundle.notes > 0 && <BundleLink href={`/student/study-material/subject/${subjectId}${q}`} icon={FileText} label="Notes" count={bundle.notes} />}
-      {bundle.practice > 0 && <BundleLink href={`/student/homework/subject/${subjectId}${q}`} icon={PenLine} label="Practice" count={bundle.practice} />}
-      {bundle.tests > 0 && <BundleLink href={`/student/tests/subject/${subjectId}${q}`} icon={ClipboardCheck} label="Mock Test" count={bundle.tests} />}
+      {bundle && (
+        <span className="text-xs text-muted-foreground">
+          Chapter: <span className="font-medium text-foreground">{bundle.chapter}</span>
+        </span>
+      )}
+      {bundle && bundle.notes > 0 && <BundleLink href={`/student/study-material/subject/${subjectId}${q}`} icon={FileText} label="Notes" count={bundle.notes} />}
+      {bundle && bundle.practice > 0 && <BundleLink href={`/student/homework/subject/${subjectId}${q}`} icon={PenLine} label="Practice" count={bundle.practice} />}
+      {bundle && bundle.tests > 0 && <BundleLink href={`/student/tests/subject/${subjectId}${q}`} icon={ClipboardCheck} label="Mock Test" count={bundle.tests} />}
+      {askHref && (
+        <Link
+          href={askHref}
+          className="inline-flex items-center gap-1.5 rounded-md border border-primary/30 bg-primary/[0.06] px-2.5 py-1.5 text-xs font-medium text-primary hover:bg-primary/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        >
+          <MessageCircleQuestion className="h-3.5 w-3.5" aria-hidden="true" />
+          Ask a doubt
+        </Link>
+      )}
     </div>
   );
 }

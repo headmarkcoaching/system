@@ -153,7 +153,17 @@ export function RecordingItem({ recording }: { recording: Recording }) {
         </div>
       )}
 
-      {recording.bundle && recording.subjectId && <LectureBundleLinks subjectId={recording.subjectId} bundle={recording.bundle} />}
+      {recording.subjectId && (
+        <LectureBundleLinks
+          subjectId={recording.subjectId}
+          bundle={recording.bundle ?? null}
+          askHref={`/student/doubts/new?${new URLSearchParams({
+            subjectId: recording.subjectId,
+            ...(recording.bundle?.chapter ? { chapter: recording.bundle.chapter } : {}),
+            title: `Question on: ${recording.title}`.slice(0, 140),
+          }).toString()}`}
+        />
+      )}
     </li>
   );
 }

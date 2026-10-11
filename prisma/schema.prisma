@@ -207,6 +207,8 @@ enum NotificationType {
   INACTIVITY_ALERT
   FOLLOWUP_ALERT
   SUPPORT_TICKET_UPDATE
+  DOUBT_UPDATE
+  TEACHER_MESSAGE
 }
 
 enum AnnouncementAudience {
@@ -482,6 +484,10 @@ model User {
   // Phase 3F(v)
   passwordResetTokens PasswordResetToken[]
 
+  doubtReplies    DoubtReply[]
+  startedThreads  TeacherThread[]  @relation("ThreadStartedBy")
+  teacherMessages TeacherMessage[]
+
   @@map("users")
 }
 
@@ -579,6 +585,10 @@ model Student {
 
   @@index([academicLevelId])
   @@index([status])
+  // Doubt desk and teacher messages
+  doubts         Doubt[]
+  teacherThreads TeacherThread[]
+
   @@map("students")
 }
 
@@ -636,6 +646,8 @@ model Teacher {
   batchAssignments BatchTeacher[]
   timetableEntries Timetable[]
   liveClasses      LiveClass[]
+
+  teacherThreads TeacherThread[]
 
   @@map("teachers")
 }
@@ -750,6 +762,8 @@ model Subject {
   notesSubscriptions NotesSubscription[]
 
   @@unique([name, academicLevelId])
+  doubts             Doubt[]
+
   @@map("subjects")
 }
 
@@ -794,6 +808,8 @@ model Batch {
   participationScores ParticipationScore[]
 
   @@index([status])
+  doubts Doubt[]
+
   @@map("batches")
 }
 
@@ -2192,6 +2208,8 @@ enum FilePurpose {
   LEAD_ASSESSMENT
   STUDY_MATERIAL
   NOTES_SUBSCRIPTION_RECEIPT
+  DOUBT_ATTACHMENT
+  MESSAGE_ATTACHMENT
 }
 
 // Provider-agnostic file metadata (src/lib/storage/*) — mirrors the WhatsApp/AI provider
@@ -2219,6 +2237,9 @@ model UploadedFile {
   payments                  Payment[]
   studyMaterial             StudyMaterial?
   notesSubscriptionPayments NotesSubscriptionPayment[]
+  doubts                    Doubt[]
+  doubtReplies              DoubtReply[]
+  teacherMessages           TeacherMessage[]
 
   @@index([purpose])
   @@index([uploadedById])
@@ -2255,4 +2276,105 @@ model AIUsageConfig {
   updatedAt                DateTime @updatedAt
 
   @@map("ai_usage_config")
+}
+
+// ==========================================================================
+// Doubt desk and teacher messages
+// ==========================================================================
+
+enum DoubtStatus {
+  OPEN
+  ANSWERED
+  RESOLVED
+}
+
+// A student's academic question, routed to whoever teaches that subject in that batch. Any
+// teacher assigned to the batch and subject (and any admin) can answer, so there is no single
+// assignee column to keep in sync when teaching assignments change.
+model Doubt {
+  id               String      @id @default(cuid())
+  studentId        String
+  batchId          String
+  subjectId        String
+  chapter          String?
+  title            String
+  body             String
+  attachmentFileId String?
+  status           DoubtStatus @default(OPEN)
+  firstResponseAt  DateTime?
+  resolvedAt       DateTime?
+  lastActivityAt   DateTime    @default(now())
+  createdAt        DateTime    @default(now())
+  updatedAt        DateTime    @updatedAt
+
+  student        Student       @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  batch          Batch         @relation(fields: [batchId], references: [id], onDelete: Cascade)
+  subject        Subject       @relation(fields: [subjectId], references: [id])
+  attachmentFile UploadedFile? @relation(fields: [attachmentFileId], references: [id])
+
+  replies DoubtReply[]
+
+  @@index([studentId, lastActivityAt])
+  @@index([batchId, subjectId, status])
+  @@index([status, createdAt])
+  @@map("doubts")
+}
+
+model DoubtReply {
+  id               String   @id @default(cuid())
+  doubtId          String
+  authorId         String
+  body             String
+  attachmentFileId String?
+  createdAt        DateTime @default(now())
+
+  doubt          Doubt         @relation(fields: [doubtId], references: [id], onDelete: Cascade)
+  author         User          @relation(fields: [authorId], references: [id])
+  attachmentFile UploadedFile? @relation(fields: [attachmentFileId], references: [id])
+
+  @@index([doubtId, createdAt])
+  @@map("doubt_replies")
+}
+
+// A private conversation between one parent (or the student) and one teacher about a student.
+// Read-only to admins for oversight. Read markers are per side, so unread is simply
+// "lastMessageAt is newer than my side's read marker, and the last message is not mine".
+model TeacherThread {
+  id            String    @id @default(cuid())
+  teacherId     String
+  studentId     String
+  startedById   String
+  subject       String
+  lastMessageAt DateTime  @default(now())
+  lastAuthorId  String?
+  familyReadAt  DateTime?
+  teacherReadAt DateTime?
+  createdAt     DateTime  @default(now())
+
+  teacher   Teacher @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  student   Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  startedBy User    @relation("ThreadStartedBy", fields: [startedById], references: [id])
+
+  messages TeacherMessage[]
+
+  @@index([teacherId, lastMessageAt])
+  @@index([startedById, lastMessageAt])
+  @@index([studentId])
+  @@map("teacher_threads")
+}
+
+model TeacherMessage {
+  id               String   @id @default(cuid())
+  threadId         String
+  authorId         String
+  body             String
+  attachmentFileId String?
+  createdAt        DateTime @default(now())
+
+  thread         TeacherThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  author         User          @relation(fields: [authorId], references: [id])
+  attachmentFile UploadedFile? @relation(fields: [attachmentFileId], references: [id])
+
+  @@index([threadId, createdAt])
+  @@map("teacher_messages")
 }

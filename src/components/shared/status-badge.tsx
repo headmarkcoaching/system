@@ -62,6 +62,8 @@ const STATUS_CONFIG: Record<string, { label: string; tone: Tone }> = {
   REGISTERED: { label: "Registered", tone: "secondary" },
   ENROLLED: { label: "Enrolled", tone: "success" },
   REWARDED: { label: "Rewarded", tone: "success" },
+  // Doubt desk (OPEN and RESOLVED reuse the mappings below)
+  ANSWERED: { label: "Answered", tone: "secondary" },
   // Support ticket
   WAITING_FOR_USER: { label: "Waiting for User", tone: "warning" },
   RESOLVED: { label: "Resolved", tone: "success" },

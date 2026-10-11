@@ -4,6 +4,7 @@ import { auth } from "@/lib/auth";
 import { db } from "@/lib/db";
 import { STAFF_ROLES } from "@/lib/permissions";
 import { assertCanManageBatch, assertCanManageSupportTicket, assertCanManageLead } from "@/lib/access";
+import { getDoubtAccess, getThreadAccess } from "@/lib/communication-access";
 import * as uploadedFilesService from "@/lib/services/uploaded-files";
 
 /** Files are never served from a public path — every read re-checks the same access rule as
@@ -56,6 +57,25 @@ async function assertCanReadFile(session: Session, fileId: string, purpose: stri
       }
     }
     throw new Error("Forbidden");
+  }
+
+  // A doubt attachment is readable by exactly the people who can open that doubt: the student
+  // who asked and the teachers of that batch and subject (admins already returned above).
+  if (purpose === "DOUBT_ATTACHMENT") {
+    const doubt = await db.doubt.findFirst({ where: { attachmentFileId: fileId }, select: { id: true } });
+    const reply = doubt ? null : await db.doubtReply.findFirst({ where: { attachmentFileId: fileId }, select: { doubtId: true } });
+    const doubtId = doubt?.id ?? reply?.doubtId;
+    if (!doubtId) throw new Error("Not found");
+    await getDoubtAccess(session, doubtId);
+    return;
+  }
+
+  // A message attachment is readable only by the two sides of that conversation (or admins).
+  if (purpose === "MESSAGE_ATTACHMENT") {
+    const message = await db.teacherMessage.findFirst({ where: { attachmentFileId: fileId }, select: { threadId: true } });
+    if (!message) throw new Error("Not found");
+    await getThreadAccess(session, message.threadId);
+    return;
   }
 
   if (purpose === "LEAD_ASSESSMENT") {
