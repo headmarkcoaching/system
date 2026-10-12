@@ -35,12 +35,25 @@ export function formatPKR(amount: number | string) {
   return new Intl.NumberFormat("en-PK", { style: "currency", currency: "PKR", maximumFractionDigits: 0 }).format(n);
 }
 
-// Merges a LiveClass's `scheduledDate` (day) with its `startTime`/`endTime` ("HH:mm" strings)
-// into one real Date, in the server's local timezone — used both to gate presence pings to
-// a class's actual window and to finalize attendance once that window has passed.
+// Class times are Pakistan wall-clock times. Pakistan is UTC+5 all year (no daylight saving).
+const PKT_OFFSET_MS = 5 * 60 * 60 * 1000;
+
+// Merges a LiveClass's `scheduledDate` (stored as midnight UTC of the calendar day) with its
+// `startTime`/`endTime` ("HH:mm" strings, Pakistan time) into the real moment, as a Date. Used both
+// to gate presence pings to a class's actual window and to finalize attendance once it has passed.
+// This used to read the time in the server's own timezone, which is right on a Pakistani computer
+// but five hours off on a UTC host such as Vercel.
 export function combineDateAndTime(date: Date, time: string) {
   const [hours, minutes] = time.split(":").map(Number);
-  const combined = new Date(date);
-  combined.setHours(hours, minutes, 0, 0);
-  return combined;
+  return new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), hours, minutes) - PKT_OFFSET_MS);
+}
+
+// The range of `scheduledDate` values that count as "today" in Pakistan, whatever timezone the
+// server runs in. Class dates are midnight UTC of their calendar day, so this is today's Pakistani
+// calendar date as a UTC-midnight to UTC-midnight range.
+export function pakistanTodayRange(now = new Date()) {
+  const pk = new Date(now.getTime() + PKT_OFFSET_MS);
+  const start = new Date(Date.UTC(pk.getUTCFullYear(), pk.getUTCMonth(), pk.getUTCDate()));
+  const end = new Date(start.getTime() + 24 * 60 * 60 * 1000 - 1);
+  return { start, end };
 }

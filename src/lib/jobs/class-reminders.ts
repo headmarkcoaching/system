@@ -2,19 +2,12 @@ import "server-only";
 import { db } from "@/lib/db";
 import * as automationService from "@/lib/services/automation";
 import * as recipients from "@/lib/services/automation-recipients";
-import { formatTime } from "@/lib/utils";
+import { formatTime, combineDateAndTime } from "@/lib/utils";
 
 const RULE_KEY = "CLASS_REMINDER" as const;
 const DEFAULTS = { offset24hMinutes: 1440, offset1hMinutes: 60, offset30mMinutes: 30, offset24hEnabled: 0, offset1hEnabled: 1, offset30mEnabled: 1, notifyParent: 0, notifyTeacher: 0 };
 // Generous window so a job that polls every few minutes still catches each offset exactly once (guarded by marker).
 const WINDOW_MINUTES = 15;
-
-function combineDateAndTime(date: Date, hhmm: string) {
-  const [hours, minutes] = hhmm.split(":").map(Number);
-  const combined = new Date(date);
-  combined.setHours(hours, minutes, 0, 0);
-  return combined;
-}
 
 /** Rule 8 (Class Reminders): fires reminders at each enabled offset before a live class. */
 export async function runClassReminders(now = new Date()) {

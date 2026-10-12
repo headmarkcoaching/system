@@ -17,7 +17,11 @@ function secretsMatch(a: string, b: string): boolean {
 // Windows Task Scheduler + curl, GitHub Actions, ...). Auth is a shared secret checked
 // here directly — NOT session-based — since the caller isn't a logged-in browser.
 // middleware.ts explicitly excludes /api/cron from its session-redirect logic.
-export async function POST(request: NextRequest, props: { params: Promise<{ job: string }> }) {
+//
+// Vercel's built-in scheduler calls with GET (and sends the CRON_SECRET environment variable as a
+// Bearer token on its own); every other scheduler in README.md uses POST. Both go through the same
+// secret check and run the same job.
+async function handle(request: NextRequest, props: { params: Promise<{ job: string }> }) {
   const params = await props.params;
   const secret = process.env.CRON_SECRET;
   if (!secret) {
@@ -42,4 +46,9 @@ export async function POST(request: NextRequest, props: { params: Promise<{ job:
   }
 }
 
+export const POST = handle;
+export const GET = handle;
+
 export const dynamic = "force-dynamic";
+// Some jobs message many parents in one run; give them more than the default function time limit.
+export const maxDuration = 60;

@@ -3,7 +3,7 @@ import { db } from "@/lib/db";
 import type { BatchStatus, DayOfWeek, MeetingProvider, LiveClassStatus } from "@prisma/client";
 import { checkConsecutiveAbsences } from "@/lib/automation/attendance";
 import { onAttendanceMarked, onHomeworkSubmitted, onHomeworkReviewed, checkAndAwardStudyStreak } from "@/lib/services/gamification";
-import { combineDateAndTime } from "@/lib/utils";
+import { combineDateAndTime, pakistanTodayRange } from "@/lib/utils";
 
 // How much activeSeconds one accepted heartbeat adds — must match the client's ping interval
 // (see JoinLiveClassButton) since a ping is trusted at face value, not measured server-side.
@@ -226,10 +226,7 @@ export function listLiveClassesForBatch(batchId: string) {
 }
 
 export async function listTodaysClassesForTeacher(teacherId: string) {
-  const start = new Date();
-  start.setHours(0, 0, 0, 0);
-  const end = new Date();
-  end.setHours(23, 59, 59, 999);
+  const { start, end } = pakistanTodayRange();
   return db.liveClass.findMany({
     where: { teacherId, scheduledDate: { gte: start, lte: end } },
     include: { subject: true, batch: true },
@@ -239,10 +236,7 @@ export async function listTodaysClassesForTeacher(teacherId: string) {
 
 export async function listTodaysClassesForStudent(studentId: string) {
   const batchIds = (await db.batchStudent.findMany({ where: { studentId }, select: { batchId: true } })).map((b) => b.batchId);
-  const start = new Date();
-  start.setHours(0, 0, 0, 0);
-  const end = new Date();
-  end.setHours(23, 59, 59, 999);
+  const { start, end } = pakistanTodayRange();
   return db.liveClass.findMany({
     where: { batchId: { in: batchIds }, scheduledDate: { gte: start, lte: end } },
     include: { subject: true, teacher: true, batch: true },

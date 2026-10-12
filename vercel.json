@@ -1,3 +1,15 @@
 {
-  "regions": ["hnd1"]
+  "regions": ["hnd1"],
+  "crons": [
+    { "path": "/api/cron/class-reminders", "schedule": "*/5 * * * *" },
+    { "path": "/api/cron/attendance-auto-detect", "schedule": "*/10 * * * *" },
+    { "path": "/api/cron/homework-overdue", "schedule": "0 * * * *" },
+    { "path": "/api/cron/payment-reminders", "schedule": "0 * * * *" },
+    { "path": "/api/cron/engagement-scores", "schedule": "0 1 * * *" },
+    { "path": "/api/cron/predictive-risk-scores", "schedule": "15 1 * * *" },
+    { "path": "/api/cron/inactivity", "schedule": "0 3 * * *" },
+    { "path": "/api/cron/trial-expiry", "schedule": "0 3 * * *" },
+    { "path": "/api/cron/lead-followup", "schedule": "0 4 * * *" },
+    { "path": "/api/cron/weekly-reports", "schedule": "0 2 * * 1" }
+  ]
 }

@@ -69,9 +69,30 @@ seed refuses to run when `NODE_ENV=production`, but do not rely on that alone).
    host's disk is thrown away, so local storage is refused there.
 3. Sign in as the Super Admin and change the password.
 
-## 6. Not yet set up
+## 6. Background jobs (reminders, reports, scoring)
 
-The background jobs (weekly reports, reminders and so on) are called through
-`POST /api/cron/<job>` with `Authorization: Bearer <CRON_SECRET>`. Vercel's built-in scheduler
-sends `GET` requests, so connecting it needs a small addition to that route. Until then, run the
-jobs from another scheduler that can send a POST, or locally with `npm run jobs:watch`.
+`vercel.json` schedules all ten jobs on Vercel Cron. Vercel sends the `CRON_SECRET` variable as a
+Bearer token on each call, and `/api/cron/<job>` accepts both GET (Vercel) and POST (any other
+scheduler, `npm run jobs:run`), checking the same secret. Nothing to configure beyond setting
+`CRON_SECRET` in step 3.
+
+Vercel Cron runs on **UTC**, but the schedule below is Pakistan time (UTC+5, no daylight saving):
+
+| Job | Pakistan time | `vercel.json` (UTC) |
+|---|---|---|
+| class-reminders | every 5 minutes | `*/5 * * * *` |
+| attendance-auto-detect | every 10 minutes | `*/10 * * * *` |
+| homework-overdue, payment-reminders | every hour | `0 * * * *` |
+| engagement-scores | 6:00 am daily | `0 1 * * *` |
+| predictive-risk-scores | 6:15 am daily | `15 1 * * *` |
+| inactivity, trial-expiry | 8:00 am daily | `0 3 * * *` |
+| lead-followup | 9:00 am daily | `0 4 * * *` |
+| weekly-reports | Monday 7:00 am | `0 2 * * 1` |
+
+Things to know:
+- Cron jobs that run more than once a day need a **paid Vercel plan** (Pro). The free Hobby plan
+  allows one run per day and refuses to deploy a more frequent schedule. Hobby is also for
+  non-commercial use only, which a fee-collecting academy is not.
+- Each run's result is recorded and shown under Admin → System Health, so a failing job is visible.
+- Class times are read as Pakistan time on any server, so reminders and automatic attendance are
+  correct on Vercel's UTC servers.

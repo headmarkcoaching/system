@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { AnnouncementsCard } from "@/components/shared/announcements-card";
 import { DetailsToggle } from "@/components/shared/details-toggle";
-import { formatTime, formatPKR, formatDate } from "@/lib/utils";
+import { formatTime, formatPKR, formatDate, pakistanTodayRange } from "@/lib/utils";
 import { GraduationCap, Users, CalendarCheck, TrendingUp, Video, AlertTriangle, Wallet, UserPlus, BarChart3, MessageCircle, Sparkles, Activity } from "lucide-react";
 import * as testService from "@/lib/services/tests";
 import * as performanceService from "@/lib/services/performance";
@@ -22,10 +22,7 @@ import * as nextActionsService from "@/lib/services/next-actions";
 
 export default async function AdminDashboardPage() {
   const session = await auth();
-  const start = new Date();
-  start.setHours(0, 0, 0, 0);
-  const end = new Date();
-  end.setHours(23, 59, 59, 999);
+  const { start, end } = pakistanTodayRange();
 
   const [
     activeStudents,
