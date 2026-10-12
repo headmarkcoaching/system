@@ -18,12 +18,12 @@ export function AllChildrenStrip({ childrenSummaries, selectedId }: { childrenSu
   if (childrenSummaries.length <= 1) return null;
 
   return (
-    <div className="flex gap-3 overflow-x-auto pb-1">
+    <div className="no-scrollbar -mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-1 sm:mx-0 sm:px-0">
       {childrenSummaries.map((c) => (
         <Link
           key={c.studentId}
           href={`/parent?child=${c.studentId}`}
-          className={`flex shrink-0 items-center gap-3 rounded-lg border p-3 transition-colors ${
+          className={`flex shrink-0 snap-start items-center gap-3 rounded-lg border p-3 transition-colors ${
             c.studentId === selectedId ? "border-primary bg-primary/5" : "border-border hover:bg-muted/50"
           }`}
         >

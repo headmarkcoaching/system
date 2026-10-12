@@ -65,6 +65,36 @@ export interface NavSection {
   items: NavItem[];
 }
 
+// The handful of places each role goes to most often, shown as a tab bar along the bottom edge on
+// phones (a hamburger menu with a dozen items is a long reach and a slow way to move around). The
+// last slot is always "More", which opens the full menu. Admins have no bar: their work is
+// table-heavy and mostly done on a computer.
+export const MOBILE_TABS: Record<RoleKey, NavItem[]> = {
+  SUPER_ADMIN: [],
+  ADMIN: [],
+  TEACHER: [
+    { label: "Home", href: "/teacher", icon: "dashboard" },
+    { label: "Batches", href: "/teacher/batches", icon: "batches" },
+    { label: "Doubts", href: "/teacher/doubts", icon: "doubts" },
+    { label: "Messages", href: "/teacher/messages", icon: "messages" },
+  ],
+  STUDENT: [
+    { label: "Home", href: "/student", icon: "dashboard" },
+    { label: "Homework", href: "/student/homework", icon: "homework" },
+    { label: "Practice", href: "/student/practice", icon: "practice" },
+    { label: "Tests", href: "/student/tests", icon: "tests" },
+  ],
+  PARENT: [
+    { label: "Home", href: "/parent", icon: "dashboard" },
+    { label: "Payments", href: "/parent/payments", icon: "payments" },
+    { label: "Messages", href: "/parent/messages", icon: "messages" },
+  ],
+  COUNSELOR: [
+    { label: "Home", href: "/counselor", icon: "dashboard" },
+    { label: "Leads", href: "/counselor/leads", icon: "leads" },
+  ],
+};
+
 // Pages only the Super Admin can open; the Admin role does not see these links.
 const SUPER_ADMIN_HREFS = ["/admin/settings/api-keys", "/admin/settings/payment-gateway", "/admin/settings/integrations"];
 

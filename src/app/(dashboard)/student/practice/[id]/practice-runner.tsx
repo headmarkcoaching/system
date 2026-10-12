@@ -222,15 +222,15 @@ export function PracticeRunner({
           )}
 
           <div className="flex items-center justify-between gap-3 border-t border-border pt-4">
-            <Button type="button" variant="outline" size="sm" onClick={() => setIndex((i) => Math.max(0, i - 1))} disabled={index === 0}>
+            <Button type="button" variant="outline" onClick={() => setIndex((i) => Math.max(0, i - 1))} disabled={index === 0}>
               <ChevronLeft className="mr-1 h-4 w-4" aria-hidden="true" /> Previous
             </Button>
             {index < questions.length - 1 ? (
-              <Button type="button" size="sm" onClick={() => setIndex((i) => Math.min(questions.length - 1, i + 1))}>
+              <Button type="button" onClick={() => setIndex((i) => Math.min(questions.length - 1, i + 1))}>
                 Next <ChevronRight className="ml-1 h-4 w-4" aria-hidden="true" />
               </Button>
             ) : (
-              <Button type="button" size="sm" onClick={() => setConfirming(true)}>
+              <Button type="button" onClick={() => setConfirming(true)}>
                 Finish
               </Button>
             )}
@@ -249,7 +249,7 @@ export function PracticeRunner({
               aria-label={`Question ${i + 1}${has ? ", answered" : ", not answered"}`}
               aria-current={i === index ? "step" : undefined}
               className={cn(
-                "h-9 w-9 rounded-md border text-sm font-medium tabular-nums transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
+                "h-10 w-10 rounded-md border text-sm font-medium tabular-nums md:h-9 md:w-9 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
                 i === index ? "border-primary ring-2 ring-primary/40" : "border-border",
                 has ? "bg-primary text-primary-foreground" : "bg-card text-muted-foreground hover:bg-accent"
               )}

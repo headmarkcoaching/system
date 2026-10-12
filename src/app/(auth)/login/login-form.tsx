@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useFormStatus } from "react-dom";
-import { useActionState } from "react";
+import { useActionState, useState } from "react";
+import { Eye, EyeOff } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -13,6 +14,7 @@ const initialState: LoginState = {};
 
 export function LoginForm() {
   const [state, formAction] = useActionState(loginAction, initialState);
+  const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="w-full max-w-sm">
@@ -31,16 +33,37 @@ export function LoginForm() {
       <form action={formAction} className="space-y-4 rounded-xl border border-border bg-card p-5 shadow-sm sm:p-6">
         <div className="space-y-1.5">
           <Label htmlFor="identifier">Email or phone number</Label>
-          <Input id="identifier" name="identifier" placeholder="you@example.com or 03xx-xxxxxxx" autoComplete="username" required />
+          <Input
+            id="identifier"
+            name="identifier"
+            placeholder="you@example.com or 03xx-xxxxxxx"
+            autoComplete="username"
+            autoCapitalize="none"
+            autoCorrect="off"
+            spellCheck={false}
+            enterKeyHint="next"
+            required
+          />
         </div>
         <div className="space-y-1.5">
           <div className="flex items-center justify-between">
             <Label htmlFor="password">Password</Label>
-            <Link href="/forgot-password" className="text-xs font-medium text-primary hover:underline">
+            <Link href="/forgot-password" className="-my-2 py-2 text-sm font-medium text-primary hover:underline">
               Forgot password?
             </Link>
           </div>
-          <Input id="password" name="password" type="password" autoComplete="current-password" required />
+          <div className="relative">
+            <Input id="password" name="password" type={showPassword ? "text" : "password"} autoComplete="current-password" autoCapitalize="none" autoCorrect="off" spellCheck={false} enterKeyHint="go" className="pr-12" required />
+            <button
+              type="button"
+              onClick={() => setShowPassword((v) => !v)}
+              aria-label={showPassword ? "Hide password" : "Show password"}
+              aria-pressed={showPassword}
+              className="absolute right-0 top-0 flex h-11 w-11 items-center justify-center text-muted-foreground md:h-10 md:w-10"
+            >
+              {showPassword ? <EyeOff className="h-5 w-5" /> : <Eye className="h-5 w-5" />}
+            </button>
+          </div>
         </div>
 
         {state?.error && (

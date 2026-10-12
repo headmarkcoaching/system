@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation";
 import { getVerifiedSession } from "@/lib/session";
 import { DashboardShell } from "@/components/shared/dashboard-shell";
-import { NAV_BY_ROLE } from "@/lib/nav-config";
+import { NAV_BY_ROLE, MOBILE_TABS } from "@/lib/nav-config";
 import { ROLE_LABELS } from "@/lib/permissions";
 import * as notificationService from "@/lib/services/notifications";
 import { signOutAction } from "./actions";
@@ -23,6 +23,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
   return (
     <DashboardShell
       sections={sections}
+      tabs={MOBILE_TABS[session.user.role]}
       roleLabel={ROLE_LABELS[session.user.role]}
       userName={session.user.name}
       signOutAction={signOutAction}

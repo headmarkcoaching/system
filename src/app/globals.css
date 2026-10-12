@@ -107,6 +107,22 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    /* No grey flash on tap, and no layout jump when a phone is turned sideways. */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  /* Taps respond at once and a quick double tap doesn't zoom the page. */
+  a,
+  button,
+  [role="button"],
+  [role="tab"],
+  input,
+  select,
+  textarea,
+  label,
+  summary {
+    touch-action: manipulation;
   }
 }
 

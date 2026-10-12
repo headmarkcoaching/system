@@ -53,7 +53,7 @@ export function NewUserDialog({ canCreateSuperAdmin }: { canCreateSuperAdmin: bo
           </div>
           <div className="space-y-1.5">
             <Label>Initial Password *</Label>
-            <Input name="password" required placeholder="Minimum 6 characters" />
+            <Input name="password" required autoComplete="new-password" placeholder="8+ characters, letters and numbers" />
           </div>
           <div className="space-y-1.5">
             <Label>Role *</Label>

@@ -61,7 +61,7 @@ export function NewParentForm() {
           {createLogin && (
             <div className="space-y-1.5">
               <Label>Initial Password *</Label>
-              <Input name="loginPassword" placeholder="Minimum 6 characters" />
+              <Input name="loginPassword" placeholder="8+ characters, letters and numbers" />
             </div>
           )}
         </CardContent>

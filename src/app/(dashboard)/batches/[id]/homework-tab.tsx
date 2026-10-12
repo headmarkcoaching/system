@@ -207,7 +207,7 @@ function SuggestWithAIDialog({
 function GradeDialog({ batchId, homework, canManage, onClose }: { batchId: string; homework: HomeworkItem; canManage: boolean; onClose: () => void }) {
   return (
     <Dialog open onOpenChange={(o) => !o && onClose()}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="sm:max-w-2xl">
         <DialogHeader>
           <DialogTitle>{homework.title} — Submissions</DialogTitle>
         </DialogHeader>

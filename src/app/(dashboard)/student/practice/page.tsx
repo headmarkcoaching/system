@@ -45,15 +45,16 @@ export default async function PracticeHubPage(props: { searchParams: Promise<{ s
   const subject = subjects.find((s) => s.subjectId === searchParams.subject) ?? subjects.find((s) => s.hasContent) ?? subjects[0];
   const hub = await practiceService.getHubData(student.id, subject.subjectId);
 
+  // One scrollable row on phones (seven subjects wrapped onto four lines); wraps normally from sm up.
   const tabs = (
-    <nav aria-label="Subjects" className="flex flex-wrap gap-1.5">
+    <nav aria-label="Subjects" className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
       {subjects.map((s) => (
         <Link
           key={s.subjectId}
           href={`/student/practice?subject=${s.subjectId}`}
           aria-current={s.subjectId === subject.subjectId ? "page" : undefined}
           className={cn(
-            "rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors",
+            "inline-flex min-h-10 shrink-0 items-center whitespace-nowrap rounded-full border px-4 py-1.5 text-sm font-medium transition-colors",
             s.subjectId === subject.subjectId ? "border-primary bg-primary text-primary-foreground" : "border-border text-muted-foreground hover:bg-accent"
           )}
         >

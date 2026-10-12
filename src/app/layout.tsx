@@ -39,6 +39,8 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  // Let the page extend under a phone's notch and home bar; the tab bar and dialogs pad for them.
+  viewportFit: "cover",
   themeColor: "#2861bd",
 };
 

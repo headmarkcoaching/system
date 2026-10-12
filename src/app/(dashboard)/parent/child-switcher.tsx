@@ -9,18 +9,24 @@ export function ChildSwitcher({ options, selectedId }: { options: { id: string; 
 
   if (options.length <= 1) return null;
 
+  const selectedName = options.find((o) => o.id === selectedId)?.fullName;
+
+  // Phones get the swipeable strip of children below instead (AllChildrenStrip shows the same
+  // children with more detail), so this dropdown is for larger screens only.
   return (
-    <Select value={selectedId} onValueChange={(v) => router.push(`${pathname}?child=${v}`)}>
-      <SelectTrigger className="w-56">
-        <SelectValue />
-      </SelectTrigger>
-      <SelectContent>
-        {options.map((c) => (
-          <SelectItem key={c.id} value={c.id}>
-            {c.fullName}
-          </SelectItem>
-        ))}
-      </SelectContent>
-    </Select>
+    <div className="hidden md:block">
+      <Select value={selectedId} onValueChange={(v) => router.push(`${pathname}?child=${v}`)}>
+        <SelectTrigger className="w-56">
+          <SelectValue>{selectedName}</SelectValue>
+        </SelectTrigger>
+        <SelectContent>
+          {options.map((c) => (
+            <SelectItem key={c.id} value={c.id}>
+              {c.fullName}
+            </SelectItem>
+          ))}
+        </SelectContent>
+      </Select>
+    </div>
   );
 }

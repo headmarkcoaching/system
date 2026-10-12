@@ -1,3 +1,5 @@
+import { TimetableDayList } from "./timetable-day-list";
+
 const DAYS = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"] as const;
 const DAY_LABELS: Record<(typeof DAYS)[number], string> = {
   MONDAY: "Mon",
@@ -87,7 +89,12 @@ export function WeeklyTimetableGrid({ entries }: { entries: GridEntry[] }) {
   const colorMap = buildColorMap(entries.map((e) => e.subjectId));
 
   return (
-    <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
+    <>
+      {/* Phones: one day at a time. The week grid below needs about 760px and would scroll sideways. */}
+      <div className="md:hidden">
+        <TimetableDayList entries={entries} today={today} colors={Object.fromEntries(colorMap)} />
+      </div>
+    <div className="hidden overflow-hidden rounded-xl border border-border bg-card shadow-sm md:block">
       <div className="overflow-x-auto">
         <div className="grid min-w-[760px] grid-cols-[52px_repeat(7,1fr)]">
           <div className="sticky top-0 z-10 border-b border-border bg-card" />
@@ -142,5 +149,6 @@ export function WeeklyTimetableGrid({ entries }: { entries: GridEntry[] }) {
         </div>
       </div>
     </div>
+    </>
   );
 }

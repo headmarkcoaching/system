@@ -40,7 +40,7 @@ adds up. If you ever move the database, change this to the nearest Vercel region
 |---|---|
 | `DATABASE_URL` | transaction pooler address with the parameters above |
 | `DIRECT_URL` | session pooler address |
-| `AUTH_SECRET` | a new random value: `openssl rand -base64 32`. Do not reuse the local one. It also encrypts the saved Google and WhatsApp credentials, so changing it later means re-entering them. |
+| `AUTH_SECRET` | **The same value as in your local `.env`** while the live site shares the same database. It encrypts the saved Google, WhatsApp and email credentials, so a different value would make the live site unable to read them (Drive uploads would fail until you re-entered everything). For a different secret later: change it, then reconnect Google and re-save the other credentials. |
 | `NEXTAUTH_URL` | the live address, e.g. `https://yourdomain.com`. Password-reset emails link to it. |
 | `CRON_SECRET` | a random value, used by the scheduled jobs |
 
@@ -61,10 +61,10 @@ seed refuses to run when `NODE_ENV=production`, but do not rely on that alone).
 
 ## 5. After the first deploy
 
-1. In Google Cloud Console → Credentials → your OAuth client, add the live redirect address
-   `https://yourdomain.com/api/integrations/google/callback`, then press **Reconnect Google
-   Account** on the live site once (the connection saved locally is not shared with the live site
-   unless both use the same database).
+1. The Google connection is saved in the database, so the live site uses it straight away; no
+   reconnect is needed. To be able to reconnect from the live site later, add its redirect address in
+   Google Cloud Console → Credentials → your OAuth client:
+   `https://yourdomain.com/api/integrations/google/callback`.
 2. Check that file uploads go to Google Drive (Settings → Integrations → File Storage). The live
    host's disk is thrown away, so local storage is refused there.
 3. Sign in as the Super Admin and change the password.

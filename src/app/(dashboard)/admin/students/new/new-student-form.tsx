@@ -115,7 +115,7 @@ export function NewStudentForm({
           </div>
           {createLogin && (
             <Field label="Initial Password" required>
-              <Input name="loginPassword" type="text" placeholder="Minimum 6 characters" />
+              <Input name="loginPassword" type="text" placeholder="8+ characters, letters and numbers" />
             </Field>
           )}
         </CardContent>

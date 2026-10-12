@@ -106,7 +106,7 @@ function GradeAttemptDialog({
 
   return (
     <Dialog open onOpenChange={(o) => !o && onClose()}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="sm:max-w-2xl">
         <DialogHeader>
           <DialogTitle>Grade — {attempt.student.fullName}</DialogTitle>
         </DialogHeader>
