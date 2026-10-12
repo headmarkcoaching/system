@@ -1,13 +1,13 @@
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
-import { STAFF_ROLES } from "@/lib/permissions";
+import { SUPER_ADMIN_ONLY } from "@/lib/permissions";
 import { PageHeader } from "@/components/shared/page-header";
 import * as apiKeysService from "@/lib/services/api-keys";
 import { ApiKeysView } from "./api-keys-view";
 
 export default async function ApiKeysSettingsPage() {
   const session = await auth();
-  if (!session?.user || !STAFF_ROLES.includes(session.user.role)) redirect("/login");
+  if (!session?.user || !SUPER_ADMIN_ONLY.includes(session.user.role)) redirect("/admin");
 
   const keys = await apiKeysService.listApiKeys();
 

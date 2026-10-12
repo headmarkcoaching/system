@@ -65,9 +65,12 @@ export interface NavSection {
   items: NavItem[];
 }
 
+// Pages only the Super Admin can open; the Admin role does not see these links.
+const SUPER_ADMIN_HREFS = ["/admin/settings/api-keys", "/admin/settings/payment-gateway", "/admin/settings/integrations"];
+
 export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
-  SUPER_ADMIN: adminNav(),
-  ADMIN: adminNav(),
+  SUPER_ADMIN: adminNav(true),
+  ADMIN: adminNav(false),
   TEACHER: [
     {
       items: [{ label: "Dashboard", href: "/teacher", icon: "dashboard" }],
@@ -151,7 +154,13 @@ export const NAV_BY_ROLE: Record<RoleKey, NavSection[]> = {
   ],
 };
 
-function adminNav(): NavSection[] {
+function adminNav(isSuperAdmin: boolean): NavSection[] {
+  const sections = adminSections();
+  if (isSuperAdmin) return sections;
+  return sections.map((section) => ({ ...section, items: section.items.filter((item) => !SUPER_ADMIN_HREFS.includes(item.href)) }));
+}
+
+function adminSections(): NavSection[] {
   return [
     {
       items: [{ label: "Dashboard", href: "/admin", icon: "dashboard" }],
