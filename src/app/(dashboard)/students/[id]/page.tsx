@@ -93,7 +93,11 @@ const VALID_TABS = new Set([
   "notes",
 ]);
 
-export default async function StudentProfilePage({ params, searchParams }: { params: { id: string }; searchParams: { tab?: string } }) {
+export default async function StudentProfilePage(
+  props: { params: Promise<{ id: string }>; searchParams: Promise<{ tab?: string }> }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const initialTab = searchParams.tab && VALID_TABS.has(searchParams.tab) ? searchParams.tab : "overview";
   const session = await canView(params.id);
   const isStaff = STAFF_ROLES.includes(session.user.role);

@@ -6,12 +6,16 @@ import { requireRoleSession } from "@/lib/session";
 import { SUPER_ADMIN_ONLY, STAFF_ROLES } from "@/lib/permissions";
 import { logAudit } from "@/lib/audit";
 import * as staffService from "@/lib/services/staff";
+import { validatePassword } from "@/lib/password-policy";
 
 const createUserSchema = z.object({
   name: z.string().min(2, "Name is required"),
   email: z.string().email().optional().or(z.literal("")),
   phone: z.string().optional(),
-  password: z.string().min(6, "Password must be at least 6 characters"),
+  password: z.string().superRefine((value, ctx) => {
+    const problem = validatePassword(value);
+    if (problem) ctx.addIssue({ code: z.ZodIssueCode.custom, message: problem });
+  }),
   role: z.enum(["SUPER_ADMIN", "ADMIN", "TEACHER", "COUNSELOR"]),
 });
 

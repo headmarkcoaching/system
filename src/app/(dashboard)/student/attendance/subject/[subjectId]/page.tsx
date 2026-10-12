@@ -9,7 +9,8 @@ import { StatusBadge } from "@/components/shared/status-badge";
 import { Button } from "@/components/ui/button";
 import { formatDate } from "@/lib/utils";
 
-export default async function StudentAttendanceSubjectPage({ params }: { params: { subjectId: string } }) {
+export default async function StudentAttendanceSubjectPage(props: { params: Promise<{ subjectId: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

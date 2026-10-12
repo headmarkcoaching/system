@@ -54,7 +54,7 @@ export async function createDoubtAction(formData: FormData): Promise<DoubtAction
   const parsed = askSchema.safeParse(Object.fromEntries(Array.from(formData.entries()).filter(([, v]) => typeof v === "string")));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const rate = checkRateLimit(`doubt:new:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 10 });
+  const rate = await checkRateLimit(`doubt:new:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 10 });
   if (!rate.allowed) return { error: "You've asked a lot of doubts in the last hour. Please wait a little before asking another." };
 
   const student = await studentService.getStudentByUserId(session.user.id);
@@ -103,7 +103,7 @@ export async function replyDoubtAction(doubtId: string, formData: FormData): Pro
   const parsed = replySchema.safeParse({ body: formData.get("body") });
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const rate = checkRateLimit(`doubt:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
+  const rate = await checkRateLimit(`doubt:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
   if (!rate.allowed) return { error: "You're replying very quickly. Please wait a few minutes." };
 
   const upload = await saveOptionalFile(formData, session.user.id);

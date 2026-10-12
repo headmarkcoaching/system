@@ -168,6 +168,9 @@ const HOW_IT_WORKS = [
   { step: "3", title: "Enroll & Stay Informed", description: "Get full parent-portal access — attendance, results, and fees, always visible." },
 ];
 
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
 export default async function MarketingHomePage() {
   const [levels, boards, subjects] = await Promise.all([
     academicService.listAcademicLevels(),

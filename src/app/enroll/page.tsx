@@ -14,11 +14,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function EnrollPage({
-  searchParams,
-}: {
-  searchParams: { src?: string; campaign?: string; level?: string };
-}) {
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
+export default async function EnrollPage(
+  props: {
+    searchParams: Promise<{ src?: string; campaign?: string; level?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const [levels, groups] = await Promise.all([academicService.listAcademicLevels(), academicService.listGroups()]);
 
   return (

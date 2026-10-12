@@ -11,7 +11,8 @@ import { EmptyState } from "@/components/shared/empty-state";
 import { StatusBadge } from "@/components/shared/status-badge";
 import { initials, formatDate, formatPKR } from "@/lib/utils";
 
-export default async function ParentProfilePage({ params }: { params: { id: string } }) {
+export default async function ParentProfilePage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

@@ -5,7 +5,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import * as integrationSettingsService from "@/lib/services/integration-settings";
 import { IntegrationsForm } from "./integrations-form";
 
-export default async function IntegrationsSettingsPage({ searchParams }: { searchParams: { google?: string; error?: string } }) {
+export default async function IntegrationsSettingsPage(props: { searchParams: Promise<{ google?: string; error?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user || !SUPER_ADMIN_ONLY.includes(session.user.role)) redirect("/login");
 

@@ -21,9 +21,9 @@ export async function submitReferralAction(code: string, _prevState: SubmitRefer
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
   // Same reasoning as /enroll: a public, unauthenticated form needs abuse protection.
-  const phoneRate = checkRateLimit(`referral:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
+  const phoneRate = await checkRateLimit(`referral:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
   if (!phoneRate.allowed) return { error: "You've already submitted recently. Our team will be in touch shortly." };
-  const globalRate = checkRateLimit("referral:global", { windowMs: 5 * 60 * 1000, max: 30 });
+  const globalRate = await checkRateLimit("referral:global", { windowMs: 5 * 60 * 1000, max: 30 });
   if (!globalRate.allowed) return { error: "Something went wrong. Please try again in a few minutes." };
 
   try {

@@ -36,7 +36,7 @@ export async function startPracticeAction(input: z.input<typeof startSchema>): P
   const parsed = startSchema.safeParse(input);
   if (!parsed.success) return { error: "Those settings aren't valid. Please go back and choose again." };
 
-  const rate = checkRateLimit(`practice:start:${userId}`, { windowMs: 60 * 60 * 1000, max: 40 });
+  const rate = await checkRateLimit(`practice:start:${userId}`, { windowMs: 60 * 60 * 1000, max: 40 });
   if (!rate.allowed) return { error: "You've started a lot of papers in the last hour. Take a short break, then try again." };
 
   try {

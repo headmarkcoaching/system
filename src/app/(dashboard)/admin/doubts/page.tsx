@@ -20,7 +20,8 @@ function formatHours(h: number | null) {
   return `${(h / 24).toFixed(1)} days`;
 }
 
-export default async function AdminDoubtsPage({ searchParams }: { searchParams: { status?: string } }) {
+export default async function AdminDoubtsPage(props: { searchParams: Promise<{ status?: string }> }) {
+  const searchParams = await props.searchParams;
   await requireRoleSession(STAFF_ROLES);
   const filter = VALID.includes(searchParams.status ?? "") ? (searchParams.status as string) : "OPEN";
 

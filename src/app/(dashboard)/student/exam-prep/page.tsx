@@ -6,7 +6,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import { EmptyState } from "@/components/shared/empty-state";
 import { ExamPrepView } from "./exam-prep-view";
 
-export default async function ExamPrepPage({ searchParams }: { searchParams: { test?: string } }) {
+export default async function ExamPrepPage(props: { searchParams: Promise<{ test?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { auth } from "@/lib/auth";
+import { getVerifiedSession } from "@/lib/session";
 import { SUPER_ADMIN_ONLY } from "@/lib/permissions";
 import * as integrationSettingsService from "@/lib/services/integration-settings";
 
@@ -18,7 +18,7 @@ function redirectWithError(request: NextRequest, message: string) {
  * for the Super Admin to do after this is the one-time Client ID/Secret paste that has to
  * happen first (see the connect route). */
 export async function GET(request: NextRequest) {
-  const session = await auth();
+  const session = await getVerifiedSession();
   if (!session?.user || !SUPER_ADMIN_ONLY.includes(session.user.role)) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }

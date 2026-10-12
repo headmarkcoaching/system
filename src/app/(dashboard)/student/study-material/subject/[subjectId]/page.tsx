@@ -10,7 +10,11 @@ import { ChapterFilterNotice } from "@/components/shared/lecture-bundle";
 import { chapterMatches } from "@/lib/lecture-bundle";
 import { MaterialItem } from "../../material-item";
 
-export default async function StudentStudyMaterialSubjectPage({ params, searchParams }: { params: { subjectId: string }; searchParams: { chapter?: string } }) {
+export default async function StudentStudyMaterialSubjectPage(
+  props: { params: Promise<{ subjectId: string }>; searchParams: Promise<{ chapter?: string }> }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

@@ -7,7 +7,8 @@ import * as batchService from "@/lib/services/batches";
 import * as academicService from "@/lib/services/academic-structure";
 import { LeaderboardFilters } from "./leaderboard-filters";
 
-export default async function LeaderboardPage({ searchParams }: { searchParams: { scope?: string; scopeId?: string } }) {
+export default async function LeaderboardPage(props: { searchParams: Promise<{ scope?: string; scopeId?: string }> }) {
+  const searchParams = await props.searchParams;
   const scope = (searchParams.scope === "batch" || searchParams.scope === "level" ? searchParams.scope : "month") as "batch" | "level" | "month";
   const [batches, levels] = await Promise.all([batchService.listBatchesForPicker(), academicService.listAcademicLevels()]);
 

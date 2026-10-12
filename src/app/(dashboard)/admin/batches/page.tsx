@@ -15,7 +15,10 @@ const STATUS_OPTIONS = [
   { value: "ARCHIVED", label: "Archived" },
 ];
 
-export default async function BatchesPage({ searchParams }: { searchParams: { q?: string; status?: string; page?: string } }) {
+export default async function BatchesPage(
+  props: { searchParams: Promise<{ q?: string; status?: string; page?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const { items, total, page, pageSize, totalPages } = await batchService.listBatches({
     page: Number(searchParams.page ?? 1),
     q: searchParams.q,

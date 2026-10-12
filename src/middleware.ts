@@ -41,6 +41,7 @@ export default auth((req) => {
   const MARKETING_PATHS = ["/home", "/programs", "/about", "/contact", "/enroll", "/pricing", "/privacy", "/terms"];
   const isPublic =
     nextUrl.pathname === "/" ||
+    nextUrl.pathname === "/signed-out" ||
     isAuthPage ||
     nextUrl.pathname.startsWith("/api/auth") ||
     nextUrl.pathname.startsWith("/api/cron") ||

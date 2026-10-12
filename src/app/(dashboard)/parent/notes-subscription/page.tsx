@@ -7,7 +7,8 @@ import { EmptyState } from "@/components/shared/empty-state";
 import { ChildSwitcher } from "../child-switcher";
 import { NotesSubscriptionView } from "./notes-subscription-view";
 
-export default async function NotesSubscriptionPage({ searchParams }: { searchParams: { child?: string } }) {
+export default async function NotesSubscriptionPage(props: { searchParams: Promise<{ child?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
   if (session.user.role !== "PARENT") redirect("/");

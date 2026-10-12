@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { randomUUID } from "crypto";
-import { auth } from "@/lib/auth";
+import { getVerifiedSession } from "@/lib/session";
 import { SUPER_ADMIN_ONLY } from "@/lib/permissions";
 import { GOOGLE_OAUTH_SCOPES } from "@/lib/google/oauth";
 import * as integrationSettingsService from "@/lib/services/integration-settings";
@@ -12,7 +12,7 @@ const STATE_COOKIE = "google_oauth_state";
  * one-time step: creating a Google Cloud OAuth client requires a human in Google's own
  * console) and redirects there. Everything after this button click needs no further setup. */
 export async function GET(request: NextRequest) {
-  const session = await auth();
+  const session = await getVerifiedSession();
   if (!session?.user || !SUPER_ADMIN_ONLY.includes(session.user.role)) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }

@@ -36,7 +36,7 @@ export function ShipButton({ paymentId }: { paymentId: string }) {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Mark this month's notes as shipped</DialogTitle>
+          <DialogTitle>Mark this month&apos;s notes as shipped</DialogTitle>
         </DialogHeader>
         <div className="space-y-1.5">
           <Label>Tracking / Courier Note (optional)</Label>

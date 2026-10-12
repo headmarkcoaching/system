@@ -23,7 +23,7 @@ export function FilterBar({
 }) {
   const router = useRouter();
   const pathname = usePathname();
-  const timeoutRef = React.useRef<ReturnType<typeof setTimeout>>();
+  const timeoutRef = React.useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   function updateParam(key: string, value: string) {
     const params = new URLSearchParams(window.location.search);

@@ -27,11 +27,12 @@ const STAGE_OPTIONS = [
   { value: "LOST", label: "Lost" },
 ];
 
-export default async function CounselorLeadsPage({
-  searchParams,
-}: {
-  searchParams: { q?: string; stage?: string; level?: string; page?: string; view?: string };
-}) {
+export default async function CounselorLeadsPage(
+  props: {
+    searchParams: Promise<{ q?: string; stage?: string; level?: string; page?: string; view?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

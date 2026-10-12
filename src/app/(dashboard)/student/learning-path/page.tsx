@@ -6,7 +6,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import { EmptyState } from "@/components/shared/empty-state";
 import { LearningPathView } from "./learning-path-view";
 
-export default async function StudentLearningPathPage({ searchParams }: { searchParams: { subject?: string } }) {
+export default async function StudentLearningPathPage(props: { searchParams: Promise<{ subject?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

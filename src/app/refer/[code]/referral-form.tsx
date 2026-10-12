@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,7 +13,7 @@ const initialState: SubmitReferralState = {};
 
 export function ReferralForm({ code, levels }: { code: string; levels: { id: string; name: string }[] }) {
   const action = submitReferralAction.bind(null, code);
-  const [state, formAction] = useFormState(action, initialState);
+  const [state, formAction] = useActionState(action, initialState);
 
   if (state.success) {
     return (

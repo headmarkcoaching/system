@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,7 +14,7 @@ const initialState: ResetPasswordState = {};
 
 export function ResetPasswordForm({ token, tokenValid }: { token: string; tokenValid: boolean }) {
   const action = resetPasswordAction.bind(null, token);
-  const [state, formAction] = useFormState(action, initialState);
+  const [state, formAction] = useActionState(action, initialState);
 
   return (
     <div className="w-full max-w-sm">

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,7 +13,7 @@ import { requestPasswordResetAction, type RequestResetState } from "../password-
 const initialState: RequestResetState = {};
 
 export function ForgotPasswordForm() {
-  const [state, formAction] = useFormState(requestPasswordResetAction, initialState);
+  const [state, formAction] = useActionState(requestPasswordResetAction, initialState);
 
   return (
     <div className="w-full max-w-sm">

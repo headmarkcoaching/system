@@ -10,7 +10,8 @@ import { formatDate, formatPKR } from "@/lib/utils";
 import { ChildSwitcher } from "../child-switcher";
 import { SubmitPaymentDialog } from "./submit-payment-dialog";
 
-export default async function ParentPaymentsPage({ searchParams }: { searchParams: { child?: string } }) {
+export default async function ParentPaymentsPage(props: { searchParams: Promise<{ child?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

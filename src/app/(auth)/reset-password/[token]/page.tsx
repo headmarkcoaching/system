@@ -1,7 +1,8 @@
 import * as passwordResetService from "@/lib/services/password-reset";
 import { ResetPasswordForm } from "./reset-password-form";
 
-export default async function ResetPasswordPage({ params }: { params: { token: string } }) {
+export default async function ResetPasswordPage(props: { params: Promise<{ token: string }> }) {
+  const params = await props.params;
   const record = await passwordResetService.verifyResetToken(params.token);
 
   return (

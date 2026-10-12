@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,7 +15,7 @@ const initialState: CreateUserState = {};
 
 export function NewUserDialog({ canCreateSuperAdmin }: { canCreateSuperAdmin: boolean }) {
   const [open, setOpen] = React.useState(false);
-  const [state, formAction] = useFormState(createUserAction, initialState);
+  const [state, formAction] = useActionState(createUserAction, initialState);
   const submittedRef = React.useRef(false);
 
   React.useEffect(() => {

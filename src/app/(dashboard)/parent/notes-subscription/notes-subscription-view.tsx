@@ -122,7 +122,7 @@ function SubscribeCard({
           <DialogContent>
             <DialogHeader>
               <DialogTitle>Subscribe to {subject.name} Notes</DialogTitle>
-              <DialogDescription>Rs 1,500/month. Where should the academy mail this month's and every future month's notes?</DialogDescription>
+              <DialogDescription>Rs 1,500/month. Where should the academy mail this month&apos;s and every future month&apos;s notes?</DialogDescription>
             </DialogHeader>
             <div className="space-y-3">
               <div className="space-y-1.5">
@@ -251,7 +251,7 @@ function PayThisMonthDialog({ studentId, subscriptionId, rejected }: { studentId
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Pay This Month's Notes — Rs 1,500</DialogTitle>
+          <DialogTitle>Pay This Month&apos;s Notes — Rs 1,500</DialogTitle>
         </DialogHeader>
         <div className="space-y-3">
           <p className="text-xs text-muted-foreground">Pay via bank transfer, JazzCash, or Easypaisa, then attach the receipt below. The academy mails the notes once your payment is confirmed.</p>

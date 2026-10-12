@@ -10,7 +10,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import { Button } from "@/components/ui/button";
 import { BatchKnowledgeList } from "./batch-knowledge-list";
 
-export default async function BatchKnowledgeBasePage({ params }: { params: { batchId: string } }) {
+export default async function BatchKnowledgeBasePage(props: { params: Promise<{ batchId: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
   if (!KNOWLEDGE_BASE_ACCESS_ROLES.includes(session.user.role)) redirect(ROLE_HOME_PATH[session.user.role]);

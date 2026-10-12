@@ -426,18 +426,20 @@ model RolePermission {
 }
 
 model User {
-  id           String    @id @default(cuid())
-  name         String
-  email        String?   @unique
-  phone        String?   @unique
-  passwordHash String
-  roleId       String
-  roleKey      RoleKey // denormalized for fast/cheap session + query checks
-  avatarUrl    String?
-  isActive     Boolean   @default(true)
-  lastLoginAt  DateTime?
-  createdAt    DateTime  @default(now())
-  updatedAt    DateTime  @updatedAt
+  id                String    @id @default(cuid())
+  name              String
+  email             String?   @unique
+  phone             String?   @unique
+  passwordHash      String
+  roleId            String
+  roleKey           RoleKey // denormalized for fast/cheap session + query checks
+  avatarUrl         String?
+  isActive          Boolean   @default(true)
+  lastLoginAt       DateTime?
+  // Set whenever the password changes, so sessions issued before it can be rejected.
+  passwordChangedAt DateTime?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
 
   role Role @relation(fields: [roleId], references: [id])
 
@@ -582,15 +584,14 @@ model Student {
 
   // Notes Subscription
   notesSubscriptions NotesSubscription[]
-
-  @@index([academicLevelId])
-  @@index([status])
   // Doubt desk and teacher messages
-  doubts         Doubt[]
-  teacherThreads TeacherThread[]
+  doubts             Doubt[]
+  teacherThreads     TeacherThread[]
 
   practiceSessions PracticeSession[]
 
+  @@index([academicLevelId])
+  @@index([status])
   @@map("students")
 }
 
@@ -692,9 +693,9 @@ model AcademicLevel {
   tests              Test[]
   knowledgeDocuments KnowledgeDocument[]
 
-  chapters           Chapter[]
-  bankQuestions      BankQuestion[]
-  pastPapers         PastPaper[]
+  chapters      Chapter[]
+  bankQuestions BankQuestion[]
+  pastPapers    PastPaper[]
 
   @@map("academic_levels")
 }
@@ -711,9 +712,9 @@ model Board {
   leads              Lead[]
   knowledgeDocuments KnowledgeDocument[]
 
-  chapters           Chapter[]
-  bankQuestions      BankQuestion[]
-  pastPapers         PastPaper[]
+  chapters      Chapter[]
+  bankQuestions BankQuestion[]
+  pastPapers    PastPaper[]
 
   @@map("boards")
 }
@@ -770,15 +771,14 @@ model Subject {
   knowledgeDocuments KnowledgeDocument[]
   goals              StudentGoal[]
   notesSubscriptions NotesSubscription[]
-
-  @@unique([name, academicLevelId])
   doubts             Doubt[]
 
-  chapters           Chapter[]
-  bankQuestions      BankQuestion[]
-  pastPapers         PastPaper[]
-  practiceSessions   PracticeSession[]
+  chapters         Chapter[]
+  bankQuestions    BankQuestion[]
+  pastPapers       PastPaper[]
+  practiceSessions PracticeSession[]
 
+  @@unique([name, academicLevelId])
   @@map("subjects")
 }
 
@@ -821,10 +821,9 @@ model Batch {
   tests               Test[]
   performanceRecords  StudentPerformance[]
   participationScores ParticipationScore[]
+  doubts              Doubt[]
 
   @@index([status])
-  doubts Doubt[]
-
   @@map("batches")
 }
 
@@ -2256,11 +2255,10 @@ model UploadedFile {
   doubts                    Doubt[]
   doubtReplies              DoubtReply[]
   teacherMessages           TeacherMessage[]
+  pastPapers                PastPaper[]
 
   @@index([purpose])
   @@index([uploadedById])
-  pastPapers                PastPaper[]
-
   @@map("uploaded_files")
 }
 
@@ -2562,4 +2560,16 @@ model PracticeSession {
   @@index([studentId, startedAt])
   @@index([studentId, subjectId, status])
   @@map("practice_sessions")
+}
+
+/// One row per counted attempt, shared by every server instance (an in-memory limiter resets on
+/// each serverless cold start and is useless across instances). Rows older than a day are purged.
+model RateLimitHit {
+  id        String   @id @default(cuid())
+  key       String
+  createdAt DateTime @default(now())
+
+  @@index([key, createdAt])
+  @@index([createdAt])
+  @@map("rate_limit_hits")
 }

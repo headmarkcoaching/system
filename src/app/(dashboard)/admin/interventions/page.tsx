@@ -14,7 +14,8 @@ const STATUS_OPTIONS = [
   { value: "CANCELLED", label: "Cancelled" },
 ];
 
-export default async function InterventionsPage({ searchParams }: { searchParams: { status?: string; page?: string } }) {
+export default async function InterventionsPage(props: { searchParams: Promise<{ status?: string; page?: string }> }) {
+  const searchParams = await props.searchParams;
   const statusFilter = searchParams.status as InterventionStatus | undefined;
   const page = Number(searchParams.page) || 1;
   const { items: interventions, total, totalPages, pageSize } = await interventionsService.listAll({ status: statusFilter, page });

@@ -1,5 +1,6 @@
 "use server";
 
+import { validatePassword } from "@/lib/password-policy";
 import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
@@ -27,8 +28,9 @@ export async function createParentAction(_prevState: CreateParentState, formData
   const parsed = createParentSchema.safeParse(Object.fromEntries(formData.entries()));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  if (parsed.data.createLogin && (!parsed.data.loginPassword || parsed.data.loginPassword.length < 6)) {
-    return { error: "Set a login password of at least 6 characters, or turn off 'Create login'." };
+  if (parsed.data.createLogin) {
+    const problem = parsed.data.loginPassword ? validatePassword(parsed.data.loginPassword) : "Set a login password, or turn off 'Create login'.";
+    if (problem) return { error: problem };
   }
 
   const parent = await parentService.createParent(parsed.data);

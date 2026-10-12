@@ -26,7 +26,8 @@ import { TestsTab } from "./tests-tab";
 import { AnnouncementsTab } from "./announcements-tab";
 import { LeaderboardToggle } from "./leaderboard-toggle";
 
-export default async function BatchDetailPage({ params }: { params: { id: string } }) {
+export default async function BatchDetailPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

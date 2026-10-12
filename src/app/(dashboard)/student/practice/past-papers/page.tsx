@@ -12,7 +12,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const SESSION_LABEL = { ANNUAL: "Annual", SUPPLEMENTARY: "Supplementary", MODEL: "Model paper" } as const;
 
-export default async function PastPapersPage({ searchParams }: { searchParams: { subject?: string } }) {
+export default async function PastPapersPage(props: { searchParams: Promise<{ subject?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
   const student = await studentService.getStudentByUserId(session.user.id);

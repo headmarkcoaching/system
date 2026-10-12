@@ -12,7 +12,11 @@ import { chapterMatches } from "@/lib/lecture-bundle";
 import { formatDate } from "@/lib/utils";
 import { categorizeTest } from "../../categorize";
 
-export default async function StudentTestsSubjectPage({ params, searchParams }: { params: { subjectId: string }; searchParams: { chapter?: string } }) {
+export default async function StudentTestsSubjectPage(
+  props: { params: Promise<{ subjectId: string }>; searchParams: Promise<{ chapter?: string }> }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

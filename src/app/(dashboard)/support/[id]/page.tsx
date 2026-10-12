@@ -16,7 +16,8 @@ const CATEGORY_LABELS: Record<string, string> = {
   OTHER: "Other",
 };
 
-export default async function TicketDetailPage({ params }: { params: { id: string } }) {
+export default async function TicketDetailPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

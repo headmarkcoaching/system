@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -32,7 +33,7 @@ export function NewLeadForm({
   groups: { id: string; name: string }[];
   counselors: { id: string; fullName: string }[];
 }) {
-  const [state, formAction] = useFormState(createLeadAction, initialState);
+  const [state, formAction] = useActionState(createLeadAction, initialState);
 
   return (
     <form action={formAction} className="space-y-6">

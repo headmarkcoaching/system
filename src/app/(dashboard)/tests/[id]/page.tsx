@@ -17,7 +17,8 @@ import { GradingTab } from "./grading-tab";
 import { ResultsTab } from "./results-tab";
 import { TestStatusSelect } from "./status-select";
 
-export default async function TestDetailPage({ params }: { params: { id: string } }) {
+export default async function TestDetailPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

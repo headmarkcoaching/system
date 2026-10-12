@@ -23,7 +23,8 @@ function startHref(subjectId: string, scope: string, target?: string) {
   return `/student/practice/start?subject=${subjectId}&scope=${scope}${target ? `&target=${target}` : ""}`;
 }
 
-export default async function PracticeHubPage({ searchParams }: { searchParams: { subject?: string } }) {
+export default async function PracticeHubPage(props: { searchParams: Promise<{ subject?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

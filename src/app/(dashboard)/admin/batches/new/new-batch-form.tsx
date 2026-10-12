@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -21,7 +22,7 @@ export function NewBatchForm({
   groups: { id: string; name: string }[];
   programs: { id: string; name: string }[];
 }) {
-  const [state, formAction] = useFormState(createBatchAction, initialState);
+  const [state, formAction] = useActionState(createBatchAction, initialState);
 
   return (
     <form action={formAction} className="space-y-6">

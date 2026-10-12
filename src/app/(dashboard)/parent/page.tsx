@@ -31,7 +31,8 @@ import { WeeklySummaryCard } from "./weekly-summary-card";
 import { MonthlyFeeBanner } from "./monthly-fee-banner";
 import { ParentReportItem } from "./report-item";
 
-export default async function ParentDashboardPage({ searchParams }: { searchParams: { child?: string } }) {
+export default async function ParentDashboardPage(props: { searchParams: Promise<{ child?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

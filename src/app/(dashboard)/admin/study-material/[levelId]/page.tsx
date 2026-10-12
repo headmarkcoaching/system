@@ -6,7 +6,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import { Button } from "@/components/ui/button";
 import { LevelMaterialList } from "./level-material-list";
 
-export default async function LevelStudyMaterialPage({ params }: { params: { levelId: string } }) {
+export default async function LevelStudyMaterialPage(props: { params: Promise<{ levelId: string }> }) {
+  const params = await props.params;
   const [levels, subjects, materials] = await Promise.all([
     academicService.listAcademicLevels(),
     academicService.listSubjects(),

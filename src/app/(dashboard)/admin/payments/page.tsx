@@ -20,11 +20,12 @@ const STATUS_OPTIONS = [
   { value: "NO_PLAN", label: "No Plan" },
 ];
 
-export default async function PaymentsPage({
-  searchParams,
-}: {
-  searchParams: { q?: string; level?: string; batch?: string; status?: string; page?: string };
-}) {
+export default async function PaymentsPage(
+  props: {
+    searchParams: Promise<{ q?: string; level?: string; batch?: string; status?: string; page?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const [summary, { items, total, page, pageSize, totalPages }, recentPayments, pendingReview, levels, batches, overdueCount] = await Promise.all([
     paymentsService.paymentsSummary(),
     paymentsService.listStudentsPaymentOverview({

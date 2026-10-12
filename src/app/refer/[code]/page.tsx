@@ -4,7 +4,8 @@ import * as academicService from "@/lib/services/academic-structure";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { ReferralForm } from "./referral-form";
 
-export default async function ReferralLandingPage({ params }: { params: { code: string } }) {
+export default async function ReferralLandingPage(props: { params: Promise<{ code: string }> }) {
+  const params = await props.params;
   const [referrerName, levels] = await Promise.all([
     referralsService.getReferrerNameForCode(params.code),
     academicService.listAcademicLevels(),

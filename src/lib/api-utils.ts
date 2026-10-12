@@ -46,7 +46,7 @@ export async function requireApiKey(request: NextRequest) {
   const apiKey = await db.apiKey.findUnique({ where: { keyHash } });
   if (!apiKey || apiKey.revokedAt) return { error: apiError(401, "Invalid or revoked API key.") };
 
-  const rate = checkRateLimit(`api:${apiKey.id}`, { windowMs: 60_000, max: 60 });
+  const rate = await checkRateLimit(`api:${apiKey.id}`, { windowMs: 60_000, max: 60 });
   if (!rate.allowed) return { error: apiError(429, "Rate limit exceeded — 60 requests per minute per key.") };
 
   db.apiKey.update({ where: { id: apiKey.id }, data: { lastUsedAt: new Date() } }).catch(() => {});

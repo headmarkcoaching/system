@@ -13,7 +13,13 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default async function BuyPage({ searchParams }: { searchParams: { batch?: string; band?: string; bundle?: string } }) {
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
+export default async function BuyPage(
+  props: { searchParams: Promise<{ batch?: string; band?: string; bundle?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const all = await batchCatalogue.listOpenBatches();
 
   // Only batches with a published fee can be bought online (Class 8 has none yet), and a seat

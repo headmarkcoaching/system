@@ -10,7 +10,8 @@ import { PageHeader } from "@/components/shared/page-header";
 import { Button } from "@/components/ui/button";
 import { RecordingItem } from "../../recording-item";
 
-export default async function StudentRecordingsSubjectPage({ params }: { params: { subjectId: string } }) {
+export default async function StudentRecordingsSubjectPage(props: { params: Promise<{ subjectId: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

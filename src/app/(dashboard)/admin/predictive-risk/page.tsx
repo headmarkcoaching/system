@@ -15,7 +15,8 @@ const RISK_OPTIONS = [
   { value: "LOW", label: "Low" },
 ];
 
-export default async function PredictiveRiskPage({ searchParams }: { searchParams: { level?: string } }) {
+export default async function PredictiveRiskPage(props: { searchParams: Promise<{ level?: string }> }) {
+  const searchParams = await props.searchParams;
   const levelFilter = searchParams.level as RiskLevel | undefined;
   const [filtered, all] = await Promise.all([riskService.listByRiskLevel(levelFilter), riskService.listByRiskLevel()]);
 

@@ -58,6 +58,9 @@ const TEACHING_STANDARD = [
   },
 ];
 
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
 export default async function AboutPage() {
   const [levels, boards, subjects] = await Promise.all([
     academicService.listAcademicLevels(),

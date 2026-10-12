@@ -28,7 +28,10 @@ const PRIORITY_OPTIONS = [
   { value: "URGENT", label: "Urgent" },
 ];
 
-export default async function AdminSupportPage({ searchParams }: { searchParams: { status?: string; category?: string; priority?: string } }) {
+export default async function AdminSupportPage(
+  props: { searchParams: Promise<{ status?: string; category?: string; priority?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const tickets = await supportService.listAllTickets({
     status: searchParams.status as SupportStatus | undefined,
     category: searchParams.category as SupportCategory | undefined,

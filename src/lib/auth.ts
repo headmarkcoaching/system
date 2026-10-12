@@ -23,7 +23,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
         // Brute-force protection: 10 attempts per 15 minutes per identifier, regardless of
         // whether the account exists — a real gap found during the Phase 3E security review
         // (login previously had no rate limiting at all).
-        const rate = checkRateLimit(`login:${identifier.trim().toLowerCase()}`, { windowMs: 15 * 60 * 1000, max: 10 });
+        const rate = await checkRateLimit(`login:${identifier.trim().toLowerCase()}`, { windowMs: 15 * 60 * 1000, max: 10 });
         if (!rate.allowed) {
           throw new Error("Too many login attempts. Please try again in a few minutes.");
         }

@@ -49,9 +49,9 @@ export async function submitEnrollAction(
   // Public, unauthenticated form — reachable by anyone including bots. Two layers: a per-phone
   // cap (stops the same number being resubmitted repeatedly) and a coarse global backstop
   // (catches a volumetric flood using many different fake numbers).
-  const phoneRate = checkRateLimit(`enroll:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
+  const phoneRate = await checkRateLimit(`enroll:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
   if (!phoneRate.allowed) return { error: "You've already submitted recently. Our team will be in touch shortly." };
-  const globalRate = checkRateLimit("enroll:global", { windowMs: 5 * 60 * 1000, max: 30 });
+  const globalRate = await checkRateLimit("enroll:global", { windowMs: 5 * 60 * 1000, max: 30 });
   if (!globalRate.allowed) return { error: "Something went wrong. Please try again in a few minutes." };
 
   try {

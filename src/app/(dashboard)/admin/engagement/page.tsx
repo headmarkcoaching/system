@@ -15,7 +15,8 @@ const STATUS_OPTIONS = [
   { value: "INACTIVE", label: "Inactive" },
 ];
 
-export default async function EngagementDashboardPage({ searchParams }: { searchParams: { status?: string } }) {
+export default async function EngagementDashboardPage(props: { searchParams: Promise<{ status?: string }> }) {
+  const searchParams = await props.searchParams;
   const statusFilter = searchParams.status as EngagementStatus | undefined;
   const [filtered, all] = await Promise.all([
     engagementService.listByStatus(statusFilter),

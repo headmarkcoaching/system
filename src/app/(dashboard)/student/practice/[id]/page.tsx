@@ -8,7 +8,8 @@ import { Button } from "@/components/ui/button";
 import { PracticeRunner } from "./practice-runner";
 import { PracticeReview } from "./practice-review";
 
-export default async function PracticeSessionPage({ params }: { params: { id: string } }) {
+export default async function PracticeSessionPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
   const student = await studentService.getStudentByUserId(session.user.id);

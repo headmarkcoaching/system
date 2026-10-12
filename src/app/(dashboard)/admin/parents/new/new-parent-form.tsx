@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -12,7 +13,7 @@ import { createParentAction, type CreateParentState } from "../actions";
 const initialState: CreateParentState = {};
 
 export function NewParentForm() {
-  const [state, formAction] = useFormState(createParentAction, initialState);
+  const [state, formAction] = useActionState(createParentAction, initialState);
   const [createLogin, setCreateLogin] = React.useState(false);
 
   return (

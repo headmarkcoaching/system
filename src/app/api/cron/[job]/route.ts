@@ -17,7 +17,8 @@ function secretsMatch(a: string, b: string): boolean {
 // Windows Task Scheduler + curl, GitHub Actions, ...). Auth is a shared secret checked
 // here directly — NOT session-based — since the caller isn't a logged-in browser.
 // middleware.ts explicitly excludes /api/cron from its session-redirect logic.
-export async function POST(request: NextRequest, { params }: { params: { job: string } }) {
+export async function POST(request: NextRequest, props: { params: Promise<{ job: string }> }) {
+  const params = await props.params;
   const secret = process.env.CRON_SECRET;
   if (!secret) {
     return NextResponse.json({ error: "CRON_SECRET is not configured on the server." }, { status: 500 });

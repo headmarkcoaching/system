@@ -3,6 +3,7 @@
 import { z } from "zod";
 import * as passwordResetService from "@/lib/services/password-reset";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { validatePassword } from "@/lib/password-policy";
 
 const requestSchema = z.object({ identifier: z.string().min(3, "Enter your email or phone number.") });
 
@@ -17,7 +18,7 @@ export async function requestPasswordResetAction(_prevState: RequestResetState, 
   const parsed = requestSchema.safeParse(Object.fromEntries(formData.entries()));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const rate = checkRateLimit(`forgot-password:${parsed.data.identifier.trim().toLowerCase()}`, { windowMs: 15 * 60 * 1000, max: 5 });
+  const rate = await checkRateLimit(`forgot-password:${parsed.data.identifier.trim().toLowerCase()}`, { windowMs: 15 * 60 * 1000, max: 5 });
   if (!rate.allowed) return { error: "Too many requests. Please try again in a few minutes." };
 
   const baseUrl = process.env.NEXTAUTH_URL ?? "http://localhost:3200";
@@ -33,7 +34,10 @@ export async function requestPasswordResetAction(_prevState: RequestResetState, 
 
 const resetSchema = z
   .object({
-    password: z.string().min(8, "Password must be at least 8 characters."),
+    password: z.string().superRefine((value, ctx) => {
+      const problem = validatePassword(value);
+      if (problem) ctx.addIssue({ code: z.ZodIssueCode.custom, message: problem });
+    }),
     confirmPassword: z.string(),
   })
   .refine((data) => data.password === data.confirmPassword, { message: "Passwords don't match.", path: ["confirmPassword"] });

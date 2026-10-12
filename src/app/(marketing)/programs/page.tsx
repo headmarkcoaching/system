@@ -22,6 +22,9 @@ const STRUCTURE_TAGS = [
   { icon: MessageCircleQuestion, label: "Doubts cleared live" },
 ];
 
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
 export default async function ProgramsPage() {
   const [levels, boards, groups] = await Promise.all([
     academicService.listAcademicLevels(),

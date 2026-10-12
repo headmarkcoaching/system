@@ -11,7 +11,8 @@ import { formatDate } from "@/lib/utils";
 import { StartTestButton } from "./start-button";
 import { TakeTestForm } from "./take-test-form";
 
-export default async function StudentTestPage({ params }: { params: { id: string } }) {
+export default async function StudentTestPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
   if (session.user.role !== "STUDENT") redirect("/");

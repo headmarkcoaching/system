@@ -7,7 +7,8 @@ import { DataTable, type DataTableColumn } from "@/components/shared/data-table"
 import { Pagination } from "@/components/shared/pagination";
 import * as parentService from "@/lib/services/parents";
 
-export default async function ParentsPage({ searchParams }: { searchParams: { q?: string; page?: string } }) {
+export default async function ParentsPage(props: { searchParams: Promise<{ q?: string; page?: string }> }) {
+  const searchParams = await props.searchParams;
   const { items, total, page, pageSize, totalPages } = await parentService.listParents({ page: Number(searchParams.page ?? 1), q: searchParams.q });
 
   const columns: DataTableColumn<(typeof items)[number]>[] = [

@@ -19,11 +19,12 @@ const STATUS_OPTIONS = [
   { value: "ALUMNI", label: "Alumni" },
 ];
 
-export default async function StudentsPage({
-  searchParams,
-}: {
-  searchParams: { q?: string; status?: string; level?: string; page?: string };
-}) {
+export default async function StudentsPage(
+  props: {
+    searchParams: Promise<{ q?: string; status?: string; level?: string; page?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const [levels, { items, total, page, pageSize, totalPages }] = await Promise.all([
     academicService.listAcademicLevels(),
     studentService.listStudents({

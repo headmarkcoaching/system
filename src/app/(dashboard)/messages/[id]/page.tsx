@@ -10,7 +10,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import type { ConversationItem } from "@/components/shared/conversation";
 import { MessageThread } from "./message-thread";
 
-export default async function MessageThreadPage({ params }: { params: { id: string } }) {
+export default async function MessageThreadPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

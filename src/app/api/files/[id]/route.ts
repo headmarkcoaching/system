@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import type { Session } from "next-auth";
-import { auth } from "@/lib/auth";
+import { getVerifiedSession } from "@/lib/session";
 import { db } from "@/lib/db";
 import { STAFF_ROLES } from "@/lib/permissions";
 import { assertCanManageBatch, assertCanManageSupportTicket, assertCanManageLead } from "@/lib/access";
@@ -136,8 +136,9 @@ async function assertCanReadFile(session: Session, fileId: string, purpose: stri
   throw new Error("Forbidden");
 }
 
-export async function GET(request: NextRequest, { params }: { params: { id: string } }) {
-  const session = await auth();
+export async function GET(request: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  const session = await getVerifiedSession();
   if (!session?.user) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const file = await uploadedFilesService.getUploadedFile(params.id);
@@ -152,10 +153,15 @@ export async function GET(request: NextRequest, { params }: { params: { id: stri
   const result = await uploadedFilesService.readFileBytes(file.id);
   if (!result) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
+  // Only PDFs and images are shown in the browser; Word files are always downloaded. The name is
+  // reduced to safe characters so it can't break out of the header.
+  const previewable = result.file.mimeType === "application/pdf" || result.file.mimeType.startsWith("image/");
+  const safeName = result.file.filename.replace(/[^A-Za-z0-9._ -]/g, "_");
   return new NextResponse(new Uint8Array(result.buffer), {
     headers: {
       "Content-Type": result.file.mimeType,
-      "Content-Disposition": `inline; filename="${result.file.filename.replace(/"/g, "")}"`,
+      "Content-Disposition": `${previewable ? "inline" : "attachment"}; filename="${safeName}"`,
+      "Cache-Control": "private, no-store",
     },
   });
 }

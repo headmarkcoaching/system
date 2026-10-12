@@ -23,7 +23,10 @@ const STAGE_OPTIONS = [
   { value: "LOST", label: "Lost" },
 ];
 
-export default async function AdminLeadsPage({ searchParams }: { searchParams: { q?: string; stage?: string; counselor?: string; page?: string } }) {
+export default async function AdminLeadsPage(
+  props: { searchParams: Promise<{ q?: string; stage?: string; counselor?: string; page?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const [{ items, total, page, pageSize, totalPages }, counselors, pipeline] = await Promise.all([
     leadService.listLeads({ page: Number(searchParams.page ?? 1), q: searchParams.q, stage: searchParams.stage, counselorId: searchParams.counselor }),
     staffService.listCounselors(),

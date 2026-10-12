@@ -13,7 +13,10 @@ import { StartForm } from "./start-form";
 const SCOPES = ["CHAPTER", "QUARTER", "HALF", "FULL", "PAST_PAPER", "WEAK_AREAS"] as const;
 type Scope = (typeof SCOPES)[number];
 
-export default async function StartPracticePage({ searchParams }: { searchParams: { subject?: string; scope?: string; target?: string; paper?: string } }) {
+export default async function StartPracticePage(
+  props: { searchParams: Promise<{ subject?: string; scope?: string; target?: string; paper?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
   const student = await studentService.getStudentByUserId(session.user.id);

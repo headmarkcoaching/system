@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -21,7 +22,7 @@ export function NewStudentForm({
   boards: { id: string; name: string }[];
   groups: { id: string; name: string }[];
 }) {
-  const [state, formAction] = useFormState(createStudentAction, initialState);
+  const [state, formAction] = useActionState(createStudentAction, initialState);
   const [createLogin, setCreateLogin] = React.useState(false);
 
   return (

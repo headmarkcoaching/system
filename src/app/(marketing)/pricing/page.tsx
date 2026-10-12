@@ -47,6 +47,9 @@ const PRICING_FAQS = [
   },
 ];
 
+// Reads live academy data, so it is rendered per request rather than frozen at build time.
+export const dynamic = "force-dynamic";
+
 export default async function PricingPage() {
   const batches = await batchCatalogue.listOpenBatches();
   return (

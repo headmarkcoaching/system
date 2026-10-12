@@ -8,7 +8,8 @@ import type { DoubtStatus } from "@prisma/client";
 
 const VALID = ["OPEN", "ANSWERED", "RESOLVED", "ALL"];
 
-export default async function TeacherDoubtsPage({ searchParams }: { searchParams: { status?: string } }) {
+export default async function TeacherDoubtsPage(props: { searchParams: Promise<{ status?: string }> }) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

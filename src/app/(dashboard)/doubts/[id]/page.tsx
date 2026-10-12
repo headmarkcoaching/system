@@ -18,7 +18,8 @@ const BACK: Record<string, { href: string; label: string }> = {
   admin: { href: "/admin/doubts", label: "Back to Doubts" },
 };
 
-export default async function DoubtPage({ params }: { params: { id: string } }) {
+export default async function DoubtPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

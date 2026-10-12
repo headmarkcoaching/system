@@ -16,7 +16,8 @@ import { FollowupsTab } from "./followups-tab";
 import { AssessmentTab } from "./assessment-tab";
 import { TrialTab } from "./trial-tab";
 
-export default async function LeadDetailPage({ params }: { params: { id: string } }) {
+export default async function LeadDetailPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

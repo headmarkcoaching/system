@@ -11,7 +11,11 @@ import { chapterMatches } from "@/lib/lecture-bundle";
 import { formatDate } from "@/lib/utils";
 import { SubmitHomeworkDialog } from "../../submit-dialog";
 
-export default async function StudentHomeworkSubjectPage({ params, searchParams }: { params: { subjectId: string }; searchParams: { chapter?: string } }) {
+export default async function StudentHomeworkSubjectPage(
+  props: { params: Promise<{ subjectId: string }>; searchParams: Promise<{ chapter?: string }> }
+) {
+  const searchParams = await props.searchParams;
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

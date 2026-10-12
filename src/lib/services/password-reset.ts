@@ -51,7 +51,8 @@ export async function resetPassword(rawToken: string, newPassword: string) {
   const passwordHash = await bcrypt.hash(newPassword, 10);
 
   await db.$transaction([
-    db.user.update({ where: { id: record.userId }, data: { passwordHash } }),
+    // passwordChangedAt ends every session that was signed in before this moment.
+    db.user.update({ where: { id: record.userId }, data: { passwordHash, passwordChangedAt: new Date() } }),
     db.passwordResetToken.update({ where: { id: record.id }, data: { usedAt: new Date() } }),
     // Defense in depth: invalidate any other outstanding reset tokens for this user too, so an
     // old, forgotten link can't still be used after the password has already been changed.

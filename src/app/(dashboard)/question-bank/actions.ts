@@ -242,7 +242,7 @@ export async function aiDraftQuestionsAction(data: FormValues): Promise<Result> 
   const parsed = aiSchema.safeParse(data);
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const rate = checkRateLimit(`bank:ai:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 20 });
+  const rate = await checkRateLimit(`bank:ai:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 20 });
   if (!rate.allowed) return { error: "You've generated a lot of drafts this hour. Please try again later." };
 
   const chapter = await db.chapter.findUnique({ where: { id: parsed.data.chapterId }, include: { academicLevel: true, subject: true } });

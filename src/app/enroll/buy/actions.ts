@@ -29,9 +29,9 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
   const subjectIds = Array.from(new Set(formData.getAll("subjectIds").map(String)));
   if (subjectIds.length === 0) return { error: "Please choose at least one subject" };
 
-  const phoneRate = checkRateLimit(`buy:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
+  const phoneRate = await checkRateLimit(`buy:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
   if (!phoneRate.allowed) return { error: "You've already submitted recently. Our team will be in touch shortly." };
-  const globalRate = checkRateLimit("buy:global", { windowMs: 5 * 60 * 1000, max: 30 });
+  const globalRate = await checkRateLimit("buy:global", { windowMs: 5 * 60 * 1000, max: 30 });
   if (!globalRate.allowed) return { error: "Something went wrong. Please try again in a few minutes." };
 
   const batch = await batchCatalogue.getOpenBatch(parsed.data.batchId);

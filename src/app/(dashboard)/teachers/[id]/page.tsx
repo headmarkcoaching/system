@@ -14,7 +14,8 @@ import { Video, CalendarCheck, ClipboardCheck, MessageSquare, Sparkles, Graduati
 import { EditTeacherProfileDialog } from "./edit-profile-dialog";
 import { uploadTeacherPhotoAction } from "./actions";
 
-export default async function TeacherProfilePage({ params }: { params: { id: string } }) {
+export default async function TeacherProfilePage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await auth();
   if (!session?.user) redirect("/login");
 

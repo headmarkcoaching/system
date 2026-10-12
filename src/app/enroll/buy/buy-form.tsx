@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
+import { useActionState } from "react";
 import { CheckCircle2, ArrowRight, CalendarDays, Clock } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -23,7 +24,7 @@ export interface BuyBatch {
 const initialState: BuyState = {};
 
 export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: BuyBatch[]; initialBatchId: string; initialBundle: BundleKey | null }) {
-  const [state, formAction] = useFormState(submitBuyAction, initialState);
+  const [state, formAction] = useActionState(submitBuyAction, initialState);
   const [batchId, setBatchId] = React.useState(initialBatchId);
   const batch = batches.find((b) => b.id === batchId) ?? batches[0];
   const [selected, setSelected] = React.useState<Set<string>>(() => {

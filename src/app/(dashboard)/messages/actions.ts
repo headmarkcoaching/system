@@ -72,7 +72,7 @@ export async function startThreadAction(formData: FormData): Promise<MessageActi
     return { error: "That teacher doesn't teach this student." };
   }
 
-  const rate = checkRateLimit(`thread:new:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 5 });
+  const rate = await checkRateLimit(`thread:new:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 5 });
   if (!rate.allowed) return { error: "You've started several conversations in the last hour. Please wait a little, or continue an existing one." };
 
   const upload = await saveOptionalFile(formData, session.user.id);
@@ -119,7 +119,7 @@ export async function replyThreadAction(threadId: string, formData: FormData): P
   const parsed = replySchema.safeParse({ body: formData.get("body") });
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const rate = checkRateLimit(`thread:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
+  const rate = await checkRateLimit(`thread:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
   if (!rate.allowed) return { error: "You're sending messages very quickly. Please wait a few minutes." };
 
   const upload = await saveOptionalFile(formData, session.user.id);

@@ -38,11 +38,12 @@ const SOURCES = ["TEACHER", "PAST_PAPER", "AI_DRAFT"];
 const SOURCE_LABEL: Record<string, string> = { TEACHER: "Teacher", PAST_PAPER: "Past paper", AI_DRAFT: "AI draft" };
 const TYPE_LABEL: Record<string, string> = { MCQ: "Multiple choice", NUMERICAL: "Numerical", SHORT_ANSWER: "Short answer", LONG_ANSWER: "Long answer" };
 
-export default async function QuestionBankPage({
-  searchParams,
-}: {
-  searchParams: { tab?: string; subject?: string; chapter?: string; status?: string; source?: string; paper?: string; q?: string; page?: string };
-}) {
+export default async function QuestionBankPage(
+  props: {
+    searchParams: Promise<{ tab?: string; subject?: string; chapter?: string; status?: string; source?: string; paper?: string; q?: string; page?: string }>;
+  }
+) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
   if (!ACADEMIC_STAFF_ROLES.includes(session.user.role)) redirect(ROLE_HOME_PATH[session.user.role]);

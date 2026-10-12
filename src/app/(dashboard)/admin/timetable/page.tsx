@@ -4,7 +4,8 @@ import { EmptyState } from "@/components/shared/empty-state";
 import { WeeklyTimetableGrid } from "@/components/shared/weekly-timetable-grid";
 import * as batchService from "@/lib/services/batches";
 
-export default async function TimetablePage({ searchParams }: { searchParams: { batch?: string } }) {
+export default async function TimetablePage(props: { searchParams: Promise<{ batch?: string }> }) {
+  const searchParams = await props.searchParams;
   const [entries, batches] = await Promise.all([
     batchService.listTimetable({ batchId: searchParams.batch }),
     batchService.listBatchesForPicker(),

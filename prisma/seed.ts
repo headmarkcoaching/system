@@ -9,6 +9,11 @@ async function hash(pw: string) {
 }
 
 async function main() {
+  // Demo accounts all share a published password (including the Super Admin), so this must never
+  // run against a live deployment by accident.
+  if (process.env.NODE_ENV === "production" && process.env.ALLOW_PRODUCTION_SEED !== "yes") {
+    throw new Error("Refusing to seed with NODE_ENV=production: the demo accounts use a known password. Set ALLOW_PRODUCTION_SEED=yes only if you are certain.");
+  }
   console.log("Seeding Parent-First Online Academy…");
 
   // ---- Roles & Permissions ----

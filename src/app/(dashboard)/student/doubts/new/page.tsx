@@ -9,7 +9,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AskDoubtForm } from "./ask-doubt-form";
 
-export default async function NewDoubtPage({ searchParams }: { searchParams: { subjectId?: string; chapter?: string; title?: string } }) {
+export default async function NewDoubtPage(
+  props: { searchParams: Promise<{ subjectId?: string; chapter?: string; title?: string }> }
+) {
+  const searchParams = await props.searchParams;
   const session = await auth();
   if (!session?.user) redirect("/login");
 
