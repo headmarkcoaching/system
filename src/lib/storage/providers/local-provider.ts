@@ -13,6 +13,11 @@ const UPLOAD_ROOT = path.join(process.cwd(), ".uploads");
 
 export class LocalFileStorageProvider implements FileStorageProvider {
   async save(input: { filename: string; mimeType: string; buffer: Buffer }): Promise<StoredFileHandle> {
+    // A serverless host (Vercel) gives each request a throwaway disk, so a file saved here would
+    // be accepted and then vanish. Failing loudly is better than losing receipts and homework.
+    if (process.env.VERCEL) {
+      throw new Error("Local file storage can't be used on this host. Choose Google Drive under Settings → Integrations.");
+    }
     await fs.mkdir(UPLOAD_ROOT, { recursive: true });
     const safeName = input.filename.replace(/[^a-zA-Z0-9._-]/g, "_");
     const storedName = `${randomUUID()}-${safeName}`;

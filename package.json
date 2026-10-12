@@ -14,7 +14,8 @@
     "db:reset": "prisma migrate reset --force",
     "jobs:run": "tsx scripts/run-jobs.ts",
     "jobs:watch": "tsx scripts/run-jobs.ts watch",
-    "google:connect": "tsx scripts/get-google-refresh-token.ts"
+    "google:connect": "tsx scripts/get-google-refresh-token.ts",
+    "uploads:to-drive": "tsx --conditions=react-server scripts/migrate-uploads-to-drive.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

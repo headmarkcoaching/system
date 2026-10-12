@@ -31,10 +31,18 @@ export async function getGoogleCalendarId(): Promise<string> {
   return settings.googleCalendarId || process.env.GOOGLE_CALENDAR_ID || "primary";
 }
 
-/** Exchanges a refresh token for a fresh access token. Not cached across requests — Google's
- * token endpoint is fast and this avoids a whole separate expiry-tracking cache for what's a
- * low-frequency operation (creating/deleting a class's Meet link, saving/reading a file). */
+// Access tokens last an hour. Every file view and upload now goes through Drive, so asking Google
+// for a new token each time would add a round trip to every page that shows an attachment. The
+// token is kept in this instance's memory for most of its life, keyed by the refresh token so a
+// reconnected account never reuses the old account's token.
+let cachedToken: { refreshToken: string; token: string; expiresAt: number } | null = null;
+
+/** Exchanges a refresh token for an access token, reusing a recent one while it is still valid. */
 export async function getGoogleAccessToken(credentials: GoogleCredentials): Promise<string> {
+  if (cachedToken && cachedToken.refreshToken === credentials.refreshToken && cachedToken.expiresAt > Date.now() + 60_000) {
+    return cachedToken.token;
+  }
+
   const res = await fetch("https://oauth2.googleapis.com/token", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -51,6 +59,11 @@ export async function getGoogleAccessToken(credentials: GoogleCredentials): Prom
     throw new Error(`Google OAuth token refresh failed (${res.status}): ${errorText}`);
   }
 
-  const data = (await res.json()) as { access_token: string };
+  const data = (await res.json()) as { access_token: string; expires_in?: number };
+  cachedToken = {
+    refreshToken: credentials.refreshToken,
+    token: data.access_token,
+    expiresAt: Date.now() + (data.expires_in ?? 3600) * 1000,
+  };
   return data.access_token;
 }
