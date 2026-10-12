@@ -23,3 +23,6 @@ tsconfig.tsbuildinfo
 
 # Scratch output from design iteration, not part of the shipped app.
 Claude outputs/
+
+# Pre-wipe database backups: contain personal data, never version-controlled.
+backups/
