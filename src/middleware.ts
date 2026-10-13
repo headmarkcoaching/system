@@ -42,6 +42,8 @@ export default auth((req) => {
   const isPublic =
     nextUrl.pathname === "/" ||
     nextUrl.pathname === "/signed-out" ||
+    // Android checks this file with no session when it links the Play Store app to this site.
+    nextUrl.pathname.startsWith("/.well-known/") ||
     isAuthPage ||
     nextUrl.pathname.startsWith("/api/auth") ||
     nextUrl.pathname.startsWith("/api/cron") ||

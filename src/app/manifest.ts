@@ -5,6 +5,10 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Head Mark Coaching",
     short_name: "Head Mark",
     description: "Live group classes, student accountability, and parent visibility for Class 8 through 2nd Year.",
+    // A stable identity for the installed app, so it stays the same app if start_url ever changes.
+    id: "/",
+    lang: "en",
+    dir: "ltr",
     start_url: "/",
     scope: "/",
     display: "standalone",
@@ -12,6 +16,7 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#ffffff",
     theme_color: "#2861bd",
     categories: ["education"],
+    prefer_related_applications: false,
     icons: [
       { src: "/icons/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
       { src: "/icons/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
