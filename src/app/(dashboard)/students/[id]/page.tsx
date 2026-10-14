@@ -1,3 +1,5 @@
+import { ClassAccessCard } from "./class-access-card";
+import * as classAccessService from "@/lib/services/class-access";
 import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { auth } from "@/lib/auth";
@@ -173,6 +175,7 @@ export default async function StudentProfilePage(
   const homeworkRate = studentService.computeHomeworkCompletionRate(homework);
   const testAverage = await testService.getStudentAverageTestScore(student.id);
   const recordingAccessMap = isOwnStudentViewer ? await recordingAccessService.getRecordingAccessMap(student.id, recordings) : null;
+  const classAccess = isStaff ? await classAccessService.getClassAccess(student.id) : null;
 
   // Classes and Attendance used to be two near-identical per-class-session tables (same
   // date/subject/class columns, just a different status column) — merged into one: every
@@ -279,6 +282,17 @@ export default async function StudentProfilePage(
           </Button>
         )}
       </div>
+
+      {isStaff && classAccess && (
+        <ClassAccessCard
+          studentId={student.id}
+          allowed={classAccess.allowed}
+          viaOverride={Boolean(classAccess.viaOverride)}
+          overrideUntil={student.classAccessOverrideUntil}
+          message={classAccess.message ?? null}
+          graceDays={classAccessService.PAYMENT_GRACE_DAYS}
+        />
+      )}
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <StatCard label="Attendance" value={`${attendanceRate}%`} icon={CalendarCheck} tone={attendanceRate >= 75 ? "success" : attendanceRate >= 50 ? "warning" : "destructive"} />

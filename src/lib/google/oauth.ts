@@ -4,6 +4,12 @@ import * as integrationSettingsService from "@/lib/services/integration-settings
 export const GOOGLE_OAUTH_SCOPES = [
   "https://www.googleapis.com/auth/calendar.events",
   "https://www.googleapis.com/auth/drive.file",
+  // Google Meet API: create class rooms that record by themselves, and read the finished recordings.
+  "https://www.googleapis.com/auth/meetings.space.created",
+  "https://www.googleapis.com/auth/meetings.space.readonly",
+  // Read-only: lets the app stream a finished class recording from where Meet saved it in the
+  // academy's Drive. It cannot change or delete anything there.
+  "https://www.googleapis.com/auth/drive.readonly",
   "openid",
   "email",
 ].join(" ");

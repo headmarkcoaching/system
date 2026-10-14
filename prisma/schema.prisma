@@ -519,29 +519,32 @@ model PasswordResetToken {
 // ==========================================================================
 
 model Student {
-  id              String        @id @default(cuid())
-  studentCode     String        @unique
-  userId          String?       @unique
-  fullName        String
-  photoUrl        String?
-  dateOfBirth     DateTime?
-  gender          Gender?
-  phone           String?
-  whatsapp        String?
-  email           String?
-  city            String?
-  address         String?
-  academicLevelId String
-  boardId         String?
-  groupId         String?
-  school          String?
-  status          StudentStatus @default(TRIAL)
-  statusChangedAt DateTime?
-  enrollmentDate  DateTime?
-  referralCode    String?       @unique
-  createdAt       DateTime      @default(now())
-  updatedAt       DateTime      @updatedAt
-  createdById     String?
+  id                       String        @id @default(cuid())
+  studentCode              String        @unique
+  userId                   String?       @unique
+  fullName                 String
+  photoUrl                 String?
+  dateOfBirth              DateTime?
+  gender                   Gender?
+  phone                    String?
+  whatsapp                 String?
+  email                    String?
+  city                     String?
+  address                  String?
+  academicLevelId          String
+  boardId                  String?
+  groupId                  String?
+  school                   String?
+  status                   StudentStatus @default(TRIAL)
+  statusChangedAt          DateTime?
+  // A staff exception: until this moment the student may join live classes even with an overdue fee
+  // (for example a family that has promised to pay tomorrow). Normally empty.
+  classAccessOverrideUntil DateTime?
+  enrollmentDate           DateTime?
+  referralCode             String?       @unique
+  createdAt                DateTime      @default(now())
+  updatedAt                DateTime      @updatedAt
+  createdById              String?
 
   user          User?         @relation(fields: [userId], references: [id])
   academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])

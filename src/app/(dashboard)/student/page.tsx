@@ -18,6 +18,7 @@ import { MyReferralCard } from "@/components/shared/my-referral-card";
 import * as referralsService from "@/lib/services/referrals";
 import { NextActionsCard } from "@/components/shared/next-actions-card";
 import * as nextActionsService from "@/lib/services/next-actions";
+import * as classAccessService from "@/lib/services/class-access";
 
 export default async function StudentDashboardPage() {
   const session = await auth();
@@ -28,7 +29,8 @@ export default async function StudentDashboardPage() {
     return <EmptyState title="No student profile found" description="Ask an admin to link your account to a student profile." />;
   }
 
-  const [todaysClasses, attendance, homework, latestPerformance, announcements, referralCode, referralStats, nextActions] = await Promise.all([
+  const [classAccess, todaysClasses, attendance, homework, latestPerformance, announcements, referralCode, referralStats, nextActions] = await Promise.all([
+    classAccessService.getClassAccess(student.id),
     batchService.listTodaysClassesForStudent(student.id),
     studentService.getStudentAttendance(student.id),
     studentService.getStudentHomework(student.id),
@@ -58,6 +60,11 @@ export default async function StudentDashboardPage() {
             <EmptyState title="No classes today" className="py-8" />
           ) : (
             <ul className="space-y-2">
+              {!classAccess.allowed && todaysClasses.some((c) => c.status === "LIVE") && (
+                <li role="alert" className="rounded-md border border-destructive/40 bg-destructive/10 px-3 py-2 text-sm text-destructive">
+                  {classAccess.message}
+                </li>
+              )}
               {todaysClasses.map((c) => (
                 <li key={c.id} className="flex flex-col gap-2 rounded-md border border-border px-3 py-2 text-sm sm:flex-row sm:items-center sm:justify-between">
                   <div>
@@ -67,7 +74,11 @@ export default async function StudentDashboardPage() {
                     </p>
                   </div>
                   {c.status === "LIVE" ? (
-                    <JoinLiveClassButton liveClassId={c.id} meetingLink={c.meetingLink} />
+                    classAccess.allowed ? (
+                      <JoinLiveClassButton liveClassId={c.id} />
+                    ) : (
+                      <Badge variant="destructive">{classAccess.reason === "FEE_OVERDUE" ? "Fee overdue" : "Not available"}</Badge>
+                    )
                   ) : (
                     <Badge variant="outline">{c.status === "UPCOMING" ? "Upcoming" : c.status}</Badge>
                   )}

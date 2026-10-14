@@ -1,16 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getVerifiedSession } from "@/lib/session";
 import { SUPER_ADMIN_ONLY } from "@/lib/permissions";
+import { verifyOAuthState } from "@/lib/google/oauth-state";
 import * as integrationSettingsService from "@/lib/services/integration-settings";
-
-const STATE_COOKIE = "google_oauth_state";
 
 function redirectWithError(request: NextRequest, message: string) {
   const url = new URL("/admin/settings/integrations", request.url);
   url.searchParams.set("error", message);
-  const response = NextResponse.redirect(url);
-  response.cookies.delete(STATE_COOKIE);
-  return response;
+  return NextResponse.redirect(url);
 }
 
 /** Completes the "Connect Google Account" flow: exchanges the auth code for a refresh token,
@@ -29,9 +26,8 @@ export async function GET(request: NextRequest) {
 
   const code = searchParams.get("code");
   const state = searchParams.get("state");
-  const savedState = request.cookies.get(STATE_COOKIE)?.value;
-  if (!code || !state || !savedState || state !== savedState) {
-    return redirectWithError(request, "Invalid or expired OAuth state — please try connecting again.");
+  if (!code || !verifyOAuthState(state, session.user.id)) {
+    return redirectWithError(request, "That sign-in link has expired or didn't start here — please press Reconnect again and finish within a few minutes.");
   }
 
   const settings = await integrationSettingsService.getIntegrationSettingsInternal();
@@ -77,9 +73,7 @@ export async function GET(request: NextRequest) {
       connectedEmail: userinfo.email || "Unknown account",
     });
 
-    const response = NextResponse.redirect(new URL("/admin/settings/integrations?google=connected", request.url));
-    response.cookies.delete(STATE_COOKIE);
-    return response;
+    return NextResponse.redirect(new URL("/admin/settings/integrations?google=connected", request.url));
   } catch (err) {
     return redirectWithError(request, err instanceof Error ? err.message : "Unknown error");
   }
