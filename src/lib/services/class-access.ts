@@ -2,7 +2,7 @@ import "server-only";
 import { db } from "@/lib/db";
 
 /** Days after an instalment's due date before an unpaid fee stops a student joining live classes. */
-export const PAYMENT_GRACE_DAYS = 3;
+export const PAYMENT_GRACE_DAYS = 2;
 
 export type ClassBlockReason = "NOT_IN_BATCH" | "NOT_ACTIVE" | "FEE_OVERDUE" | "NO_FEE_PLAN" | "CLASS_NOT_LIVE";
 
