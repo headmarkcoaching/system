@@ -19,6 +19,7 @@ export default async function StudentStudyMaterialSubjectPage(
   if (!session?.user) redirect("/login");
 
   const student = await studentService.getStudentByUserId(session.user.id);
+  const viewerLabel = student ? [student.fullName, student.phone].filter(Boolean).join(" · ") : session.user.name ?? "";
   const [material, progressRows] = await Promise.all([
     student ? studentService.getStudentStudyMaterial(student.id) : Promise.resolve([]),
     student ? contentProgressService.listContentProgressForStudent(student.id, "STUDY_MATERIAL") : Promise.resolve([]),
@@ -49,6 +50,7 @@ export default async function StudentStudyMaterialSubjectPage(
         {shown.map((m) => (
           <MaterialItem
             key={m.id}
+            viewerLabel={viewerLabel}
             material={{ id: m.id, title: m.title, chapter: m.chapter, type: m.type, fileId: m.fileId, fileUrl: m.fileUrl, mimeType: m.file?.mimeType ?? null, read: readIds.has(m.id) }}
           />
         ))}

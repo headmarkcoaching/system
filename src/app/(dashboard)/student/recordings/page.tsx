@@ -23,14 +23,14 @@ export default async function StudentRecordingsPage() {
     const entry = bySubject.get(r.subject.id) ?? { id: r.subject.id, name: r.subject.name, total: 0, unlockable: 0 };
     entry.total += 1;
     const access = accessByRecording.get(r.id);
-    if (access?.eligible && !access.activeUntil) entry.unlockable += 1;
+    if (access?.state === "LOCKED") entry.unlockable += 1;
     bySubject.set(r.subject.id, entry);
   }
   const subjects = Array.from(bySubject.values()).sort((a, b) => a.name.localeCompare(b.name));
 
   return (
     <div className="space-y-6">
-      <PageHeader title="Recordings" description="Catch up on any class you missed. Open a subject to see its recordings." />
+      <PageHeader title="Recordings" description="Watch any class again. Request a recording and you can watch it for 48 hours." />
 
       {subjects.length === 0 ? (
         <EmptyState title="No recordings available yet" />

@@ -1,5 +1,6 @@
 "use client";
 
+import { Watermark } from "@/components/shared/watermark";
 import * as React from "react";
 import { toast } from "sonner";
 import { FileText, CheckCircle2, Eye, EyeOff } from "lucide-react";
@@ -18,7 +19,7 @@ interface Material {
   read: boolean;
 }
 
-export function MaterialItem({ material }: { material: Material }) {
+export function MaterialItem({ material, viewerLabel }: { material: Material; viewerLabel: string }) {
   const [read, setRead] = React.useState(material.read);
   const [pending, setPending] = React.useState(false);
   const [showing, setShowing] = React.useState(false);
@@ -80,12 +81,14 @@ export function MaterialItem({ material }: { material: Material }) {
       </div>
 
       {showing && viewUrl && (
-        <div onContextMenu={(e) => e.preventDefault()} className="overflow-hidden rounded-md border border-border">
-          {isPdf && <iframe src={`${viewUrl}#toolbar=0`} className="h-[70vh] w-full" title={material.title} />}
+        // no-print: notes don't come out of a printer. The viewer's name sits over the pages so a photo or screenshot carries it.
+        <div onContextMenu={(e) => e.preventDefault()} className="no-print relative overflow-hidden rounded-md border border-border">
+          {isPdf && <iframe src={`${viewUrl}#toolbar=0&navpanes=0`} className="h-[70vh] w-full" title={material.title} />}
           {isImage && (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={viewUrl} alt={material.title} draggable={false} className="w-full select-none" />
           )}
+          <Watermark text={viewerLabel} variant="document" />
         </div>
       )}
     </li>

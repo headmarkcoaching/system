@@ -164,6 +164,29 @@
   }
 }
 
+/* The name that drifts across a lecture video (see Watermark). */
+@keyframes wm-drift {
+  from { left: -45%; }
+  to { left: 100%; }
+}
+.wm-drift {
+  animation: wm-drift 26s linear infinite;
+}
+/* The global reduced-motion rule above would freeze this at its end point, off screen; a still
+   watermark in plain view is the right behaviour for people who ask for less motion. */
+@media (prefers-reduced-motion: reduce) {
+  .wm-drift {
+    animation: none !important;
+    left: 6%;
+  }
+}
+/* Nothing protected should come out of a printer. */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
+
 @layer utilities {
   .no-scrollbar::-webkit-scrollbar {
     display: none;

@@ -955,7 +955,12 @@ model ClassRecording {
   batchId       String
   chapter       String?
   recordingDate DateTime
-  recordingUrl  String
+  // Either a link to a video hosted elsewhere (legacy; its access window cannot be enforced) or a
+  // video stored privately in the academy's Google Drive and streamed through the app.
+  recordingUrl  String?
+  driveFileId   String?  @unique
+  mimeType      String?
+  sizeBytes     Int?
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
   createdById   String?

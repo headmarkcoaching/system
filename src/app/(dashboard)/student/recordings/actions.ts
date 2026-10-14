@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { requireRoleSession } from "@/lib/session";
+import { db } from "@/lib/db";
 import * as studentService from "@/lib/services/students";
 import * as contentProgressService from "@/lib/services/content-progress";
 import * as recordingAccessService from "@/lib/services/recording-access";
@@ -33,5 +34,8 @@ export async function markRecordingCompleteAction(recordingId: string) {
 export async function requestRecordingAccessAction(recordingId: string) {
   const studentId = await resolveOwnStudentId();
   const access = await recordingAccessService.requestRecordingAccess(studentId, recordingId);
-  return { expiresAt: access.expiresAt };
+  // The watch address is handed over only now that the window is open.
+  const recording = await db.classRecording.findUniqueOrThrow({ where: { id: recordingId }, select: { driveFileId: true, recordingUrl: true } });
+  const playUrl = recording.driveFileId ? `/api/recordings/${recordingId}/stream` : recording.recordingUrl;
+  return { expiresAt: access.expiresAt, playUrl };
 }

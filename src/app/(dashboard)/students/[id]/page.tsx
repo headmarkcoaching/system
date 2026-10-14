@@ -230,7 +230,7 @@ export default async function StudentProfilePage(
       key: "link",
       header: "",
       cell: (r) => (
-        <a href={r.recordingUrl} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+        <a href={r.driveFileId ? `/recordings/${r.id}` : r.recordingUrl ?? undefined} target={r.driveFileId ? undefined : "_blank"} rel="noopener noreferrer" className="text-primary hover:underline">
           Watch
         </a>
       ),
@@ -382,14 +382,17 @@ export default async function StudentProfilePage(
                 {recordings.map((r) => (
                   <RecordingItem
                     key={r.id}
+                    viewerLabel={[student.fullName, student.phone].filter(Boolean).join(" · ")}
                     recording={{
                       id: r.id,
+                      source: r.driveFileId ? "STORED" : "LINK",
                       title: r.title,
                       recordingDate: r.recordingDate,
-                      recordingUrl: r.recordingUrl,
-                      isDirectVideo: isDirectVideoUrl(r.recordingUrl),
+                      // Only while the 48 hours are open does the watch address reach the page.
+                      playUrl: recordingAccessMap?.get(r.id)?.state === "ACTIVE" ? (r.driveFileId ? `/api/recordings/${r.id}/stream` : r.recordingUrl) : null,
+                      isDirectVideo: Boolean(r.recordingUrl && isDirectVideoUrl(r.recordingUrl)),
                       progress: null,
-                      access: recordingAccessMap?.get(r.id) ?? { isLinked: false, eligible: false, activeUntil: null },
+                      access: recordingAccessMap?.get(r.id) ?? { state: "LOCKED" as const, activeUntil: null, missedClass: false },
                     }}
                   />
                 ))}

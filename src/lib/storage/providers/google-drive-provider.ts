@@ -106,6 +106,58 @@ export class GoogleDriveStorageProvider implements FileStorageProvider {
     return { storageProvider: "google_drive", storagePath: data.id };
   }
 
+  /**
+   * Starts a resumable upload that the teacher's BROWSER then performs directly against Google,
+   * so a large lecture video never passes through (or is limited by) the web server. The session
+   * is created with the site's Origin so Google allows the browser's cross-origin uploads for it.
+   * Returns the one-time session address the browser uploads to.
+   */
+  async startResumableUpload(input: { filename: string; mimeType: string; size: number; origin: string }): Promise<string> {
+    const accessToken = await this.getAccessToken();
+    const folderId = await this.getFolderId(accessToken);
+    const res = await driveFetch("https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable&fields=id", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json; charset=UTF-8",
+        "X-Upload-Content-Type": input.mimeType,
+        "X-Upload-Content-Length": String(input.size),
+        Origin: input.origin,
+      },
+      body: JSON.stringify({ name: input.filename, parents: [folderId] }),
+    });
+    if (!res.ok) {
+      if (res.status === 404) cachedFolderId = null;
+      throw new Error(`Google Drive upload session failed (${res.status}): ${await res.text()}`);
+    }
+    const location = res.headers.get("location");
+    if (!location) throw new Error("Google Drive did not return an upload session URL");
+    return location;
+  }
+
+  /** Name, type and size of a file this app created, or null if Drive does not know it. */
+  async getFileInfo(fileId: string): Promise<{ id: string; name: string; mimeType: string; size: number } | null> {
+    if (!DRIVE_ID.test(fileId)) return null;
+    const accessToken = await this.getAccessToken();
+    const res = await driveFetch(`https://www.googleapis.com/drive/v3/files/${fileId}?fields=id,name,mimeType,size,trashed`, {
+      headers: { Authorization: `Bearer ${accessToken}` },
+    });
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(`Google Drive lookup failed (${res.status}): ${await res.text()}`);
+    const data = (await res.json()) as { id: string; name: string; mimeType: string; size?: string; trashed?: boolean };
+    if (data.trashed) return null;
+    return { id: data.id, name: data.name, mimeType: data.mimeType, size: Number(data.size ?? 0) };
+  }
+
+  /** Opens a file for streaming, passing a browser's Range header through so video can seek. */
+  async openStream(fileId: string, range?: string | null): Promise<Response> {
+    if (!DRIVE_ID.test(fileId)) throw new Error("Invalid Google Drive file id");
+    const accessToken = await this.getAccessToken();
+    const headers: Record<string, string> = { Authorization: `Bearer ${accessToken}` };
+    if (range) headers.Range = range;
+    return driveFetch(`https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`, { headers });
+  }
+
   async read(storagePath: string): Promise<Buffer> {
     if (!DRIVE_ID.test(storagePath)) throw new Error("Invalid Google Drive file id");
     const accessToken = await this.getAccessToken();

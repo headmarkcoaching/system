@@ -478,7 +478,12 @@ export interface CreateRecordingInput {
   batchId: string;
   chapter?: string;
   recordingDate: string;
-  recordingUrl: string;
+  /** A link to a video hosted elsewhere. Its viewing window cannot be enforced; prefer uploading. */
+  recordingUrl?: string;
+  /** A video stored privately in Google Drive and streamed through the app. */
+  driveFileId?: string;
+  mimeType?: string;
+  sizeBytes?: number;
   liveClassId: string;
   createdById: string;
 }

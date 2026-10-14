@@ -34,6 +34,8 @@ export default async function StudentRecordingsSubjectPage(props: { params: Prom
   if (filtered.length === 0) notFound();
 
   const subjectName = filtered[0].subject.name;
+  // Floated over every lecture so anything shared carries the viewer's identity.
+  const viewerLabel = student ? [student.fullName, student.phone].filter(Boolean).join(" · ") : session.user.name ?? "";
   const progressByRecording = new Map(progressRows.map((p) => [p.contentId, p]));
   const accessByRecording = student ? await recordingAccessService.getRecordingAccessMap(student.id, filtered) : new Map();
 
@@ -41,7 +43,7 @@ export default async function StudentRecordingsSubjectPage(props: { params: Prom
     <div className="space-y-6">
       <PageHeader
         title={`${subjectName} — Recordings`}
-        description="Progress is tracked automatically for embedded video; otherwise mark it complete once you've watched it."
+        description="Press Request to watch a recording. It stays open for 48 hours from then. Progress is tracked as you watch."
         actions={
           <Button asChild variant="outline" size="sm">
             <Link href="/student/recordings">Back to Subjects</Link>
@@ -51,19 +53,23 @@ export default async function StudentRecordingsSubjectPage(props: { params: Prom
       <ul className="space-y-2">
         {filtered.map((r) => {
           const p = progressByRecording.get(r.id);
+          const access = accessByRecording.get(r.id) ?? { state: "LOCKED" as const, activeUntil: null, missedClass: false };
           return (
             <RecordingItem
               key={r.id}
+              viewerLabel={viewerLabel}
               recording={{
                 id: r.id,
                 subjectId: r.subjectId,
                 bundle: bundleFor(r.subjectId, r.chapter),
+                source: r.driveFileId ? "STORED" : "LINK",
                 title: r.title,
                 recordingDate: r.recordingDate,
-                recordingUrl: r.recordingUrl,
-                isDirectVideo: contentProgressService.isDirectVideoUrl(r.recordingUrl),
+                // The watch address leaves the server only while this student's 48 hours are open.
+                playUrl: access.state === "ACTIVE" ? (r.driveFileId ? `/api/recordings/${r.id}/stream` : r.recordingUrl) : null,
+                isDirectVideo: Boolean(r.recordingUrl && contentProgressService.isDirectVideoUrl(r.recordingUrl)),
                 progress: p ? { completionPercent: p.completionPercent, completed: p.completed, lastPositionSeconds: p.lastPositionSeconds } : null,
-                access: accessByRecording.get(r.id) ?? { isLinked: false, eligible: false, activeUntil: null },
+                access,
               }}
             />
           );

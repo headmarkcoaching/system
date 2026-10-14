@@ -7,12 +7,14 @@ import { requireRoleSession, requireSession } from "@/lib/session";
 import { STAFF_ROLES, ACADEMIC_STAFF_ROLES } from "@/lib/permissions";
 import { assertCanManageBatch } from "@/lib/access";
 import { logAudit } from "@/lib/audit";
+import { db } from "@/lib/db";
 import * as batchService from "@/lib/services/batches";
 import * as academicService from "@/lib/services/academic-structure";
 import * as teacherAssistantService from "@/lib/services/teacher-assistant";
 import * as studentService from "@/lib/services/students";
 import * as uploadedFilesService from "@/lib/services/uploaded-files";
 import * as googleMeetService from "@/lib/googlemeet";
+import { GoogleDriveStorageProvider } from "@/lib/storage/providers/google-drive-provider";
 
 function revalidateBatch(id: string) {
   revalidatePath(`/batches/${id}`);
@@ -319,4 +321,29 @@ export async function createRecordingAction(batchId: string, data: Record<string
   const recording = await batchService.createRecording({ ...parsed.data, batchId, createdById: session.user.id });
   await logAudit({ actorId: session.user.id, action: "CREATE", entityType: "ClassRecording", entityId: recording.id, after: recording });
   revalidateBatch(batchId);
+}
+
+// ---- Recordings stored in Google Drive ----
+//
+// Lectures are recorded and filed automatically on the server side; nothing is ever recorded on, or
+// uploaded from, a teacher's own computer. Staff can only remove a recording here.
+
+export async function deleteRecordingAction(batchId: string, recordingId: string): Promise<{ error?: string }> {
+  const session = await requireRoleSession(ACADEMIC_STAFF_ROLES);
+  await assertCanManageBatch(session, batchId);
+
+  const recording = await db.classRecording.findFirst({ where: { id: recordingId, batchId } });
+  if (!recording) return { error: "That recording no longer exists." };
+
+  await db.classRecording.delete({ where: { id: recording.id } });
+  if (recording.driveFileId) {
+    try {
+      await new GoogleDriveStorageProvider().delete(recording.driveFileId);
+    } catch (err) {
+      console.error("Could not delete the video from Drive", err);
+    }
+  }
+  await logAudit({ actorId: session.user.id, action: "DELETE", entityType: "ClassRecording", entityId: recording.id, after: { title: recording.title } });
+  revalidateBatch(batchId);
+  return {};
 }
