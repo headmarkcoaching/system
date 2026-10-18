@@ -18,7 +18,7 @@ function splitName(fullName: string) {
 
 /** Zoom wants an email per registrant. Nothing is ever sent to it (Zoom's emails are off for these
  * meetings); it only has to be unique per student. example.com is reserved and can't deliver mail. */
-function registrantEmail(studentCode: string, variant: number) {
+export function registrantEmail(studentCode: string, variant: number) {
   const base = studentCode.toLowerCase().replace(/[^a-z0-9]/g, "");
   return `${base}${variant > 1 ? `+r${variant}` : ""}@example.com`;
 }

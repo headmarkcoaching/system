@@ -57,6 +57,33 @@ export default async function SystemHealthPage() {
 
       <Card>
         <CardHeader>
+          <CardTitle className="text-base">Class Join Alerts (last 7 days)</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {data.joinAlerts.length === 0 ? (
+            <EmptyState title="Nothing unusual" description="Strangers, shared links and students with lapsed fees who try to join a Zoom class are listed here." className="py-6" />
+          ) : (
+            <ul className="space-y-1.5 text-sm">
+              {data.joinAlerts.map((a) => (
+                <li key={a.id} className="rounded-md border border-border px-3 py-2">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-medium">{a.displayName}</span>
+                    <Badge variant={a.kind === "DUPLICATE" ? "secondary" : "destructive"}>
+                      {a.kind === "UNKNOWN" ? "Not registered" : a.kind === "REVOKED" ? "Access lapsed" : "Second device"}
+                    </Badge>
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {a.liveClass.title} · {a.liveClass.batch.name} · {formatDate(a.joinedAt)}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
           <CardTitle className="text-base">Class Recordings (Zoom to Drive)</CardTitle>
         </CardHeader>
         <CardContent>

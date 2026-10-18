@@ -10,6 +10,7 @@ import { runEngagementScoreRecalculation } from "@/lib/jobs/engagement-scores";
 import { runPredictiveRiskScoreRecalculation } from "@/lib/jobs/predictive-risk-scores";
 import { runAttendanceAutoDetect } from "@/lib/jobs/attendance-auto-detect";
 import { runZoomRecordingJobs } from "@/lib/jobs/zoom-recordings";
+import { runZoomAccessCheck } from "@/lib/jobs/zoom-access";
 import { db } from "@/lib/db";
 
 /**
@@ -32,6 +33,7 @@ export const JOB_REGISTRY = {
   "predictive-risk-scores": runPredictiveRiskScoreRecalculation,
   "attendance-auto-detect": runAttendanceAutoDetect,
   "zoom-recordings": runZoomRecordingJobs,
+  "zoom-access": runZoomAccessCheck,
 } as const;
 
 export type JobKey = keyof typeof JOB_REGISTRY;

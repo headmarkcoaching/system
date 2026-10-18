@@ -114,4 +114,4 @@ Class ends -> Zoom tells our server a recording is ready (signed notice)
 5. Failures retry after 5, 15, 30, 60 and 180 minutes (the `zoom-recordings` job runs every 10 minutes); after that the job shows as FAILED in Admin → System Health with a Retry button. A recording is never deleted from Zoom unless the Drive copy was verified.
 6. `meeting.ended` marks the class COMPLETED once its scheduled end is near/passed.
 
-Zoom Marketplace → your app → Event Subscriptions: add `<site>/api/zoom/webhook` and subscribe to Recording → "All Recordings have completed" and Meeting → "End Meeting". Click Validate (the app answers automatically).
+Zoom Marketplace → your app → Event Subscriptions: add `<site>/api/zoom/webhook` and subscribe to Recording → "All Recordings have completed" and Meeting → "End Meeting". Also subscribe to Meeting → "Participant/Host joined meeting" and "Participant/Host left meeting" (join alerts). Click Validate (the app answers automatically).

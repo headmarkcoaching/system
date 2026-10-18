@@ -950,6 +950,7 @@ model LiveClass {
   presence          LiveClassPresence[]
   zoomRegistrations ZoomRegistration[]
   zoomRecordingJobs ZoomRecordingJob[]
+  zoomJoinEvents    ZoomJoinEvent[]
 
   @@index([batchId, scheduledDate])
   @@index([status])
@@ -2658,4 +2659,34 @@ model ZoomRecordingJob {
 
   @@index([status, nextAttemptAt])
   @@map("zoom_recording_jobs")
+}
+
+enum ZoomJoinKind {
+  EXPECTED
+  DUPLICATE
+  UNKNOWN
+  REVOKED
+}
+
+// Who actually came into a Zoom class, as reported by Zoom's join/leave notices. EXPECTED is a paid
+// student using their own link; the other kinds are what staff are told about: DUPLICATE (a second
+// device on the same link), UNKNOWN (someone with no registration) and REVOKED (a student whose
+// access had lapsed).
+model ZoomJoinEvent {
+  id              String       @id @default(cuid())
+  liveClassId     String
+  studentId       String?
+  participantUuid String
+  displayName     String
+  email           String?
+  kind            ZoomJoinKind
+  joinedAt        DateTime
+  leftAt          DateTime?
+  createdAt       DateTime     @default(now())
+
+  liveClass LiveClass @relation(fields: [liveClassId], references: [id], onDelete: Cascade)
+
+  @@unique([liveClassId, participantUuid, joinedAt])
+  @@index([kind, createdAt])
+  @@map("zoom_join_events")
 }

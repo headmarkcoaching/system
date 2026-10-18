@@ -17,7 +17,7 @@ try {
   // No .env file (e.g. CI where env vars are injected directly) — fine, continue.
 }
 
-const JOB_KEYS = ["homework-overdue", "payment-reminders", "inactivity", "trial-expiry", "lead-followup", "class-reminders", "weekly-reports", "engagement-scores", "predictive-risk-scores", "attendance-auto-detect", "zoom-recordings"] as const;
+const JOB_KEYS = ["homework-overdue", "payment-reminders", "inactivity", "trial-expiry", "lead-followup", "class-reminders", "weekly-reports", "engagement-scores", "predictive-risk-scores", "attendance-auto-detect", "zoom-recordings", "zoom-access"] as const;
 type JobKey = (typeof JOB_KEYS)[number];
 
 const SCHEDULES: Record<JobKey, string> = {
@@ -31,6 +31,7 @@ const SCHEDULES: Record<JobKey, string> = {
   "engagement-scores": "0 6 * * *", // daily 6am
   "predictive-risk-scores": "15 6 * * *", // daily 6:15am, just after engagement scores
   "attendance-auto-detect": "*/10 * * * *", // every 10 minutes — catches classes soon after they end
+  "zoom-access": "*/10 * * * *", // every 10 minutes — cancels the Zoom links of students whose fees have lapsed
   "zoom-recordings": "*/10 * * * *", // every 10 minutes — retries any Zoom recording that has not reached Drive yet
 };
 

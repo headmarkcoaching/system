@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse, after } from "next/server";
 import { getIntegrationSettingsInternal } from "@/lib/services/integration-settings";
 import { verifyZoomSignature, answerUrlValidation } from "@/lib/zoom/webhook";
+import { recordParticipantJoined, recordParticipantLeft } from "@/lib/services/zoom-participants";
 import { enqueueRecordingCompleted, handleMeetingEnded, processRecordingJob } from "@/lib/services/zoom-recordings";
 
 // Server-to-server route for Zoom's notices ("recording is ready", "class ended"). There is no login
@@ -49,6 +50,10 @@ export async function POST(request: NextRequest) {
     } else if (body.event === "meeting.ended") {
       const id = body.payload?.object?.id;
       if (id != null) await handleMeetingEnded(String(id));
+    } else if (body.event === "meeting.participant_joined") {
+      await recordParticipantJoined(body.payload?.object);
+    } else if (body.event === "meeting.participant_left") {
+      await recordParticipantLeft(body.payload?.object);
     }
   } catch (err) {
     console.error("Zoom notice handling failed", body.event, err);
