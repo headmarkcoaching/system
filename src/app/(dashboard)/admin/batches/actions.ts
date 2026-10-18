@@ -14,6 +14,7 @@ import * as teacherAssistantService from "@/lib/services/teacher-assistant";
 import * as studentService from "@/lib/services/students";
 import * as uploadedFilesService from "@/lib/services/uploaded-files";
 import * as googleMeetService from "@/lib/googlemeet";
+import * as zoomClassService from "@/lib/services/zoom-classes";
 import { GoogleDriveStorageProvider } from "@/lib/storage/providers/google-drive-provider";
 
 function revalidateBatch(id: string) {
@@ -168,6 +169,31 @@ export async function createLiveClassAction(batchId: string, data: Record<string
   let { meetingLink } = parsed.data;
   let googleEventId: string | undefined;
 
+  // Zoom is the academy's live-class platform: the app creates the secure meeting itself, refuses a
+  // class that overlaps another (one host licence), and never keeps the shared link.
+  if (parsed.data.meetingProvider === "ZOOM" && !meetingLink) {
+    try {
+      const liveClass = await zoomClassService.createZoomLiveClass({
+        title: parsed.data.title,
+        subjectId: parsed.data.subjectId,
+        chapter: parsed.data.chapter,
+        batchId,
+        teacherId: parsed.data.teacherId,
+        scheduledDate: parsed.data.scheduledDate,
+        startTime: parsed.data.startTime,
+        endTime: parsed.data.endTime,
+        createdById: session.user.id,
+      });
+      await logAudit({ actorId: session.user.id, action: "CREATE", entityType: "LiveClass", entityId: liveClass.id, after: { title: liveClass.title, provider: "ZOOM" } });
+      revalidateBatch(batchId);
+      return;
+    } catch (err) {
+      if (err instanceof zoomClassService.ZoomScheduleError) return { error: err.message };
+      console.error("createZoomLiveClass failed", err);
+      return { error: err instanceof Error && err.message.startsWith("Zoom") ? err.message : "Couldn't create the Zoom meeting. Check Settings → Integrations → Zoom and try again." };
+    }
+  }
+
   if (parsed.data.meetingProvider === "GOOGLE_MEET" && !meetingLink) {
     const result = await googleMeetService.createMeeting({
       title: parsed.data.title,
@@ -190,6 +216,8 @@ export async function updateLiveClassStatusAction(batchId: string, liveClassId: 
   const session = await requireRoleSession(ACADEMIC_STAFF_ROLES);
   await assertCanManageBatch(session, batchId);
   const liveClass = await batchService.updateLiveClassStatus(liveClassId, status);
+
+  if (status === "CANCELLED") await zoomClassService.releaseZoomMeeting(liveClass.zoomMeetingId);
 
   if (status === "CANCELLED" && liveClass.googleEventId) {
     // Best-effort — an orphaned Calendar event isn't worth blocking the cancellation over.

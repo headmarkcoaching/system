@@ -932,6 +932,9 @@ model LiveClass {
   // Set only when meetingProvider is GOOGLE_MEET and the link was auto-created via the Calendar
   // API — lets a later edit/cancel update or delete the same Calendar event instead of orphaning it.
   googleEventId   String?
+  // Set when the class runs on a Zoom meeting this app created (see lib/zoom). Students never see the
+  // shared link for such a class; the server registers each paid student and hands them a personal one.
+  zoomMeetingId   String?         @unique
   status          LiveClassStatus @default(UPCOMING)
   createdAt       DateTime        @default(now())
   updatedAt       DateTime        @updatedAt

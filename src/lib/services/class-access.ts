@@ -67,7 +67,7 @@ export async function getClassAccess(studentId: string, now = new Date()): Promi
  * code path that hands the link to a student, so it is never sitting in a page for others to read.
  */
 export async function getLiveClassJoinLink(studentId: string, liveClassId: string): Promise<{ url?: string; error?: string; reason?: ClassBlockReason }> {
-  const liveClass = await db.liveClass.findUnique({ where: { id: liveClassId }, select: { batchId: true, status: true, meetingLink: true } });
+  const liveClass = await db.liveClass.findUnique({ where: { id: liveClassId }, select: { batchId: true, status: true, meetingLink: true, zoomMeetingId: true } });
   if (!liveClass) return { error: "That class no longer exists." };
 
   const member = await db.batchStudent.findFirst({ where: { studentId, batchId: liveClass.batchId }, select: { id: true } });
@@ -77,6 +77,10 @@ export async function getLiveClassJoinLink(studentId: string, liveClassId: strin
 
   const access = await getClassAccess(studentId);
   if (!access.allowed) return { error: access.message ?? "You can't join this class right now.", reason: access.reason };
+
+  // A class the app runs on Zoom has no shared link to give out: each paid student gets a personal link
+  // registered for them (added in the next step). Until then, refuse rather than release anything.
+  if (liveClass.zoomMeetingId) return { error: "Joining this class isn't switched on yet." };
 
   return { url: liveClass.meetingLink };
 }

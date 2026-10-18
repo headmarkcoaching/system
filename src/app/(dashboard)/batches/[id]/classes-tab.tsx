@@ -35,6 +35,8 @@ export function ClassesTab({
     startTime: string;
     endTime: string;
     meetingLink: string;
+    meetingProvider: string;
+    zoomMeetingId: string | null;
     subject: { name: string };
     teacher: { fullName: string };
   }[];
@@ -61,7 +63,7 @@ export function ClassesTab({
         { value: "CUSTOM", label: "Custom Link" },
       ],
     },
-    { type: "text", name: "meetingLink", label: "Meeting Link (leave blank for Google Meet to auto-create one)", placeholder: "https://…" },
+    { type: "text", name: "meetingLink", label: "Meeting Link (leave blank for Zoom, which the app creates itself)", placeholder: "https://…" },
   ];
 
   return (
@@ -74,6 +76,8 @@ export function ClassesTab({
             </Button>
           }
           title="Schedule Live Class"
+          description="Pick Zoom and leave the link blank: the app creates a private, recorded Zoom meeting. Only one Zoom class can run at a time."
+          defaultValues={{ meetingProvider: "ZOOM" }}
           fields={fields}
           onSubmit={(data) => createLiveClassAction(batchId, data)}
         />
@@ -92,11 +96,17 @@ export function ClassesTab({
                 </p>
               </div>
               <div className="flex flex-wrap items-center gap-2">
-                <a href={c.meetingLink} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="sm">
-                    <Video className="mr-1.5 h-3.5 w-3.5" /> Open Link
-                  </Button>
-                </a>
+                {c.zoomMeetingId ? (
+                  <span className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-xs text-muted-foreground">
+                    <Video className="h-3.5 w-3.5" /> Zoom class
+                  </span>
+                ) : (
+                  <a href={c.meetingLink} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="sm">
+                      <Video className="mr-1.5 h-3.5 w-3.5" /> Open Link
+                    </Button>
+                  </a>
+                )}
                 {canManage ? (
                   <Select defaultValue={c.status} onValueChange={(v) => updateLiveClassStatusAction(batchId, c.id, v as LiveClassStatus).then(() => toast.success("Status updated"))}>
                     <SelectTrigger className="w-[130px]"><SelectValue /></SelectTrigger>
