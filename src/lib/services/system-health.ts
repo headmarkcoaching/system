@@ -1,6 +1,7 @@
 import "server-only";
 import { db } from "@/lib/db";
 import * as jobRunsService from "@/lib/services/job-runs";
+import { listRecordingJobs } from "@/lib/services/zoom-recordings";
 
 export interface IntegrationStatus {
   name: string;
@@ -23,7 +24,8 @@ function integrationStatus(): IntegrationStatus[] {
 export async function getSystemHealthSummary() {
   const since24h = new Date(Date.now() - 24 * 60 * 60 * 1000);
 
-  const [recentJobRuns, latestPerJob, failedJobs24h, failedAutomation24h, whatsappFailures24h, aiFailures24h, aiTotal24h] = await Promise.all([
+  const [recordingJobs, recentJobRuns, latestPerJob, failedJobs24h, failedAutomation24h, whatsappFailures24h, aiFailures24h, aiTotal24h] = await Promise.all([
+    listRecordingJobs(),
     jobRunsService.listRecentJobRuns(30),
     jobRunsService.latestRunPerJob(),
     db.jobRun.count({ where: { status: "FAILED", startedAt: { gte: since24h } } }),
@@ -35,6 +37,7 @@ export async function getSystemHealthSummary() {
 
   return {
     integrations: integrationStatus(),
+    recordingJobs,
     recentJobRuns,
     latestPerJob,
     failedJobs24h,

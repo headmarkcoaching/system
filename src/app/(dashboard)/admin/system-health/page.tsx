@@ -5,6 +5,7 @@ import { StatusBadge } from "@/components/shared/status-badge";
 import { EmptyState } from "@/components/shared/empty-state";
 import { formatDate } from "@/lib/utils";
 import { getSystemHealthSummary } from "@/lib/services/system-health";
+import { RetryRecordingButton } from "./retry-recording-button";
 
 export default async function SystemHealthPage() {
   const data = await getSystemHealthSummary();
@@ -53,6 +54,40 @@ export default async function SystemHealthPage() {
           </CardContent>
         </Card>
       </div>
+
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base">Class Recordings (Zoom to Drive)</CardTitle>
+        </CardHeader>
+        <CardContent>
+          {data.recordingJobs.length === 0 ? (
+            <EmptyState title="No recordings yet" description="After a Zoom class ends, its recording is copied into Google Drive automatically and shows up here." className="py-6" />
+          ) : (
+            <ul className="space-y-1.5 text-sm">
+              {data.recordingJobs.map((j) => (
+                <li key={j.id} className="rounded-md border border-border px-3 py-2">
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-medium">
+                      {j.liveClass?.title ?? "Unknown class"}
+                      {j.liveClass?.batch.name ? <span className="font-normal text-muted-foreground"> · {j.liveClass.batch.name}</span> : null}
+                    </span>
+                    <span className="flex shrink-0 items-center gap-2">
+                      <StatusBadge status={j.status} />
+                      {(j.status === "FAILED" || j.status === "SKIPPED") && j.liveClassId ? <RetryRecordingButton jobId={j.id} /> : null}
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between gap-2 text-xs text-muted-foreground">
+                    <span>
+                      {formatDate(j.createdAt)} · tried {j.attempts} {j.attempts === 1 ? "time" : "times"}
+                    </span>
+                    {j.lastError && <span className="text-destructive">{j.lastError}</span>}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+        </CardContent>
+      </Card>
 
       <Card>
         <CardHeader>

@@ -135,6 +135,110 @@ export class GoogleDriveStorageProvider implements FileStorageProvider {
     return location;
   }
 
+  /**
+   * Uploads a large file from a stream (for example a lecture recording coming from Zoom) without ever
+   * holding all of it in memory. It is sent in 16 MB pieces over one resumable session; if a piece
+   * fails in transit, Drive is asked how much it received and the piece is continued from there.
+   * The size must be known up front. Returns the new file's id.
+   */
+  async uploadStream(input: { filename: string; mimeType: string; size: number; stream: ReadableStream<Uint8Array> }): Promise<string> {
+    if (!(input.size > 0)) throw new Error("A stream upload needs the file size up front");
+    const accessToken = await this.getAccessToken();
+    const folderId = await this.getFolderId(accessToken);
+
+    const start = await driveFetch("https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable&fields=id", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        "Content-Type": "application/json; charset=UTF-8",
+        "X-Upload-Content-Type": input.mimeType,
+        "X-Upload-Content-Length": String(input.size),
+      },
+      body: JSON.stringify({ name: input.filename, parents: [folderId] }),
+    });
+    if (!start.ok) {
+      if (start.status === 404) cachedFolderId = null;
+      throw new Error(`Google Drive upload session failed (${start.status}): ${await start.text()}`);
+    }
+    const sessionUrl = start.headers.get("location");
+    if (!sessionUrl) throw new Error("Google Drive did not return an upload session URL");
+
+    // Pieces must be a multiple of 256 KB (except the last one).
+    const PIECE = 64 * 262144;
+    const total = input.size;
+    let offset = 0;
+    let pending: Uint8Array[] = [];
+    let pendingBytes = 0;
+    let fileId: string | null = null;
+
+    const sendPiece = async (piece: Buffer) => {
+      let sent = 0;
+      for (let attempt = 1; attempt <= 4; attempt++) {
+        const body = piece.subarray(sent);
+        const from = offset + sent;
+        try {
+          const res = await fetch(sessionUrl, {
+            method: "PUT",
+            headers: { "Content-Length": String(body.length), "Content-Range": `bytes ${from}-${from + body.length - 1}/${total}` },
+            body: body as unknown as BodyInit,
+          });
+          if (res.status === 308) {
+            return;
+          }
+          if (res.ok) {
+            fileId = ((await res.json()) as { id: string }).id;
+            return;
+          }
+          if (res.status < 500 && res.status !== 429) throw new Error(`Google Drive upload failed (${res.status}): ${await res.text()}`);
+        } catch (err) {
+          if (attempt === 4) throw err;
+        }
+        // Ask Drive how far it got, then carry on from there.
+        await new Promise((resolve) => setTimeout(resolve, attempt * 1000));
+        const probe = await fetch(sessionUrl, { method: "PUT", headers: { "Content-Length": "0", "Content-Range": `bytes */${total}` } });
+        if (probe.ok) {
+          fileId = ((await probe.json()) as { id: string }).id;
+          return;
+        }
+        const range = probe.headers.get("range");
+        const received = range ? Number(range.split("-")[1]) + 1 : 0;
+        sent = Math.max(0, Math.min(piece.length, received - offset));
+      }
+      throw new Error("Google Drive upload kept failing");
+    };
+
+    const flush = async (final: boolean) => {
+      while (pendingBytes >= PIECE || (final && pendingBytes > 0)) {
+        const joined = Buffer.concat(pending, pendingBytes);
+        const take = pendingBytes >= PIECE ? PIECE : pendingBytes;
+        await sendPiece(joined.subarray(0, take));
+        offset += take;
+        const rest = joined.subarray(take);
+        pending = rest.length ? [rest] : [];
+        pendingBytes = rest.length;
+      }
+    };
+
+    const reader = input.stream.getReader();
+    try {
+      for (;;) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        if (offset + pendingBytes + value.length > total) throw new Error("The file is larger than the size it was announced with");
+        pending.push(value);
+        pendingBytes += value.length;
+        if (pendingBytes >= PIECE) await flush(false);
+      }
+      await flush(true);
+    } finally {
+      reader.releaseLock();
+    }
+
+    if (offset !== total) throw new Error(`The file ended early (${offset} of ${total} bytes)`);
+    if (!fileId) throw new Error("Google Drive did not confirm the upload");
+    return fileId;
+  }
+
   /** Name, type and size of a file this app created, or null if Drive does not know it. */
   async getFileInfo(fileId: string): Promise<{ id: string; name: string; mimeType: string; size: number } | null> {
     if (!DRIVE_ID.test(fileId)) return null;

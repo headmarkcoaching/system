@@ -949,6 +949,7 @@ model LiveClass {
   recordings        ClassRecording[]
   presence          LiveClassPresence[]
   zoomRegistrations ZoomRegistration[]
+  zoomRecordingJobs ZoomRecordingJob[]
 
   @@index([batchId, scheduledDate])
   @@index([status])
@@ -2621,4 +2622,40 @@ model ZoomRegistration {
   @@unique([liveClassId, studentId])
   @@index([studentId])
   @@map("zoom_registrations")
+}
+
+enum ZoomRecordingJobStatus {
+  PENDING
+  COPYING
+  DONE
+  FAILED
+  SKIPPED
+}
+
+// One finished Zoom cloud recording waiting to be (or already) copied into the academy's Google Drive.
+// Zoom tells us a recording is ready by webhook; this row is the to-do item, so a failed copy is retried
+// by the "zoom-recordings" job and never lost. The recording is deleted from Zoom only after the copy
+// in Drive has been checked.
+model ZoomRecordingJob {
+  id               String                 @id @default(cuid())
+  meetingUuid      String                 @unique
+  zoomMeetingId    String
+  liveClassId      String?
+  status           ZoomRecordingJobStatus @default(PENDING)
+  attempts         Int                    @default(0)
+  nextAttemptAt    DateTime               @default(now())
+  lockedUntil      DateTime?
+  lastError        String?
+  // The recording files Zoom listed: [{ id, fileType, recordingType, size, downloadUrl }]
+  files            Json
+  downloadTokenEnc String?
+  classRecordingId String?
+  createdAt        DateTime               @default(now())
+  updatedAt        DateTime               @updatedAt
+  completedAt      DateTime?
+
+  liveClass LiveClass? @relation(fields: [liveClassId], references: [id], onDelete: SetNull)
+
+  @@index([status, nextAttemptAt])
+  @@map("zoom_recording_jobs")
 }

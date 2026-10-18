@@ -104,3 +104,14 @@ Class ends -> Zoom tells our server a recording is ready (signed notice)
 - Exactly how Zoom treats a personal link used on two devices (we test on real phones).
 - Zoom's current limits on registrants per meeting and on recording notices.
 - The Zoom watermark option for shared screens on your plan.
+
+## Recording pipeline (built)
+
+1. Zoom records the class in its cloud (automatic) and sends `recording.completed` to `<site>/api/zoom/webhook`.
+2. The route checks Zoom's signature (Secret Token from Settings → Integrations → Zoom, 5-minute replay window), queues a `ZoomRecordingJob`, replies at once, then copies after the reply.
+3. The file streams from Zoom straight into the private Drive folder in 16 MB pieces (never on a teacher's computer or the server's disk), the size is checked against what Zoom announced and what Drive stored, and only then a `ClassRecording` is created (48-hour request window, watermark, no download all apply as before).
+4. Only after that is the recording deleted from Zoom (keeps the 10 GB cloud quota free).
+5. Failures retry after 5, 15, 30, 60 and 180 minutes (the `zoom-recordings` job runs every 10 minutes); after that the job shows as FAILED in Admin → System Health with a Retry button. A recording is never deleted from Zoom unless the Drive copy was verified.
+6. `meeting.ended` marks the class COMPLETED once its scheduled end is near/passed.
+
+Zoom Marketplace → your app → Event Subscriptions: add `<site>/api/zoom/webhook` and subscribe to Recording → "All Recordings have completed" and Meeting → "End Meeting". Click Validate (the app answers automatically).

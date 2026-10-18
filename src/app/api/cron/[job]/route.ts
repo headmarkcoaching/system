@@ -50,5 +50,5 @@ export const POST = handle;
 export const GET = handle;
 
 export const dynamic = "force-dynamic";
-// Some jobs message many parents in one run; give them more than the default function time limit.
-export const maxDuration = 60;
+// Some jobs message many parents in one run; give them more than the default function time limit (the Zoom recording copy needs the most).
+export const maxDuration = 300;

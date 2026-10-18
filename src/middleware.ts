@@ -47,6 +47,8 @@ export default auth((req) => {
     isAuthPage ||
     nextUrl.pathname.startsWith("/api/auth") ||
     nextUrl.pathname.startsWith("/api/cron") ||
+    // Zoom's notices carry Zoom's own signature, checked in the route (src/app/api/zoom/webhook/route.ts).
+    nextUrl.pathname === "/api/zoom/webhook" ||
     nextUrl.pathname.startsWith("/api/v1") ||
     nextUrl.pathname.startsWith("/refer/") ||
     nextUrl.pathname.startsWith("/brand/") ||
