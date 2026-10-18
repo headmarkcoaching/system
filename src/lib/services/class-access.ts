@@ -1,5 +1,6 @@
 import "server-only";
 import { db } from "@/lib/db";
+import { getStudentZoomJoinUrl } from "@/lib/services/zoom-join";
 
 /** Days after an instalment's due date before an unpaid fee stops a student joining live classes. */
 export const PAYMENT_GRACE_DAYS = 2;
@@ -78,9 +79,16 @@ export async function getLiveClassJoinLink(studentId: string, liveClassId: strin
   const access = await getClassAccess(studentId);
   if (!access.allowed) return { error: access.message ?? "You can't join this class right now.", reason: access.reason };
 
-  // A class the app runs on Zoom has no shared link to give out: each paid student gets a personal link
-  // registered for them (added in the next step). Until then, refuse rather than release anything.
-  if (liveClass.zoomMeetingId) return { error: "Joining this class isn't switched on yet." };
+  // A class the app runs on Zoom has no shared link to give out: this student is registered for it and
+  // gets their own personal link, which only works for them.
+  if (liveClass.zoomMeetingId) {
+    try {
+      return { url: await getStudentZoomJoinUrl(studentId, liveClassId, liveClass.zoomMeetingId) };
+    } catch (err) {
+      console.error("Zoom join link failed", err);
+      return { error: "Couldn't open the class right now. Please try again in a moment." };
+    }
+  }
 
   return { url: liveClass.meetingLink };
 }

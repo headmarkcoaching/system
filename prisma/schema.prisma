@@ -546,10 +546,11 @@ model Student {
   updatedAt                DateTime      @updatedAt
   createdById              String?
 
-  user          User?         @relation(fields: [userId], references: [id])
-  academicLevel AcademicLevel @relation(fields: [academicLevelId], references: [id])
-  board         Board?        @relation(fields: [boardId], references: [id])
-  group         Group?        @relation(fields: [groupId], references: [id])
+  zoomRegistrations ZoomRegistration[]
+  user              User?              @relation(fields: [userId], references: [id])
+  academicLevel     AcademicLevel      @relation(fields: [academicLevelId], references: [id])
+  board             Board?             @relation(fields: [boardId], references: [id])
+  group             Group?             @relation(fields: [groupId], references: [id])
 
   parents                 StudentParentRelationship[]
   batchMemberships        BatchStudent[]
@@ -944,9 +945,10 @@ model LiveClass {
   batch   Batch   @relation(fields: [batchId], references: [id], onDelete: Cascade)
   teacher Teacher @relation(fields: [teacherId], references: [id])
 
-  attendance Attendance[]
-  recordings ClassRecording[]
-  presence   LiveClassPresence[]
+  attendance        Attendance[]
+  recordings        ClassRecording[]
+  presence          LiveClassPresence[]
+  zoomRegistrations ZoomRegistration[]
 
   @@index([batchId, scheduledDate])
   @@index([status])
@@ -2597,4 +2599,26 @@ model RateLimitHit {
   @@index([key, createdAt])
   @@index([createdAt])
   @@map("rate_limit_hits")
+}
+
+/// One student's personal registration for one Zoom class. The join link is a capability (whoever
+/// holds it can enter as that student), so it is stored encrypted and only ever handed back to the
+/// student it belongs to.
+model ZoomRegistration {
+  id           String    @id @default(cuid())
+  liveClassId  String
+  studentId    String
+  registrantId String
+  joinUrlEnc   String
+  /// Bumped each time a cancelled registration is re-issued, so Zoom sees a fresh address each time.
+  variant      Int       @default(1)
+  createdAt    DateTime  @default(now())
+  cancelledAt  DateTime?
+
+  liveClass LiveClass @relation(fields: [liveClassId], references: [id], onDelete: Cascade)
+  student   Student   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  @@unique([liveClassId, studentId])
+  @@index([studentId])
+  @@map("zoom_registrations")
 }

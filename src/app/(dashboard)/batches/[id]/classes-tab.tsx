@@ -1,5 +1,6 @@
 "use client";
 
+import { StartClassButton } from "@/components/shared/start-class-button";
 import * as React from "react";
 import { toast } from "sonner";
 import { Plus, Video } from "lucide-react";
@@ -97,9 +98,13 @@ export function ClassesTab({
               </div>
               <div className="flex flex-wrap items-center gap-2">
                 {c.zoomMeetingId ? (
-                  <span className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-xs text-muted-foreground">
-                    <Video className="h-3.5 w-3.5" /> Zoom class
-                  </span>
+                  c.status === "COMPLETED" || c.status === "CANCELLED" ? (
+                    <span className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-xs text-muted-foreground">
+                      <Video className="h-3.5 w-3.5" /> Zoom class
+                    </span>
+                  ) : (
+                    <StartClassButton liveClassId={c.id} />
+                  )
                 ) : (
                   <a href={c.meetingLink} target="_blank" rel="noopener noreferrer">
                     <Button variant="outline" size="sm">

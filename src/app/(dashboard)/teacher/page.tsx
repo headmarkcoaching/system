@@ -1,3 +1,4 @@
+import { StartClassButton } from "@/components/shared/start-class-button";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { auth } from "@/lib/auth";
@@ -78,9 +79,13 @@ export default async function TeacherDashboardPage() {
                       {c.batch.name} · {c.subject.name} · {formatTime(c.startTime)}–{formatTime(c.endTime)}
                     </p>
                   </div>
-                  <Button asChild size="sm">
-                    <Link href={`/batches/${c.batchId}?tab=classes`}>Start Class</Link>
-                  </Button>
+                  {c.zoomMeetingId ? (
+                    <StartClassButton liveClassId={c.id} />
+                  ) : (
+                    <Button asChild size="sm">
+                      <Link href={`/batches/${c.batchId}?tab=classes`}>Start Class</Link>
+                    </Button>
+                  )}
                 </li>
               ))}
             </ul>
