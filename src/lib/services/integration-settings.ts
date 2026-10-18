@@ -39,6 +39,13 @@ export async function getIntegrationSettingsForDisplay() {
     googleConnectedAt: row.googleConnectedAt,
     googleCalendarId: row.googleCalendarId,
 
+    zoomAccountId: row.zoomAccountId,
+    zoomClientId: row.zoomClientId,
+    zoomClientSecretSet: Boolean(row.zoomClientSecret),
+    zoomWebhookSecretSet: Boolean(row.zoomWebhookSecret),
+    zoomHostEmail: row.zoomHostEmail,
+    zoomConnectedAt: row.zoomConnectedAt,
+
     fileStorageProvider: row.fileStorageProvider,
   };
 }
@@ -66,6 +73,12 @@ export async function getIntegrationSettingsInternal() {
     googleClientSecret: row.googleClientSecret ? decryptSecret(row.googleClientSecret) : null,
     googleRefreshToken: row.googleRefreshToken ? decryptSecret(row.googleRefreshToken) : null,
     googleCalendarId: row.googleCalendarId,
+
+    zoomAccountId: row.zoomAccountId,
+    zoomClientId: row.zoomClientId,
+    zoomClientSecret: row.zoomClientSecret ? decryptSecret(row.zoomClientSecret) : null,
+    zoomWebhookSecret: row.zoomWebhookSecret ? decryptSecret(row.zoomWebhookSecret) : null,
+    zoomHostEmail: row.zoomHostEmail,
 
     fileStorageProvider: row.fileStorageProvider,
   };
@@ -175,5 +188,39 @@ export async function updateFileStorageProvider(provider: "LOCAL" | "GOOGLE_DRIV
   return db.integrationSettings.update({
     where: { id: "singleton" },
     data: { fileStorageProvider: provider, updatedById },
+  });
+}
+
+/** Zoom connection details, as typed by the Super Admin. A blank secret keeps the saved one. Changing
+ * any detail clears the "connected" stamp, because it hasn't been proven with the new values yet. */
+export async function updateZoomSettings(
+  input: { zoomAccountId: string; zoomClientId: string; zoomClientSecret?: string; zoomWebhookSecret?: string; zoomHostEmail: string },
+  updatedById: string
+) {
+  await getRow();
+  return db.integrationSettings.update({
+    where: { id: "singleton" },
+    data: {
+      zoomAccountId: input.zoomAccountId,
+      zoomClientId: input.zoomClientId,
+      zoomClientSecret: input.zoomClientSecret ? encryptSecret(input.zoomClientSecret) : undefined,
+      zoomWebhookSecret: input.zoomWebhookSecret ? encryptSecret(input.zoomWebhookSecret) : undefined,
+      zoomHostEmail: input.zoomHostEmail,
+      zoomConnectedAt: null,
+      updatedById,
+    },
+  });
+}
+
+export async function markZoomConnected() {
+  await getRow();
+  return db.integrationSettings.update({ where: { id: "singleton" }, data: { zoomConnectedAt: new Date() } });
+}
+
+export async function disconnectZoom(updatedById: string) {
+  await getRow();
+  return db.integrationSettings.update({
+    where: { id: "singleton" },
+    data: { zoomAccountId: null, zoomClientId: null, zoomClientSecret: null, zoomWebhookSecret: null, zoomHostEmail: null, zoomConnectedAt: null, updatedById },
   });
 }

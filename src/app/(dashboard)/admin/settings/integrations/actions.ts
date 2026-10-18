@@ -6,6 +6,7 @@ import { requireRoleSession } from "@/lib/session";
 import { SUPER_ADMIN_ONLY } from "@/lib/permissions";
 import { logAudit } from "@/lib/audit";
 import * as integrationSettingsService from "@/lib/services/integration-settings";
+import { testZoomConnection } from "@/lib/zoom/client";
 
 function revalidate() {
   revalidatePath("/admin/settings/integrations");
@@ -82,5 +83,42 @@ export async function updateFileStorageProviderAction(data: Record<string, unkno
 
   await integrationSettingsService.updateFileStorageProvider(parsed.data.fileStorageProvider, session.user.id);
   await logAudit({ actorId: session.user.id, action: "UPDATE", entityType: "IntegrationSettings", entityId: "file_storage", after: parsed.data });
+  revalidate();
+}
+
+// ---- Zoom (live classes) ----
+
+const zoomSchema = z.object({
+  zoomAccountId: z.string().trim().min(1, "Account ID is required"),
+  zoomClientId: z.string().trim().min(1, "Client ID is required"),
+  zoomClientSecret: z.string().trim().optional(),
+  zoomWebhookSecret: z.string().trim().optional(),
+  zoomHostEmail: z.string().trim().email("Enter the email address of the Zoom host account"),
+});
+
+export async function updateZoomSettingsAction(data: Record<string, unknown>) {
+  const session = await requireRoleSession(SUPER_ADMIN_ONLY);
+  const parsed = zoomSchema.safeParse(data);
+  if (!parsed.success) return { error: parsed.error.issues[0].message };
+
+  await integrationSettingsService.updateZoomSettings(parsed.data, session.user.id);
+  // The secrets themselves are never written to the audit log.
+  await logAudit({ actorId: session.user.id, action: "UPDATE", entityType: "IntegrationSettings", entityId: "zoom", after: { zoomHostEmail: parsed.data.zoomHostEmail } });
+  revalidate();
+  return {};
+}
+
+export async function testZoomConnectionAction() {
+  await requireRoleSession(SUPER_ADMIN_ONLY);
+  const result = await testZoomConnection();
+  if (result.ok && result.licence === "Licensed") await integrationSettingsService.markZoomConnected();
+  revalidate();
+  return result;
+}
+
+export async function disconnectZoomAction() {
+  const session = await requireRoleSession(SUPER_ADMIN_ONLY);
+  await integrationSettingsService.disconnectZoom(session.user.id);
+  await logAudit({ actorId: session.user.id, action: "UPDATE", entityType: "IntegrationSettings", entityId: "zoom_disconnect" });
   revalidate();
 }

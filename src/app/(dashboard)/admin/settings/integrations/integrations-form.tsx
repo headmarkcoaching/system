@@ -16,6 +16,9 @@ import {
   updateGoogleClientCredentialsAction,
   disconnectGoogleAction,
   updateFileStorageProviderAction,
+  updateZoomSettingsAction,
+  testZoomConnectionAction,
+  disconnectZoomAction,
 } from "./actions";
 
 interface DisplaySettings {
@@ -36,6 +39,12 @@ interface DisplaySettings {
   googleConnectedEmail: string | null;
   googleConnectedAt: Date | null;
   googleCalendarId: string | null;
+  zoomAccountId: string | null;
+  zoomClientId: string | null;
+  zoomClientSecretSet: boolean;
+  zoomWebhookSecretSet: boolean;
+  zoomHostEmail: string | null;
+  zoomConnectedAt: Date | null;
   fileStorageProvider: "LOCAL" | "GOOGLE_DRIVE";
 }
 
@@ -44,11 +53,13 @@ export function IntegrationsForm({
   googleStatus,
   googleError,
   googleRedirectUri,
+  zoomWebhookUrl,
 }: {
   settings: DisplaySettings;
   googleStatus?: string;
   googleError?: string;
   googleRedirectUri: string;
+  zoomWebhookUrl: string;
 }) {
   React.useEffect(() => {
     if (googleStatus === "connected") toast.success("Google account connected");
@@ -60,6 +71,7 @@ export function IntegrationsForm({
     <div className="space-y-6">
       <WhatsAppCard settings={settings} />
       <EmailCard settings={settings} />
+      <ZoomCard settings={settings} webhookUrl={zoomWebhookUrl} />
       <GoogleCard settings={settings} redirectUri={googleRedirectUri} />
       <FileStorageCard settings={settings} />
     </div>
@@ -249,6 +261,164 @@ function EmailCard({ settings }: { settings: DisplaySettings }) {
         <Button onClick={handleSave} disabled={pending}>
           {pending ? "Saving…" : "Save Email Settings"}
         </Button>
+      </CardContent>
+    </Card>
+  );
+}
+
+function ZoomCard({ settings, webhookUrl }: { settings: DisplaySettings; webhookUrl: string }) {
+  const [accountId, setAccountId] = React.useState(settings.zoomAccountId ?? "");
+  const [clientId, setClientId] = React.useState(settings.zoomClientId ?? "");
+  const [clientSecret, setClientSecret] = React.useState("");
+  const [webhookSecret, setWebhookSecret] = React.useState("");
+  const [hostEmail, setHostEmail] = React.useState(settings.zoomHostEmail ?? "");
+  const [saving, setSaving] = React.useState(false);
+  const [testing, setTesting] = React.useState(false);
+  const [disconnecting, setDisconnecting] = React.useState(false);
+  const [check, setCheck] = React.useState<{ ok: boolean; message: string } | null>(null);
+
+  const configured = Boolean(settings.zoomAccountId && settings.zoomClientId && settings.zoomClientSecretSet && settings.zoomHostEmail);
+
+  async function handleSave() {
+    setSaving(true);
+    setCheck(null);
+    try {
+      const result = await updateZoomSettingsAction({
+        zoomAccountId: accountId,
+        zoomClientId: clientId,
+        zoomClientSecret: clientSecret,
+        zoomWebhookSecret: webhookSecret,
+        zoomHostEmail: hostEmail,
+      });
+      if (result?.error) toast.error(result.error);
+      else {
+        toast.success("Zoom details saved. Now press Test connection.");
+        setClientSecret("");
+        setWebhookSecret("");
+      }
+    } catch {
+      toast.error("Could not save the Zoom details.");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleTest() {
+    setTesting(true);
+    setCheck(null);
+    try {
+      const r = await testZoomConnectionAction();
+      if (!r.ok) setCheck({ ok: false, message: r.error ?? "The connection test failed." });
+      else if (r.licence !== "Licensed")
+        setCheck({
+          ok: false,
+          message: `Connected to ${r.hostEmail}, but that account is on Zoom's free plan. Cloud recording and registered meetings need a paid Pro seat on the host account.`,
+        });
+      else setCheck({ ok: true, message: `Connected. Host account ${r.hostEmail}${r.displayName ? ` (${r.displayName})` : ""} has a paid Zoom licence.` });
+    } catch {
+      setCheck({ ok: false, message: "Couldn't run the test. Please try again." });
+    } finally {
+      setTesting(false);
+    }
+  }
+
+  async function handleDisconnect() {
+    setDisconnecting(true);
+    try {
+      await disconnectZoomAction();
+      setAccountId("");
+      setClientId("");
+      setHostEmail("");
+      setCheck(null);
+      toast.success("Zoom disconnected");
+    } catch {
+      toast.error("Could not disconnect.");
+    } finally {
+      setDisconnecting(false);
+    }
+  }
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="text-base">Zoom (live classes)</CardTitle>
+        <CardDescription>
+          Live classes run on Zoom. The app creates each class, gives every paid student a personal join link, records in Zoom&apos;s cloud and copies the recording into your Google Drive.
+        </CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <div className="flex items-center gap-2 rounded-md border border-border p-3">
+          {settings.zoomConnectedAt ? (
+            <>
+              <Badge variant="success">Connected</Badge>
+              <span className="text-sm">
+                {settings.zoomHostEmail}
+                <span className="text-muted-foreground"> · tested {formatDate(settings.zoomConnectedAt)}</span>
+              </span>
+            </>
+          ) : (
+            <>
+              <Badge variant="outline">{configured ? "Saved, not tested" : "Not connected"}</Badge>
+              <span className="text-sm text-muted-foreground">{configured ? "Press Test connection to check the details." : "No Zoom details saved yet."}</span>
+            </>
+          )}
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div className="space-y-1.5">
+            <Label>Account ID</Label>
+            <Input value={accountId} onChange={(e) => setAccountId(e.target.value)} autoComplete="off" />
+          </div>
+          <div className="space-y-1.5">
+            <Label>Client ID</Label>
+            <Input value={clientId} onChange={(e) => setClientId(e.target.value)} autoComplete="off" />
+          </div>
+          <div className="space-y-1.5">
+            <Label>
+              Client Secret <SecretHint isSet={settings.zoomClientSecretSet} />
+            </Label>
+            <Input type="password" value={clientSecret} onChange={(e) => setClientSecret(e.target.value)} autoComplete="new-password" />
+          </div>
+          <div className="space-y-1.5">
+            <Label>
+              Webhook Secret Token <SecretHint isSet={settings.zoomWebhookSecretSet} />
+            </Label>
+            <Input type="password" value={webhookSecret} onChange={(e) => setWebhookSecret(e.target.value)} autoComplete="new-password" />
+          </div>
+          <div className="space-y-1.5 sm:col-span-2">
+            <Label>Zoom host account (email)</Label>
+            <Input type="email" value={hostEmail} onChange={(e) => setHostEmail(e.target.value)} placeholder="the email of the paid Zoom Pro account" autoComplete="off" />
+          </div>
+        </div>
+
+        <p className="text-xs text-muted-foreground">
+          From{" "}
+          <a href="https://marketplace.zoom.us/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            marketplace.zoom.us
+          </a>
+          : create a <strong>Server-to-Server OAuth</strong> app. Zoom shows the Account ID, Client ID, Client Secret and (under Features → Event Subscriptions) the Secret Token. Add this address for Zoom&apos;s notices once the site is live:{" "}
+          <code className="rounded bg-muted px-1 py-0.5 text-[11px]">{webhookUrl}</code>
+        </p>
+
+        {check && (
+          <p role="status" className={`rounded-md px-3 py-2 text-sm ${check.ok ? "bg-success/10 text-success" : "bg-destructive/10 text-destructive"}`}>
+            {check.message}
+          </p>
+        )}
+
+        <div className="flex flex-wrap gap-2">
+          <Button variant="outline" onClick={handleSave} disabled={saving}>
+            {saving ? "Saving…" : "Save Zoom details"}
+          </Button>
+          <Button onClick={handleTest} disabled={testing || !configured}>
+            {testing ? "Testing…" : "Test connection"}
+          </Button>
+          {configured && (
+            <Button variant="destructive" onClick={handleDisconnect} disabled={disconnecting}>
+              {disconnecting ? "Disconnecting…" : "Disconnect"}
+            </Button>
+          )}
+        </div>
       </CardContent>
     </Card>
   );

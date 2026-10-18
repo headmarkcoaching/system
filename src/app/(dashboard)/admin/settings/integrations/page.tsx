@@ -12,6 +12,7 @@ export default async function IntegrationsSettingsPage(props: { searchParams: Pr
 
   const settings = await integrationSettingsService.getIntegrationSettingsForDisplay();
   const googleRedirectUri = `${process.env.NEXTAUTH_URL || ""}/api/integrations/google/callback`;
+  const zoomWebhookUrl = `${process.env.NEXTAUTH_URL || ""}/api/zoom/webhook`;
 
   return (
     <div className="max-w-3xl space-y-6">
@@ -19,7 +20,7 @@ export default async function IntegrationsSettingsPage(props: { searchParams: Pr
         title="Integrations"
         description="Connect WhatsApp, email, and your Google account directly from here — no .env file or redeploy needed. Only visible to the Super Admin."
       />
-      <IntegrationsForm settings={settings} googleStatus={searchParams.google} googleError={searchParams.error} googleRedirectUri={googleRedirectUri} />
+      <IntegrationsForm settings={settings} googleStatus={searchParams.google} googleError={searchParams.error} googleRedirectUri={googleRedirectUri} zoomWebhookUrl={zoomWebhookUrl} />
     </div>
   );
 }

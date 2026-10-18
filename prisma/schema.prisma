@@ -1766,6 +1766,16 @@ model IntegrationSettings {
   googleCalendarId     String?
   googleConnectedAt    DateTime?
 
+  // Zoom (live classes): a Server-to-Server OAuth app made in the Zoom Marketplace. The server uses it
+  // to create meetings, register paid students and collect finished recordings.
+  zoomAccountId     String?
+  zoomClientId      String?
+  zoomClientSecret  String? // encrypted
+  zoomWebhookSecret String? // encrypted: Zoom's "Secret Token", used to verify its notices
+  // The licensed Zoom host account (its email) that classes are created under.
+  zoomHostEmail     String?
+  zoomConnectedAt   DateTime?
+
   fileStorageProvider FileStorageProviderType @default(LOCAL)
 
   updatedAt   DateTime @updatedAt
