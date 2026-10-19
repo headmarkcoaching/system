@@ -25,7 +25,13 @@ function integrationStatus(): IntegrationStatus[] {
 export async function getSystemHealthSummary() {
   const since24h = new Date(Date.now() - 24 * 60 * 60 * 1000);
 
-  const [joinAlerts, recordingJobs, recentJobRuns, latestPerJob, failedJobs24h, failedAutomation24h, whatsappFailures24h, aiFailures24h, aiTotal24h] = await Promise.all([
+  const [blockedContactShares, joinAlerts, recordingJobs, recentJobRuns, latestPerJob, failedJobs24h, failedAutomation24h, whatsappFailures24h, aiFailures24h, aiTotal24h] = await Promise.all([
+    db.auditLog.findMany({
+      where: { entityType: "ContactShareBlocked", createdAt: { gte: new Date(Date.now() - 7 * 86_400_000) } },
+      orderBy: { createdAt: "desc" },
+      take: 15,
+      include: { actor: { select: { name: true, roleKey: true } } },
+    }),
     listJoinAlerts(),
     listRecordingJobs(),
     jobRunsService.listRecentJobRuns(30),
@@ -41,6 +47,7 @@ export async function getSystemHealthSummary() {
     integrations: integrationStatus(),
     recordingJobs,
     joinAlerts,
+    blockedContactShares,
     recentJobRuns,
     latestPerJob,
     failedJobs24h,

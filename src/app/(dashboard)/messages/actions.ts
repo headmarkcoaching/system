@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
 import { requireSession, requireRoleSession } from "@/lib/session";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { guardContactDetails } from "@/lib/contact-guard";
 import { getThreadAccess } from "@/lib/communication-access";
 import * as teacherMessageService from "@/lib/services/teacher-messages";
 import * as automationService from "@/lib/services/automation";
@@ -65,6 +66,9 @@ export async function startThreadAction(formData: FormData): Promise<MessageActi
   const parsed = startSchema.safeParse(Object.fromEntries(Array.from(formData.entries()).filter(([, v]) => typeof v === "string")));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Message to teacher", parsed.data.subject, parsed.data.body);
+  if (blocked) return { error: blocked };
+
   if (!(await canWriteAbout(session.user.id, session.user.role, parsed.data.studentId))) {
     return { error: "You can only write about your own child." };
   }
@@ -118,6 +122,9 @@ export async function replyThreadAction(threadId: string, formData: FormData): P
 
   const parsed = replySchema.safeParse({ body: formData.get("body") });
   if (!parsed.success) return { error: parsed.error.issues[0].message };
+
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Message reply", parsed.data.body);
+  if (blocked) return { error: blocked };
 
   const rate = await checkRateLimit(`thread:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
   if (!rate.allowed) return { error: "You're sending messages very quickly. Please wait a few minutes." };

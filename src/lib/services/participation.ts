@@ -1,6 +1,7 @@
 import "server-only";
 import { db } from "@/lib/db";
 import { onParticipationRecorded } from "@/lib/services/gamification";
+import { STUDENT_SAFE_SELECT } from "@/lib/privacy";
 
 export interface RecordParticipationInput {
   studentId: string;
@@ -33,7 +34,7 @@ export async function recordParticipationScore(input: RecordParticipationInput) 
 export function listParticipationForBatch(batchId: string) {
   return db.participationScore.findMany({
     where: { batchId },
-    include: { student: true },
+    include: { student: { select: STUDENT_SAFE_SELECT } },
     orderBy: { createdAt: "desc" },
     take: 50,
   });

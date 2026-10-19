@@ -2,6 +2,7 @@
 
 import { z } from "zod";
 import { revalidatePath } from "next/cache";
+import { guardContactDetails } from "@/lib/contact-guard";
 import { requireRoleSession } from "@/lib/session";
 import { ACADEMIC_STAFF_ROLES } from "@/lib/permissions";
 import { assertCanManageBatch } from "@/lib/access";
@@ -20,6 +21,9 @@ export async function createAnnouncementAction(data: Record<string, unknown>) {
   const session = await requireRoleSession(ACADEMIC_STAFF_ROLES);
   const parsed = schema.safeParse(data);
   if (!parsed.success) return { error: parsed.error.issues[0].message };
+
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Announcement", parsed.data.title, parsed.data.message);
+  if (blocked) return { error: blocked };
 
   if (parsed.data.audience === "ACADEMIC_LEVEL" && !parsed.data.academicLevelId) {
     return { error: "Select an academic level for this audience." };

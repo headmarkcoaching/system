@@ -5,6 +5,7 @@ import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
 import { requireSession, requireRoleSession } from "@/lib/session";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { guardContactDetails } from "@/lib/contact-guard";
 import { getDoubtAccess } from "@/lib/communication-access";
 import * as doubtService from "@/lib/services/doubts";
 import * as staffService from "@/lib/services/staff";
@@ -54,6 +55,9 @@ export async function createDoubtAction(formData: FormData): Promise<DoubtAction
   const parsed = askSchema.safeParse(Object.fromEntries(Array.from(formData.entries()).filter(([, v]) => typeof v === "string")));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Doubt", parsed.data.title, parsed.data.chapter, parsed.data.body);
+  if (blocked) return { error: blocked };
+
   const rate = await checkRateLimit(`doubt:new:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 10 });
   if (!rate.allowed) return { error: "You've asked a lot of doubts in the last hour. Please wait a little before asking another." };
 
@@ -102,6 +106,9 @@ export async function replyDoubtAction(doubtId: string, formData: FormData): Pro
 
   const parsed = replySchema.safeParse({ body: formData.get("body") });
   if (!parsed.success) return { error: parsed.error.issues[0].message };
+
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Doubt reply", parsed.data.body);
+  if (blocked) return { error: blocked };
 
   const rate = await checkRateLimit(`doubt:reply:${session.user.id}`, { windowMs: 60 * 60 * 1000, max: 40 });
   if (!rate.allowed) return { error: "You're replying very quickly. Please wait a few minutes." };

@@ -229,11 +229,15 @@ function SubmissionRow({ batchId, submission, maxMarks, canManage }: { batchId: 
   async function handleGrade(status: "REVIEWED" | "RESUBMISSION_REQUESTED") {
     setPending(true);
     try {
-      await gradeHomeworkAction(batchId, submission.id, {
+      const res = await gradeHomeworkAction(batchId, submission.id, {
         marksObtained: marks ? Number(marks) : undefined,
         teacherFeedback: feedback || undefined,
         status,
       });
+      if (res?.error) {
+        toast.error(res.error);
+        return;
+      }
       toast.success("Submission updated");
     } catch {
       toast.error("Could not update submission.");

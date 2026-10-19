@@ -115,3 +115,9 @@ Class ends -> Zoom tells our server a recording is ready (signed notice)
 6. `meeting.ended` marks the class COMPLETED once its scheduled end is near/passed.
 
 Zoom Marketplace → your app → Event Subscriptions: add `<site>/api/zoom/webhook` and subscribe to Recording → "All Recordings have completed" and Meeting → "End Meeting". Also subscribe to Meeting → "Participant/Host joined meeting" and "Participant/Host left meeting" (join alerts). Click Validate (the app answers automatically).
+
+## Keeping students with the academy (privacy rules)
+
+- Phone numbers, WhatsApp, email and address of students and parents are visible to Super Admin / Admin only (and to the student or parent themselves). Teachers see a notice instead; the server removes the fields before the page is built (`src/lib/privacy.ts`).
+- Messages, doubts, announcements, homework text and feedback refuse phone numbers, emails and messaging-app/social-media invitations (`src/lib/contact-filter.ts`, applied by `src/lib/contact-guard.ts`). Refusals are listed in Admin → System Health → "Blocked Contact Sharing". Admins and counselors are exempt.
+- Zoom has its own chat that the app cannot filter. In the Zoom web portal → Settings → Meeting → In Meeting (Basic): set Chat → "Allow participants to chat with" to "Host only" (or off), turn off Private chat, turn off "Allow participants to rename themselves", and turn on "Prevent participants from saving chat". Also Screen sharing → "Host only".

@@ -37,6 +37,7 @@ import { DataTable, type DataTableColumn } from "@/components/shared/data-table"
 import { formatDate, formatTime, initials } from "@/lib/utils";
 import { CalendarCheck, ClipboardList, TrendingUp, Sparkles } from "lucide-react";
 import { LinkParentDialog } from "./link-parent-dialog";
+import { canSeeContactDetails, withoutContactDetails } from "@/lib/privacy";
 import { uploadStudentPhotoAction } from "./profile-actions";
 import { NotesTab } from "./notes-tab";
 import { TestsTab as StudentTestsTab } from "./tests-tab";
@@ -112,8 +113,17 @@ export default async function StudentProfilePage(
   const isOwnStudentViewer = session.user.role === "STUDENT";
   const isParentViewer = session.user.role === "PARENT";
 
-  const student = await studentService.getStudentById(params.id);
-  if (!student) notFound();
+  const fullStudent = await studentService.getStudentById(params.id);
+  if (!fullStudent) notFound();
+  // Teachers never see a student's or parent's phone, email or address; only the admins and the family do.
+  const showContacts = canSeeContactDetails(session.user.role, isOwnStudentViewer ? "self" : isParentViewer ? "family" : "none");
+  const student = showContacts
+    ? fullStudent
+    : {
+        ...withoutContactDetails(fullStudent),
+        user: null,
+        parents: fullStudent.parents.map((rel) => ({ ...rel, parent: { ...withoutContactDetails(rel.parent), userId: null } })),
+      };
   const batch = student.batchMemberships[0]?.batch;
   const canEditPhoto = isStaff || (session.user.role === "STUDENT" && student.userId === session.user.id);
 
@@ -328,11 +338,19 @@ export default async function StudentProfilePage(
             <div className="space-y-3 rounded-lg border border-border p-4">
               <h3 className="font-semibold">Contact Details</h3>
               <dl className="space-y-1.5 text-sm">
-                <Row label="Phone" value={student.phone} />
-                <Row label="WhatsApp" value={student.whatsapp} />
-                <Row label="Email" value={student.email} />
-                <Row label="City" value={student.city} />
-                <Row label="Address" value={student.address} />
+                {showContacts ? (
+                  <>
+                    <Row label="Phone" value={student.phone} />
+                    <Row label="WhatsApp" value={student.whatsapp} />
+                    <Row label="Email" value={student.email} />
+                    <Row label="City" value={student.city} />
+                    <Row label="Address" value={student.address} />
+                  </>
+                ) : (
+                  <p className="rounded-md bg-muted px-3 py-2 text-xs text-muted-foreground">
+                    Contact details are kept private by the academy. To reach this student or their family, write through Messages or ask the office.
+                  </p>
+                )}
                 <Row label="School" value={student.school} />
                 <Row label="Board" value={student.board?.name} />
                 <Row label="Group" value={student.group?.name} />
@@ -355,7 +373,7 @@ export default async function StudentProfilePage(
                           {rel.parent.fullName}
                         </Link>
                         <p className="text-xs text-muted-foreground">
-                          {rel.relationship} {rel.isPrimary && "· Primary"} · {rel.parent.phone}
+                          {rel.relationship} {rel.isPrimary && "· Primary"}{showContacts && rel.parent.phone ? ` · ${rel.parent.phone}` : ""}
                         </p>
                       </div>
                     </li>
@@ -396,7 +414,7 @@ export default async function StudentProfilePage(
                 {recordings.map((r) => (
                   <RecordingItem
                     key={r.id}
-                    viewerLabel={[student.fullName, student.phone].filter(Boolean).join(" · ")}
+                    viewerLabel={[student.fullName, showContacts ? student.phone : null].filter(Boolean).join(" · ")}
                     recording={{
                       id: r.id,
                       source: r.driveFileId ? "STORED" : "LINK",

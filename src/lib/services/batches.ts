@@ -4,6 +4,7 @@ import type { BatchStatus, DayOfWeek, MeetingProvider, LiveClassStatus } from "@
 import { checkConsecutiveAbsences } from "@/lib/automation/attendance";
 import { onAttendanceMarked, onHomeworkSubmitted, onHomeworkReviewed, checkAndAwardStudyStreak } from "@/lib/services/gamification";
 import { combineDateAndTime, pakistanTodayRange } from "@/lib/utils";
+import { STUDENT_SAFE_SELECT } from "@/lib/privacy";
 
 // How much activeSeconds one accepted heartbeat adds — must match the client's ping interval
 // (see JoinLiveClassButton) since a ping is trusted at face value, not measured server-side.
@@ -115,7 +116,7 @@ export function getBatchById(id: string) {
       board: true,
       group: true,
       program: true,
-      students: { include: { student: true }, orderBy: { joinedAt: "asc" } },
+      students: { include: { student: { select: STUDENT_SAFE_SELECT } }, orderBy: { joinedAt: "asc" } },
       teachers: { include: { teacher: true, subject: true } },
       subjects: { include: { subject: true } },
     },
@@ -273,7 +274,7 @@ export function updateLiveClassStatus(id: string, status: LiveClassStatus) {
 
 export async function getRosterForLiveClass(liveClassId: string) {
   const liveClass = await db.liveClass.findUniqueOrThrow({ where: { id: liveClassId }, include: { batch: true } });
-  const roster = await db.batchStudent.findMany({ where: { batchId: liveClass.batchId }, include: { student: true }, orderBy: { student: { fullName: "asc" } } });
+  const roster = await db.batchStudent.findMany({ where: { batchId: liveClass.batchId }, include: { student: { select: STUDENT_SAFE_SELECT } }, orderBy: { student: { fullName: "asc" } } });
   const existing = await db.attendance.findMany({ where: { liveClassId } });
   const existingByStudent = new Map(existing.map((a) => [a.studentId, a]));
   return { liveClass, roster, existingByStudent };
@@ -361,7 +362,7 @@ export async function markAttendance(
 export function batchAttendanceHistory(batchId: string) {
   return db.attendance.findMany({
     where: { batchId },
-    include: { student: true, liveClass: true },
+    include: { student: { select: STUDENT_SAFE_SELECT }, liveClass: true },
     orderBy: { date: "desc" },
     take: 100,
   });
@@ -372,7 +373,7 @@ export function batchAttendanceHistory(batchId: string) {
 export function listHomeworkForBatch(batchId: string) {
   return db.homework.findMany({
     where: { batchId },
-    include: { subject: true, submissions: { include: { student: true }, orderBy: { student: { fullName: "asc" } } } },
+    include: { subject: true, submissions: { include: { student: { select: STUDENT_SAFE_SELECT } }, orderBy: { student: { fullName: "asc" } } } },
     orderBy: { dueDate: "desc" },
   });
 }
@@ -381,7 +382,7 @@ export async function listHomeworkForTeacher(teacherId: string) {
   const batchIds = (await db.batchTeacher.findMany({ where: { teacherId }, select: { batchId: true }, distinct: ["batchId"] })).map((b) => b.batchId);
   return db.homework.findMany({
     where: { batchId: { in: batchIds } },
-    include: { subject: true, batch: true, submissions: { include: { student: true }, orderBy: { student: { fullName: "asc" } } } },
+    include: { subject: true, batch: true, submissions: { include: { student: { select: STUDENT_SAFE_SELECT } }, orderBy: { student: { fullName: "asc" } } } },
     orderBy: { dueDate: "desc" },
   });
 }
@@ -417,7 +418,7 @@ export async function createHomework(input: CreateHomeworkInput) {
 export function getHomeworkWithSubmissions(homeworkId: string) {
   return db.homework.findUnique({
     where: { id: homeworkId },
-    include: { subject: true, batch: true, submissions: { include: { student: true }, orderBy: { student: { fullName: "asc" } } } },
+    include: { subject: true, batch: true, submissions: { include: { student: { select: STUDENT_SAFE_SELECT } }, orderBy: { student: { fullName: "asc" } } } },
   });
 }
 

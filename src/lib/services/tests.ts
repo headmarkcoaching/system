@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import type { QuestionType, TestStatus, Prisma } from "@prisma/client";
 import { checkLowTestScore } from "@/lib/automation/test-score";
 import { onTestGraded } from "@/lib/services/gamification";
+import { STUDENT_SAFE_SELECT } from "@/lib/privacy";
 
 export interface AnswerRecord {
   answer: string;
@@ -224,7 +225,7 @@ export async function submitTestAttempt(attemptId: string, studentId: string, ra
 export function listAttemptsForTest(testId: string) {
   return db.testAttempt.findMany({
     where: { testId, submittedAt: { not: null } },
-    include: { student: true, result: true },
+    include: { student: { select: STUDENT_SAFE_SELECT }, result: true },
     orderBy: { student: { fullName: "asc" } },
   });
 }
@@ -270,7 +271,7 @@ export async function gradeSubjectiveAnswers(attemptId: string, gradedById: stri
 export function listResultsForTest(testId: string) {
   return db.testResult.findMany({
     where: { testId },
-    include: { student: true },
+    include: { student: { select: STUDENT_SAFE_SELECT } },
     orderBy: { marksObtained: "desc" },
   });
 }

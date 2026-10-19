@@ -24,7 +24,11 @@ export function SubmitHomeworkDialog({ homeworkId, submissionId, title }: { home
       if (attachmentUrl) formData.set("attachmentUrl", attachmentUrl);
       if (comments) formData.set("studentComments", comments);
       if (file) formData.set("file", file);
-      await submitHomeworkAction(homeworkId, submissionId, formData);
+      const res = await submitHomeworkAction(homeworkId, submissionId, formData);
+      if (res?.error) {
+        toast.error(res.error);
+        return;
+      }
       toast.success("Homework submitted");
       setOpen(false);
     } catch (err) {

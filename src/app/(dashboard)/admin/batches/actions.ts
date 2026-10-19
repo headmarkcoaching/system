@@ -3,6 +3,7 @@
 import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
+import { guardContactDetails } from "@/lib/contact-guard";
 import { requireRoleSession, requireSession } from "@/lib/session";
 import { STAFF_ROLES, ACADEMIC_STAFF_ROLES } from "@/lib/permissions";
 import { assertCanManageBatch } from "@/lib/access";
@@ -260,6 +261,8 @@ export async function createHomeworkAction(batchId: string, data: Record<string,
   await assertCanManageBatch(session, batchId);
   const parsed = homeworkSchema.safeParse(data);
   if (!parsed.success) return { error: parsed.error.issues[0].message };
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Homework", parsed.data.title, parsed.data.description, parsed.data.chapter);
+  if (blocked) return { error: blocked };
 
   const homework = await batchService.createHomework({
     ...parsed.data,
@@ -295,9 +298,12 @@ export async function gradeHomeworkAction(
 ) {
   const session = await requireRoleSession(ACADEMIC_STAFF_ROLES);
   await assertCanManageBatch(session, batchId);
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Homework feedback", data.teacherFeedback);
+  if (blocked) return { error: blocked };
   await batchService.gradeHomeworkSubmission(submissionId, session.user.id, data);
   revalidateBatch(batchId);
   revalidatePath("/teacher/homework");
+  return {};
 }
 
 // Takes a single FormData rather than a File mixed into a positional-argument list — Next.js's
@@ -314,6 +320,8 @@ export async function submitHomeworkAction(homeworkId: string, submissionId: str
     attachmentUrl: (formData.get("attachmentUrl") as string) || undefined,
     studentComments: (formData.get("studentComments") as string) || undefined,
   };
+  const blocked = await guardContactDetails({ id: session.user.id, role: session.user.role }, "Homework comment", data.studentComments);
+  if (blocked) return { error: blocked };
   const file = formData.get("file");
 
   let attachmentFileId: string | undefined;
@@ -324,6 +332,7 @@ export async function submitHomeworkAction(homeworkId: string, submissionId: str
 
   await batchService.studentSubmitHomework(submissionId, student.id, { ...data, attachmentFileId });
   revalidatePath("/student/homework");
+  return {};
 }
 
 // ---- Recordings ----
