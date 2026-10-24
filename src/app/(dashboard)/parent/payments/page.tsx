@@ -38,18 +38,18 @@ export default async function ParentPaymentsPage(props: { searchParams: Promise<
         <EmptyState title="No payment plan set up yet" description="Contact the academy to set one up." />
       ) : (
         <>
-          <div className="grid grid-cols-3 gap-3 text-center">
-            <div className="rounded-lg border border-border p-3">
+          <div className="grid grid-cols-3 gap-2 text-center sm:gap-3">
+            <div className="min-w-0 rounded-lg border border-border p-2 sm:p-3">
               <p className="text-xs text-muted-foreground">Total Fee</p>
-              <p className="text-lg font-bold">{formatPKR(totalFee)}</p>
+              <p className="whitespace-nowrap text-sm font-bold sm:text-lg">{formatPKR(totalFee)}</p>
             </div>
-            <div className="rounded-lg border border-border p-3">
+            <div className="min-w-0 rounded-lg border border-border p-2 sm:p-3">
               <p className="text-xs text-muted-foreground">Paid</p>
-              <p className="text-lg font-bold text-success">{formatPKR(totalPaid)}</p>
+              <p className="whitespace-nowrap text-sm font-bold sm:text-lg text-success">{formatPKR(totalPaid)}</p>
             </div>
-            <div className="rounded-lg border border-border p-3">
+            <div className="min-w-0 rounded-lg border border-border p-2 sm:p-3">
               <p className="text-xs text-muted-foreground">Remaining</p>
-              <p className="text-lg font-bold text-destructive">{formatPKR(Math.max(0, totalFee - totalPaid))}</p>
+              <p className="whitespace-nowrap text-sm font-bold sm:text-lg text-destructive">{formatPKR(Math.max(0, totalFee - totalPaid))}</p>
             </div>
           </div>
 

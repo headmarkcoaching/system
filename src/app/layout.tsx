@@ -31,7 +31,12 @@ export const metadata: Metadata = {
     title: "Head Mark",
     statusBarStyle: "default",
   },
+  // Listed explicitly: declaring `icons` here stops Next adding the files in src/app (icon.png,
+  // favicon.ico) by itself, which left the live site with no tab icon.
   icons: {
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+    ],
     apple: "/icons/apple-touch-icon.png",
   },
 };
