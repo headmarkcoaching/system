@@ -71,7 +71,7 @@ seed refuses to run when `NODE_ENV=production`, but do not rely on that alone).
 
 ## 6. Background jobs (reminders, reports, scoring)
 
-`vercel.json` schedules all ten jobs on Vercel Cron. Vercel sends the `CRON_SECRET` variable as a
+`vercel.json` schedules all twelve jobs on Vercel Cron. Vercel sends the `CRON_SECRET` variable as a
 Bearer token on each call, and `/api/cron/<job>` accepts both GET (Vercel) and POST (any other
 scheduler, `npm run jobs:run`), checking the same secret. Nothing to configure beyond setting
 `CRON_SECRET` in step 3.
@@ -82,6 +82,7 @@ Vercel Cron runs on **UTC**, but the schedule below is Pakistan time (UTC+5, no 
 |---|---|---|
 | class-reminders | every 5 minutes | `*/5 * * * *` |
 | attendance-auto-detect | every 10 minutes | `*/10 * * * *` |
+| zoom-recordings (retries copying recordings to Drive), zoom-access (cancels Zoom links of students with lapsed fees) | every 10 minutes | `*/10 * * * *` |
 | homework-overdue, payment-reminders | every hour | `0 * * * *` |
 | engagement-scores | 6:00 am daily | `0 1 * * *` |
 | predictive-risk-scores | 6:15 am daily | `15 1 * * *` |
@@ -96,3 +97,11 @@ Things to know:
 - Each run's result is recorded and shown under Admin → System Health, so a failing job is visible.
 - Class times are read as Pakistan time on any server, so reminders and automatic attendance are
   correct on Vercel's UTC servers.
+
+## 7. Zoom (after the site is live)
+
+In the Zoom Marketplace, open your Server-to-Server app → Feature → Event Subscriptions: add
+`https://yourdomain.com/api/zoom/webhook`, subscribe to *All Recordings have completed*, *End Meeting*,
+*Participant/Host joined meeting* and *Participant/Host left meeting*, then click Validate. The Secret Token
+must match the one saved in Settings → Integrations → Zoom. The recording copy runs for up to 5 minutes per
+function call, which needs Vercel Pro.
