@@ -9,7 +9,9 @@ export default function manifest(): MetadataRoute.Manifest {
     id: "/",
     lang: "en",
     dir: "ltr",
-    start_url: "/",
+    // The installed app is for people who already have an account, so it opens at sign-in (or straight to
+    // their dashboard if signed in) rather than the public website at "/".
+    start_url: "/login",
     scope: "/",
     display: "standalone",
     orientation: "portrait",
