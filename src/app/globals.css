@@ -241,3 +241,21 @@
   --cta-foreground: 0 0% 100%;
   --cta-wash: 25 100% 94%;
 }
+
+/* Admissions ticker (marketing pages): the track holds the message twice, so sliding it by half its
+   width and starting over is seamless. It moves left to right, the way Urdu news tickers do. */
+@keyframes hmc-ticker {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.hmc-ticker-track {
+  animation: hmc-ticker 45s linear infinite;
+}
+.hmc-ticker:hover .hmc-ticker-track,
+.hmc-ticker:focus-within .hmc-ticker-track {
+  animation-play-state: paused;
+}

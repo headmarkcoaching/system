@@ -1,4 +1,5 @@
 import { Fraunces, IBM_Plex_Mono } from "next/font/google";
+import { AnnouncementBar } from "@/components/marketing/announcement-bar";
 import { MarketingHeader } from "./marketing-header";
 import { MarketingFooter } from "./marketing-footer";
 import { StickyCtaBar } from "@/components/marketing/sticky-cta-bar";
@@ -26,6 +27,7 @@ const plexMono = IBM_Plex_Mono({
 export default function MarketingLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className={cn(fraunces.variable, plexMono.variable, "theme-skylight flex min-h-screen flex-col bg-background")}>
+      <AnnouncementBar />
       <MarketingHeader />
       <main className="flex-1">{children}</main>
       <MarketingFooter />
