@@ -1,17 +1,18 @@
 "use client";
 
-import { useFormStatus } from "react-dom";
 import { useActionState } from "react";
 import { CheckCircle2, ArrowRight } from "lucide-react";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import * as React from "react";
 import { SubjectPicker, type SubjectOption } from "@/components/shared/subject-picker";
+import { LeadContactFields } from "@/components/marketing/lead-contact-fields";
 import { submitEnrollAction, type SubmitEnrollState } from "./actions";
 
 const initialState: SubmitEnrollState = {};
 
+// The form is submitted by hand (not through the form's `action`), because React empties every field of a form
+// after its action runs, which would wipe what a family has typed and ticked whenever the server refuses it.
 export function EnrollForm({
   levels,
   groups,
@@ -30,7 +31,7 @@ export function EnrollForm({
   campaign?: string;
 }) {
   const action = submitEnrollAction.bind(null, source, campaign);
-  const [state, formAction] = useActionState(action, initialState);
+  const [state, formAction, pending] = useActionState(action, initialState);
   const [levelId, setLevelId] = React.useState(defaultLevelId ?? "");
   const [groupId, setGroupId] = React.useState("");
   const [pickError, setPickError] = React.useState<string | null>(null);
@@ -47,31 +48,20 @@ export function EnrollForm({
 
   return (
     <form
-      action={formAction}
       className="space-y-4"
       onSubmit={(e) => {
-        // Stop here (instead of letting the server refuse it) so nothing the family typed is lost.
+        e.preventDefault();
+        const form = e.currentTarget;
         const needsSubject = Boolean(levelId) && (subjectsByClass[levelId]?.length ?? 0) > 0;
-        if (needsSubject && new FormData(e.currentTarget).getAll("subjectIds").length === 0) {
-          e.preventDefault();
+        if (needsSubject && new FormData(form).getAll("subjectIds").length === 0) {
           setPickError("Please choose at least one subject you want to try.");
-        } else {
-          setPickError(null);
+          return;
         }
+        setPickError(null);
+        React.startTransition(() => formAction(new FormData(form)));
       }}
     >
-      <div className="space-y-1.5">
-        <Label>Student Name *</Label>
-        <Input name="studentName" defaultValue={state.values?.studentName} required />
-      </div>
-      <div className="space-y-1.5">
-        <Label>Parent Name *</Label>
-        <Input name="parentName" defaultValue={state.values?.parentName} required />
-      </div>
-      <div className="space-y-1.5">
-        <Label>Parent Phone / WhatsApp *</Label>
-        <Input name="parentPhone" placeholder="03xx-xxxxxxx" defaultValue={state.values?.parentPhone} required />
-      </div>
+      <LeadContactFields values={state.values} siblingToggle />
       {levels.length > 0 && (
         <div className="space-y-1.5">
           <Label>Class *</Label>
@@ -114,7 +104,7 @@ export function EnrollForm({
 
       {(pickError ?? state.error) && <p className="rounded-md bg-destructive/10 px-3 py-2 text-sm text-destructive">{pickError ?? state.error}</p>}
 
-      <SubmitButton />
+      <SubmitButton pending={pending} />
       <p className="text-center text-xs text-muted-foreground">
         By submitting, you agree to our{" "}
         <a href="/privacy" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
@@ -126,8 +116,7 @@ export function EnrollForm({
   );
 }
 
-function SubmitButton() {
-  const { pending } = useFormStatus();
+function SubmitButton({ pending }: { pending: boolean }) {
   return (
     <button
       type="submit"

@@ -4,6 +4,7 @@ import { z } from "zod";
 import * as leadService from "@/lib/services/leads";
 import * as batchCatalogue from "@/lib/services/batch-catalogue";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { filledBySchema, optionalEmailSchema, readSiblingNames, typedValues, type LeadFormValues } from "@/lib/lead-contact";
 import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, priceBandForLevel } from "@/lib/pricing";
 
 const buySchema = z.object({
@@ -11,10 +12,13 @@ const buySchema = z.object({
   studentName: z.string().trim().min(2, "Student name is required"),
   parentName: z.string().trim().min(2, "Parent name is required"),
   parentPhone: z.string().trim().min(7, "A valid phone number is required"),
+  filledBy: filledBySchema,
+  email: optionalEmailSchema,
 });
 
 export interface BuyState {
   error?: string;
+  values?: LeadFormValues;
   success?: boolean;
   summary?: { batchName: string; subjects: string[]; price: number; monthly: number; sibling: boolean; advanceTotal: number | null };
 }
@@ -24,37 +28,40 @@ export interface BuyState {
  * WhatsApp. The batch, subjects and fee are all re-derived on the server from ids, never read
  * from the form, so a visitor cannot choose their own price. */
 export async function submitBuyAction(_prev: BuyState, formData: FormData): Promise<BuyState> {
+  const values = typedValues(formData);
   const parsed = buySchema.safeParse(Object.fromEntries(formData.entries()));
-  if (!parsed.success) return { error: parsed.error.issues[0].message };
+  if (!parsed.success) return { values, error: parsed.error.issues[0].message };
   const subjectIds = Array.from(new Set(formData.getAll("subjectIds").map(String)));
-  if (subjectIds.length === 0) return { error: "Please choose at least one subject" };
+  if (subjectIds.length === 0) return { values, error: "Please choose at least one subject" };
 
   const phoneRate = await checkRateLimit(`buy:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
-  if (!phoneRate.allowed) return { error: "You've already submitted recently. Our team will be in touch shortly." };
+  if (!phoneRate.allowed) return { values, error: "You've already submitted recently. Our team will be in touch shortly." };
   const globalRate = await checkRateLimit("buy:global", { windowMs: 5 * 60 * 1000, max: 30 });
-  if (!globalRate.allowed) return { error: "Something went wrong. Please try again in a few minutes." };
+  if (!globalRate.allowed) return { values, error: "Something went wrong. Please try again in a few minutes." };
 
   const batch = await batchCatalogue.getOpenBatch(parsed.data.batchId);
-  if (!batch) return { error: "This batch is no longer open for enrollment." };
-  if (batch.seatsLeft === 0) return { error: "This batch just filled up. Message us on WhatsApp to join the waiting list." };
+  if (!batch) return { values, error: "This batch is no longer open for enrollment." };
+  if (batch.seatsLeft === 0) return { values, error: "This batch just filled up. Message us on WhatsApp to join the waiting list." };
 
   const band = priceBandForLevel(batch.levelName);
-  if (!band) return { error: "Please message us on WhatsApp for this class's fees." };
+  if (!band) return { values, error: "Please message us on WhatsApp for this class's fees." };
 
   const chosen = batch.subjects.filter((s) => subjectIds.includes(s.id));
-  if (chosen.length !== subjectIds.length) return { error: "Those subjects are not part of this batch. Please choose again." };
+  if (chosen.length !== subjectIds.length) return { values, error: "Those subjects are not part of this batch. Please choose again." };
 
   const price = monthlyFee(band, chosen.length, batch.subjects.length);
   if (price === null) {
-    return { error: `Please choose 1, 2 or 3 subjects, or all ${batch.subjects.length} subjects of this batch.` };
+    return { values, error: `Please choose 1, 2 or 3 subjects, or all ${batch.subjects.length} subjects of this batch.` };
   }
 
   // Discounts are worked out here from the fee above, never taken from the browser. The upfront offer applies to any plan.
   const sibling = formData.get("sibling") === "1";
+  const siblings = readSiblingNames(formData);
+  if (siblings.error) return { values, error: siblings.error };
   const advance = formData.get("advance") === "1";
   const fee = feeBreakdown(price, { sibling, advance });
   const discountNotes = [
-    sibling ? `Sibling discount requested (${SIBLING_DISCOUNT_PERCENT}% off every child): Rs ${fee.monthly.toLocaleString("en-PK")} per month after it. Confirm the other child is enrolling.` : null,
+    sibling ? `Sibling discount requested (${SIBLING_DISCOUNT_PERCENT}% off every child): Rs ${fee.monthly.toLocaleString("en-PK")} per month after it. Other child: ${siblings.names.join(", ")}. Confirm they are enrolling.` : null,
     fee.advanceTotal !== null
       ? `Wants to pay ${ADVANCE_MONTHS} months upfront (${ADVANCE_DISCOUNT_PERCENT}% off the total): Rs ${fee.advanceTotal.toLocaleString("en-PK")} in one payment.`
       : null,
@@ -66,6 +73,9 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
       studentName: parsed.data.studentName,
       parentName: parsed.data.parentName,
       parentPhone: parsed.data.parentPhone,
+      filledBy: parsed.data.filledBy,
+      contactEmail: parsed.data.email,
+      siblingNames: siblings.names,
       academicLevelId: batch.levelId,
       boardId: batch.boardId ?? undefined,
       groupId: batch.groupId ?? undefined,
@@ -76,6 +86,6 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
     });
     return { success: true, summary: { batchName: batch.name, subjects: names, price, monthly: fee.monthly, sibling, advanceTotal: fee.advanceTotal } };
   } catch (err) {
-    return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
+    return { values, error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }
 }

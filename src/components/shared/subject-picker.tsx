@@ -26,8 +26,19 @@ export function SubjectPicker({
   groupId?: string;
   name?: string;
 }) {
+  // Ticks are kept in state (not left to the browser) so they survive React emptying the form after a refused submit.
+  const [picked, setPicked] = React.useState<Set<string>>(new Set());
   const allowed = levelId ? (groupId && subjectsByClass[`${levelId}:${groupId}`]) || subjectsByClass[levelId] || [] : [];
   const visible = subjects.filter((s) => allowed.includes(s.id));
+
+  // A subject that is no longer on offer (the class or stream changed) quietly drops out of the selection.
+  const visibleIds = visible.map((v) => v.id).join(",");
+  React.useEffect(() => {
+    setPicked((prev) => {
+      const keep = new Set([...prev].filter((id) => visibleIds.split(",").includes(id)));
+      return keep.size === prev.size ? prev : keep;
+    });
+  }, [visibleIds]);
 
   if (!levelId) {
     return <p className="rounded-md bg-muted px-3 py-2 text-sm text-muted-foreground">Choose the class first, then pick the subject(s) you want to try.</p>;
@@ -47,7 +58,21 @@ export function SubjectPicker({
             "has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-ring has-[:focus-visible]:ring-offset-2"
           )}
         >
-          <input type="checkbox" name={name} value={s.id} className="sr-only" />
+          <input
+            type="checkbox"
+            name={name}
+            value={s.id}
+            checked={picked.has(s.id)}
+            onChange={(e) =>
+              setPicked((prev) => {
+                const next = new Set(prev);
+                if (e.target.checked) next.add(s.id);
+                else next.delete(s.id);
+                return next;
+              })
+            }
+            className="sr-only"
+          />
           {s.name}
         </label>
       ))}

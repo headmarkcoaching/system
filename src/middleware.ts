@@ -38,7 +38,7 @@ export default auth((req) => {
   // every public marketing page, so it must never require a session. Caught live: an
   // unauthenticated request for the logo was 307-redirected to /login instead of getting the
   // image, which also made Next's image optimizer fail to read the file server-side.
-  const MARKETING_PATHS = ["/home", "/programs", "/about", "/contact", "/enroll", "/pricing", "/privacy", "/terms"];
+  const MARKETING_PATHS = ["/home", "/programs", "/about", "/contact", "/enroll", "/pricing", "/privacy", "/terms", "/resources"];
   const isPublic =
     nextUrl.pathname === "/" ||
     nextUrl.pathname === "/signed-out" ||

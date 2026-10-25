@@ -4,30 +4,31 @@ import { z } from "zod";
 import * as leadService from "@/lib/services/leads";
 import * as referralsService from "@/lib/services/referrals";
 import { checkRateLimit } from "@/lib/rate-limit";
+import { filledBySchema, optionalEmailSchema, readSiblingNames, typedValues, type LeadFormValues } from "@/lib/lead-contact";
 
 const referralSchema = z.object({
   studentName: z.string().min(2, "Student name is required"),
   parentName: z.string().min(2, "Parent name is required"),
   parentPhone: z.string().min(7, "A valid phone number is required"),
   academicLevelId: z.string().min(1, "Please choose your class"),
+  filledBy: filledBySchema,
+  email: optionalEmailSchema,
 });
 
 export interface SubmitReferralState {
   error?: string;
-  values?: { studentName: string; parentName: string; parentPhone: string };
+  values?: LeadFormValues;
   success?: boolean;
 }
 
 export async function submitReferralAction(code: string, _prevState: SubmitReferralState, formData: FormData): Promise<SubmitReferralState> {
   // Sent back with any error: React empties the form after an action, so the family's typing is returned to refill it.
-  const values = {
-    studentName: String(formData.get("studentName") ?? ""),
-    parentName: String(formData.get("parentName") ?? ""),
-    parentPhone: String(formData.get("parentPhone") ?? ""),
-  };
+  const values = typedValues(formData);
   const parsed = referralSchema.safeParse(Object.fromEntries(formData.entries()));
   if (!parsed.success) return { values, error: parsed.error.issues[0].message };
   const subjectIds = formData.getAll("subjectIds").filter((v): v is string => typeof v === "string" && v.length > 0);
+  const siblings = readSiblingNames(formData);
+  if (siblings.error) return { values, error: siblings.error };
 
   // Same reasoning as /enroll: a public, unauthenticated form needs abuse protection.
   const phoneRate = await checkRateLimit(`referral:phone:${parsed.data.parentPhone.replace(/\D/g, "")}`, { windowMs: 60 * 60 * 1000, max: 3 });
@@ -48,8 +49,14 @@ export async function submitReferralAction(code: string, _prevState: SubmitRefer
   try {
     await referralsService.createReferralFromCode({
       code,
-      ...parsed.data,
+      studentName: parsed.data.studentName,
+      parentName: parsed.data.parentName,
+      parentPhone: parsed.data.parentPhone,
+      academicLevelId: parsed.data.academicLevelId,
       interestedSubjects,
+      filledBy: parsed.data.filledBy,
+      contactEmail: parsed.data.email,
+      siblingNames: siblings.names,
     });
     return { success: true };
   } catch (err) {

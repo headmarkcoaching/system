@@ -1437,6 +1437,11 @@ model Lead {
   weakSubjects        String[]
   // The subject(s) the family picked when asking for a free class, so the counselor knows what to arrange.
   interestedSubjects  String[]   @default([])
+  // Who filled in the public form (a parent or the student themselves), the family's email if they gave one,
+  // and the names of other children in the family who also want to try or join.
+  filledBy            LeadFilledBy?
+  contactEmail        String?
+  siblingNames        String[]   @default([])
   source              LeadSource
   campaign            String?
   assignedCounselorId String?
@@ -2691,4 +2696,36 @@ model ZoomJoinEvent {
   @@unique([liveClassId, participantUuid, joinedAt])
   @@index([kind, createdAt])
   @@map("zoom_join_events")
+}
+
+enum ResourceCategory {
+  BLOG
+  STUDY_TIPS
+}
+
+// Public articles for the website's Resources menu: the blog, and the study tips and tricks for exam preparation.
+// `body` is plain text with a small set of markers (## headings, - lists, **bold**, > tips); see components/marketing/article-body.tsx.
+model ResourceArticle {
+  id          String           @id @default(cuid())
+  slug        String           @unique
+  title       String
+  excerpt     String
+  body        String
+  category    ResourceCategory
+  // A short label such as "Physics" or "All subjects", shown on the card and used for filtering study tips.
+  topic       String?
+  isPublished Boolean          @default(false)
+  publishedAt DateTime?
+  authorName  String           @default("Head Mark Coaching")
+  createdById String?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([category, isPublished, publishedAt])
+  @@map("resource_articles")
+}
+
+enum LeadFilledBy {
+  PARENT
+  STUDENT
 }

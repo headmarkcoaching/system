@@ -1,13 +1,12 @@
 "use client";
 
 import * as React from "react";
-import { useFormStatus } from "react-dom";
 import { useActionState } from "react";
 import { CheckCircle2, ArrowRight, CalendarDays, Clock } from "lucide-react";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, ADVANCE_REFUND_PROCESSING_TEXT, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, type BundleKey, type PriceBand } from "@/lib/pricing";
+import { LeadContactFields } from "@/components/marketing/lead-contact-fields";
 import { submitBuyAction, type BuyState } from "./actions";
 
 export interface BuyBatch {
@@ -24,7 +23,7 @@ export interface BuyBatch {
 const initialState: BuyState = {};
 
 export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: BuyBatch[]; initialBatchId: string; initialBundle: BundleKey | null }) {
-  const [state, formAction] = useActionState(submitBuyAction, initialState);
+  const [state, formAction, pending] = useActionState(submitBuyAction, initialState);
   const [batchId, setBatchId] = React.useState(initialBatchId);
   const batch = batches.find((b) => b.id === batchId) ?? batches[0];
   const [selected, setSelected] = React.useState<Set<string>>(() => {
@@ -84,7 +83,15 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
   }
 
   return (
-    <form action={formAction} className="space-y-6">
+    <form
+      className="space-y-6"
+      onSubmit={(e) => {
+        // Submitted by hand so a refused submit doesn't empty the form (React clears a form after its action).
+        e.preventDefault();
+        const form = e.currentTarget;
+        React.startTransition(() => formAction(new FormData(form)));
+      }}
+    >
       <div className="space-y-1.5">
         <Label htmlFor="batchId">Batch *</Label>
         <Select name="batchId" value={batch.id} onValueChange={chooseBatch}>
@@ -182,7 +189,7 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
           />
           <span>
             Another child of mine is enrolling too
-            <span className="block text-xs text-muted-foreground">{SIBLING_DISCOUNT_PERCENT}% off every child&apos;s monthly fee.</span>
+            <span className="block text-xs text-muted-foreground">{SIBLING_DISCOUNT_PERCENT}% off every child&apos;s monthly fee. You will add their name below.</span>
           </span>
         </label>
         <label
@@ -213,24 +220,11 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
         </label>
       </fieldset>
 
-      <div className="space-y-4">
-        <div className="space-y-1.5">
-          <Label htmlFor="studentName">Student Name *</Label>
-          <Input id="studentName" name="studentName" required autoComplete="off" />
-        </div>
-        <div className="space-y-1.5">
-          <Label htmlFor="parentName">Parent Name *</Label>
-          <Input id="parentName" name="parentName" required autoComplete="name" />
-        </div>
-        <div className="space-y-1.5">
-          <Label htmlFor="parentPhone">Parent Phone / WhatsApp *</Label>
-          <Input id="parentPhone" name="parentPhone" placeholder="03xx-xxxxxxx" inputMode="tel" autoComplete="tel" required />
-        </div>
-      </div>
+      <LeadContactFields values={state.values} sibling={sibling} onSiblingChange={setSibling} />
 
       {state.error && <p className="rounded-md bg-destructive/10 px-3 py-2 text-sm text-destructive">{state.error}</p>}
 
-      <SubmitButton disabled={price === null} />
+      <SubmitButton disabled={price === null} pending={pending} />
       <p className="text-center text-xs text-muted-foreground">
         No payment is taken on this page. By submitting, you agree to our{" "}
         <a href="/privacy" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground">
@@ -242,8 +236,7 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
   );
 }
 
-function SubmitButton({ disabled }: { disabled: boolean }) {
-  const { pending } = useFormStatus();
+function SubmitButton({ disabled, pending }: { disabled: boolean; pending: boolean }) {
   return (
     <button
       type="submit"

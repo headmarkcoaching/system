@@ -7,10 +7,12 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { PrimaryCta } from "@/components/marketing/cta-link";
 import { cn } from "@/lib/utils";
+import { ResourcesMenu, RESOURCE_LINKS } from "./resources-menu";
 
 const NAV_LINKS = [
   { label: "Home", href: "/home" },
   { label: "Programs", href: "/programs" },
+  { label: "Resources", href: "/resources", dropdown: true },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -34,18 +36,22 @@ export function MarketingHeader() {
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={cn(
-                "text-sm font-semibold transition-colors hover:text-primary",
-                pathname === link.href ? "text-primary" : "text-foreground/70"
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) =>
+            link.dropdown ? (
+              <ResourcesMenu key={link.href} />
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={cn(
+                  "text-sm font-semibold transition-colors hover:text-primary",
+                  pathname === link.href ? "text-primary" : "text-foreground/70"
+                )}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </nav>
 
         <div className="hidden items-center gap-5 md:flex">
@@ -68,19 +74,49 @@ export function MarketingHeader() {
       {open && (
         <div className="border-t border-border px-4 py-4 md:hidden">
           <nav className="flex flex-col gap-1">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                onClick={() => setOpen(false)}
-                className={cn(
-                  "rounded-lg px-3 py-2.5 text-sm font-semibold",
-                  pathname === link.href ? "bg-secondary text-primary" : "text-foreground/70 hover:bg-secondary/60"
-                )}
-              >
-                {link.label}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) =>
+              link.dropdown ? (
+                <div key={link.href} className="rounded-lg">
+                  <Link
+                    href={link.href}
+                    onClick={() => setOpen(false)}
+                    className={cn(
+                      "block rounded-lg px-3 py-2.5 text-sm font-semibold",
+                      pathname === link.href ? "bg-secondary text-primary" : "text-foreground/70 hover:bg-secondary/60"
+                    )}
+                  >
+                    {link.label}
+                  </Link>
+                  <div className="ml-4 flex flex-col border-l border-border pl-2">
+                    {RESOURCE_LINKS.map((r) => (
+                      <Link
+                        key={r.href}
+                        href={r.href}
+                        onClick={() => setOpen(false)}
+                        className={cn(
+                          "rounded-lg px-3 py-2 text-sm font-medium",
+                          pathname.startsWith(r.href) ? "bg-secondary text-primary" : "text-foreground/70 hover:bg-secondary/60"
+                        )}
+                      >
+                        {r.label}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setOpen(false)}
+                  className={cn(
+                    "rounded-lg px-3 py-2.5 text-sm font-semibold",
+                    pathname === link.href ? "bg-secondary text-primary" : "text-foreground/70 hover:bg-secondary/60"
+                  )}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
             <Link
               href="/login"
               onClick={() => setOpen(false)}

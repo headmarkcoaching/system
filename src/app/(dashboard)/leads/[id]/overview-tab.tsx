@@ -20,6 +20,9 @@ interface LeadDetail {
   notes: string | null;
   weakSubjects: string[];
   interestedSubjects: string[];
+  filledBy: "PARENT" | "STUDENT" | null;
+  contactEmail: string | null;
+  siblingNames: string[];
   stage: string;
   convertedStudentId: string | null;
   createdAt: Date;
@@ -60,6 +63,9 @@ export function OverviewTab({
           <Row label="Academic Level" value={lead.academicLevel?.name} />
           <Row label="Board" value={lead.board?.name} />
           <Row label="Group" value={lead.group?.name} />
+          <Row label="Form filled by" value={lead.filledBy === "STUDENT" ? "The student" : lead.filledBy === "PARENT" ? "A parent" : undefined} />
+          <Row label="Email" value={lead.contactEmail} />
+          <Row label="Other children" value={lead.siblingNames.length > 0 ? lead.siblingNames.join(", ") : undefined} />
           <Row label="Campaign" value={lead.campaign} />
           {isStaff ? (
             <div className="flex items-center justify-between gap-3 py-0.5">

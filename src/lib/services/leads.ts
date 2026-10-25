@@ -17,6 +17,9 @@ export interface CreateLeadInput {
   weakSubjects?: string[];
   /** Subject names the family wants to try in the free class. */
   interestedSubjects?: string[];
+  filledBy?: "PARENT" | "STUDENT";
+  contactEmail?: string;
+  siblingNames?: string[];
   source: LeadSource;
   campaign?: string;
   assignedCounselorId?: string | null;
@@ -73,7 +76,7 @@ export async function classHasSubjects(academicLevelId: string): Promise<boolean
 }
 
 export async function createLead(input: CreateLeadInput) {
-  const lead = await db.lead.create({ data: { ...input, weakSubjects: input.weakSubjects ?? [], interestedSubjects: input.interestedSubjects ?? [] } });
+  const lead = await db.lead.create({ data: { ...input, weakSubjects: input.weakSubjects ?? [], interestedSubjects: input.interestedSubjects ?? [], siblingNames: input.siblingNames ?? [] } });
 
   const phone = input.whatsapp || input.parentPhone;
   if (phone) {

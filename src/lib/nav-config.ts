@@ -221,6 +221,7 @@ function adminSections(): NavSection[] {
       title: "Learning",
       items: [
         { label: "Study Material", href: "/admin/study-material", icon: "material" },
+        { label: "Blog & Study Tips", href: "/admin/resources", icon: "knowledgeBase" },
         { label: "Knowledge Base", href: "/knowledge-base", icon: "knowledgeBase" },
         { label: "Question Bank", href: "/question-bank", icon: "questionBank" },
       ],
