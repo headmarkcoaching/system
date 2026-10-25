@@ -4,7 +4,7 @@ import { z } from "zod";
 import * as leadService from "@/lib/services/leads";
 import * as batchCatalogue from "@/lib/services/batch-catalogue";
 import { checkRateLimit } from "@/lib/rate-limit";
-import { monthlyFee, priceBandForLevel } from "@/lib/pricing";
+import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, priceBandForLevel } from "@/lib/pricing";
 
 const buySchema = z.object({
   batchId: z.string().min(1, "Please choose a batch"),
@@ -16,7 +16,7 @@ const buySchema = z.object({
 export interface BuyState {
   error?: string;
   success?: boolean;
-  summary?: { batchName: string; subjects: string[]; price: number };
+  summary?: { batchName: string; subjects: string[]; price: number; monthly: number; sibling: boolean; advanceTotal: number | null };
 }
 
 /** No payment is taken here: there is no online gateway connected, so "Buy Now" records a
@@ -49,6 +49,19 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
     return { error: `Please choose 1, 2 or 3 subjects, or all ${batch.subjects.length} subjects of this batch.` };
   }
 
+  // Discounts are worked out here from the fee above, never taken from the browser. The advance offer is only
+  // for all of the batch's subjects.
+  const sibling = formData.get("sibling") === "1";
+  const allSubjects = chosen.length === batch.subjects.length;
+  const advance = formData.get("advance") === "1" && allSubjects;
+  const fee = feeBreakdown(price, { sibling, advance, allSubjects });
+  const discountNotes = [
+    sibling ? `Sibling discount requested (${SIBLING_DISCOUNT_PERCENT}% off every child): Rs ${fee.monthly.toLocaleString("en-PK")} per month after it. Confirm the other child is enrolling.` : null,
+    fee.advanceTotal !== null
+      ? `Wants to pay ${ADVANCE_MONTHS} months upfront for all subjects (${ADVANCE_DISCOUNT_PERCENT}% off the total): Rs ${fee.advanceTotal.toLocaleString("en-PK")} in one payment.`
+      : null,
+  ].filter(Boolean);
+
   const names = chosen.map((s) => s.name);
   try {
     await leadService.createLead({
@@ -61,9 +74,9 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
       source: "WEBSITE",
       campaign: `buy-now:${chosen.length === batch.subjects.length && chosen.length > 3 ? "all" : chosen.length}`,
       stage: "PAYMENT_PENDING",
-      notes: `Buy Now request. Batch: ${batch.name}. Subjects (${names.length}): ${names.join(", ")}. Fee: Rs ${price.toLocaleString("en-PK")} per month. Payment not yet received. Share payment details on WhatsApp.`,
+      notes: `Buy Now request. Batch: ${batch.name}. Subjects (${names.length}): ${names.join(", ")}. Fee: Rs ${price.toLocaleString("en-PK")} per month. ${discountNotes.join(" ")} Payment not yet received. Share payment details on WhatsApp.`,
     });
-    return { success: true, summary: { batchName: batch.name, subjects: names, price } };
+    return { success: true, summary: { batchName: batch.name, subjects: names, price, monthly: fee.monthly, sibling, advanceTotal: fee.advanceTotal } };
   } catch (err) {
     return { error: err instanceof Error ? err.message : "Something went wrong. Please try again." };
   }

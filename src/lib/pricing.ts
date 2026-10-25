@@ -63,3 +63,35 @@ export function monthlyFee(band: PriceBand, selected: number, available: number)
 export function singleSubjectTotal(band: PriceBand, count: number): number {
   return getBundle("1").prices[band] * count;
 }
+
+// ---- Discounts -------------------------------------------------------------------------------------
+// Two offers, shown on the pricing page and worked out here (never in the browser):
+//  1. Siblings: when two or more children of one family enrol, EVERY child gets 10% off their monthly fee.
+//  2. Six months in advance: paying 6 months at once for ALL subjects takes a further 15% off that
+//     lump sum. "Further" means after the sibling discount, so when both apply they are taken one after the
+//     other (10% off the month, then 15% off the six-month total), not added together to 25%.
+export const SIBLING_DISCOUNT_PERCENT = 10;
+export const ADVANCE_MONTHS = 6;
+export const ADVANCE_DISCOUNT_PERCENT = 15;
+
+export interface FeeBreakdown {
+  /** The plain monthly fee for this student. */
+  listMonthly: number;
+  /** After the sibling discount, if it applies. */
+  monthly: number;
+  /** The one lump sum for ADVANCE_MONTHS months after the advance discount, or null when it doesn't apply. */
+  advanceTotal: number | null;
+  /** What six months would have cost without the advance discount (at the monthly above). */
+  advanceListTotal: number | null;
+  /** What the lump sum saves compared with paying month by month. */
+  advanceSaving: number | null;
+}
+
+/** `allSubjects` must be true for the advance offer to apply. */
+export function feeBreakdown(listMonthly: number, opts: { sibling?: boolean; advance?: boolean; allSubjects?: boolean }): FeeBreakdown {
+  const monthly = opts.sibling ? Math.round(listMonthly * (1 - SIBLING_DISCOUNT_PERCENT / 100)) : listMonthly;
+  const useAdvance = Boolean(opts.advance && opts.allSubjects);
+  const advanceListTotal = useAdvance ? monthly * ADVANCE_MONTHS : null;
+  const advanceTotal = advanceListTotal !== null ? Math.round(advanceListTotal * (1 - ADVANCE_DISCOUNT_PERCENT / 100)) : null;
+  return { listMonthly, monthly, advanceTotal, advanceListTotal, advanceSaving: advanceListTotal !== null && advanceTotal !== null ? advanceListTotal - advanceTotal : null };
+}

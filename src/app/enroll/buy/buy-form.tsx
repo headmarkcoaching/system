@@ -7,7 +7,7 @@ import { CheckCircle2, ArrowRight, CalendarDays, Clock } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { monthlyFee, type BundleKey, type PriceBand } from "@/lib/pricing";
+import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, type BundleKey, type PriceBand } from "@/lib/pricing";
 import { submitBuyAction, type BuyState } from "./actions";
 
 export interface BuyBatch {
@@ -47,8 +47,13 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
     });
   }
 
+  const [sibling, setSibling] = React.useState(false);
+  const [advance, setAdvance] = React.useState(false);
   const total = batch.subjects.length;
   const price = selected.size > 0 ? monthlyFee(batch.band, selected.size, total) : null;
+  // The upfront offer is for all subjects only; unticking a subject quietly turns it off.
+  const allSubjects = price !== null && selected.size === total;
+  const fee = price !== null ? feeBreakdown(price, { sibling, advance, allSubjects }) : null;
   const invalidCombo = selected.size > 0 && price === null;
   const wantedHint = initialBundle && initialBundle !== "all" ? `You chose the ${initialBundle}-subject bundle. Pick any ${initialBundle}.` : null;
 
@@ -61,6 +66,16 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
         <p className="text-sm text-muted-foreground">
           {state.summary.subjects.join(", ")} · Rs {state.summary.price.toLocaleString("en-PK")} / month
         </p>
+        {state.summary.sibling && (
+          <p className="text-sm text-muted-foreground">
+            With the {SIBLING_DISCOUNT_PERCENT}% sibling discount: Rs {state.summary.monthly.toLocaleString("en-PK")} / month for each child.
+          </p>
+        )}
+        {state.summary.advanceTotal !== null && (
+          <p className="text-sm text-muted-foreground">
+            Paying {ADVANCE_MONTHS} months upfront: Rs {state.summary.advanceTotal.toLocaleString("en-PK")} in one payment.
+          </p>
+        )}
         <p className="text-sm text-muted-foreground">
           Our admissions team will message you on WhatsApp shortly with payment details. Your seat is confirmed once payment is received.
         </p>
@@ -130,14 +145,21 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
       </fieldset>
 
       <div className="rounded-xl border border-border bg-secondary/40 p-4" aria-live="polite">
+        {fee?.advanceTotal != null && (
+          <p className="mb-3 rounded-lg bg-cta-wash px-3 py-2 text-sm font-semibold text-cta">
+            Pay {ADVANCE_MONTHS} months upfront: Rs {fee.advanceTotal.toLocaleString("en-PK")} (you save Rs {(fee.advanceSaving ?? 0).toLocaleString("en-PK")})
+          </p>
+        )}
         {price !== null ? (
           <div className="flex items-end justify-between gap-3">
             <p className="text-sm text-muted-foreground">
               {selected.size} subject{selected.size === 1 ? "" : "s"} · per student
             </p>
             <p className="text-right">
-              <span className="font-ledger text-3xl font-semibold tabular-nums text-primary">Rs {price.toLocaleString("en-PK")}</span>
-              <span className="block text-xs text-muted-foreground">per month</span>
+              <span className="font-ledger text-3xl font-semibold tabular-nums text-primary">Rs {(fee?.monthly ?? price).toLocaleString("en-PK")}</span>
+              <span className="block text-xs text-muted-foreground">
+                per month{sibling ? ` (was Rs ${price.toLocaleString("en-PK")})` : ""}
+              </span>
             </p>
           </div>
         ) : invalidCombo ? (
@@ -146,6 +168,45 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
           <p className="text-sm text-muted-foreground">Choose your subjects to see the monthly fee.</p>
         )}
       </div>
+
+      <fieldset className="space-y-2">
+        <legend className="text-sm font-medium">Discounts (optional)</legend>
+        <label className="flex cursor-pointer items-start gap-2.5 rounded-lg border border-border px-3 py-2.5 text-sm has-[:checked]:border-primary has-[:checked]:bg-primary/[0.06]">
+          <input
+            type="checkbox"
+            name="sibling"
+            value="1"
+            checked={sibling}
+            onChange={(e) => setSibling(e.target.checked)}
+            className="mt-0.5 h-4 w-4 accent-[hsl(var(--primary))]"
+          />
+          <span>
+            Another child of mine is enrolling too
+            <span className="block text-xs text-muted-foreground">{SIBLING_DISCOUNT_PERCENT}% off every child&apos;s monthly fee.</span>
+          </span>
+        </label>
+        <label
+          className={`flex items-start gap-2.5 rounded-lg border border-border px-3 py-2.5 text-sm has-[:checked]:border-primary has-[:checked]:bg-primary/[0.06] ${
+            allSubjects ? "cursor-pointer" : "cursor-not-allowed opacity-60"
+          }`}
+        >
+          <input
+            type="checkbox"
+            name="advance"
+            value="1"
+            checked={advance && allSubjects}
+            disabled={!allSubjects}
+            onChange={(e) => setAdvance(e.target.checked)}
+            className="mt-0.5 h-4 w-4 accent-[hsl(var(--primary))]"
+          />
+          <span>
+            I will pay {ADVANCE_MONTHS} months upfront
+            <span className="block text-xs text-muted-foreground">
+              {allSubjects ? `A further ${ADVANCE_DISCOUNT_PERCENT}% off the total.` : `Available when you choose all ${total} subjects.`}
+            </span>
+          </span>
+        </label>
+      </fieldset>
 
       <div className="space-y-4">
         <div className="space-y-1.5">

@@ -27,7 +27,11 @@ const askText = "Hi! I have a question about which subjects and fee fit my child
 const PRICING_FAQS = [
   {
     q: "Is this per student, or per family?",
-    a: "Per student. The fee depends on how many subjects your child takes. If you're enrolling more than one child, each is billed on their own subjects.",
+    a: "Per student. The fee depends on how many subjects your child takes. If you enrol more than one child, each is billed on their own subjects, and every child gets 10% off.",
+  },
+  {
+    q: "How do the sibling and advance-payment discounts work?",
+    a: "Siblings: when two or more children from one family enrol, every child gets 10% off their monthly fee. Advance payment: pay 6 months at once for all subjects and get a further 15% off that total. If you qualify for both, the 10% is taken off first and then the 15%. Our admissions team confirms both when they send your payment details.",
   },
   {
     q: "Which is better: separate subjects or the all-subjects bundle?",

@@ -1,10 +1,20 @@
 "use client";
 
 import * as React from "react";
-import { CheckCircle2, Sparkles, CalendarCheck2 } from "lucide-react";
+import { CheckCircle2, Sparkles, CalendarCheck2, Users, Wallet } from "lucide-react";
 import { PrimaryCta, SecondaryCta } from "@/components/marketing/cta-link";
 import { Card, CardContent } from "@/components/ui/card";
-import { BANDS, BUNDLES, ALL_SUBJECT_COUNT, singleSubjectTotal, type PriceBand } from "@/lib/pricing";
+import {
+  BANDS,
+  BUNDLES,
+  ALL_SUBJECT_COUNT,
+  ADVANCE_DISCOUNT_PERCENT,
+  ADVANCE_MONTHS,
+  SIBLING_DISCOUNT_PERCENT,
+  feeBreakdown,
+  singleSubjectTotal,
+  type PriceBand,
+} from "@/lib/pricing";
 import { cn } from "@/lib/utils";
 
 const INCLUDED = [
@@ -80,6 +90,12 @@ export function BundlePricing() {
                   {!perSubject && bundle.key === "1" && <p>Pick the one subject that needs help.</p>}
                   {bundle.key === "all" && !count && <p>Every subject, one simple fee.</p>}
                 </div>
+                {best && (
+                  <p className="mt-3 rounded-lg bg-cta-wash px-3 py-2 text-xs font-semibold text-cta">
+                    Pay {ADVANCE_MONTHS} months upfront: {formatRs(feeBreakdown(price, { advance: true, allSubjects: true }).advanceTotal ?? 0)}. Save{" "}
+                    {ADVANCE_DISCOUNT_PERCENT}%.
+                  </p>
+                )}
 
                 <div className="mt-auto pt-6">
                   {best ? (
@@ -108,8 +124,57 @@ export function BundlePricing() {
             </li>
           ))}
         </ul>
-        <p className="mt-4 text-xs text-muted-foreground">Fees are per student, per month. Siblings are billed separately.</p>
+        <p className="mt-4 text-xs text-muted-foreground">Fees are per student, per month. The two family offers below are taken off these fees.</p>
       </div>
+
+      <Offers band={band} />
+    </div>
+  );
+}
+
+/** The two discounts, with a worked example for the class group currently selected above. */
+function Offers({ band }: { band: PriceBand }) {
+  const all = BUNDLES.find((b) => b.key === "all")!;
+  const list = all.prices[band];
+  const sibling = feeBreakdown(list, { sibling: true });
+  const advance = feeBreakdown(list, { advance: true, allSubjects: true });
+  const both = feeBreakdown(list, { sibling: true, advance: true, allSubjects: true });
+  return (
+    <div className="mx-auto mt-10 grid max-w-3xl gap-5 sm:grid-cols-2">
+      <div className="rounded-2xl border border-border bg-card p-6">
+        <div className="flex items-center gap-3">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary">
+            <Users aria-hidden="true" className="h-5 w-5" />
+          </span>
+          <h3 className="font-display text-lg font-bold">Siblings save {SIBLING_DISCOUNT_PERCENT}%</h3>
+        </div>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Enrol two or more children from the same family and <strong className="text-foreground">every child</strong> gets {SIBLING_DISCOUNT_PERCENT}% off their monthly fee.
+        </p>
+        <p className="mt-3 rounded-lg bg-secondary/50 px-3 py-2 text-xs text-muted-foreground">
+          Example, all subjects: {formatRs(list)} becomes <strong className="text-foreground">{formatRs(sibling.monthly)}</strong> a month for each child.
+        </p>
+      </div>
+
+      <div className="rounded-2xl border border-cta/30 bg-cta-wash p-6">
+        <div className="flex items-center gap-3">
+          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-card text-cta">
+            <Wallet aria-hidden="true" className="h-5 w-5" />
+          </span>
+          <h3 className="font-display text-lg font-bold">Pay {ADVANCE_MONTHS} months upfront, save {ADVANCE_DISCOUNT_PERCENT}% more</h3>
+        </div>
+        <p className="mt-3 text-sm text-muted-foreground">
+          Choose all subjects and pay {ADVANCE_MONTHS} months in one payment, and we take a further {ADVANCE_DISCOUNT_PERCENT}% off the total.
+        </p>
+        <p className="mt-3 rounded-lg bg-card/70 px-3 py-2 text-xs text-muted-foreground">
+          Example: {ADVANCE_MONTHS} x {formatRs(list)} = {formatRs(list * ADVANCE_MONTHS)}. You pay <strong className="text-foreground">{formatRs(advance.advanceTotal ?? 0)}</strong>, saving {formatRs(advance.advanceSaving ?? 0)}.
+        </p>
+      </div>
+
+      <p className="text-center text-xs text-muted-foreground sm:col-span-2">
+        Both offers can be combined. For a family enrolling siblings who pay {ADVANCE_MONTHS} months upfront for all subjects, the {SIBLING_DISCOUNT_PERCENT}% comes off first and then the {ADVANCE_DISCOUNT_PERCENT}%: each child
+        pays {formatRs(both.advanceTotal ?? 0)} for {ADVANCE_MONTHS} months (instead of {formatRs(list * ADVANCE_MONTHS)}). Our admissions team confirms the discounts when they send your payment details.
+      </p>
     </div>
   );
 }
