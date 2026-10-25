@@ -45,6 +45,7 @@ export default async function AdminLeadsPage(
       ),
     },
     { key: "level", header: "Level", cell: (r) => r.academicLevel?.name ?? "—" },
+    { key: "subjects", header: "Free class subject", cell: (r) => (r.interestedSubjects.length > 0 ? r.interestedSubjects.join(", ") : "—") },
     { key: "counselor", header: "Counselor", cell: (r) => r.assignedCounselor?.fullName ?? "Unassigned", hideOnMobile: true },
     { key: "followup", header: "Next Follow-up", cell: (r) => (r.followups[0] ? formatDate(r.followups[0].dueDate) : "—"), hideOnMobile: true },
     { key: "stage", header: "Stage", cell: (r) => <StatusBadge status={r.stage} /> },

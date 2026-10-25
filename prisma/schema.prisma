@@ -1435,6 +1435,8 @@ model Lead {
   boardId             String?
   groupId             String?
   weakSubjects        String[]
+  // The subject(s) the family picked when asking for a free class, so the counselor knows what to arrange.
+  interestedSubjects  String[]   @default([])
   source              LeadSource
   campaign            String?
   assignedCounselorId String?

@@ -45,7 +45,15 @@ export async function createLeadAction(_prevState: CreateLeadState, formData: Fo
   const parsed = createLeadSchema.safeParse(Object.fromEntries(formData.entries()));
   if (!parsed.success) return { error: parsed.error.issues[0].message };
 
-  const lead = await leadService.createLead(parsed.data);
+  const subjectIds = formData.getAll("subjectIds").filter((v): v is string => typeof v === "string" && v.length > 0);
+  let interestedSubjects: string[];
+  try {
+    interestedSubjects = await leadService.resolveInterestedSubjects(subjectIds, parsed.data.academicLevelId || undefined, parsed.data.groupId || undefined);
+  } catch (err) {
+    return { error: err instanceof Error ? err.message : "Please check the subjects." };
+  }
+
+  const lead = await leadService.createLead({ ...parsed.data, interestedSubjects });
   await logAudit({ actorId: session.user.id, action: "CREATE", entityType: "Lead", entityId: lead.id, after: lead });
 
   revalidatePath("/admin/leads");

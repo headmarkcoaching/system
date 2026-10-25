@@ -15,6 +15,8 @@ export interface CreateLeadInput {
   boardId?: string;
   groupId?: string;
   weakSubjects?: string[];
+  /** Subject names the family wants to try in the free class. */
+  interestedSubjects?: string[];
   source: LeadSource;
   campaign?: string;
   assignedCounselorId?: string | null;
@@ -22,8 +24,56 @@ export interface CreateLeadInput {
   stage?: LeadStage;
 }
 
+export interface TrialSubjectOptions {
+  subjects: { id: string; name: string }[];
+  /**
+   * Which subjects a family can try. Keyed by class id (every subject any batch of that class teaches) and
+   * by "classId:groupId" (just that stream's batches, e.g. 1st Year Pre-Medical).
+   */
+  subjectsByClass: Record<string, string[]>;
+}
+
+/** What the free-class forms offer, taken from the subjects the academy's running batches actually teach. */
+export async function getTrialSubjectOptions(): Promise<TrialSubjectOptions> {
+  const batches = await db.batch.findMany({
+    where: { status: { in: ["UPCOMING", "ACTIVE"] } },
+    select: { academicLevelId: true, groupId: true, subjects: { select: { subject: { select: { id: true, name: true, isActive: true } } } } },
+  });
+  const names = new Map<string, string>();
+  const subjectsByClass: Record<string, Set<string>> = {};
+  const add = (key: string, id: string) => (subjectsByClass[key] ??= new Set()).add(id);
+  for (const b of batches) {
+    for (const { subject } of b.subjects) {
+      if (!subject.isActive) continue;
+      names.set(subject.id, subject.name);
+      add(b.academicLevelId, subject.id);
+      if (b.groupId) add(`${b.academicLevelId}:${b.groupId}`, subject.id);
+    }
+  }
+  return {
+    subjects: [...names].map(([id, name]) => ({ id, name })).sort((a, b) => a.name.localeCompare(b.name)),
+    subjectsByClass: Object.fromEntries(Object.entries(subjectsByClass).map(([k, v]) => [k, [...v]])),
+  };
+}
+
+/** Turns the ticked subject ids into names, refusing any the chosen class (and stream) doesn't teach. */
+export async function resolveInterestedSubjects(subjectIds: string[], academicLevelId?: string, groupId?: string): Promise<string[]> {
+  const ids = [...new Set(subjectIds)];
+  if (ids.length === 0) return [];
+  const options = await getTrialSubjectOptions();
+  const allowed = new Set((groupId && options.subjectsByClass[`${academicLevelId}:${groupId}`]) || (academicLevelId ? options.subjectsByClass[academicLevelId] : undefined) || options.subjects.map((s) => s.id));
+  const byId = new Map(options.subjects.map((s) => [s.id, s.name]));
+  if (ids.some((id) => !allowed.has(id) || !byId.has(id))) throw new Error("One of the chosen subjects isn't taught in that class. Please choose again.");
+  return ids.map((id) => byId.get(id)!);
+}
+
+/** True when this class has subjects on offer, so a free-class request must name at least one. */
+export async function classHasSubjects(academicLevelId: string): Promise<boolean> {
+  return ((await getTrialSubjectOptions()).subjectsByClass[academicLevelId] ?? []).length > 0;
+}
+
 export async function createLead(input: CreateLeadInput) {
-  const lead = await db.lead.create({ data: { ...input, weakSubjects: input.weakSubjects ?? [] } });
+  const lead = await db.lead.create({ data: { ...input, weakSubjects: input.weakSubjects ?? [], interestedSubjects: input.interestedSubjects ?? [] } });
 
   const phone = input.whatsapp || input.parentPhone;
   if (phone) {

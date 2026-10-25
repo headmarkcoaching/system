@@ -19,6 +19,7 @@ interface LeadDetail {
   campaign: string | null;
   notes: string | null;
   weakSubjects: string[];
+  interestedSubjects: string[];
   stage: string;
   convertedStudentId: string | null;
   createdAt: Date;
@@ -72,6 +73,18 @@ export function OverviewTab({
           )}
           <Row label="Created" value={formatDate(lead.createdAt)} />
         </dl>
+        <div>
+          <p className="mb-1 text-xs text-muted-foreground">Free class subject(s)</p>
+          {lead.interestedSubjects.length > 0 ? (
+            <div className="flex flex-wrap gap-1.5">
+              {lead.interestedSubjects.map((s) => (
+                <Badge key={s}>{s}</Badge>
+              ))}
+            </div>
+          ) : (
+            <p className="text-sm text-muted-foreground">Not chosen. Ask the family which subject they want to try.</p>
+          )}
+        </div>
         {lead.weakSubjects.length > 0 && (
           <div>
             <p className="mb-1 text-xs text-muted-foreground">Weak Subjects</p>

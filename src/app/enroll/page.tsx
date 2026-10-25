@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import * as academicService from "@/lib/services/academic-structure";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import * as leadService from "@/lib/services/leads";
 import { EnrollForm } from "./enroll-form";
 
 export const metadata: Metadata = {
@@ -23,7 +24,11 @@ export default async function EnrollPage(
   }
 ) {
   const searchParams = await props.searchParams;
-  const [levels, groups] = await Promise.all([academicService.listAcademicLevels(), academicService.listGroups()]);
+  const [levels, groups, subjectOptions] = await Promise.all([
+    academicService.listAcademicLevels(),
+    academicService.listGroups(),
+    leadService.getTrialSubjectOptions(),
+  ]);
 
   return (
     <div className="theme-skylight flex min-h-screen flex-col bg-background">
@@ -54,6 +59,8 @@ export default async function EnrollPage(
               levels={levels.filter((l) => l.isActive)}
               groups={groups.filter((g) => g.isActive)}
               defaultLevelId={searchParams.level}
+              subjects={subjectOptions.subjects}
+              subjectsByClass={subjectOptions.subjectsByClass}
               source={searchParams.src}
               campaign={searchParams.campaign}
             />

@@ -2,13 +2,15 @@ import { notFound } from "next/navigation";
 import * as referralsService from "@/lib/services/referrals";
 import * as academicService from "@/lib/services/academic-structure";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import * as leadService from "@/lib/services/leads";
 import { ReferralForm } from "./referral-form";
 
 export default async function ReferralLandingPage(props: { params: Promise<{ code: string }> }) {
   const params = await props.params;
-  const [referrerName, levels] = await Promise.all([
+  const [referrerName, levels, subjectOptions] = await Promise.all([
     referralsService.getReferrerNameForCode(params.code),
     academicService.listAcademicLevels(),
+    leadService.getTrialSubjectOptions(),
   ]);
 
   if (!referrerName) notFound();
@@ -21,7 +23,7 @@ export default async function ReferralLandingPage(props: { params: Promise<{ cod
           <CardDescription>Join Head Mark Coaching — live group classes with real accountability and parent visibility. Fill in your details for a free trial class.</CardDescription>
         </CardHeader>
         <CardContent>
-          <ReferralForm code={params.code} levels={levels.filter((l) => l.isActive)} />
+          <ReferralForm code={params.code} levels={levels.filter((l) => l.isActive)} subjects={subjectOptions.subjects} subjectsByClass={subjectOptions.subjectsByClass} />
         </CardContent>
       </Card>
     </div>

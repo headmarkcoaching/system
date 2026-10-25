@@ -2,6 +2,8 @@
 
 import { useFormStatus } from "react-dom";
 import { useActionState } from "react";
+import * as React from "react";
+import { SubjectPicker, type SubjectOption } from "@/components/shared/subject-picker";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -27,13 +29,19 @@ export function NewLeadForm({
   boards,
   groups,
   counselors,
+  subjects,
+  subjectsByClass,
 }: {
   levels: { id: string; name: string }[];
   boards: { id: string; name: string }[];
   groups: { id: string; name: string }[];
   counselors: { id: string; fullName: string }[];
+  subjects: SubjectOption[];
+  subjectsByClass: Record<string, string[]>;
 }) {
   const [state, formAction] = useActionState(createLeadAction, initialState);
+  const [levelId, setLevelId] = React.useState("");
+  const [groupId, setGroupId] = React.useState("");
 
   return (
     <form action={formAction} className="space-y-6">
@@ -58,9 +66,13 @@ export function NewLeadForm({
             <Label>WhatsApp Number</Label>
             <Input name="whatsapp" placeholder="03xx-xxxxxxx" />
           </div>
-          <SelectField name="academicLevelId" label="Academic Level" options={levels} />
+          <SelectField name="academicLevelId" label="Academic Level" options={levels} value={levelId} onValueChange={setLevelId} />
           <SelectField name="boardId" label="Board" options={boards} />
-          <SelectField name="groupId" label="Group" options={groups} />
+          <SelectField name="groupId" label="Group" options={groups} value={groupId} onValueChange={setGroupId} />
+          <div className="space-y-1.5 sm:col-span-2">
+            <Label>Subject(s) for the free class</Label>
+            <SubjectPicker subjects={subjects} subjectsByClass={subjectsByClass} levelId={levelId} groupId={groupId} />
+          </div>
           <div className="space-y-1.5">
             <Label>Lead Source *</Label>
             <Select name="source" defaultValue="WEBSITE">
@@ -93,11 +105,23 @@ export function NewLeadForm({
   );
 }
 
-function SelectField({ name, label, options }: { name: string; label: string; options: { id: string; name: string }[] }) {
+function SelectField({
+  name,
+  label,
+  options,
+  value,
+  onValueChange,
+}: {
+  name: string;
+  label: string;
+  options: { id: string; name: string }[];
+  value?: string;
+  onValueChange?: (v: string) => void;
+}) {
   return (
     <div className="space-y-1.5">
       <Label>{label}</Label>
-      <Select name={name}>
+      <Select name={name} value={value} onValueChange={onValueChange}>
         <SelectTrigger><SelectValue placeholder={`Select ${label.toLowerCase()}`} /></SelectTrigger>
         <SelectContent>
           {options.map((o) => (

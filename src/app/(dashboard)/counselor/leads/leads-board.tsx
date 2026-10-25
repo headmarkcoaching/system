@@ -30,6 +30,7 @@ export interface LeadBoardItem {
   source: string;
   stage: string;
   academicLevel: { name: string } | null;
+  interestedSubjects: string[];
   followups: { dueDate: Date | string }[];
 }
 
@@ -122,6 +123,7 @@ function LeadCard({ lead, onMove }: { lead: LeadBoardItem; onMove: (leadId: stri
         {lead.academicLevel && <Badge variant="outline">{lead.academicLevel.name}</Badge>}
         <StatusBadge status={lead.source} />
       </div>
+      {lead.interestedSubjects.length > 0 && <p className="text-xs font-medium text-primary">Wants to try: {lead.interestedSubjects.join(", ")}</p>}
       {dueFollowup && (
         <p className="text-xs">
           <span className="text-muted-foreground">Follow-up: </span>

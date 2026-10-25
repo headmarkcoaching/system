@@ -57,6 +57,7 @@ export interface CreateReferralInput {
   parentName: string;
   parentPhone: string;
   academicLevelId?: string;
+  interestedSubjects?: string[];
 }
 
 /** Public referral-link submission: validates the code, creates a real Lead (reusing the
@@ -71,6 +72,7 @@ export async function createReferralFromCode(input: CreateReferralInput) {
     parentName: input.parentName,
     parentPhone: input.parentPhone,
     academicLevelId: input.academicLevelId,
+    interestedSubjects: input.interestedSubjects,
     source: "REFERRAL",
   });
 
