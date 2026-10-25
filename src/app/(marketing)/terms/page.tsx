@@ -56,8 +56,16 @@ export default function TermsPage() {
         <section>
           <h2 className="font-display text-lg font-bold">Cancellation</h2>
           <p className="mt-2">
-            You can stop at any time during the trial with no cost. For enrolled students, cancellation and refund
-            terms (if any) are confirmed with you directly by our admissions team at the time of enrollment.
+            You can stop at any time during the trial with no cost. Students who pay month by month can stop at any
+            time. For other cancellation and refund terms, our admissions team confirms them with you directly at the
+            time of enrollment.
+          </p>
+          <p className="mt-2">
+            <strong className="text-foreground">Advance payments.</strong> If you paid 6 months in advance and ask for a
+            refund, we deduct the months already used at the normal monthly fee, without any discount, and refund the
+            remaining payment. A month counts in full if the refund is requested after the 10th of that month (a request
+            on 11 November means all of November is deducted). If the months used cost as much as was paid or more, there is no
+            refund and nothing further is owed. Refunds take 1 month to process.
           </p>
         </section>
 

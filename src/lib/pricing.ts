@@ -67,7 +67,7 @@ export function singleSubjectTotal(band: PriceBand, count: number): number {
 // ---- Discounts -------------------------------------------------------------------------------------
 // Two offers, shown on the pricing page and worked out here (never in the browser):
 //  1. Siblings: when two or more children of one family enrol, EVERY child gets 10% off their monthly fee.
-//  2. Six months in advance: paying 6 months at once for ALL subjects takes a further 15% off that
+//  2. Six months in advance: paying 6 months at once, on ANY plan (1, 2, 3 or all subjects), takes a further 15% off that
 //     lump sum. "Further" means after the sibling discount, so when both apply they are taken one after the
 //     other (10% off the month, then 15% off the six-month total), not added together to 25%.
 export const SIBLING_DISCOUNT_PERCENT = 10;
@@ -87,11 +87,24 @@ export interface FeeBreakdown {
   advanceSaving: number | null;
 }
 
-/** `allSubjects` must be true for the advance offer to apply. */
-export function feeBreakdown(listMonthly: number, opts: { sibling?: boolean; advance?: boolean; allSubjects?: boolean }): FeeBreakdown {
+export function feeBreakdown(listMonthly: number, opts: { sibling?: boolean; advance?: boolean }): FeeBreakdown {
   const monthly = opts.sibling ? Math.round(listMonthly * (1 - SIBLING_DISCOUNT_PERCENT / 100)) : listMonthly;
-  const useAdvance = Boolean(opts.advance && opts.allSubjects);
+  const useAdvance = Boolean(opts.advance);
   const advanceListTotal = useAdvance ? monthly * ADVANCE_MONTHS : null;
   const advanceTotal = advanceListTotal !== null ? Math.round(advanceListTotal * (1 - ADVANCE_DISCOUNT_PERCENT / 100)) : null;
   return { listMonthly, monthly, advanceTotal, advanceListTotal, advanceSaving: advanceListTotal !== null && advanceTotal !== null ? advanceListTotal - advanceTotal : null };
+}
+
+// ---- Refunds on an advance payment -------------------------------------------------------------------
+// Someone who paid ADVANCE_MONTHS months upfront and then asks for a refund is charged for the months already
+// used at the normal monthly fee, WITHOUT any discount (not the sibling discount, not the advance discount),
+// and is refunded the rest. A month is charged in full when the refund is asked for AFTER the 10th of that month (a request on
+// 11 November charges all of November); a request on or before the 10th does not charge that month.
+// The refund is processed within one month.
+export const ADVANCE_REFUND_PROCESSING_TEXT = "1 month";
+
+export function advanceRefund(input: { listMonthly: number; paidTotal: number; monthsUsed: number }): { deducted: number; refund: number } {
+  const monthsUsed = Math.max(0, Math.min(ADVANCE_MONTHS, Math.floor(input.monthsUsed)));
+  const deducted = input.listMonthly * monthsUsed;
+  return { deducted, refund: Math.max(0, input.paidTotal - deducted) };
 }

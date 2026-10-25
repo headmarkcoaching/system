@@ -10,7 +10,9 @@ import {
   ALL_SUBJECT_COUNT,
   ADVANCE_DISCOUNT_PERCENT,
   ADVANCE_MONTHS,
+  ADVANCE_REFUND_PROCESSING_TEXT,
   SIBLING_DISCOUNT_PERCENT,
+  advanceRefund,
   feeBreakdown,
   singleSubjectTotal,
   type PriceBand,
@@ -90,9 +92,9 @@ export function BundlePricing() {
                   {!perSubject && bundle.key === "1" && <p>Pick the one subject that needs help.</p>}
                   {bundle.key === "all" && !count && <p>Every subject, one simple fee.</p>}
                 </div>
-                {best && (
+                {(
                   <p className="mt-3 rounded-lg bg-cta-wash px-3 py-2 text-xs font-semibold text-cta">
-                    Pay {ADVANCE_MONTHS} months upfront: {formatRs(feeBreakdown(price, { advance: true, allSubjects: true }).advanceTotal ?? 0)}. Save{" "}
+                    Pay {ADVANCE_MONTHS} months upfront: {formatRs(feeBreakdown(price, { advance: true }).advanceTotal ?? 0)}. Save{" "}
                     {ADVANCE_DISCOUNT_PERCENT}%.
                   </p>
                 )}
@@ -137,8 +139,9 @@ function Offers({ band }: { band: PriceBand }) {
   const all = BUNDLES.find((b) => b.key === "all")!;
   const list = all.prices[band];
   const sibling = feeBreakdown(list, { sibling: true });
-  const advance = feeBreakdown(list, { advance: true, allSubjects: true });
-  const both = feeBreakdown(list, { sibling: true, advance: true, allSubjects: true });
+  const advance = feeBreakdown(list, { advance: true });
+  const both = feeBreakdown(list, { sibling: true, advance: true });
+  const refundAfterTwo = advanceRefund({ listMonthly: list, paidTotal: advance.advanceTotal ?? 0, monthsUsed: 2 });
   return (
     <div className="mx-auto mt-10 grid max-w-3xl gap-5 sm:grid-cols-2">
       <div className="rounded-2xl border border-border bg-card p-6">
@@ -164,7 +167,7 @@ function Offers({ band }: { band: PriceBand }) {
           <h3 className="font-display text-lg font-bold">Pay {ADVANCE_MONTHS} months upfront, save {ADVANCE_DISCOUNT_PERCENT}% more</h3>
         </div>
         <p className="mt-3 text-sm text-muted-foreground">
-          Choose all subjects and pay {ADVANCE_MONTHS} months in one payment, and we take a further {ADVANCE_DISCOUNT_PERCENT}% off the total.
+          On any plan, one subject or all, pay {ADVANCE_MONTHS} months in one payment and we take a further {ADVANCE_DISCOUNT_PERCENT}% off the total.
         </p>
         <p className="mt-3 rounded-lg bg-card/70 px-3 py-2 text-xs text-muted-foreground">
           Example: {ADVANCE_MONTHS} x {formatRs(list)} = {formatRs(list * ADVANCE_MONTHS)}. You pay <strong className="text-foreground">{formatRs(advance.advanceTotal ?? 0)}</strong>, saving {formatRs(advance.advanceSaving ?? 0)}.
@@ -172,9 +175,27 @@ function Offers({ band }: { band: PriceBand }) {
       </div>
 
       <p className="text-center text-xs text-muted-foreground sm:col-span-2">
-        Both offers can be combined. For a family enrolling siblings who pay {ADVANCE_MONTHS} months upfront for all subjects, the {SIBLING_DISCOUNT_PERCENT}% comes off first and then the {ADVANCE_DISCOUNT_PERCENT}%: each child
+        Both offers can be combined. For a family enrolling siblings who pay {ADVANCE_MONTHS} months upfront, the {SIBLING_DISCOUNT_PERCENT}% comes off first and then the {ADVANCE_DISCOUNT_PERCENT}%: each child
         pays {formatRs(both.advanceTotal ?? 0)} for {ADVANCE_MONTHS} months (instead of {formatRs(list * ADVANCE_MONTHS)}). Our admissions team confirms the discounts when they send your payment details.
       </p>
+
+      <div className="rounded-2xl border border-border bg-card p-5 text-sm sm:col-span-2">
+        <p className="font-display text-base font-bold">If you need a refund after paying upfront</p>
+        <p className="mt-2 text-muted-foreground">
+          If you ask for a refund after paying {ADVANCE_MONTHS} months in advance, we deduct the months already used at the normal monthly fee,{" "}
+          <strong className="text-foreground">without any discount</strong>, and refund the rest. Refunds take {ADVANCE_REFUND_PROCESSING_TEXT} to process.
+        </p>
+        <p className="mt-2 text-muted-foreground">
+          A month counts in full if you ask for the refund <strong className="text-foreground">after the 10th</strong> of that month. For example, a request on 11 November means all of November is deducted. A request on or before the 10th does not charge that month.
+        </p>
+        <p className="mt-2 text-muted-foreground">
+          If the months used cost as much as you paid or more, there is no refund. You owe nothing further and the account is settled.
+        </p>
+        <p className="mt-3 rounded-lg bg-secondary/50 px-3 py-2 text-xs text-muted-foreground">
+          Example, all subjects: you paid {formatRs(advance.advanceTotal ?? 0)}. You ask for a refund after 2 months. We deduct 2 x {formatRs(list)} = {formatRs(refundAfterTwo.deducted)} and refund{" "}
+          <strong className="text-foreground">{formatRs(refundAfterTwo.refund)}</strong>.
+        </p>
+      </div>
     </div>
   );
 }

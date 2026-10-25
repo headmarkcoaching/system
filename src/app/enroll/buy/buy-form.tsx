@@ -7,7 +7,7 @@ import { CheckCircle2, ArrowRight, CalendarDays, Clock } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, type BundleKey, type PriceBand } from "@/lib/pricing";
+import { ADVANCE_DISCOUNT_PERCENT, ADVANCE_MONTHS, ADVANCE_REFUND_PROCESSING_TEXT, SIBLING_DISCOUNT_PERCENT, feeBreakdown, monthlyFee, type BundleKey, type PriceBand } from "@/lib/pricing";
 import { submitBuyAction, type BuyState } from "./actions";
 
 export interface BuyBatch {
@@ -51,9 +51,9 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
   const [advance, setAdvance] = React.useState(false);
   const total = batch.subjects.length;
   const price = selected.size > 0 ? monthlyFee(batch.band, selected.size, total) : null;
-  // The upfront offer is for all subjects only; unticking a subject quietly turns it off.
-  const allSubjects = price !== null && selected.size === total;
-  const fee = price !== null ? feeBreakdown(price, { sibling, advance, allSubjects }) : null;
+  // The upfront offer applies to any valid plan.
+  const canAdvance = price !== null;
+  const fee = price !== null ? feeBreakdown(price, { sibling, advance }) : null;
   const invalidCombo = selected.size > 0 && price === null;
   const wantedHint = initialBundle && initialBundle !== "all" ? `You chose the ${initialBundle}-subject bundle. Pick any ${initialBundle}.` : null;
 
@@ -187,23 +187,28 @@ export function BuyForm({ batches, initialBatchId, initialBundle }: { batches: B
         </label>
         <label
           className={`flex items-start gap-2.5 rounded-lg border border-border px-3 py-2.5 text-sm has-[:checked]:border-primary has-[:checked]:bg-primary/[0.06] ${
-            allSubjects ? "cursor-pointer" : "cursor-not-allowed opacity-60"
+            canAdvance ? "cursor-pointer" : "cursor-not-allowed opacity-60"
           }`}
         >
           <input
             type="checkbox"
             name="advance"
             value="1"
-            checked={advance && allSubjects}
-            disabled={!allSubjects}
+            checked={advance && canAdvance}
+            disabled={!canAdvance}
             onChange={(e) => setAdvance(e.target.checked)}
             className="mt-0.5 h-4 w-4 accent-[hsl(var(--primary))]"
           />
           <span>
             I will pay {ADVANCE_MONTHS} months upfront
             <span className="block text-xs text-muted-foreground">
-              {allSubjects ? `A further ${ADVANCE_DISCOUNT_PERCENT}% off the total.` : `Available when you choose all ${total} subjects.`}
+              {canAdvance ? `A further ${ADVANCE_DISCOUNT_PERCENT}% off the total.` : "Choose your subjects first."}
             </span>
+            {canAdvance && (
+              <span className="mt-1 block text-xs text-muted-foreground">
+                If you later ask for a refund, months already used are charged at the full fee (no discount) and the rest is refunded within {ADVANCE_REFUND_PROCESSING_TEXT}. A refund request after the 10th of a month charges that whole month.
+              </span>
+            )}
           </span>
         </label>
       </fieldset>

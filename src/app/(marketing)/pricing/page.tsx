@@ -31,7 +31,7 @@ const PRICING_FAQS = [
   },
   {
     q: "How do the sibling and advance-payment discounts work?",
-    a: "Siblings: when two or more children from one family enrol, every child gets 10% off their monthly fee. Advance payment: pay 6 months at once for all subjects and get a further 15% off that total. If you qualify for both, the 10% is taken off first and then the 15%. Our admissions team confirms both when they send your payment details.",
+    a: "Siblings: when two or more children from one family enrol, every child gets 10% off their monthly fee. Advance payment: pay 6 months at once, on any plan, and get a further 15% off that total. If you qualify for both, the 10% is taken off first and then the 15%. Our admissions team confirms both when they send your payment details.",
   },
   {
     q: "Which is better: separate subjects or the all-subjects bundle?",
@@ -43,7 +43,11 @@ const PRICING_FAQS = [
   },
   {
     q: "Can I cancel or change subjects later?",
-    a: "Yes. There's no lock-in contract. You can cancel any time, and adding or dropping a subject is just a conversation with us on WhatsApp.",
+    a: "Yes. If you pay month by month there's no lock-in contract: you can cancel any time, and adding or dropping a subject is just a conversation with us on WhatsApp. If you paid 6 months upfront, the refund rule below applies.",
+  },
+  {
+    q: "What if I paid 6 months upfront and want a refund?",
+    a: "We deduct the months already used at the normal monthly fee, without any discount, and refund the rest. For example, if you ask after 2 months, we deduct 2 months at the full fee and refund the remaining payment. A month counts in full if you ask after the 10th of that month: a request on 11 November means all of November is deducted. If the months used cost as much as you paid or more, there is no refund, and you owe nothing further. Refunds take 1 month to process.",
   },
   {
     q: "What happens after I tap Buy Now?",

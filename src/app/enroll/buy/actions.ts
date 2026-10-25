@@ -49,16 +49,14 @@ export async function submitBuyAction(_prev: BuyState, formData: FormData): Prom
     return { error: `Please choose 1, 2 or 3 subjects, or all ${batch.subjects.length} subjects of this batch.` };
   }
 
-  // Discounts are worked out here from the fee above, never taken from the browser. The advance offer is only
-  // for all of the batch's subjects.
+  // Discounts are worked out here from the fee above, never taken from the browser. The upfront offer applies to any plan.
   const sibling = formData.get("sibling") === "1";
-  const allSubjects = chosen.length === batch.subjects.length;
-  const advance = formData.get("advance") === "1" && allSubjects;
-  const fee = feeBreakdown(price, { sibling, advance, allSubjects });
+  const advance = formData.get("advance") === "1";
+  const fee = feeBreakdown(price, { sibling, advance });
   const discountNotes = [
     sibling ? `Sibling discount requested (${SIBLING_DISCOUNT_PERCENT}% off every child): Rs ${fee.monthly.toLocaleString("en-PK")} per month after it. Confirm the other child is enrolling.` : null,
     fee.advanceTotal !== null
-      ? `Wants to pay ${ADVANCE_MONTHS} months upfront for all subjects (${ADVANCE_DISCOUNT_PERCENT}% off the total): Rs ${fee.advanceTotal.toLocaleString("en-PK")} in one payment.`
+      ? `Wants to pay ${ADVANCE_MONTHS} months upfront (${ADVANCE_DISCOUNT_PERCENT}% off the total): Rs ${fee.advanceTotal.toLocaleString("en-PK")} in one payment.`
       : null,
   ].filter(Boolean);
 
