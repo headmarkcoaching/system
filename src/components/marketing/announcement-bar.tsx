@@ -10,12 +10,15 @@ const nastaliq = Noto_Nastaliq_Urdu({
   display: "swap",
 });
 
-/** The brand name and "Board exams" stay in English inside the Urdu sentence, as the academy writes them. */
+// The brand name and "Board exams" stay in English inside the Urdu sentence, picked out in the warm accent colour
+// (a lighter tint of the call-to-action brown, which would be too dark to read on the blue bar).
+const HIGHLIGHT = "font-sans font-bold text-[hsl(var(--cta-light))]";
+
 function Message() {
   return (
     <>
-      داخلے جاری ہیں! اپنی مفت ٹرائل کلاس بُک کریں اور <bdi dir="ltr" className="font-sans font-bold">HMC</bdi> کے ساتھ اپنے آنے والے{" "}
-      <bdi dir="ltr" className="font-sans font-bold">
+      داخلے جاری ہیں! اپنی مفت ٹرائل کلاس بُک کریں اور <bdi dir="ltr" className={HIGHLIGHT}>HMC</bdi> کے ساتھ اپنے آنے والے{" "}
+      <bdi dir="ltr" className={HIGHLIGHT}>
         Board exams
       </bdi>{" "}
       کی بہترین تیاری کریں اور اچھے نمبر حاصل کریں۔

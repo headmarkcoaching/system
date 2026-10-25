@@ -240,6 +240,9 @@
   --cta-hover: 25 70% 32%;
   --cta-foreground: 0 0% 100%;
   --cta-wash: 25 100% 94%;
+  /* The warm accent lightened enough to stand out as text on the blue admissions bar (the button brown itself
+     is too dark there). Same warm family as --cta and --warning. */
+  --cta-light: 38 100% 68%;
 }
 
 /* Admissions ticker (marketing pages): the track holds the message twice, so sliding it by half its
@@ -253,7 +256,7 @@
   }
 }
 .hmc-ticker-track {
-  animation: hmc-ticker 45s linear infinite;
+  animation: hmc-ticker 37.5s linear infinite;
 }
 .hmc-ticker:hover .hmc-ticker-track,
 .hmc-ticker:focus-within .hmc-ticker-track {
